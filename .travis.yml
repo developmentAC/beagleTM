@@ -1,0 +1,48 @@
+language: generic
+
+cache:
+  directories:
+    - $HOME/.pip-cache/
+
+dist: xenial
+
+env:
+  matrix:
+    - PYENV_VERSION=3.7.3
+  global:
+  - PYENV_ROOT=$HOME/.travis-pyenv
+  - PIPENV_VENV_IN_PROJECT=1
+  - PIPENV_IGNORE_VIRTUALENVS=1
+  - LANG=en_US.UTF-8
+  - LC_ALL=en_US.UTF-8
+  - CODECOV_TOKEN="59a0baf8-461c-4d50-b6d3-ad40bed4ae21"
+
+# install pyenv with travis-pyenv
+before_install:
+  - wget https://github.com/praekeltfoundation/travis-pyenv/releases/latest/download/setup-pyenv.sh
+  - source setup-pyenv.sh
+
+notifications:
+  email: never
+install:
+  - pip install --upgrade pip
+  - pip install pipenv --upgrade
+  # - pip install pyvis
+  # - pip install pytest
+  - pipenv install pyvis
+  - pipenv install pytest
+  - pipenv install plotly
+
+  # - pipenv install --dev --skip-lock --python "$PYENV_VERSION"
+  # - pipenv run python -m spacy download en_core_web_sm
+  - pip install coverage
+
+script:
+#  - pipenv run pytest beagletm_streamlit2_ii_test.py
+  - pipenv run pytest beagletm_helperCode_web_i_test.py
+# - pipenv run pytest tests --cov-config pytest.cov --cov
+#  - pipenv run flake8 src
+#  - pipenv run flake8 *.py
+#  - pipenv run flake8 tests
+after_success:
+  - pipenv run codecov

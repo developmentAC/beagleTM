@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[packages]
+matplotlib = "*"
+gensim = "*"
+spacy = "*"
+sklearn = "*"
+pytest = "*"
+requests = "*"
+commonmark = "*"
+codecov = "*"
+streamlit = "*"
+altair = "*"
+textblob = "*"
+scipy = "*"
+pyvis = "*"
+
+[pipenv]
+allow_prereleases = true
