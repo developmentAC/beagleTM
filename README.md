@@ -4,7 +4,7 @@
 ##### email: obonhamcarter@allegheny.edu
 
 
-[![Build Status](https://travis-ci.com/myResearchTM/beagleTM.svg?token=swrouvRyxqupKYRs8yq8&branch=master)](https://travis-ci.com/myResearchTM/beagleTM)
+[![Build Status](https://travis-ci.com/developmentAC/beagleTM.svg?token=swrouvRyxqupKYRs8yq8&branch=master&status=started)](https://travis-ci.com/github/developmentAC/beagleTM)
 [![codecov](https://codecov.io/gh/myResearchTM/beagleTM/branch/master/graph/badge.svg)](https://codecov.io/gh/myResearchTM/beagleTM)
 [![Built with spaCy](https://img.shields.io/badge/built%20with-spaCy-09a3d5.svg)](https://spacy.io)
 
