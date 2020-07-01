@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="correction">
+   <?properties open_access?>
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="nlm-ta">PLoS Med</journal-id>
+         <journal-id journal-id-type="iso-abbrev">PLoS Med</journal-id>
+         <journal-id journal-id-type="publisher-id">plos</journal-id>
+         <journal-id journal-id-type="pmc">plosmed</journal-id>
+         <journal-title-group>
+            <journal-title>PLoS Medicine</journal-title>
+         </journal-title-group>
+         <issn pub-type="ppub">1549-1277</issn>
+         <issn pub-type="epub">1549-1676</issn>
+         <publisher>
+            <publisher-name>Public Library of Science</publisher-name>
+            <publisher-loc>San Francisco, USA</publisher-loc>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="pmc">3313820</article-id>
+         <article-id pub-id-type="doi">10.1371/annotation/b9f2fdde-2923-4dfe-beff-b101d023f7b0</article-id>
+         <article-categories>
+            <subj-group subj-group-type="heading">
+               <subject>Correction</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Correction: Rethinking Immunity against Pneumococcal Disease</article-title>
+            <alt-title alt-title-type="running-head">Correction</alt-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <collab>Rethinking Immunity against Pneumococcal Disease</collab>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="collection">
+            <month>3</month>
+            <year>2012</year>
+         </pub-date>
+         <pub-date pub-type="epub">
+            <day>05</day>
+            <month>3</month>
+            <year>2012</year>
+         </pub-date>
+         <pub-date pub-type="ecorrected">
+            <day>27</day>
+            <month>3</month>
+            <year>2012</year>
+         </pub-date>
+         <volume>9</volume>
+         <issue>3</issue>
+         <elocation-id>10.1371/annotation/b9f2fdde-2923-4dfe-beff-b101d023f7b0</elocation-id>
+         <permissions>
+            <copyright-statement>Public Library of Science.</copyright-statement>
+            <copyright-year>2012</copyright-year>
+            <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+               <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+            </license>
+         </permissions>
+         <related-article id="RA1" related-article-type="corrected-article" vol="2" page="e20" ext-link-type="pmc">
+            <!--related-article was converted to @ext-link-type="pmc" and original @xlink:href value
+						was info:doi/10.1371/journal.pmed.0020020-->
+            <article-title>Rethinking Immunity against Pneumococcal Disease</article-title>
+         </related-article>
+      </article-meta>
+   </front>
+   <body>
+      <p>An image that was published alongside another PLoS Medicine article (doi/10.1371/journal.pmed.0020024) and included in the shared PDF download here has been removed from the published PDF because of that image's copyright status.</p>
+   </body>
+   <back>
+      <fn-group>
+         <fn fn-type="COI-statement">
+            <p>No competing interests declared.</p>
+         </fn>
+      </fn-group>
+   </back>
+</article>

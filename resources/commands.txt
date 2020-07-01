@@ -1,0 +1,2 @@
+mkdir log
+./beagleTM2_ii.py covid19Keywords.md 1>log/covid19Keywords_out.1 2>log/covid19Keywords_err.1 &

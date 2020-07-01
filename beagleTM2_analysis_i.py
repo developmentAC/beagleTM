@@ -28,26 +28,22 @@ import networkx as nx
 import spacy # needed to work with stopwords
 from spacy.lang.en.stop_words import STOP_WORDS # needed to work with stop words
 
-import beagletm_helperCode_web_i as hc
+import beagleTM2_analysis_helperCode as hc
 
 
 # Global variables
 
-DATE_STR = "20 June 2020"
-
-VERSION = "2_ii"
-AUTHOR = "Oliver Bonham-Carter"
-AUTHORMAIL = "obonhamcarter@allegheny.edu"
-
-
-
+# DATE_STR = "22 June 2020"
+# VERSION = "2_ii"
+# AUTHOR = "Oliver Bonham-Carter"
+# AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
 def begin():
 	"""Driver function"""
 
 	st.text(hc.banner0_str)
 	st.sidebar.title("BeagleTM Data Analysis")
-	st.sidebar.subheader(f"Date: {DATE_STR}, Ver: {VERSION}")
+	st.sidebar.subheader(f"Date: {hc.DATE_STR}, Ver: {hc.VERSION}")
 	st.sidebar.text("\U0001F415 \U0001F631 \U0001f5ff \U0001F608 \U0001f600 ")
  	# Create a text element and let the reader know the data is loading.
 

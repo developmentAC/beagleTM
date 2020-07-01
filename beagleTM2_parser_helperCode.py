@@ -13,8 +13,8 @@ banner0_str ="""
 # banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
 
-DATE = "22 June 2020"
-VERSION = "2_ii"
+DATE = "30 June 2020"
+VERSION = "(Parser) 2_iii"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
@@ -27,15 +27,12 @@ HUSH_MODE = True # False # (True/False) boolean variable; prints if False
 # globals
 FILE_EXTENTION = "nxml"
 
-# directories
+# Directories
 #MYOUTPUT_DIR = "/tmp/0out/" # all results are saved in this local directory
-MYOUTPUT_DIR = "0out/" # all results are saved in this local directory
-INPUT_DIR = "allDocs/"
+MYOUTPUT_DIR = "data/" # all results are saved in this local directory
 
-#corpusDir = "/scratch/obc/corpus/allDocs/" #large set of corpus files
-corpusDir = "allDocs/" #local small set of corpus files
-#corpusDir = "/Users/oliverbonham-carter/Desktop/listerWorking/allDocs/" #corpus files on imac
-#corpusDir =  "/Users/oliverbonham-carter/Dropbox/postGrad/lister_5/allDocs/"
+# configure your corpus directory here.
+CORPUS_DIR = "corpus/" #local small set of corpus files
 
 # keyword files: To prevent errors, keyword files
 # must have the following first line of file to identify them.
@@ -80,10 +77,11 @@ def helper():
 		print("\n\t+ \U0001f600 ", command_str)
 	else:
 		print("\n\t+ :-) ", command_str)
-	print("\t [+] The INPUT directory (Data files are located here)  : {}".format(INPUT_DIR))
+	print("\t [+] The INPUT directory (Data files are located here)  : {}".format(CORPUS_DIR))
 	print("\t [+] The OUTPUT directory (Output data is placed here)  : {}".format(MYOUTPUT_DIR))
 	print("\t"+len(h_str2) * "-")
-	print("Notes. Data can be downloaded from: ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/")
+	print("\tNotes. Data can be downloaded from: ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/")
+	print("\n\tKeyword files have the following format:\n\n\t#### keywords\n \tkeyword_1\n\tkeyword_n\n")
 #end of helper()
 
 def get_platformType():
@@ -105,12 +103,10 @@ def printByPlatform(in_str):
 	# https://www.fileformat.info/info/unicode/block/emoticons/images.htm
 	platform_str = get_platformType()
 	if platform_str.lower() == "linux" or platform_str.lower() == "osx":
-#		print("\n  " + " \U0001f5ff\U0001F415 ",in_str + " \U0001f5ff\U0001F415 " )
 		print("  " + " \U0001F415 ",in_str)
-		# print("\n\t+ \U0001f600 ", in_str)
 	else:
 		print("\n\t+ ~~~-- article details --~~~\n\t",in_str)
-
+	# end of printByPlatform()
 
 def printErrorByPlatform(in_str):
 	"""prints error with emojicons according to OS type"""
@@ -145,16 +141,22 @@ def printer(inThing):
 
 def openFile(inFile1):
 	""" open a text file, return string"""
-	f = open(inFile1,"r").read()
+#		f = open(inFile1,"r").read()
+
+	try: #is the file there??
+		f = open(inFile1, "r").read() #returns a string
 	#print(f,":",type(f))
-	return f
+		return f
+	except IOError:
+		tmp_str = "\aNo such file!!!! <{}>, so exiting".format(inFile1)
+		printErrorByPlatform(tmp_str)
 	#end of openFile()
 
 
 def getFileListing():
 	"""method to grab all files with a particular extention"""
 	files_list = [] # holds each file and diretory
-	for root, dirs, files in os.walk(corpusDir):
+	for root, dirs, files in os.walk(CORPUS_DIR):
 		for file in files:
 			if file.endswith(FILE_EXTENTION):
 				dataFile = os.path.join(root, file)
@@ -208,31 +210,59 @@ def checkDataDir(dir_str):
 
 def makeCSVFile(in_list, inFile0_str):
 	"""Function to create a giant CSV file of all results."""
+	# print(f"file name : {inFile0_str}")
+	# print(f"makeCSVFile(); in_list is {in_list}")
 
-	#print("makeCSVFile(); in_list is {}".format(in_list))
 	# check or prepare the output directory
 	directoryIsThere_bol = checkDataDir(MYOUTPUT_DIR)
 
 	# change that filename to an output file.
-	inFile0_str = MYOUTPUT_DIR + inFile0_str.replace(".","") + "_out.csv"
+	inFile1_str = MYOUTPUT_DIR + inFile0_str.replace(".md","") + "_out.csv"
 	#print("filename : {}".format(inFile0_str))
 
-	# opening the csv file in 'a+' mode
-	#file = open(inFile0_str, 'a+', newline = '')
-	file = open(inFile0_str, "w", newline = '') #the newline should make this cross platform compatible
+	file = open(inFile1_str, "w", newline = '') #the newline should make this cross platform compatible
 
+	# ref: https://docs.python.org/3/library/csv.html
 	# writing the data into the file
 	with file:
 		write = csv.writer(file)
-		#write.writerows(headers_list)
-		# write.writerows(in_list)
 		write.writerows(in_list)
-	printByPlatform("\n\t [+] Saving <{}>".format(inFile0_str))
 
-	# ref: https://docs.python.org/3/library/csv.html
+	# concatentate the headers to the data for the analysis step.
+	data1 = data2 = ""
+	headerFile_str = MYOUTPUT_DIR + "HEADERS_out.csv"
+	with open(headerFile_str) as myHeaders:
+		data1 = myHeaders.read()
+
+	with open(inFile1_str) as myData:
+		data2 = myData.read()
+
+	# merge these headers with data file.
+	data1 += "\n" # add a space to help in readability of ouptut datafiles
+	data1 += data2
+
+	# change that filename to an output file.
+	inFile2_str = MYOUTPUT_DIR + "all_" + inFile0_str.replace(".md","") + "_analysis.csv"
+
+	with open (inFile2_str, "w") as fp:
+		fp.write(data1)
+	printByPlatform("\n\t [+] Saving <{}>".format(inFile2_str))
+
+	# Clean up header and intermediate file.
+	removeFile(headerFile_str)
+	removeFile(inFile1_str)
+
 	#end of makeCSVFile()
 
+def removeFile(inFile1_str):
+	"""Function to safely remove a file using exceptions. """
 
+	try:
+		#print(f"\t Removing file : {inFile1_str}")
+		os.remove(inFile1_str)
+	except FileNotFoundError:
+		pass
+	# end of removeFile()
 
 
 ### CLASSES ###

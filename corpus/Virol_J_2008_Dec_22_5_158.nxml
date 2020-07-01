@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v2.3 20070202//EN" "archivearticle.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+   <?properties open_access?>
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="nlm-ta">Virol J</journal-id>
+         <journal-title>Virology Journal</journal-title>
+         <issn pub-type="epub">1743-422X</issn>
+         <publisher>
+            <publisher-name>BioMed Central</publisher-name>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="pmid">19102767</article-id>
+         <article-id pub-id-type="pmc">2628354</article-id>
+         <article-id pub-id-type="publisher-id">1743-422X-5-158</article-id>
+         <article-id pub-id-type="doi">10.1186/1743-422X-5-158</article-id>
+         <article-categories>
+            <subj-group subj-group-type="heading">
+               <subject>Short Report</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Hepatitis E virus is highly prevalent among pregnant women in Gabon, central Africa, with different patterns between rural and urban areas</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib id="A1" contrib-type="author">
+               <name>
+                  <surname>Caron</surname>
+                  <given-names>Mélanie</given-names>
+               </name>
+               <xref ref-type="aff" rid="I1">1</xref>
+               <xref ref-type="aff" rid="I2">2</xref>
+               <email>m.caron@cirmf.org</email>
+            </contrib>
+            <contrib id="A2" corresp="yes" contrib-type="author">
+               <name>
+                  <surname>Kazanji</surname>
+                  <given-names>Mirdad</given-names>
+               </name>
+               <xref ref-type="aff" rid="I1">1</xref>
+               <xref ref-type="aff" rid="I2">2</xref>
+               <xref ref-type="aff" rid="I3">3</xref>
+               <email>m.kazanji@cirmf.org</email>
+            </contrib>
+         </contrib-group>
+         <aff id="I1">
+            <label>1</label>
+            Departement de Virologie, Centre International de Recherches Médicales (CIRMF), BP 769, Franceville, Gabon
+         </aff>
+         <aff id="I2">
+            <label>2</label>
+            Service de Coopération et d'Action Culturelle, French Embassy, BP 2105, Libreville, Gabon
+         </aff>
+         <aff id="I3">
+            <label>3</label>
+            Réseau International des Instituts Pasteur, Institut Pasteur, 28 rue du Dr Roux, 75015 Paris, France
+         </aff>
+         <pub-date pub-type="collection">
+            <year>2008</year>
+         </pub-date>
+         <pub-date pub-type="epub">
+            <day>22</day>
+            <month>12</month>
+            <year>2008</year>
+         </pub-date>
+         <volume>5</volume>
+         <fpage>158</fpage>
+         <lpage>158</lpage>
+         <ext-link ext-link-type="uri" xlink:href="http://www.virologyj.com/content/5/1/158" />
+         <history>
+            <date date-type="received">
+               <day>13</day>
+               <month>10</month>
+               <year>2008</year>
+            </date>
+            <date date-type="accepted">
+               <day>22</day>
+               <month>12</month>
+               <year>2008</year>
+            </date>
+         </history>
+         <permissions>
+            <copyright-statement>Copyright © 2008 Caron and Kazanji; licensee BioMed Central Ltd.</copyright-statement>
+            <copyright-year>2008</copyright-year>
+            <copyright-holder>Caron and Kazanji; licensee BioMed Central Ltd.</copyright-holder>
+            <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0">
+               <p>
+                  This is an Open Access article distributed under the terms of the Creative Commons Attribution License (
+                  <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0" />
+                  ), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+               </p>
+               <!--<rdf xmlns="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1" xmlns:dcterms="http://purl.org/dc/terms"><Work xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about=""><license rdf:resource="http://creativecommons.org/licenses/by/2.0"/><dc:type rdf:resource="http://purl.org/dc/dcmitype/Text"/><dc:author>
+               Caron
+               M&#x000e9;lanie
+
+
+               m.caron@cirmf.org
+            </dc:author><dc:title>
+            Hepatitis E virus is highly prevalent among pregnant women in Gabon, central Africa, with different patterns between rural and urban areas
+         </dc:title><dc:date>2008</dc:date><dcterms:bibliographicCitation>Virology Journal 5(1): 158-. (2008)</dcterms:bibliographicCitation><dc:identifier type="sici">1743-422X(2008)5:1&#x0003c;158&#x0003e;</dc:identifier><dcterms:isPartOf>urn:ISSN:1743-422X</dcterms:isPartOf><License rdf:about="http://creativecommons.org/licenses/by/2.0"><permits rdf:resource="http://web.resource.org/cc/Reproduction" xmlns=""/><permits rdf:resource="http://web.resource.org/cc/Distribution" xmlns=""/><requires rdf:resource="http://web.resource.org/cc/Notice" xmlns=""/><requires rdf:resource="http://web.resource.org/cc/Attribution" xmlns=""/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" xmlns=""/></License></Work></rdf>-->
+            </license>
+         </permissions>
+         <abstract>
+            <p>
+               Hepatitis E virus (HEV) is highly endemic in several African countries with high mortality rate among pregnant women. Nothing is known about the circulation of this virus in central Africa. We evaluated therefore the prevalence of anti-HEV IgG in samples collected from pregnant women living in the five main cities of Gabon, central Africa. We found that 14.1% (119/840) of pregnant women had anti-HEV IgG. The prevalence differed between regions and between age groups. In 391 newly collected samples from the region where the highest prevalence was found, a significant difference (
+               <italic>p</italic>
+               &lt; 0.05) in seroprevalence was found between rural (6.4%) and urban (13.5%) areas. These data provide evidence of a high prevalence of HEV in Gabon, providing indirect evidence of past contact with this virus.
+            </p>
+         </abstract>
+      </article-meta>
+   </front>
+   <body>
+      <sec>
+         <title>Findings</title>
+         <p>
+            Hepatitis E virus (HEV) is an enterically transmitted pathogen and is responsible for recent large-scale epidemics of hepatitis around the world, as reported recently in Uganda
+            <ext-link ext-link-type="uri" xlink:href="http://www.promedmail.org" />
+            , where more than 7500 cases were registered in 1 year [
+            <xref ref-type="bibr" rid="B1">1</xref>
+            ]. HEV induces self-limiting or acute hepatitis, and the severity can varied from no symptoms to fulminating infection [
+            <xref ref-type="bibr" rid="B2">2</xref>
+            ]. HEV infections have not been known to become chronic [
+            <xref ref-type="bibr" rid="B2">2</xref>
+            ]; however, recently, persistent HEV infection, with chronic hepatitis and cirrhosis, has been reported in patients with reduced immune surveillance induced by chemotherapy or post-transplant immune suppression [
+            <xref ref-type="bibr" rid="B3">3</xref>
+            ,
+            <xref ref-type="bibr" rid="B4">4</xref>
+            ]. The average mortality rate from HEV infection is 1–4%, principally among adolescents and young adults, but it is still not clear that the severity is age-dependent. For unknown reasons, the mortality rate is higher among pregnant women, especially during the third trimester [
+            <xref ref-type="bibr" rid="B5">5</xref>
+            ]. In Sudan, a case:fatality ratio of 17.8% was found in an outbreak in Darfur, with a ratio of 31.1% among pregnant women [
+            <xref ref-type="bibr" rid="B6">6</xref>
+            ].
+         </p>
+         <p>
+            In endemic areas, which include Africa, Asia and the Middle East, HEV outbreaks are waterborne, whereas in non-endemic areas such as Europe, Japan and the USA, sporadic cases of acute hepatitis are usually due to zoonotic foodborne transmission [
+            <xref ref-type="bibr" rid="B7">7</xref>
+            ]. Bloodborne and perinatal transmission could also occur, but ingestion of fecally-contaminated water remains the main route of HEV transmission. Many HEV outbreaks have been observed in Africa, such as in Ethiopia and Somalia in 1988–1989, Djibouti in 1993, Morocco in 1994, Chad and Sudan in 2004–2005, the Democratic Republic of the Congo in 2006 and Uganda in 2007–2008 [
+            <xref ref-type="bibr" rid="B1">1</xref>
+            ,
+            <xref ref-type="bibr" rid="B8">8</xref>
+            -
+            <xref ref-type="bibr" rid="B12">12</xref>
+            ]. In the absence of outbreaks, the HEV prevalence in rural populations was 4.4% in Ghana, 14.0% in Burundi, 15.3% in South Africa and 67.7% in Egypt, with a seroprevalence of up to 84.3% among pregnant women [
+            <xref ref-type="bibr" rid="B13">13</xref>
+            -
+            <xref ref-type="bibr" rid="B16">16</xref>
+            ]. There appear to be considerable differences in exposure to HEV in endemic areas.
+         </p>
+         <p>
+            Few data are available on the circulation of HEV in central Africa. In 1995, no anti-HEV IgG was found in samples collected in Libreville, the capital of Gabon [
+            <xref ref-type="bibr" rid="B17">17</xref>
+            ], but the study was based on a small sample and did not reflect the actual situation in the country. Furthermore, the laboratory techniques for HEV detection have advanced considerably since the time of that study. The aim of the study reported here was to evaluate the prevalence of anti-HEV IgG in samples collected from pregnant women living in the five main cities of Gabon. We also compared the HEV prevalence in rural and urban areas in the region with the highest seroprevalence.
+         </p>
+         <p>Gabon is located on the Gulf of Guinea near the Equator, and tropical forest covers three quarters of the territory. To evaluate the HEV prevalence among pregnant women, two epidemiological surveys were conducted. The first was conducted from January to March 2005, when blood samples were collected from all 840 pregnant women (mean age, 24.6 ± 6.4 years; range, 14–44 years) who attended a first antenatal examination in the five main cities of the country: Libreville, the capital city in the north-west; Port-Gentil, the main harbor and economic capital in the west; Lambaréné, in the centre of the country; Oyem in the north-east and Franceville in the south-east. The second study was conducted from January to June 2007 in rural and urban areas of Franceville, where the highest seroprevalence was found. The study obtained ethical clearance from the ethics committee; data on age and geographic origin were retained only after informed consent had been obtained.</p>
+         <p>To determine the anti-HEV IgG prevalence, we used the HEV (TMB) ELISA Kit (Genelabs Diagnostics, Singapore) according to the manufacturer's instructions. Serological status in relation to the age group and geographical origin of the pregnant women was analysed statistically by the chi-squared test with Yates correction, and prevalences and odds ratios were calculated. The corresponding 95% confidence intervals (CIs) were reported as measures of statistical significance. Analyses were performed with Epi-Info (version 6.04dfr, ENSP-Epiconcept-InUS, 2001).</p>
+         <p>
+            Anti-HEV IgG were found in 119 of the 840 samples (14.1%). The seroprevalence varied substantially, from 10.2% to 20.8%, by region (Table
+            <xref ref-type="table" rid="T1">1</xref>
+            ). The highest prevalence was found in Franceville, where the risk for contracting HEV infection was twice as high as in the other cities (Table
+            <xref ref-type="table" rid="T1">1</xref>
+            ). The seroprevalence was highest in the younger (14–20 years; 14.8%) and older (31–44 years; 16.8%) age groups than in the others (Table
+            <xref ref-type="table" rid="T1">1</xref>
+            ). However, there was no statistically significant difference in prevalence by age group.
+         </p>
+         <table-wrap position="float" id="T1">
+            <label>Table 1</label>
+            <caption>
+               <p>Prevalence of anti-HEV IgG among pregnant women in the main cities of Gabon, central Africa, and in different age groups</p>
+            </caption>
+            <table frame="hsides" rules="groups">
+               <thead>
+                  <tr>
+                     <td align="left">Variable</td>
+                     <td align="center" colspan="5">Prevalence of anti-HEV IgG</td>
+                  </tr>
+                  <tr>
+                     <td />
+                     <td colspan="5">
+                        <hr />
+                     </td>
+                  </tr>
+                  <tr>
+                     <td />
+                     <td align="center">No. positive/No. tested</td>
+                     <td align="center">%</td>
+                     <td align="center">95% CI</td>
+                     <td align="center">OR</td>
+                     <td align="center">95% CI</td>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td align="left">Main Cities</td>
+                     <td />
+                     <td />
+                     <td />
+                     <td />
+                     <td />
+                  </tr>
+                  <tr>
+                     <td align="left"> Libreville</td>
+                     <td align="center">27/183</td>
+                     <td align="center">14.7</td>
+                     <td align="center">9.6–19.9</td>
+                     <td align="center">1.24</td>
+                     <td align="center">0.78–1.97</td>
+                  </tr>
+                  <tr>
+                     <td align="left"> Port-Gentil</td>
+                     <td align="center">16/157</td>
+                     <td align="center">10.2</td>
+                     <td align="center">5.5–14.9</td>
+                     <td align="center">0.75</td>
+                     <td align="center">0.43–1.31</td>
+                  </tr>
+                  <tr>
+                     <td align="left"> Lambaréné</td>
+                     <td align="center">39/304</td>
+                     <td align="center">12.8</td>
+                     <td align="center">9.1–16.5</td>
+                     <td align="center">0.99</td>
+                     <td align="center">0.66–1.49</td>
+                  </tr>
+                  <tr>
+                     <td align="left"> Oyem</td>
+                     <td align="center">8/57</td>
+                     <td align="center">14.0</td>
+                     <td align="center">5.0–23.0</td>
+                     <td align="center">1.15</td>
+                     <td align="center">0.53–2.49</td>
+                  </tr>
+                  <tr>
+                     <td align="left"> Franceville</td>
+                     <td align="center">29/139</td>
+                     <td align="center">20.8</td>
+                     <td align="center">14.1–27.5</td>
+                     <td align="center">2.05</td>
+                     <td align="center">1.29–3.26</td>
+                  </tr>
+                  <tr>
+                     <td />
+                     <td />
+                     <td />
+                     <td />
+                     <td />
+                     <td />
+                  </tr>
+                  <tr>
+                     <td align="left">Age range (years)</td>
+                     <td />
+                     <td />
+                     <td />
+                     <td />
+                     <td />
+                  </tr>
+                  <tr>
+                     <td align="left"> 14–20</td>
+                     <td align="center">40/269</td>
+                     <td align="center">14.8</td>
+                     <td align="center">10.6–19.0</td>
+                     <td align="center">1.26</td>
+                     <td align="center">0.84–1.90</td>
+                  </tr>
+                  <tr>
+                     <td align="left"> 21–25</td>
+                     <td align="center">31/230</td>
+                     <td align="center">13.5</td>
+                     <td align="center">9.1–17.9</td>
+                     <td align="center">1.08</td>
+                     <td align="center">0.70–1.68</td>
+                  </tr>
+                  <tr>
+                     <td align="left"> 26–30</td>
+                     <td align="center">20/174</td>
+                     <td align="center">11.5</td>
+                     <td align="center">6.8–16.2</td>
+                     <td align="center">0.87</td>
+                     <td align="center">0.52–1.45</td>
+                  </tr>
+                  <tr>
+                     <td align="left"> 31–44</td>
+                     <td align="center">28/167</td>
+                     <td align="center">16.8</td>
+                     <td align="center">11.2–22.4</td>
+                     <td align="center">1.49</td>
+                     <td align="center">0.94–2.36</td>
+                  </tr>
+                  <tr>
+                     <td />
+                     <td />
+                     <td />
+                     <td />
+                     <td />
+                     <td />
+                  </tr>
+                  <tr>
+                     <td align="left">All</td>
+                     <td align="center">119/840</td>
+                     <td align="center">14.1</td>
+                     <td align="center">11.8–16.4</td>
+                     <td />
+                     <td />
+                  </tr>
+               </tbody>
+            </table>
+            <table-wrap-foot>
+               <p>CI, confidence interval; OR, odds ratio</p>
+            </table-wrap-foot>
+         </table-wrap>
+         <p>
+            Despite the high HEV prevalence among pregnant women, principally in Franceville (Haut-Ogooué region), symptoms compatible with acute viral hepatitis were not found frequently. In order to confirm the previous observation, a second epidemiological study, was conducted among 391 pregnant women aged 25.9 ± 6.9 years (range, 14–45 years) in both rural and urban areas of the Haut-Ogooué region. Of all these newly collected samples, 39 (10.0%) were positive for anti-HEV IgG (Table
+            <xref ref-type="table" rid="T2">2</xref>
+            ). A significant difference (
+            <italic>p</italic>
+            &lt; 0.05) in prevalence was found between urban (Franceville city; 13.5%) and rural areas (villages of the Haut-Ogooué region; 6.4%), with a 2.5 times higher risk for infection in urban than in rural areas (Table
+            <xref ref-type="table" rid="T2">2</xref>
+            ).
+         </p>
+         <table-wrap position="float" id="T2">
+            <label>Table 2</label>
+            <caption>
+               <p>Prevalence of anti-HEV IgG in rural and urban (Franceville city) areas in the Haut-Ogooué region of Gabon, central Africa</p>
+            </caption>
+            <table frame="hsides" rules="groups">
+               <thead>
+                  <tr>
+                     <td align="left">Area</td>
+                     <td align="center" colspan="5">Prevalence of anti-HEV IgG</td>
+                  </tr>
+                  <tr>
+                     <td />
+                     <td colspan="5">
+                        <hr />
+                     </td>
+                  </tr>
+                  <tr>
+                     <td />
+                     <td align="center">No. positive/No. tested</td>
+                     <td align="center">%</td>
+                     <td align="center">95% CI</td>
+                     <td align="center">OR</td>
+                     <td align="center">95% CI</td>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td align="left"> Rural</td>
+                     <td align="center">11/173</td>
+                     <td align="center">6.4</td>
+                     <td align="center">2.6–10.1</td>
+                     <td align="center">0.46</td>
+                     <td align="center">0.22–0.95</td>
+                  </tr>
+                  <tr>
+                     <td align="left"> Urban</td>
+                     <td align="center">28/207</td>
+                     <td align="center">13.5</td>
+                     <td align="center">8.8–18.1</td>
+                     <td align="center">2.46</td>
+                     <td align="center">1.19–5.09</td>
+                  </tr>
+                  <tr>
+                     <td />
+                     <td />
+                     <td />
+                     <td />
+                     <td />
+                     <td />
+                  </tr>
+                  <tr>
+                     <td align="left">All</td>
+                     <td align="center">39/391</td>
+                     <td align="center">10.0</td>
+                     <td align="center">7.0–13.0</td>
+                     <td />
+                     <td />
+                  </tr>
+               </tbody>
+            </table>
+            <table-wrap-foot>
+               <p>CI, confidence interval; OR, odds ratio</p>
+            </table-wrap-foot>
+         </table-wrap>
+         <p>
+            We have shown that HEV is highly prevalent in Gabon, central Africa, although a study conducted in 1995 [
+            <xref ref-type="bibr" rid="B17">17</xref>
+            ] concluded that the virus was not present in this country. The prevalence of anti-HEV IgG in this study was similar to those in endemic and epidemic countries in South-East Asia [
+            <xref ref-type="bibr" rid="B18">18</xref>
+            ] and to that in south-west France, where autochthonous HEV infection is frequently recorded [
+            <xref ref-type="bibr" rid="B19">19</xref>
+            ].
+         </p>
+         <p>In the first epidemiological study, in Franceville, 29 of 139 pregnant women had antibodies to HEV (20.8%). In the second study, 28 of 207 women in the same city had HEV antibodies (13.5%). The difference in prevalence between the two studies was not statistically significant. The finding that the prevalence in the first study was higher than that in the second might be due to the fact that in the first study the samples were collected from two maternal centers in which medical care is free and therefore women of low socio-economic status frequently attend. In the second study, in order to determine the true HEV prevalence in the area, samples were collected from six sentinel centers, including clinics, hospitals, and maternity centers. The difference may therefore be due to a difference in the population studied and the higher HEV prevalence in people of low socio-economic status.</p>
+         <p>
+            Our finding of a higher risk for HEV infection in urban than in rural areas suggests the presence of local risk factors; however, the source of contamination remains unknown. The population density, the absence of sewer systems, the consumption of bush meat and the presence of excreta of peri-domestic animals near habitations might also be risk factors [
+            <xref ref-type="bibr" rid="B20">20</xref>
+            -
+            <xref ref-type="bibr" rid="B22">22</xref>
+            ]. Furthermore, the excreta of HEV-infected persons might be contaminated, again implicating the precarious sanitary conditions in cities in the country.
+         </p>
+         <p>Until now, no epidemic or sporadic cases of HEV infection have been reported, despite the high prevalence of antibodies to this virus. Furthermore, no liver markers compatible with acute viral hepatitis were found that would indicate past HEV infection among these pregnant Gabonese women. Probably, the initial HEV infection occurred early in life, and, as with early childhood exposure to hepatitis A virus in countries where it is highly endemic, the children do not become ill. Therefore, epidemiological studies of people in various age groups and in children are also needed.</p>
+         <p>Screening pregnant women for HEV is thus important for improving knowledge about the epidemiology (transmission and circulation) of this virus. More extensive studies should be conducted to evaluate the seroprevalence, to characterize the circulating HEV genotypes and to determine the current pathological and risk status in the general population of central Africa.</p>
+      </sec>
+      <sec>
+         <title>Competing interests</title>
+         <p>The authors declare that they have no competing interests.</p>
+      </sec>
+      <sec>
+         <title>Authors' contributions</title>
+         <p>MC carried out the serological studies and performed the statistical analysis. MK designed the study and drafted the manuscript. Both authors read and approved the final version of the manuscript.</p>
+      </sec>
+   </body>
+   <back>
+      <ack>
+         <sec>
+            <title>Acknowledgements</title>
+            <p>Mélanie Caron was supported by the French Foreign Ministry. We thank Marie-Thérèse Bedjabaga, Paul Ngari, Philippe Engandja, Antoine Mahé and Patricia Keba (Programme National de Lutte contre le Sida, Libreville, Gabon) for technical and logistic help. The Centre International de Recherches Médicales de Franceville (CIRMF), Franceville, Gabon, is funded by the Gabonese Government, Total-Gabon and the French Foreign Ministry. Part of this work was supported by funds from the Service de Coopération et d'Action Culturelle, French Embassy, Libreville, Gabon.</p>
+         </sec>
+      </ack>
+      <ref-list>
+         <ref id="B1">
+            <citation citation-type="other">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Barrett</surname>
+                     <given-names>B</given-names>
+                  </name>
+               </person-group>
+               <article-title>Hepatitis E virus (HEV) in Uganda</article-title>
+               <source>International Federation of Red Cross and Red Crescent Societies</source>
+               <ext-link ext-link-type="uri" xlink:href="http://www.promedmail.org" />
+            </citation>
+         </ref>
+         <ref id="B2">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Emerson</surname>
+                     <given-names>SU</given-names>
+                  </name>
+                  <name>
+                     <surname>Purcell</surname>
+                     <given-names>R</given-names>
+                  </name>
+               </person-group>
+               <article-title>Hepatitis E virus</article-title>
+               <source>Rev Med Virol</source>
+               <year>2003</year>
+               <volume>13</volume>
+               <fpage>145</fpage>
+               <lpage>154</lpage>
+               <pub-id pub-id-type="pmid">12740830</pub-id>
+               <pub-id pub-id-type="doi">10.1002/rmv.384</pub-id>
+            </citation>
+         </ref>
+         <ref id="B3">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Gérolami</surname>
+                     <given-names>R</given-names>
+                  </name>
+                  <name>
+                     <surname>Moal</surname>
+                     <given-names>V</given-names>
+                  </name>
+                  <name>
+                     <surname>Colson</surname>
+                     <given-names>P</given-names>
+                  </name>
+               </person-group>
+               <article-title>Chronic hepatitis E with cirrhosis in a kidney-transplant recipient</article-title>
+               <source>N Engl J Med</source>
+               <year>2008</year>
+               <volume>358</volume>
+               <fpage>859</fpage>
+               <lpage>860</lpage>
+               <pub-id pub-id-type="pmid">18287615</pub-id>
+               <pub-id pub-id-type="doi">10.1056/NEJMc0708687</pub-id>
+            </citation>
+         </ref>
+         <ref id="B4">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Kamar</surname>
+                     <given-names>N</given-names>
+                  </name>
+                  <name>
+                     <surname>Selves</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Mansuy</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Ouezzani</surname>
+                     <given-names>L</given-names>
+                  </name>
+                  <name>
+                     <surname>Péron</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Guitard</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Cointault</surname>
+                     <given-names>O</given-names>
+                  </name>
+                  <name>
+                     <surname>Esposito</surname>
+                     <given-names>L</given-names>
+                  </name>
+                  <name>
+                     <surname>Abravanel</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Danjoux</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Hepatitis E virus and chronic hepatitis in organ-transplant recipients</article-title>
+               <source>N Engl J Med</source>
+               <year>2008</year>
+               <volume>358</volume>
+               <fpage>811</fpage>
+               <lpage>817</lpage>
+               <pub-id pub-id-type="pmid">18287603</pub-id>
+               <pub-id pub-id-type="doi">10.1056/NEJMoa0706992</pub-id>
+            </citation>
+         </ref>
+         <ref id="B5">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Purcell</surname>
+                     <given-names>RH</given-names>
+                  </name>
+                  <name>
+                     <surname>Emerson</surname>
+                     <given-names>SU</given-names>
+                  </name>
+               </person-group>
+               <article-title>Hepatitis E: an emerging awareness of an old disease</article-title>
+               <source>J Hepatol</source>
+               <year>2008</year>
+               <volume>48</volume>
+               <fpage>494</fpage>
+               <lpage>503</lpage>
+               <pub-id pub-id-type="pmid">18192058</pub-id>
+               <pub-id pub-id-type="doi">10.1016/j.jhep.2007.12.008</pub-id>
+            </citation>
+         </ref>
+         <ref id="B6">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Boccia</surname>
+                     <given-names>D</given-names>
+                  </name>
+                  <name>
+                     <surname>Guthmann</surname>
+                     <given-names>JP</given-names>
+                  </name>
+                  <name>
+                     <surname>Klovstad</surname>
+                     <given-names>H</given-names>
+                  </name>
+                  <name>
+                     <surname>Hamid</surname>
+                     <given-names>N</given-names>
+                  </name>
+                  <name>
+                     <surname>Tatay</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Ciglenecki</surname>
+                     <given-names>I</given-names>
+                  </name>
+                  <name>
+                     <surname>Nizou</surname>
+                     <given-names>JY</given-names>
+                  </name>
+                  <name>
+                     <surname>Nicand</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Guerin</surname>
+                     <given-names>PJ</given-names>
+                  </name>
+               </person-group>
+               <article-title>High mortality associated with an outbreak of hepatitis E among displaced persons in Darfur, Sudan</article-title>
+               <source>Clin Infect Dis</source>
+               <year>2006</year>
+               <volume>42</volume>
+               <fpage>1679</fpage>
+               <lpage>1684</lpage>
+               <pub-id pub-id-type="pmid">16705571</pub-id>
+               <pub-id pub-id-type="doi">10.1086/504322</pub-id>
+            </citation>
+         </ref>
+         <ref id="B7">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Mushahwar</surname>
+                     <given-names>IK</given-names>
+                  </name>
+               </person-group>
+               <article-title>Hepatitis E virus: molecular virology, clinical features, diagnosis, transmission, epidemiology, and prevention</article-title>
+               <source>J Med Virol</source>
+               <year>2008</year>
+               <volume>80</volume>
+               <fpage>646</fpage>
+               <lpage>658</lpage>
+               <pub-id pub-id-type="pmid">18297720</pub-id>
+               <pub-id pub-id-type="doi">10.1002/jmv.21116</pub-id>
+            </citation>
+         </ref>
+         <ref id="B8">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Benjelloun</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Bahbouhi</surname>
+                     <given-names>B</given-names>
+                  </name>
+                  <name>
+                     <surname>Bouchrit</surname>
+                     <given-names>N</given-names>
+                  </name>
+                  <name>
+                     <surname>Cherkaoui</surname>
+                     <given-names>L</given-names>
+                  </name>
+                  <name>
+                     <surname>Hda</surname>
+                     <given-names>N</given-names>
+                  </name>
+                  <name>
+                     <surname>Mahjour</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Benslimane</surname>
+                     <given-names>A</given-names>
+                  </name>
+               </person-group>
+               <article-title>Seroepidemiological study of an acute hepatitis E outbreak in Morocco</article-title>
+               <source>Res Virol</source>
+               <year>1997</year>
+               <volume>148</volume>
+               <fpage>279</fpage>
+               <lpage>287</lpage>
+               <pub-id pub-id-type="pmid">9272579</pub-id>
+               <pub-id pub-id-type="doi">10.1016/S0923-2516(97)88365-3</pub-id>
+            </citation>
+         </ref>
+         <ref id="B9">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Coursaget</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Buisson</surname>
+                     <given-names>Y</given-names>
+                  </name>
+                  <name>
+                     <surname>Enogat</surname>
+                     <given-names>N</given-names>
+                  </name>
+                  <name>
+                     <surname>Bercion</surname>
+                     <given-names>R</given-names>
+                  </name>
+                  <name>
+                     <surname>Baudet</surname>
+                     <given-names>JM</given-names>
+                  </name>
+                  <name>
+                     <surname>Delmaire</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Prigent</surname>
+                     <given-names>D</given-names>
+                  </name>
+                  <name>
+                     <surname>Desramé</surname>
+                     <given-names>J</given-names>
+                  </name>
+               </person-group>
+               <article-title>Outbreak of enterically-transmitted hepatitis due to hepatitis A and hepatitis E viruses</article-title>
+               <source>J Hepatol</source>
+               <year>1998</year>
+               <volume>28</volume>
+               <fpage>745</fpage>
+               <lpage>750</lpage>
+               <pub-id pub-id-type="pmid">9625307</pub-id>
+               <pub-id pub-id-type="doi">10.1016/S0168-8278(98)80222-5</pub-id>
+            </citation>
+         </ref>
+         <ref id="B10">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Mushahwar</surname>
+                     <given-names>IK</given-names>
+                  </name>
+                  <name>
+                     <surname>Dawson</surname>
+                     <given-names>GJ</given-names>
+                  </name>
+                  <name>
+                     <surname>Bile</surname>
+                     <given-names>KM</given-names>
+                  </name>
+                  <name>
+                     <surname>Magnius</surname>
+                     <given-names>LO</given-names>
+                  </name>
+               </person-group>
+               <article-title>Serological studies of an enterically transmitted non-A, non-B hepatitis in Somalia</article-title>
+               <source>J Med Virol</source>
+               <year>1993</year>
+               <volume>40</volume>
+               <fpage>218</fpage>
+               <lpage>221</lpage>
+               <pub-id pub-id-type="pmid">8355020</pub-id>
+               <pub-id pub-id-type="doi">10.1002/jmv.1890400309</pub-id>
+            </citation>
+         </ref>
+         <ref id="B11">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Nicand</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Armstrong</surname>
+                     <given-names>GL</given-names>
+                  </name>
+                  <name>
+                     <surname>Enouf</surname>
+                     <given-names>V</given-names>
+                  </name>
+                  <name>
+                     <surname>Guthmann</surname>
+                     <given-names>JP</given-names>
+                  </name>
+                  <name>
+                     <surname>Guerin</surname>
+                     <given-names>JP</given-names>
+                  </name>
+                  <name>
+                     <surname>Caron</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Nizou</surname>
+                     <given-names>JY</given-names>
+                  </name>
+                  <name>
+                     <surname>Andraghetti</surname>
+                     <given-names>R</given-names>
+                  </name>
+               </person-group>
+               <article-title>Genetic heterogeneity of hepatitis E virus in Darfur, Sudan, and neighboring Chad</article-title>
+               <source>J Med Virol</source>
+               <year>2005</year>
+               <volume>77</volume>
+               <fpage>519</fpage>
+               <lpage>521</lpage>
+               <pub-id pub-id-type="pmid">16254969</pub-id>
+               <pub-id pub-id-type="doi">10.1002/jmv.20487</pub-id>
+            </citation>
+         </ref>
+         <ref id="B12">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Tsega</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Krawczynski</surname>
+                     <given-names>K</given-names>
+                  </name>
+                  <name>
+                     <surname>Hansson</surname>
+                     <given-names>BG</given-names>
+                  </name>
+                  <name>
+                     <surname>Nordenfelt</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Negusse</surname>
+                     <given-names>Y</given-names>
+                  </name>
+                  <name>
+                     <surname>Alemu</surname>
+                     <given-names>W</given-names>
+                  </name>
+                  <name>
+                     <surname>Bahru</surname>
+                     <given-names>Y</given-names>
+                  </name>
+               </person-group>
+               <article-title>Outbreak of acute hepatitis E virus infection among military personnel in northern Ethiopia</article-title>
+               <source>J Med Virol</source>
+               <year>1991</year>
+               <volume>34</volume>
+               <fpage>232</fpage>
+               <lpage>236</lpage>
+               <pub-id pub-id-type="pmid">1940876</pub-id>
+               <pub-id pub-id-type="doi">10.1002/jmv.1890340407</pub-id>
+            </citation>
+         </ref>
+         <ref id="B13">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Aubry</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Niel</surname>
+                     <given-names>L</given-names>
+                  </name>
+                  <name>
+                     <surname>Niyongabo</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Kerguelen</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>B</surname>
+                     <given-names>L</given-names>
+                  </name>
+               </person-group>
+               <article-title>Seroprevalence of hepatitis E virus in an adult urban population from Burundi</article-title>
+               <source>Am J Trop Med Hyg</source>
+               <year>1997</year>
+               <volume>57</volume>
+               <fpage>272</fpage>
+               <lpage>273</lpage>
+               <pub-id pub-id-type="pmid">9311635</pub-id>
+            </citation>
+         </ref>
+         <ref id="B14">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Martinson</surname>
+                     <given-names>FE</given-names>
+                  </name>
+                  <name>
+                     <surname>Marfo</surname>
+                     <given-names>VY</given-names>
+                  </name>
+                  <name>
+                     <surname>Degraaf</surname>
+                     <given-names>J</given-names>
+                  </name>
+               </person-group>
+               <article-title>Hepatitis E virus seroprevalence in children living in rural Ghana</article-title>
+               <source>West Afr J Med</source>
+               <year>1999</year>
+               <volume>18</volume>
+               <fpage>76</fpage>
+               <lpage>79</lpage>
+               <pub-id pub-id-type="pmid">10504860</pub-id>
+            </citation>
+         </ref>
+         <ref id="B15">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Stoszek</surname>
+                     <given-names>SK</given-names>
+                  </name>
+                  <name>
+                     <surname>Abdel-Hamid</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Saleh</surname>
+                     <given-names>DA</given-names>
+                  </name>
+                  <name>
+                     <surname>El Kafrawy</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Narooz</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Hawash</surname>
+                     <given-names>Y</given-names>
+                  </name>
+                  <name>
+                     <surname>Shebl</surname>
+                     <given-names>FM</given-names>
+                  </name>
+                  <name>
+                     <surname>El Daly</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Said</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Kassem</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>High prevalence of hepatitis E antibodies in pregnant Egyptian women</article-title>
+               <source>Trans R Soc Trop Med Hyg</source>
+               <year>2006</year>
+               <volume>100</volume>
+               <fpage>95</fpage>
+               <lpage>101</lpage>
+               <pub-id pub-id-type="pmid">16257426</pub-id>
+               <pub-id pub-id-type="doi">10.1016/j.trstmh.2004.12.005</pub-id>
+            </citation>
+         </ref>
+         <ref id="B16">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Tucker</surname>
+                     <given-names>TJ</given-names>
+                  </name>
+                  <name>
+                     <surname>Kirsch</surname>
+                     <given-names>RE</given-names>
+                  </name>
+                  <name>
+                     <surname>Louw</surname>
+                     <given-names>SJ</given-names>
+                  </name>
+                  <name>
+                     <surname>Isaacs</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Kannemeyer</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Robson</surname>
+                     <given-names>SC</given-names>
+                  </name>
+               </person-group>
+               <article-title>Hepatitis E in South Africa: evidence for sporadic spread and increased seroprevalence in rural areas</article-title>
+               <source>J Med Virol</source>
+               <year>1996</year>
+               <volume>50</volume>
+               <fpage>117</fpage>
+               <lpage>119</lpage>
+               <pub-id pub-id-type="pmid">8915876</pub-id>
+               <pub-id pub-id-type="doi">10.1002/(SICI)1096-9071(199610)50:2&lt;117::AID-JMV3&gt;3.0.CO;2-D</pub-id>
+            </citation>
+         </ref>
+         <ref id="B17">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Richard-Lenoble</surname>
+                     <given-names>D</given-names>
+                  </name>
+                  <name>
+                     <surname>Traore</surname>
+                     <given-names>O</given-names>
+                  </name>
+                  <name>
+                     <surname>Kombila</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Roingeard</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Dubois</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Goudeau</surname>
+                     <given-names>A</given-names>
+                  </name>
+               </person-group>
+               <article-title>Hepatitis B, C, D, and E markers in rural equatorial African villages (Gabon)</article-title>
+               <source>Am J Trop Med Hyg</source>
+               <year>1995</year>
+               <volume>53</volume>
+               <fpage>338</fpage>
+               <lpage>341</lpage>
+               <pub-id pub-id-type="pmid">7485684</pub-id>
+            </citation>
+         </ref>
+         <ref id="B18">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Wong</surname>
+                     <given-names>KH</given-names>
+                  </name>
+                  <name>
+                     <surname>Liu</surname>
+                     <given-names>YM</given-names>
+                  </name>
+                  <name>
+                     <surname>Ng</surname>
+                     <given-names>PS</given-names>
+                  </name>
+                  <name>
+                     <surname>Young</surname>
+                     <given-names>BW</given-names>
+                  </name>
+                  <name>
+                     <surname>Lee</surname>
+                     <given-names>SS</given-names>
+                  </name>
+               </person-group>
+               <article-title>Epidemiology of hepatitis A and hepatitis E infection and their determinants in adult Chinese community in Hong Kong</article-title>
+               <source>J Med Virol</source>
+               <year>2004</year>
+               <volume>72</volume>
+               <fpage>538</fpage>
+               <lpage>544</lpage>
+               <pub-id pub-id-type="pmid">14981755</pub-id>
+               <pub-id pub-id-type="doi">10.1002/jmv.20040</pub-id>
+            </citation>
+         </ref>
+         <ref id="B19">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Mansuy</surname>
+                     <given-names>JM</given-names>
+                  </name>
+                  <name>
+                     <surname>Legrand-Abravanel</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Calot</surname>
+                     <given-names>JP</given-names>
+                  </name>
+                  <name>
+                     <surname>Peron</surname>
+                     <given-names>JM</given-names>
+                  </name>
+                  <name>
+                     <surname>Alric</surname>
+                     <given-names>L</given-names>
+                  </name>
+                  <name>
+                     <surname>Agudo</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Rech</surname>
+                     <given-names>H</given-names>
+                  </name>
+                  <name>
+                     <surname>Destruel</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Izopet</surname>
+                     <given-names>J</given-names>
+                  </name>
+               </person-group>
+               <article-title>High prevalence of anti-hepatitis E virus antibodies in blood donors from South West France</article-title>
+               <source>J Med Virol</source>
+               <year>2008</year>
+               <volume>80</volume>
+               <fpage>289</fpage>
+               <lpage>293</lpage>
+               <pub-id pub-id-type="pmid">18098159</pub-id>
+               <pub-id pub-id-type="doi">10.1002/jmv.21056</pub-id>
+            </citation>
+         </ref>
+         <ref id="B20">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Nakamura</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Takahashi</surname>
+                     <given-names>K</given-names>
+                  </name>
+                  <name>
+                     <surname>Taira</surname>
+                     <given-names>K</given-names>
+                  </name>
+                  <name>
+                     <surname>Taira</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Ohno</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Sakugawa</surname>
+                     <given-names>H</given-names>
+                  </name>
+                  <name>
+                     <surname>Arai</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Mishiro</surname>
+                     <given-names>S</given-names>
+                  </name>
+               </person-group>
+               <article-title>Hepatitis E virus infection in wild mongooses of Okinawa, Japan: Demonstration of anti-HEV antibodies and a full-genome nucleotide sequence</article-title>
+               <source>Hepatol Res</source>
+               <year>2006</year>
+               <volume>34</volume>
+               <fpage>137</fpage>
+               <lpage>140</lpage>
+               <pub-id pub-id-type="pmid">16413822</pub-id>
+               <pub-id pub-id-type="doi">10.1016/j.hepres.2005.10.010</pub-id>
+            </citation>
+         </ref>
+         <ref id="B21">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Takahashi</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Tanaka</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Azuma</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Kusano</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Aikawa</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Shibayama</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Yazaki</surname>
+                     <given-names>Y</given-names>
+                  </name>
+                  <name>
+                     <surname>Mizuo</surname>
+                     <given-names>H</given-names>
+                  </name>
+                  <name>
+                     <surname>Inoue</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Okamoto</surname>
+                     <given-names>H</given-names>
+                  </name>
+               </person-group>
+               <article-title>Prolonged fecal shedding of hepatitis E virus (HEV) during sporadic acute hepatitis E: evaluation of infectivity of HEV in fecal specimens in a cell culture system</article-title>
+               <source>J Clin Microbiol</source>
+               <year>2007</year>
+               <volume>45</volume>
+               <fpage>3671</fpage>
+               <lpage>3679</lpage>
+               <pub-id pub-id-type="pmid">17728471</pub-id>
+               <pub-id pub-id-type="doi">10.1128/JCM.01086-07</pub-id>
+            </citation>
+         </ref>
+         <ref id="B22">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Yu</surname>
+                     <given-names>C</given-names>
+                  </name>
+                  <name>
+                     <surname>Zimmerman</surname>
+                     <given-names>C</given-names>
+                  </name>
+                  <name>
+                     <surname>Stone</surname>
+                     <given-names>R</given-names>
+                  </name>
+                  <name>
+                     <surname>Engle</surname>
+                     <given-names>RE</given-names>
+                  </name>
+                  <name>
+                     <surname>Elkins</surname>
+                     <given-names>W</given-names>
+                  </name>
+                  <name>
+                     <surname>Nardone</surname>
+                     <given-names>GA</given-names>
+                  </name>
+                  <name>
+                     <surname>Emerson</surname>
+                     <given-names>SU</given-names>
+                  </name>
+                  <name>
+                     <surname>Purcell</surname>
+                     <given-names>RH</given-names>
+                  </name>
+               </person-group>
+               <article-title>Using improved technology for filter paper-based blood collection to survey wild Sika deer for antibodies to hepatitis E virus</article-title>
+               <source>J Virol Methods</source>
+               <year>2007</year>
+               <volume>142</volume>
+               <fpage>143</fpage>
+               <lpage>150</lpage>
+               <pub-id pub-id-type="pmid">17336401</pub-id>
+               <pub-id pub-id-type="doi">10.1016/j.jviromet.2007.01.016</pub-id>
+            </citation>
+         </ref>
+      </ref-list>
+   </back>
+</article>

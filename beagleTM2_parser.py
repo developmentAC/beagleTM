@@ -1,41 +1,36 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
-DATE = "22 June 2020"
-VERSION = "2_ii"
-AUTHOR = "Oliver Bonham-Carter"
-AUTHORMAIL = "obonhamcarter@allegheny.edu"
-"""The driver of the whole thing."""
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 #
-# #OUTPUT_DIR = "/tmp/0out/" # all results are saved in this local directory
-# OUTPUT_DIR = "0out/" # all results are saved in this local directory
-# INPUT_DIR = "allDocs/"
+# # Oliver ######## . # #       # .  #
+# # Bonham ######## . # #    # .  #
+# # Carter ######## . # # # .  #
+# ################# . # # ############
+# ################# . # # # .  #
+# ################# . # #    # .  #
+# ################# . # #       # .  #
 #
+#
+#
+#
+#
+
+#
+# DATE = "28 June 2020"
+# VERSION = "Parser 2_ii"
+# WHATISTHIS = "PubMed Parser"
+# AUTHOR = "Oliver Bonham-Carter"
+# AUTHORMAIL = "obonhamcarter@allegheny.edu"
+# """The driver of the whole thing."""
+
 
 # import libraries
 import os, sys
 import math
-import helperCode as hc
-
-
-
-# list other libraries here
-
-#from sklearn.metrics import r2_score
-#from sklearn.metrics import mean_squared_error
-#import plotly.plotly as py
-#import plotly.graph_objs as go
-#from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
-#import matplotlib.pyplot as plt
-#from scipy import stats
-#import numpy as np
-
-
-# Library installation notes:
-#
-#
+import beagleTM2_parser_helperCode as hc
 
 
 # Notes: to format nxml files into human readable formats

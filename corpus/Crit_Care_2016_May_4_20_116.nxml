@@ -1,0 +1,2183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="review-article">
+   <?properties open_access?>
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="nlm-ta">Crit Care</journal-id>
+         <journal-title-group>
+            <journal-title>Critical Care</journal-title>
+         </journal-title-group>
+         <issn pub-type="ppub">1364-8535</issn>
+         <issn pub-type="epub">1466-609X</issn>
+         <publisher>
+            <publisher-name>BioMed Central</publisher-name>
+            <publisher-loc>London</publisher-loc>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="pmid">27141977</article-id>
+         <article-id pub-id-type="pmc">4855315</article-id>
+         <article-id pub-id-type="publisher-id">1292</article-id>
+         <article-id pub-id-type="doi">10.1186/s13054-016-1292-7</article-id>
+         <article-categories>
+            <subj-group subj-group-type="heading">
+               <subject>Review</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Thoracic epidural analgesia: a new approach for the treatment of acute pancreatitis?</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author" corresp="yes">
+               <name>
+                  <surname>Windisch</surname>
+                  <given-names>Olivier</given-names>
+               </name>
+               <address>
+                  <email>o.windisch@gmail.com</email>
+               </address>
+               <xref ref-type="aff" rid="Aff1" />
+            </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>Heidegger</surname>
+                  <given-names>Claudia-Paula</given-names>
+               </name>
+               <address>
+                  <email>claudia.heidegger@hcuge.ch</email>
+               </address>
+               <xref ref-type="aff" rid="Aff2" />
+            </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>Giraud</surname>
+                  <given-names>Raphaël</given-names>
+               </name>
+               <address>
+                  <email>raphael.giraud@hcuge.ch</email>
+               </address>
+               <xref ref-type="aff" rid="Aff2" />
+            </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>Morel</surname>
+                  <given-names>Philippe</given-names>
+               </name>
+               <address>
+                  <email>philippe.morel@hcuge.ch</email>
+               </address>
+               <xref ref-type="aff" rid="Aff1" />
+            </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>Bühler</surname>
+                  <given-names>Léo</given-names>
+               </name>
+               <address>
+                  <email>leo.buhler@hcuge.ch</email>
+               </address>
+               <xref ref-type="aff" rid="Aff1" />
+            </contrib>
+            <aff id="Aff1">
+               <label />
+               Department of Surgery, Geneva University Hospitals, Geneva, Switzerland
+            </aff>
+            <aff id="Aff2">
+               <label />
+               Division of Intensive Care, Geneva University Hospitals, Geneva, Switzerland
+            </aff>
+         </contrib-group>
+         <pub-date pub-type="epub">
+            <day>4</day>
+            <month>5</month>
+            <year>2016</year>
+         </pub-date>
+         <pub-date pub-type="pmc-release">
+            <day>4</day>
+            <month>5</month>
+            <year>2016</year>
+         </pub-date>
+         <pub-date pub-type="ppub">
+            <year>2016</year>
+         </pub-date>
+         <volume>20</volume>
+         <elocation-id>116</elocation-id>
+         <permissions>
+            <copyright-statement>© Windisch et al. 2016</copyright-statement>
+            <license license-type="OpenAccess">
+               <license-p>
+                  <bold>Open Access</bold>
+                  This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (
+                  <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>
+                  ), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver (
+                  <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>
+                  ) applies to the data made available in this article, unless otherwise stated.
+               </license-p>
+            </license>
+         </permissions>
+         <abstract id="Abs1">
+            <p>This review article analyzes, through a nonsystematic approach, the pathophysiology of acute pancreatitis (AP) with a focus on the effects of thoracic epidural analgesia (TEA) on the disease. The benefit–risk balance is also discussed. AP has an overall mortality of 1 %, increasing to 30 % in its severe form. The systemic inflammation induces a strong activation of the sympathetic system, with a decrease in the blood flow supply to the gastrointestinal system that can lead to the development of pancreatic necrosis. The current treatment for severe AP is symptomatic and tries to correct the systemic inflammatory response syndrome or the multiorgan dysfunction. Besides the removal of gallstones in biliary pancreatitis, no satisfactory causal treatment exists. TEA is widely used, mainly for its analgesic effect. TEA also induces a targeted sympathectomy in the anesthetized region, which results in splanchnic vasodilatation and an improvement in local microcirculation. Increasing evidence shows benefits of TEA in animal AP: improved splanchnic and pancreatic perfusion, improved pancreatic microcirculation, reduced liver damage, and significantly reduced mortality. Until now, only few clinical studies have been performed on the use of TEA during AP with few available data regarding the effect of TEA on the splanchnic perfusion. Increasing evidence suggests that TEA is a safe procedure and could appear as a new treatment approach for human AP, based on the significant benefits observed in animal studies and safety of use for human. Further clinical studies are required to confirm the clinical benefits observed in animal studies.</p>
+         </abstract>
+         <kwd-group xml:lang="en">
+            <title>Keywords</title>
+            <kwd>Thoracic epidural analgesia/anesthesia</kwd>
+            <kwd>Acute pancreatitis</kwd>
+            <kwd>Mortality</kwd>
+            <kwd>Splanchnic perfusion</kwd>
+            <kwd>Microcirculation</kwd>
+            <kwd>Pancreas necrosis</kwd>
+         </kwd-group>
+         <custom-meta-group>
+            <custom-meta>
+               <meta-name>issue-copyright-statement</meta-name>
+               <meta-value>© The Author(s) 2016</meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+   </front>
+   <body>
+      <sec id="Sec1" sec-type="introduction">
+         <title>Background</title>
+         <p>
+            Acute pancreatitis (AP) is one of the most frequent gastrointestinal diseases requiring hospital admissions worldwide. In the USA in 2009, AP was responsible for 275,000 hospital admissions with a cost of over US$2.5 billion [
+            <xref ref-type="bibr" rid="CR1">1</xref>
+            ]. The incidence of AP is also increasing due to an increase of risk factors such as obesity, contributing to the formation of gallstones, the main cause for development of AP [
+            <xref ref-type="bibr" rid="CR2">2</xref>
+            ]. Other frequent etiologies of pancreatitis are increased alcohol consumption and aging. The proportion of each cause varies among the studies, but gallstones appear to be the first cause of AP, representing 40–70 % of overall cases [
+            <xref ref-type="bibr" rid="CR3">3</xref>
+            ].
+         </p>
+         <p>
+            In 80 % of the cases the disease course is mild, but 20 % of patients will experience moderately-severe to severe disease. Despite an overall mortality of 1 %, the severe form of AP is associated with a mortality reaching 30 % [
+            <xref ref-type="bibr" rid="CR4">4</xref>
+            ]. New guidelines, based on evidence-based literature, emerge every few years and tend to reach consensus on the best clinical management of AP. Besides the endoscopic removal of gallstones if present, symptomatic treatment remains the cornerstone of medical therapy in AP. Symptomatic therapy focuses on aggressive rehydration, early nutrition, acceptable analgesia, oxygenation, and antibiotic use restricted to confirmed infections [
+            <xref ref-type="bibr" rid="CR4">4</xref>
+            ]. All of these approaches do not have a direct action on the pancreas itself but try to attenuate the process of the multiorgan dysfunction syndrome (MODS) present in the severe form of pancreatitis. No causal treatment has yet been developed.
+         </p>
+         <p>
+            Recent animal and human studies have analyzed the role of thoracic epidural analgesia (TEA) during AP. Their hypothesis is that selective segmental sympathectomy induced by TEA may improve splanchnic perfusion and induce changes in microcirculation, leading to a better perfusion of the pancreas [
+            <xref ref-type="bibr" rid="CR5">5</xref>
+            ].
+         </p>
+         <p>
+            The effect of TEA on splanchnic blood flow is an active domain of interest, with conflicting results. Richards et al. [
+            <xref ref-type="bibr" rid="CR6">6</xref>
+            ] published in 2013 a systemic review which could not establish the real impact of TEA on splanchnic perfusion. Siniscalchi et al. [
+            <xref ref-type="bibr" rid="CR7">7</xref>
+            ] also stated that studies focusing on regional macrocirculation could not show an influence on, or even showed worsening of, regional perfusion when TEA was used. In contrast, studies focusing on microcirculation, especially in pathologic flow conditions such as the state induced by AP, suggested that TEA could improve microcirculation [
+            <xref ref-type="bibr" rid="CR7">7</xref>
+            ]. There is growing evidence that microcirculation plays a crucial role in AP, and no treatment except TEA has proven to play a role in this aspect.
+         </p>
+         <p>The goal of this article is to describe the pathophysiology of AP and to explore actual knowledge concerning the effect of TEA on AP by reviewing available animal and human studies. Furthermore we aim to evaluate the benefits and risks of TEA, discuss specific aspects relevant to its clinical application, and investigate its possible place in disease management.</p>
+         <sec id="Sec2">
+            <title>Pathophysiology of acute pancreatitis</title>
+            <p>
+               The underlying mechanism of AP is a dysfunction of the pancreatic acinar cells, resulting from an inappropriate activation of trypsinogen, the proenzyme of trypsin, in its active form trypsin [
+               <xref ref-type="bibr" rid="CR8">8</xref>
+               ]. The presence of active trypsin in the pancreas activates trypsinogen in the gland, leading to an accumulation of trypsin in the acinar cells followed by an inflammatory vicious circle. The high amount of proteolytic enzymes results in local inflammation of the gland, with ongoing damage to the pancreas [
+               <xref ref-type="bibr" rid="CR9">9</xref>
+               ,
+               <xref ref-type="bibr" rid="CR10">10</xref>
+               ] and release of proinflammatory cytokines interleukin (IL)-1, IL-6, and IL-8 and systemic mediators such as tumor necrosis factor alpha (TNF-α) inducing a systemic inflammatory state. This process is often mild and self-limiting, but the progression of inflammation can lead to a severe disease graved by local complications, systemic inflammatory response syndrome (SIRS), MODS, and death [
+               <xref ref-type="bibr" rid="CR11">11</xref>
+               ]. In the severe form of AP, the systemic inflammation induces macrovascular and microvascular alterations, leading to an increased capillary permeability. This in turn induces an interstitial fluid accumulation with a decreased circulating volume, causing functional hypovolemia with renal hypoperfusion and acute kidney injury. Pancreatic microvascular alterations include shunts, vasoconstriction, increased permeability, edema, and increased leukocyte adhesion [
+               <xref ref-type="bibr" rid="CR12">12</xref>
+               ]. Pancreatic tissue has been shown to be very sensitive to hypoxemia and ischemia with rapid progression to necrosis if local circulation is compromised [
+               <xref ref-type="bibr" rid="CR13">13</xref>
+               ]. Currently the most effective treatment measure is aggressive fluid resuscitation in order to restore an adequate circulating volume. However, pancreatic circulation during AP has been proven to be indirectly correlated to cardiac output. This indirect correlation is due to the microvasculatory changes happening during AP [
+               <xref ref-type="bibr" rid="CR12">12</xref>
+               ], thus explaining why even a sufficient systemic perfusion is sometimes not sufficient to provide an adequate local perfusion and prevent necrosis.
+            </p>
+            <p>
+               Two phases have been described in the development of complications during severe AP: early phase and late phase. The early phase takes place during the first 10 days and is characterized by SIRS and/or MODS. During this initial period, a marked hypovolemia is observed, accentuated by increased capillary permeability, ascites, and ileus, leading in combination with septic complications to renal dysfunction. Almost half of the patients with severe AP develop pulmonary complications, ranging from mild hypoxemia to acute respiratory distress syndrome [
+               <xref ref-type="bibr" rid="CR10">10</xref>
+               ].
+            </p>
+            <p>
+               The late phase has been associated with the development of infections [
+               <xref ref-type="bibr" rid="CR14">14</xref>
+               ] such as pneumonia and bacteremia [
+               <xref ref-type="bibr" rid="CR3">3</xref>
+               ,
+               <xref ref-type="bibr" rid="CR15">15</xref>
+               ,
+               <xref ref-type="bibr" rid="CR16">16</xref>
+               ] and is characterized by local complications (i.e., pancreatic and peripancreatic necrosis, peripancreatic fluid collections, pseudocysts, infection of necrotic tissue) [
+               <xref ref-type="bibr" rid="CR3">3</xref>
+               ]. Moreover, hypovolemia and hypoxemia due to MODS diminish the oxygen supply to the pancreas and promote the development of necrosis. Pancreatic necrosis is a severe complication because of its secondary infection risk. Infected necrosis by gut-derived bacteria is responsible for up to 80 % of mortality in AP [
+               <xref ref-type="bibr" rid="CR17">17</xref>
+               ]. Sterile pancreatic necrosis with bacteremia is associated with a high infection risk, especially when the gastrointestinal barrier is compromised [
+               <xref ref-type="bibr" rid="CR18">18</xref>
+               ].
+            </p>
+         </sec>
+         <sec id="Sec3">
+            <title>Thoracic epidural analgesia in sepsis</title>
+            <p>
+               Sympathetic blocks induced by TEA have been shown to induce peripheral and splanchnic vasodilatation, improve gut mucosal perfusion, delay intestinal acidosis in hypoxia, and increase intramucosal pH in patients with peritonitis [
+               <xref ref-type="bibr" rid="CR6">6</xref>
+               ]. However, TEA can also lead to functional hypovolemia and secondary hypotension, which is mainly seen in the presence of extensive thoracolumbar block [
+               <xref ref-type="bibr" rid="CR19">19</xref>
+               ]. In the context of sepsis or SIRS, when cardiovascular dysfunction leads to a reduced vascular tone, TEA could be deleterious. Daudel et al., investigating the role of TEA during an experimental model of endotoxemia, showed that an epidural block of T2–T10 did not impair cardiopulmonary hemodynamic conditions and global oxygen transport, beyond the changes induced by the endotoxin itself. Two hypotheses were formulated to explain the absence of hypotension in this localized block: either the localized vasodilatation was sufficiently compensated by vasoconstriction in nonblocked regions; or endotoxemia had already induced a maximal vasodilatation response, preventing a further decrease secondary to sympathetic blockade [
+               <xref ref-type="bibr" rid="CR19">19</xref>
+               ].
+            </p>
+            <p>
+               The bowel mucosa has a particular vascular architecture and is a very vulnerable tissue to hypoperfusion and hypoxia, requiring extensive amounts of oxygen to maintain functional integrity. In sepsis, microvascular derecruitment of vascular beds occurs, thus compromising the intestinal mucosal barrier and leading to translocation of bacteria and toxins with secondary bacteremia. Daudel et al. [
+               <xref ref-type="bibr" rid="CR20">20</xref>
+               ] also investigated the effects of TEA on gut mucosal microcirculation in septic rats and showed that TEA increased the density of capillary networks and improved the quality of gut mucosal perfusion.
+            </p>
+            <p>
+               The liver, as a main regulator of homeostasis to injury, sepsis, and inflammation, also represents a target of TEA. During AP, the activation of the sympathetic system leads to an increase of catecholamines, inducing activation of hepatocytes, Kupffer cells, and neutrophilic granulocytes. The resulting cytokine increase of IL-6, TNF-α, and Fas ligand (FasL) induces systemic inflammation and direct effects on the liver, causing local hepatic damages and hepatocyte apoptosis [
+               <xref ref-type="bibr" rid="CR21">21</xref>
+               ]. These hepatic alterations are worsened by α-adrenergic and β-adrenergic receptor stimulation, which can induce intrahepatic inflammation and liver injury in healthy mice without any additional stimuli. In severe sepsis, liver failure is associated with increased mortality and length of hospital stay. Hepatic sympathetic mechanical denervation has been shown to reduce liver injury during stressful situations [
+               <xref ref-type="bibr" rid="CR22">22</xref>
+               ]. In 2009, Freise et al. investigated the role of TEA on liver function in sepsis in rats. They showed a pathological increase in sinusoidal blood flow in the AP group, restored to control values with TEA. No significant changes were noted in mean blood pressure, cardiac output, hepatic enzymes, and TNF-α in animals with TEA [
+               <xref ref-type="bibr" rid="CR22">22</xref>
+               ].
+            </p>
+         </sec>
+         <sec id="Sec4">
+            <title>Epidural analgesia in animal acute pancreatitis</title>
+            <p>
+               Animal studies focusing on the role of TEA in AP are summarized in Table
+               <xref rid="Tab1" ref-type="table">1</xref>
+               . The main findings include mortality reduction in rats and pigs, reduced metabolic acidosis, reduced hepatocyte apoptosis and sinusoid vasoconstriction, and improvement of pancreatic and ileal perfusion. A specific discussion on these articles follows.
+               <table-wrap id="Tab1">
+                  <label>Table 1</label>
+                  <caption>
+                     <p>Animal studies focusing on the role of thoracic epidural analgesia in acute pancreatitis</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                     <thead>
+                        <tr>
+                           <th>First author and reference</th>
+                           <th>Year</th>
+                           <th>Subjects</th>
+                           <th>Number</th>
+                           <th>Groups</th>
+                           <th>Epidural analgesia</th>
+                           <th>Main measures</th>
+                           <th>Findings</th>
+                           <th>Comments</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              Demirag [
+                              <xref ref-type="bibr" rid="CR23">23</xref>
+                              ]
+                           </td>
+                           <td>2006</td>
+                           <td>Rats</td>
+                           <td>19</td>
+                           <td>
+                              Three groups:
+                              <break />
+                               1) AP [
+                              <xref ref-type="bibr" rid="CR9">9</xref>
+                              ]
+                              <break />
+                               2) TEA [
+                              <xref ref-type="bibr" rid="CR4">4</xref>
+                              ]
+                              <break />
+                               3) AP + TEA [
+                              <xref ref-type="bibr" rid="CR6">6</xref>
+                              ]
+                           </td>
+                           <td>Catheter positioned between T7 and T9. Bupivacaine 0.4 % 20 μl/h</td>
+                           <td>
+                              Hemodynamic and biological parameters
+                              <break />
+                              Arterial blood gases
+                              <break />
+                              Laser Doppler flowmetry of pancreatic microcirculation Histopathological analysis
+                           </td>
+                           <td>
+                              - TEA induced a strong increase in pancreatic microcirculation compared with AP group
+                              <break />
+                              - TEA reduced the severity of metabolic acidosis
+                              <break />
+                              - Histopathological analysis showed that TEA reduced acinar cells, without reaching statistical evidence
+                           </td>
+                           <td>
+                              Three different groups Histological analysis
+                              <break />
+                              Reproducibility of the procedure
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              Lauer [
+                              <xref ref-type="bibr" rid="CR24">24</xref>
+                              ]
+                           </td>
+                           <td>2007</td>
+                           <td>Rats</td>
+                           <td>21</td>
+                           <td>
+                              Three groups:
+                              <break />
+                               1) AP [
+                              <xref ref-type="bibr" rid="CR7">7</xref>
+                              ]
+                              <break />
+                               2) AP + TEA [
+                              <xref ref-type="bibr" rid="CR7">7</xref>
+                              ]
+                              <break />
+                               3) Sham
+                              <sup>a</sup>
+                               + TEA [
+                              <xref ref-type="bibr" rid="CR7">7</xref>
+                              ]
+                           </td>
+                           <td>Catheter insertion in L3– L4, advanced to T6. Bupivacaine 0.5 % 15 μl/h</td>
+                           <td>
+                              In-vivo and in-vitro analysis Hemodynamic and biological parameters
+                              <break />
+                              Arterial blood gases Receptor-independent vasoconstriction
+                              <break />
+                              Receptor-dependent and independent vasoconstriction by angiotensin and bradykinin
+                           </td>
+                           <td>
+                              - AP group had more severe metabolic and lactate acidosis compared with rats benefitting from TEA
+                              <break />
+                              - TEA induced a better arterial oxygenation and higher mean arterial pressure compared with AP
+                              <break />
+                              - TEA induced a better hypoxic vasoconstriction response associated with a reduction of exhaled nitric oxide, showing less smooth muscle cell dysfunction compared with AP
+                              <break />
+                              - TEA induced a better receptor sensitivity to angiotensin II and bradykinin compared with AP
+                           </td>
+                           <td>
+                              Three different groups In-vivo and in-vitro analysis
+                              <break />
+                              Reproducibility of the procedure
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              Freise [
+                              <xref ref-type="bibr" rid="CR26">26</xref>
+                              ]
+                           </td>
+                           <td>2009</td>
+                           <td>Rats</td>
+                           <td>28 + 22</td>
+                           <td>
+                              Four groups:
+                              <break />
+                               1) Sham
+                              <sup>a</sup>
+                               + NaCl [
+                              <xref ref-type="bibr" rid="CR7">7</xref>
+                              ]
+                              <break />
+                               2) Sham
+                              <sup>a</sup>
+                               + TEA (7 + 8)
+                              <break />
+                               3) AP + NaCl (7 + 7) 4) AP + TEA (7 + 7)
+                           </td>
+                           <td>Catheter insertion in L3– L4, advanced to T6. Bupivacaine 0.5 % 15 μl/h</td>
+                           <td>
+                              Hemodynamic and biological parameters
+                              <break />
+                              Arterial blood gases Intravital microscopy for sinusoid perfusion and diameter
+                              <break />
+                              FasL expression measures Histopathological analysis
+                           </td>
+                           <td>
+                              - TEA reduced overall apoptosis and hepatocyte apoptosis compared with AP
+                              <break />
+                              - TEA prevented sinusoid vasoconstriction, but did not influence loss of sinusoids and sinusoidal perfusion compared with AP
+                              <break />
+                              - TEA did not induce significant changes in hemodynamic parameters, FasL expression, and arterial blood gases
+                           </td>
+                           <td>
+                              Four different groups
+                              <break />
+                              Blinded investigators and pathologist  Large sample with 22 rats added for histopathological analysis and FasL measures
+                              <break />
+                              Reproducibility of the procedure
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              Freise [
+                              <xref ref-type="bibr" rid="CR18">18</xref>
+                              ]
+                           </td>
+                           <td>2006</td>
+                           <td>Rats</td>
+                           <td>28</td>
+                           <td>
+                              Four groups:   1) Sham
+                              <sup>a</sup>
+                               + NaCl [
+                              <xref ref-type="bibr" rid="CR7">7</xref>
+                              ]   2) AP + NaCl [
+                              <xref ref-type="bibr" rid="CR7">7</xref>
+                              ]   3) AP + TEA [
+                              <xref ref-type="bibr" rid="CR7">7</xref>
+                              ]   4) AP + TEA 7 hours after AP induction
+                           </td>
+                           <td>Catheter insertion in L3– L4, advanced to T6. Bupivacaine 0.5 % 15 μl/h</td>
+                           <td>
+                              Intravital microscopy of ileal mucosa
+                              <break />
+                              Hemodynamic and biological parameters
+                              <break />
+                              Arterial blood gases Histopathological analysis
+                           </td>
+                           <td>
+                              - TEA increased survival at 7 days from 33 to 73 % compared with AP group
+                              <break />
+                              - TEA did not induce more hypotension compared with AP group
+                              <break />
+                              - A reduction of 50 % of the ileal arteriolar perfusion was observed in the AP group, restored to normal in the AP + TEA and in delayed TEA groups
+                              <break />
+                              - TEA reduced lactate concentration in the AP + TEA and delayed TEA group compared with AP
+                              <break />
+                              - TEA reduced histologic injury compared with AP alone, without reaching statistical evidence
+                              <break />
+                              - TEA induced a diminution of IL-6 plasmatic concentration compared with AP
+                           </td>
+                           <td>
+                              7 days of follow-up
+                              <break />
+                              Data on mortality
+                              <break />
+                              Four different groups, one with delayed TEA, closer to clinical situation  Blinding of investigators and pathologists Reproducibility of the procedure
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              Bachmann [
+                              <xref ref-type="bibr" rid="CR27">27</xref>
+                              ]
+                           </td>
+                           <td>2013</td>
+                           <td>Pigs</td>
+                           <td>34</td>
+                           <td>
+                              Two groups:   1) AP + TEA [
+                              <xref ref-type="bibr" rid="CR13">13</xref>
+                              ]   2) AP alone [
+                              <xref ref-type="bibr" rid="CR21">21</xref>
+                              ]
+                           </td>
+                           <td>Catheter positioned between T7 and T8. Bupivacaine 0.5 % bolus + continuous 4 ml/h</td>
+                           <td>
+                              Hemodynamic and biological parameters, arterial blood gases  Laser Doppler flow measures of pancreas microcirculation
+                              <break />
+                              All of the experiment was realized in ICU settings with hemodynamic monitoring and automated infusion system
+                           </td>
+                           <td>
+                              - TEA improved overall survival at 7 days, from 29 % in AP group to 82 % in the group receiving TEA
+                              <break />
+                              - TEA improved microcirculation and tissue oxygenation of the pancreas
+                              <break />
+                              - TEA reduced histopathological pancreatic lesion compared with AP
+                           </td>
+                           <td>
+                              7 days of follow-up
+                              <break />
+                              Data on mortality
+                              <break />
+                              Experiment on big animals, allowing controlled hemodynamic conditions such as in ICU settings
+                              <break />
+                              Verification of TEA spread by epidurogram Blinded pathologist Reproducibility of the procedure
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table-wrap-foot>
+                     <p>
+                        <sup>a</sup>
+                        Sham defines a group with no induction of acute pancreatitis
+                     </p>
+                     <p>
+                        <italic>TEA</italic>
+                        thoracic epidural analgesia,
+                        <italic>AP</italic>
+                        acute pancreatitis,
+                        <italic>FasL</italic>
+                        Fas ligand,
+                        <italic>IL</italic>
+                        interleukin
+                     </p>
+                  </table-wrap-foot>
+               </table-wrap>
+            </p>
+            <p>
+               In 2006, Demirag et al. [
+               <xref ref-type="bibr" rid="CR23">23</xref>
+               ] showed for the first time the benefit of TEA on the severity of AP in rats. The authors evaluated the impact of TEA during AP by measuring the pancreatic microcirculatory flow and arterial blood gases, and completed the experiment with histological analyses to investigate the development of pancreatic necrosis. TEA partially restored the severe reduction in pancreatic blood flow occurring after AP induction, and reduced the severity of metabolic acidosis. The histopathology, performed less than 5 hours after AP induction, showed extensive edema and tissue necrosis in the AP group with less extensive damage in the TEA group without reaching statistical significance [
+               <xref ref-type="bibr" rid="CR23">23</xref>
+               ].
+            </p>
+            <p>
+               To investigate the pulmonary repercussions of TEA during AP, Lauer et al. [
+               <xref ref-type="bibr" rid="CR24">24</xref>
+               ] developed an in-vivo and in-vitro model of AP and TEA in rats. They showed many effects of AP on the hemodynamic conditions and lung function: pulmonary edema, reduced oxygenation, development of metabolic acidosis, increased myeloperoxidase activity (marker of neutrophil infiltration in the lung tissue), and severe endothelial dysfunction. They showed a beneficial role of TEA with following results: the AP + TEA group compared with the AP group had better PaO
+               <sub>2</sub>
+               and higher mean arterial pressure and developed almost no metabolic acidosis, whereas the AP group developed lactate acidosis. AP also severely impaired lung vasoadaptative mechanisms such as hypoxic pulmonary vasoconstriction (HPV), an important adaptative mechanism depending on the integrity of vascular smooth muscle cells, redirecting blood flow from hypoxic to normoxic regions, and thus optimizing the ventilation/perfusion ratio [
+               <xref ref-type="bibr" rid="CR24">24</xref>
+               ]. One of the hypotheses for HPV impairment is an increased production of nitric oxide (NO) in pancreatitis. In the context of endothelial dysfunction, increased NO production, normally known to be anti-inflammatory and vasodilatative, is thought to hinder protective vasoconstriction and alter HPV. The TEA group showed lower levels of exhaled NO, associated with a better HPV regulation. In the context of endothelial dysfunction, improvement of HPV by NO synthase inhibitors is described in the literature [
+               <xref ref-type="bibr" rid="CR25">25</xref>
+               ]. They also investigated receptor-dependent pulmonary vasoconstriction and found an increased vasoreactivity to Angiotensin II and to bradykinin in the TEA group, showing better receptor-dependent vasoconstriction. It is noteworthy here to signal that bradykinin normally only induces vasoconstriction when the endothelium is deficient. The authors discussed this issue with the hypothesis that TEA might improve receptor function itself. All of these findings suggest an improved lung adaptation mechanism to inflammatory injury by TEA.
+            </p>
+            <p>
+               Hepatic effects of TEA during AP were investigated in a study published by Freise et al. [
+               <xref ref-type="bibr" rid="CR26">26</xref>
+               ] where they measured hepatic perfusion by intravital microscopy and FasL concentration and performed histopathological analysis. They showed a reduction in sinusoidal vasoconstriction, without any influence on loss of sinusoids and sinusoidal perfusion. TEA reduced overall apoptosis and hepatocyte apoptosis significantly. No significant changes in FasL expression were noted. These results suggest that TEA plays a role in hepatic dysfunction occurring during AP by reducing hepatocyte apoptosis [
+               <xref ref-type="bibr" rid="CR26">26</xref>
+               ].
+            </p>
+            <p>
+               Freise et al. [
+               <xref ref-type="bibr" rid="CR18">18</xref>
+               ] conducted another study in rats randomized into four groups (TEA without AP, AP, AP + TEA, and AP + TEA delayed 7 hours after AP induction), focusing on survival and pancreatic perfusion. They showed a decrease of 50 % of the ileal mucosal arteriolar blood flow after induction of AP, which was restored to normal in the TEA group and the delayed TEA group. More impressively, they showed an increased 7-day survival rate of 73 % in the AP + TEA group as compared with 33 % in the AP group (
+               <italic>P</italic>
+                &lt; 0.05). They also measured the plasmatic concentration of IL-6, and showed a significant reduced serum concentration in the TEA and the delayed TEA groups compared with AP [
+               <xref ref-type="bibr" rid="CR18">18</xref>
+               ]. This finding is noteworthy since IL-6 contributes to the disruption of the gastrointestinal barrier, thus promoting bacterial translocation and endotoxemia, and increasing the risk of pancreatic necrosis infection.
+            </p>
+            <p>
+               Bachmann et al. [
+               <xref ref-type="bibr" rid="CR27">27</xref>
+               ] reported an experimental study in pigs where one group of animals underwent AP and TEA, while control animals underwent AP only. During the first 6 hours, all animals had controlled hemodynamic conditions with fluid administration or catecholamine infusion if needed. Tissue perfusion and oxygenation was measured by surgical laparotomy. After AP induction, blood flow and tissue oxygenation diminished rapidly in both groups, but animals receiving TEA maintained a significantly higher perfusion and tissue oxygenation when compared with the control animals. Histopathological analysis revealed significantly less severe pancreatic lesions in the group benefiting from TEA. The main outcome of this study was the 7-day survival, showing 82 % of animals alive in the TEA group compared with only 29 % in the control group (
+               <italic>P</italic>
+                &lt; 0.05) [
+               <xref ref-type="bibr" rid="CR27">27</xref>
+               ]. A main force of this study is the use of large animals, which allowed the authors to monitor animals in conditions similar to the intensive care setting. These results indicate the crucial role of TEA on mortality in a large animal model of AP.
+            </p>
+            <p>
+               We have discussed many positive aspects of local anesthetics (LA) administered in an epidural way in animals experiencing AP. There exists evidence that intravenous LA play an anti-inflammatory role in the lung, the endothelial cells, and the gastrointestinal tract [
+               <xref ref-type="bibr" rid="CR28">28</xref>
+               ]. This is interesting since a considerable resorption of LA occurs in the systemic circulation [
+               <xref ref-type="bibr" rid="CR29">29</xref>
+               ]. Cassuto et al. [
+               <xref ref-type="bibr" rid="CR30">30</xref>
+               ] in 2006 reviewed the literature concerning the anti-inflammatory role of LA. The LA from the amino-amide class, such as lidocaine and bupivacaine, have a dose-dependent anti-inflammatory action when injected intravenously. They reduce leukocyte adhesion and migration, phagocytosis, and oxygen free radical production. They also reduce the synthesis of inflammatory mediators by inhibition of various cell membrane-associated enzymes and inhibit cytokines release such as IL-1, TNF-α, and IL-8 [
+               <xref ref-type="bibr" rid="CR30">30</xref>
+               ]. LA also possess a bactericidal action mostly related to their concentration and partly to their structure. Ropivacaine appears to be an exception, showing less or no anti-inflammatory and bactericidal activity. These results suggest that TEA might also have an indirect anti-inflammatory action by its systemic resorption.
+            </p>
+         </sec>
+         <sec id="Sec5">
+            <title>Epidural analgesia in human acute pancreatitis – safety and efficacy</title>
+            <p>
+               The impact of TEA on the human physiology has been studied extensively, but is still not fully understood. Most of the knowledge we have comes from experimental studies. Human studies focusing on the role of TEA in AP are summarized in Table
+               <xref rid="Tab2" ref-type="table">2</xref>
+               . The main findings include the safety of use in patients presenting severe sepsis and septic shock and an improvement in pancreatic perfusion. Side-effects (hypotension, epidural abscess) and the protocol of epidural analgesia are presented. A specific discussion concerning these articles follows.
+               <table-wrap id="Tab2">
+                  <label>Table 2</label>
+                  <caption>
+                     <p>Human studies focusing on the role of thoracic epidural analgesia in acute pancreatitis</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                     <thead>
+                        <tr>
+                           <th>First author and reference</th>
+                           <th>Year</th>
+                           <th>Number</th>
+                           <th>Type of study</th>
+                           <th>Epidural analgesia</th>
+                           <th>Measures</th>
+                           <th>Findings</th>
+                           <th>Strength of the study</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              Bernhardt [
+                              <xref ref-type="bibr" rid="CR31">31</xref>
+                              ]
+                           </td>
+                           <td>2002</td>
+                           <td>121</td>
+                           <td>Prospective observational study</td>
+                           <td>Catheters were placed in the thoracolumbar region, varying from T8 to L3, most of them being placed between T10 and L1  70 % were thoracic blocks and 30 % were lumbar blocks  Epidural analgesia was managed with boli of 3–5 ml of bupivacaine 0.25 % every 4–6 hours. No continuous administration</td>
+                           <td>
+                              Safety of procedure
+                              <break />
+                              Number of doses given
+                              <break />
+                              Mortality
+                              <break />
+                              Pain Number of surgeries needed Days of artificial ventilation Biological parameters
+                           </td>
+                           <td>
+                              - The median epidural block length was 4.2 days
+                              <break />
+                              - TEA was well tolerated and considered safe even in severe patients
+                              <break />
+                              - Catheter-associated hypotension occurred in 12 % of the cases, manageable without complication with fluid replacement and amines
+                              <break />
+                              - Excellent analgesia was achieved in 72 % of observation days without additional drugs
+                              <break />
+                              - Normalization of pancreatic enzymes occurred sooner in patients with early placement of catheter
+                              <break />
+                              -13 % of patients required artificial ventilation (mean 12 days)
+                              <break />
+                              - 24 % of patients had accidental removal of catheter: 7.4 % had three catheters placed, 3.3 % had four catheters placed, without any infectious complications
+                              <break />
+                              - Average duration of ICU was 12.4 days
+                           </td>
+                           <td>Large sample, representative of general population (mean 53.2 years, extremes 15–87) Precise follow-up of doses needed to reach sufficient analgesia</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              Jabaudon [
+                              <xref ref-type="bibr" rid="CR32">32</xref>
+                              ]
+                           </td>
+                           <td>2015</td>
+                           <td>121</td>
+                           <td>Prospective observational multicenter study</td>
+                           <td>Catheters were placed in the thoracolumbar region: 89 % were thoracic blocks and 11 % were lumbar blocks  Each center had its own epidural protocol: 26 % used levobupivacaine and 74 % used ropivacaine  Local anesthetics were always combined with sufentanil</td>
+                           <td>
+                              Safety of procedure in severe patients
+                              <break />
+                              Mortality Reason for initiating TEA Sepsis status
+                              <break />
+                              ICU standard measures
+                           </td>
+                           <td>
+                              - The mean epidural block length was 11 days
+                              <break />
+                              - 38 patients (31 %) had acute pancreatitis
+                              <break />
+                              - 8 % of patients presented catheter-associated hypotension, 2.5 % required punctual administration of vasopressin during the catheter placement
+                              <break />
+                              - 60 % of patients experienced sepsis, 42 % severe sepsis, 22 % septic shock and showed good tolerance to TEA
+                              <break />
+                              - 65 % of patients required mechanical ventilation during the ICU stay
+                              <break />
+                              - 17 % had accidental removal of catheter
+                              <break />
+                              - one case of epidural abscess
+                           </td>
+                           <td>
+                              Large sample, but only 38 patients experiencing AP Multicenter study
+                              <break />
+                              Long epidural duration
+                              <break />
+                              Good tolerance in severe disease
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              Sadowski [
+                              <xref ref-type="bibr" rid="CR33">33</xref>
+                              ]
+                           </td>
+                           <td>2015</td>
+                           <td>35</td>
+                           <td>
+                              Randomized control trial Group 1: AP + TEA [
+                              <xref ref-type="bibr" rid="CR13">13</xref>
+                              ] Group 2: AP alone [
+                              <xref ref-type="bibr" rid="CR22">22</xref>
+                              ]
+                           </td>
+                           <td>All catheters were placed at the thoracic level between T6 and T9, reaching a T4–T12 sensitive block Epidural analgesia was managed on a patient-controlled protocol, with continuous infusion of bupivacaine 0.1 % + fentanyl 2 μg/ml 6–15 ml/h + boli of 3–5 ml every 30–60 min</td>
+                           <td>
+                              Safety of TEA in severe AP patients
+                              <break />
+                              CT perfusion protocol on admission and 72 h (&gt;20 % difference considered significant)
+                              <break />
+                              Pain measure, length of hospital stay  Use of antibiotics Admission to ICU  Patient demographics, comorbidities and etiology of AP
+                           </td>
+                           <td>
+                              - The median epidural block length was 5.7 days
+                              <break />
+                              - More patients increased their pancreatic perfusion in the group benefitting from TEA compared with AP (43 % vs 7 % respectively)
+                              <break />
+                              - TEA helped reduce visual analog pain score compared with AP
+                              <break />
+                              - No significant differences were noted in ICU admission
+                              <break />
+                              - Less patients in the TEA group required artificial ventilation compared with AP, without reaching statistical evidence (7.7 % vs 27.3 %,
+                              <italic>P</italic>
+                               = 0.22)
+                              <break />
+                              - No differences were observed in locoregional and systemic complications
+                              <break />
+                              - No length of stay difference
+                           </td>
+                           <td>Randomized control trial  Study conducted on patients experiencing severe disease Blinded radiologist</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table-wrap-foot>
+                     <p>
+                        <italic>TEA</italic>
+                        thoracic epidural analgesia,
+                        <italic>AP</italic>
+                        acute pancreatitis
+                     </p>
+                  </table-wrap-foot>
+               </table-wrap>
+            </p>
+            <p>
+               Only a few studies have investigated the role of TEA in humans with AP, and most of them focused on the safety of use more than on the changes in prognosis. Bernhardt et al. [
+               <xref ref-type="bibr" rid="CR31">31</xref>
+               ] analyzed the safety of TEA during AP in a group of 121 patients. The authors could show that epidural injection of LA was well tolerated, even in patients with marginal cardiovascular stability. No neurological or infectious complications were reported. Excellent analgesia was achieved in 72 % of the observation days by TEA only, without use of systemic analgesic substances. Only 8 % of LA injections were associated with hemodynamic changes requiring use of sympathomimetic drugs. The conclusion of the study was that TEA is a safe procedure in patients experiencing AP even in its severe form, and that cardiovascular instability should not be considered as a contraindication of TEA. However, septic shock situations should be approached with caution. This study did not investigate the prognosis of patients, but postulated an improvement in early mobilization, with fewer embolic and respiratory complications [
+               <xref ref-type="bibr" rid="CR31">31</xref>
+               ].
+            </p>
+            <p>
+               To assess the feasibility, practice, and safety of epidural analgesia in the ICU, Jabaudon et al. [
+               <xref ref-type="bibr" rid="CR32">32</xref>
+               ] published in 2015 a prospective multicenter observational study. They included 121 patients, of which 38 (31 %) had AP. Other main causes of inclusion were major surgery (42 %) and trauma (14 %). Most of the patients presented organ failure on admission. Criteria for sepsis, severe sepsis, and septic shock were present in 60 %, 42 %, and 22 % of the patients respectively. The mean length of stay of the epidural catheter was 11 days with extreme values ranging from 3 to 38 days.
+            </p>
+            <p>
+               The observed adverse effects of TEA were the following: 8 % of the patients presented a catheter placement-related hypotension which responded adequately to intravenous fluid administration of 250–500 ml; and 2.5 % required vasopressor therapy during the catheter placement procedure in addition to the fluid resuscitation. Furthermore, one case (0.8 %) of epidural abscess was observed, with an incidence rate higher than reported previously in anesthesia and perioperative medicine [
+               <xref ref-type="bibr" rid="CR5">5</xref>
+               ]. The authors admitted that this abscess could have reasonably been avoided with a strict protocol for catheter insertion and management. No spinal or epidural hematomas were reported, despite the accidental removal rate of 17 %. Their study suggested safety of use of TEA during organ failure, such as that appearing in AP, with the requirements of a close follow-up looking carefully for signs of infections and a timely removal of catheters in patients with suspected or known untreated bacteremia [
+               <xref ref-type="bibr" rid="CR32">32</xref>
+               ].
+            </p>
+            <p>
+               Another randomized prospective pilot study was conducted by Sadowski et al. [
+               <xref ref-type="bibr" rid="CR33">33</xref>
+               ] on 35 patients with severe forms of AP. Patients were randomized into two groups, one receiving TEA and the other systemic analgesia. The primary outcome was safety of TEA in AP patients. TEA was placed for a median time of 5.7 days, and no hemodynamic or infectious complications occurred. Pancreatic perfusion was evaluated by two injected CT scans at admission and 72 hours later. A significant variation of pancreatic perfusion was defined as a difference of at least 20 % between the two time points. Improved pancreas perfusion (20 % increase or more) was observed for 43 % patients in the TEA group vs 7 % in the control group. TEA allowed better pain management, assessed by a visual analog pain scale every 8 hours. Hospital length of stay and mortality (0 % in both groups) were not statistically different. This pilot study showed that TEA increased arterial pancreas perfusion and was safe for use in patients with severe AP [
+               <xref ref-type="bibr" rid="CR33">33</xref>
+               ].
+            </p>
+            <p>All of these recent studies suggest that the use of TEA during AP is safe, and can possibly induce an improvement in pancreatic perfusion. Hypotension should not be retained as a contraindication for TEA during AP, since it is manageable by fluid resuscitation or pharmacological interventions.</p>
+         </sec>
+      </sec>
+      <sec id="Sec6" sec-type="discussion">
+         <title>Discussion</title>
+         <p>
+            We have shown throughout this review the existence of increasing evidence that TEA plays a regulatory role in many organ dysfunctions during severe AP, such as that of the pancreas itself, the gut, the liver, and the lungs. Indeed, TEA improves intestinal blood flow, pancreatic microcirculation, and lung and liver function, reduces the extent of pancreatic necrosis, and helps preserve the gastrointestinal barrier during AP. All of these factors are crucial in the development of AP complications. Animal models also showed an important mortality reduction in animals receiving TEA [
+            <xref ref-type="bibr" rid="CR18">18</xref>
+            ,
+            <xref ref-type="bibr" rid="CR27">27</xref>
+            ]. All these findings suggest that TEA is an efficient approach to reduce the proinflammatory state and improve the outcome of the disease.
+         </p>
+         <p>Many questions remain concerning the clinical application of TEA: where and when should the catheter be placed and how long should it stay in place? What block extension is required? Should only patients with severe disease benefit from TEA or is there also a benefit for milder disease? What type of anesthetics should be used? During the following discussion, we aim to discuss these practical aspects one by one.</p>
+         <p>
+            To begin this discussion, it is important to say that TEA is already used by many clinicians in the context of AP, mainly for analgesic purposes when conventional analgesic therapy is insufficient. To determine where to place the block, it is relevant to know that pancreas sympathetic afferent innervations originate in T6–L2 [
+            <xref ref-type="bibr" rid="CR34">34</xref>
+            ]. Knowing that catecholamine release, one of the main factors contributing to maintaining blood pressure, occurs by stimulation of the adrenal medulla innervated by T5–L1 [
+            <xref ref-type="bibr" rid="CR35">35</xref>
+            ], hypotension is one of the awaited side-effects from pancreatic regional sympathetic blockade. In most of the human studies we reviewed, the block was placed either in a low thoracic position or in an apical lumbar position (Table
+            <xref rid="Tab2" ref-type="table">2</xref>
+            ); and in animal experiments, all of the catheters were positioned in a low thoracic position (Table
+            <xref rid="Tab1" ref-type="table">1</xref>
+            ), with an incidence of hypotension around 10 %. We could not find pertinent articles concerning extended blocks to the cardiac region during AP; however, we consider that extending this block to the cardiopulmonary region might diminish the cardiac response to hypotension and increase the frequency and severity of hypotension. Based on existing experimental studies, a low thoracic block or apical lumbar block should be used, with a preference for the low thoracic block to minimize the block extension with regard to the risk of hypotension.
+         </p>
+         <p>
+            Combined epidural analgesia (CEA) is another approach to reduce the doses of LA and improve analgesia. Jabaudon et al. [
+            <xref ref-type="bibr" rid="CR32">32</xref>
+            ] and Sadowski et al. [
+            <xref ref-type="bibr" rid="CR33">33</xref>
+            ] used sufentanil and fentanyl respectively, whereas Bernhardt et al. [
+            <xref ref-type="bibr" rid="CR31">31</xref>
+            ] used bupivacaine only, with a satisfactory analgesia in all studies. In a randomized, double-blind trial focusing on postthoratocomy pain, Grider et al. [
+            <xref ref-type="bibr" rid="CR36">36</xref>
+            ] showed that a combination of hydromorphone with bupivacaine vs bupivacaine alone resulted in better analgesia with smaller doses and a reduced hypotension rate in the CEA group. Another prospective randomized trial realized in the same context by Tuncel et al. [
+            <xref ref-type="bibr" rid="CR37">37</xref>
+            ] also showed superior pain relief by a combination of sufentanil with ropivacaine vs ropivacaine alone, without significant difference in the hypotension rate. CEA should therefore be used to minimize the risk of hypotension.
+         </p>
+         <p>
+            When comparing animal models with human AP pathophysiology, it is important to consider that experimental studies mimic a hyperacute model of AP, with TEA effective within minutes or hours following the induction of AP. This situation is not realistic for clinical practice, when TEA could not be performed earlier than hours or days after induction. The remaining question is whether the TEA benefits will continue if initiated within these delays, and which kind of patients could benefit from this procedure? Bernhardt et al. [
+            <xref ref-type="bibr" rid="CR31">31</xref>
+            ] observed that the earlier TEA was started in humans, the faster pancreatic specific enzymes decreased in the serum of patients. This beneficial effect was still observed after several days, suggesting that TEA maintains a beneficial role even if not installed immediately [
+            <xref ref-type="bibr" rid="CR28">28</xref>
+            ]. To consider which patients should benefit from TEA, it is crucial to identify patients at high risk of developing a severe disease, since the purpose of TEA placement is to avoid further complications and to minimize already present complications. In the last revision of the Atlanta Classification [
+            <xref ref-type="bibr" rid="CR38">38</xref>
+            ], the Marshall score [
+            <xref ref-type="bibr" rid="CR39">39</xref>
+            ] – based on respiratory, renal, and cardiovascular dysfunction – was defined as a simple, efficient, and universal score to identify patients experiencing severe disease [
+            <xref ref-type="bibr" rid="CR38">38</xref>
+            ]. We propose to use the Marshall score as an aid for physicians to identify rapidly severe cases of AP, which should then benefit from TEA initiated as early as possible.
+         </p>
+         <p>
+            Another unresolved issue is the optimal length of treatment, maximizing potential benefits and minimizing infectious complications. Bernhardt et al. [
+            <xref ref-type="bibr" rid="CR31">31</xref>
+            ] and Sadowski et al. [
+            <xref ref-type="bibr" rid="CR33">33</xref>
+            ] observed good clinical tolerance and no infectious complications with a mean in-place catheter duration of 4.2 days and 5.7 days respectively, whereas Jabaudon et al. [
+            <xref ref-type="bibr" rid="CR32">32</xref>
+            ] also observed good tolerance with a mean duration of 11 days, but with one case of epidural abscess [
+            <xref ref-type="bibr" rid="CR32">32</xref>
+            ]. TEA management is not clearly standardized and several protocols exist with regard to avoiding procedure-related complications. We should keep in mind that epidural abscess is the most feared and severe complication of TEA, but is rare with adequate management. For example, known untreated bacteremia should be a sufficient reason to remove the catheter. Concerning catheter dislocation that happened in 24 % and 17 % patients in the studies of Bernhardt et al. [
+            <xref ref-type="bibr" rid="CR31">31</xref>
+            ] and Jabaudon et al. [
+            <xref ref-type="bibr" rid="CR32">32</xref>
+            ] respectively, the catheter was safely replaced in patients showing no signs of local infection. Moreover, Jabaudon et al. showed that 74 % of the patients required only one catheter placement, whereas two catheters were placed in 15 %, three catheters in 10 %, and four catheters in 2 %, with a mean catheter colonization of 22 %. Some centers propose to change the catheter every 7–10 days to avoid infection risks. To maximize the effects of TEA, we propose that the catheter should stay in place as long as it is required for pain management, since there exists no simple way to test directly the induced sympathectomy. Catheter replacement should be discussed if catheters stay in place for a period exceeding 7–10 days or if they are accidentally removed. A close follow-up searching for local and systemic signs of untreated infection is required, and the catheter should be removed as soon as serious infectious risks are detected.
+         </p>
+      </sec>
+      <sec id="Sec7" sec-type="conclusion">
+         <title>Conclusion</title>
+         <p>There is a real need for new therapeutic approaches for the treatment of severe AP, for which the mortality is still high for severe disease. The growing understanding of the disease has proven that microcirculation plays a crucial role in the development of pancreatic necrosis. TEA appears to be a promising complementary approach, acting on microcirculation and many organs dysfunctioning in AP which are not influenced by conventional treatment. TEA appears as a safe and effective procedure in humans experiencing severe AP, allowing better analgesia and potential benefits. Close follow-up of patients benefiting from TEA is required to manage side-effects such as hypotension and avoid epidural abscess. Multicenter randomized trials are becoming mandatory to investigate the effects of TEA on morbidity and mortality in humans undergoing a severe form of AP.</p>
+      </sec>
+   </body>
+   <back>
+      <glossary>
+         <title>Abbreviations</title>
+         <def-list>
+            <def-item>
+               <term>AP</term>
+               <def>
+                  <p>acute pancreatitis</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>CEA</term>
+               <def>
+                  <p>combined epidural analgesia</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>FasL</term>
+               <def>
+                  <p>Fas ligand</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>HPV</term>
+               <def>
+                  <p>hypoxic pulmonary vasoconstriction</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>IL</term>
+               <def>
+                  <p>interleukin</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>LA</term>
+               <def>
+                  <p>local anesthetics</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>MODS</term>
+               <def>
+                  <p>multiorgan dysfunction syndrome</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>NO</term>
+               <def>
+                  <p>nitric oxide</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>SIRS</term>
+               <def>
+                  <p>systemic inflammatory response syndrome</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>TEA</term>
+               <def>
+                  <p>thoracic epidural analgesia</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>TNF- α</term>
+               <def>
+                  <p>tumor necrosis factor alpha</p>
+               </def>
+            </def-item>
+         </def-list>
+      </glossary>
+      <fn-group>
+         <fn>
+            <p>
+               <bold>Competing interests</bold>
+            </p>
+            <p>The authors declare that they have no competing interests.</p>
+         </fn>
+         <fn>
+            <p>
+               <bold>Authors’ contributions</bold>
+            </p>
+            <p>OW reviewed the current literature and drafted the main part of the manuscript. CH, RG, and PM edited the manuscript and contributed by iteratively reviewing and improving the manuscript. LB edited the manuscript, gave oversight to draft the manuscript, and made substantive intellectual contributions and improvements. All authors read and approved the final manuscript.</p>
+         </fn>
+      </fn-group>
+      <ref-list id="Bib1">
+         <title>References</title>
+         <ref id="CR1">
+            <label>1.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Peery</surname>
+                     <given-names>AF</given-names>
+                  </name>
+                  <name>
+                     <surname>Dellon</surname>
+                     <given-names>ES</given-names>
+                  </name>
+                  <name>
+                     <surname>Lund</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Crockett</surname>
+                     <given-names>SD</given-names>
+                  </name>
+                  <name>
+                     <surname>McGowan</surname>
+                     <given-names>CE</given-names>
+                  </name>
+                  <name>
+                     <surname>Bulsiewicz</surname>
+                     <given-names>WJ</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Burden of gastrointestinal disease in the United States: 2012 update</article-title>
+               <source>Gastroenterology</source>
+               <year>2012</year>
+               <volume>143</volume>
+               <issue>5</issue>
+               <fpage>1179</fpage>
+               <lpage>87</lpage>
+               <pub-id pub-id-type="doi">10.1053/j.gastro.2012.08.002</pub-id>
+               <pub-id pub-id-type="pmid">22885331</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR2">
+            <label>2.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Yadav</surname>
+                     <given-names>D</given-names>
+                  </name>
+                  <name>
+                     <surname>Lowenfels</surname>
+                     <given-names>AB</given-names>
+                  </name>
+               </person-group>
+               <article-title>The epidemiology of pancreatitis and pancreatic cancer</article-title>
+               <source>Gastroenterology</source>
+               <year>2013</year>
+               <volume>144</volume>
+               <issue>6</issue>
+               <fpage>1252</fpage>
+               <lpage>61</lpage>
+               <pub-id pub-id-type="doi">10.1053/j.gastro.2013.01.068</pub-id>
+               <pub-id pub-id-type="pmid">23622135</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR3">
+            <label>3.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Tenner</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Baillie</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>DeWitt</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Vege</surname>
+                     <given-names>SS</given-names>
+                  </name>
+                  <collab>American College of Gastroenterology</collab>
+               </person-group>
+               <article-title>American College of Gastroenterology guideline: management of acute pancreatitis</article-title>
+               <source>Am J Gastroenterol</source>
+               <year>2013</year>
+               <volume>108</volume>
+               <issue>9</issue>
+               <fpage>1400</fpage>
+               <lpage>15</lpage>
+               <pub-id pub-id-type="doi">10.1038/ajg.2013.218</pub-id>
+               <pub-id pub-id-type="pmid">23896955</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR4">
+            <label>4.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <collab>Working Group IAP/APA Acute Pancreatitis Guidelines</collab>
+               </person-group>
+               <article-title>IAP/APA evidence-based guidelines for the management of acute pancreatitis</article-title>
+               <source>Pancreatol Off J Int Assoc Pancreatol IAP Al</source>
+               <year>2013</year>
+               <volume>13</volume>
+               <issue>4 Suppl 2</issue>
+               <fpage>e1</fpage>
+               <lpage>15</lpage>
+            </element-citation>
+         </ref>
+         <ref id="CR5">
+            <label>5.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Freise</surname>
+                     <given-names>H</given-names>
+                  </name>
+                  <name>
+                     <surname>Aken</surname>
+                     <given-names>HKV</given-names>
+                  </name>
+               </person-group>
+               <article-title>Risks and benefits of thoracic epidural anaesthesia</article-title>
+               <source>Br J Anaesth</source>
+               <year>2011</year>
+               <volume>107</volume>
+               <issue>6</issue>
+               <fpage>859</fpage>
+               <lpage>68</lpage>
+               <pub-id pub-id-type="doi">10.1093/bja/aer339</pub-id>
+               <pub-id pub-id-type="pmid">22058144</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR6">
+            <label>6.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Richards</surname>
+                     <given-names>ER</given-names>
+                  </name>
+                  <name>
+                     <surname>Kabir</surname>
+                     <given-names>SI</given-names>
+                  </name>
+                  <name>
+                     <surname>McNaught</surname>
+                     <given-names>C-E</given-names>
+                  </name>
+                  <name>
+                     <surname>MacFie</surname>
+                     <given-names>J</given-names>
+                  </name>
+               </person-group>
+               <article-title>Effect of thoracic epidural anaesthesia on splanchnic blood flow</article-title>
+               <source>Br J Surg</source>
+               <year>2013</year>
+               <volume>100</volume>
+               <issue>3</issue>
+               <fpage>316</fpage>
+               <lpage>21</lpage>
+               <pub-id pub-id-type="doi">10.1002/bjs.8993</pub-id>
+               <pub-id pub-id-type="pmid">23203897</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR7">
+            <label>7.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Siniscalchi</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Gamberini</surname>
+                     <given-names>L</given-names>
+                  </name>
+                  <name>
+                     <surname>Laici</surname>
+                     <given-names>C</given-names>
+                  </name>
+                  <name>
+                     <surname>Bardi</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Faenza</surname>
+                     <given-names>S</given-names>
+                  </name>
+               </person-group>
+               <article-title>Thoracic epidural anesthesia: Effects on splanchnic circulation and implications in anesthesia and intensive care</article-title>
+               <source>World J Crit Care Med</source>
+               <year>2015</year>
+               <volume>4</volume>
+               <issue>1</issue>
+               <fpage>89</fpage>
+               <lpage>104</lpage>
+               <pub-id pub-id-type="doi">10.5492/wjccm.v4.i1.89</pub-id>
+               <pub-id pub-id-type="pmid">25685727</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR8">
+            <label>8.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Whitcomb</surname>
+                     <given-names>DC</given-names>
+                  </name>
+               </person-group>
+               <article-title>Acute pancreatitis</article-title>
+               <source>N Engl J Med</source>
+               <year>2006</year>
+               <volume>354</volume>
+               <issue>20</issue>
+               <fpage>2142</fpage>
+               <lpage>50</lpage>
+               <pub-id pub-id-type="doi">10.1056/NEJMcp054958</pub-id>
+               <pub-id pub-id-type="pmid">16707751</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR9">
+            <label>9.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Ince</surname>
+                     <given-names>AT</given-names>
+                  </name>
+                  <name>
+                     <surname>Baysal</surname>
+                     <given-names>B</given-names>
+                  </name>
+               </person-group>
+               <article-title>Pathophysiology, classification and available guidelines of acute pancreatitis</article-title>
+               <source>Turk J Gastroenterol Off J Turk Soc Gastroenterol</source>
+               <year>2014</year>
+               <volume>25</volume>
+               <issue>4</issue>
+               <fpage>351</fpage>
+               <lpage>7</lpage>
+            </element-citation>
+         </ref>
+         <ref id="CR10">
+            <label>10.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Frossard</surname>
+                     <given-names>J-L</given-names>
+                  </name>
+                  <name>
+                     <surname>Steer</surname>
+                     <given-names>ML</given-names>
+                  </name>
+                  <name>
+                     <surname>Pastor</surname>
+                     <given-names>CM</given-names>
+                  </name>
+               </person-group>
+               <article-title>Acute pancreatitis</article-title>
+               <source>Lancet</source>
+               <year>2008</year>
+               <volume>371</volume>
+               <issue>9607</issue>
+               <fpage>143</fpage>
+               <lpage>52</lpage>
+               <pub-id pub-id-type="doi">10.1016/S0140-6736(08)60107-5</pub-id>
+               <pub-id pub-id-type="pmid">18191686</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR11">
+            <label>11.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Stimac</surname>
+                     <given-names>D</given-names>
+                  </name>
+                  <name>
+                     <surname>Fisić</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Milić</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Bilić-Zulle</surname>
+                     <given-names>L</given-names>
+                  </name>
+                  <name>
+                     <surname>Perić</surname>
+                     <given-names>R</given-names>
+                  </name>
+               </person-group>
+               <article-title>Prognostic values of IL-6, IL-8, and IL-10 in acute pancreatitis</article-title>
+               <source>J Clin Gastroenterol</source>
+               <year>2006</year>
+               <volume>40</volume>
+               <issue>3</issue>
+               <fpage>209</fpage>
+               <lpage>12</lpage>
+               <pub-id pub-id-type="doi">10.1097/00004836-200603000-00007</pub-id>
+               <pub-id pub-id-type="pmid">16633121</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR12">
+            <label>12.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Cuthbertson</surname>
+                     <given-names>CM</given-names>
+                  </name>
+                  <name>
+                     <surname>Christophi</surname>
+                     <given-names>C</given-names>
+                  </name>
+               </person-group>
+               <article-title>Disturbances of the microcirculation in acute pancreatitis</article-title>
+               <source>Br J Surg</source>
+               <year>2006</year>
+               <volume>93</volume>
+               <issue>5</issue>
+               <fpage>518</fpage>
+               <lpage>30</lpage>
+               <pub-id pub-id-type="doi">10.1002/bjs.5316</pub-id>
+               <pub-id pub-id-type="pmid">16607683</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR13">
+            <label>13.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Klar</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Messmer</surname>
+                     <given-names>K</given-names>
+                  </name>
+                  <name>
+                     <surname>Warshawf</surname>
+                     <given-names>AL</given-names>
+                  </name>
+                  <name>
+                     <surname>Herfarth</surname>
+                     <given-names>C</given-names>
+                  </name>
+               </person-group>
+               <article-title>Pancreatic ischaemia in experimental acute pancreatitis: mechanism, significance and therapy</article-title>
+               <source>Br J Surg</source>
+               <year>1990</year>
+               <volume>77</volume>
+               <issue>11</issue>
+               <fpage>1205</fpage>
+               <lpage>10</lpage>
+               <pub-id pub-id-type="doi">10.1002/bjs.1800771104</pub-id>
+               <pub-id pub-id-type="pmid">2252994</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR14">
+            <label>14.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>De Campos</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Braga</surname>
+                     <given-names>CF</given-names>
+                  </name>
+                  <name>
+                     <surname>Kuryura</surname>
+                     <given-names>L</given-names>
+                  </name>
+                  <name>
+                     <surname>Hebara</surname>
+                     <given-names>D</given-names>
+                  </name>
+                  <name>
+                     <surname>Assef</surname>
+                     <given-names>JC</given-names>
+                  </name>
+                  <name>
+                     <surname>Rasslan</surname>
+                     <given-names>S</given-names>
+                  </name>
+               </person-group>
+               <article-title>Changes in the management of patients with severe acute pancreatitis</article-title>
+               <source>Arq Gastroenterol</source>
+               <year>2008</year>
+               <volume>45</volume>
+               <issue>3</issue>
+               <fpage>181</fpage>
+               <lpage>5</lpage>
+               <pub-id pub-id-type="doi">10.1590/S0004-28032008000300002</pub-id>
+               <pub-id pub-id-type="pmid">18852942</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR15">
+            <label>15.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Besselink</surname>
+                     <given-names>MG</given-names>
+                  </name>
+                  <name>
+                     <surname>van Santvoort</surname>
+                     <given-names>HC</given-names>
+                  </name>
+                  <name>
+                     <surname>Boermeester</surname>
+                     <given-names>MA</given-names>
+                  </name>
+                  <name>
+                     <surname>Nieuwenhuijs</surname>
+                     <given-names>VB</given-names>
+                  </name>
+                  <name>
+                     <surname>van Goor</surname>
+                     <given-names>H</given-names>
+                  </name>
+                  <name>
+                     <surname>Dejong</surname>
+                     <given-names>CHC</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Timing and impact of infections in acute pancreatitis</article-title>
+               <source>Br J Surg</source>
+               <year>2009</year>
+               <volume>96</volume>
+               <issue>3</issue>
+               <fpage>267</fpage>
+               <lpage>73</lpage>
+               <pub-id pub-id-type="doi">10.1002/bjs.6447</pub-id>
+               <pub-id pub-id-type="pmid">19125434</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR16">
+            <label>16.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Besselink</surname>
+                     <given-names>MGH</given-names>
+                  </name>
+                  <name>
+                     <surname>Verwer</surname>
+                     <given-names>TJ</given-names>
+                  </name>
+                  <name>
+                     <surname>Schoenmaeckers</surname>
+                     <given-names>EJP</given-names>
+                  </name>
+                  <name>
+                     <surname>Buskens</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Ridwan</surname>
+                     <given-names>BU</given-names>
+                  </name>
+                  <name>
+                     <surname>Visser</surname>
+                     <given-names>MR</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Timing of surgical intervention in necrotizing pancreatitis</article-title>
+               <source>Arch Surg</source>
+               <year>2007</year>
+               <volume>142</volume>
+               <issue>12</issue>
+               <fpage>1194</fpage>
+               <lpage>201</lpage>
+               <pub-id pub-id-type="doi">10.1001/archsurg.142.12.1194</pub-id>
+               <pub-id pub-id-type="pmid">18086987</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR17">
+            <label>17.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Besselink</surname>
+                     <given-names>MGH</given-names>
+                  </name>
+                  <name>
+                     <surname>van Santvoort</surname>
+                     <given-names>HC</given-names>
+                  </name>
+                  <name>
+                     <surname>Witteman</surname>
+                     <given-names>BJ</given-names>
+                  </name>
+                  <name>
+                     <surname>Gooszen</surname>
+                     <given-names>HG</given-names>
+                  </name>
+               </person-group>
+               <article-title>Dutch Acute Pancreatitis Study Group. Management of severe acute pancreatitis: it’s all about timing</article-title>
+               <source>Curr Opin Crit Care</source>
+               <year>2007</year>
+               <volume>13</volume>
+               <issue>2</issue>
+               <fpage>200</fpage>
+               <lpage>6</lpage>
+               <pub-id pub-id-type="doi">10.1097/MCC.0b013e328015b8af</pub-id>
+               <pub-id pub-id-type="pmid">17327743</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR18">
+            <label>18.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Freise</surname>
+                     <given-names>H</given-names>
+                  </name>
+                  <name>
+                     <surname>Lauer</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Anthonsen</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Hlouschek</surname>
+                     <given-names>V</given-names>
+                  </name>
+                  <name>
+                     <surname>Minin</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Fischer</surname>
+                     <given-names>LG</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Thoracic epidural analgesia augments ileal mucosal capillary perfusion and improves survival in severe acute pancreatitis in rats</article-title>
+               <source>Anesthesiology</source>
+               <year>2006</year>
+               <volume>105</volume>
+               <issue>2</issue>
+               <fpage>354</fpage>
+               <lpage>9</lpage>
+               <pub-id pub-id-type="doi">10.1097/00000542-200608000-00019</pub-id>
+               <pub-id pub-id-type="pmid">16871070</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR19">
+            <label>19.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Daudel</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Bone</surname>
+                     <given-names>H-G</given-names>
+                  </name>
+                  <name>
+                     <surname>Traber</surname>
+                     <given-names>DL</given-names>
+                  </name>
+                  <name>
+                     <surname>Stubbe</surname>
+                     <given-names>HD</given-names>
+                  </name>
+                  <name>
+                     <surname>Lettau</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Lange</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Effects of thoracic epidural anesthesia on hemodynamics and global oxygen transport in ovine endotoxemia</article-title>
+               <source>Shock</source>
+               <year>2006</year>
+               <volume>26</volume>
+               <issue>6</issue>
+               <fpage>615</fpage>
+               <lpage>9</lpage>
+               <pub-id pub-id-type="doi">10.1097/01.shk.0000228799.25797.fb</pub-id>
+               <pub-id pub-id-type="pmid">17117138</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR20">
+            <label>20.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Daudel</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Freise</surname>
+                     <given-names>H</given-names>
+                  </name>
+                  <name>
+                     <surname>Westphal</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Stubbe</surname>
+                     <given-names>HD</given-names>
+                  </name>
+                  <name>
+                     <surname>Lauer</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Bone</surname>
+                     <given-names>H-G</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Continuous thoracic epidural anesthesia improves gut mucosal microcirculation in rats with sepsis</article-title>
+               <source>Shock</source>
+               <year>2007</year>
+               <volume>28</volume>
+               <issue>5</issue>
+               <fpage>610</fpage>
+               <lpage>4</lpage>
+               <pub-id pub-id-type="pmid">17589385</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR21">
+            <label>21.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Chida</surname>
+                     <given-names>Y</given-names>
+                  </name>
+                  <name>
+                     <surname>Sudo</surname>
+                     <given-names>N</given-names>
+                  </name>
+                  <name>
+                     <surname>Kubo</surname>
+                     <given-names>C</given-names>
+                  </name>
+               </person-group>
+               <article-title>Does stress exacerbate liver diseases?</article-title>
+               <source>J Gastroenterol Hepatol</source>
+               <year>2006</year>
+               <volume>21</volume>
+               <issue>1</issue>
+               <fpage>202</fpage>
+               <lpage>8</lpage>
+               <pub-id pub-id-type="doi">10.1111/j.1440-1746.2006.04110.x</pub-id>
+               <pub-id pub-id-type="pmid">16460474</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR22">
+            <label>22.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Freise</surname>
+                     <given-names>H</given-names>
+                  </name>
+                  <name>
+                     <surname>Daudel</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Grosserichter</surname>
+                     <given-names>C</given-names>
+                  </name>
+                  <name>
+                     <surname>Lauer</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Hinkelmann</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Van Aken</surname>
+                     <given-names>HK</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Thoracic epidural anesthesia reverses sepsis-induced hepatic hyperperfusion and reduces leukocyte adhesion in septic rats</article-title>
+               <source>Crit Care Lond Engl</source>
+               <year>2009</year>
+               <volume>13</volume>
+               <issue>4</issue>
+               <fpage>R116</fpage>
+               <pub-id pub-id-type="doi">10.1186/cc7965</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR23">
+            <label>23.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Demirag</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Pastor</surname>
+                     <given-names>CM</given-names>
+                  </name>
+                  <name>
+                     <surname>Morel</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Jean-Christophe</surname>
+                     <given-names>C</given-names>
+                  </name>
+                  <name>
+                     <surname>Sielenkämper</surname>
+                     <given-names>AW</given-names>
+                  </name>
+                  <name>
+                     <surname>Güvener</surname>
+                     <given-names>N</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Epidural anaesthesia restores pancreatic microcirculation and decreases the severity of acute pancreatitis</article-title>
+               <source>World J Gastroenterol</source>
+               <year>2006</year>
+               <volume>12</volume>
+               <issue>6</issue>
+               <fpage>915</fpage>
+               <lpage>20</lpage>
+               <pub-id pub-id-type="doi">10.3748/wjg.v12.i6.915</pub-id>
+               <pub-id pub-id-type="pmid">16521220</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR24">
+            <label>24.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Lauer</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Freise</surname>
+                     <given-names>H</given-names>
+                  </name>
+                  <name>
+                     <surname>Fischer</surname>
+                     <given-names>LG</given-names>
+                  </name>
+                  <name>
+                     <surname>Singbartl</surname>
+                     <given-names>K</given-names>
+                  </name>
+                  <name>
+                     <surname>Aken</surname>
+                     <given-names>HV</given-names>
+                  </name>
+                  <name>
+                     <surname>Lerch</surname>
+                     <given-names>MM</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>The role of thoracic epidural analgesia in receptor-dependent and receptor-independent pulmonary vasoconstriction in experimental pancreatitis</article-title>
+               <source>Anesth Analg</source>
+               <year>2007</year>
+               <volume>105</volume>
+               <issue>2</issue>
+               <fpage>453</fpage>
+               <lpage>9</lpage>
+               <pub-id pub-id-type="doi">10.1213/01.ane.0000268492.02554.17</pub-id>
+               <pub-id pub-id-type="pmid">17646505</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR25">
+            <label>25.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Fischer</surname>
+                     <given-names>SR</given-names>
+                  </name>
+                  <name>
+                     <surname>Deyo</surname>
+                     <given-names>DJ</given-names>
+                  </name>
+                  <name>
+                     <surname>Bone</surname>
+                     <given-names>HG</given-names>
+                  </name>
+                  <name>
+                     <surname>McGuire</surname>
+                     <given-names>R</given-names>
+                  </name>
+                  <name>
+                     <surname>Traber</surname>
+                     <given-names>LD</given-names>
+                  </name>
+                  <name>
+                     <surname>Traber</surname>
+                     <given-names>DL</given-names>
+                  </name>
+               </person-group>
+               <article-title>Nitric oxide synthase inhibition restores hypoxic pulmonary vasoconstriction in sepsis</article-title>
+               <source>Am J Respir Crit Care Med</source>
+               <year>1997</year>
+               <volume>156</volume>
+               <issue>3 Pt 1</issue>
+               <fpage>833</fpage>
+               <lpage>9</lpage>
+               <pub-id pub-id-type="doi">10.1164/ajrccm.156.3.9701033</pub-id>
+               <pub-id pub-id-type="pmid">9310001</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR26">
+            <label>26.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Freise</surname>
+                     <given-names>H</given-names>
+                  </name>
+                  <name>
+                     <surname>Lauer</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Konietzny</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Hinkelmann</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Minin</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Van Aken</surname>
+                     <given-names>HK</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Hepatic effects of thoracic epidural analgesia in experimental severe acute pancreatitis</article-title>
+               <source>Anesthesiology</source>
+               <year>2009</year>
+               <volume>111</volume>
+               <issue>6</issue>
+               <fpage>1249</fpage>
+               <lpage>56</lpage>
+               <pub-id pub-id-type="doi">10.1097/ALN.0b013e3181c1494e</pub-id>
+               <pub-id pub-id-type="pmid">19934868</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR27">
+            <label>27.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Bachmann</surname>
+                     <given-names>KA</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Effects of thoracic epidural anesthesia on survival and microcirculation in severe acute pancreatitis: a randomized experimental trial</article-title>
+               <source>Crit Care</source>
+               <year>2013</year>
+               <volume>17</volume>
+               <fpage>R281</fpage>
+               <pub-id pub-id-type="doi">10.1186/cc13142</pub-id>
+               <pub-id pub-id-type="pmid">24314012</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR28">
+            <label>28.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Hollmann</surname>
+                     <given-names>MW</given-names>
+                  </name>
+                  <name>
+                     <surname>Durieux</surname>
+                     <given-names>ME</given-names>
+                  </name>
+               </person-group>
+               <article-title>Local anesthetics and the inflammatory response: a new therapeutic indication?</article-title>
+               <source>Anesthesiology</source>
+               <year>2000</year>
+               <volume>93</volume>
+               <issue>3</issue>
+               <fpage>858</fpage>
+               <lpage>75</lpage>
+               <pub-id pub-id-type="doi">10.1097/00000542-200009000-00038</pub-id>
+               <pub-id pub-id-type="pmid">10969322</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR29">
+            <label>29.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Rose</surname>
+                     <given-names>F-X</given-names>
+                  </name>
+                  <name>
+                     <surname>Estebe</surname>
+                     <given-names>J-P</given-names>
+                  </name>
+                  <name>
+                     <surname>Ratajczak</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Wodey</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Chevanne</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Dollo</surname>
+                     <given-names>G</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Epidural, intrathecal pharmacokinetics, and intrathecal bioavailability of ropivacaine</article-title>
+               <source>Anesth Analg</source>
+               <year>2007</year>
+               <volume>105</volume>
+               <issue>3</issue>
+               <fpage>859</fpage>
+               <lpage>67</lpage>
+               <pub-id pub-id-type="doi">10.1213/01.ane.0000278129.37099.fa</pub-id>
+               <pub-id pub-id-type="pmid">17717251</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR30">
+            <label>30.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Cassuto</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Sinclair</surname>
+                     <given-names>R</given-names>
+                  </name>
+                  <name>
+                     <surname>Bonderovic</surname>
+                     <given-names>M</given-names>
+                  </name>
+               </person-group>
+               <article-title>Anti-inflammatory properties of local anesthetics and their present and potential clinical implications</article-title>
+               <source>Acta Anaesthesiol Scand</source>
+               <year>2006</year>
+               <volume>50</volume>
+               <issue>3</issue>
+               <fpage>265</fpage>
+               <lpage>82</lpage>
+               <pub-id pub-id-type="doi">10.1111/j.1399-6576.2006.00936.x</pub-id>
+               <pub-id pub-id-type="pmid">16480459</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR31">
+            <label>31.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Bernhardt</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Kortgen</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Niesel</surname>
+                     <given-names>HC</given-names>
+                  </name>
+                  <name>
+                     <surname>Goertz</surname>
+                     <given-names>A</given-names>
+                  </name>
+               </person-group>
+               <article-title>Using epidural anesthesia in patients with acute pancreatitis—prospective study of 121 patients</article-title>
+               <source>Anaesthesiol Reanim</source>
+               <year>2002</year>
+               <volume>27</volume>
+               <issue>1</issue>
+               <fpage>16</fpage>
+               <lpage>22</lpage>
+               <pub-id pub-id-type="pmid">11908096</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR32">
+            <label>32.</label>
+            <mixed-citation publication-type="other">Jabaudon M et al. Epidural analgesia in the intensive care unit: an observational series of 121 patients. Crit Care. 2013; 17:R281</mixed-citation>
+         </ref>
+         <ref id="CR33">
+            <label>33.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Sadowski</surname>
+                     <given-names>SM</given-names>
+                  </name>
+                  <name>
+                     <surname>Andres</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Morel</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Schiffer</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Frossard</surname>
+                     <given-names>J-L</given-names>
+                  </name>
+                  <name>
+                     <surname>Platon</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Epidural anesthesia improves pancreatic perfusion and decreases the severity of acute pancreatitis</article-title>
+               <source>World J Gastroenterol</source>
+               <year>2015</year>
+               <volume>21</volume>
+               <issue>43</issue>
+               <fpage>12448</fpage>
+               <lpage>56</lpage>
+               <pub-id pub-id-type="doi">10.3748/wjg.v21.i43.12448</pub-id>
+               <pub-id pub-id-type="pmid">26604652</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR34">
+            <label>34.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Love</surname>
+                     <given-names>JA</given-names>
+                  </name>
+                  <name>
+                     <surname>Yi</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Smith</surname>
+                     <given-names>TG</given-names>
+                  </name>
+               </person-group>
+               <article-title>Autonomic pathways regulating pancreatic exocrine secretion</article-title>
+               <source>Auton Neurosci</source>
+               <year>2007</year>
+               <volume>133</volume>
+               <issue>1</issue>
+               <fpage>19</fpage>
+               <lpage>34</lpage>
+               <pub-id pub-id-type="doi">10.1016/j.autneu.2006.10.001</pub-id>
+               <pub-id pub-id-type="pmid">17113358</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR35">
+            <label>35.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Clemente</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Carli</surname>
+                     <given-names>F</given-names>
+                  </name>
+               </person-group>
+               <article-title>The physiological effects of thoracic epidural anesthesia and analgesia on the cardiovascular, respiratory and gastrointestinal systems</article-title>
+               <source>Minerva Anestesiol</source>
+               <year>2008</year>
+               <volume>74</volume>
+               <issue>10</issue>
+               <fpage>549</fpage>
+               <lpage>63</lpage>
+               <pub-id pub-id-type="pmid">18854796</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR36">
+            <label>36.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Grider</surname>
+                     <given-names>JS</given-names>
+                  </name>
+                  <name>
+                     <surname>Mullet</surname>
+                     <given-names>TW</given-names>
+                  </name>
+                  <name>
+                     <surname>Saha</surname>
+                     <given-names>SP</given-names>
+                  </name>
+                  <name>
+                     <surname>Harned</surname>
+                     <given-names>ME</given-names>
+                  </name>
+                  <name>
+                     <surname>Sloan</surname>
+                     <given-names>PA</given-names>
+                  </name>
+               </person-group>
+               <article-title>A randomized, double-blind trial comparing continuous thoracic epidural bupivacaine with and without opioid in contrast to a continuous paravertebral infusion of bupivacaine for post-thoracotomy pain</article-title>
+               <source>J Cardiothorac Vasc Anesth</source>
+               <year>2012</year>
+               <volume>26</volume>
+               <issue>1</issue>
+               <fpage>83</fpage>
+               <lpage>9</lpage>
+               <pub-id pub-id-type="doi">10.1053/j.jvca.2011.09.003</pub-id>
+               <pub-id pub-id-type="pmid">22100213</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR37">
+            <label>37.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Tuncel</surname>
+                     <given-names>G</given-names>
+                  </name>
+                  <name>
+                     <surname>Ozalp</surname>
+                     <given-names>G</given-names>
+                  </name>
+                  <name>
+                     <surname>Savli</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Canoler</surname>
+                     <given-names>O</given-names>
+                  </name>
+                  <name>
+                     <surname>Kaya</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Kadiogullari</surname>
+                     <given-names>N</given-names>
+                  </name>
+               </person-group>
+               <article-title>Epidural ropivacaine or sufentanil-ropivacaine infusions for post-thoracotomy pain</article-title>
+               <source>Eur J Cardio-Thorac Surg Off J Eur Assoc Cardio-Thorac Surg</source>
+               <year>2005</year>
+               <volume>28</volume>
+               <issue>3</issue>
+               <fpage>375</fpage>
+               <lpage>9</lpage>
+               <pub-id pub-id-type="doi">10.1016/j.ejcts.2005.05.017</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR38">
+            <label>38.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Banks</surname>
+                     <given-names>PA</given-names>
+                  </name>
+                  <name>
+                     <surname>Bollen</surname>
+                     <given-names>TL</given-names>
+                  </name>
+                  <name>
+                     <surname>Dervenis</surname>
+                     <given-names>C</given-names>
+                  </name>
+                  <name>
+                     <surname>Gooszen</surname>
+                     <given-names>HG</given-names>
+                  </name>
+                  <name>
+                     <surname>Johnson</surname>
+                     <given-names>CD</given-names>
+                  </name>
+                  <name>
+                     <surname>Sarr</surname>
+                     <given-names>MG</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Classification of acute pancreatitis—2012: revision of the Atlanta classification and definitions by international consensus</article-title>
+               <source>Gut</source>
+               <year>2013</year>
+               <volume>62</volume>
+               <issue>1</issue>
+               <fpage>102</fpage>
+               <lpage>11</lpage>
+               <pub-id pub-id-type="doi">10.1136/gutjnl-2012-302779</pub-id>
+               <pub-id pub-id-type="pmid">23100216</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="CR39">
+            <label>39.</label>
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Marshall</surname>
+                     <given-names>JC</given-names>
+                  </name>
+                  <name>
+                     <surname>Cook</surname>
+                     <given-names>DJ</given-names>
+                  </name>
+                  <name>
+                     <surname>Christou</surname>
+                     <given-names>NV</given-names>
+                  </name>
+                  <name>
+                     <surname>Bernard</surname>
+                     <given-names>GR</given-names>
+                  </name>
+                  <name>
+                     <surname>Sprung</surname>
+                     <given-names>CL</given-names>
+                  </name>
+                  <name>
+                     <surname>Sibbald</surname>
+                     <given-names>WJ</given-names>
+                  </name>
+               </person-group>
+               <article-title>Multiple organ dysfunction score: a reliable descriptor of a complex clinical outcome</article-title>
+               <source>Crit Care Med</source>
+               <year>1995</year>
+               <volume>23</volume>
+               <issue>10</issue>
+               <fpage>1638</fpage>
+               <lpage>52</lpage>
+               <pub-id pub-id-type="doi">10.1097/00003246-199510000-00007</pub-id>
+               <pub-id pub-id-type="pmid">7587228</pub-id>
+            </element-citation>
+         </ref>
+      </ref-list>
+   </back>
+</article>

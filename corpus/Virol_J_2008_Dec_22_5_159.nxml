@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v2.3 20070202//EN" "archivearticle.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+   <?properties open_access?>
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="nlm-ta">Virol J</journal-id>
+         <journal-title>Virology Journal</journal-title>
+         <issn pub-type="epub">1743-422X</issn>
+         <publisher>
+            <publisher-name>BioMed Central</publisher-name>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="pmid">19102772</article-id>
+         <article-id pub-id-type="pmc">2615758</article-id>
+         <article-id pub-id-type="publisher-id">1743-422X-5-159</article-id>
+         <article-id pub-id-type="doi">10.1186/1743-422X-5-159</article-id>
+         <article-categories>
+            <subj-group subj-group-type="heading">
+               <subject>Short Report</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Identification of a novel picornavirus related to cosaviruses in a child with acute diarrhea</article-title>
+         </title-group>
+         <contrib-group>
+            <contrib id="A1" contrib-type="author">
+               <name>
+                  <surname>Holtz</surname>
+                  <given-names>Lori R</given-names>
+               </name>
+               <xref ref-type="aff" rid="I1">1</xref>
+               <email>holtz_l@kids.wustl.edu</email>
+            </contrib>
+            <contrib id="A2" contrib-type="author">
+               <name>
+                  <surname>Finkbeiner</surname>
+                  <given-names>Stacy R</given-names>
+               </name>
+               <xref ref-type="aff" rid="I2">2</xref>
+               <email>srfinkbe@artsci.wustl.edu</email>
+            </contrib>
+            <contrib id="A3" contrib-type="author">
+               <name>
+                  <surname>Kirkwood</surname>
+                  <given-names>Carl D</given-names>
+               </name>
+               <xref ref-type="aff" rid="I3">3</xref>
+               <email>carl.kirkwood@mcri.edu.au</email>
+            </contrib>
+            <contrib id="A4" corresp="yes" contrib-type="author">
+               <name>
+                  <surname>Wang</surname>
+                  <given-names>David</given-names>
+               </name>
+               <xref ref-type="aff" rid="I2">2</xref>
+               <email>davewang@wustl.edu</email>
+            </contrib>
+         </contrib-group>
+         <aff id="I1">
+            <label>1</label>
+            Department of Pediatrics, Washington University School of Medicine, St. Louis, MO USA
+         </aff>
+         <aff id="I2">
+            <label>2</label>
+            Departments of Molecular Microbiology and Pathology and Immunology, Washington University School of Medicine, St. Louis, MO USA
+         </aff>
+         <aff id="I3">
+            <label>3</label>
+            Enteric Virus Research Group, Murdoch Childrens Research Institute, Royal Children's Hospital, Victoria, Australia
+         </aff>
+         <pub-date pub-type="collection">
+            <year>2008</year>
+         </pub-date>
+         <pub-date pub-type="epub">
+            <day>22</day>
+            <month>12</month>
+            <year>2008</year>
+         </pub-date>
+         <volume>5</volume>
+         <fpage>159</fpage>
+         <lpage>159</lpage>
+         <ext-link ext-link-type="uri" xlink:href="http://www.virologyj.com/content/5/1/159" />
+         <history>
+            <date date-type="received">
+               <day>6</day>
+               <month>12</month>
+               <year>2008</year>
+            </date>
+            <date date-type="accepted">
+               <day>22</day>
+               <month>12</month>
+               <year>2008</year>
+            </date>
+         </history>
+         <permissions>
+            <copyright-statement>Copyright © 2008 Holtz et al; licensee BioMed Central Ltd.</copyright-statement>
+            <copyright-year>2008</copyright-year>
+            <copyright-holder>Holtz et al; licensee BioMed Central Ltd.</copyright-holder>
+            <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0">
+               <p>
+                  This is an Open Access article distributed under the terms of the Creative Commons Attribution License (
+                  <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0" />
+                  ), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+               </p>
+               <!--<rdf xmlns="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1" xmlns:dcterms="http://purl.org/dc/terms"><Work xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about=""><license rdf:resource="http://creativecommons.org/licenses/by/2.0"/><dc:type rdf:resource="http://purl.org/dc/dcmitype/Text"/><dc:author>
+               Holtz
+               R
+               Lori
+
+               holtz_l@kids.wustl.edu
+            </dc:author><dc:title>
+            Identification of a novel picornavirus related to cosaviruses in a child with acute diarrhea
+         </dc:title><dc:date>2008</dc:date><dcterms:bibliographicCitation>Virology Journal 5(1): 159-. (2008)</dcterms:bibliographicCitation><dc:identifier type="sici">1743-422X(2008)5:1&#x0003c;159&#x0003e;</dc:identifier><dcterms:isPartOf>urn:ISSN:1743-422X</dcterms:isPartOf><License rdf:about="http://creativecommons.org/licenses/by/2.0"><permits rdf:resource="http://web.resource.org/cc/Reproduction" xmlns=""/><permits rdf:resource="http://web.resource.org/cc/Distribution" xmlns=""/><requires rdf:resource="http://web.resource.org/cc/Notice" xmlns=""/><requires rdf:resource="http://web.resource.org/cc/Attribution" xmlns=""/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" xmlns=""/></License></Work></rdf>-->
+            </license>
+         </permissions>
+         <abstract>
+            <p>
+               Diarrhea, the third leading infectious cause of death worldwide, causes approximately 2 million deaths a year. Approximately 40% of these cases are of unknown etiology. We previously developed a metagenomic strategy for identification of novel viruses from diarrhea samples. By applying mass sequencing to a stool sample collected in Melbourne, Australia from a child with acute diarrhea, one 395 bp sequence read was identified that possessed only limited identity to known picornaviruses. This initial fragment shared only 55% amino acid identity to its top BLAST hit, the VP3 protein of Theiler's-like virus, suggesting that a novel picornavirus might be present in this sample. By using a combination of mass sequencing, RT-PCR, 5' RACE and 3' RACE, 6562 bp of the viral genome was sequenced, which includes the entire putative polyprotein. The overall genomic organization of this virus was similar to known picornaviruses. Phylogenetic analysis of the polyprotein demonstrated that the virus was divergent from previously described picornaviruses and appears to belong to the newly proposed picornavirus genus,
+               <italic>Cosavirus</italic>
+               . Based on the analysis discussed here, we propose that this virus represents a new species in the Cosavirus genus, and it has tentatively been named Human Cosavirus E1 (HCoSV-E1).
+            </p>
+         </abstract>
+      </article-meta>
+   </front>
+   <body>
+      <sec>
+         <title>Findings</title>
+         <p>
+            Diarrhea is the third leading infectious cause of death worldwide and causes approximately 2 million deaths each year [
+            <xref ref-type="bibr" rid="B1">1</xref>
+            ]. Additionally, an estimated 1.4 billion non-fatal episodes occur yearly [
+            <xref ref-type="bibr" rid="B2">2</xref>
+            ,
+            <xref ref-type="bibr" rid="B3">3</xref>
+            ]. Importantly, it is estimated that 40% of diarrhea cases are of unknown etiology [
+            <xref ref-type="bibr" rid="B4">4</xref>
+            -
+            <xref ref-type="bibr" rid="B6">6</xref>
+            ]. Motivated by an interest to identify novel or unrecognized viruses associated with diarrhea, we recently developed a mass sequencing strategy to define the spectrum of viruses present in human stool [
+            <xref ref-type="bibr" rid="B7">7</xref>
+            ]. Using this approach, we describe here the identification of a novel virus in a stool sample collected in 1981 at the Royal Children's Hospital in Melbourne, Australia from a child with acute diarrhea.
+         </p>
+         <p>
+            Previous testing of this diarrhea specimen for known enteric pathogens using routine enzyme immunoassays (EIA) and culture assays for rotaviruses, adenoviruses, and common bacterial and parasitic pathogens was negative [
+            <xref ref-type="bibr" rid="B8">8</xref>
+            ]. Additionally, RT-PCR assays for caliciviruses and astroviruses were also negative [
+            <xref ref-type="bibr" rid="B8">8</xref>
+            ,
+            <xref ref-type="bibr" rid="B9">9</xref>
+            ], making this sample a good candidate for viral discovery efforts as described [
+            <xref ref-type="bibr" rid="B7">7</xref>
+            ].
+         </p>
+         <p>
+            In brief, 200 mg of frozen stool was chipped and then resuspended in 6 volumes of PBS [
+            <xref ref-type="bibr" rid="B7">7</xref>
+            ]. The sample was centrifuged to pellet particulate matter and the supernatant was then passed through a 0.45 μm filter. RNA was isolated from 100 μL primary stool filtrate using RNA-Bee (Tel-Test, Inc.) according to manufacturer's instructions. Approximately, 100 nanograms of RNA was randomly amplified using the Round AB protocol as previously described [
+            <xref ref-type="bibr" rid="B10">10</xref>
+            ]. The amplified nucleic acid was cloned into pCR4.0 using the TOPO cloning kit (Invitrogen, Carlsbad, CA), and clones were sequenced using standard Sanger chemistry [
+            <xref ref-type="bibr" rid="B7">7</xref>
+            ]. High quality sequences were compared to the GenBank nr database by BLASTx and one 395 bp sequence read was identified in this sample that had only 55% identity at the amino acid level to its top hit, the VP3 protein of Theiler's-like virus, a murine picornavirus in the genus cardiovirus.
+         </p>
+         <p>
+            Picornaviruses are non-enveloped viruses with a single stranded positive-sense RNA genome that encodes a single polyprotein [
+            <xref ref-type="bibr" rid="B11">11</xref>
+            ]. The genomes range in size from approximately 7 kb to 8.5 kb in length, are polyadenylated, and have 5' and 3' non-translated regions. The 5'-non-translated regions of picornaviruses are highly structured and contain an internal ribosome entry site (IRES) that directs translation of the RNA by internal ribosome binding [
+            <xref ref-type="bibr" rid="B11">11</xref>
+            ]. The 3'-non-translated region also contains a secondary structure, including a pseudoknot, that has been implicated in controlling viral RNA synthesis [
+            <xref ref-type="bibr" rid="B11">11</xref>
+            ]. Recently, Kapoor et al identified multiple novel related picornaviruses which they propose belong to a new genus, cosavirus. These viruses were found in the stools of both healthy children and those with acute flaccid paralysis in Pakistan and Afghanistan [
+            <xref ref-type="bibr" rid="B12">12</xref>
+            ]. Additionally, 1 stool from a 64 year old woman in Scotland was found to be positive for Human Cosavirus A. Other picornaviruses have also been found in stool such as enteroviruses, polio, and aichi virus [
+            <xref ref-type="bibr" rid="B11">11</xref>
+            ,
+            <xref ref-type="bibr" rid="B13">13</xref>
+            ].
+         </p>
+         <p>
+            Using a combination of direct Sanger sequencing, RT-PCR, 5' and 3' random amplification of cDNA ends (RACE), and 454 sequencing performed on RNA isolated from the stool sample, a 6562 bp contig [GenBank:
+            <ext-link ext-link-type="gen" xlink:href="FJ555055">FJ555055</ext-link>
+            ] containing the entire predicted polyprotein and the 3' untranslated region to the poly A tail was generated. For these sequencing experiments, the stool filtrate was proteinase K and DNAse treated prior to RNA extraction. RT-PCR and 3'RACE reactions were performed using SuperScript III and Platinum Taq (Invitrogen One-Step RT-PCR). For 5'RACE reactions cDNA was generated with Stratascript (Stratagene) and amplified with Accuprime Taq (Invitrogen). The initial assembly was confirmed by sequencing a series of four overlapping RT-products to give 2.7× coverage. All amplicons were cloned into pCR4 (Invitrogen) and sequenced using standard sequencing technology. Despite repeated efforts, we were unable to obtain additional sequence at the 5' end, presumably due to the presence of RNA secondary structures. Even performing 5' RACE reactions at 65°C or 70°C with multiple high temperature reverse transcriptases (Monsterscript [Epicentre Biotechnologies], rTth [Applied Biosystems], and Thermoscript [Invitrogen]) did not extend the contig further in the 5' direction.
+         </p>
+         <p>
+            Analysis of the contig sequence showed that this virus has a genomic organization similar to other picornaviruses (figure
+            <xref ref-type="fig" rid="F1">1</xref>
+            ). Using Pfam [
+            <xref ref-type="bibr" rid="B14">14</xref>
+            ], conserved motifs characteristic of picornaviruses were found to be present, including two picornavirus capsid proteins, RNA helicase, 3C cysteine protease, and RNA dependent RNA polymerase. Predicted polyprotein cleavage sites were identified by scanning for conserved amino acids characteristic for cleavage sites [GenBank:
+            <ext-link ext-link-type="gen" xlink:href="FJ555055">FJ555055</ext-link>
+            ] as described [
+            <xref ref-type="bibr" rid="B15">15</xref>
+            ]. We performed phylogenetic analysis on each of the three coding regions: P1 (Figure
+            <xref ref-type="fig" rid="F2">2A</xref>
+            ), P2 (Figure
+            <xref ref-type="fig" rid="F2">2B</xref>
+            ) and P3 (Figure
+            <xref ref-type="fig" rid="F2">2C</xref>
+            ). Protein sequences associated with the following reference virus genomes were obtained from GenBank: Equine Rhinitis A virus (
+            <ext-link ext-link-type="gen" xlink:href="NP_653075.1">NP_653075.1</ext-link>
+            ), Foot-and-mouth-type-O (
+            <ext-link ext-link-type="gen" xlink:href="NP_658990.1">NP_658990.1</ext-link>
+            ), Equine Rhinitis B virus (
+            <ext-link ext-link-type="gen" xlink:href="NP_653077.1">NP_653077.1</ext-link>
+            ), Theiler's-like virus of rats (
+            <ext-link ext-link-type="gen" xlink:href="BAC58035.1">BAC58035.1</ext-link>
+            ), Saffold virus (
+            <ext-link ext-link-type="gen" xlink:href="YP_001210296.1">YP_001210296.1</ext-link>
+            ), Theiler murine encephalomyelitis (
+            <ext-link ext-link-type="gen" xlink:href="AAA47929.1">AAA47929.1</ext-link>
+            ), Mengo virus (
+            <ext-link ext-link-type="gen" xlink:href="AAA46547.1">AAA46547.1</ext-link>
+            ), Encephalomyocarditis virus (
+            <ext-link ext-link-type="gen" xlink:href="CAA60776.1">CAA60776.1</ext-link>
+            ), Seneca valley virus (
+            <ext-link ext-link-type="gen" xlink:href="DQ641257">DQ641257</ext-link>
+            ), Aichi virus (
+            <ext-link ext-link-type="gen" xlink:href="NP_047200.1">NP_047200.1</ext-link>
+            ), and Porcine teschovirus (
+            <ext-link ext-link-type="gen" xlink:href="NP_653143.1">NP_653143.1</ext-link>
+            ). Human cosavirus sequences (
+            <ext-link ext-link-type="gen" xlink:href="FJ4388825">FJ4388825</ext-link>
+            -
+            <ext-link ext-link-type="gen" xlink:href="FJ438908">FJ438908</ext-link>
+            and
+            <ext-link ext-link-type="gen" xlink:href="FJ442991">FJ442991</ext-link>
+            -
+            <ext-link ext-link-type="gen" xlink:href="FJ442995">FJ442995</ext-link>
+            ) were kindly provided by E. Delwart. Multiple sequence alignments were performed using ClustalX (1.83). The amino acid alignments generated by ClustalX were input into PAUP [
+            <xref ref-type="bibr" rid="B16">16</xref>
+            ], and maximum parsimony analysis was performed using the default settings with 1,000 replicates.
+         </p>
+         <fig position="float" id="F1">
+            <label>Figure 1</label>
+            <caption>
+               <p>
+                  <bold>
+                     Genomic organization of
+                     <italic>Cosavirus</italic>
+                  </bold>
+                  . Schematic of initial protein products P1, P2, and P3 (A). Schematic of processed polyprotein (B). Representation of sequence obtained from Human Cosavirus-E1 (C).
+               </p>
+            </caption>
+            <graphic xlink:href="1743-422X-5-159-1" />
+         </fig>
+         <fig position="float" id="F2">
+            <label>Figure 2</label>
+            <caption>
+               <p>
+                  <bold>Phylogenetic Analysis of HCoSV-E1</bold>
+                  . Multiple sequence alignments were generated with HCoSV-E1 P1 (A), P2 (B), and P3 (C) sequences and the corresponding regions of known picornaviruses using ClustalX. PAUP was used to generate phylogenetic trees and bootstrap values (&gt; 700) from 1,000 replicates are shown.
+               </p>
+            </caption>
+            <graphic xlink:href="1743-422X-5-159-2" />
+         </fig>
+         <p>
+            Phylogenetic analysis demonstrated that this virus sequence is highly divergent from previously described picornaviruses and is most closely related to viruses in the newly reported genus cosavirus (Figure
+            <xref ref-type="fig" rid="F2">2</xref>
+            ) [
+            <xref ref-type="bibr" rid="B12">12</xref>
+            ]. According to the Picornavirus study group [
+            <xref ref-type="bibr" rid="B17">17</xref>
+            ] members of a genus should share &gt; 40%, &gt; 40% and &gt; 50% amino acid identity in P1, P2 and P3 genome regions respectively. For all picornavirus genera except apthovirus, species are defined as sharing &gt; 70% amino acid identity in P1 and &gt; 70% amino acid identity in 2C and 3CD [
+            <xref ref-type="bibr" rid="B18">18</xref>
+            ]. Sequences from the 4 previously described cosavirus species share 48–55% amino acid identity in the P1 region to each other and 63–72% identity in the 3D [
+            <xref ref-type="bibr" rid="B12">12</xref>
+            ]. This virus had 51% amino acid identity to the P1 region, 88% amino acid identity to 2C, and 77% amino acid identity to 3CD of HCoSV-D1, its closest relative based on phylogenetic analysis of the entire polyprotein (data not shown). Given that this virus does not meet all criteria for inclusion in the existing cosavirus species, we propose that this virus be considered a new species within the cosavirus genus. Therefore we have tentatively named this virus Human Cosavirus E1 (HCoSV-E1).
+         </p>
+         <p>
+            A subset of viruses in the family
+            <italic>Picornaviridae</italic>
+            , members of the genera Cardiovirus, Apthovirus, Erbovirus, Kobuvirus, Teschovirus and the proposed genera Sapelovirus and Senecavirus [
+            <xref ref-type="bibr" rid="B11">11</xref>
+            ,
+            <xref ref-type="bibr" rid="B19">19</xref>
+            ,
+            <xref ref-type="bibr" rid="B20">20</xref>
+            ], encode a leader protein (L) at the N terminus of the polyprotein. In addition, cardioviruses also encode for a L* protein, a protein that is initiated from an alternative AUG downstream from the initiation site of the polyprotein. Neither HCoSV-E1 nor the other described members of the proposed genus cosavirus appeared to encode an L or L* protein. [
+            <xref ref-type="bibr" rid="B12">12</xref>
+            ]
+         </p>
+         <p>
+            253 pediatric stool specimens sent to the clinical microbiology lab for bacterial culture at the St. Louis Children's Hospital and 143 stool samples from children with acute diarrhea at the Royal Children's Hospital (Melbourne, Australia) were analyzed for the presence of HCoSV-E1 by RT-PCR using primers (LG0053: 5'-GAACTCATGCAACTTACCCAGC-3' and LG0052: 5'-GCCAAGACATGATCCAACGG-3') designed to the 3D region of the genome. None of these samples were positive for the presence of HCoSV-E1. This suggests that the prevalence rate of HCoSV-E1 is more similar to the reported cosavirus prevalence in Scotland (1/1000) than that described in Pakistan [
+            <xref ref-type="bibr" rid="B12">12</xref>
+            ]. However, obtaining more sequence from the 5'UTR of HCosV-E1, would enable design of more robust screening primers to more comprehensively analyze these cohorts for the presence of viruses closely related to HCosV-E1. Additionally, usage of conserved primers capable of detecting all of the known cosaviruses could potentially reveal the presence of other cosaviruses in these cohorts of stool samples.
+         </p>
+         <p>At this time the relationship of HCoSV-E1 to diarrhea or other human diseases is unknown. One possibility is that HCoSV-E1 represents a true human pathogen that causes gastroenteritis. Alternatively, it may be a human pathogen that is shed in the stool, but causes extraintestinal disease such as poliovirus. Another possibility is that HCoSV-E1 may be a commensal or symbiotic microbe. Additionally, it is also possible that HCoSV-E1 is a result of dietary ingestion and is not a virus that truly infects or replicates in human cells. Regardless of the clinical role of HCoSV-E1, the identification of HCoSV-E1 in this study further emphasizes the tremendous microbial diversity of the human gut that remains to be discovered and the need for systematic investigations of the human "virome". In addition, future work will focus on defining if HCoSV-E1 is a true human pathogen.</p>
+      </sec>
+      <sec>
+         <title>Competing interests</title>
+         <p>The authors declare that they have no competing interests.</p>
+      </sec>
+      <sec>
+         <title>Authors' contributions</title>
+         <p>DW conceived and designed the experiments. LH carried out the experiments and analysis. SF participated in the design and analysis of the experiments. CK contributed samples and edited manuscript. LH and DW wrote the paper.</p>
+      </sec>
+   </body>
+   <back>
+      <ack>
+         <sec>
+            <title>Acknowledgements</title>
+            <p>We would like to thank Drs. Gregory Storch and Binh-Minh Le for their help in the accrual and processing of the St. Louis stool specimens. This study was supported in part by National Institutes of Health grant U54 AI057160 to the Midwest Regional Center of Excellence for Biodefense and Emerging Infectious Diseases Research (MRCE). This research was also supported in part by the National Institutes of Health under Ruth L. Kirschstein National Research Service Award (5 T32 DK077653) from the NIDDK and in part by an NHMRC RD Wright Research Fellowship (ID 334364, CK).</p>
+         </sec>
+      </ack>
+      <ref-list>
+         <ref id="B1">
+            <citation citation-type="book">
+               <source>World Health Report</source>
+               <year>2004</year>
+               <publisher-name>World Health Organization</publisher-name>
+            </citation>
+         </ref>
+         <ref id="B2">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Kosek</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Bern</surname>
+                     <given-names>C</given-names>
+                  </name>
+                  <name>
+                     <surname>Guerrant</surname>
+                     <given-names>RL</given-names>
+                  </name>
+               </person-group>
+               <article-title>The global burden of diarrhoeal disease, as estimated from studies published between 1992 and 2000</article-title>
+               <source>Bull World Health Organ</source>
+               <year>2003</year>
+               <volume>81</volume>
+               <fpage>197</fpage>
+               <lpage>204</lpage>
+               <pub-id pub-id-type="pmid">12764516</pub-id>
+            </citation>
+         </ref>
+         <ref id="B3">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>O'Ryan</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Prado</surname>
+                     <given-names>V</given-names>
+                  </name>
+                  <name>
+                     <surname>Pickering</surname>
+                     <given-names>LK</given-names>
+                  </name>
+               </person-group>
+               <article-title>A millennium update on pediatric diarrheal illness in the developing world</article-title>
+               <source>Semin Pediatr Infect Dis</source>
+               <year>2005</year>
+               <volume>16</volume>
+               <fpage>125</fpage>
+               <lpage>136</lpage>
+               <pub-id pub-id-type="pmid">15825143</pub-id>
+               <pub-id pub-id-type="doi">10.1053/j.spid.2005.12.008</pub-id>
+            </citation>
+         </ref>
+         <ref id="B4">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Denno</surname>
+                     <given-names>DM</given-names>
+                  </name>
+                  <name>
+                     <surname>Stapp</surname>
+                     <given-names>JR</given-names>
+                  </name>
+                  <name>
+                     <surname>Boster</surname>
+                     <given-names>DR</given-names>
+                  </name>
+                  <name>
+                     <surname>Qin</surname>
+                     <given-names>X</given-names>
+                  </name>
+                  <name>
+                     <surname>Clausen</surname>
+                     <given-names>CR</given-names>
+                  </name>
+                  <name>
+                     <surname>Del Beccaro</surname>
+                     <given-names>KH</given-names>
+                  </name>
+                  <name>
+                     <surname>Swerdlow</surname>
+                     <given-names>DL</given-names>
+                  </name>
+                  <name>
+                     <surname>Braden</surname>
+                     <given-names>CR</given-names>
+                  </name>
+                  <name>
+                     <surname>Tarr</surname>
+                     <given-names>PI</given-names>
+                  </name>
+               </person-group>
+               <article-title>Etiology of diarrhea in pediatric outpatient settings</article-title>
+               <source>Pediatr Infect Dis J</source>
+               <year>2005</year>
+               <volume>24</volume>
+               <fpage>142</fpage>
+               <lpage>148</lpage>
+               <pub-id pub-id-type="pmid">15702043</pub-id>
+               <pub-id pub-id-type="doi">10.1097/01.inf.0000151031.47761.6d</pub-id>
+            </citation>
+         </ref>
+         <ref id="B5">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Kapikian</surname>
+                     <given-names>AZ</given-names>
+                  </name>
+               </person-group>
+               <article-title>Viral gastroenteritis</article-title>
+               <source>Jama</source>
+               <year>1993</year>
+               <volume>269</volume>
+               <fpage>627</fpage>
+               <lpage>630</lpage>
+               <pub-id pub-id-type="pmid">8380619</pub-id>
+               <pub-id pub-id-type="doi">10.1001/jama.269.5.627</pub-id>
+            </citation>
+         </ref>
+         <ref id="B6">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Chikhi-Brachet</surname>
+                     <given-names>R</given-names>
+                  </name>
+                  <name>
+                     <surname>Bon</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Toubiana</surname>
+                     <given-names>L</given-names>
+                  </name>
+                  <name>
+                     <surname>Pothier</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Nicolas</surname>
+                     <given-names>JC</given-names>
+                  </name>
+                  <name>
+                     <surname>Flahault</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Kohli</surname>
+                     <given-names>E</given-names>
+                  </name>
+               </person-group>
+               <article-title>Virus diversity in a winter epidemic of acute diarrhea in France</article-title>
+               <source>J Clin Microbiol</source>
+               <year>2002</year>
+               <volume>40</volume>
+               <fpage>4266</fpage>
+               <lpage>4272</lpage>
+               <pub-id pub-id-type="pmid">12409408</pub-id>
+               <pub-id pub-id-type="doi">10.1128/JCM.40.11.4266-4272.2002</pub-id>
+            </citation>
+         </ref>
+         <ref id="B7">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Finkbeiner</surname>
+                     <given-names>SR</given-names>
+                  </name>
+                  <name>
+                     <surname>Allred</surname>
+                     <given-names>AF</given-names>
+                  </name>
+                  <name>
+                     <surname>Tarr</surname>
+                     <given-names>PI</given-names>
+                  </name>
+                  <name>
+                     <surname>Klein</surname>
+                     <given-names>EJ</given-names>
+                  </name>
+                  <name>
+                     <surname>Kirkwood</surname>
+                     <given-names>CD</given-names>
+                  </name>
+                  <name>
+                     <surname>Wang</surname>
+                     <given-names>D</given-names>
+                  </name>
+               </person-group>
+               <article-title>Metagenomic analysis of human diarrhea: viral detection and discovery</article-title>
+               <source>PLoS Pathog</source>
+               <year>2008</year>
+               <volume>4</volume>
+               <fpage>e1000011</fpage>
+               <pub-id pub-id-type="pmid">18398449</pub-id>
+               <pub-id pub-id-type="doi">10.1371/journal.ppat.1000011</pub-id>
+            </citation>
+         </ref>
+         <ref id="B8">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Kirkwood</surname>
+                     <given-names>CD</given-names>
+                  </name>
+                  <name>
+                     <surname>Clark</surname>
+                     <given-names>R</given-names>
+                  </name>
+                  <name>
+                     <surname>Bogdanovic-Sakran</surname>
+                     <given-names>N</given-names>
+                  </name>
+                  <name>
+                     <surname>Bishop</surname>
+                     <given-names>RF</given-names>
+                  </name>
+               </person-group>
+               <article-title>A 5-year study of the prevalence and genetic diversity of human caliciviruses associated with sporadic cases of acute gastroenteritis in young children admitted to hospital in Melbourne, Australia (1998–2002)</article-title>
+               <source>J Med Virol</source>
+               <year>2005</year>
+               <volume>77</volume>
+               <fpage>96</fpage>
+               <lpage>101</lpage>
+               <pub-id pub-id-type="pmid">16032716</pub-id>
+               <pub-id pub-id-type="doi">10.1002/jmv.20419</pub-id>
+            </citation>
+         </ref>
+         <ref id="B9">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Mustafa</surname>
+                     <given-names>H</given-names>
+                  </name>
+                  <name>
+                     <surname>Palombo</surname>
+                     <given-names>EA</given-names>
+                  </name>
+                  <name>
+                     <surname>Bishop</surname>
+                     <given-names>RF</given-names>
+                  </name>
+               </person-group>
+               <article-title>Improved sensitivity of astrovirus-specific RT-PCR following culture of stool samples in CaCo-2 cells</article-title>
+               <source>J Clin Virol</source>
+               <year>1998</year>
+               <volume>11</volume>
+               <fpage>103</fpage>
+               <lpage>107</lpage>
+               <pub-id pub-id-type="pmid">9785211</pub-id>
+               <pub-id pub-id-type="doi">10.1016/S1386-6532(98)00049-X</pub-id>
+            </citation>
+         </ref>
+         <ref id="B10">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Wang</surname>
+                     <given-names>D</given-names>
+                  </name>
+                  <name>
+                     <surname>Urisman</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Liu</surname>
+                     <given-names>YT</given-names>
+                  </name>
+                  <name>
+                     <surname>Springer</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Ksiazek</surname>
+                     <given-names>TG</given-names>
+                  </name>
+                  <name>
+                     <surname>Erdman</surname>
+                     <given-names>DD</given-names>
+                  </name>
+                  <name>
+                     <surname>Mardis</surname>
+                     <given-names>ER</given-names>
+                  </name>
+                  <name>
+                     <surname>Hickenbotham</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Magrini</surname>
+                     <given-names>V</given-names>
+                  </name>
+                  <name>
+                     <surname>Eldred</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Viral discovery and sequence recovery using DNA microarrays</article-title>
+               <source>PLoS Biol</source>
+               <year>2003</year>
+               <volume>1</volume>
+               <fpage>E2</fpage>
+               <pub-id pub-id-type="pmid">14624234</pub-id>
+               <pub-id pub-id-type="doi">10.1371/journal.pbio.0000002</pub-id>
+            </citation>
+         </ref>
+         <ref id="B11">
+            <citation citation-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Racaniello</surname>
+                     <given-names>VR</given-names>
+                  </name>
+               </person-group>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Howley DMKaPM</surname>
+                  </name>
+               </person-group>
+               <article-title>Picornaviridae: The Viruses and Their Replication</article-title>
+               <source>Fields Virology</source>
+               <year>2007</year>
+               <volume>1</volume>
+               <edition>5</edition>
+               <publisher-name>Philadelphia: Lippincott Williams &amp; Wilkins</publisher-name>
+               <fpage>795</fpage>
+               <lpage>838</lpage>
+            </citation>
+         </ref>
+         <ref id="B12">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Kapoor</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Victoria</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Simmonds</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Slikas</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Chieochansin</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Naeem</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Shaukat</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Sharif</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Alam</surname>
+                     <given-names>MM</given-names>
+                  </name>
+                  <name>
+                     <surname>Angez</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>A highly prevalent and genetically diversified Picornaviridae genus in South Asian children</article-title>
+               <source>Proc Natl Acad Sci USA</source>
+               <year>2008</year>
+               <pub-id pub-id-type="pmid">19033469</pub-id>
+            </citation>
+         </ref>
+         <ref id="B13">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Yamashita</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Kobayashi</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Sakae</surname>
+                     <given-names>K</given-names>
+                  </name>
+                  <name>
+                     <surname>Nakata</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Chiba</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Ishihara</surname>
+                     <given-names>Y</given-names>
+                  </name>
+                  <name>
+                     <surname>Isomura</surname>
+                     <given-names>S</given-names>
+                  </name>
+               </person-group>
+               <article-title>Isolation of cytopathic small round viruses with BS-C-1 cells from patients with gastroenteritis</article-title>
+               <source>J Infect Dis</source>
+               <year>1991</year>
+               <volume>164</volume>
+               <fpage>954</fpage>
+               <lpage>957</lpage>
+               <pub-id pub-id-type="pmid">1658159</pub-id>
+            </citation>
+         </ref>
+         <ref id="B14">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Finn</surname>
+                     <given-names>RD</given-names>
+                  </name>
+                  <name>
+                     <surname>Mistry</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Schuster-Bockler</surname>
+                     <given-names>B</given-names>
+                  </name>
+                  <name>
+                     <surname>Griffiths-Jones</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Hollich</surname>
+                     <given-names>V</given-names>
+                  </name>
+                  <name>
+                     <surname>Lassmann</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Moxon</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Marshall</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Khanna</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Durbin</surname>
+                     <given-names>R</given-names>
+                  </name>
+                  <etal />
+               </person-group>
+               <article-title>Pfam: clans, web tools and services</article-title>
+               <source>Nucleic Acids Res</source>
+               <year>2006</year>
+               <volume>34</volume>
+               <fpage>D247</fpage>
+               <lpage>251</lpage>
+               <pub-id pub-id-type="pmid">16381856</pub-id>
+               <pub-id pub-id-type="doi">10.1093/nar/gkj149</pub-id>
+            </citation>
+         </ref>
+         <ref id="B15">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Kapoor</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Victoria</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Simmonds</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Wang</surname>
+                     <given-names>C</given-names>
+                  </name>
+                  <name>
+                     <surname>Shafer</surname>
+                     <given-names>RW</given-names>
+                  </name>
+                  <name>
+                     <surname>Nims</surname>
+                     <given-names>R</given-names>
+                  </name>
+                  <name>
+                     <surname>Nielsen</surname>
+                     <given-names>O</given-names>
+                  </name>
+                  <name>
+                     <surname>Delwart</surname>
+                     <given-names>E</given-names>
+                  </name>
+               </person-group>
+               <article-title>A highly divergent picornavirus in a marine mammal</article-title>
+               <source>J Virol</source>
+               <year>2008</year>
+               <volume>82</volume>
+               <fpage>311</fpage>
+               <lpage>320</lpage>
+               <pub-id pub-id-type="pmid">17942560</pub-id>
+               <pub-id pub-id-type="doi">10.1128/JVI.01240-07</pub-id>
+            </citation>
+         </ref>
+         <ref id="B16">
+            <citation citation-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Swofford</surname>
+                     <given-names>DL</given-names>
+                  </name>
+               </person-group>
+               <source>PAUP* Phylogenetic Anaylsis Using Parsimony (*and other methods)</source>
+               <year>1998</year>
+               <publisher-name>Sunderland, Massachusetts: Sinauer Associates</publisher-name>
+            </citation>
+         </ref>
+         <ref id="B17">
+            <citation citation-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Stanway</surname>
+                     <given-names>G</given-names>
+                  </name>
+                  <name>
+                     <surname>Brown</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Christian</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Hovi</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Hyypiä</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>King</surname>
+                     <given-names>AMQ</given-names>
+                  </name>
+                  <name>
+                     <surname>Knowles</surname>
+                     <given-names>NJ</given-names>
+                  </name>
+                  <name>
+                     <surname>Lemon</surname>
+                     <given-names>SM</given-names>
+                  </name>
+                  <name>
+                     <surname>Minor</surname>
+                     <given-names>PD</given-names>
+                  </name>
+                  <name>
+                     <surname>Pallansch</surname>
+                     <given-names>MA</given-names>
+                  </name>
+                  <name>
+                     <surname>Palmenberg</surname>
+                     <given-names>AC</given-names>
+                  </name>
+                  <name>
+                     <surname>Skern</surname>
+                     <given-names>T</given-names>
+                  </name>
+               </person-group>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Fauquet CM, Mayo MA, Maniloff J, Desselberger U, Ball LA</surname>
+                  </name>
+               </person-group>
+               <article-title>Family Picornaviridae</article-title>
+               <source>Virus Taxonomy Eighth Report of the International Committee on Taxonomy of Viruses</source>
+               <year>2005</year>
+               <publisher-name>London: Elsevier/Academic Press</publisher-name>
+               <fpage>757</fpage>
+               <lpage>778</lpage>
+            </citation>
+         </ref>
+         <ref id="B18">
+            <citation citation-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>CM Fauquet</surname>
+                     <given-names>MAM</given-names>
+                  </name>
+                  <name>
+                     <surname>Maniloff</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Desselberger</surname>
+                     <given-names>U</given-names>
+                  </name>
+                  <name>
+                     <surname>Ball</surname>
+                     <given-names>LA</given-names>
+                  </name>
+                  <collab>Ed.</collab>
+               </person-group>
+               <source>Virus Taxonomy, Classification, and Nomenclature of Viruses</source>
+               <year>2005</year>
+               <publisher-name>San Diego, CA: Elsevier Academic Press</publisher-name>
+            </citation>
+         </ref>
+         <ref id="B19">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Hales</surname>
+                     <given-names>LM</given-names>
+                  </name>
+                  <name>
+                     <surname>Knowles</surname>
+                     <given-names>NJ</given-names>
+                  </name>
+                  <name>
+                     <surname>Reddy</surname>
+                     <given-names>PS</given-names>
+                  </name>
+                  <name>
+                     <surname>Xu</surname>
+                     <given-names>L</given-names>
+                  </name>
+                  <name>
+                     <surname>Hay</surname>
+                     <given-names>C</given-names>
+                  </name>
+                  <name>
+                     <surname>Hallenbeck</surname>
+                     <given-names>PL</given-names>
+                  </name>
+               </person-group>
+               <article-title>Complete genome sequence analysis of Seneca Valley virus-001, a novel oncolytic picornavirus</article-title>
+               <source>J Gen Virol</source>
+               <year>2008</year>
+               <volume>89</volume>
+               <fpage>1265</fpage>
+               <lpage>1275</lpage>
+               <pub-id pub-id-type="pmid">18420805</pub-id>
+               <pub-id pub-id-type="doi">10.1099/vir.0.83570-0</pub-id>
+            </citation>
+         </ref>
+         <ref id="B20">
+            <citation citation-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Tseng</surname>
+                     <given-names>CH</given-names>
+                  </name>
+                  <name>
+                     <surname>Tsai</surname>
+                     <given-names>HJ</given-names>
+                  </name>
+               </person-group>
+               <article-title>Sequence analysis of a duck picornavirus isolate indicates that it together with porcine enterovirus type 8 and simian picornavirus type 2 should be assigned to a new picornavirus genus</article-title>
+               <source>Virus Res</source>
+               <year>2007</year>
+               <volume>129</volume>
+               <fpage>104</fpage>
+               <lpage>114</lpage>
+               <pub-id pub-id-type="pmid">17686542</pub-id>
+               <pub-id pub-id-type="doi">10.1016/j.virusres.2007.06.023</pub-id>
+            </citation>
+         </ref>
+      </ref-list>
+   </back>
+</article>

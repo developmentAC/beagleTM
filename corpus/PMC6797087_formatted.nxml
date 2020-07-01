@@ -1,0 +1,2579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+   <?properties open_access?>
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="nlm-ta">PLoS Med</journal-id>
+         <journal-id journal-id-type="iso-abbrev">PLoS Med</journal-id>
+         <journal-id journal-id-type="publisher-id">plos</journal-id>
+         <journal-id journal-id-type="pmc">plosmed</journal-id>
+         <journal-title-group>
+            <journal-title>PLoS Medicine</journal-title>
+         </journal-title-group>
+         <issn pub-type="ppub">1549-1277</issn>
+         <issn pub-type="epub">1549-1676</issn>
+         <publisher>
+            <publisher-name>Public Library of Science</publisher-name>
+            <publisher-loc>San Francisco, CA USA</publisher-loc>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="pmid">31622334</article-id>
+         <article-id pub-id-type="pmc">6797087</article-id>
+         <article-id pub-id-type="doi">10.1371/journal.pmed.1002945</article-id>
+         <article-id pub-id-type="publisher-id">PMEDICINE-D-19-01644</article-id>
+         <article-categories>
+            <subj-group subj-group-type="heading">
+               <subject>Research Article</subject>
+            </subj-group>
+            <subj-group subj-group-type="Discipline-v3">
+               <subject>Medicine and Health Sciences</subject>
+               <subj-group>
+                  <subject>Health Care</subject>
+                  <subj-group>
+                     <subject>Health Care Policy</subject>
+                     <subj-group>
+                        <subject>Screening Guidelines</subject>
+                     </subj-group>
+                  </subj-group>
+               </subj-group>
+            </subj-group>
+            <subj-group subj-group-type="Discipline-v3">
+               <subject>Medicine and Health Sciences</subject>
+               <subj-group>
+                  <subject>Endocrinology</subject>
+                  <subj-group>
+                     <subject>Endocrine Disorders</subject>
+                     <subj-group>
+                        <subject>Diabetes Mellitus</subject>
+                     </subj-group>
+                  </subj-group>
+               </subj-group>
+            </subj-group>
+            <subj-group subj-group-type="Discipline-v3">
+               <subject>Medicine and Health Sciences</subject>
+               <subj-group>
+                  <subject>Metabolic Disorders</subject>
+                  <subj-group>
+                     <subject>Diabetes Mellitus</subject>
+                  </subj-group>
+               </subj-group>
+            </subj-group>
+            <subj-group subj-group-type="Discipline-v3">
+               <subject>Medicine and Health Sciences</subject>
+               <subj-group>
+                  <subject>Endocrinology</subject>
+                  <subj-group>
+                     <subject>Endocrine Disorders</subject>
+                     <subj-group>
+                        <subject>Diabetes Mellitus</subject>
+                        <subj-group>
+                           <subject>Type 2 Diabetes</subject>
+                        </subj-group>
+                     </subj-group>
+                  </subj-group>
+               </subj-group>
+            </subj-group>
+            <subj-group subj-group-type="Discipline-v3">
+               <subject>Medicine and Health Sciences</subject>
+               <subj-group>
+                  <subject>Metabolic Disorders</subject>
+                  <subj-group>
+                     <subject>Diabetes Mellitus</subject>
+                     <subj-group>
+                        <subject>Type 2 Diabetes</subject>
+                     </subj-group>
+                  </subj-group>
+               </subj-group>
+            </subj-group>
+            <subj-group subj-group-type="Discipline-v3">
+               <subject>Medicine and Health Sciences</subject>
+               <subj-group>
+                  <subject>Epidemiology</subject>
+                  <subj-group>
+                     <subject>Medical Risk Factors</subject>
+                  </subj-group>
+               </subj-group>
+            </subj-group>
+            <subj-group subj-group-type="Discipline-v3">
+               <subject>Medicine and Health Sciences</subject>
+               <subj-group>
+                  <subject>Ophthalmology</subject>
+                  <subj-group>
+                     <subject>Retinal Disorders</subject>
+                     <subj-group>
+                        <subject>Retinopathy</subject>
+                        <subj-group>
+                           <subject>Diabetic Retinopathy</subject>
+                        </subj-group>
+                     </subj-group>
+                  </subj-group>
+               </subj-group>
+            </subj-group>
+            <subj-group subj-group-type="Discipline-v3">
+               <subject>People and places</subject>
+               <subj-group>
+                  <subject>Geographical locations</subject>
+                  <subj-group>
+                     <subject>Europe</subject>
+                     <subj-group>
+                        <subject>European Union</subject>
+                        <subj-group>
+                           <subject>United Kingdom</subject>
+                           <subj-group>
+                              <subject>Scotland</subject>
+                           </subj-group>
+                        </subj-group>
+                     </subj-group>
+                  </subj-group>
+               </subj-group>
+            </subj-group>
+            <subj-group subj-group-type="Discipline-v3">
+               <subject>Research and Analysis Methods</subject>
+               <subj-group>
+                  <subject>Mathematical and Statistical Techniques</subject>
+                  <subj-group>
+                     <subject>Statistical Methods</subject>
+                     <subj-group>
+                        <subject>Forecasting</subject>
+                     </subj-group>
+                  </subj-group>
+               </subj-group>
+            </subj-group>
+            <subj-group subj-group-type="Discipline-v3">
+               <subject>Physical Sciences</subject>
+               <subj-group>
+                  <subject>Mathematics</subject>
+                  <subj-group>
+                     <subject>Statistics</subject>
+                     <subj-group>
+                        <subject>Statistical Methods</subject>
+                        <subj-group>
+                           <subject>Forecasting</subject>
+                        </subj-group>
+                     </subj-group>
+                  </subj-group>
+               </subj-group>
+            </subj-group>
+            <subj-group subj-group-type="Discipline-v3">
+               <subject>Medicine and Health Sciences</subject>
+               <subj-group>
+                  <subject>Ophthalmology</subject>
+                  <subj-group>
+                     <subject>Retinal Disorders</subject>
+                     <subj-group>
+                        <subject>Retinopathy</subject>
+                     </subj-group>
+                  </subj-group>
+               </subj-group>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Use of personalised risk-based screening schedules to optimise workload and sojourn time in screening programmes for diabetic retinopathy: A retrospective cohort study</article-title>
+            <alt-title alt-title-type="running-head">Use of evidence-based schedules to optimize diabetic retinopathy screening</alt-title>
+         </title-group>
+         <contrib-group>
+            <contrib contrib-type="author">
+               <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-1926-8029</contrib-id>
+               <name>
+                  <surname>Ochs</surname>
+                  <given-names>Andreas</given-names>
+               </name>
+               <role content-type="http://credit.casrai.org/">Conceptualization</role>
+               <role content-type="http://credit.casrai.org/">Formal analysis</role>
+               <role content-type="http://credit.casrai.org/">Investigation</role>
+               <role content-type="http://credit.casrai.org/">Methodology</role>
+               <role content-type="http://credit.casrai.org/">Software</role>
+               <role content-type="http://credit.casrai.org/">Visualization</role>
+               <role content-type="http://credit.casrai.org/">Writing – original draft</role>
+               <xref ref-type="aff" rid="aff001">
+                  <sup>1</sup>
+               </xref>
+            </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>McGurnaghan</surname>
+                  <given-names>Stuart</given-names>
+               </name>
+               <role content-type="http://credit.casrai.org/">Data curation</role>
+               <role content-type="http://credit.casrai.org/">Software</role>
+               <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+               <xref ref-type="aff" rid="aff001">
+                  <sup>1</sup>
+               </xref>
+            </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>Black</surname>
+                  <given-names>Mike W.</given-names>
+               </name>
+               <role content-type="http://credit.casrai.org/">Data curation</role>
+               <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+               <xref ref-type="aff" rid="aff002">
+                  <sup>2</sup>
+               </xref>
+            </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>Leese</surname>
+                  <given-names>Graham P.</given-names>
+               </name>
+               <role content-type="http://credit.casrai.org/">Conceptualization</role>
+               <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+               <xref ref-type="aff" rid="aff003">
+                  <sup>3</sup>
+               </xref>
+            </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>Philip</surname>
+                  <given-names>Sam</given-names>
+               </name>
+               <role content-type="http://credit.casrai.org/">Conceptualization</role>
+               <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+               <xref ref-type="aff" rid="aff004">
+                  <sup>4</sup>
+               </xref>
+            </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>Sattar</surname>
+                  <given-names>Naveed</given-names>
+               </name>
+               <role content-type="http://credit.casrai.org/">Conceptualization</role>
+               <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+               <xref ref-type="aff" rid="aff005">
+                  <sup>5</sup>
+               </xref>
+            </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>Styles</surname>
+                  <given-names>Caroline</given-names>
+               </name>
+               <role content-type="http://credit.casrai.org/">Conceptualization</role>
+               <role content-type="http://credit.casrai.org/">Data curation</role>
+               <role content-type="http://credit.casrai.org/">Methodology</role>
+               <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+               <xref ref-type="aff" rid="aff006">
+                  <sup>6</sup>
+               </xref>
+            </contrib>
+            <contrib contrib-type="author">
+               <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-7824-2569</contrib-id>
+               <name>
+                  <surname>Wild</surname>
+                  <given-names>Sarah H.</given-names>
+               </name>
+               <role content-type="http://credit.casrai.org/">Conceptualization</role>
+               <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+               <xref ref-type="aff" rid="aff007">
+                  <sup>7</sup>
+               </xref>
+            </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>McKeigue</surname>
+                  <given-names>Paul M.</given-names>
+               </name>
+               <role content-type="http://credit.casrai.org/">Conceptualization</role>
+               <role content-type="http://credit.casrai.org/">Methodology</role>
+               <role content-type="http://credit.casrai.org/">Software</role>
+               <role content-type="http://credit.casrai.org/">Supervision</role>
+               <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+               <xref ref-type="aff" rid="aff007">
+                  <sup>7</sup>
+               </xref>
+            </contrib>
+            <contrib contrib-type="author">
+               <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-8345-3288</contrib-id>
+               <name>
+                  <surname>Colhoun</surname>
+                  <given-names>Helen M.</given-names>
+               </name>
+               <role content-type="http://credit.casrai.org/">Conceptualization</role>
+               <role content-type="http://credit.casrai.org/">Funding acquisition</role>
+               <role content-type="http://credit.casrai.org/">Investigation</role>
+               <role content-type="http://credit.casrai.org/">Supervision</role>
+               <role content-type="http://credit.casrai.org/">Visualization</role>
+               <role content-type="http://credit.casrai.org/">Writing – original draft</role>
+               <role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+               <xref ref-type="aff" rid="aff001">
+                  <sup>1</sup>
+               </xref>
+               <xref ref-type="corresp" rid="cor001">*</xref>
+            </contrib>
+            <contrib contrib-type="author">
+               <collab>on behalf of the Scottish Diabetes Research Network Epidemiology Group and the Diabetic Retinopathy Screening Collaborative</collab>
+            </contrib>
+         </contrib-group>
+         <aff id="aff001">
+            <label>1</label>
+            <addr-line>Institute of Genetics and Molecular Medicine, University of Edinburgh, Edinburgh, United Kingdom</addr-line>
+         </aff>
+         <aff id="aff002">
+            <label>2</label>
+            <addr-line>Diabetic Retinopathy Screening Collaborative, NHS Highland, Inverness, United Kingdom</addr-line>
+         </aff>
+         <aff id="aff003">
+            <label>3</label>
+            <addr-line>Ninewells Hospital, Dundee, United Kingdom</addr-line>
+         </aff>
+         <aff id="aff004">
+            <label>4</label>
+            <addr-line>Grampian Diabetes Research Unit, Diabetes Centre, Aberdeen Royal Infirmary, Aberdeen, United Kingdom</addr-line>
+         </aff>
+         <aff id="aff005">
+            <label>5</label>
+            <addr-line>British Heart Foundation Glasgow Cardiovascular Research Centre, University of Glasgow, Glasgow, United Kingdom</addr-line>
+         </aff>
+         <aff id="aff006">
+            <label>6</label>
+            <addr-line>Queen Margaret Hospital, Dunfermline, United Kingdom</addr-line>
+         </aff>
+         <aff id="aff007">
+            <label>7</label>
+            <addr-line>Usher Institute of Population Health Sciences and Informatics, University of Edinburgh, Edinburgh, United Kingdom</addr-line>
+         </aff>
+         <contrib-group>
+            <contrib contrib-type="editor">
+               <name>
+                  <surname>Ma</surname>
+                  <given-names>Ronald C. W.</given-names>
+               </name>
+               <role>Academic Editor</role>
+               <xref ref-type="aff" rid="edit1" />
+            </contrib>
+         </contrib-group>
+         <aff id="edit1">
+            <addr-line>Chinese University of Hong Kong, CHINA</addr-line>
+         </aff>
+         <author-notes>
+            <fn fn-type="COI-statement" id="coi001">
+               <p>The authors have declared that no competing interests exist.</p>
+            </fn>
+            <corresp id="cor001">
+               * E-mail:
+               <email>Helen.colhoun@igmm.ed.ac.uk</email>
+            </corresp>
+         </author-notes>
+         <pub-date pub-type="epub">
+            <day>17</day>
+            <month>10</month>
+            <year>2019</year>
+         </pub-date>
+         <pub-date pub-type="collection">
+            <month>10</month>
+            <year>2019</year>
+         </pub-date>
+         <volume>16</volume>
+         <issue>10</issue>
+         <elocation-id>e1002945</elocation-id>
+         <history>
+            <date date-type="received">
+               <day>8</day>
+               <month>5</month>
+               <year>2019</year>
+            </date>
+            <date date-type="accepted">
+               <day>19</day>
+               <month>9</month>
+               <year>2019</year>
+            </date>
+         </history>
+         <permissions>
+            <copyright-statement>© 2019 Ochs et al</copyright-statement>
+            <copyright-year>2019</copyright-year>
+            <copyright-holder>Ochs et al</copyright-holder>
+            <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+               <license-p>
+                  This is an open access article distributed under the terms of the
+                  <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>
+                  , which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+               </license-p>
+            </license>
+         </permissions>
+         <self-uri content-type="pdf" xlink:href="pmed.1002945.pdf" />
+         <abstract>
+            <sec id="sec001">
+               <title>Background</title>
+               <p>National guidelines in most countries set screening intervals for diabetic retinopathy (DR) that are insufficiently informed by contemporary incidence rates. This has unspecified implications for interval disease risks (IDs) of referable DR, disparities in ID between groups or individuals, time spent in referable state before screening (sojourn time), and workload. We explored the effect of various screening schedules on these outcomes and developed an open-access interactive policy tool informed by contemporary DR incidence rates.</p>
+            </sec>
+            <sec id="sec002">
+               <title>Methods and findings</title>
+               <p>
+                  Scottish Diabetic Retinopathy Screening Programme data from 1 January 2007 to 31 December 2016 were linked to diabetes registry data. This yielded 128,606 screening examinations in people with type 1 diabetes (T1D) and 1,384,360 examinations in people with type 2 diabetes (T2D). Among those with T1D, 47% of those without and 44% of those with referable DR were female, mean diabetes duration was 21 and 23 years, respectively, and mean age was 26 and 24 years, respectively. Among those with T2D, 44% of those without and 42% of those with referable DR were female, mean diabetes duration was 9 and 14 years, respectively, and mean age was 58 and 52 years, respectively. Individual probability of developing referable DR was estimated using a generalised linear model and was used to calculate the intervals needed to achieve various IDs across prior grade strata, or at the individual level, and the resultant workload and sojourn time. The current policy in Scotland—screening people with no or mild disease annually and moderate disease every 6 months—yielded large differences in ID by prior grade (13.2%, 3.6%, and 0.6% annually for moderate, mild, and no prior DR strata, respectively, in T1D) and diabetes type (2.4% in T1D and 0.6% in T2D overall). Maintaining these overall risks but equalising risk across prior grade strata would require extremely short intervals in those with moderate DR (1–2 months) and very long intervals in those with no prior DR (35–47 months), with little change in workload or average sojourn time. Changing to intervals of 12, 9, and 3 months in T1D and to 24, 9, and 3 months in T2D for no, mild, and moderate DR strata, respectively, would substantially reduce disparity in ID across strata and between diabetes types whilst reducing workload by 26% and increasing sojourn time by 2.3 months. Including clinical risk factor data gave a small but significant increment in prediction of referable DR beyond grade (increase in C-statistic of 0.013 in T1D and 0.016 in T2D, both
+                  <italic>p</italic>
+                  &lt; 0.001). However, using this model to derive personalised intervals did not have substantial workload or sojourn time benefits over stratum-specific intervals. The main limitation is that the results are pertinent only to countries that share broadly similar rates of retinal disease and risk factor distributions to Scotland.
+               </p>
+            </sec>
+            <sec id="sec003">
+               <title>Conclusions</title>
+               <p>Changing current policies could reduce disparities in ID and achieve substantial reductions in workload within the range of IDs likely to be deemed acceptable. Our tool should facilitate more rational policy setting for screening.</p>
+            </sec>
+         </abstract>
+         <abstract abstract-type="summary">
+            <title>Author summary</title>
+            <sec id="sec004">
+               <title>Why was this study done?</title>
+               <list list-type="bullet">
+                  <list-item>
+                     <p>People with diabetes are advised to have their eyes photographed regularly to detect early retinal changes so that they can be referred for preventive treatments for diabetic retinopathy. In some countries, including Scotland, national health service programmes of regular screening have been set up.</p>
+                  </list-item>
+                  <list-item>
+                     <p>Deciding how often such screening should occur is a complex problem that depends on the individual risk of developing disease but also on system-level issues such as how much screening workload can be delivered, what level of disease progression between screens is deemed acceptable (interval disease risk), whether the system should be designed to ensure this risk is equal for all (equity), and the acceptable time for someone to be in a progressed state before detection (sojourn time).</p>
+                  </list-item>
+                  <list-item>
+                     <p>Our aim was to use contemporary data from the Scottish screening programme accrued over 10 years to enable policy makers and individuals to make better informed decisions about how often screening should occur and the design of screening programmes. Previous studies were much smaller, used data from earlier decades, when disease rates were higher, or only examined type 1 diabetes (T1D) or type 2 diabetes (T2D), not both.</p>
+                  </list-item>
+               </list>
+            </sec>
+            <sec id="sec005">
+               <title>What did the researchers do and find?</title>
+               <list list-type="bullet">
+                  <list-item>
+                     <p>We took data on retinal photograph screenings from 128,606 screening examinations in people with T1D and 1,384,360 screenings in people with T2D with associated clinical risk factor data collected between 2007 and 2016. We quantified the current rates of disease occurrence and built a predictive model to allow those at more risk to be differentiated from those at lower risk.</p>
+                  </list-item>
+                  <list-item>
+                     <p>We used the current rate data and the risk model to quantify what the workload, sojourn time, and equity effects would be of different screening interval policies. We created an online tool to enable policy makers to evaluate the effects of different choices about screening intervals.</p>
+                  </list-item>
+                  <list-item>
+                     <p>The current system used in Scotland and elsewhere achieves low overall risks, but with large differences in risks between individuals.</p>
+                  </list-item>
+                  <list-item>
+                     <p>The prediction modelling showed that using lots of clinical risk factor data refines the prediction of progression of disease only slightly beyond using just diabetes type and the information contained in the last retinal photograph.</p>
+                  </list-item>
+               </list>
+            </sec>
+            <sec id="sec006">
+               <title>What do these findings mean?</title>
+               <list list-type="bullet">
+                  <list-item>
+                     <p>We show how much the current system could reduce differences in risk by screening some people more often and others less often, and show that can be achieved at the same time as substantially reducing workload.</p>
+                  </list-item>
+                  <list-item>
+                     <p>The main limitation is that the results are pertinent only to countries that share broadly similar rates of retinal disease and risk factor distributions to Scotland, where the study was done.</p>
+                  </list-item>
+               </list>
+            </sec>
+         </abstract>
+         <funding-group>
+            <award-group id="award001">
+               <funding-source>
+                  <institution>Scotland Chief Scientist Office</institution>
+               </funding-source>
+               <award-id>CZH/4/1072</award-id>
+               <principal-award-recipient>
+                  <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-8345-3288</contrib-id>
+                  <name>
+                     <surname>Colhoun</surname>
+                     <given-names>Helen M.</given-names>
+                  </name>
+               </principal-award-recipient>
+            </award-group>
+            <funding-statement>
+               Funding was provided by the Scotland Chief Scientist Office (
+               <ext-link ext-link-type="uri" xlink:href="https://www.cso.scot.nhs.uk/">https://www.cso.scot.nhs.uk/</ext-link>
+               ). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+            </funding-statement>
+         </funding-group>
+         <counts>
+            <fig-count count="1" />
+            <table-count count="4" />
+            <page-count count="15" />
+         </counts>
+         <custom-meta-group>
+            <custom-meta id="data-availability">
+               <meta-name>Data Availability</meta-name>
+               <meta-value>
+                  Data cannot be shared publicly because of ethical and legal concerns as the data derive from de-identified National Health Service Records. SCI-Diabetes Data, Scottish Morbidity Record and General Registrar Deaths data are available via the Public Benefits Privacy Panel for Health at
+                  <ext-link ext-link-type="uri" xlink:href="https://www.informationgovernance.scot.nhs.uk/pbpphsc/">https://www.informationgovernance.scot.nhs.uk/pbpphsc/</ext-link>
+                  for researchers who meet the criteria for access to confidential data.
+               </meta-value>
+            </custom-meta>
+         </custom-meta-group>
+      </article-meta>
+      <notes>
+         <title>Data Availability</title>
+         <p>
+            Data cannot be shared publicly because of ethical and legal concerns as the data derive from de-identified National Health Service Records. SCI-Diabetes Data, Scottish Morbidity Record and General Registrar Deaths data are available via the Public Benefits Privacy Panel for Health at
+            <ext-link ext-link-type="uri" xlink:href="https://www.informationgovernance.scot.nhs.uk/pbpphsc/">https://www.informationgovernance.scot.nhs.uk/pbpphsc/</ext-link>
+            for researchers who meet the criteria for access to confidential data.
+         </p>
+      </notes>
+   </front>
+   <body>
+      <sec sec-type="intro" id="sec007">
+         <title>Introduction</title>
+         <p>
+            Screening people with diabetes using fundus photography with subsequent referral for specialist care of those graded as having sight-threatening diabetic retinopathy (DR) is effective in limiting visual impairment caused by DR [
+            <xref rid="pmed.1002945.ref001" ref-type="bibr">1</xref>
+            ].
+         </p>
+         <p>
+            Several countries, including Iceland [
+            <xref rid="pmed.1002945.ref002" ref-type="bibr">2</xref>
+            ], England [
+            <xref rid="pmed.1002945.ref003" ref-type="bibr">3</xref>
+            ], and Scotland [
+            <xref rid="pmed.1002945.ref004" ref-type="bibr">4</xref>
+            ], have introduced national screening programmes. International recommendations for screening intervals are based on the level of DR at previous screenings [
+            <xref rid="pmed.1002945.ref005" ref-type="bibr">5</xref>
+            ]. In Scotland, individuals are stratified into those with no or mild prior DR, who are screened annually, and those with moderate DR, who are examined every 6 months; those with more severe retinopathy or maculopathy are referred to an ophthalmology clinic [
+            <xref rid="pmed.1002945.ref006" ref-type="bibr">6</xref>
+            ]. In the US, opportunistic screening is recommended, with screening frequency based on the DR grade of the most recent prior examination [
+            <xref rid="pmed.1002945.ref005" ref-type="bibr">5</xref>
+            ].
+         </p>
+         <p>
+            These recommendations, though often not stated explicitly, are based on the assumption that people are to be rescreened when their risk of developing sight-threatening DR reaches a certain threshold. Designing evidence-based screening policies requires a discussion of an acceptable interval disease risk (ID) of referable DR as well as the level to which the risk should be equalised across patients. Current guidelines specify defining screening intervals based on prior DR levels, implying at least some intent to reduce disparities in ID across strata of prior DR. As individual DR risks can vary widely within any stratum of prior DR grade [
+            <xref rid="pmed.1002945.ref006" ref-type="bibr">6</xref>
+            ,
+            <xref rid="pmed.1002945.ref007" ref-type="bibr">7</xref>
+            ], personalising screening intervals to equalise IDs at the individual level might also be considered. Such considerations of acceptable ID and equity have important impacts on workload (annual number of screenings required) and sojourn time (length of time a person who develops disease in the interval between screens was in that state before detection). However, these aspects are rarely discussed in designing policies at the moment, as contemporary data on rates of retinopathy progression as well as individual risk factor data for prediction models were not available at the population level until recently. In comparison to previous studies [
+            <xref rid="pmed.1002945.ref008" ref-type="bibr">8</xref>
+            –
+            <xref rid="pmed.1002945.ref010" ref-type="bibr">10</xref>
+            ] on this topic, where the sample sizes ranged from just 1,400 to 11,500 persons and diabetes type was sometimes restricted to type 1 diabetes (T1D) [
+            <xref rid="pmed.1002945.ref010" ref-type="bibr">10</xref>
+            ] or type 2 diabetes (T2D) [
+            <xref rid="pmed.1002945.ref011" ref-type="bibr">11</xref>
+            ], we have included data from over 220,000 persons with T2D and 19,000 persons with T1D.
+         </p>
+         <p>
+            Our goal was to evaluate the workload and sojourn times that result from a range of policy options given current rates of DR progression and to provide national policy makers, guideline committees, and clinicians with an evidence-based interactive tool to aid policy choices (the tool can be accessed at
+            <ext-link ext-link-type="uri" xlink:href="https://diabepi.shinyapps.io/ScreeningIntervals/">https://diabepi.shinyapps.io/ScreeningIntervals/</ext-link>
+            ). To do so, we harnessed a large database capturing DR grade data for 10 years of the national screening programme in Scotland and a national diabetes register with other important clinical risk factor data.
+         </p>
+      </sec>
+      <sec sec-type="materials|methods" id="sec008">
+         <title>Methods</title>
+         <sec id="sec009">
+            <title>Data sources</title>
+            <p>
+               This study uses data from the Scottish Diabetic Retinopathy Screening Programme (DRS), which became nationwide in 2007, inviting all patients with diabetes aged ≥12 years for annual screening [
+               <xref rid="pmed.1002945.ref006" ref-type="bibr">6</xref>
+               ]. DRS screening records were acquired via Scottish Care Information–Diabetes (SCI-Diabetes), a national diabetes register with an estimated coverage of more than 99% of the current diabetes population in Scotland [
+               <xref rid="pmed.1002945.ref012" ref-type="bibr">12</xref>
+               ]. DRS provided data on the date and outcome of the screening for each patient. SCI-Diabetes provided date of birth, date of diagnosis, type of diabetes, sex, and clinical risk factors. Prior hospital admissions for cardiovascular disease were obtained through linkage to the Scottish Morbidity Record. Date of death was available from the General Register Office for Scotland. Data were available from 1 January 2007 to 31 December 2016.
+            </p>
+         </sec>
+         <sec id="sec010">
+            <title>Study population</title>
+            <p>All people with T1D or T2D screened at least once between 2007 and 2016 were included in the dataset. We considered that, in all realistic policies, people with diabetes would be offered an initial screening visit and then 1 more screen after 1 year so as to pick up rapid progressors, and thereafter specification of subsequent intervals would use the results obtained from each patient’s 2 most recent DR screenings. In Scotland the first screening visit is not offered until age 12 years in those diagnosed below this age. Accordingly, for fitting statistical models, the cohort was defined as individuals with at least 3 retinopathy screens, out of which the first 2 had not shown a referable state. Individual observation period began at the day of first screening. Observations were censored at first referable state, death, or the end of the study period. The second screening examination for each individual was designated as the baseline examination. This dataset included 128,606 examinations on 19,070 individuals with T1D and 1,384,360 examinations on 220,276 individuals with T2D; 5,253 individuals with T1D and 17,042 with T2D were excluded because they were in a referable state at their first or second screening.</p>
+         </sec>
+         <sec id="sec011">
+            <title>Retinopathy grades</title>
+            <p>
+               DR examinations were carried out using single central 45
+               <sup>○</sup>
+               field digital photograph, with mydriasis if required [
+               <xref rid="pmed.1002945.ref006" ref-type="bibr">6</xref>
+               ]. Each eye is graded as 1 of 5 retinopathy (R) grades (R0 through R4) broadly based on the Early Treatment Diabetic Retinopathy Study (ETDRS) scale [
+               <xref rid="pmed.1002945.ref013" ref-type="bibr">13</xref>
+               ,
+               <xref rid="pmed.1002945.ref014" ref-type="bibr">14</xref>
+               ] and 1 of 3 maculopathy (M) grades (M0, M1, M2) [
+               <xref rid="pmed.1002945.ref014" ref-type="bibr">14</xref>
+               ] (see
+               <xref ref-type="supplementary-material" rid="pmed.1002945.s002">S1 Table</xref>
+               for the grading criteria). Any individual graded with R3, R4, or M2 in either eye is referred to an ophthalmology clinic for specialist follow-up. The motivation in referring M2 states is so that the patient can be assessed for the presence of significant macular oedema, which requires 3-dimensional optical coherence tomography (OCT). Lesions on photographs lack specificity for oedema [
+               <xref rid="pmed.1002945.ref015" ref-type="bibr">15</xref>
+               ,
+               <xref rid="pmed.1002945.ref016" ref-type="bibr">16</xref>
+               ], and so the majority of those with M2 do not have confirmed oedema and are returned to the screening system. Thus, given the high false-positive rate of referable maculopathy states (M2), referable DR in this study is defined as being graded R3, R4, or M2 and not being subsequently rescreened.
+            </p>
+         </sec>
+         <sec id="sec012">
+            <title>Clinical risk factors</title>
+            <p>
+               Clinical measures from routine healthcare available in SCI-Diabetes included age, sex, diabetes duration, BMI, HbA1c, systolic and diastolic blood pressure, blood lipids, estimated glomerular filtration rate, ever/never smoking status, and statin and anti-hypertensive drug use. Measures of clinical variables were taken from the measure nearest to and up to 730 days prior to each patient’s screening episode. Where clinical risk measures were unavailable during this time, values were imputed, using the
+               <italic>mi</italic>
+               package for
+               <italic>R</italic>
+               [
+               <xref rid="pmed.1002945.ref017" ref-type="bibr">17</xref>
+               ].
+            </p>
+         </sec>
+         <sec id="sec013">
+            <title>Statistical analysis</title>
+            <p>The key steps involved were to (i) quantify rates of transition to referable DR, (ii) build risk prediction models for referable DR separately for T1D and T2D, and (iii) use the risk estimates from these models to quantify the expected workload and sojourn time from either setting various IDs to be equal at stratum-specific or individual levels, or choosing intervals at set times.</p>
+            <p>
+               Technical details are given in
+               <xref ref-type="supplementary-material" rid="pmed.1002945.s005">S1 Text</xref>
+               . Generalised linear models with complementary log-log link function to allow for interval censoring were used to model the transition to referable DR from the second screening episode. Several models, including previously published ones, were constructed with predefined sets of covariates. The models were fitted to a training dataset, containing a randomly selected 70% of individuals, and their predictive performance was evaluated on a test dataset, containing the remaining 30%. Predictive performance was evaluated using the C-statistic, and the log likelihood test was used to evaluate the strength of the evidence that the model improved prediction compared with a base model containing the penultimate 2 DR grades. We modelled the hazard function as constant over time, equivalent to a Poisson arrival process and to an exponential distribution of times to failure. This is adequate given the short intervals modelled in this study. Of note, fitting a Weibull model that allows for the hazard function to vary over time did not improve the models’ predictive performance.
+            </p>
+            <p>We considered first the fit of the models and then chose the model that was most sparse among those with the best fit. The chosen model was then used on the data to calculate for each patient the hazard rate of transitioning to referable DR with different time intervals between screenings. These hazard rates for each individual were used to generate the intervals that would be required under various settings to achieve a specific ID and setting the ID to be the same (i) for each individual or (ii) across strata of prior DR. For a personalised optimal screening schedule, the interval for each individual was calculated such that the probability of transition to referable DR equated to the target ID. For stratum-level intervals, we computed the interval that would be required such that the average probability of transition to referable DR across all patients in each stratum by the end of that interval equated to the chosen ID.</p>
+            <p>The annual workload and average sojourn time for a range of policy options in terms of varying overall ID and achieving either stratum-level or personal-level equity of IDs were then assessed and compared to the current policy in Scotland.</p>
+            <p>
+               An outline analysis plan of the key steps of calculating current referable retinopathy rates, building a prediction model, and using the model to determine the estimated number of screenings required maintain the ID below a given threshold was set in advance (
+               <xref ref-type="supplementary-material" rid="pmed.1002945.s001">S1 Statistical</xref>
+               Analysis Plan), but many aspects of this plan evolved during the analysis. For example, we decided that a generalised linear model with complementary log-log link function to allow for interval censoring was more appropriate than the Poisson model we initially specified. We had initially considered examining just 1 model, evaluating covariates reported in the literature as predicting retinopathy risk and using backward elimination, but later realised we should explore a wider range of models, including models previously reported. We had not initially considered sojourn time as an important impact to be assessed and added this later. This study is reported as per the Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) guideline (
+               <xref ref-type="supplementary-material" rid="pmed.1002945.s003">S2 Table</xref>
+               ). This study was approved by the Public Benefit and Privacy Panel for Health and Social Care (
+               <ext-link ext-link-type="uri" xlink:href="https://www.informationgovernance.scot.nhs.uk/pbpphsc/">https://www.informationgovernance.scot.nhs.uk/pbpphsc/</ext-link>
+               ; application reference 1617–0147) and by the Scotland A Research Ethics Committee (Ref. 11/AL/0225).
+            </p>
+         </sec>
+      </sec>
+      <sec sec-type="results" id="sec014">
+         <title>Results</title>
+         <p>
+            At baseline examination, the average age and diabetes duration of the T1D patients (
+            <italic>n</italic>
+            = 19,070, 45.8% female) were 36.6 (SD 17.3) and 13.2 (SD 12.3) years, respectively. For the 220,276 T2D patients (43.9% female), age and diabetes duration were 62.9 (SD 12.2) and 4.1 (SD 5.4) years, respectively. Further baseline characteristics are shown in
+            <xref rid="pmed.1002945.t001" ref-type="table">Table 1</xref>
+            .
+         </p>
+         <table-wrap id="pmed.1002945.t001" orientation="portrait" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pmed.1002945.t001</object-id>
+            <label>Table 1</label>
+            <caption>
+               <title>Clinical measures at baseline in patients with type 1 and type 2 diabetes who did versus did not develop referable diabetic retinopathy over the study period.</title>
+            </caption>
+            <alternatives>
+               <graphic id="pmed.1002945.t001g" xlink:href="pmed.1002945.t001" />
+               <table frame="hsides" rules="groups">
+                  <colgroup span="1">
+                     <col align="left" valign="middle" span="1" />
+                     <col align="left" valign="middle" span="1" />
+                     <col align="left" valign="middle" span="1" />
+                     <col align="left" valign="middle" span="1" />
+                     <col align="left" valign="middle" span="1" />
+                     <col align="left" valign="middle" span="1" />
+                     <col align="left" valign="middle" span="1" />
+                  </colgroup>
+                  <thead>
+                     <tr>
+                        <th align="left" rowspan="2" colspan="1">Characteristic</th>
+                        <th align="left" colspan="3" rowspan="1">Type 1 diabetes</th>
+                        <th align="left" colspan="3" rowspan="1">Type 2 diabetes</th>
+                     </tr>
+                     <tr>
+                        <th align="left" rowspan="1" colspan="1">Not referable</th>
+                        <th align="left" rowspan="1" colspan="1">Referable</th>
+                        <th align="left" rowspan="1" colspan="1">
+                           <italic>p</italic>
+                           -Value
+                           <xref ref-type="table-fn" rid="t001fn002">*</xref>
+                        </th>
+                        <th align="left" rowspan="1" colspan="1">Not referable</th>
+                        <th align="left" rowspan="1" colspan="1">Referable</th>
+                        <th align="left" rowspan="1" colspan="1">
+                           <italic>p</italic>
+                           -Value
+                           <xref ref-type="table-fn" rid="t001fn002">*</xref>
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">Age at diagnosis (years)</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           26.1 (15.1)
+                           <break />
+                           24.5 [13.9; 35.6]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           23.6 (13.7)
+                           <break />
+                           22.3 [12.5, 32.9]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           57.6 (11.8)
+                           <break />
+                           58.0 [49.8; 65.9]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           51.8 (12.4)
+                           <break />
+                           51.2 [43.3; 60.0]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">Female (%)</td>
+                        <td align="left" rowspan="1" colspan="1">47.0</td>
+                        <td align="left" rowspan="1" colspan="1">44.1</td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                        <td align="left" rowspan="1" colspan="1">43.8</td>
+                        <td align="left" rowspan="1" colspan="1">42.3</td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">Diabetes duration at screening (years)</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           21.4 (12.8)
+                           <break />
+                           19.4 [11.5; 29.8]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           22.5 (10.3)
+                           <break />
+                           20.3 [14.9; 27.6]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           9.3 (6.7)
+                           <break />
+                           8.3 [4.4; 12.8]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           13.5 (6.6)
+                           <break />
+                           12.9 [9.0; 17.0]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">
+                           BMI (kg/m
+                           <sup>2</sup>
+                           )
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           26.7 (4.6)
+                           <break />
+                           26.1 [26.6; 29.0]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           27.3 (4.4)
+                           <break />
+                           26.8 [24.1; 30.0]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           31.9 (6.2)
+                           <break />
+                           30.9 [27.6; 35.1]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           32.0 (6.3)
+                           <break />
+                           30.9 [27.5; 35.3]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">0.376</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">Height (m)</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           1.7 (0.1)
+                           <break />
+                           1.7 [1.6; 1.8]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           1.7 (0.1)
+                           <break />
+                           1.7 [1.6; 1.8]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           1.7 (0.1)
+                           <break />
+                           1.7 [1.6; 1.8]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           1.7 (0.1)
+                           <break />
+                           1.68 [1.6; 1.8]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">0.053</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">HbA1c (mmol/mol)</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           68 (15.7)
+                           <break />
+                           66.0 [57; 76]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           75.9 (16.2)
+                           <break />
+                           74.0 [65.0; 85.8]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           57.5 (15.6)
+                           <break />
+                           54.0 [48.0; 64.0]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           68.0 (19.1)
+                           <break />
+                           64.0 [54.0; 79.0]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">Systolic blood pressure (mm Hg)</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           129.3 (16.1)
+                           <break />
+                           130.0 [119; 140]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           130.0 (16.0)
+                           <break />
+                           130.0 [120.0; 140.0]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">0.031</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           134.7 (15.7)
+                           <break />
+                           134.0 [125.0; 142.0]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           136.8 (16.3)
+                           <break />
+                           136.0 [126.0; 145.0]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">Diastolic blood pressure (mm Hg)</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           74.5 (9.9)
+                           <break />
+                           75.0 [68.0; 80.0]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           75.3 (9.7)
+                           <break />
+                           75.0 [70.0; 81.0]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">0.817</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           76.2 (9.7)
+                           <break />
+                           77.0 [70.0; 82.0]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           76.9 (10.1)
+                           <break />
+                           78.0 [70.0; 82.0]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">Total cholesterol (mmol/l)</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           4.6 (0.9)
+                           <break />
+                           4.5 [4.0; 5.1]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           4.8 (1.0)
+                           <break />
+                           4.6 [4.1; 5.3]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           4.3 (1.0)
+                           <break />
+                           4.2 [3.7; 4.8]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           4.3 (1.0)
+                           <break />
+                           4.2 [3.7; 4.9]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">HDL cholesterol (mmol/l)</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           1.6 (0.5)
+                           <break />
+                           1.5 [1.3; 1.8]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           1.6 (0.4)
+                           <break />
+                           1.5 [1.3; 1.8]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">0.085</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           1.2 (0.4)
+                           <break />
+                           1.2 [1.0; 1.4]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           1.2 (0.4)
+                           <break />
+                           1.2 [1.0; 1.4]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">LDL cholesterol (mmol/l)</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           2.4 (0.9)
+                           <break />
+                           2.4 [1.9; 2.9]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           2.6 (0.8)
+                           <break />
+                           2.4 [2.0; 3.0]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           2.3 (0.9)
+                           <break />
+                           2.1 [1.6; 2.7]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           2.2 (0.9)
+                           <break />
+                           2.1 [1.6; 2.7]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">0.004</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">Triglycerides (mmol/l)</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           1.3 (1.6)
+                           <break />
+                           1.1 [0.7; 1.5]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           1.4 (1.0)
+                           <break />
+                           1.1 [0.8; 1.8]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           2 (1.2)
+                           <break />
+                           1.8 [1.3; 2.5]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           2.1 (1.7)
+                           <break />
+                           1.8 [1.3; 2.6]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">
+                           eGFR (ml/min/1.73 m
+                           <sup>2</sup>
+                           )
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           91.8 (20.8)
+                           <break />
+                           93.0 [78.0; 106.6]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           93.9 (20.7)
+                           <break />
+                           95.9 [80.3; 108.8]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                        <td align="left" rowspan="1" colspan="1">
+                           75.2 (19.9)
+                           <break />
+                           75.6 [61.4; 90.1]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">
+                           77.4 (21.3)
+                           <break />
+                           78.9 [62.4; 93.7]
+                        </td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">Anti-hypertensive drugs (%)</td>
+                        <td align="left" rowspan="1" colspan="1">23.2</td>
+                        <td align="left" rowspan="1" colspan="1">24.8</td>
+                        <td align="left" rowspan="1" colspan="1">0.003</td>
+                        <td align="left" rowspan="1" colspan="1">70.1</td>
+                        <td align="left" rowspan="1" colspan="1">66.4</td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">Statins (%)</td>
+                        <td align="left" rowspan="1" colspan="1">29.3</td>
+                        <td align="left" rowspan="1" colspan="1">32.8</td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                        <td align="left" rowspan="1" colspan="1">68.2</td>
+                        <td align="left" rowspan="1" colspan="1">68.8</td>
+                        <td align="left" rowspan="1" colspan="1">0.042</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">Ever smoker (%)</td>
+                        <td align="left" rowspan="1" colspan="1">60.7</td>
+                        <td align="left" rowspan="1" colspan="1">66.2</td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                        <td align="left" rowspan="1" colspan="1">72.1</td>
+                        <td align="left" rowspan="1" colspan="1">69.8</td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">Past CVD event (%)</td>
+                        <td align="left" rowspan="1" colspan="1">5.2</td>
+                        <td align="left" rowspan="1" colspan="1">5.6</td>
+                        <td align="left" rowspan="1" colspan="1">0.162</td>
+                        <td align="left" rowspan="1" colspan="1">22.2</td>
+                        <td align="left" rowspan="1" colspan="1">20.7</td>
+                        <td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+                     </tr>
+                     <tr>
+                        <td align="left" rowspan="1" colspan="1">Normal vision (%)</td>
+                        <td align="left" rowspan="1" colspan="1">99.2</td>
+                        <td align="left" rowspan="1" colspan="1">99.5</td>
+                        <td align="left" rowspan="1" colspan="1">0.001</td>
+                        <td align="left" rowspan="1" colspan="1">98.6</td>
+                        <td align="left" rowspan="1" colspan="1">98.6</td>
+                        <td align="left" rowspan="1" colspan="1">0.581</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </alternatives>
+            <table-wrap-foot>
+               <fn id="t001fn001">
+                  <p>For continuous variables, the first row gives mean (SD), and the second row gives median [IQR]. For categorical variables, percentage is shown.</p>
+               </fn>
+               <fn id="t001fn002">
+                  <p>
+                     *
+                     <italic>p-</italic>
+                     Values of univariate tests of differences between patients who transitioned to referable diabetic retinopathy and those who did not over the study period.
+                  </p>
+               </fn>
+               <fn id="t001fn003">
+                  <p>CVD, cardiovascular disease; eGFR, estimated glomerular filtration rate; HDL, high-density lipoprotein; LDL, low-density lipoprotein.</p>
+               </fn>
+            </table-wrap-foot>
+         </table-wrap>
+         <sec id="sec015">
+            <title>IDs for current policy</title>
+            <p>
+               Under the currently implemented screening schedule, the estimated overall average risk of developing referable DR after 1 year of screening and 2 initial non-referable screenings was much greater for T1D (2.4%) than for T2D (0.6%). The current schedule yields also very different IDs across prior DR strata: 0.6% per year, 3.6% per year, and 7.1% per 6 months in those with no, mild, and moderate retinopathy, respectively, in T1D, and respective IDs of 0.2%, 1.7%, and 6.7% in those with T2D. Estimates of the predicted probability of transitioning to referable DR across various time points by DR stratum are shown in
+               <xref rid="pmed.1002945.t002" ref-type="table">Table 2</xref>
+               .
+            </p>
+            <table-wrap id="pmed.1002945.t002" orientation="portrait" position="float">
+               <object-id pub-id-type="doi">10.1371/journal.pmed.1002945.t002</object-id>
+               <label>Table 2</label>
+               <caption>
+                  <title>Unadjusted predicted probability (in percent) of transition to referable DR at given time intervals, stratified by previous grade (no, mild, or moderate DR).</title>
+               </caption>
+               <alternatives>
+                  <graphic id="pmed.1002945.t002g" xlink:href="pmed.1002945.t002" />
+                  <table frame="hsides" rules="groups">
+                     <colgroup span="1">
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                     </colgroup>
+                     <thead>
+                        <tr>
+                           <th align="left" rowspan="2" colspan="1">Time interval</th>
+                           <th align="left" colspan="3" rowspan="1">Type 1 diabetes</th>
+                           <th align="left" colspan="3" rowspan="1">Type 2 diabetes</th>
+                        </tr>
+                        <tr>
+                           <th align="left" rowspan="1" colspan="1">No DR to referable</th>
+                           <th align="left" rowspan="1" colspan="1">Mild to referable</th>
+                           <th align="left" rowspan="1" colspan="1">Moderate to referable</th>
+                           <th align="left" rowspan="1" colspan="1">No DR to referable</th>
+                           <th align="left" rowspan="1" colspan="1">Mild to referable</th>
+                           <th align="left" rowspan="1" colspan="1">Moderate to referable</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">1 month</td>
+                           <td align="left" rowspan="1" colspan="1">0.1</td>
+                           <td align="left" rowspan="1" colspan="1">0.3</td>
+                           <td align="left" rowspan="1" colspan="1">1.3</td>
+                           <td align="left" rowspan="1" colspan="1">&lt;0.1</td>
+                           <td align="left" rowspan="1" colspan="1">0.1</td>
+                           <td align="left" rowspan="1" colspan="1">1.2</td>
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">2 month</td>
+                           <td align="left" rowspan="1" colspan="1">0.1</td>
+                           <td align="left" rowspan="1" colspan="1">0.6</td>
+                           <td align="left" rowspan="1" colspan="1">2.5</td>
+                           <td align="left" rowspan="1" colspan="1">&lt;0.1</td>
+                           <td align="left" rowspan="1" colspan="1">0.3</td>
+                           <td align="left" rowspan="1" colspan="1">2.4</td>
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">3 month</td>
+                           <td align="left" rowspan="1" colspan="1">0.2</td>
+                           <td align="left" rowspan="1" colspan="1">0.9</td>
+                           <td align="left" rowspan="1" colspan="1">3.7</td>
+                           <td align="left" rowspan="1" colspan="1">0.1</td>
+                           <td align="left" rowspan="1" colspan="1">0.4</td>
+                           <td align="left" rowspan="1" colspan="1">3.5</td>
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">6 month</td>
+                           <td align="left" rowspan="1" colspan="1">0.3</td>
+                           <td align="left" rowspan="1" colspan="1">1.8</td>
+                           <td align="left" rowspan="1" colspan="1">7.1</td>
+                           <td align="left" rowspan="1" colspan="1">0.1</td>
+                           <td align="left" rowspan="1" colspan="1">0.9</td>
+                           <td align="left" rowspan="1" colspan="1">6.7</td>
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">9 month</td>
+                           <td align="left" rowspan="1" colspan="1">0.5</td>
+                           <td align="left" rowspan="1" colspan="1">2.7</td>
+                           <td align="left" rowspan="1" colspan="1">10.2</td>
+                           <td align="left" rowspan="1" colspan="1">0.2</td>
+                           <td align="left" rowspan="1" colspan="1">1.3</td>
+                           <td align="left" rowspan="1" colspan="1">9.7</td>
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">1 year</td>
+                           <td align="left" rowspan="1" colspan="1">0.6</td>
+                           <td align="left" rowspan="1" colspan="1">3.6</td>
+                           <td align="left" rowspan="1" colspan="1">13.2</td>
+                           <td align="left" rowspan="1" colspan="1">0.2</td>
+                           <td align="left" rowspan="1" colspan="1">1.7</td>
+                           <td align="left" rowspan="1" colspan="1">12.5</td>
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">2 year</td>
+                           <td align="left" rowspan="1" colspan="1">1.2</td>
+                           <td align="left" rowspan="1" colspan="1">7.0</td>
+                           <td align="left" rowspan="1" colspan="1">23.8</td>
+                           <td align="left" rowspan="1" colspan="1">0.4</td>
+                           <td align="left" rowspan="1" colspan="1">3.4</td>
+                           <td align="left" rowspan="1" colspan="1">22.0</td>
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">3 year</td>
+                           <td align="left" rowspan="1" colspan="1">1.8</td>
+                           <td align="left" rowspan="1" colspan="1">10.2</td>
+                           <td align="left" rowspan="1" colspan="1">32.6</td>
+                           <td align="left" rowspan="1" colspan="1">0.6</td>
+                           <td align="left" rowspan="1" colspan="1">5.0</td>
+                           <td align="left" rowspan="1" colspan="1">29.9</td>
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">4 year</td>
+                           <td align="left" rowspan="1" colspan="1">2.4</td>
+                           <td align="left" rowspan="1" colspan="1">13.3</td>
+                           <td align="left" rowspan="1" colspan="1">40.1</td>
+                           <td align="left" rowspan="1" colspan="1">0.8</td>
+                           <td align="left" rowspan="1" colspan="1">6.6</td>
+                           <td align="left" rowspan="1" colspan="1">36.5</td>
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">5 year</td>
+                           <td align="left" rowspan="1" colspan="1">3.0</td>
+                           <td align="left" rowspan="1" colspan="1">16.2</td>
+                           <td align="left" rowspan="1" colspan="1">46.5</td>
+                           <td align="left" rowspan="1" colspan="1">1.0</td>
+                           <td align="left" rowspan="1" colspan="1">8.1</td>
+                           <td align="left" rowspan="1" colspan="1">42.2</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </alternatives>
+               <table-wrap-foot>
+                  <fn id="t002fn001">
+                     <p>
+                        Rates of transition to referable DR predicted at different time intervals using model including penultimate 2 DR grades and patient’s age at grading, sex, diabetes duration, HbA1c, and total cholesterol (Model 5 in
+                        <xref ref-type="supplementary-material" rid="pmed.1002945.s004">S3 Table</xref>
+                        ).
+                     </p>
+                  </fn>
+                  <fn id="t002fn002">
+                     <p>DR, diabetic retinopathy.</p>
+                  </fn>
+               </table-wrap-foot>
+            </table-wrap>
+         </sec>
+         <sec id="sec016">
+            <title>Maximising prediction of transition to referable retinopathy</title>
+            <p>
+               The model containing prior grade and demographics (age, sex, and diabetes duration) and constrained to select only 2 additional risk factors (HbA1c and plasma total cholesterol—Model 5 in
+               <xref ref-type="supplementary-material" rid="pmed.1002945.s004">S3 Table</xref>
+               ) performed as well on the data as less sparse models and was therefore used to derive risk-based screening intervals. Using this model, the C-statistic increased modestly from 0.757 (95% CI 0.738; 0.775) to 0.771 (0.753; 0.790) for T1D and from 0.778 (0.767; 0.788) to 0.794 (0.784; 0.805) for T2D compared to a base model of the penultimate 2 DR grades alone. The difference in test log likelihoods for the model versus the base model was significant at
+               <italic>p</italic>
+               &lt; 0.001.
+            </p>
+         </sec>
+         <sec id="sec017">
+            <title>Comparing screening schedules</title>
+            <p>
+               <xref rid="pmed.1002945.t003" ref-type="table">Table 3</xref>
+               shows the required screening intervals and implications for workload and sojourn time of modifying the current screening schedule to achieve the same overall ID of referable DR as the current policy (2.4%/0.6% for T1D/T2D) but specifying that the ID at point of screening to be equal (i) at individual level or (ii) across prior DR strata. Under both of these options, intervals become very long for patients with no prior disease (47 months in T1D for example) and very short for those with moderate disease (2 months in T1D). Equalising IDs across strata at the current overall ID had little impact on workload or sojourn time in either type of diabetes. The heatmap in
+               <xref ref-type="fig" rid="pmed.1002945.g001">Fig 1</xref>
+               summarises the impact, with respect to the current policy, of varying the acceptable ID threshold under policies aiming to equalise risks across strata or individuals. For example, a policy of setting the ID for T2D to be 2.4% overall (similar to the current ID for T1D) and equalising within strata would substantially reduce the workload, by 73%. Screening intervals would be 140, 17, and 2 months for those with no, mild, and moderate DR, respectively. The recommended intervals under other varying ID thresholds can be evaluated quickly using the online tool. A general observation from
+               <xref ref-type="fig" rid="pmed.1002945.g001">Fig 1</xref>
+               is that personalised schedules, whilst by definition achieving equity, do not offer benefits in workload or sojourn times over the range of IDs considered.
+            </p>
+            <fig id="pmed.1002945.g001" orientation="portrait" position="float">
+               <object-id pub-id-type="doi">10.1371/journal.pmed.1002945.g001</object-id>
+               <label>Fig 1</label>
+               <caption>
+                  <title>Comparison of screening schedules in terms of changes in number of required screenings and sojourn time relative to the currently implemented policy.</title>
+                  <p>
+                     Heatmap showing policy implications for a number of personalised and stratified schedules for patients with type 1 diabetes (T1D) and type 2 diabetes (T2D) in terms of changes to workload (percentage change) and sojourn time (change in months) compared to the current policy. Screening schedules are varied by accepted interval disease risks (
+                     <italic>y</italic>
+                     -axis) and personalised or stratified setting (
+                     <italic>x</italic>
+                     -axis). Red shades show large increases and green shades show large decreases in workload or sojourn time compared to the current screening schedule, with yellow shades showing intermediate levels of change. For example, a personalised screening schedule for patients with T1D with an accepted interval disease risk of 4.0% would reduce overall workload by 39% and sojourn time by 5 months compared to the currently implemented policy.
+                  </p>
+               </caption>
+               <graphic xlink:href="pmed.1002945.g001" />
+            </fig>
+            <table-wrap id="pmed.1002945.t003" orientation="portrait" position="float">
+               <object-id pub-id-type="doi">10.1371/journal.pmed.1002945.t003</object-id>
+               <label>Table 3</label>
+               <caption>
+                  <title>Workload and sojourn time effects of setting screening intervals to equalise stratum-specific or personal risks of referable disease at the current interval disease risk.</title>
+               </caption>
+               <alternatives>
+                  <graphic id="pmed.1002945.t003g" xlink:href="pmed.1002945.t003" />
+                  <table frame="hsides" rules="groups">
+                     <colgroup span="1">
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                     </colgroup>
+                     <thead>
+                        <tr>
+                           <th align="left" rowspan="2" colspan="1">Prior DR grade</th>
+                           <th align="left" colspan="5" rowspan="1">Type 1 diabetes</th>
+                           <th align="left" colspan="5" rowspan="1">Type 2 diabetes</th>
+                        </tr>
+                        <tr>
+                           <th align="left" rowspan="1" colspan="1">Interval in months, median (IQR)</th>
+                           <th align="left" rowspan="1" colspan="1">Interval disease risk percent</th>
+                           <th align="left" rowspan="1" colspan="1">Number of required screenings</th>
+                           <th align="left" rowspan="1" colspan="1">Percent workload change from current policy</th>
+                           <th align="left" rowspan="1" colspan="1">Average sojourn time in months (% change)</th>
+                           <th align="left" rowspan="1" colspan="1">Interval in months, median (IQR)</th>
+                           <th align="left" rowspan="1" colspan="1">Interval disease risk percent</th>
+                           <th align="left" rowspan="1" colspan="1">Number of required screenings</th>
+                           <th align="left" rowspan="1" colspan="1">Percent workload change from current policy</th>
+                           <th align="left" rowspan="1" colspan="1">Average sojourn time in months (% change)</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td align="left" colspan="11" rowspan="1">
+                              <bold>Currently implemented policy</bold>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">None</td>
+                           <td align="left" rowspan="1" colspan="1">12</td>
+                           <td align="left" rowspan="1" colspan="1">0.6</td>
+                           <td align="left" rowspan="1" colspan="1">10,363</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">12</td>
+                           <td align="left" rowspan="1" colspan="1">0.2</td>
+                           <td align="left" rowspan="1" colspan="1">174,159</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Mild</td>
+                           <td align="left" rowspan="1" colspan="1">12</td>
+                           <td align="left" rowspan="1" colspan="1">3.6</td>
+                           <td align="left" rowspan="1" colspan="1">7,813</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">12</td>
+                           <td align="left" rowspan="1" colspan="1">1.7</td>
+                           <td align="left" rowspan="1" colspan="1">43,887</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Moderate</td>
+                           <td align="left" rowspan="1" colspan="1">6</td>
+                           <td align="left" rowspan="1" colspan="1">7.1</td>
+                           <td align="left" rowspan="1" colspan="1">1,787</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">6</td>
+                           <td align="left" rowspan="1" colspan="1">6.7</td>
+                           <td align="left" rowspan="1" colspan="1">4,460</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Total</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">2.4</td>
+                           <td align="left" rowspan="1" colspan="1">19,963</td>
+                           <td align="left" rowspan="1" colspan="1">—</td>
+                           <td align="left" rowspan="1" colspan="1">5.9 (0.0)</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">0.6</td>
+                           <td align="left" rowspan="1" colspan="1">222,506</td>
+                           <td align="left" rowspan="1" colspan="1">—</td>
+                           <td align="left" rowspan="1" colspan="1">6.1 (0.0)</td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="11" rowspan="1">
+                              <bold>Personalised schedule, current overall interval disease risk</bold>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">None</td>
+                           <td align="left" rowspan="1" colspan="1">61 (40–87)</td>
+                           <td align="left" rowspan="1" colspan="1">2.4</td>
+                           <td align="left" rowspan="1" colspan="1">3,027</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">42 (31–51)</td>
+                           <td align="left" rowspan="1" colspan="1">0.6</td>
+                           <td align="left" rowspan="1" colspan="1">65,091</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Mild</td>
+                           <td align="left" rowspan="1" colspan="1">9 (6–18)</td>
+                           <td align="left" rowspan="1" colspan="1">2.4</td>
+                           <td align="left" rowspan="1" colspan="1">11,883</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">6 (3–10)</td>
+                           <td align="left" rowspan="1" colspan="1">0.6</td>
+                           <td align="left" rowspan="1" colspan="1">125,683</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Moderate</td>
+                           <td align="left" rowspan="1" colspan="1">2 (2–4)</td>
+                           <td align="left" rowspan="1" colspan="1">2.4</td>
+                           <td align="left" rowspan="1" colspan="1">5,505</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">1 (0–1)</td>
+                           <td align="left" rowspan="1" colspan="1">0.6</td>
+                           <td align="left" rowspan="1" colspan="1">65,639</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Total</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">2.4</td>
+                           <td align="left" rowspan="1" colspan="1">20,415</td>
+                           <td align="left" rowspan="1" colspan="1">2.3</td>
+                           <td align="left" rowspan="1" colspan="1">6.8 (14.4)</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">0.6</td>
+                           <td align="left" rowspan="1" colspan="1">256,413</td>
+                           <td align="left" rowspan="1" colspan="1">15.2</td>
+                           <td align="left" rowspan="1" colspan="1">5.2 (−15.3)</td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="11" rowspan="1">
+                              <bold>Stratified schedule, current overall interval disease risk in each stratum</bold>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">None</td>
+                           <td align="left" rowspan="1" colspan="1">47</td>
+                           <td align="left" rowspan="1" colspan="1">2.4</td>
+                           <td align="left" rowspan="1" colspan="1">2,646</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">35</td>
+                           <td align="left" rowspan="1" colspan="1">0.6</td>
+                           <td align="left" rowspan="1" colspan="1">59,712</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Mild</td>
+                           <td align="left" rowspan="1" colspan="1">8</td>
+                           <td align="left" rowspan="1" colspan="1">2.4</td>
+                           <td align="left" rowspan="1" colspan="1">11,720</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">4</td>
+                           <td align="left" rowspan="1" colspan="1">0.6</td>
+                           <td align="left" rowspan="1" colspan="1">131,661</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Moderate</td>
+                           <td align="left" rowspan="1" colspan="1">2</td>
+                           <td align="left" rowspan="1" colspan="1">2.4</td>
+                           <td align="left" rowspan="1" colspan="1">5,358</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">1</td>
+                           <td align="left" rowspan="1" colspan="1">0.6</td>
+                           <td align="left" rowspan="1" colspan="1">26,760</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Total</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">2.4</td>
+                           <td align="left" rowspan="1" colspan="1">19,724</td>
+                           <td align="left" rowspan="1" colspan="1">−1.2</td>
+                           <td align="left" rowspan="1" colspan="1">5.8 (−2.5)</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">0.6</td>
+                           <td align="left" rowspan="1" colspan="1">218,133</td>
+                           <td align="left" rowspan="1" colspan="1">−2.0</td>
+                           <td align="left" rowspan="1" colspan="1">6.0 (−2.2)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </alternatives>
+               <table-wrap-foot>
+                  <fn id="t003fn001">
+                     <p>
+                        For personalised and stratified schedule, screening intervals were derived by estimating the time to rescreen when set interval disease risk is reached, using Model 5 in
+                        <xref ref-type="supplementary-material" rid="pmed.1002945.s004">S3 Table</xref>
+                        . From this, the annual number of screenings required was estimated and change from current policy computed.
+                     </p>
+                  </fn>
+                  <fn id="t003fn002">
+                     <p>Prior DR grade: patient’s DR grade at last screening.</p>
+                  </fn>
+                  <fn id="t003fn003">
+                     <p>Interval in months: median (IQR) of predicted screening interval for personalised schedule; predicted screening interval for stratified schedule.</p>
+                  </fn>
+                  <fn id="t003fn004">
+                     <p>Interval disease risk percent: predicted interval disease risk in percent of referable DR for currently implemented policy; set interval disease risk in percent for personalised and stratified schedules. For stratified schedule, average interval disease risk is across all patients within prior DR strata. For personalised schedule, interval disease risk is personalised risk for each patient.</p>
+                  </fn>
+                  <fn id="t003fn005">
+                     <p>Number of required screenings: number of screenings required annually based on the current diabetes population in the last year of the programme and the predicted interval for individual patients or strata.</p>
+                  </fn>
+                  <fn id="t003fn006">
+                     <p>Percent workload change from current policy: percentage change in number of screenings required annually in comparison to number of screenings required annually for currently implemented policy.</p>
+                  </fn>
+                  <fn id="t003fn007">
+                     <p>Average sojourn time in months (% change): average time (in months) elapsed between onset of referable DR and detection during next screening, with percentage change from currently implemented policy in parentheses.</p>
+                  </fn>
+                  <fn id="t003fn008">
+                     <p>DR, diabetic retinopathy.</p>
+                  </fn>
+               </table-wrap-foot>
+            </table-wrap>
+            <p>
+               <xref rid="pmed.1002945.t004" ref-type="table">Table 4</xref>
+               illustrates the workload, sojourn times, and effective stratum-specific ID and degree of equity achieved with some sample schedules that specify intervals rather than aiming to achieve a given ID. The reader can evaluate other schedules using the interactive tool. It is clear from these data that without changing to diabetes-type-specific schedules, large disparities in IDs between T1D and T2D will remain. For example, as shown using the interactive tool, changing to intervals of 12, 9, and 3 months in T1D and 24, 9, and 3 months in T2D for no, mild, and moderate DR strata, respectively, would substantially reduce inequity across strata and between diabetes types whilst reducing workload by 26% (T1D and T2D combined) and would increase average sojourn time by just 2.3 months.
+            </p>
+            <table-wrap id="pmed.1002945.t004" orientation="portrait" position="float">
+               <object-id pub-id-type="doi">10.1371/journal.pmed.1002945.t004</object-id>
+               <label>Table 4</label>
+               <caption>
+                  <title>Screening schedules using a range of potential different screening intervals.</title>
+               </caption>
+               <alternatives>
+                  <graphic id="pmed.1002945.t004g" xlink:href="pmed.1002945.t004" />
+                  <table frame="hsides" rules="groups">
+                     <colgroup span="1">
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                        <col align="left" valign="middle" span="1" />
+                     </colgroup>
+                     <thead>
+                        <tr>
+                           <th align="left" rowspan="2" colspan="1">Prior DR grade</th>
+                           <th align="left" colspan="4" rowspan="1">Type 1 diabetes</th>
+                           <th align="left" colspan="4" rowspan="1">Type 2 diabetes</th>
+                        </tr>
+                        <tr>
+                           <th align="left" rowspan="1" colspan="1">Interval in months</th>
+                           <th align="left" rowspan="1" colspan="1">Interval disease risk percent</th>
+                           <th align="left" rowspan="1" colspan="1">Percent workload change from current policy</th>
+                           <th align="left" rowspan="1" colspan="1">Average sojourn time change in months</th>
+                           <th align="left" rowspan="1" colspan="1">Interval months</th>
+                           <th align="left" rowspan="1" colspan="1">Interval disease risk percent</th>
+                           <th align="left" rowspan="1" colspan="1">Percent workload change from current policy</th>
+                           <th align="left" rowspan="1" colspan="1">Average sojourn time change in months</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td align="left" colspan="9" rowspan="1">
+                              <bold>12/9/3 months (T1D) and 24/9/3 months (T2D) screening schedule</bold>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">None</td>
+                           <td align="left" rowspan="1" colspan="1">12</td>
+                           <td align="left" rowspan="1" colspan="1">0.6</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">24</td>
+                           <td align="left" rowspan="1" colspan="1">0.4</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Mild</td>
+                           <td align="left" rowspan="1" colspan="1">9</td>
+                           <td align="left" rowspan="1" colspan="1">2.7</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">9</td>
+                           <td align="left" rowspan="1" colspan="1">1.3</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Moderate</td>
+                           <td align="left" rowspan="1" colspan="1">3</td>
+                           <td align="left" rowspan="1" colspan="1">3.7</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">3</td>
+                           <td align="left" rowspan="1" colspan="1">3.5</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Total</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">2.0</td>
+                           <td align="left" rowspan="1" colspan="1">22.0</td>
+                           <td align="left" rowspan="1" colspan="1">−1.1</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">0.9</td>
+                           <td align="left" rowspan="1" colspan="1">−30.6</td>
+                           <td align="left" rowspan="1" colspan="1">2.8</td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="9" rowspan="1">
+                              <bold>36/9/6 months (T1D) and 36/18/6 months (T2D) screening schedule</bold>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">None</td>
+                           <td align="left" rowspan="1" colspan="1">36</td>
+                           <td align="left" rowspan="1" colspan="1">1.8</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">36</td>
+                           <td align="left" rowspan="1" colspan="1">0.6</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Mild</td>
+                           <td align="left" rowspan="1" colspan="1">9</td>
+                           <td align="left" rowspan="1" colspan="1">2.7</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">18</td>
+                           <td align="left" rowspan="1" colspan="1">2.6</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Moderate</td>
+                           <td align="left" rowspan="1" colspan="1">6</td>
+                           <td align="left" rowspan="1" colspan="1">7.1</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">6</td>
+                           <td align="left" rowspan="1" colspan="1">6.7</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Total</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">3.0</td>
+                           <td align="left" rowspan="1" colspan="1">−21.6</td>
+                           <td align="left" rowspan="1" colspan="1">1.8</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">1.5</td>
+                           <td align="left" rowspan="1" colspan="1">−58.8</td>
+                           <td align="left" rowspan="1" colspan="1">9.4</td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="9" rowspan="1">
+                              <bold>24/12/6 months (T1D) and 24/12/6 months (T2D) screening schedule</bold>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">None</td>
+                           <td align="left" rowspan="1" colspan="1">24</td>
+                           <td align="left" rowspan="1" colspan="1">1.2</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">24</td>
+                           <td align="left" rowspan="1" colspan="1">0.4</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Mild</td>
+                           <td align="left" rowspan="1" colspan="1">12</td>
+                           <td align="left" rowspan="1" colspan="1">3.6</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">12</td>
+                           <td align="left" rowspan="1" colspan="1">1.7</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Moderate</td>
+                           <td align="left" rowspan="1" colspan="1">6</td>
+                           <td align="left" rowspan="1" colspan="1">7.1</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">6</td>
+                           <td align="left" rowspan="1" colspan="1">6.7</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1" />
+                        </tr>
+                        <tr>
+                           <td align="left" rowspan="1" colspan="1">Total</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">3.2</td>
+                           <td align="left" rowspan="1" colspan="1">−25.9</td>
+                           <td align="left" rowspan="1" colspan="1">2.2</td>
+                           <td align="left" rowspan="1" colspan="1" />
+                           <td align="left" rowspan="1" colspan="1">1</td>
+                           <td align="left" rowspan="1" colspan="1">−39.1</td>
+                           <td align="left" rowspan="1" colspan="1">4.1</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </alternatives>
+               <table-wrap-foot>
+                  <fn id="t004fn001">
+                     <p>
+                        For each of the schedules, the intervals in months were set, and Model 5 in
+                        <xref ref-type="supplementary-material" rid="pmed.1002945.s004">S3 Table</xref>
+                        was used to derive the average expected interval disease risk given each of the intervals. Intervals and numbers of patients in each stratum were used to derive expected workload and compute change in workload compared to current policy.
+                     </p>
+                  </fn>
+                  <fn id="t004fn002">
+                     <p>Prior DR grade: patient’s DR grade at last screening.</p>
+                  </fn>
+                  <fn id="t004fn003">
+                     <p>Interval in months: set screening interval per stratum.</p>
+                  </fn>
+                  <fn id="t004fn004">
+                     <p>Interval disease risk percent: expected interval disease risk of referable DR (in percent) for given interval.</p>
+                  </fn>
+                  <fn id="t004fn005">
+                     <p>Percent workload change from current policy: percentage change in number of screenings required annually in comparison to screenings required annually for currently implemented policy.</p>
+                  </fn>
+                  <fn id="t004fn006">
+                     <p>Average sojourn time change in months: change (in months) in average sojourn time in comparison to that of currently implemented policy.</p>
+                  </fn>
+                  <fn id="t004fn007">
+                     <p>DR, diabetic retinopathy; T1D, type 1 diabetes; T2D, type 2 diabetes.</p>
+                  </fn>
+               </table-wrap-foot>
+            </table-wrap>
+         </sec>
+      </sec>
+      <sec sec-type="conclusions" id="sec018">
+         <title>Discussion</title>
+         <sec id="sec019">
+            <title>Key findings</title>
+            <p>By using a large dataset from a national DR screening programme, we have been able to establish some key points that we hope will help retinopathy screening guideline committees and policy makers in many countries. First, we found that currently implemented schedules, both in Scotland and elsewhere, result in large disparities in ID between T1D and T2D, and between those with differing prior DR grades: risks of T2D with no prior DR are 0.5%, compared to 15.4% for people with T1D and prior moderate DR. These disparities are of a magnitude likely to warrant change in current guidelines and screening schedules. Second, across the range of IDs we considered, annual screening for low-risk patients with no prior DR is unnecessary, especially for T2D but, it could be argued, also for T1D. More frequent examination or even immediate referral of those with moderate DR should be considered, but this will depend on the ID considered acceptable.</p>
+            <p>Third, we found that the implications of varying ID criteria and equity considerations for workload and sojourn times are not intuitive; this is because the impact depends on the relative frequency of the strata, the range of individual risk, and variance in risk factors, as well as the ID thresholds and equity criteria being set. Our tool facilitates formal estimation of these impacts.</p>
+            <p>Fourth, we find that to make stratum-specific IDs completely equal would result in very long and short intervals for those with no and moderate prior disease, respectively, across the range of IDs 1%–6% that we show. We doubt that patients or clinicians would find intervals of over 3 years or under 3 months acceptable, but this should be explicitly considered. Fifth, the data suggest that whilst seeking perfect equity is likely infeasible, substantial reduction in the disparity in ID by diabetes type and prior DR stratum can be achieved at the same time as achieving substantial reductions in workload across the range of IDs to be under consideration by policy makers.</p>
+            <p>Rational design of DR screening schedules requires consideration of acceptable IDs, the extent to which equity across broad groups such as type of diabetes or prior disease grade or between individuals is desirable, sojourn time, and whether there are upper or lower boundaries on acceptable screening frequency. These concepts are not widely discussed or made explicit in current clinical guidelines or national programmes, mainly because the necessary underpinning data on contemporary disease rates have not been available. We hope our data and approach will help to inform guideline development in future.</p>
+            <p>
+               Although personalised intervals have been advocated in particular in terms of equity, the benefits of this approach in terms of workload and sojourn time have been unclear. To our surprise, our analysis did not make a clear-cut case for using extensive clinical risk factor data to personalise risk intervals. We had in fact set out to develop such a personalised tool, as others have attempted, for instance the Retina Risk tool (
+               <ext-link ext-link-type="uri" xlink:href="https://retinarisk.com/">https://retinarisk.com</ext-link>
+               ), developed by Einar Stefansson and colleagues, thinking that personalisation would likely yield considerable benefits. We found that risk factor data did significantly improve prediction of the referable state on top of using prior grades, but the magnitude of the increment was small and most of it could be captured using a fairly sparse set of variables. This does not mean that these risk factors are not important in retinopathy; more likely is that their contribution is already captured in the grade information. To get a sense of the difference in just assigning the same interval to everyone with a given grade versus using the risk factor model to assign an interval, the reader can compare the data in the second and third schedules of
+               <xref rid="pmed.1002945.t003" ref-type="table">Table 3</xref>
+               ; for T1D, if one sets a stratum-specific interval such that, overall, 2.4% of those with no prior DR have DR at the next screening, then all would be assigned an interval of 47 months, with the risk for individuals varying around an average of 2.4%. Using the model to set intervals such that everyone has an ID of 2.4%, the median interval for those with no prior DR would be 61 months (IQR 40–87 months). These data show that although the personalised approach would achieve perfect equity of ID, a practical issue is that the extremes of the predicted intervals are such that they would likely be deemed unacceptable to implement anyway. The reader can explore the range of predicted personalised intervals across other ID thresholds using the online tool (
+               <ext-link ext-link-type="uri" xlink:href="https://diabepi.shinyapps.io/ScreeningIntervals/">https://diabepi.shinyapps.io/ScreeningIntervals/</ext-link>
+               ). What our analysis also shows is that if inequity of risk is the main concern, then the first priority should be to set intervals to reduce the inequity between T1D and T2D and between differing prior grade strata. As shown in the heatmap in
+               <xref ref-type="fig" rid="pmed.1002945.g001">Fig 1</xref>
+               , across a range of acceptable IDs there is little to argue for a personalised approach in terms of workload.
+            </p>
+         </sec>
+         <sec id="sec020">
+            <title>Strengths and weaknesses</title>
+            <p>
+               A particular strength of this study is that it is based on a total population that is representative of a nationwide diabetes population of more than 200,000 people, unlike previous studies that contain only 11,806 people [
+               <xref rid="pmed.1002945.ref009" ref-type="bibr">9</xref>
+               ] or fewer. It includes DR screening results from both T1D and T2D patients, compared to other studies that included only one diabetes type [
+               <xref rid="pmed.1002945.ref010" ref-type="bibr">10</xref>
+               ,
+               <xref rid="pmed.1002945.ref011" ref-type="bibr">11</xref>
+               ]. Furthermore, it uses results of DR screening over a 10-year period in a contemporaneous real-world setting. Another strength is the rich risk factor data that we had available, which enabled us to evaluate the increment in prediction from considering such data. We note our prediction models outperformed published models [
+               <xref rid="pmed.1002945.ref008" ref-type="bibr">8</xref>
+               ,
+               <xref rid="pmed.1002945.ref010" ref-type="bibr">10</xref>
+               ] when fitted to the Scottish population. This is likely to be in part because we used a more detailed measure of 2 previous DR grades, rather than just 1 previous DR grade.
+            </p>
+            <p>
+               A limitation of our analysis is that it is necessarily based on assuming that patients perfectly adhere to the proposed schedules, but it is likely that in the real world adherence will be imperfect, so that effective outcomes will differ slightly. A limitation of modelling referable DR as a Poisson arrival process is that it does not allow for observer variability in grading of referable disease or for possible regression of this state between examinations. A hidden Markov model, implemented for instance in the
+               <italic>msm</italic>
+               package in
+               <italic>R</italic>
+               , can allow for this and might achieve slightly more precise estimation of rates. We have used this approach in the past on smaller datasets, and it was used for the DCCT/EDIC Research Group [
+               <xref rid="pmed.1002945.ref010" ref-type="bibr">10</xref>
+               ] analysis on a smaller dataset, but it has computational limitations especially when modelling the effects of many covariates on the hazard function.
+            </p>
+            <p>Vision-threatening DR (VTDR) risk is also important for policy makers, guideline committees, and clinicians. VTDR is a less common, more specific subset of the referable state that our system defines (approximating having R4 or macular oedema). However, it requires 3D OCT such that the macular oedema component can be definitively diagnosed. From the results of the 2D photograph screening in the screening programme, it is not possible to assign which patient has VTDR, only which has the macular changes referred to as M2 that are a 2D proxy for risk of oedema. Therefore, strictly speaking, we cannot model VTDR. That said, since VTDR is less common than the referable state, modelling it alone would likely lead to longer, not shorter, screening intervals being recommended (since ID would be lower). As such, the intervals recommended are likely to be conservative with respect to VTDR. For this not to be the case, very different risk factors with very different weights and a very different relationship of prior grade to VTDR incidence than to referable disease incidence would have to pertain, and this is of course worth directly testing as data become available. Of note, the current plan in Scotland is to take OCT into the screening system over the next few years. When that happens, and as those data accrue, we will be able to analyse VTDR as a specific outcome.</p>
+            <p>
+               An important issue for all studies of this question is the extent to which conclusions can be generalised from one setting to another. Our data reflect a total population and are not restricted, for example, by the more specific entry criteria of a clinical trial. They are also contemporaneous. The results will be broadly applicable to countries with retinopathy rates similar to ours and with similar risk factor distributions. Glycaemic control is slightly worse in Scotland compared to other Western countries [
+               <xref rid="pmed.1002945.ref018" ref-type="bibr">18</xref>
+               ]: To the extent that this impacts on disease risk, it will mean that the predicted screening intervals will be slightly longer than for countries with lower rates. However, to confirm the intervals predicted in this study, external validation using other countries’ data will be required. It should be noted that the current screening system in Scotland and elsewhere has been designed to ensure referral of those likely to benefit from currently approved treatments. If the evidence base for treatments were to change, resulting in recommendations for interventions at an earlier stage of retinopathy, this would require a redesign of the programme and a reanalysis of the then appropriate screening intervals.
+            </p>
+            <p>In conclusion, we have provided a framework and tool for policy makers to more formally consider the intervals needed for retinopathy screening in diabetes. Compared to current policies, we show that reductions in workload, with consequent substantial savings to healthcare budgets, and reductions in disparity of risks between groups can be achieved.</p>
+         </sec>
+      </sec>
+      <sec sec-type="supplementary-material" id="sec021">
+         <title>Supporting information</title>
+         <supplementary-material content-type="local-data" id="pmed.1002945.s001">
+            <label>S1 Statistical Analysis Plan</label>
+            <caption>
+               <p>(PDF)</p>
+            </caption>
+            <media xlink:href="pmed.1002945.s001.pdf">
+               <caption>
+                  <p>Click here for additional data file.</p>
+               </caption>
+            </media>
+         </supplementary-material>
+         <supplementary-material content-type="local-data" id="pmed.1002945.s002">
+            <label>S1 Table</label>
+            <caption>
+               <title>Retinopathy and maculopathy grades and retinopathy severity definitions.</title>
+               <p>(DOCX)</p>
+            </caption>
+            <media xlink:href="pmed.1002945.s002.docx">
+               <caption>
+                  <p>Click here for additional data file.</p>
+               </caption>
+            </media>
+         </supplementary-material>
+         <supplementary-material content-type="local-data" id="pmed.1002945.s003">
+            <label>S2 Table</label>
+            <caption>
+               <title>STROBE checklist.</title>
+               <p>(DOCX)</p>
+            </caption>
+            <media xlink:href="pmed.1002945.s003.docx">
+               <caption>
+                  <p>Click here for additional data file.</p>
+               </caption>
+            </media>
+         </supplementary-material>
+         <supplementary-material content-type="local-data" id="pmed.1002945.s004">
+            <label>S3 Table</label>
+            <caption>
+               <title>Comparison of predictive models for type 1 and type 2 diabetes.</title>
+               <p>(DOCX)</p>
+            </caption>
+            <media xlink:href="pmed.1002945.s004.docx">
+               <caption>
+                  <p>Click here for additional data file.</p>
+               </caption>
+            </media>
+         </supplementary-material>
+         <supplementary-material content-type="local-data" id="pmed.1002945.s005">
+            <label>S1 Text</label>
+            <caption>
+               <title>Details of methods.</title>
+               <p>(DOCX)</p>
+            </caption>
+            <media xlink:href="pmed.1002945.s005.docx">
+               <caption>
+                  <p>Click here for additional data file.</p>
+               </caption>
+            </media>
+         </supplementary-material>
+      </sec>
+   </body>
+   <back>
+      <glossary>
+         <title>Abbreviations</title>
+         <def-list>
+            <def-item>
+               <term>DR</term>
+               <def>
+                  <p>diabetic retinopathy</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>DRS</term>
+               <def>
+                  <p>Scottish Diabetic Retinopathy Screening Programme</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>ID</term>
+               <def>
+                  <p>interval disease risk</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>OCT</term>
+               <def>
+                  <p>optical coherence tomography</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>SCI-Diabetes</term>
+               <def>
+                  <p>Scottish Care Information–Diabetes</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>T1D</term>
+               <def>
+                  <p>type 1 diabetes</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>T2D</term>
+               <def>
+                  <p>type 2 diabetes</p>
+               </def>
+            </def-item>
+            <def-item>
+               <term>VTDR</term>
+               <def>
+                  <p>vision-threatening diabetic retinopathy</p>
+               </def>
+            </def-item>
+         </def-list>
+      </glossary>
+      <ref-list>
+         <title>References</title>
+         <ref id="pmed.1002945.ref001">
+            <label>1</label>
+            <mixed-citation publication-type="journal">
+               <name>
+                  <surname>Jones</surname>
+                  <given-names>S</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Edwards</surname>
+                  <given-names>RT</given-names>
+               </name>
+               .
+               <article-title>Diabetic retinopathy screening: a systematic review of the economic evidence</article-title>
+               .
+               <source>Diabet Med</source>
+               .
+               <year>2010</year>
+               ;
+               <volume>27</volume>
+               (
+               <issue>3</issue>
+               ):
+               <fpage>249</fpage>
+               –
+               <lpage>56</lpage>
+               .
+               <pub-id pub-id-type="doi">10.1111/j.1464-5491.2009.02870.x</pub-id>
+               <pub-id pub-id-type="pmid">20536486</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref002">
+            <label>2</label>
+            <mixed-citation publication-type="journal">
+               <name>
+                  <surname>Olafsdottir</surname>
+                  <given-names>E</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Stefánsson</surname>
+                  <given-names>E</given-names>
+               </name>
+               .
+               <article-title>Biennial eye screening in patients with diabetes without retinopathy: 10-year experience</article-title>
+               .
+               <source>Br J Ophthalmol</source>
+               .
+               <year>2007</year>
+               ;
+               <volume>91</volume>
+               (
+               <issue>12</issue>
+               ):
+               <fpage>1599</fpage>
+               –
+               <lpage>601</lpage>
+               .
+               <pub-id pub-id-type="doi">10.1136/bjo.2007.123810</pub-id>
+               <pub-id pub-id-type="pmid">17627978</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref003">
+            <label>3</label>
+            <mixed-citation publication-type="journal">
+               <name>
+                  <surname>Scanlon</surname>
+                  <given-names>PH</given-names>
+               </name>
+               .
+               <article-title>The English National Screening Programme for diabetic retinopathy 2003–2016</article-title>
+               .
+               <source>Acta Diabetol</source>
+               .
+               <year>2017</year>
+               ;
+               <volume>54</volume>
+               (
+               <issue>6</issue>
+               ):
+               <fpage>515</fpage>
+               –
+               <lpage>25</lpage>
+               .
+               <pub-id pub-id-type="doi">10.1007/s00592-017-0974-1</pub-id>
+               <pub-id pub-id-type="pmid">28224275</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref004">
+            <label>4</label>
+            <mixed-citation publication-type="journal">
+               <name>
+                  <surname>Leese</surname>
+                  <given-names>GP</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Morris</surname>
+                  <given-names>AD</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Swaminathan</surname>
+                  <given-names>K</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Petrie</surname>
+                  <given-names>JR</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Sinharay</surname>
+                  <given-names>R</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Ellingford</surname>
+                  <given-names>A</given-names>
+               </name>
+               ,
+               <etal>et al</etal>
+               <article-title>Implementation of national diabetes retinal screening programme is associated with a lower proportion of patients referred to ophthalmology</article-title>
+               .
+               <source>Diabet Med</source>
+               .
+               <year>2005</year>
+               ;
+               <volume>22</volume>
+               (
+               <issue>8</issue>
+               ):
+               <fpage>1112</fpage>
+               –
+               <lpage>5</lpage>
+               .
+               <pub-id pub-id-type="doi">10.1111/j.1464-5491.2005.01603.x</pub-id>
+               <pub-id pub-id-type="pmid">16026382</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref005">
+            <label>5</label>
+            <mixed-citation publication-type="journal">
+               <collab>American Diabetes Association</collab>
+               .
+               <article-title>Standards of medical care in diabetes 2019</article-title>
+               .
+               <source>Diabetes Care</source>
+               .
+               <year>2019</year>
+               ;
+               <volume>42</volume>
+               (
+               <issue>Suppl 1</issue>
+               ):
+               <fpage>S1</fpage>
+               –
+               <lpage>193</lpage>
+               .
+               <pub-id pub-id-type="doi">10.2337/dc19-Sint01</pub-id>
+               <pub-id pub-id-type="pmid">30559224</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref006">
+            <label>6</label>
+            <mixed-citation publication-type="journal">
+               <name>
+                  <surname>Looker</surname>
+                  <given-names>HC</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Nyangoma</surname>
+                  <given-names>SO</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Cromie</surname>
+                  <given-names>DT</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Olson</surname>
+                  <given-names>JA</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Leese</surname>
+                  <given-names>GP</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Black</surname>
+                  <given-names>MW</given-names>
+               </name>
+               ,
+               <etal>et al</etal>
+               <article-title>Rates of referable eye disease in the Scottish National Diabetic Retinopathy Screening Programme</article-title>
+               .
+               <source>Br J Ophthalmol</source>
+               .
+               <year>2014</year>
+               ;
+               <volume>98</volume>
+               (
+               <issue>6</issue>
+               ):
+               <fpage>790</fpage>
+               –
+               <lpage>5</lpage>
+               .
+               <pub-id pub-id-type="doi">10.1136/bjophthalmol-2013-303948</pub-id>
+               <pub-id pub-id-type="pmid">24599419</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref007">
+            <label>7</label>
+            <mixed-citation publication-type="journal">
+               <name>
+                  <surname>Wong</surname>
+                  <given-names>TY</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Mwamburi</surname>
+                  <given-names>M</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Klein</surname>
+                  <given-names>R</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Larsen</surname>
+                  <given-names>M</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Flynn</surname>
+                  <given-names>H</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Hernandez-Medina</surname>
+                  <given-names>M</given-names>
+               </name>
+               ,
+               <etal>et al</etal>
+               <article-title>Rates of progression in diabetic retinopathy during different time periods</article-title>
+               .
+               <source>Diabetes Care</source>
+               .
+               <year>2009</year>
+               ;
+               <volume>32</volume>
+               (
+               <issue>12</issue>
+               ):
+               <fpage>2307</fpage>
+               –
+               <lpage>13</lpage>
+               .
+               <pub-id pub-id-type="doi">10.2337/dc09-0615</pub-id>
+               <pub-id pub-id-type="pmid">19940227</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref008">
+            <label>8</label>
+            <mixed-citation publication-type="journal">
+               <name>
+                  <surname>Aspelund</surname>
+                  <given-names>T</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Thornórisdóttir</surname>
+                  <given-names>O</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Olafsdottir</surname>
+                  <given-names>E</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Gudmundsdottir</surname>
+                  <given-names>A</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Einarsdóttir</surname>
+                  <given-names>AB</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Mehlsen</surname>
+                  <given-names>J</given-names>
+               </name>
+               ,
+               <etal>et al</etal>
+               <article-title>Individual risk assessment and information technology to optimise screening frequency for diabetic retinopathy</article-title>
+               .
+               <source>Diabetologia</source>
+               .
+               <year>2011</year>
+               ;
+               <volume>54</volume>
+               (
+               <issue>10</issue>
+               ):
+               <fpage>2525</fpage>
+               –
+               <lpage>32</lpage>
+               .
+               <pub-id pub-id-type="doi">10.1007/s00125-011-2257-7</pub-id>
+               <pub-id pub-id-type="pmid">21792613</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref009">
+            <label>9</label>
+            <mixed-citation publication-type="journal">
+               <name>
+                  <surname>Eleuteri</surname>
+                  <given-names>A</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Fisher</surname>
+                  <given-names>AC</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Broadbent</surname>
+                  <given-names>DM</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>García-Fiñana</surname>
+                  <given-names>M</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Cheyne</surname>
+                  <given-names>CP</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Wang</surname>
+                  <given-names>A</given-names>
+               </name>
+               ,
+               <etal>et al</etal>
+               <article-title>Individualised variable-interval risk-based screening for sight-threatening diabetic retinopathy: the Liverpool Risk Calculation Engine</article-title>
+               .
+               <source>Diabetologia</source>
+               .
+               <year>2017</year>
+               ;
+               <volume>60</volume>
+               (
+               <issue>11</issue>
+               ):
+               <fpage>2174</fpage>
+               –
+               <lpage>82</lpage>
+               .
+               <pub-id pub-id-type="doi">10.1007/s00125-017-4386-0</pub-id>
+               <pub-id pub-id-type="pmid">28840258</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref010">
+            <label>10</label>
+            <mixed-citation publication-type="journal">
+               <collab>DCCT/EDIC Research Group</collab>
+               .
+               <article-title>Frequency of evidence-based screening for retinopathy in type 1 diabetes</article-title>
+               .
+               <source>N Engl J Med</source>
+               .
+               <year>2017</year>
+               ;
+               <volume>376</volume>
+               (
+               <issue>16</issue>
+               ):
+               <fpage>1507</fpage>
+               –
+               <lpage>16</lpage>
+               .
+               <pub-id pub-id-type="doi">10.1056/NEJMoa1612836</pub-id>
+               <pub-id pub-id-type="pmid">28423305</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref011">
+            <label>11</label>
+            <mixed-citation publication-type="journal">
+               <name>
+                  <surname>Agardh</surname>
+                  <given-names>E</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Tababat-Khani</surname>
+                  <given-names>P</given-names>
+               </name>
+               .
+               <article-title>Adopting 3-year screening intervals for sight-threatening retinal vascular lesions in type 2 diabetic subjects without retinopathy</article-title>
+               .
+               <source>Diabetes Care</source>
+               .
+               <year>2011</year>
+               ;
+               <volume>34</volume>
+               (
+               <issue>6</issue>
+               ):
+               <fpage>1318</fpage>
+               –
+               <lpage>9</lpage>
+               .
+               <pub-id pub-id-type="doi">10.2337/dc10-2308</pub-id>
+               <pub-id pub-id-type="pmid">21562322</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref012">
+            <label>12</label>
+            <mixed-citation publication-type="journal">
+               <name>
+                  <surname>Livingstone</surname>
+                  <given-names>SJ</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Looker</surname>
+                  <given-names>HC</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Hothersall</surname>
+                  <given-names>EJ</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Wild</surname>
+                  <given-names>SH</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Lindsay</surname>
+                  <given-names>RS</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Chalmers</surname>
+                  <given-names>J</given-names>
+               </name>
+               ,
+               <etal>et al</etal>
+               <article-title>Risk of cardiovascular disease and total mortality in adults with type 1 diabetes</article-title>
+               :
+               <source>Scottish Registry Linkage Study. PLoS Med</source>
+               .
+               <year>2012</year>
+               ;
+               <volume>9</volume>
+               (
+               <issue>10</issue>
+               ):
+               <fpage>e1001321</fpage>
+               <pub-id pub-id-type="doi">10.1371/journal.pmed.1001321</pub-id>
+               <pub-id pub-id-type="pmid">23055834</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref013">
+            <label>13</label>
+            <mixed-citation publication-type="journal">
+               <collab>Early Treatment Diabetic Retinopathy Study Research Group</collab>
+               .
+               <article-title>Early Treatment Diabetic Retinopathy Study design and baseline patient characteristics</article-title>
+               .
+               <source>Ophthalmology</source>
+               .
+               <year>1991</year>
+               ;
+               <volume>98</volume>
+               (
+               <issue>5</issue>
+               ):
+               <fpage>741</fpage>
+               –
+               <lpage>56</lpage>
+               .
+               <pub-id pub-id-type="pmid">2062510</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref014">
+            <label>14</label>
+            <mixed-citation publication-type="other">
+               Scottish Diabetic Retinal Screening Collaborative. Scottish diabetic retinopathy grading scheme 2007 v1.1. Scottish Diabetic Retinal Screening Collaborative; 2007 [cited 2019 Sep 21]. Available from:
+               <ext-link ext-link-type="uri" xlink:href="https://www.ndrs.scot.nhs.uk/wp-content/uploads/2013/04/Grading-Scheme-2007-v1.1.pdf">https://www.ndrs.scot.nhs.uk/wp-content/uploads/2013/04/Grading-Scheme-2007-v1.1.pdf</ext-link>
+               .
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref015">
+            <label>15</label>
+            <mixed-citation publication-type="journal">
+               <name>
+                  <surname>Prescott</surname>
+                  <given-names>G</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Sharp</surname>
+                  <given-names>P</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Goatman</surname>
+                  <given-names>K</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Scotland</surname>
+                  <given-names>G</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Fleming</surname>
+                  <given-names>A</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Philip</surname>
+                  <given-names>S</given-names>
+               </name>
+               ,
+               <etal>et al</etal>
+               <article-title>Improving the cost-effectiveness of photographic screening for diabetic macular oedema: a prospective, multi-centre, UK study</article-title>
+               .
+               <source>Br J Ophthalmol</source>
+               .
+               <year>2014</year>
+               ;
+               <volume>98</volume>
+               (
+               <issue>8</issue>
+               ):
+               <fpage>1042</fpage>
+               –
+               <lpage>9</lpage>
+               .
+               <pub-id pub-id-type="doi">10.1136/bjophthalmol-2013-304338</pub-id>
+               <pub-id pub-id-type="pmid">24682180</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref016">
+            <label>16</label>
+            <mixed-citation publication-type="journal">
+               <name>
+                  <surname>Wong</surname>
+                  <given-names>RL</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Tsang</surname>
+                  <given-names>CW</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Wong</surname>
+                  <given-names>DS</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>McGhee</surname>
+                  <given-names>S</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Lam</surname>
+                  <given-names>CH</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Lian</surname>
+                  <given-names>J</given-names>
+               </name>
+               ,
+               <etal>et al</etal>
+               <article-title>Are we making good use of our public resources? The false-positive rate of screening by fundus photography for diabetic macular oedema</article-title>
+               .
+               <source>Hong Kong Med J</source>
+               .
+               <year>2017</year>
+               ;
+               <volume>23</volume>
+               (
+               <issue>4</issue>
+               ):
+               <fpage>356</fpage>
+               –
+               <lpage>64</lpage>
+               .
+               <pub-id pub-id-type="doi">10.12809/hkmj166078</pub-id>
+               <pub-id pub-id-type="pmid">28684650</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref017">
+            <label>17</label>
+            <mixed-citation publication-type="journal">
+               <name>
+                  <surname>Su</surname>
+                  <given-names>Y-S</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Gelman</surname>
+                  <given-names>A</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Hill</surname>
+                  <given-names>J</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Yajima</surname>
+                  <given-names>M</given-names>
+               </name>
+               .
+               <article-title>Multiple imputation with diagnostics (mi) in R: opening windows into the black box</article-title>
+               .
+               <source>J Stat Softw</source>
+               .
+               <year>2011</year>
+               ;
+               <volume>45</volume>
+               (
+               <issue>2</issue>
+               ):
+               <fpage>1</fpage>
+               –
+               <lpage>31</lpage>
+               .
+               <pub-id pub-id-type="doi">10.18637/jss.v045.i02</pub-id>
+            </mixed-citation>
+         </ref>
+         <ref id="pmed.1002945.ref018">
+            <label>18</label>
+            <mixed-citation publication-type="journal">
+               <name>
+                  <surname>McKnight</surname>
+                  <given-names>JA</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Wild</surname>
+                  <given-names>SH</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Lamb</surname>
+                  <given-names>MJE</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Cooper</surname>
+                  <given-names>MN</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Jones</surname>
+                  <given-names>TW</given-names>
+               </name>
+               ,
+               <name>
+                  <surname>Davis</surname>
+                  <given-names>EA</given-names>
+               </name>
+               ,
+               <etal>et al</etal>
+               <article-title>Glycaemic control of type 1 diabetes in clinical practice early in the 21st century: an international comparison</article-title>
+               .
+               <source>Diabet Med</source>
+               .
+               <year>2015</year>
+               ;
+               <volume>32</volume>
+               (
+               <issue>8</issue>
+               ):
+               <fpage>1036</fpage>
+               –
+               <lpage>50</lpage>
+               .
+               <pub-id pub-id-type="doi">10.1111/dme.12676</pub-id>
+               <pub-id pub-id-type="pmid">25510978</pub-id>
+            </mixed-citation>
+         </ref>
+      </ref-list>
+   </back>
+</article>

@@ -9,10 +9,10 @@ banner0_str ="""
   ██████╔╝███████╗██║  ██║╚██████╔╝███████╗███████╗   ██║   ██║ ╚═╝ ██║
   ╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝   ╚═╝   ╚═╝     ╚═╝
 """
-# banner ref: https://manytools.org/hacker-tools/ascii-banner/
+#banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
-DATE = "20 June 2020"
-VERSION = "2_i"
+DATE_STR = "30 June 2020"
+VERSION = "2_iii"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
@@ -45,38 +45,21 @@ import spacy # needed to work with stopwords
 from spacy.lang.en.stop_words import STOP_WORDS # needed to work with stop words
 
 
-
 # global variables
 header_list = [] # initialize the header_list
 FILE_EXTENTION  = "csv"
 DATADIR = "data/"
-DATA_FILE = ('data/all.csv')
-
 OUTDATADIR = "/tmp/" #output directory
 
-
-# cache the dataframe
-#@st.cache
-#@st.cache(allow_output_mutation=True)
-def load_data(nrows):
-	"""Loads the data file"""
-	data = pd.read_csv(DATA_FILE, nrows=nrows)
-	lowercase = lambda x: str(x).lower()
-	data.rename(lowercase, axis='columns', inplace=True)
-	#data[DATE_COLUMN] = pd.to_datetime(data[DATE_COLUMN])
-	return data
-	# end of load_data()
-
-#@st.cache
+# @st.cache
+# @st.cache(allow_output_mutation=True)
 @st.cache(suppress_st_warning=True)
-#@st.cache(allow_output_mutation=True)
 def load_big_data(myFile_str):
 	"""Loads the inputted data file"""
 	data = pd.read_csv(myFile_str, low_memory=False)
 #	st.text("Please load data")
 	lowercase = lambda x: str(x).lower()
 	data.rename(lowercase, axis='columns', inplace=True)
-	#data[DATE_COLUMN] = pd.to_datetime(data[DATE_COLUMN])
 	return data
 	# end of load_big_data()
 
@@ -283,7 +266,7 @@ def newRefPlot(data_dic, pmid_list=[], showNodesPanel_bol = False, showPhysicsPa
 	# st.write("{}:::{}".format(q,data_dic["title"][q])) # position and title
 	# st.write(" pmid_dic is {}".format(pmid_dic))
 	# st.write("selected pmids; pmid_dic : {}".format(pmid_dic))
-	# createNetwork(pmid_dic) # create and display the network
+
 	st.write(" showNodesPanel_bol is {}".format(showNodesPanel_bol))
 	st.write(" showPhysicsPanel_bol is {}".format(showPhysicsPanel_bol))
 	createNetwork(pmid_dic, showNodesPanel_bol, showPhysicsPanel_bol)
@@ -513,7 +496,13 @@ def keywordAndkeywordsInArticle(data_dic):
 	myPmids_list = []
 	myPmid_set = set()
 
-	myKeyWords_list = st.multiselect('Select keywords of interest, or leave blank to view all as network.', keyWords_list,[]) # the selected key words from the user.
+	myKeyWords_list = st.multiselect('Select keywords of interest, or leave blank to view all as network.', keyWords_list,[]) # the selected keywords from the user.
+
+# TODO:
+# Create a sidebar field to add extra words to search. These words may not have been original keywords but could still be added now.
+
+
+
 
 	#st.warning("All keywords must be in article abstract at same time!")
 	st.text(myKeyWords_list)
@@ -561,7 +550,7 @@ def getLowercaseElements(in_list):
 		# end of get getLowercaseElements()
 
 
-def keywordSaturation(data_dic): #TODO
+def keywordSaturation(data_dic):
 	""" Function to study the amount of any selected keyword content turning up in abstract text"""
 	st.title("All chosen keywords in the same article")
 
@@ -634,7 +623,7 @@ def keywordSaturation(data_dic): #TODO
 		fig = px.density_heatmap(data, x=keyword_list, y=title_list, nbinsx=20, nbinsy=20,color_continuous_scale=[[0, 'green'], [0.005, 'yellow'],  [1.0, 'rgb(0, 0, 255)']])
 
 		fig.update_layout(
-		title="Plot Title",
+		title="Heatmap of Results",
 		xaxis_title="Keywords",
 		yaxis_title="PubMed Links",
 		font=dict(

@@ -1,6 +1,51 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+
+# Note: Since I was under some time constraints, I did not have enough time to complete automated tests. I did run tests manuallt of the functions and I was convinced that they were working bug-free in my script. If you are interested in helping this project, please consider writing some tests.
+
+import unittest
+from beagleTM2_analysis_helperCode import getIntersection
+from beagleTM2_analysis_helperCode import writer # function to help in debugging
+from beagleTM2_analysis_helperCode import reduceResults
+from beagleTM2_analysis_helperCode import getLogTransform
+
+# Run automated testing:
+# python3 -m unittest beagleTM2_analysis_i.py
+
+class test_beagleTmApp(unittest.TestCase):
+
+	def test_Intersection(self):
+		"""Check that correct a correction intersection is reached."""
+		self.assertEqual(getIntersection([1,2,3],[2,3]),set({2,3}))
+		# end of test_Intersection
+	def test_writer(self):
+		"""Check that writer is outputting some text. """
+		self.assertEqual(writer("ok computer"),"ok computer")
+		# test_writer()
+	def test_reduceResults(self):
+		"""check that the upper half of input list is correctly copied to another list to be returned"""
+		in_list = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+		a_list  = ["a","b","c","d","e","f","g","h","i","j"]
+		b_list  = ["aa","bb","cc","dd","ee","ff","gg","hh","ii","jj"]
+
+		out50_list = [0.2, 0.3, 0.4, 0.5]
+		aout50_list = ['c', 'd', 'e', 'f']
+		bout50_list = ['cc', 'dd', 'ee', 'ff']
+
+		self.assertEqual(reduceResults(in_list,a_list,b_list, 0.10, 0.50), (out50_list, aout50_list, bout50_list))
+		# end of test_reduceResults()
+
+	def test_getLogTransform(self):
+		"""Check that the log transform function is working correctly"""
+		in_list = [0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+		base2_list = [-6.643856189774724, -3.321928094887362, -2.321928094887362, -1.7369655941662063, -1.3219280948873622, -1.0, -0.7369655941662062, -0.5145731728297583, -0.3219280948873623, -0.15200309344504997]
+
+		self.assertEqual(getLogTransform(in_list, 2),base2_list)
+		# end of test_getLogTransform()
+
+
+# Some data for future tests.
 data_dic ={
   "title": [
     "Use of personalised risk-based screening schedules to optimise workload and sojourn time in screening programmes for diabetic retinopathy: A retrospective cohort study",
@@ -91,45 +136,3 @@ data_dic ={
     "[2, 0, 2, 3, 1, 2, 1, 1, 0, 3, 0, 5, 1, 1, 11, 1, 0, 1, 2, 4, 1, 1, 1, 3, 3, 0, 5, 1, 1, 6, 1, 7, 2, 3, 11, 2, 0, 3, 1, 1, 6, 5, 7, 0, 0, 11, 2, 2, 2, 3, 3, 1, 11, 6, 1, 1, 1, 7, 0, 2, 0, 3]"
   ]
 }
-
-import unittest
-from beagletm_helperCode_web_i import getIntersection
-from beagletm_helperCode_web_i import writer
-from beagletm_helperCode_web_i import reduceResults
-from beagletm_helperCode_web_i import getLogTransform
-
-# run:
-# python3 -m unittest beagletm_helperCode_web_i_test.py
-
-
-class test_beagleTmApp(unittest.TestCase):
-
-	def test_Intersection(self):
-		"""Check that correct a correction intersection is reached."""
-		self.assertEqual(getIntersection([1,2,3],[2,3]),set({2,3}))
-
-	def test_writer(self):
-		"""Check that writer is outputting some text. """
-		self.assertEqual(writer("ok computer"),"ok computer")
-
-	def test_reduceResults(self):
-		"""check that the upper half of input list is correctly copied to another list to be returned"""
-		in_list = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-		a_list  = ["a","b","c","d","e","f","g","h","i","j"]
-		b_list  = ["aa","bb","cc","dd","ee","ff","gg","hh","ii","jj"]
-
-		out50_list = [0.2, 0.3, 0.4, 0.5]
-		aout50_list = ['c', 'd', 'e', 'f']
-		bout50_list = ['cc', 'dd', 'ee', 'ff']
-
-		self.assertEqual(reduceResults(in_list,a_list,b_list, 0.10, 0.50), (out50_list, aout50_list, bout50_list))
-		# end of test_reduceResults()
-
-	def test_getLogTransform(self):
-		"""Check that the log transform function is working correctly"""
-		in_list = [0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-		base2_list = [-6.643856189774724, -3.321928094887362, -2.321928094887362, -1.7369655941662063, -1.3219280948873622, -1.0, -0.7369655941662062, -0.5145731728297583, -0.3219280948873623, -0.15200309344504997]
-
-		self.assertEqual(getLogTransform(in_list, 2),base2_list)
-# run:
-# python3 -m unittest beagletm_helperCode_web_i_test.py
