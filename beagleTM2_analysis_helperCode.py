@@ -11,7 +11,7 @@ banner0_str ="""
 """
 #banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
-DATE_STR = "30 June 2020"
+DATE_STR = "1 July 2020"
 VERSION = "2_iii"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
@@ -608,9 +608,8 @@ def keywordSaturation(data_dic):
 		plotName_str = OUTDATADIR + "contentHeatmap.html"
 
 # # current way to plot heatmaps
-# 		myData = np.array(content_list)
-		trace = go.Heatmap(x = keyword_list, y = title_list, z = content_list, type = 'heatmap', colorscale = 'Viridis')
-		data = [trace]
+		# trace = go.Heatmap(x = keyword_list, y = title_list, z = content_list, type = 'heatmap', colorscale = 'Viridis')
+		# data = [trace]
 
 # use log transform to see the results better?
 		# st.write("Before log transform:",content_list)
@@ -620,7 +619,9 @@ def keywordSaturation(data_dic):
 
 		trace = go.Heatmap(type = 'heatmap', z = content_list, colorscale = 'Viridis')
 		data = [trace]
-		fig = px.density_heatmap(data, x=keyword_list, y=title_list, nbinsx=20, nbinsy=20,color_continuous_scale=[[0, 'green'], [0.005, 'yellow'],  [1.0, 'rgb(0, 0, 255)']])
+		#note: the colours of the heatmap can be aletered with the following line.
+		fig = px.density_heatmap(data, x=keyword_list, y=title_list, nbinsx=20, nbinsy=20,color_continuous_scale=[[0, 'grey'], [0.005, 'yellow'], [1, 'rgb(0, 0, 255)']])
+
 
 		fig.update_layout(
 		title="Heatmap of Results",
