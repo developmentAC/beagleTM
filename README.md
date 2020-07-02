@@ -4,7 +4,7 @@
 ##### email: obonhamcarter@allegheny.edu
 
 ---
-![logo](graphics/beagleTM_logo.png)
+![logo](graphics/beagleTM_logo2.png)
 
 [![MIT Licence](https://img.shields.io/bower/l/bootstrap)](https://opensource.org/licenses/MIT)
 [![Built with spaCy](https://img.shields.io/badge/built%20with-spaCy-09a3d5.svg)](https://spacy.io)
