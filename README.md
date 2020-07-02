@@ -18,12 +18,12 @@
 * [Overview](#overview)
 * [Relationship Networks](#relationship-networks)
 
-* [keywords](#keywords)
+* [Keywords](#keywords)
 * [Parsing](#parsing)
 * + [Run a Parsing Job](#run-a-parsing-job)
 * [Analysis](#analysis)
-* + [Run An Analysis Job](#run-an-analysis-job)
-* [What are we doing with this data?](#what-are-we-doing-with-this-data?)
+* + [Run an Analysis Job](#run-an-analysis-job)
+* [What are we doing with this data?](#what-are-we-doing-with-this-data)
 * [Supporting libraries](#supporting-libraries)
 * [Citing](#citing)
 * [A Work in Progress](#a-work-in-progress)
@@ -220,7 +220,7 @@ This operation will create a file called `all_keywords4_analysis.csv`. The filen
 
 To analyze the results from `beagleTM2_parser.py`, [Streamlit](https://www.streamlit.io) is used to launch the analysis scripts: `beagleTM2_analysis_i.py` and `beagleTM2_analysis_helperCode.py`. To run an analysis of the data set, run the following command.
 
-#### Run An Analysis Job
+#### Run an Analysis Job
 Use the following command to get Streamlit to start up the analysis step of your project.
 
 ``` bash
