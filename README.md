@@ -36,7 +36,7 @@ Here are the commands that you will be using to run this application. Involved d
 
 #### Open up a session of pipenv
 
-To run this project's `virtualenv`, you can initiate the shell as shown below. When the shell is initiated, it is expected that the `piplock` file will guide the installation of the necessary libraries for the application.
+To run this project's `virtualenv`, you can initiate the shell as shown below. When the shell is initiated, it is expected that the `Pipfile` file will guide the installation of the necessary libraries for the application.
 
 
 ``` bash
@@ -167,9 +167,13 @@ To search for knowledge in PubMed articles to create a literature review, all ke
 
 
 #### pipenv
-To develop this code, `pipenv` was used to maintain packages. Information about this coding environment may be found from https://pypi.org/project/pipenv/. A handy cheat sheet for the commands may be found at: https://pipenv-fork.readthedocs.io/en/latest/.
+To develop this code, `pipenv` was used to maintain packages. Information about this coding environment may be found from https://pypi.org/project/pipenv/. A handy cheat sheet for the commands may be found at: https://pipenv-fork.readthedocs.io/en/latest/. If you require a `requirements.txt` file, then this file may be created by `pipenv` using the included `Pipfile` with the following command.
 
-The file `requirements.txt` has been included for `pipenv` to install the same libraries on your machine as the one where the code was written. To import your libraries from the `requirements.txt` file, use the following command.
+``` bash
+pipenv lock -r > requirements.txt
+```
+
+To import your libraries from the `requirements.txt` file, use the following command.
 ```
 pipenv install -r requirements.txt
 ```
