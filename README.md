@@ -1,6 +1,6 @@
 ##### BeagleTM: PubMed Interactive Knowledge Discovery
 ##### Date: 30 June 2020
-##### Oliver Bonham-Carter, [Allegheny College](https://www.allegheny.edu/)
+##### Oliver Bonham-Carter, [Allegheny College](https://allegheny.edu/)
 ##### email: obonhamcarter@allegheny.edu
 
 
