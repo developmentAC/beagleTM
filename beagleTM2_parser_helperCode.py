@@ -13,7 +13,7 @@ banner0_str ="""
 # banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
 
-DATE = "1 July 2020"
+DATE = "13 July 2020"
 VERSION = "(Parser) 2_iii"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
@@ -117,7 +117,7 @@ def printErrorByPlatform(in_str):
 		print("\n  " + " \U0001F631 ",in_str + " \U0001F631 " )
 	else:
 		print("Error: ",in_str)
-
+	#end of printErrorByPlatform()
 
 def printHush(in_str):
 	"""prints if not in HUSH mode"""
