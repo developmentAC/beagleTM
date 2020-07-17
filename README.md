@@ -19,6 +19,7 @@
 ## Table of Contents
 
 * [Command Summary](#command-summary)
+ + [Docker](#docker)
 * [Overview](#overview)
 * [Relationship Networks](#relationship-networks)
 
@@ -48,6 +49,8 @@ sudo docker build -t beagletm2 .```
 
 _Mount and run_:``` bash
 sudo docker run -it -p 8501:8501 --mount type=bind,source=$PWD,target=/home/beagletm2 beagletm2 ```
+
+Your browser URL is likely to be set to `http://127.0.0.1:8501/` to run the Streamlit application.
 
 #### Open up a session of pipenv
 

@@ -31,7 +31,7 @@ from spacy.lang.en.stop_words import STOP_WORDS # needed to work with stop words
 import beagleTM2_analysis_helperCode as hc
 
 
-# DATE_STR = "17 July 2020"
+# DATE = "17 July 2020"
 # VERSION = "2_iii"
 # AUTHOR = "Oliver Bonham-Carter"
 # AUTHORMAIL = "obonhamcarter@allegheny.edu"
@@ -44,7 +44,7 @@ def begin():
 
 	st.text(hc.banner0_str)
 	st.sidebar.title("BeagleTM Data Analysis")
-	st.sidebar.subheader(f"Date: {hc.DATE_STR}, Ver: {hc.VERSION}")
+	st.sidebar.subheader(f"Date: {hc.DATE}, Ver: {hc.VERSION}")
 	st.sidebar.text("\U0001F415 \U0001F631 \U0001f5ff \U0001F608 \U0001f600 ")
  	# Create a text element and let the reader know the data is loading.
 
