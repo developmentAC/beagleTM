@@ -18,12 +18,11 @@
 #
 #
 
-#
-# DATE = "28 June 2020"
-# VERSION = "Parser 2_ii"
-# WHATISTHIS = "PubMed Parser"
+# DATE_STR = "17 July 2020"
+# VERSION = "2_iii"
 # AUTHOR = "Oliver Bonham-Carter"
 # AUTHORMAIL = "obonhamcarter@allegheny.edu"
+
 # """The driver of the whole thing."""
 
 

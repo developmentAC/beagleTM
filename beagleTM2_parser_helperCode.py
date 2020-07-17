@@ -13,8 +13,8 @@ banner0_str ="""
 # banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
 
-DATE = "13 July 2020"
-VERSION = "(Parser) 2_iii"
+DATE_STR = "17 July 2020"
+VERSION = "2_iii"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
@@ -200,11 +200,12 @@ def checkDataDir(dir_str):
 
 	try:
 		os.makedirs(dir_str)
-		#print("  PROBLEM: MYOUTPUT_DIR doesn't exist")
-		printByPlatform("\t Creating :{}".format(dir_str))
+		#if MYOUTPUT_DIR doesn't exist, create directory
+		#printByPlatform("\t Creating :{}".format(dir_str))
 		return 1
 
 	except OSError:
+		#printErrorByPlatform("\t Error creating directory or directory already present ... ")
 		return 0
 #end of checkDataDir()
 

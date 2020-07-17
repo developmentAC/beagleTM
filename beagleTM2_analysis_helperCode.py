@@ -11,7 +11,7 @@ banner0_str ="""
 """
 #banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
-DATE_STR = "1 July 2020"
+DATE_STR = "17 July 2020"
 VERSION = "2_iii"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
@@ -44,12 +44,15 @@ import networkx as nx
 import spacy # needed to work with stopwords
 from spacy.lang.en.stop_words import STOP_WORDS # needed to work with stop words
 
+import beagleTM2_parser_helperCode as phc # for: checkDataDir()
+
 
 # global variables
 header_list = [] # initialize the header_list
 FILE_EXTENTION  = "csv"
 DATADIR = "data/"
-OUTDATADIR = "/tmp/" #output directory
+#OUTDATADIR = "/tmp/" #output directory
+OUTDATADIR = "0_outAnalysis/" #output directory
 
 # @st.cache
 # @st.cache(allow_output_mutation=True)
@@ -138,7 +141,6 @@ def get_platformType():
 #end of get_platformType()
 
 
-
 def openPage(myUrl):
 	""" function to open a a web page in a browser"""
 	import webbrowser
@@ -150,12 +152,14 @@ def showMyPlot(G, plotName_str):
 	""" plots according to os type. It seems that macOS does not always open a plot."""
 	platform_str = get_platformType().lower()
 	# st.write(platform_str)
+	st.success(f" Plot file saved: {plotName_str}")
 
 	if platform_str == "osx":
-		#st.write("osx machine... ")
+		st.write("osx machine... ")
 		G.show(plotName_str) # compile the graph?
-		tmp_str = "file:///private/"
-		openPage(tmp_str + plotName_str)
+		#tmp_str = "file:///private/" # used for /tmp
+		#openPage(tmp_str + plotName_str)
+		openPage(plotName_str)
 
 	if platform_str == "linux":
 		#st.write("linux machine ...")
@@ -263,15 +267,10 @@ def newRefPlot(data_dic, pmid_list=[], showNodesPanel_bol = False, showPhysicsPa
 		# st.write("tmp_list : {}".format(tmp_list))
 		pmid_dic[data_dic["pmid"][q]] = tmp_list
 
-	# st.write("{}:::{}".format(q,data_dic["title"][q])) # position and title
-	# st.write(" pmid_dic is {}".format(pmid_dic))
-	# st.write("selected pmids; pmid_dic : {}".format(pmid_dic))
+	# st.write(" showNodesPanel_bol is {}".format(showNodesPanel_bol))
+	# st.write(" showPhysicsPanel_bol is {}".format(showPhysicsPanel_bol))
 
-	st.write(" showNodesPanel_bol is {}".format(showNodesPanel_bol))
-	st.write(" showPhysicsPanel_bol is {}".format(showPhysicsPanel_bol))
 	createNetwork(pmid_dic, showNodesPanel_bol, showPhysicsPanel_bol)
-	# create and display the network
-
 	# end of newRefPlot()
 
 
@@ -324,7 +323,9 @@ in_dic must have format;
 	if showPhysicsPanel_bol == True:
 		G.show_buttons(filter_=['physics']) #shown below graph in browser
 
-	plotName_str = "/tmp/pmidPlot.html"
+	phc.checkDataDir(OUTDATADIR)
+	plotName_str = OUTDATADIR+"pmidPlot.html"
+	# plotName_str = "/tmp/pmidPlot.html"
 	showMyPlot(G, plotName_str) #push out the plot to browser
 	# end of createNetwork()
 
@@ -604,7 +605,7 @@ def keywordSaturation(data_dic):
 		# writer("content_list =",content_list)
 		# writer("keyword_list =", keyword_list)
 		# writer("pmid_list =", pmid_list)
-
+		phc.checkDataDir(OUTDATADIR) # check that the directory exists
 		plotName_str = OUTDATADIR + "contentHeatmap.html"
 
 # # current way to plot heatmaps
@@ -633,16 +634,14 @@ def keywordSaturation(data_dic):
 		color="#7f7f7f"
 	)
 )
-		#fig.show()
+
+		st.success(f" Plot file saved: {plotName_str}")
 		plot(fig, filename = plotName_str)
 
 	manifest_btn = st.button("Save a manifest")
 	if manifest_btn == True:
 		saveManifest(myKeyWords_list, "Keywords_")
 		# end of keywordSaturation()
-
-
-
 
 
 def getLogTransform(in_list, base_int): #UN-USED AT THIS TIME
@@ -682,20 +681,6 @@ def addIt(in_str, my_list):
 	#end of addIt()
 
 
-def old_prepManifest():
-	"""Ask whether to prep a manifest output. The manifest contains pmid or keyword details of the plot or heatmap."""
-
-	prepManifest_radio = st.radio("Create a listing of keywords or pmids in a manifest file?",("False", "True"))
-
-	if prepManifest_radio == "True":
-		return True
-
-	if prepManifest_radio == "False":
-		return False
-
-
-	#end of prepManifest()
-
 
 def saveManifest(in_list, task_str):
 	"""Function to save the keywords of a network or heatmap. Task is heatmap or network saving activities. """
@@ -708,6 +693,7 @@ def saveManifest(in_list, task_str):
 	dateAndTime_str = now.strftime("%d_%m_%Y_%H_%M_%S")
 	#st.text(f"date and time = {dateAndTime_str}")
 
+	phc.checkDataDir(OUTDATADIR) # check that the directory exists
 	fileName_str = OUTDATADIR + "manifest_" + task_str  +str(dateAndTime_str) + ".md"
 
 	if len(in_list) > 0:

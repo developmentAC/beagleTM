@@ -31,12 +31,13 @@ from spacy.lang.en.stop_words import STOP_WORDS # needed to work with stop words
 import beagleTM2_analysis_helperCode as hc
 
 
-# Global variables
-
-# DATE_STR = "22 June 2020"
-# VERSION = "2_ii"
+# DATE_STR = "17 July 2020"
+# VERSION = "2_iii"
 # AUTHOR = "Oliver Bonham-Carter"
 # AUTHORMAIL = "obonhamcarter@allegheny.edu"
+
+"""The driver program for the analysis side of the thing. """
+
 
 def begin():
 	"""Driver function"""

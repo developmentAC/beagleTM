@@ -1,5 +1,5 @@
 ##### BeagleTM: PubMed Interactive Knowledge Discovery
-##### Date: 1 July 2020
+##### Date: 17 July 2020
 ##### Oliver Bonham-Carter, [Allegheny College](https://allegheny.edu/)
 ##### email: obonhamcarter@allegheny.edu
 
@@ -38,9 +38,20 @@ Here are the commands that you will be using to run this application. Involved d
 
 
 
+#### Docker
+
+Docker (https://www.docker.com/) can be used to run the parser in the bash terminal and the analysis using Streamlit. The included `Dockerfile` contains comments at the end for the commands to build and run a container. The current version of the project has been tested for launching the Python scripts inside a Docker container. The commands to build and run a container with a mounted directory are offered below.
+
+
+_Build_: ```bash
+sudo docker build -t beagletm2 .```
+
+_Mount and run_:``` bash
+sudo docker run -it -p 8501:8501 --mount type=bind,source=$PWD,target=/home/beagletm2 beagletm2 ```
+
 #### Open up a session of pipenv
 
-To run this project's `virtualenv`, you can initiate the shell as shown below. When the shell is initiated, it is expected that the `Pipfile` file will guide the installation of the necessary libraries for the application.
+To run this project's `virtualenv`, you can also initiate the shell as shown below. When the shell is initiated, it is expected that the `Pipfile` file will guide the installation of the necessary libraries for the application.
 
 
 ``` bash
