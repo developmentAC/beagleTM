@@ -47,7 +47,7 @@ Docker (https://www.docker.com/) can be used to run the parser in the bash termi
 _Build_: ```bash
 sudo docker build -t beagletm2 .```
 
-_Mount and run_:``` bash
+_Mount and run_: ``` bash
 sudo docker run -it -p 8501:8501 --mount type=bind,source=$PWD,target=/home/beagletm2 beagletm2 ```
 
 Your browser URL is likely to be set to `http://127.0.0.1:8501/` to run the Streamlit application.
