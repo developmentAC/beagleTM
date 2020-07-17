@@ -19,7 +19,7 @@
 ## Table of Contents
 
 * [Command Summary](#command-summary)
- + [Docker](#docker)
+* + [Docker](#docker)
 * [Overview](#overview)
 * [Relationship Networks](#relationship-networks)
 
