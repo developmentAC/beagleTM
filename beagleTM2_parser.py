@@ -18,7 +18,7 @@
 #
 #
 
-# DATE_STR = "17 July 2020"
+# DATE_STR = "19 July 2020"
 # VERSION = "2_iii"
 # AUTHOR = "Oliver Bonham-Carter"
 # AUTHORMAIL = "obonhamcarter@allegheny.edu"

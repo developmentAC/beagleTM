@@ -31,7 +31,7 @@ from spacy.lang.en.stop_words import STOP_WORDS # needed to work with stop words
 import beagleTM2_analysis_helperCode as hc
 
 
-# DATE = "18 July 2020"
+# DATE = "19 July 2020"
 # VERSION = "2_iii"
 # AUTHOR = "Oliver Bonham-Carter"
 # AUTHORMAIL = "obonhamcarter@allegheny.edu"
