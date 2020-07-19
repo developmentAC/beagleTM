@@ -10,3 +10,8 @@ patterns
 rural
 urban
 virus
+people
+study
+data
+dataset
+gene

@@ -11,7 +11,7 @@ banner0_str ="""
 """
 #banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
-DATE = "17 July 2020"
+DATE = "18 July 2020"
 VERSION = "2_iii"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
@@ -620,9 +620,14 @@ def keywordSaturation(data_dic):
 
 		trace = go.Heatmap(type = 'heatmap', z = content_list, colorscale = 'Viridis')
 		data = [trace]
-		#note: the colours of the heatmap can be aletered with the following line.
-		fig = px.density_heatmap(data, x=keyword_list, y=title_list, nbinsx=20, nbinsy=20,color_continuous_scale=[[0, 'grey'], [0.005, 'yellow'], [1, 'rgb(0, 0, 255)']])
 
+		#note: the colours of the heatmap can be aletered with the following lines.
+        
+        # contrasted for large sets of articles
+		# fig = px.density_heatmap(data, x=keyword_list, y=title_list, nbinsx=20, nbinsy=20,color_continuous_scale=[[0, 'grey'], [0.005, 'yellow'], [1, 'rgb(0, 0, 255)']])
+
+        # contrasted for few articles
+		fig = px.density_heatmap(data, x=keyword_list, y=title_list, nbinsx=20, nbinsy=20,color_continuous_scale=[[0, 'grey'], [0.005, 'yellow'], [0.05, 'rgb(0, 0, 255)']])
 
 		fig.update_layout(
 		title="Heatmap of Results",
