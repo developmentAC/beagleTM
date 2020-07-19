@@ -623,11 +623,13 @@ def keywordSaturation(data_dic):
 
 		#note: the colours of the heatmap can be aletered with the following lines.
 
-        # contrasted for large sets of articles
-		# fig = px.density_heatmap(data, x=keyword_list, y=title_list, nbinsx=20, nbinsy=20,color_continuous_scale=[[0, 'grey'], [0.005, 'yellow'], [1, 'rgb(0, 0, 255)']])
+		# contrasted for large sets of articles
+		if len(pmid_list) > 300: #small scale
+			fig = px.density_heatmap(data, x=keyword_list, y=title_list, nbinsx=20, nbinsy=20,color_continuous_scale=[[0, 'grey'], [0.005, 'yellow'], [1, 'rgb(0, 0, 255)']])
 
-        # contrasted for few articles
-		fig = px.density_heatmap(data, x=keyword_list, y=title_list, nbinsx=20, nbinsy=20,color_continuous_scale=[[0, 'grey'], [0.005, 'yellow'], [0.05, 'rgb(0, 0, 255)']])
+		# contrasted for few articles
+		else: #large scale
+			fig = px.density_heatmap(data, x=keyword_list, y=title_list, nbinsx=20, nbinsy=20,color_continuous_scale=[[0, 'grey'], [0.005, 'yellow'], [0.05, 'rgb(0, 0, 255)']])
 
 		fig.update_layout(
 		title="Heatmap of Results",
