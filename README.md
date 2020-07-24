@@ -14,7 +14,7 @@
 [![codecov](https://codecov.io/gh/myResearchTM/beagleTM/branch/master/graph/badge.svg)](https://codecov.io/gh/myResearchTM/beagleTM)
 [![BLM](https://img.shields.io/badge/BlackLivesMatter-yellow)](https://blacklivesmatter.com/)
 
-
+GitHub link: https://github.com/developmentAC/beagleTM
 
 ## Table of Contents
 
