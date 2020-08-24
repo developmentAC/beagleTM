@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 #
 # # Oliver ######## . # #       # .  #
 # # Bonham ######## . # #    # .  #
@@ -18,7 +15,7 @@
 #
 #
 
-# DATE_STR = "19 July 2020"
+# DATE_STR = "23 August 2020"
 # VERSION = "2_iii"
 # AUTHOR = "Oliver Bonham-Carter"
 # AUTHORMAIL = "obonhamcarter@allegheny.edu"

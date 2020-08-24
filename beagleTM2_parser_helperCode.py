@@ -3,17 +3,17 @@
 
 
 banner0_str ="""
-  ██████╗ ███████╗ █████╗  ██████╗ ██╗     ███████╗████████╗███╗   ███╗
-  ██╔══██╗██╔════╝██╔══██╗██╔════╝ ██║     ██╔════╝╚══██╔══╝████╗ ████║
-  ██████╔╝█████╗  ███████║██║  ███╗██║     █████╗     ██║   ██╔████╔██║
-  ██╔══██╗██╔══╝  ██╔══██║██║   ██║██║     ██╔══╝     ██║   ██║╚██╔╝██║
-  ██████╔╝███████╗██║  ██║╚██████╔╝███████╗███████╗   ██║   ██║ ╚═╝ ██║
-  ╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝   ╚═╝   ╚═╝     ╚═╝
+\t██████╗ ███████╗ █████╗  ██████╗ ██╗     ███████╗████████╗███╗   ███╗
+\t██╔══██╗██╔════╝██╔══██╗██╔════╝ ██║     ██╔════╝╚══██╔══╝████╗ ████║
+\t██████╔╝█████╗  ███████║██║  ███╗██║     █████╗     ██║   ██╔████╔██║
+\t██╔══██╗██╔══╝  ██╔══██║██║   ██║██║     ██╔══╝     ██║   ██║╚██╔╝██║
+\t██████╔╝███████╗██║  ██║╚██████╔╝███████╗███████╗   ██║   ██║ ╚═╝ ██║
+\t╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝   ╚═╝   ╚═╝     ╚═╝
 """
 # banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
 
-DATE = "19 July 2020"
+DATE = "23 August 2020"
 VERSION = "2_iii"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
@@ -38,9 +38,64 @@ CORPUS_DIR = "corpus/" #local small set of corpus files
 # must have the following first line of file to identify them.
 KW_ID = "#### keywords"
 
+
+
+
+# colour codes
+
+# Bold High Intensity
+BIBlack='\033[1;90m'      # Black
+BIRed='\033[1;91m'        # Red
+BIGreen='\033[1;92m'      # Green
+BIYellow='\033[1;93m'     # Yellow
+BIBlue='\033[1;94m'       # Blue
+BIPurple='\033[1;95m'     # Purple
+BICyan='\033[1;96m'       # Cyan
+BIWhite='\033[1;97m'      # White
+
+# Regular Colors
+Black='\033[0;30m'        # Black
+Red='\033[0;31m'          # Red
+Green='\033[0;32m'        # Green
+Yellow='\033[0;33m'       # Yellow
+Blue='\033[0;34m'         # Blue
+Purple='\033[0;35m'       # Purple
+Cyan='\033[0;36m'         # Cyan
+White='\033[0;37m'        # White
+
+# Bold
+BBlack='\033[1;30m'       # Black
+BRed='\033[1;31m'         # Red
+BGreen='\033[1;32m'       # Green
+BYellow='\033[1;33m'      # Yellow
+BBlue='\033[1;34m'        # Blue
+BPurple='\033[1;35m'      # Purple
+BCyan='\033[1;36m'        # Cyan
+BWhite='\033[1;37m'       # White
+
+
+# Bold colour list
+colour_list =['\033[1;30m',
+'\033[1;31m',
+'\033[1;32m',
+'\033[1;33m',
+'\033[1;34m',
+'\033[1;35m',
+'\033[1;36m',
+'\033[1;37m',
+'\033[1;90m',
+'\033[1;91m',
+'\033[1;92m',
+'\033[1;93m',
+'\033[1;94m',
+'\033[1;95m',
+'\033[1;96m',
+'\033[1;97m',]
+
+
 # import libraries
 import xml.etree.ElementTree as ET
-import math, re, os, sys, string, csv
+import math, re, os, sys, string, csv, random
 
 
 # list other libraries here
@@ -56,32 +111,35 @@ import math, re, os, sys, string, csv
 
 
 def helper():
-	print(banner0_str)
+
 	"""Cheap online help; how to use the program"""
-	h_str1 = "\t"+DATE+" | version: "+VERSION
-	h_str2 = "\t"+AUTHOR +"\n\tmail: "+AUTHORMAIL
+	h_str1 = "\t"+ BIBlue + DATE+" | version: "+VERSION + White
+	h_str2 = "\t"+ BIBlue + AUTHOR +"\n\tmail: "+AUTHORMAIL + White
 	print("\t"+len(h_str2) * "-")
 	print(h_str1)
 	print("\t"+len(h_str2) * "-")
 	print(h_str2)
 	print("\t"+len(h_str2) * "-")
 
+	randomColour_str = random.choice(colour_list) # choose a random colour to display the title screen.
+	print(randomColour_str + banner0_str + White)
+#	print(banner0_str)
 #	print("\tHelperCode.py help()")
-	print("\n\tBeagleTM2: A Pubmed article parser.")
+	print(BIBlue + "\n\tBeagleTM2: A Pubmed article parser." + White)
 	platform_str = get_platformType()
 	print("\n\t OS type: ",platform_str) # determine what the os is.
 	#print("""\n\tLibrary installation notes:""")
-	command_str = "USAGE: programName <any key to launch>"
+	command_str = BGreen + "USAGE: programName <any key to launch>" + White
 	if platform_str.lower() == "linux" or platform_str.lower() == "osx":
-		print("\t" + " \U0001f5ff \U0001F608" * 8)
-		print("\n\t+ \U0001f600 ", command_str)
+		print("\t" + BWhite + " \U0001f5ff \U0001F608" * 8)
+		print(BGreen + "\n\t [+] \U0001f600 ", command_str)
 	else:
 		print("\n\t+ :-) ", command_str)
-	print("\t [+] The INPUT directory (Data files are located here)  : {}".format(CORPUS_DIR))
-	print("\t [+] The OUTPUT directory (Output data is placed here)  : {}".format(MYOUTPUT_DIR))
+	print(BGreen + f"\t [+] The INPUT directory (Data files are located here)  : {CORPUS_DIR}" + White)
+	print(BGreen + f"\t [+] The OUTPUT directory (Output data is placed here)  : {MYOUTPUT_DIR}" + White)
 	print("\t"+len(h_str2) * "-")
 	print("\tNotes. Data can be downloaded from: ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/")
-	print("\n\tKeyword files have the following format:\n\n\t#### keywords\n \tkeyword_1\n\tkeyword_n\n")
+	print(BIYellow + "\n\tKeyword files have the following format:\n\n\t#### keywords\n \tkeyword_1\n\tkeyword_n\n" + White)
 #end of helper()
 
 def get_platformType():
@@ -187,10 +245,10 @@ def saveFile(in_str):
 				f = open(filename, "w")
 				f.write(tmp_str)
 				f.close()
-				printByPlatform("\n\t [+] Saving <{}>".format(filename))
+				printByPlatform(BGreen + f"\n\t [+] Saving <{filename}>" + White)
 
 			except IOError:
-				printErrorByPlatform("\t Problem saving file... incorrect permissions?!")
+				printErrorByPlatform(BRed + f"\t Problem saving file... incorrect permissions?!" + White)
 	# end of saveFile()
 
 
@@ -247,7 +305,7 @@ def makeCSVFile(in_list, inFile0_str):
 
 	with open (inFile2_str, "w") as fp:
 		fp.write(data1)
-	printByPlatform("\n\t [+] Saving <{}>".format(inFile2_str))
+		printByPlatform(BGreen + f"\n\t [+] Saving <{inFile2_str}>" + White)
 
 	# Clean up header and intermediate file.
 	removeFile(headerFile_str)
