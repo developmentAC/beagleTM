@@ -52,6 +52,19 @@ sudo docker run -it -p 8501:8501 --mount type=bind,source=$PWD,target=/home/beag
 
 Your browser URL is likely to be set to `http://127.0.0.1:8501/` to run the Streamlit application.
 
+
+
+##### Shortcut to run the container
+It you run the following bash script file by typing,
+
+`./runContainer.sh`
+
+then, you will be able to build and load the container for use with the parser and the analyzer programs of BeagleTM.
+
+You may have to type your password twice, depending on your machine. The first time you type in your password will be to build and initialize the Docker container. The second time you enter your password will be to change ownership of the output files of your work into your possession. These files would otherwise belong to `root` and you would not be able to edit or move them once out of the container.  
+
+
+
 #### Open up a session of pipenv
 
 To run this project's `virtualenv`, you can also initiate the shell as shown below. When the shell is initiated, it is expected that the `Pipfile` file will guide the installation of the necessary libraries for the application.
@@ -60,6 +73,7 @@ To run this project's `virtualenv`, you can also initiate the shell as shown bel
 ``` bash
 pipenv shell
 ```
+
 
 ##### Run the parser
 ``` bash
