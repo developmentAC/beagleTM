@@ -20,9 +20,9 @@ GitHub link: https://github.com/developmentAC/beagleTM
 
 * [Command Summary](#command-summary)
 * + [Docker](#docker)
+* + [Running BeagleTM](#running-beagleTM)
 * [Overview](#overview)
 * [Relationship Networks](#relationship-networks)
-
 * [Keywords](#keywords)
 * [Parsing](#parsing)
 * + [Run a Parsing Job](#run-a-parsing-job)
@@ -39,75 +39,50 @@ Here are the commands that you will be using to run this application. Involved d
 
 
 
-#### Docker
+### Docker
 
-Docker (https://www.docker.com/) can be used to run the parser in the bash terminal and the analysis using Streamlit. The included `Dockerfile` contains comments at the end for the commands to build and run a container. The current version of the project has been tested for launching the Python scripts inside a Docker container. The commands to build and run a container with a mounted directory are offered below.
-
-
-_Build_: ```bash
-sudo docker build -t beagletm2 .```
-
-_Mount and run_: ``` bash
-sudo docker run -it -p 8501:8501 --mount type=bind,source=$PWD,target=/home/beagletm2 beagletm2 ```
-
-Your browser URL is likely to be set to `http://127.0.0.1:8501/` to run the Streamlit application.
+Docker (https://www.docker.com/) can be used to run the parser in the bash terminal and the analysis using Streamlit. The included `Dockerfile` contains comments at the end for the commands to build and run a container. The current version of the project has been tested for launching the Python scripts inside a Docker container.
 
 
 
-##### Shortcut to run the container
-It you run the following bash script file by typing,
+#### Shortcut to running and building a working container
+The following bash scripts simplify building the container.
 
-`./runContainer.sh`
-
-then, you will be able to build and load the container for use with the parser and the analyzer programs of BeagleTM.
-
-You may have to type your password twice, depending on your machine. The first time you type in your password will be to build and initialize the Docker container. The second time you enter your password will be to change ownership of the output files of your work into your possession. These files would otherwise belong to `root` and you would not be able to edit or move them once out of the container.  
-
-
-
-#### Open up a session of pipenv
-
-To run this project's `virtualenv`, you can also initiate the shell as shown below. When the shell is initiated, it is expected that the `Pipfile` file will guide the installation of the necessary libraries for the application.
+| OS  | Building  | Running  |
+|---|---|---|
+| MacOS  		|  `./build_macOS.sh` |  `./run_macOS.sh` |
+| Linux   	|  `./build_linux.sh` | `./run_linux.sh`  |
+| Windows 	|  `build_win.bat` 		|  `run_win.bat` |
 
 
+These files may be found in the directory, `dockerRunScripts/` and require the `DockerFile`, which is found in the main directory. We show an example of how to build and run a container for **MacOS** below.
+
+#### Building and running a Docker container
+To build the container, `./dockerRunScripts/build_macOS.sh` and to run the container, `./dockerRunScripts/run_macOS.sh`.
+
+---
+
+### Running BeagleTM
+
+Once you are inside the container, you can run the **Beagletm** software using the following commands.
+
+#### Run the Parser
 ``` bash
-pipenv shell
+python3 beagleTM2_parser.py keywords_sample_i.md
 ```
 
 
-##### Run the parser
-``` bash
-./beagleTM2_parser.py keywords_sample_i.md
-```
-or
-
-``` bash
-# python3
-python beagleTM2_parser.py keywords_sample_i.md
-```
-
-##### Run the Analyzer
-``` bash
- streamlit run beagleTM2_analysis_i.py
- ```
- and then, in the streamlit app, load the example output file, `all_keywords_sample_i_analysis.csv` from the directory, `data/`.
-
-
-
-Alternately, you can run the parser and analyzer inside the `virtualenv` with `pipenv run` as shown below.
-
-
-##### Run the Parser
-``` bash
-pipenv run python3 beagleTM2_parser.py keywords_sample_i.md
-```
-
-
-##### Run the Analyzer
+#### Run the Analyzer
 ```bash
-pipenv run streamlit run beagleTM2_analysis_i.py
+streamlit run beagleTM2_analysis_i.py
 ```
 
+When running your container, to access Streamlit, you will need to use your browser using the link, `http://127.0.0.1:8501/`.
+
+
+In addition, you may have to type your password twice, depending on your machine. The first time you type in your password will be to build and initialize the Docker container. The second time you enter your password will be to change ownership of the output files of your work into your possession. These files would otherwise belong to `root` and you would not be able to edit or move them once out of the container.  
+
+---
 
 ## Overview
 
@@ -194,8 +169,11 @@ Please consider updating the corpus files regularly as they are updated by PubMe
 
 ---
 
-## Overview to Parsing and Analysis
+## Extra Notes
+
+### Overview to Parsing and Analysis
 To search for knowledge in PubMed articles to create a literature review, all keywords must be known before the task is begin. These keywords are then parsed in a corpus and articles which contain any occurrences are recorded in an output file. The output files must then be analyzed by another set of files which involves Streamlit to simplify the analysis. Below, we discuss each operation; parsing and the analysis of results.
+
 
 
 #### pipenv
@@ -215,7 +193,7 @@ If the path is different from the local directory, then use the following.
 pipenv install -r path/to/requirements.txt
 ```
 ---
-## Parsing
+#### Parsing
 
 Parsing is completed by two files; `beagleTM2_parser.py` and its associated file, `beagleTM2_parser_helperCode.py`. The path to the `corpus/` directory has been hardcoded in the `beagleTM2_parser_helperCode.py`, however, if using an external hard drive or similar, a path to `corpus/` could be altered by updating the global variable, `CORPUS_DIR` as shown below.
 
@@ -295,9 +273,7 @@ There are several options to choose from for the analysis.
  Viewing articles as heatmaps allows us to determine which articles have  most of the supplied keywords. On the left, links to the PubMed articles may be used to access articles which may be more important to a particular search for knowledge. Please note that you may need to zoom-in (see controls at the upper right in heatmap plot) to be able to find the exact article link for the line in the heatmap. This would be necessary in the case of many articles in the dataset in which  keywords have been found.
 
 
----
-
-## Supporting libraries
+#### Supporting libraries
 Please see the `Piplock` file for the details of the libraries necessary for the project.
 
 ---
