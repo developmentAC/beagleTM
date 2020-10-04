@@ -1,5 +1,5 @@
 ##### BeagleTM: PubMed Interactive Knowledge Discovery
-##### Date: 17 July 2020
+##### Date: 4 Oct 2020
 ##### Oliver Bonham-Carter, [Allegheny College](https://allegheny.edu/)
 ##### email: obonhamcarter@allegheny.edu
 
@@ -88,7 +88,7 @@ In addition, you may have to type your password twice, depending on your machine
 
 BeagleTM is an interactive text mining tool to facilitate discovery of knowledge in [PubMed](https://pubmed.ncbi.nlm.nih.gov/) peer-reviewed articles.
 
-BeagltTM Named after my puppy Beagle, Flint, who spends all his time rooting around with his nose to the ground. In following his lead, PubMed articles can also be discovered in a similar fashion.
+BeagleTM Named after my puppy Beagle, Flint, who spends all his time rooting around with his nose to the ground. In following his lead, PubMed articles can also be discovered in a similar fashion.
 
 BeagleTM has been designed to discover knowledge in PubMed articles and supporting references for the convenient creation of sophisticated literature reviews. The data for BeagleTM comes from curated article data made available from PubMed's [ftp site at ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/](ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/).
 
