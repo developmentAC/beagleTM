@@ -124,53 +124,67 @@ Figure 3: Heatmaps provide a new way of deciding which articles are most relevan
 
 PubMed offers its articles as a download from ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/ in two types of  packages: _commercial_ and _non-commercial_. For details about these two types of downloads, please see the _readme.me_ file at ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/.
 
-Note: Bash scripts may be employed to automate the download and un-tarring of files from the ftp download site. In my own setup, my download script is the following.
-```
-# save the downloaded files to a directory
-mkdir corpusData
-cd corpusData
-# keep track of how the download is going
-mkdir log
+Bash scripts may be employed to automate the download and un-tarring processes. The following bash scrips are included in the `buildCorpus/` directory and are discussed below.  These scripts create the directory `corpus/` which must be copied to the BeagleTM project main directory so that the parser and analyzer files are able to use it. 
 
-# Download files in the background.
+Remember that if the corpus directory is changed to another name, then this alteration is to be updated in the code (see [Parsing](#parsing) Section, below.)
+
+
+To build the corpus, start from the `buildCorpus/` directory. Then run the bash script with the following command; `sh beagletm_wget.sh`, to perform downloads of the compressed literature from PubMed.
+
+The code is shown below.
+
+```
+# Date: 7 Dec 2020
+# Reference: data from ncbi: ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/
+
+# keep a log of the download
+mkdir log
 wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/comm_use.A-B.xml.tar.gz 1>log/ab_out.1 2>log/ab_download.1 &
+#wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/non_comm_use.A-B.xml.tar.gz 1>log/ab_nonComm_out.1 2>log/ab_nonComm_download.1 &
 
 wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/comm_use.C-H.txt.tar.gz  1>log/ch_out.1 2>log/ch_download.1 &
+#wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/non_comm_use.C-H.xml.tar.gz 1>log/ch_nonComm_out.1 2>log/ch_nonComm_download.1 &
 
 wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/comm_use.I-N.txt.tar.gz 1>log/in_out.1 2>log/in_download.1 &
+#wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/non_comm_use.I-N.xml.tar.gz 1>log/in_nonComm_out.1 2>log/in_nonComm_download.1 &
 
 wget  ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/comm_use.O-Z.xml.tar.gz 1>log/oz_out.1 2>log/oz_download.1 &
-
-# make sure that there are no error messages which would be saved in a file.
+#wget  ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/non_comm_use.O-Z.xml.tar.gz 1>log/oz_nonComm_out.1 2>log/oz_nonComm_download.1 &
 ls -l log/
-```
-Once these files have been downloaded, to un-tar them, I use the following script. Naturally, you may need to edit the the script for your own usage.
 
-```
-# Save the uncompressed files to a directory.
-mkdir allDocs
-cd allDocs
-
-# keep track of the untarring; this may take awhile.
-mkdir log
-
-#untar files in the background, save them to allDocs (the name of the corpus)
-tar -zxvf ../comm_use.A-B.xml.tar.gz 1>log/tar_ab_commUse_out.1 2>log/tar_ab_commUse_err.1 &
-
-tar -zxvf ../comm_use.C-H.txt.tar.gz 1>log/tar_ch_commUse_out.1 2>log/tar_ch_commUse_err.1 &
-
-tar -zxvf ../comm_use.I-N.txt.tar.gz 1>log/tar_in_commUse_out.1 2>log/tar_in_commUse_err.1 &
-
-tar -zxvf ../comm_use.O-Z.xml.tar.gz 1>log/tar_oz_commUse_out.1 2>log/tar_oz_commUse_err.1 &
 ```
 
 Note: The progress of the download can be checked by the command, `tail log/*download* -n 5` which will display the current obtained percentage of each corpus file by reading the log contained in the corresponding `*download*` files.
 
-Please consider updating the corpus files regularly as they are updated by PubMed.
+
+Once the data files have been downloaded, they must be un-tarred by running the following command; `sh beagletm_untar.sh`. This file is to be fun from the directory that contains the compressed data files. Since PubMed periodically updates its downloadable data files, you will also need to recreate your corpus accordingly.
+
+The code is shown below.
+
+```
+# Date: 7 Dec 2020
+# Reference: data from ncbi: ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/
+
+mkdir corpus
+cd corpus
+mkdir log
+#untar a file in the background
+
+tar -zxvf ../comm_use.A-B.xml.tar.gz 1>log/tar_ab_commUse_out.1 2>log/tar_ab_commUse_err.1 &
+tar -zxvf ../comm_use.C-H.txt.tar.gz 1>log/tar_ch_commUse_out.1 2>log/tar_ch_commUse_err.1 &
+tar -zxvf ../comm_use.I-N.txt.tar.gz 1>log/tar_in_commUse_out.1 2>log/tar_in_commUse_err.1 &
+tar -zxvf ../comm_use.O-Z.xml.tar.gz 1>log/tar_oz_commUse_out.1 2>log/tar_oz_commUse_err.1 &
+
+```
+
+### Extra Notes
+
+Once the `corpus/` directory has been created and contains the uncompressed datafiles, it must be moved to the main directory of the BeagleTM project so that the parser program can find it. Alternatively, if moving the corpus is not convenient, the parser and analysis Python programs could be edited to be able to find the corpus.
+
 
 ---
 
-## Extra Notes
+
 
 ### Overview to Parsing and Analysis
 To search for knowledge in PubMed articles to create a literature review, all keywords must be known before the task is begin. These keywords are then parsed in a corpus and articles which contain any occurrences are recorded in an output file. The output files must then be analyzed by another set of files which involves Streamlit to simplify the analysis. Below, we discuss each operation; parsing and the analysis of results.
