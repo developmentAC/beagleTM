@@ -164,7 +164,7 @@ tar -zxvf ../comm_use.I-N.txt.tar.gz 1>log/tar_in_commUse_out.1 2>log/tar_in_com
 tar -zxvf ../comm_use.O-Z.xml.tar.gz 1>log/tar_oz_commUse_out.1 2>log/tar_oz_commUse_err.1 &
 ```
 
-Note: The progress of the download can be checked by the command, `tail log/* -n 5` which will display the current percentage of each obtained downloaded file.
+Note: The progress of the download can be checked by the command, `tail log/*download* -n 5` which will display the current obtained percentage of each corpus file by reading the log contained in the corresponding `*download*` files.
 
 Please consider updating the corpus files regularly as they are updated by PubMed.
 
