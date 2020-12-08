@@ -16,73 +16,25 @@
 
 GitHub link: https://github.com/developmentAC/beagleTM
 
-## Table of Contents
+## Table of contents
 
-* [Command Summary](#command-summary)
-* + [Docker](#docker)
-* + [Running BeagleTM](#running-beagleTM)
 * [Overview](#overview)
-* [Relationship Networks](#relationship-networks)
+* + [Relationship Networks](#relationship-networks)
+* [Command Summary](#command-summary)
+* + [Docker Desktop](#docker-desktop)
 * [Keywords](#keywords)
-* [Parsing](#parsing)
+* [Running BeagleTM](#running-beagleTM)
+* + [Run a parser job](#run-a-parser-job)
+* + [Run an analysis job](#run-an-analysis-job)
+* [Analysis methods](#analysis-methods)
 * + [Run a Parsing Job](#run-a-parsing-job)
 * [Analysis](#analysis)
-* + [Run an Analysis Job](#run-an-analysis-job)
-* [What are we doing with this data?](#what-are-we-doing-with-this-data)
-* [Supporting libraries](#supporting-libraries)
+* + [What are we doing with this data?](#What-are-we-doing-with-this-data)
+* [Setting up the corpus](#setting-up-the-corpus)
+* [Extra Notes](#extra-notes)
 * [Citing](#citing)
 * [A Work in Progress](#a-work-in-progress)
 
-## Command Summary
-
-Here are the commands that you will be using to run this application. Involved discussion is below and you are encouraged to read through it before you run a major project. Before you can proceed with the commands below, please install `python-pip` and `pipenv`. Below are offered some sample commands to run a parsing and analysis job using the sample keyword file, `keywords_sample_i.md`.
-
-
-
-### Docker
-
-Docker (https://www.docker.com/) can be used to run the parser in the bash terminal and the analysis using Streamlit. The included `Dockerfile` contains comments at the end for the commands to build and run a container. The current version of the project has been tested for launching the Python scripts inside a Docker container.
-
-
-
-#### Shortcut to running and building a working container
-The following bash scripts simplify building the container.
-
-| OS  | Building  | Running  |
-|---|---|---|
-| MacOS  		|  `./build_macOS.sh` |  `./run_macOS.sh` |
-| Linux   	|  `./build_linux.sh` | `./run_linux.sh`  |
-| Windows 	|  `build_win.bat` 		|  `run_win.bat` |
-
-
-These files may be found in the directory, `dockerRunScripts/` and require the `DockerFile`, which is found in the main directory. We show an example of how to build and run a container for **MacOS** below.
-
-#### Building and running a Docker container
-To build the container, `./dockerRunScripts/build_macOS.sh` and to run the container, `./dockerRunScripts/run_macOS.sh`.
-
----
-
-### Running BeagleTM
-
-Once you are inside the container, you can run the **Beagletm** software using the following commands.
-
-#### Run the Parser
-``` bash
-python3 beagleTM2_parser.py keywords_sample_i.md
-```
-
-
-#### Run the Analyzer
-```bash
-streamlit run beagleTM2_analysis_i.py
-```
-
-When running your container, to access Streamlit, you will need to use your browser using the link, `http://127.0.0.1:8501/`.
-
-
-In addition, you may have to type your password twice, depending on your machine. The first time you type in your password will be to build and initialize the Docker container. The second time you enter your password will be to change ownership of the output files of your work into your possession. These files would otherwise belong to `root` and you would not be able to edit or move them once out of the container.  
-
----
 
 ## Overview
 
@@ -118,13 +70,112 @@ Heatmaps are also available in which articles may be discovered according to the
 ![Heatmaps provide a new way of selecting articles, File heatmapOfResults.png](graphics/heatmapOfResults.png)
 Figure 3: Heatmaps provide a new way of deciding which articles are most relevant according to the numbers of keywords in their abstracts. Each colour represents a different count of keywords found in abstracts and a mouse-over will show that count for the keyword's column.
 
+
+## Command Summary
+
+Here are the commands that you will be using to run this application. Involved discussion is below and you are encouraged to read through it before you run a major project. Before you can proceed with the commands below, please install `python-pip` and `pipenv`. Below are offered some sample commands to run a parsing and analysis job using the sample keyword file, `keywords_sample_i.md`.
+
+
+
+### Docker Desktop
+
+While the literature parsing stage is not recommended to be run inside a Docker Desktop  (https://www.docker.com/) container, the analysis portion of a project is recommended to be utilized _inside_ a container. In the below flowchart, we note that a Docker Desktop is used for an analysis of results using Streamlit (https://www.streamlit.io/).
+
+![The flowchart of programs, File: flowchart.png](graphics/flowchart.png)
+
+
+#### OS-specific scripts to build and run containers
+The following bash scripts simplify building the container.
+
+| OS  | Building  | Running  |
+|---|---|---|
+| MacOS  		|  `./build_macOS.sh` |  `./run_macOS.sh` |
+| Linux   	|  `./build_linux.sh` | `./run_linux.sh`  |
+| Windows 	|  `build_win.bat` 		|  `run_win.bat` |
+
+
+These files may be found in the directory, `dockerRunScripts/` and the builder require a copy of `Dockerfile` to run. The `Dockerfile` is found in the main directory and so it is recommended that the user stay in the main and enter the command, ` sh ./dockerRunScripts/build_macOS.sh` or similar to build a container. To run the container, type the command ` sh ./dockerRunScripts/run_macOS.sh`. Us an equivalent command for each OS.
+
+
+Please note that you may be required to enter your password twice, depending on your machine. The first time you enter your password will be to build and initialize the Docker container. The second time you enter your password will be to change ownership of your output files from `root` to `$USER` once you exit the container.
+
+
+#### Keywords
+
+To begin a parsing job, the keyword file, `myKeyword.md`,  written in [Markdown](https://www.markdownguide.org/cheat-sheet/) must have the first line, `#### keywords`, which is followed by a line-by-line listing of searchable words in the PubMed abstracts. There is no limit to the number of keywords although it should be mentioned here that the resulting output file may become too large to be analyzed in feasible time. Therefore, it is advised that the keywords lists be no longer than necessary, and be very specific to the type of Knowledge being searched.  
+
+```
+#### keywords
+keyword_1
+keyword_n
+```
+
+---
+## Running BeagleTM
+
+#### Run a parser job
+
+To search for knowledge in PubMed articles to create a literature review, all keywords must be known before the task is begin. These keywords are then parsed in a corpus and articles which contain any occurrences are recorded in an output file. The output files must then be analyzed by another set of files which involves Streamlit to simplify the analysis. Below, we discuss each operation; parsing and the analysis of results.
+
+The literature parsing operation can be initiated by the following command at the bash or command prompt.
+
+``` bash
+python3 beagleTM2_parser.py keywords_sample_i.md
+```
+The output files of this operation will be placed into the `data/` directory. You will direct the analysis program (running in a Docker container, using Streamlit) to these files to perform an analysis.
+
+#### Run an analysis job
+
+Inside a Docker Desktop container, we can use the following command at the containers bash prompt.
+
+```bash
+streamlit run beagleTM2_analysis_i.py
+```
+
+When running your container, to access Streamlit, you will need to use your browser using the link, `http://127.0.0.1:8501/`. Once Streamlit is running the analysis program, then direct the program to the `data/` directory to load the output files from the parsing operation above.
+
+#### Analysis methods
+
+When you engage Streamlit, you will see the below URL information on your screen.
+```
+You can now view your Streamlit app in your browser.
+
+Local URL: http://localhost:8501
+Network URL: http://xxx.xxx.x.x:8501
+```
+
+Open your browser to the URL: ```http://localhost:8501/```. The page that opens should be a Streamlit application with __BeagleTM Data Analysis__ displayed on the side bar, at the top left. To quit, use _Control-C_.
+
+Enter the directory where the `csv` file may be found from the parsing operation. The directory `data/` is searched first for data files from the parser. The user is able to change to a different directory in the application.
+
+
+#### What are we doing with this data?
+
+Below we discuss some of the plots that are created by an analysis. All plots will be automatically saved to the `/tmp` directory. This project was created in Linux but if you are using Windows, then a search for the files (see the browser tabs) will show you where they are being saved. In addition,  if the Manifests (collections of keywords for the current plot) are saved by clicking on the _Save a Manifest_ button, then these files will also be saved in the same directory as the plots.
+
+There are several options to choose from for the analysis.
+ - **Show_data** : Displays a data table of the current data.
+
+
+ - **Articles connected by pmids** : We use networks (from the `pyvis` library) to get a view of all articles in the dataset along with their connections to their supporting reference articles. Here we note that the red and blue nodes indicate main and reference articles, respectively. From this view, we can see which reference articles are being listed by more than one article.
+
+ - **Articles having ANY of the selected keywords** : By selecting keywords in the selection field, we are able to see which articles surface to have _at least one_ of the keywords in their abstracts. All abstracts for which any one these keywords is presents may suggest a loose type of inter-relationship.
+
+ - **Articles having ALL of the selected keywords** : By selecting keywords in the selection field, we are able to see which articles surface to have _ALL_ of the keywords in their abstracts, simultaneously. These papers are rare and are to be considered *strong* papers since they contain all requested keywords. In addition, these papers may serve to connect the keywords in some way using published research.
+
+  We note that abstracts are carefully worded short texts in which each word seemingly plays a central role in the context of the article. To discover an abstract for which all supplied words are present may suggest that the keywords share a _guilt by association_ and we may perhaps conclude that a strong relationship exists. Please also note that as lists of keywords extend, it is less likely to find them all in a single abstract.
+
+
+ - **Heatmaps of keyword saturation** :
+ Viewing articles as heatmaps allows us to determine which articles have  most of the supplied keywords. On the left, links to the PubMed articles may be used to access articles which may be more important to a particular search for knowledge. Please note that you may need to zoom-in (see controls at the upper right in heatmap plot) to be able to find the exact article link for the line in the heatmap. This would be necessary in the case of many articles in the dataset in which  keywords have been found.
+
 ---
 
-## Setting Up The Corpus
+## Setting up the corpus
 
 PubMed offers its articles as a download from ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/ in two types of  packages: _commercial_ and _non-commercial_. For details about these two types of downloads, please see the _readme.me_ file at ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/.
 
-Bash scripts may be employed to automate the download and un-tarring processes. The following bash scrips are included in the `buildCorpus/` directory and are discussed below.  These scripts create the directory `corpus/` which must be copied to the BeagleTM project main directory so that the parser and analyzer files are able to use it. 
+Bash scripts may be employed to automate the download and un-tarring processes. The following bash scrips are included in the `buildCorpus/` directory and are discussed below.  These scripts create the directory `corpus/` which must be copied to the BeagleTM project main directory so that the parser and analyzer files are able to use it.
 
 Remember that if the corpus directory is changed to another name, then this alteration is to be updated in the code (see [Parsing](#parsing) Section, below.)
 
@@ -177,22 +228,27 @@ tar -zxvf ../comm_use.O-Z.xml.tar.gz 1>log/tar_oz_commUse_out.1 2>log/tar_oz_com
 
 ```
 
-### Extra Notes
-
 Once the `corpus/` directory has been created and contains the uncompressed datafiles, it must be moved to the main directory of the BeagleTM project so that the parser program can find it. Alternatively, if moving the corpus is not convenient, the parser and analysis Python programs could be edited to be able to find the corpus.
 
 
 ---
 
+### Extra notes
+
+#### Parsing
+
+Parsing is completed by two files; `beagleTM2_parser.py` and its associated file, `beagleTM2_parser_helperCode.py`. The path to the `corpus/` directory has been hardcoded in the `beagleTM2_parser_helperCode.py`, however, if using an external hard drive or similar, a path to `corpus/` could be altered by updating the global variable, `CORPUS_DIR` as shown below.
 
 
-### Overview to Parsing and Analysis
-To search for knowledge in PubMed articles to create a literature review, all keywords must be known before the task is begin. These keywords are then parsed in a corpus and articles which contain any occurrences are recorded in an output file. The output files must then be analyzed by another set of files which involves Streamlit to simplify the analysis. Below, we discuss each operation; parsing and the analysis of results.
-
+```
+# configure your corpus directory here.
+#CORPUS_DIR = "corpus/" # local directory # former path and directory
+CORPUS_DIR = "myNewCorpusDirectory/" # new path and directory
+```
 
 
 #### pipenv
-To develop this code, `pipenv` was used to maintain packages. Information about this coding environment may be found from https://pypi.org/project/pipenv/. A handy cheat sheet for the commands may be found at: https://pipenv-fork.readthedocs.io/en/latest/. If you require a `requirements.txt` file, then this file may be created by `pipenv` using the included `Pipfile` with the following command.
+To develop this code, `pipenv` was used to maintain packages and can be used to run BeagleTM parsing. Information about this coding environment may be found from https://pypi.org/project/pipenv/. A handy cheat sheet for the commands may be found at: https://pipenv-fork.readthedocs.io/en/latest/. If you require a `requirements.txt` file, then this file may be created by `pipenv` using the included `Pipfile` with the following command.
 
 ``` bash
 pipenv lock -r > requirements.txt
@@ -207,30 +263,11 @@ If the path is different from the local directory, then use the following.
 ```
 pipenv install -r path/to/requirements.txt
 ```
----
-#### Parsing
 
-Parsing is completed by two files; `beagleTM2_parser.py` and its associated file, `beagleTM2_parser_helperCode.py`. The path to the `corpus/` directory has been hardcoded in the `beagleTM2_parser_helperCode.py`, however, if using an external hard drive or similar, a path to `corpus/` could be altered by updating the global variable, `CORPUS_DIR` as shown below.
+#### Supporting libraries
+Please see the `Piplock` file for the details of the libraries necessary for the project.
 
-
-```
-# configure your corpus directory here.
-#CORPUS_DIR = "corpus/" # local directory # former path and directory
-CORPUS_DIR = "myNewCorpusDirectory/" # new path and directory
-```
-
-#### Keywords
-
-To begin a parsing job, the keyword file, `myKeyword.md`,  written in [Markdown](https://www.markdownguide.org/cheat-sheet/) must have the first line, `#### keywords`, which is followed by a line-by-line listing of searchable words in the PubMed abstracts. There is no limit to the number of keywords although it should be mentioned here that the resulting output file may become too large to be analyzed in feasible time. Therefore, it is advised that the keywords lists be no longer than necessary, and be very specific to the type of Knowledge being searched.  
-
-```
-#### keywords
-keyword_1
-keyword_n
-```
-
-
-#### Run a Parsing Job
+#### Run a parsing job with pipenv
 
 Use the following command to run your parsing step.
 ```
@@ -239,61 +276,17 @@ pipenv run python3 beagleTM2_parser.py keywords_sample_i.md
 
 This operation will create a file called `all_keywords4_analysis.csv`. The filename of the keyword file has become a part of this output file to determine the origins of this data set.
 
----
+#### Run an analysis Job with pipenv
 
-## Analysis
-
-To analyze the results from `beagleTM2_parser.py`, [Streamlit](https://www.streamlit.io) is used to launch the analysis scripts: `beagleTM2_analysis_i.py` and `beagleTM2_analysis_helperCode.py`. To run an analysis of the data set, run the following command.
-
-#### Run an Analysis Job
-Use the following command to get Streamlit to start up the analysis step of your project.
+Use the following command to employee Streamlit with pipenv to start up the analysis portion of your project.
 
 ``` bash
 pipenv run streamlit run beagleTM2_analysis_i.py
 
 ```
-
-You then will see something resembling the following.
-
-```
-You can now view your Streamlit app in your browser.
-
-Local URL: http://localhost:8501
-Network URL: http://xxx.xxx.x.x:8501
-```
-
-Open your browser to the URL: ```http://localhost:8501/```. The page that opens should be a Streamlit application with __BeagleTM Data Analysis__ displayed on the side bar, at the top left. To quit, use _Control-C_.
-
-Enter the directory where the `csv` file may be found from the parsing operation. The directory `data/` is searched first for data files from the parser. The user is able to change to a different directory in the application.
-
-
-#### What are we doing with this data?
-
-Below we discuss some of the plots that are created by an analysis. All plots will be automatically saved to the `/tmp` directory. This project was created in Linux but if you are using Windows, then a search for the files (see the browser tabs) will show you where they are being saved. In addition,  if the Manifests (collections of keywords for the current plot) are saved by clicking on the _Save a Manifest_ button, then these files will also be saved in the same directory as the plots.
-
-There are several options to choose from for the analysis.
- - **Show_data** : Displays a data table of the current data.
-
-
- - **Articles connected by pmids** : We use networks (from the `pyvis` library) to get a view of all articles in the dataset along with their connections to their supporting reference articles. Here we note that the red and blue nodes indicate main and reference articles, respectively. From this view, we can see which reference articles are being listed by more than one article.
-
- - **Articles having ANY of the selected keywords** : By selecting keywords in the selection field, we are able to see which articles surface to have _at least one_ of the keywords in their abstracts. All abstracts for which any one these keywords is presents may suggest a loose type of inter-relationship.
-
- - **Articles having ALL of the selected keywords** : By selecting keywords in the selection field, we are able to see which articles surface to have _ALL_ of the keywords in their abstracts, simultaneously. These papers are rare and are to be considered *strong* papers since they contain all requested keywords. In addition, these papers may serve to connect the keywords in some way using published research.
-
-  We note that abstracts are carefully worded short texts in which each word seemingly plays a central role in the context of the article. To discover an abstract for which all supplied words are present may suggest that the keywords share a _guilt by association_ and we may perhaps conclude that a strong relationship exists. Please also note that as lists of keywords extend, it is less likely to find them all in a single abstract.
-
-
- - **Heatmaps of keyword saturation** :
- Viewing articles as heatmaps allows us to determine which articles have  most of the supplied keywords. On the left, links to the PubMed articles may be used to access articles which may be more important to a particular search for knowledge. Please note that you may need to zoom-in (see controls at the upper right in heatmap plot) to be able to find the exact article link for the line in the heatmap. This would be necessary in the case of many articles in the dataset in which  keywords have been found.
-
-
-#### Supporting libraries
-Please see the `Piplock` file for the details of the libraries necessary for the project.
-
 ---
 
-## Citing
+## Citing this work
 
 If you would like to cite this work, then place use the following reference.
 The current interactive BeagleTM software is a derivative of this former work.
@@ -318,9 +311,8 @@ The BibTex code is provided below.
 }
 ```
 
-## A Work In Progress
+## A work in progress
 
-
-BeagleTM is a work-in-progress. Tests for the code will come soon and I will continue to update the repository with updates. If you would like to contribute to this project, __then please do!__ For instance, if you see some low-hanging fruit or task that you could easily complete, that could add value to the project, then I would love to have your insight.
+Check back often to see the evolution of the project!! BeagleTM is a work-in-progress. Updates to the methods and tests for the code will come soon and I will continue to update the repository with updates. If you would like to contribute to this project, __then please do!__ For instance, if you see some low-hanging fruit or task that you could easily complete, that could add value to the project, then I would love to have your insight.
 
 Otherwise, please create an Issue for bugs or errors. Since I am a teaching faculty member at Allegheny College, I may not have all the time necessary to quickly fix the bugs and so I would be very happy to have any help that I can get from the OpenSource community for any technological insight. Much thanks in advance. I hope that this project helps you find the knowledge from PubMed that you require for your project. :-)
