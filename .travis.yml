@@ -26,7 +26,8 @@ notifications:
   email: never
 install:
 #  - pip install --upgrade pip
-  - pip install pipenv --upgrade
+#  - pip install pipenv --upgrade
+  - pip install pipenv
   - pipenv install pyvis
   - pipenv install pytest
   - pipenv install plotly
