@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 banner0_str ="""
@@ -11,7 +11,7 @@ banner0_str ="""
 """
 #banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
-DATE = "19 July 2020"
+DATE = "16 December 2020"
 VERSION = "2_iii"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
