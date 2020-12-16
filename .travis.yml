@@ -29,7 +29,6 @@ install:
   - pip install pipenv --upgrade
   - pipenv install pyvis
   - pipenv install pytest
-  - pipenv install streamlit
   - pipenv install plotly
   - pip install coverage
 
