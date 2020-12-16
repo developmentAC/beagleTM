@@ -10,6 +10,7 @@ env:
   matrix:
     - PYENV_VERSION=3.7.3
   global:
+  - PIPENV_YES=1
   - PYENV_ROOT=$HOME/.travis-pyenv
   - PIPENV_VENV_IN_PROJECT=1
   - PIPENV_IGNORE_VIRTUALENVS=1
