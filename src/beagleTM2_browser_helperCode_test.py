@@ -5,10 +5,10 @@
 # Note: Since I was under some time constraints, I did not have enough time to complete automated tests. I did run tests manuallt of the functions and I was convinced that they were working bug-free in my script. If you are interested in helping this project, please consider writing some tests.
 
 import unittest
-from beagleTM2_analysis_helperCode import getIntersection
-from beagleTM2_analysis_helperCode import writer # function to help in debugging
-from beagleTM2_analysis_helperCode import reduceResults
-from beagleTM2_analysis_helperCode import getLogTransform
+from beagleTM2_browser_helperCode import getIntersection
+from beagleTM2_browser_helperCode import writer # function to help in debugging
+from beagleTM2_browser_helperCode import reduceResults
+from beagleTM2_browser_helperCode import getLogTransform
 
 # Run automated testing:
 # python3 -m unittest beagleTM2_analysis_i.py

@@ -1,5 +1,5 @@
 ##### BeagleTM: PubMed Interactive Knowledge Discovery
-##### Date: 7 Dec 2020
+##### Date: 6 Feb 2021
 ##### Oliver Bonham-Carter, [Allegheny College](https://allegheny.edu/)
 ##### email: obonhamcarter@allegheny.edu
 
@@ -129,7 +129,7 @@ The output files of this operation will be placed into the `data/` directory. Yo
 Inside a Docker Desktop container, we can use the following command at the containers bash prompt.
 
 ```bash
-streamlit run beagleTM2_analysis_i.py
+streamlit run beagleTM2_browser.py
 ```
 
 When running your container, to access Streamlit, you will need to use your browser using the link, `http://127.0.0.1:8501/`. Once Streamlit is running the analysis program, then direct the program to the `data/` directory to load the output files from the parsing operation above.
@@ -281,7 +281,7 @@ This operation will create a file called `all_keywords4_analysis.csv`. The filen
 Use the following command to employee Streamlit with pipenv to start up the analysis portion of your project.
 
 ``` bash
-pipenv run streamlit run beagleTM2_analysis_i.py
+pipenv run streamlit run beagleTM2_browser.py
 
 ```
 ---

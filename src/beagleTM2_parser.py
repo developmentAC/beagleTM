@@ -131,6 +131,9 @@ def begin(inFile0=""):
 
 	print()
 	hc.printByPlatform("\t END! Roooo! Roooo!")
+	print(hc.BYellow + "\n\t Use following command to analyse your results:" + hc.White)
+	print("\t streamlit run beagleTM2_browser.py")
+
 
 	#end of begin()
 

@@ -11,8 +11,8 @@ banner0_str ="""
 """
 #banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
-DATE = "16 December 2020"
-VERSION = "2_iii"
+DATE = "6 Feb 2021"
+VERSION = "2_iv"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
@@ -114,6 +114,17 @@ def getAllKeywords(data_dic):
 	return sorted(tmp_list) # return a sorted list
 	# end of getAllKeywords()
 
+def getPath():
+	""" Function to open the myPath.txt file to determine links to the results. Inside a container, the system paths are changed and container-based paths are inaccurate to find the results html files. """
+
+	myPath = None
+	try:
+		with open("myPath.txt") as pathFile: # pathFile is object reference
+			myPath = pathFile.read().strip() # remove the "\n" at the end of string
+		return myPath
+	except FileNotFoundError:
+		return None
+	#end of getPath()
 
 def stringToList(in_str):
 	"""converts a string that looks like a list, to a list. Ex: '[1,2,3]' -> [1,2,3]"""
@@ -152,7 +163,24 @@ def showMyPlot(G, plotName_str):
 	""" plots according to os type. It seems that macOS does not always open a plot."""
 	platform_str = get_platformType().lower()
 	# st.write(platform_str)
-	st.success(f" Plot file saved: {plotName_str}")
+	# st.success(f" Output file saved: {plotName_str}")
+
+
+	path_str = getPath()
+
+	if path_str != None:
+#		st.success(path_str)
+		link_str = "file://" + f"{path_str}/{plotName_str}"
+		st.markdown(f"Output file saved:\n ##### {link_str}")
+	else:
+#		st.success(path_str)
+		link_str = "file://" + f"{plotName_str}"
+		st.markdown(f"Output file saved:\n ##### {link_str}")
+
+# clickabe link not yet working ... :-(
+	# link = f'[output]({link_str})'
+	# st.markdown(link, unsafe_allow_html=True)
+
 
 	if platform_str == "osx":
 		st.write("osx machine... ")
@@ -435,7 +463,8 @@ def articleConnectivity(data_dic):
 		# newRefPlot(data_dic, myPmids_list)
 		newRefPlot(data_dic, myPmids_list, showNodesPanel_bol, showPhysicsPanel_bol)
 
-	st.text(myPmids_list)
+	if len(myPmids_list) > 0: # anything to show?
+		st.text(myPmids_list)
 
 	manifest_btn = st.button("Save a manifest")
 	if manifest_btn == True:
@@ -468,7 +497,9 @@ def keywordAnalysis(data_dic):
 		# writer("2. unique elements myPmids_list :",myPmids_list)
 
 		newRefPlot(data_dic, myPmids_list, showNodesPanel_bol, showPhysicsPanel_bol)
-	st.text(f"myKeywords_list : {myKeywords_list}")
+
+	if len(myKeywords_list) > 0: # anything to show?
+		st.text(f"{myKeywords_list}")
 
 
 	manifest_btn = st.button("Save a manifest")
@@ -502,11 +533,11 @@ def keywordAndkeywordsInArticle(data_dic):
 # TODO:
 # Create a sidebar field to add extra words to search. These words may not have been original keywords but could still be added now.
 
-
-
-
 	#st.warning("All keywords must be in article abstract at same time!")
-	st.text(myKeyWords_list)
+
+	if len(myKeyWords_list) > 0: # anything to show?
+		st.text(myKeyWords_list)
+
 	wordNetwork_btn = st.button("Find articles including ALL of these keywords in their abstracts. Click for to all keywords.")
 
 	if wordNetwork_btn == True:
@@ -550,6 +581,45 @@ def getLowercaseElements(in_list):
 		return [in_list[i].lower() for i in range(len(in_list))]
 		# end of get getLowercaseElements()
 
+def simpleHeatmaps(data, data_dic):
+	"""Function to create a simple heatmap of keyword items in articles. This heatmap allows user to see which articles have combinations of keywords that may be more helpful to an analysis."""
+
+	st.subheader('Keywords of articles')
+	st.write(data)
+
+	shortData_dic = {} # dict to contain articles having two or more keywords
+	myCol1 = "keyword" # what col to work with?
+	myCol2 = "pmid"
+
+
+
+	keywordThreashold_sld = st.slider("Enter minimum number of user-selected keywords per article.",2, (len(getAllKeywords(data_dic))),1)
+	st.write('Minimum keywords per article: ', keywordThreashold_sld)
+
+
+	for i in range(len(data[myCol1])):
+		if len(stringToList(data[myCol1][i])) >= keywordThreashold_sld: # an article has at least a nubmer of keywords
+
+			# st.write("num:",i, data[myCol1][i],type(data[myCol1][i]), data[myCol2][i], type(data[myCol2][i]))
+
+			itemCol1 = stringToList(data[myCol1][i])
+			itemCol2 = stringToList(str(data[myCol2][i]))
+
+
+#bad			shortData_dic[str(data[myCol2][i])] = itemCol1
+#			shortData_dic[data[myCol1][i]] = str(data[myCol2][i])
+			dicItem = str(itemCol1)+"_"+str(i)
+#			st.write(dicItem)
+
+#			shortData_dic[dicItem] = str(data[myCol2][i])
+			shortData_dic[str(data[myCol2][i])] = dicItem
+
+	#st.write("_shortData__",shortData_dic)
+	shortData_df = pd.DataFrame.from_dict(shortData_dic, orient='index')
+	# st.bar_chart(data['keyword'])
+	st.bar_chart(shortData_df)
+	st.altair_chart(shortData_df)
+	# end of simpleHeatmaps()
 
 def keywordSaturation(data_dic):
 	""" Function to study the amount of any selected keyword content turning up in abstract text"""
@@ -559,6 +629,9 @@ def keywordSaturation(data_dic):
 	keyWords_list = getLowercaseElements(keyWords_list)
 	myKeyWords_list = st.multiselect('Select keywords of interest, or leave blank to view all as network.', keyWords_list,[])
 	# the selected key words from the user.
+	if len(myKeyWords_list) > 0: # anything to show?
+		st.text(myKeyWords_list)
+
 
 	#st.warning("Any keywords must be in an article abstract")
 
@@ -642,13 +715,35 @@ def keywordSaturation(data_dic):
 	)
 )
 
-		st.success(f" Plot file saved: {plotName_str}")
+# OBC STOPPED HERE
+#		st.success(f" Output file saved: {plotName_str}")
+
 		plot(fig, filename = plotName_str)
+
+		path_str = getPath()
+
+		if path_str != None:
+	#		st.success(path_str)
+			link_str = "file://" + f"{path_str}/{plotName_str}"
+			st.markdown(f"Output file saved:\n ##### {link_str}")
+		else:
+	#		st.success(path_str)
+			link_str = "file://" + f"{plotName_str}"
+			st.markdown(f"Output file saved:\n ##### {link_str}")
+
+# clickable link not yet working ... :-(
+
+		# path_str = getPath()
+		# link_str = f"file://{path_str}/{plotName_str}"
+		# st.markdown(f"Output file saved:\n ##### {link_str}")
+
+
+
 
 	manifest_btn = st.button("Save a manifest")
 	if manifest_btn == True:
 		saveManifest(myKeyWords_list, "Keywords_")
-		# end of keywordSaturation()
+# end of keywordSaturation()
 
 
 def getLogTransform(in_list, base_int): #UN-USED AT THIS TIME

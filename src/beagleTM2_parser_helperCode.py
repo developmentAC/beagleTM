@@ -13,8 +13,8 @@ banner0_str ="""
 # banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
 
-DATE = "23 August 2020"
-VERSION = "2_iii"
+DATE = "6 Feb 2021"
+VERSION = "2_iv"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
@@ -141,6 +141,7 @@ def helper():
 	print("\tNotes. Data can be downloaded from: ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/")
 	print(BIYellow + "\n\tKeyword files have the following format:\n\n\t#### keywords\n \tkeyword_1\n\tkeyword_n\n" + White)
 #end of helper()
+
 
 def get_platformType():
 	"""Function to dermine the OS type."""

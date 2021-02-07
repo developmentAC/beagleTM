@@ -28,13 +28,13 @@ import networkx as nx
 import spacy # needed to work with stopwords
 from spacy.lang.en.stop_words import STOP_WORDS # needed to work with stop words
 
-import beagleTM2_analysis_helperCode as hc
+import beagleTM2_browser_helperCode as hc
 
 
-# DATE = "19 July 2020"
-# VERSION = "2_iii"
-# AUTHOR = "Oliver Bonham-Carter"
-# AUTHORMAIL = "obonhamcarter@allegheny.edu"
+DATE = "6 Feb 2021"
+VERSION = "2_iv"
+AUTHOR = "Oliver Bonham-Carter"
+AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
 """The driver program for the analysis side of the thing. """
 
@@ -67,7 +67,8 @@ def begin():
 			"Articles connected by pmids",
 			"Articles having ANY of the selected keywords",
 			"Articles having ALL of the selected keywords",
-			"Heatmaps of keyword saturation"
+			"Heatmaps of keyword saturation",
+			"Make Simple Heatmaps"
 		],
 	)
 	if doThis_sb == "ReadMe":
@@ -93,8 +94,11 @@ def begin():
 	if doThis_sb == "Heatmaps of keyword saturation":
 		hc.keywordSaturation(data_dic)
 
+	if doThis_sb == "Make Simple Heatmaps":
+		hc.simpleHeatmaps(data, data_dic)
+
 	hc.writer("\U0001F415 WOO WOO!! \U0001F415")
-	hc.writer(" ok :","computer")
+	#hc.writer(" ok :","computer")
 		# end of begin()
 #
 #
