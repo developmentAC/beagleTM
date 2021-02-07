@@ -1,4 +1,6 @@
 __pycache__
+.streamlit
+.bash_history
 .cache
 *.pyc
 *.csv
