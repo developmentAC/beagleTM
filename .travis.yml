@@ -37,7 +37,6 @@ install:
 
 script:
   - pipenv run pytest src/beagleTM2_parser_helperCode_test.py
-  - pipenv run pytest src/beagleTM2_analysis_helperCode_test.py
+  - pipenv run pytest src/beagleTM2_browser_helperCode_test.py
 after_success:
   - pipenv run codecov
-
