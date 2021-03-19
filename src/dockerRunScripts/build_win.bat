@@ -1,2 +1,2 @@
 @echo  [+]  Building your working container.
-docker build -t devi .
+docker build -t stevi .

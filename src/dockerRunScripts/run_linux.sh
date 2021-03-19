@@ -13,7 +13,7 @@ printf "\n [+] ${BIGreen} Hello ${USER}! Setting up your working container.${NC}
 pwd > myPath.txt
 
 # Run container:
-sudo docker run --rm -it -p 8501:8501 -v $PWD:/root devi
+sudo docker run --rm -it -p 8501:8501 -v $PWD:/root stevi
 
 
 printf "\n  [+]  ${BIGreen} Returning file ownership from root to ${USER}.\n       You may be asked to reenter your password.${NC}\n"

@@ -10,4 +10,4 @@ NC='\033[0m' # No Colour
 printf "\n [+] ${BIGreen} Hello ${USER}! Building your working container.${NC}\n [+]  ${BIGreen}You may be asked to enter your password.${NC}\n"
 
 # Build container:
-docker build -t devi .
+docker build -t stevi .
