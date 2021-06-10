@@ -20,9 +20,11 @@ printf "\n  [+]  ${BIGreen} Returning file ownership from root to ${USER}.\n    
 
 # change ownership of a file to your own login if it was created in the docker container.
 sudo chown $USER ./*
+sudo chown $USER ./data/*
+sudo chown $USER ./0_outAnalysis/*
+
 
 # removing the myPath.txt file which is no longer going to be used.
 rm myPath.txt
 
-# sudo chown $USER vids/*
 printf "\n  [+] ${BIGreen} The working container is now closed. ${NC}\n"
