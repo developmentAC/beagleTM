@@ -1,0 +1,280 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183664</article-id><article-id pub-id-type="pmc">1762337</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00006R2</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000036</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Plant Biology</subject></subj-group></article-categories><title-group><article-title>Use of Confocal Laser as Light Source Reveals Stomata-Autonomous Function</article-title><alt-title alt-title-type="running-head">Autonomy of Stomata Function</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Ca&#x000f1;amero</surname><given-names>Roberto C.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Boccalandro</surname><given-names>Hern&#x000e1;n</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Casal</surname><given-names>Jorge</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Serna</surname><given-names>Laura</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution>Environmental Sciences Faculty, University of Castilla-La Mancha</institution>
+<addr-line>Toledo, Spain</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>Instituto de Investigaciones Fisiol&#x000f3;gicas y Ecol&#x000f3;gicas Vinculadas a la Agricultura (IFEVA), Faculty of Agronomy, University of Buenos Aires</institution>
+<addr-line>Buenos Aires, Argentina</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<institution>Consejo Nacional de Investigaciones Cient&#x000ed;ficas y T&#x000e9;cnicas</institution>
+<addr-line>Buenos Aires, Argentina</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Baxter</surname><given-names>Ivan</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Purdue University, United States of America</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>laura.serna@uclm.es</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: LS JC. Performed the experiments: RC HB. Analyzed the data: LS RC HB JC. Contributed reagents/materials/analysis tools: LS JC. Wrote the paper: LS.</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e36</elocation-id><history><date date-type="received"><day>7</day><month>8</month><year>2006</year></date><date date-type="accepted"><day>10</day><month>10</month><year>2006</year></date></history><permissions><copyright-statement>Ca&#x000f1;amero et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>In most terrestrial plants, stomata open during the day to maximize the update of CO<sub>2</sub> for photosynthesis, but they close at night to minimize water loss. Blue light, among several environmental factors, controls this process. Stomata response to diverse stimuli seems to be dictated by the behaviour of neighbour stomata creating leaf areas of coordinated response. Here individual stomata of <italic>Arabidopsis</italic> leaves were illuminated with a short blue-light pulse by focusing a confocal argon laser. Beautifully, the illuminated stomata open their pores, whereas their dark-adapted neighbours unexpectedly experience no change. This induction of individual stomata opening by low fluence rates of blue light was disrupted in the <italic>phototropin1 phototropin2</italic> (<italic>phot1 phot2</italic>) double mutant, which exhibits insensitivity of stomatal movements in blue-illuminated epidermal strips. The irradiation of all epidermal cells making direct contact with a given stoma in both wild type and <italic>phot1 phot2</italic> plants does not trigger its movement. These results unravel the stoma autonomous function in the blue light response and illuminate the implication of PHOT1 and/or PHOT2 in such response. The micro spatial heterogeneity that solar blue light suffers in partially shaded leaves under natural conditions highlights the physiological significance of the autonomous stomatal behaviour.</p></abstract><counts><page-count count="5"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Stomatal pores are located on the plant epidermis and regulate CO<sub>2</sub> uptake for photosynthesis and water loss to drive transpiration. Stomatal opening is induced by several environmental factors, among them, blue light <xref rid="pone.0000036-Schroeder1" ref-type="bibr">[1]</xref>&#x02013;<xref rid="pone.0000036-Fan1" ref-type="bibr">[3]</xref>. When either entire plants or epidermal strips adapted to darkness are exposed to low fluence rates of blue light, the stomata open their pores <xref rid="pone.0000036-Kinoshita1" ref-type="bibr">[4]</xref>&#x02013;<xref rid="pone.0000036-Mao1" ref-type="bibr">[6]</xref>. The blue-light receptors PHOTOTROPIN1 (PHOT1) and (PHOTOTROPIN2) PHOT2 control this response. In a redundant fashion, they mediate the stomatal opening, with both <italic>phot1</italic> and <italic>phot2</italic> single mutants being indistinguishable from wild-type plants when epidermal strips are illuminated with blue light, and <italic>phot1 phot2</italic> double mutant exhibiting insensitivity of stomatal opening under these conditions <xref rid="pone.0000036-Kinoshita1" ref-type="bibr">[4]</xref>. Both, PHOT1 and PHOT2 are composed by a serine/threonine kinase domain located within the carboxy-terminus and repeated photosensory motifs referred LOV1 and LOV2 in the amino-terminus <xref rid="pone.0000036-Huala1" ref-type="bibr">[7]</xref>, <xref rid="pone.0000036-Kagawa1" ref-type="bibr">[8]</xref>. Blue-light-specific stomatal opening has an action spectrum typical of other blue-light responses of plants, showing a maximum at 450-nm and two minor peaks at 420-nm and 470-nm <xref rid="pone.0000036-Karlsson1" ref-type="bibr">[9]</xref>, which closely matches the absorption spectra of the LOV domains of PHOT1 and PHOT2 <xref rid="pone.0000036-Karlsson1" ref-type="bibr">[9]</xref>&#x02013;<xref rid="pone.0000036-Eisinger1" ref-type="bibr">[12]</xref>.</p><p>In dark-grown seedlings, both co-sedimentation experiments with plasma membrane enzymes <xref rid="pone.0000036-Gallagher1" ref-type="bibr">[13]</xref>, <xref rid="pone.0000036-Hager1" ref-type="bibr">[14]</xref> and aqueous two-phase partitioning <xref rid="pone.0000036-Palmer1" ref-type="bibr">[15]</xref>&#x02013;<xref rid="pone.0000036-Sharma1" ref-type="bibr">[18]</xref> place PHOT1 at the plasma membrane. In addition, experiments with right-side-out plasma membrane vesicles show that it is associated only with the inner surface of the plasma membrane <xref rid="pone.0000036-Short1" ref-type="bibr">[16]</xref>. More recently, brief light treatments in <italic>PHOT1-GFP</italic> etiolated seedling have shown that a fraction of PHOT1 is released from the cell membrane to the cytoplasm in response to blue light <xref rid="pone.0000036-Sakamoto1" ref-type="bibr">[19]</xref>. Analysis of <italic>PHOT2-GFP</italic> has just shown that in the dark PHOT2 localizes, like PHOT1, mainly to the plasma membrane <xref rid="pone.0000036-Kong1" ref-type="bibr">[20]</xref>. However, blue light illumination induces its association with the Golgi apparatus <xref rid="pone.0000036-Kong1" ref-type="bibr">[20]</xref>.</p><p>Stomata response to diverse stimuli seems to be dictated by the behaviour of neighbour stomata creating leaf areas of coordinated response <xref rid="pone.0000036-Mott1" ref-type="bibr">[21]</xref>, <xref rid="pone.0000036-Hetherington1" ref-type="bibr">[22]</xref>. For example, when a single stoma is exposed to a current of dry air, adjacent stomata also tend to close, despite being not exposed to the signal <xref rid="pone.0000036-Mott1" ref-type="bibr">[21]</xref>, <xref rid="pone.0000036-Mott2" ref-type="bibr">[23]</xref>. This coordinated behaviour is apparently due to hydraulic coupling among stomata <xref rid="pone.0000036-Mott1" ref-type="bibr">[21]</xref>, <xref rid="pone.0000036-Mott3" ref-type="bibr">[24]</xref>. Here, we experimentally address whether stomata might function autonomously in the blue light response by individuals cells irradiation with a laser. We show that stomata act independently regardless of the behaviour of their neighbours and highlight the implication of PHOT1 and/or PHOT2 in such response. The physiological advantage of the stomatal autonomous function is discussed.</p></sec><sec id="s2"><title>Results/Discussion</title><p>We used simultaneously both a 458-nm line and a 476-nm line of an argon laser attached to a DMIRB inverted Leica TCS SP2 confocal microscope, to investigate whether stomata might function autonomously in response to blue light. Individual stomata were exposed to 10 &#x000b5;mol m<sup>&#x02212;2</sup> s<sup>&#x02212;1</sup> of blue-light for 10 s, and their neighbours were maintained in the dark (or illuminated with a 405-nm laser line of the diode laser, not shown). Of a total of 20 illuminated stomata, 17 (85&#x00025;) increased the size of their pores (<xref ref-type="fig" rid="pone-0000036-g001">Figure 1A and 1C</xref>), whereas their dark-adapted neighbour exhibited no change (100&#x00025;; <italic>n</italic>&#x0200a;=&#x0200a;15; <xref ref-type="fig" rid="pone-0000036-g001">Figure 1B and 1C</xref>). This resulted in rejecting the null hypothesis of independence between the blue-light irradiation and the number of opened stomata (P&#x0003c;0.0001). This result unravels the stomatal-autonomous opening in the blue light response, and also it demonstrates that the signal that triggers stomatal movements does not transmit across the epidermal tissue, at least from stoma to stoma. The 10 s-pulse illumination of 10 &#x000b5;mol m<sup>&#x02212;2</sup> s<sup>&#x02212;1</sup> resulted in an increase in aperture (<xref ref-type="fig" rid="pone-0000036-g001">Figure 1C</xref>), which does not differ from the data obtained when epidermal strips of Arabidopsis were illuminated with continuous 5 &#x000b5;mol m<sup>&#x02212;2</sup> s<sup>&#x02212;1</sup> blue light <xref rid="pone.0000036-Talbott1" ref-type="bibr">[5]</xref>. It should be noted that, like other authors discussed <xref rid="pone.0000036-Eisinger1" ref-type="bibr">[12]</xref>, <xref rid="pone.0000036-Zeiger1" ref-type="bibr">[25]</xref>, the very low fluencies employed in our experiments ensure that the blue-light-induced stomatal movements are due to the photoreceptors rather than to photosynthesis.</p><fig id="pone-0000036-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000036.g001</object-id><label>Figure 1</label><caption><title>Stoma autonomy in its blue light-induced opening</title><p>Individual stomata were irradiated with a short pulse of blue light by focusing an argon laser attached to a confocal microscope.</p><p>(A) Irradiated stomata.</p><p>(B) Nearest neighbour of the irradiated stoma.</p><p>Confocal sections showing the stomatal opening in both wild type and <italic>phot1-5 phot2-1</italic> double mutant, before (left) and two hours later (right) the blue-light treatment.</p><p>(C) Differences between the stomatal opening before and two hours after the blue light treatment in both irradiated stomata and their nearest neighbours dark-adapted stomata.</p><p>Wild-type irradiated stomata increased pore opening.</p><p>In contrast, the irradiated stomata of the <italic>phot1-5 phot2-1</italic> double mutant experienced no change.</p><p>The nearest neighbours to the irradiated stomata remained unaltered in their movements.</p><p>Bars indicate the mean of at least 15 measurements with standard deviations.</p><p>Calcofluor staining (0.1&#x00025;) produced a blue fluorescence in all cell walls when excited with a 405-nm laser line of a diode laser.</p><p>White line shows the initial opening; red one represents the final aperture.</p><p>Scale bar: 3 &#x000b5;m; all images are the same magnification.</p></caption><graphic xlink:href="pone.0000036.g001"/></fig><p>In supporting the absence of a blue-light induced cell signalling across the epidermal tissue, irradiation of stoma neighbour epidermal cells with a short-pulse of blue light caused no effect on the opening of the adjacent stoma. The three neighbour epidermal cells that surround a given stoma were simultaneously illuminated, but the stoma making contact with such cells remained unaltered (<xref ref-type="fig" rid="pone-0000036-g002">Figure 2A</xref>). A total of 19 stomata (100&#x00025;; <italic>n</italic>&#x0200a;=&#x0200a;19) exhibited this behaviour (<xref ref-type="fig" rid="pone-0000036-g002">Figure 2B</xref>). Control stomata in these peels were illuminated, and as it might be expected they increased pore opening (<italic>n</italic>&#x0200a;=&#x0200a;19; 90.5&#x00025;; <xref ref-type="fig" rid="pone-0000036-g002">Figure 2B</xref>). This resulted in rejecting the null hypothesis of independence between the cell type that is irradiated and the number of opened stomata (P&#x0003c;0.0001).</p><fig id="pone-0000036-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000036.g002</object-id><label>Figure 2</label><caption><title>Blue light-induced stomatal movement signals are not transmitted from non-stomatal epidermal cells to their adjacent stomata</title><p>A short pulse of blue light from the argon laser was applied to all epidermal cells adjacent to randomly selected stomata in both wild type and <italic>phot1-5 phot2-1</italic> double mutant.</p><p>Such irradiation caused no effect in the stomatal movements.</p><p>(A) Confocal sections show the stomatal apertures before (left) and two hours later (right) the non-stomatal epidermal cells illumination.</p><p>(B) Differences between the stomatal aperture before and after the blue light treatment.</p><p>Note that illuminated stomata increased opening in the wild type, and remained unaltered in the <italic>phot1-5 phot2-1</italic> double mutant.</p><p>Bars show the mean of at least 15 measurements with standard deviations.</p><p>Images show staining with calcofluor resulting in strong fluorescence in cell walls.</p><p>Scale bar: 3 &#x000b5;m; all images are the same magnification.</p></caption><graphic xlink:href="pone.0000036.g002"/></fig><p>The induction of stomatal opening in wild type plants by blue light was disrupted in the <italic>phot1 phot2</italic> double mutant (<xref ref-type="fig" rid="pone-0000036-g001">Figure 1A and 1C</xref>; P&#x0003c;0.0001). Of a total of 15 illuminated stomata, every one of them showed insensitivity of stomatal opening to the blue light-pulse. This result supports the previously established function of both PHOT1 and PHOT2 in the stomatal aperture in the blue-light response <xref rid="pone.0000036-Kinoshita1" ref-type="bibr">[4]</xref>, and it demonstrates the cell-autonomous roles for these genes in controlling the stomatal movements. Like in the wild type, the dark-adapted neighbours of the illuminated stomata experienced no change (<italic>n</italic>&#x0200a;=&#x0200a;20; 100&#x00025;; <xref ref-type="fig" rid="pone-0000036-g001">Figure 1B and 1C</xref>). The three non-stomatal epidermal cells that make contact with every stoma were also illuminated and like in the wild type, the adjacent stomata did not increase the size of their pores (<italic>n</italic>&#x0200a;=&#x0200a;15; 100&#x00025;; <xref ref-type="fig" rid="pone-0000036-g002">Figure 2A and 2B</xref>). These results support the absence of a signalling response to blue light across the epidermal tissue. Stomata, in the peels of <italic>phot1 phot2</italic> where epidermal cells adjacent to stomata were irradiated, were also illuminated and they experienced no change in their movements (<italic>n</italic>&#x0200a;=&#x0200a;19; 100&#x00025;; <xref ref-type="fig" rid="pone-0000036-g002">Figure 2B</xref>; P&#x0003c;0.0001, compared with wild type plants).</p><p>When paired guard cells of dark adapted <italic>PHOT1-GFP</italic> seedlings were irradiated with a short blue-light pulse, the intensity of the GFP signal at the cell surface decreases in the irradiated cells (<xref ref-type="fig" rid="pone-0000036-g003">Figure 3A</xref>). Similarly, when stoma neighbour epidermal cells were illuminated, the cell surface GFP signal decreased specifically in such cells (<xref ref-type="fig" rid="pone-0000036-g003">Figure 3B</xref>). The blue-light treatment also affected the common fraction of the irradiated neighbour cell(s). This loss of the GFP intensity in the cell surface of the irradiated cells supports the idea that PHOT1 is released from the cell membrane to the cytoplasm in blue-light irradiated seedlings <xref rid="pone.0000036-Sakamoto1" ref-type="bibr">[19]</xref>, and evidences on the cell autonomy of such process. The changes in the guard cells GFP intensity were evident three minutes after the scan. However, no change in the stomatal aperture was detected at this time, indicating that PHOT1 diffusion does not imply an immediate stomatal opening. In addition, the absence of stomatal movement when the laser was applied to all epidermal cells surrounding a given stoma together with the PHOT1 guard cell diffusion from the common fraction of the irradiated epidermal cell, indicate that the blue-light induced change restricted to the cell membrane is not sufficient to induce stomatal opening. This suggests that, in addition to plasma-membrane processes, stomatal opening requires changes directly induced by blue-light in the cytoplasm of guard cells.</p><fig id="pone-0000036-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000036.g003</object-id><label>Figure 3</label><caption><title>Dissociation of PHOT1 from the plasma membrane in blue-light irradiated cells</title><p>(A) Stomata blue-light irradiation.</p><p>Confocal section of the epidermis of a dark-adapted <italic>PHOT1-GFP</italic> seedling showing all GFP signal attached to the cell surface (left).</p><p>Section of the same field 3 min after the initial scan (right).</p><p>The intensity of the GFP signal decreased in the irradiated stoma.</p><p>No changes were detected in its neighbour epidermal cells.</p><p>(B) Stomatal neighbour cell irradiation.</p><p>Epidermal sections before (left) and after (right) the blue-light illumination.</p><p>The argon laser provided the blue-light source.</p><p>Scale bar: 3 &#x000b5;m; all images are the same magnification.</p></caption><graphic xlink:href="pone.0000036.g003"/></fig><p>A recent report has demonstrated that cryptochromes (CRY1 and CRY2) act additively with phototropins (PHOT1 and PHOT2) to mediate blue light-mediated stomatal opening <xref rid="pone.0000036-Mao1" ref-type="bibr">[6]</xref>. The lack of a residual response to blue light in the <italic>phot1 phot2</italic> double mutant in our experiments compared to others where epidermal strips were exposed to prolonged blue plus red light <xref rid="pone.0000036-Mao1" ref-type="bibr">[6]</xref> suggests that cryptochrome action might require a longer blue-light exposure, require a red background and/or function in a non-cell-autonomous manner.</p><p>In summary, we have demonstrated that stomata blue-light illumination is both sufficient and necessary to mediate stomatal opening, which, in addition, depends on PHOT1 and/or PHOT2 activity. This scenario is consistent with the observation that onion guard cells protoplasts swell when illuminated with blue light, but non-stomatal epidermal cell protoplasts do not swell under the same conditions <xref rid="pone.0000036-Zeiger2" ref-type="bibr">[26]</xref>. The stomatal autonomy seems to extend in response to abscisic acid. Certainly, when single guard cells are injected with cyclic ADP-ribose, which mediates the abscisic acid-induced stomatal closure, its turgor decreases while those from the uninjected partner remains unchanged <xref rid="pone.0000036-Hetherington1" ref-type="bibr">[22]</xref>, <xref rid="pone.0000036-Leckie1" ref-type="bibr">[27]</xref>. However, our finding that stomata act independently of the behaviour of those around them, contrasts with recent works suggesting that stomatal function is dictated by that of neighbour stomata <xref rid="pone.0000036-Sakai1" ref-type="bibr">[10]</xref>, <xref rid="pone.0000036-Mott2" ref-type="bibr">[23]</xref>, <xref rid="pone.0000036-Mott3" ref-type="bibr">[24]</xref>, and opens the question on why the blue-light pulse has not a similar effect in the stomatal behaviour.</p><p>But, what advantage might stomata-autonomous function induced by blue-light confer on the plant? When a leaf is partially shaded by another leaf, incident blue-light irradiance is below the saturation value of phototropin action in the shaded region and above saturation in the lighted area (<xref ref-type="fig" rid="pone-0000036-g004">Figure 4</xref>). In addition, such change in blue-light irradiance occurs in a micrometric distance (<xref ref-type="fig" rid="pone-0000036-g004">Figure 4</xref>), similar to the average distance between two neighbour stomata <xref rid="pone.0000036-Serna1" ref-type="bibr">[28]</xref>. In this context, the stomata-autonomous function would allow the opening of the lighted stoma, while maintaining the shaded neighbour one in a relatively closed state. This stomata-autonomous behaviour would optimise the balance between water loss and CO<sub>2</sub> acquisition.</p><fig id="pone-0000036-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000036.g004</object-id><label>Figure 4</label><caption><title>Nearby parts of an Arabidopsis leaf can experience steep differences in irradiance</title><p>Solar blue light decreases sharply between the unshaded (0 &#x000b5;m) and shaded portions of the abaxial side of an Arabidopsis leaf.</p><p>The average distance among stomata in Arabidopsis varies between 50 and 100 &#x000b5;m, indicating that neighbour stomata may be exposed to widely different light conditions.</p><p>Data are means and standard errors of three replicates.</p><p>Inset, Image of overlapping leaves illustrating the sharp transition between illuminated and shaded areas.</p></caption><graphic xlink:href="pone.0000036.g004"/></fig><p>Light regulates many developmental and physiological processes in both plant and animal systems. Blue-light, for example, triggers de-etiolation, phototropic curvature, chloroplast movement, and stomatal opening <xref rid="pone.0000036-Chen1" ref-type="bibr">[2]</xref>, <xref rid="pone.0000036-Briggs1" ref-type="bibr">[29]</xref>, <xref rid="pone.0000036-Briggs2" ref-type="bibr">[30]</xref>. The possibility of using the laser of a confocal microscope as a light source, opens an exciting and long way to investigate the cellular autonomy and/or cell-to-cell signalling in these and many others light-induced process.</p></sec><sec id="s3"><title>Materials and Methods</title><sec id="s3a"><title>Plant materials and growth conditions</title><p>The blue-light dependent stomatal movements of the double mutant <italic>phot1-5 phot2-1</italic> and its corresponding wild-type strain (Columbia) were previously described <xref rid="pone.0000036-Kinoshita1" ref-type="bibr">[4]</xref>, <xref rid="pone.0000036-Mao1" ref-type="bibr">[6]</xref>, <xref rid="pone.0000036-Talbott2" ref-type="bibr">[31]</xref>. The <italic>phot1-5</italic> mutant (originally <italic>nph1</italic>) is a null allele <xref rid="pone.0000036-Huala1" ref-type="bibr">[7]</xref>. The <italic>phot2-1</italic> mutant (originally <italic>npl1</italic>) results from a stop codon between the LOV2 and kinase domain, so active PHOT2 protein is not produced in this genetic background <xref rid="pone.0000036-Kinoshita1" ref-type="bibr">[4]</xref>. Transgenic plants expressing the <italic>PHOT1-GFP</italic> gene under the control of the <italic>PHOT1</italic> promoter have been described <xref rid="pone.0000036-Sakamoto1" ref-type="bibr">[19]</xref>. Seedlings were grown on soil at 20&#x000b0;C with 16 h of light/8 h of dark under fluorescent lamp (100 &#x000b5;mol m<sup>&#x02212;2</sup> s<sup>&#x02212;1</sup>). The relative humidity in the growth chambers was maintained at 60&#x00025;.</p></sec><sec id="s3b"><title>Stomatal aperture measurements</title><p>Abaxial peels of mature, fully expanded leaves (3- to 6-week-old plants), were detached in the early morning and kept in the dark for 1 h under an incubation solution containing 0.1 mM CaCl<sub>2</sub> and 20 mM KCl. Dark-adapted peels were mounted on slides under a drop of the incubation solution. Apertures of randomly selected stomata were measured from transmission images taken at 10.000-fold magnification. They, or their three neighbour epidermal cells, were illuminated with blue light for 10 seconds. Two hours later, transmission images were again monitorized to measure the final stomatal apertures. Controls were included in every set of laser irradiations. At least, 15 stomata, from a total of at least 8 leaves, were monitorized for each treatment and genetic background. Results were evaluated by using &#x003c7;2-test (99&#x00025; confidence level).</p></sec><sec id="s3c"><title>Blue-light treatment</title><p>Transmission images from both dark-adapted and illuminated seedlings were monitorized with a DMIRB inverted Leica TCS SP2 confocal microscope using a 405- nm laser line of a diode laser and excitation beam splitter substrat. The scan speed was 400 Hz and the pinhole size of 1 Airy unit. Images acquisition was performed by using a 63x/NA 1.40-0.60 PL APO (oil immersion) objective with an 8&#x000d7; zoom. Images were recorded with 512&#x000d7;512 pixels and arranged using Adobe Photoshop 6.0.</p><p>The blue-light treatment was performed by irradiating the cells simultaneously with both a 458-nm laser line and 476-nm laser line of an argon laser, excitation beam splitter RSP 500, beam expander 1, and the confocal pinhole size of 1 Airy unit. A single plane of the sample was irradiated for 10 s at 10 &#x000b5;mol m<sup>&#x02212;2</sup> by using 16 line average single scan and 512&#x000d7;512 pixel format with both lines at full power, and the argon laser level around 25&#x00025;. Three regions of interest (ROI's), selected by hand-drawing (Poly tool) the cellular contour in a sample Z-section of the three cells that surround to a given stoma, were used to irradiate simultaneously such cells. Because stomata have an ellipsoidal shape, simple ROI- ellipsoidal scanning (ellipse tool) was used to illuminate simultaneously the two guard cells. Control stomata (referred as dark-adapted neighbours) were irradiated by setting both the 458-nm laser line and 476-nm laser line at 0&#x00025; of available power.</p></sec><sec id="s3d"><title>Light transition measurements</title><p>Blue light (400&#x02013;500 nm) was measured with a fibre optics touching the abaxial face of an Arabidopsis leaf. The fiber optics was connected to a spectroradiometer (Analytical Spectral Devices Field Spec Pro FR) and positioned at 100 &#x000b5;m intervals with a calliper. The partial shade was produced by another Arabidopsis leaf placed 1 cm above the measured leaf. The leaf photograph was taken with a digital camera connected to an optic microscope. All data were collected at sunny middays.</p></sec></sec></body><back><ack><p>We thank W. R. Briggs for providing <italic>phot1-5 phot2-1</italic> double mutant and <italic>PHOT1-GFP</italic> transgenic seeds; J. Doncel for technical advices about blue-light treatment; S. Ver&#x000f3;n, E. Goetz and M. Durante for helping in micro-scale light measurements; and S. Assmann for critically reading the manuscript.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>This work was supported by grants from the Castilla-La Mancha University (to LS, JC and HB), and both the Communities Council of Castilla-La Mancha (PAI-05-058) and the Ministry of Education and Culture of Spain (BIO2005-04493) (to LS). RCC was supported by a Communities Council of Castilla-La Mancha fellowship. HB was supported by a grant from the Castilla-La Mancha University.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000036-Schroeder1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schroeder</surname><given-names>JI</given-names></name><name><surname>Allen</surname><given-names>GJ</given-names></name><name><surname>Hugouvieux</surname><given-names>V</given-names></name><name><surname>Kwak</surname><given-names>JM</given-names></name><name><surname>Waner</surname><given-names>D</given-names></name></person-group>
+<year>2001</year>
+<article-title>Guard cell signal transduction.</article-title>
+<source>Annu Rev Plant Physiol Plant Mol Biol</source>
+<volume>52</volume>
+<fpage>627</fpage>
+<lpage>658</lpage>
+<pub-id pub-id-type="pmid">11337411</pub-id></element-citation></ref><ref id="pone.0000036-Chen1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>M</given-names></name><name><surname>Chory</surname><given-names>J</given-names></name><name><surname>Frankhauser</surname><given-names>C</given-names></name></person-group>
+<year>2004</year>
+<article-title>Light signal transduction in higher plants.</article-title>
+<source>Annu Rev Genet</source>
+<volume>38</volume>
+<fpage>87</fpage>
+<lpage>117</lpage>
+<pub-id pub-id-type="pmid">15568973</pub-id></element-citation></ref><ref id="pone.0000036-Fan1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fan</surname><given-names>L-M</given-names></name><name><surname>Zhao</surname><given-names>Z</given-names></name><name><surname>Assmann</surname><given-names>SM</given-names></name></person-group>
+<year>2004</year>
+<article-title>Guard cells: a dynamic signalling model.</article-title>
+<source>Curr Opin Plant Biol</source>
+<volume>7</volume>
+<fpage>537</fpage>
+<lpage>546</lpage>
+<pub-id pub-id-type="pmid">15337096</pub-id></element-citation></ref><ref id="pone.0000036-Kinoshita1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kinoshita</surname><given-names>T</given-names></name><name><surname>Doi</surname><given-names>M</given-names></name><name><surname>Suetsugu</surname><given-names>N</given-names></name><name><surname>Kagawa</surname><given-names>T</given-names></name><name><surname>Wada</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>phot1 and phot2 mediate blue light regulation of stomatal opening.</article-title>
+<source>Nature</source>
+<volume>414</volume>
+<fpage>656</fpage>
+<lpage>660</lpage>
+<pub-id pub-id-type="pmid">11740564</pub-id></element-citation></ref><ref id="pone.0000036-Talbott1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Talbott</surname><given-names>LD</given-names></name><name><surname>Nikolova</surname><given-names>G</given-names></name><name><surname>Ortiz</surname><given-names>A</given-names></name><name><surname>Shmayevich</surname><given-names>I</given-names></name><name><surname>Zeiger</surname><given-names>E</given-names></name></person-group>
+<year>2002</year>
+<article-title>Green light reversal of blue-light-stimulated stomatal opening is found in a diversity of plant species.</article-title>
+<source>Am J Bot</source>
+<volume>89</volume>
+<fpage>366</fpage>
+<lpage>368</lpage>
+<pub-id pub-id-type="pmid">21669746</pub-id></element-citation></ref><ref id="pone.0000036-Mao1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mao</surname><given-names>J</given-names></name><name><surname>Zhang</surname><given-names>Y-C</given-names></name><name><surname>Sang</surname><given-names>Y</given-names></name><name><surname>Li</surname><given-names>Q-H</given-names></name><name><surname>Yang</surname><given-names>H-Q</given-names></name></person-group>
+<year>2005</year>
+<article-title>A role for <italic>Arabidopsis</italic> cryptochromes and COP1 in the regulation of stomatal opening.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>102</volume>
+<fpage>12270</fpage>
+<lpage>12275</lpage>
+<pub-id pub-id-type="pmid">16093319</pub-id></element-citation></ref><ref id="pone.0000036-Huala1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huala</surname><given-names>E</given-names></name><name><surname>Oeller</surname><given-names>PW</given-names></name><name><surname>Liscum</surname><given-names>E</given-names></name><name><surname>Han</surname><given-names>IS</given-names></name><name><surname>Larsen</surname><given-names>E</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Arabidopsis NPH1: A protein kinase with a putative redox-sensing domain.</article-title>
+<source>Science</source>
+<volume>278</volume>
+<fpage>2121</fpage>
+<lpage>2123</lpage>
+</element-citation></ref><ref id="pone.0000036-Kagawa1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kagawa</surname><given-names>T</given-names></name><name><surname>Sakai</surname><given-names>T</given-names></name><name><surname>Suetsugu</surname><given-names>N</given-names></name><name><surname>Oikawa</surname><given-names>K</given-names></name><name><surname>Ishiguro</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>
+<italic>Arabidopsis</italic> NPL1: A phototropin homolog controlling the chloroplast highlight avoidance response.</article-title>
+<source>Science</source>
+<volume>291</volume>
+<fpage>2138</fpage>
+<lpage>2141</lpage>
+<pub-id pub-id-type="pmid">11251116</pub-id></element-citation></ref><ref id="pone.0000036-Karlsson1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karlsson</surname><given-names>PE</given-names></name></person-group>
+<year>1986</year>
+<article-title>Blue light regulation of stomata in wheat seedlings. II. Action spectrum and search for action dichroism.</article-title>
+<source>Physiol Plant</source>
+<volume>66</volume>
+<fpage>207</fpage>
+<lpage>210</lpage>
+</element-citation></ref><ref id="pone.0000036-Sakai1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sakai</surname><given-names>T</given-names></name><name><surname>Kagawa</surname><given-names>T</given-names></name><name><surname>Kasahara</surname><given-names>M</given-names></name><name><surname>Swartz</surname><given-names>TE</given-names></name><name><surname>Christie</surname><given-names>JM</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>
+<italic>Arabidopsis</italic> nph1 and npl1: Blue light receptors that mediate both phototropism and chloroplast relocation.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>98</volume>
+<fpage>6969</fpage>
+<lpage>6974</lpage>
+<pub-id pub-id-type="pmid">11371609</pub-id></element-citation></ref><ref id="pone.0000036-Christie1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Christie</surname><given-names>JM</given-names></name><name><surname>Salomon</surname><given-names>M</given-names></name><name><surname>Nozue</surname><given-names>K</given-names></name><name><surname>Wada</surname><given-names>M</given-names></name><name><surname>Briggs</surname><given-names>WR</given-names></name></person-group>
+<year>1999</year>
+<article-title>LOV (light, oxygen, voltage) domains of the blue-light photoreceptor phototropin (nph1): Binding sites for the chromophore flavin mononucleotide.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>96</volume>
+<fpage>8779</fpage>
+<lpage>8783</lpage>
+<pub-id pub-id-type="pmid">10411952</pub-id></element-citation></ref><ref id="pone.0000036-Eisinger1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eisinger</surname><given-names>W</given-names></name><name><surname>Swartz</surname><given-names>TE</given-names></name><name><surname>Bogomolni</surname><given-names>RA</given-names></name><name><surname>Taiz</surname><given-names>L</given-names></name></person-group>
+<year>2000</year>
+<article-title>The ultraviolet action spectrum for stomatal opening in broad bean.</article-title>
+<source>Plant Physiol</source>
+<volume>122</volume>
+<fpage>99</fpage>
+<lpage>105</lpage>
+<pub-id pub-id-type="pmid">10631253</pub-id></element-citation></ref><ref id="pone.0000036-Gallagher1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gallagher</surname><given-names>S</given-names></name><name><surname>Short</surname><given-names>TW</given-names></name><name><surname>Ray</surname><given-names>PM</given-names></name><name><surname>Pratt</surname><given-names>LH</given-names></name><name><surname>Briggs</surname><given-names>WR</given-names></name></person-group>
+<year>1988</year>
+<article-title>Light-mediated changes in two proteins found associated with plasma membrane fractions from pea stem sections.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>85</volume>
+<fpage>8003</fpage>
+<lpage>8007</lpage>
+<pub-id pub-id-type="pmid">16593988</pub-id></element-citation></ref><ref id="pone.0000036-Hager1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hager</surname><given-names>A</given-names></name><name><surname>Brich</surname><given-names>M</given-names></name></person-group>
+<year>1993</year>
+<article-title>Blue-light-induced phosphorylation of a plasma-membrane protein from phototropically sensitive tips of maize coleoptiles.</article-title>
+<source>Planta</source>
+<volume>189</volume>
+<fpage>567</fpage>
+<lpage>576</lpage>
+</element-citation></ref><ref id="pone.0000036-Palmer1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Palmer</surname><given-names>JM</given-names></name><name><surname>Short</surname><given-names>TW</given-names></name><name><surname>Gallagher</surname><given-names>S</given-names></name><name><surname>Briggs</surname><given-names>WR</given-names></name></person-group>
+<year>1993</year>
+<article-title>Blue light-induced phosphorylation of a plasma membrane-associated protein in <italic>Zea mays</italic> L.</article-title>
+<source>Plant Physiol</source>
+<volume>102</volume>
+<fpage>1211</fpage>
+<lpage>1218</lpage>
+<pub-id pub-id-type="pmid">12231896</pub-id></element-citation></ref><ref id="pone.0000036-Short1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Short</surname><given-names>TW</given-names></name><name><surname>Reymond</surname><given-names>P</given-names></name><name><surname>Briggs</surname><given-names>WR</given-names></name></person-group>
+<year>1993</year>
+<article-title>A pea plasma membrane protein exhibiting blue light-induced phosphorylation retains photosensitivity following Triton solubilization.</article-title>
+<source>Plant Physiol</source>
+<volume>101</volume>
+<fpage>647</fpage>
+<lpage>655</lpage>
+<pub-id pub-id-type="pmid">12231721</pub-id></element-citation></ref><ref id="pone.0000036-Salomon1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Salomon</surname><given-names>M</given-names></name><name><surname>Zacherl</surname><given-names>M</given-names></name><name><surname>R&#x000fc;diger</surname><given-names>W</given-names></name></person-group>
+<year>1996</year>
+<article-title>Changes in blue-light-dependent protein phosphorylation during the early development of etiolated seedlings.</article-title>
+<source>Planta</source>
+<volume>199</volume>
+<fpage>336</fpage>
+<lpage>342</lpage>
+<pub-id pub-id-type="pmid">11541069</pub-id></element-citation></ref><ref id="pone.0000036-Sharma1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sharma</surname><given-names>VK</given-names></name><name><surname>Jain</surname><given-names>PK</given-names></name><name><surname>Maheshwari</surname><given-names>S</given-names></name><name><surname>Khurana</surname><given-names>JP</given-names></name></person-group>
+<year>1997</year>
+<article-title>Rapid blue-light-induced phosphorylation of plasma-membrane-associated proteins in wheat.</article-title>
+<source>Phytochemistry</source>
+<volume>44</volume>
+<fpage>775</fpage>
+<lpage>780</lpage>
+</element-citation></ref><ref id="pone.0000036-Sakamoto1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sakamoto</surname><given-names>K</given-names></name><name><surname>Briggs</surname><given-names>WR</given-names></name></person-group>
+<year>2002</year>
+<article-title>Cellular and subcellular localization of phototropin 1.</article-title>
+<source>Plant Cell</source>
+<volume>14</volume>
+<fpage>1723</fpage>
+<lpage>1735</lpage>
+<pub-id pub-id-type="pmid">12172018</pub-id></element-citation></ref><ref id="pone.0000036-Kong1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kong</surname><given-names>SG</given-names></name><name><surname>Suzuki</surname><given-names>T</given-names></name><name><surname>Tamura</surname><given-names>K</given-names></name><name><surname>Mochizuki</surname><given-names>N</given-names></name><name><surname>Hara-Nishimura</surname><given-names>I</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Blue light-induced association of phototropin 2 with the Golgi apparatus.</article-title>
+<source>Plant J</source>
+<volume>45</volume>
+<fpage>994</fpage>
+<lpage>1005</lpage>
+<pub-id pub-id-type="pmid">16507089</pub-id></element-citation></ref><ref id="pone.0000036-Mott1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mott</surname><given-names>KA</given-names></name><name><surname>Buckley</surname><given-names>TN</given-names></name></person-group>
+<year>2000</year>
+<article-title>Patchy stomatal conductance: emergent collective behaviour of stomata.</article-title>
+<source>Trends Plant Sci</source>
+<volume>5</volume>
+<fpage>258</fpage>
+<lpage>262</lpage>
+<pub-id pub-id-type="pmid">10838617</pub-id></element-citation></ref><ref id="pone.0000036-Hetherington1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hetherington</surname><given-names>AM</given-names></name><name><surname>Woodward</surname><given-names>I</given-names></name></person-group>
+<year>2003</year>
+<article-title>The role of stomata in sensing and driving environmental change.</article-title>
+<source>Nature</source>
+<volume>424</volume>
+<fpage>901</fpage>
+<lpage>908</lpage>
+<pub-id pub-id-type="pmid">12931178</pub-id></element-citation></ref><ref id="pone.0000036-Mott2"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mott</surname><given-names>KA</given-names></name><name><surname>Denne</surname><given-names>F</given-names></name><name><surname>Powell</surname><given-names>J</given-names></name></person-group>
+<year>1997</year>
+<article-title>Interactions among stomata in response to perturbations in humidity.</article-title>
+<source>Plant Cell Environ</source>
+<volume>20</volume>
+<fpage>1098</fpage>
+<lpage>1107</lpage>
+</element-citation></ref><ref id="pone.0000036-Mott3"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mott</surname><given-names>KA</given-names></name><name><surname>Franks</surname><given-names>PJ</given-names></name></person-group>
+<year>2001</year>
+<article-title>The role of epidermal turgor in stomatal interactions following a local perturbation in humidity.</article-title>
+<source>Plant Cell Environ</source>
+<volume>24</volume>
+<fpage>657</fpage>
+<lpage>662</lpage>
+</element-citation></ref><ref id="pone.0000036-Zeiger1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zeiger</surname><given-names>E</given-names></name></person-group>
+<year>1983</year>
+<article-title>Biology of stomatal guard cells.</article-title>
+<source>Annu Rev Plant Physiol</source>
+<volume>34</volume>
+<fpage>441</fpage>
+<lpage>475</lpage>
+</element-citation></ref><ref id="pone.0000036-Zeiger2"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zeiger</surname><given-names>E</given-names></name><name><surname>Hepler</surname><given-names>PK</given-names></name></person-group>
+<year>1977</year>
+<article-title>Light and stomatal function: Blue light stimulates swelling of guard cell protoplasts.</article-title>
+<source>Nature</source>
+<volume>196</volume>
+<fpage>887</fpage>
+<lpage>889</lpage>
+</element-citation></ref><ref id="pone.0000036-Leckie1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leckie</surname><given-names>CP</given-names></name><name><surname>McAinsh</surname><given-names>MR</given-names></name><name><surname>Allen</surname><given-names>GJ</given-names></name><name><surname>Sanders</surname><given-names>D</given-names></name><name><surname>Hetherington</surname><given-names>AM</given-names></name></person-group>
+<year>1998</year>
+<article-title>Abscisic acid-induced stomatal closure mediated by cyclic ADP-ribose.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>95</volume>
+<fpage>15837</fpage>
+<lpage>15842</lpage>
+<pub-id pub-id-type="pmid">9861057</pub-id></element-citation></ref><ref id="pone.0000036-Serna1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Serna</surname><given-names>L</given-names></name><name><surname>Fenoll</surname><given-names>C</given-names></name></person-group>
+<year>2000</year>
+<article-title>Stomatal development and patterning in <italic>Arabidopsis</italic> leaves.</article-title>
+<source>Physiol Plant</source>
+<volume>109</volume>
+<fpage>351</fpage>
+<lpage>358</lpage>
+</element-citation></ref><ref id="pone.0000036-Briggs1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Briggs</surname><given-names>WR</given-names></name><name><surname>Huala</surname><given-names>E</given-names></name></person-group>
+<year>1999</year>
+<article-title>Blue-light receptors in higher plants.</article-title>
+<source>Annu. Rev. Cell Dev Biol</source>
+<volume>15</volume>
+<fpage>33</fpage>
+<lpage>62</lpage>
+<pub-id pub-id-type="pmid">10611956</pub-id></element-citation></ref><ref id="pone.0000036-Briggs2"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Briggs</surname><given-names>WR</given-names></name><name><surname>Christie</surname><given-names>JM</given-names></name></person-group>
+<year>2002</year>
+<article-title>Phototropins 1 and 2: versatile plant blue-light receptors.</article-title>
+<source>Trends Plant Sci</source>
+<volume>7</volume>
+<fpage>204</fpage>
+<lpage>210</lpage>
+<pub-id pub-id-type="pmid">11992825</pub-id></element-citation></ref><ref id="pone.0000036-Talbott2"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Talbott</surname><given-names>LD</given-names></name><name><surname>Shmayevich</surname><given-names>IJ</given-names></name><name><surname>Chung</surname><given-names>Y</given-names></name><name><surname>Hammad</surname><given-names>JW</given-names></name><name><surname>Zeiger</surname><given-names>E</given-names></name></person-group>
+<year>2003</year>
+<article-title>Blue light and phytochrome-mediated stomatal opening in the <italic>npq1</italic> and <italic>phot1 phot2</italic> mutants of Arabidopsis.</article-title>
+<source>Plant Physiol</source>
+<volume>133</volume>
+<fpage>1522</fpage>
+<lpage>1529</lpage>
+<pub-id pub-id-type="pmid">14576287</pub-id></element-citation></ref></ref-list></back></article>

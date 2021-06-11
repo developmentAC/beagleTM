@@ -1,0 +1,503 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183666</article-id><article-id pub-id-type="pmc">1762345</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00136</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000038</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Ophthalmology</subject><subject>Genetics and Genomics/Gene Therapy</subject></subj-group></article-categories><title-group><article-title>Efficient Non-Viral Ocular Gene Transfer with Compacted DNA Nanoparticles</article-title><alt-title alt-title-type="running-head">Non-Viral Ocular Gene Transfer</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Farjo</surname><given-names>Rafal</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Skaggs</surname><given-names>Jeff</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Quiambao</surname><given-names>Alexander B.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Cooper</surname><given-names>Mark J.</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Naash</surname><given-names>Muna I.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution>Department of Cell Biology, University of Oklahoma Health Sciences Center</institution>
+<addr-line>Oklahoma City, Oklahoma, United States of America</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>Copernicus Therapeutics, Inc.</institution>
+<addr-line>Cleveland, Ohio, United States of America</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Zwaka</surname><given-names>Thomas</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Baylor College of Medicine, United States of America</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>muna-naash@ouhsc.edu</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: MN RF. Performed the experiments: RF JS AQ. Analyzed the data: MN RF. Contributed reagents/materials/analysis tools: MC. Wrote the paper: MN RF MC.</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e38</elocation-id><history><date date-type="received"><day>19</day><month>9</month><year>2006</year></date><date date-type="accepted"><day>10</day><month>10</month><year>2006</year></date></history><permissions><copyright-statement>Farjo et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><sec><title>Background</title><p>The eye is an excellent candidate for gene therapy as it is immune privileged and much of the disease-causing genetics are well understood. Towards this goal, we evaluated the efficiency of compacted DNA nanoparticles as a system for non-viral gene transfer to ocular tissues. The compacted DNA nanoparticles examined here have been shown to be safe and effective in a human clinical trial, have no theoretical limitation on plasmid size, do not provoke immune responses, and can be highly concentrated.</p></sec><sec><title>Methods and Findings</title><p>Here we show that these nanoparticles can be targeted to different tissues within the eye by varying the site of injection. Almost all cell types of the eye were capable of transfection by the nanoparticle and produced robust levels of gene expression that were dose-dependent. Most impressively, subretinal delivery of these nanoparticles transfected nearly all of the photoreceptor population and produced expression levels almost equal to that of rod opsin, the highest expressed gene in the retina.</p></sec><sec><title>Conclusions</title><p>As no deleterious effects on retinal function were observed, this treatment strategy appears to be clinically viable and provides a highly efficient non-viral technology to safely deliver and express nucleic acids in the retina and other ocular tissues.</p></sec></abstract><counts><page-count count="8"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>The eye is comprised of several specialized tissues that work together to initiate visual perception in response to photons of light. Any insult to these tissues results in a consequence to vision and an impact on the quality of life for the patient. Both environmental trauma and genetic disorders can cause varying degrees of ocular diseases. Current therapies for ocular disorders are often surgically-based or topical treatments however they often fail to correct the underlying genetic deficit. As the eye is easily accessible and immune-privileged, the use of gene transfer is an attractive therapeutic option for numerous forms of blinding disorders.</p><p>Many disease-causing mutations and their contribution to the pathogenesis of ocular diseases including cataracts, glaucoma, and retinitis pigmentosa have been well characterized <xref rid="pone.0000038-Berry1" ref-type="bibr">[1]</xref>&#x02013;<xref rid="pone.0000038-Molday1" ref-type="bibr">[5]</xref>. In addition, several treatment strategies for overcoming these genetic deficits have been attempted and proven in tissue culture and various animal models <xref rid="pone.0000038-Bennett1" ref-type="bibr">[6]</xref>&#x02013;<xref rid="pone.0000038-Sarra1" ref-type="bibr">[10]</xref>. Many attempts to rescue genetic deficits with viral gene therapy have proven effective in the eye <xref rid="pone.0000038-Rolling1" ref-type="bibr">[11]</xref>&#x02013;<xref rid="pone.0000038-Dinculescu1" ref-type="bibr">[15]</xref>. Perhaps the most encouraging trial has occurred in Briard dogs harboring a naturally occurring mutation in the RPE65 gene, which causes visual impairment similar to Early Onset Severe Retinal Dystrophy in humans <xref rid="pone.0000038-Aguirre1" ref-type="bibr">[16]</xref>, <xref rid="pone.0000038-Marlhens1" ref-type="bibr">[17]</xref>. Bennett and colleagues used adeno-associated virus to express the RPE65 cDNA which restored retinal function and has successfully persisted over 3 years <xref rid="pone.0000038-Acland1" ref-type="bibr">[18]</xref>&#x02013;<xref rid="pone.0000038-Narfstrom1" ref-type="bibr">[20]</xref>. Although viral vectors also have been successful in alleviating hereditary retinal degeneration in mice <xref rid="pone.0000038-Bennett2" ref-type="bibr">[12]</xref>, <xref rid="pone.0000038-Hong1" ref-type="bibr">[21]</xref>, they can be limited by cell tropism, the size of the expression cassette to be transferred, and host immunity to repeat infections <xref rid="pone.0000038-Thomas1" ref-type="bibr">[22]</xref>, <xref rid="pone.0000038-Halbert1" ref-type="bibr">[23]</xref>. Additionally, concerns regarding the safety of using viral vectors in human patients have been raised and some trials have resulted in oncogenesis or even mortality <xref rid="pone.0000038-Thomas1" ref-type="bibr">[22]</xref>, <xref rid="pone.0000038-Ott1" ref-type="bibr">[24]</xref>&#x02013;<xref rid="pone.0000038-Raper1" ref-type="bibr">[26]</xref>.</p><p>Towards the mission of the NIH roadmap for nanomedicine and to identify a complementary approach for gene transfer, we examined the feasibility of using compacted DNA nanoparticles as an efficacious platform for non-viral gene transfer to the eye. These nanoparticles consist of a neutrally-charged complex containing a single molecule of plasmid DNA compacted with polyethylene glycol (PEG)-substituted lysine peptides <xref rid="pone.0000038-Liu1" ref-type="bibr">[27]</xref>. These complexes are stable in saline and serum, can efficiently transfect post-mitotic airway cells following in vivo delivery, are non-toxic following lung delivery, and can be repetitively dosed without decrement in biologic activity <xref rid="pone.0000038-Liu1" ref-type="bibr">[27]</xref>&#x02013;<xref rid="pone.0000038-Ziady2" ref-type="bibr">[29]</xref>. The size of the expression cassette does not appear to be a limiting factor as plasmids up to 20 kbp have demonstrated cellular transfection and gene transfer <xref rid="pone.0000038-Fink1" ref-type="bibr">[30]</xref>. Varying the counterion at the time of compaction can lead to different 3-dimensional shapes of the nanoparticles which can facilitate the development of customized nanoparticles to transfect a multitude of cell types <xref rid="pone.0000038-Kowalczyk1" ref-type="bibr">[31]</xref>. Clinical studies also have demonstrated the safety and effectiveness of this system in human subjects <xref rid="pone.0000038-Konstan1" ref-type="bibr">[32]</xref>. In this study, we demonstrate that the use of compacted DNA nanoparticles is an effective and robust platform for gene transfer to various tissues of the eye. Varying the site of injection and type of nanoparticle resulted in cell-specific transfection. Furthermore, altering the dose of the injected nanoparticles can allow fine-tuning to the correct level of gene expression needed for the therapeutic gene. This gene delivery approach appears to be an excellent strategy for gene transfer to ocular tissues.</p></sec><sec id="s2"><title>Methods</title><sec id="s2a"><title>Plasmid</title><p>pZEEGFP5.1 (5,147 bp) encodes the enhanced green fluorescent protein cDNA transcriptionally-controlled by the CMV immediate-early promoter and enhancer, as previously described <xref rid="pone.0000038-Liu2" ref-type="bibr">[33]</xref>.</p></sec><sec id="s2b"><title>Nanoparticle Formulation</title><p>DNA nanoparticles were formulated by mixing plasmid DNA with CK<sub>30</sub>PEG10K, a 30-mer lysine peptide with an N-terminal cysteine that is conjugated via a maleimide linkage to 10 kDa polyethylene glycol, as previously described <xref rid="pone.0000038-Ziady2" ref-type="bibr">[29]</xref>. Nanoparticles were concentrated up to 4 mg/ml of DNA in saline.</p></sec><sec id="s2c"><title>Mice</title><p>All experiments and animal maintenance were approved by the local Institutional Animal Care and Use Committee (Oklahoma City, OK, U.S.A.) and conformed to the guidelines on the care and use of animals adopted by the Society for Neuroscience and the Association for Research in Vision and Ophthalmology (Rockville, MD, U.S.A.). Balb/cJ mice were obtained from Jackson Labs (<ext-link ext-link-type="uri" xlink:href="http://www.jax.org">www.jax.org</ext-link>) and used for all experiments.</p></sec><sec id="s2d"><title>Quantitative RT-PCR</title><p>qRT-PCR was performed as previously described <xref rid="pone.0000038-Farjo1" ref-type="bibr">[34]</xref>. Briefly, total RNA was extracted from the tissue of a single eye using Trizol reagent (<italic>Invitrogen Inc.</italic>) and then DNAse treated with RNAse-free-DNAse I (<italic>Promega Inc.</italic>). Incubation of 5 U DNAse/ug RNA was carried out at 37&#x000b0; for 1hr, as these excessive conditions were needed to eliminate any isolated nanoparticles that could skew downstream qRT-PCR analyses. Reaction cleanup was performed using an RNeasy mini kit (<italic>Qiagen Inc.</italic>). Reverse transcription was performed using an oligo-dT primer and Superscript III reverse transcriptase (<italic>Invitrogen Inc.</italic>). To ensure the complete removal of nanoparticles, PCR was performed on all cDNA samples using primers (CMV-F1/CMV-R1) to amplify a region of the CMV promoter as this region would only be amplified due to the presence of contaminating nanoparticle or plasmid DNA. Amplification was only detected in positive control samples of pure nanoparticle DNA, demonstrating sufficient removal of nanoparticle contamination from isolated RNA samples. qRT-PCR was performed in triplicate on each cDNA sample using an iCycler (<italic>Bio-Rad Inc.</italic>) and <italic>&#x00394;</italic>cT values were calculated against the neuronal housekeeping gene hypoxanthine phosphoribosyltransferase (<italic>Hprt</italic>). <italic>Hprt</italic> was assigned an arbitrary expression level of 10,000 and relative gene expression values were calculated by the following calculation: Relative Expression &#x0200a;=&#x0200a;10,000/2<sup>&#x00394;cT</sup>, where <italic>&#x00394;</italic>cT&#x0200a;=&#x0200a;(<italic>Gene</italic> cT&#x02212;<italic>Hprt</italic> cT). This was repeated with 4 independent samples for each experimental group and the mean expression value is presented with the standard deviation. Agarose gel electrophoresis and disassociation curve analysis were performed on all PCR products to confirm proper amplification. Primer sequences were: HPRT-F: GCAAACTTTGCTTTCCCTGGTT; HPRT-R: CAAGGGCATATCCAACAACA; CMV-F1: AACGCCAATAGGGACTTTCC; CMV-R1: TATCCACGCCCATTGATGTA; EGFP-F: CACATGAAGCAGCACGACTT; EGFP-R: AGTTCACCTTGATGCCGTTC; RHO-F: TCACCACCACCCTCTACACA; RHO-R: TAGTCAATCCCGCATGAACA; SAG-F: CCCTCTCGTGACTTCTCTGG; SAG-R: CTTCCCCTTCACAAGCTCAG; GNAT1-F: GAGGATGCTGAGAAGGATGC; GNAT1-R: GACATGTCCTTGGGCATTGT; RDS-F:GTTCAAGTGCTGTGGGAACA; RDS-R: CTGTGTGGAGGTAGCGGAGT.</p></sec><sec id="s2e"><title>Fluorescence Microscopy</title><p>Tissue fixation and sectioning were performed as previously described <xref rid="pone.0000038-Nour1" ref-type="bibr">[35]</xref>. Briefly, eyes from mice at 2-days post-injection were enucleated and fixed in 4&#x00025; paraformaldehyde/PBS for 16 hr at 4&#x000b0;C prior to embedding in OCT media and subsequent freezing of the block. Tissue sections (10 &#x000b5;m thickness) were cut with a microtome and vectashield with DAPI (<italic>Vector Laboratories Inc.</italic>) was applied prior to coverslipping. Sections were viewed at room temperature with an Axioskop 50 (<italic>Carl Zeiss Inc.</italic>) in the autoexpose mode using a &#x000d7;20, &#x000d7;40, or &#x000d7;63 objective. Images were captured with an Axiocam HR digital camera (<italic>Carl Zeiss Inc.</italic>) using Axiovision 3.1 software (<italic>Carl Zeiss Inc.</italic>). Panels labeled &#x0201c;FITC&#x0201d; represent images captured of native GFP fluorescence in the 500&#x02013;60 nm wavelength when cryosections were subjected to excitation at 485 nm.</p></sec><sec id="s2f"><title>Immunohistochemistry</title><p>Tissue fixation and sectioning were performed as previously described <xref rid="pone.0000038-Farjo1" ref-type="bibr">[34]</xref>. Briefly, eyes from mice at 2 days post-injection were enucleated and fixed in 4&#x00025; paraformaldehyde/PBS for 16 h 4&#x000b0;C prior to paraffin embedding. Tissue sections (10 &#x000b5;m thickness) were deparaffinized, rehydrated, and blocked in 5&#x00025; BSA/PBS for 30 min at room temperature (RT). Slides were briefly washed with PBS and incubated with anti-GFP (Molecular Probes Inc.) at 1&#x02236;1000 in 1&#x000d7; BSA/PBS for 2 h at RT. Following a brief washing in PBS, vectashield with DAPI (<italic>Vector Laboratories Inc.</italic>) was applied and the slide was coverslipped. Sections were viewed at room temperature with an Axioskop 50 (<italic>Carl Zeiss Inc.</italic>) in the autoexpose mode using a &#x000d7;20, &#x000d7;40, or &#x000d7;63 objective. Images were captured with an Axiocam HR digital camera (<italic>Carl Zeiss Inc.</italic>) using Axiovision 3.1 software (<italic>Carl Zeiss Inc.</italic>).</p></sec><sec id="s2g"><title>Electroretinography</title><p>Subretinal injection of 1 &#x000b5;L Saline (0.9&#x00025;), naked plasmid (0.6 &#x000b5;g), AC-GFP (0.6 &#x000b5;g), or TFA-GFP (0.6 &#x000b5;g) was performed. At 7 days post-injection, ERG analyses were performed as previously described <xref rid="pone.0000038-Farjo1" ref-type="bibr">[34]</xref>. For the assessment of scotopic response, a stimulus intensity of 1.89 log cd s m<sup>&#x02212;2</sup> was presented to the dark-adapted, dilated eyes in a Ganzfeld (model GS-2000; Nicolet). To evaluate photopic response, animals were light adapted for 5 minutes under a light source of 1.46 log cd m<sup>&#x02212;2</sup> intensity, and a strobe flash was presented to the dilated eyes in the Ganzfeld with a stimulus intensity of 1.89 log cd s m<sup>&#x02212;2</sup>. Significance was determined using one-way analysis of variance (ANOVA) and post-hoc tests using Bonferroni's pair-wise comparisons (Prism, ver. 3.02; GraphPad, San Diego, CA).</p></sec><sec id="s2h"><title>Electron Microscopy</title><p>Electron micrographs were prepared using carbon-coated electron microscope grids (<italic>Ted Pella</italic>) and counterstained with uranyl acetate, as previously described <xref rid="pone.0000038-Liu2" ref-type="bibr">[33]</xref>.</p></sec></sec><sec id="s3"><title>Results</title><p>To determine the utility of these nanoparticles in ocular gene therapy, we conducted a set of proof-of-principle experiments using a plasmid to express enhanced green fluorescent protein (EGFP) driven by the cytomegalovirus (CMV) promoter (pZEGFP5.1). We also chose to examine two different nanoparticle formulations generated by the presence of either acetate (AC) or trifluoroacetate (TFA) as the lysine amine counterion at the time of DNA compaction. The TFA particles are ellipsoids and short rods while the AC particles form longer rod-like structures (<xref ref-type="fig" rid="pone-0000038-g001">Fig 1</xref>). In both cases, the minor diameter of each particle is less than the 25 nm nuclear membrane pore, facilitating uptake into the nucleus <xref rid="pone.0000038-Ziady2" ref-type="bibr">[29]</xref>. Furthermore, to target different ocular tissues, we varied the site of ocular injection between the intravitreal space and subretinal space as we hypothesized that the area of delivery may cause different cell types to express EGFP. For every mouse, only one eye was injected while the contra-lateral eye was mock-injected to serve as a control.</p><fig id="pone-0000038-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000038.g001</object-id><label>Figure 1</label><caption><title>Differential shape of the trifluoroacetate (TFA) and acetate (AC) nanoparticles as visualized by electron microscopy.</title><p>During compaction of the EGFP expression plasmid, the presence of TFA as the lysine counterion produces ellipsoidal nanoparticles with a minor diameter &#x0003c;18 nm whereas acetate produces rods with a minor diameter &#x0003c;8 nm.</p><p>Scale bar, 100 nM.</p></caption><graphic xlink:href="pone.0000038.g001"/></fig><p>Intravitreal injections of 1 &#x000b5;L of 0.6 &#x000b5;g/&#x000b5;L AC-GFP, TFA-GFP, or naked plasmid DNA were performed in adult Balb/c mice and evaluated by quantitative RT-PCR (qRT-PCR) for EGFP expression at 2 days post-injection. Following euthanasia, the lens and retina were individually separated from the retinal pigment epithelium, choroid, and sclera (PECS). Expression analysis demonstrated that both the AC-GFP and TFA-GFP nanoparticles were capable of promoting high levels of EGFP expression in the lens after intravitreal injection (<xref ref-type="fig" rid="pone-0000038-g002">Fig 2</xref>). Substantial expression of EGFP was also detected in the PECS and retina following intravitreal injection, albeit at levels multi-fold lower than that observed in the lens. Delivery of the naked plasmid generated minimal levels of EGFP expression and no expression was detected in the mock injected samples.</p><fig id="pone-0000038-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000038.g002</object-id><label>Figure 2</label><caption><title>Ocular expression levels of EGFP mRNA after intravitreal injection.</title><p>At 2 days post-intravitreal injection of 0.6 &#x000b5;g of compacted DNA, the lens, pigment epithelium/choroid/sclera (PECS), and retina were isolated.</p><p>qRT-PCR was used to assess EGFP mRNA levels and normalized to the neuronal housekeeping gene HPRT.</p><p>Both the AC-GFP and TFA-GFP nanoparticles produced substantial expression of EGFP in the lens as compared to the naked plasmid control.</p><p>In the PECS (A) and retina (B), both nanoparticles produced EGFP mRNA at levels several fold higher than naked plasmid.</p><p>No expression of EGFP was detected in any of the mock-injected samples.</p></caption><graphic xlink:href="pone.0000038.g002"/></fig><p>To determine which cells were transfected after intravitreal injection, direct fluorescence microscopy was performed on ocular cryosections at 2-days post injection. The mock- and naked plasmid-injected eyes showed fluorescence in the FITC channel throughout the outer segment (OS) layer of the retina (<xref ref-type="fig" rid="pone-0000038-g003">Fig 3a</xref>). This observation is common in the FITC channel of retinal cryosections as the photoreceptor OSs are packed tightly with the opsin protein which causes this natural autofluorescence <xref rid="pone.0000038-Martin1" ref-type="bibr">[36]</xref>&#x02013;<xref rid="pone.0000038-Bennett3" ref-type="bibr">[38]</xref>. No other fluorescent signal was observed in the mock- or naked plasmid-injected eyes except in the OS. Examination of the eyes injected with TFA-GFP and AC-GFP nanoparticles showed a fluorescent signal in the inner plexiform layer for TFA-GFP and in retinal ganglion cells (RGCs) for both particles (<xref ref-type="fig" rid="pone-0000038-g003">Fig 3b</xref>). Substantial EGFP fluorescence was also detected in the lens, cornea, and trabecular meshwork (<xref ref-type="fig" rid="pone-0000038-g003">Fig 3c</xref>), consistent with the qRT-PCR findings.</p><fig id="pone-0000038-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000038.g003</object-id><label>Figure 3</label><caption><title>EGFP localization in ocular tissues following intravitreal injection.</title><p>Direct fluorescence microscopy was utilized to localize EGFP expression in ocular tissues at 2-days post-injection of 0.6 &#x000b5;g of compacted DNA.</p><p>(<bold>A</bold>) Retinal autofluorescence was present in the outer segment of all samples including mock- and naked plasmid-injected eyes, however EGFP fluorescence was detected in the GCL of both the AC-GFP and TFA-GFP injected eyes.</p><p>(<bold>B</bold>) Upon examination at higher magnification, EGFP expression was confined to the GCL in the AC-GFP-injected eyes, and present in the GCL and IPL of TFA-GFP-injected eyes.</p><p>(<bold>C</bold>) Expression of EGFP was also detected in the cornea, trabecular meshwork, and lens following intravitreal injection of both TFA and AC nanoparticles (only AC shown).</p><p>&#x0201c;FITC&#x0201d; channel imaging was performed as described in the <xref ref-type="sec" rid="s2">Methods Section</xref>.</p><p>OS: Outer Segment; ONL: Outer Nuclear Layer; INL: Inner Nuclear Layer; IPL: Inner Plexiform Layer; GCL: Ganglion Cell Layer; CO: Cornea; TM: Trabecular Meshwork; LE: Lens.</p><p>Scale bars, 10 &#x000b5;M.</p></caption><graphic xlink:href="pone.0000038.g003"/></fig><p>To target nanoparticle driven expression of EGFP in the photoreceptors and RPE, we delivered 1 &#x000b5;L of AC-GFP, TFA-GFP, or naked plasmid to the retina by a subretinal injection. Our laboratory has previously demonstrated this method is capable of delivering material to over 90&#x00025; of the photoreceptor cells <xref rid="pone.0000038-Nour2" ref-type="bibr">[39]</xref>. After 2-days post-injection, ocular tissues were isolated as described above and examined for EGFP mRNA expression by qRT-PCR (<xref ref-type="fig" rid="pone-0000038-g004">Fig 4</xref>). Subretinal injection of AC-GFP and TFA-GFP was extremely effective in producing EGFP expression in the PECS and retina. Levels of EGFP after AC-GFP delivery were 2-fold higher in the PECS and 1.5-fold higher in the retina. Expression of EGFP after subretinal injection of naked plasmid was minimal or completely absent in the mock-injected controls. Surprisingly, EGFP expression was detected in the lens after subretinal injection of AC-GFP but only nominal levels were achieved with injection of TFA-GFP. This finding may also be indicative of the amount of reflux into the vitreous during the subretinal injection procedure as the standard deviation associated with this measurement is quite high.</p><fig id="pone-0000038-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000038.g004</object-id><label>Figure 4</label><caption><title>Ocular expression levels of EGFP mRNA after subretinal injection.</title><p>At 2-days post-subretinal injection of 0.6 &#x000b5;g of compacted DNA, the lens, PECS, and retina were isolated, and qRT-PCR was used to assess EGFP mRNA levels.</p><p>Both the AC-GFP and TFA-GFP nanoparticles produced substantial expression in the PECS and retina.</p><p>In both tissues, the AC-GFP nanoparticle generated EGFP mRNA levels nearly 2-fold higher than the TFA-GFP nanoparticle.</p><p>EGFP expression was also observed in the lens; however there was significant deviation between samples, possibly reflecting the amount of nanoparticle reflux into the vitreous because of back-pressure during syringe withdrawal following some of the subretinal injection procedures.</p></caption><graphic xlink:href="pone.0000038.g004"/></fig><p>Direct fluorescence microscopy was performed on cryosectioned eyes after 2-days post-injection to localize expression throughout the retina. As in the intravitreal samples, retinal autofluorescence was detected throughout the OS layer in both mock and naked plasmid injected samples (<xref ref-type="fig" rid="pone-0000038-g005">Fig 5a</xref>). Eyes injected with AC-GFP displayed EGFP expression throughout the outer nuclear layer (ONL), indicative of the uptake and expression of the nanoparticle-delivered plasmid to the photoreceptors. These sections also showed nominal levels of EGFP fluorescence in the RPE and choroid. The TFA-GFP nanoparticles appeared to confer substantial levels of EGFP expression throughout the RPE and sparse expression in the ONL. In several cryosections of eyes subretinally injected with AC-GFP, EGFP fluorescence was observed throughout the optic nerve (<xref ref-type="fig" rid="pone-0000038-g005">Fig 5b</xref>). However no fluorescence was detected in brain sections following subretinal injection and this expression was not observed in TFA-GFP injected eyes (data not shown).</p><fig id="pone-0000038-g005" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000038.g005</object-id><label>Figure 5</label><caption><title>EGFP localization in ocular tissues following subretinal injection.</title><p>Direct fluorescence microscopy was utilized to localize EGFP expression in ocular tissues at 2-days post-injection of 0.6 &#x000b5;g of compacted DNA.</p><p>(<bold>A</bold>) EGFP fluorescence was detected in the ONL and RPE of eyes injected with the AC-GFP and TFA-GFP nanoparticles, respectively.</p><p>(<bold>B</bold>) EGFP was also detected within the optic nerve (asterisks) and the extraocular muscles following injection of the AC-GFP nanoparticle.</p><p>Scale bars, 10 &#x000b5;M.</p></caption><graphic xlink:href="pone.0000038.g005"/></fig><p>To avoid retinal autofluorescence and specifically determine the retinal cell types expressing EGFP after subretinal injection, we performed immunofluorescence microscopy using a Cy-3 conjugated antibody against EGFP (<xref ref-type="fig" rid="pone-0000038-g006">Fig 6</xref>). EGFP immunoreactivity was absent in the mock injected controls and showed modest labeling of photoreceptors and RPE cells in the naked plasmid injected samples. However, strong labeling was observed in the AC-GFP injected eyes throughout the entire photoreceptor population. Furthermore, labeling was also present in the RPE and inner nuclear layer (INL). No migration of immune cells into the eye was observed in any sections examined (data not shown). To further determine whether exposure to nanoparticles was toxic to retinal cells, we performed subretinal injections of saline, naked plasmid, AC-GFP, or TFA-GFP and assessed retinal function by electroretinography (ERG) at 7 and 30 days post-injection (<xref ref-type="fig" rid="pone-0000038-g007">Fig 7</xref>). If these nanoparticles induced toxicity, the resultant loss of cell viability and number should be apparent when retinal function is assessed. At 7 days post-injection, a reduction in scotopic a- and b-wave as well as in photopic b-wave amplitudes was detected in all samples when compared to uninjected WT mice (<xref ref-type="fig" rid="pone-0000038-g007">Fig 7a</xref>). This decrease in retinal function following subretinal injection is consistent with our previous observation and reflects the diminished photransduction potential as a consequence of retinal detachment from the RPE<xref rid="pone.0000038-Nour2" ref-type="bibr">[39]</xref>. However, among the injected samples, no significant difference was observed in ERG amplitudes between saline-, naked plasmid-, AC-GFP-, and TFA-GFP-injected samples. By 30 days post-injection, no significant difference in scotopic and photopic amplitudes was detected between WT and any of the injected eyes (<xref ref-type="fig" rid="pone-0000038-g007">Fig 7b</xref>). This demonstrates that the compacted DNA nanoparticles have no deleterious effect on the function of photoreceptors or their associated neurons and further confirms the lack of an infiltrating immune response as this would have caused a loss of retinal cells followed by reduction in ERG amplitudes.</p><fig id="pone-0000038-g006" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000038.g006</object-id><label>Figure 6</label><caption><title>EGFP immunoreactivity following subretinal injection.</title><p>To eliminate any artifacts due to retinal autofluorescence, immunohistochemistry was performed with a Cy-3-anti-GFP antibody on paraffin-embedded ocular sections from eyes taken at 2-days post-injection of 0.6 &#x000b5;g of compacted DNA.</p><p>An absence of or minimal EGFP immunoreactivity was found in the mock-injected and naked plasmid-injected eyes, respectively.</p><p>Examination of sections from eyes injected with the AC-GFP nanoparticle revealed high-level EGFP immunoreactivity in nearly all of the cells in the ONL.</p><p>Lower levels of EGFP were also detected within the upper half of the INL.</p><p>Scale bar, 10 &#x000b5;M.</p></caption><graphic xlink:href="pone.0000038.g006"/></fig><fig id="pone-0000038-g007" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000038.g007</object-id><label>Figure 7</label><caption><title>Assessment of retinal function following subretinal injection.</title><p>ERG analyses were performed in adult Balb/c mice (n&#x0200a;=&#x0200a;4) after 7 and 30 days following subretinal delivery of 1 uL saline, naked plasmid, AC-GFP, or TFA-GFP and compared to uninjected controls (UN).</p><p>To assess rod photoreceptor function and signal transmission <bold>s</bold>cotopic ERG was performed on dark-adapted mice and photopic ERG was performed light-adapted mice to assess cone photoreceptor function.</p><p>
+<bold>(A)</bold> At 7 days post-injection, a significant decrease from WT amplitudes was observed in all injected eyes (p&#x0003c;0.05) as an immediate consequence of the injection procedure and subsequent retinal detachment, however there was no significant difference among any of the experimental groups (p&#x0003e;0.05) in the scotopic and photopic amplitudes.</p><p>
+<bold>(B)</bold> By 30 days post-injection, no significant difference in scotopic and photopic amplitudes was observed between WT and injected groups (p&#x0003e;0.05), demonstrating the lack of toxicity associated with nanoparticle-transfection in photoreceptors.</p><p>Significance was determined with ANOVA and Bonferroni's pair-wise comparison test.</p></caption><graphic xlink:href="pone.0000038.g007"/></fig><p>As different genetic deficits or diseases could require differential levels of gene transfer, we investigated whether nanoparticle transfection could be titrated based upon the dose of DNA delivered. We performed subretinal injection of multiple dilutions of the AC-GFP nanoparticles and assessed retinal expression by qRT-PCR (<xref ref-type="fig" rid="pone-0000038-g008">Fig 8</xref>). A distinct correlation was observed between the dose of the nanoparticles injected and the level of retinal transgene expression. We also assessed mRNA levels of several photoreceptor genes that are mutated in human retinal dystrophies to put the levels of EGFP expression into context. We observed that several of the doses tested gave levels of mRNA expression nearly equal to that of the photoreceptor genes examined. These data demonstrate that the dose of compacted DNA nanoparticles can be effectively titrated to obtain desired levels of transgene expression, even comparable to the level of endogenous rhodopsin mRNA.</p><fig id="pone-0000038-g008" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000038.g008</object-id><label>Figure 8</label><caption><title>Dose-response of EGFP mRNA levels to increasing amounts of nanoparticle DNA following subretinal injection.</title><p>Multiple doses of the AC-GFP nanoparticles were diluted in saline and delivered via subretinal injection.</p><p>qRT-PCR was then performed to assess EGFP mRNA levels in relation to photoreceptor-specific genes.</p><p>An increasing trend of EGFP mRNA was detected in response to increasing levels of nanoparticle DNA delivered.</p><p>At the highest dose of 4 &#x000b5;g of DNA, the levels of EGFP were nearly 88&#x00025; of rod opsin mRNA.</p><p>Lesser doses achieved expression levels near other photoreceptor-specific genes involved in blinding diseases.</p><p>Rho: Rhodopsin; Sag: S-Antigen (Arrestin); Gnat1: Guanine Nucleotide Binding Protein, Alpha Transducing 1; Rds: Retinal Degeneration Slow</p></caption><graphic xlink:href="pone.0000038.g008"/></fig></sec><sec id="s4"><title>Discussion</title><p>Herein we have demonstrated that compacted DNA nanoparticles represent a safe and feasible means of gene transfer to various cell types of the eye. High levels of gene expression were documented in the retina, RPE, RGC, INL, and lens and there was no evidence of cellular infiltration or inflammation. We focused on characterizing the effects of gene transfer at 2-days post-injection as this was the peak of reporter gene expression we observed and the CMV promoter used is known to be silenced as early as 1 to 2 days post-transfection <xref rid="pone.0000038-Bauer1" ref-type="bibr">[40]</xref>&#x02013;<xref rid="pone.0000038-Chen2" ref-type="bibr">[42]</xref>. Although the data here did not examine longevity, other studies our laboratory using different plasmid elements has resulted in an expression duration of several months <xref rid="pone.0000038-Naash1" ref-type="bibr">[43]</xref>. Another study demonstrated the efficacy and safety of this methodology in human subjects <xref rid="pone.0000038-Konstan1" ref-type="bibr">[32]</xref>. This system therefore provides a safe and effective strategy for gene therapy to correct multiple ocular diseases.</p><p>Intravitreal injection of the two types of nanoparticles tested drove strong expression of our reporter gene in the inner retina and in ocular tissues near the vitreous. The levels of EGFP mRNA in the lens were relatively equal between eyes receiving the AC-GFP or TFA-GFP nanoparticle, however in the retina and PECS a difference was detected between the two nanoparticles. The TFA-GFP nanoparticle produced EGFP expression levels nearly 5-fold higher than the AC-GFP in the retina. Upon examination of fluorescence from retinal sections, it appears that both nanoparticles conferred expression in RGCs, but only the TFA-GFP produced EGFP within the IPL, suggesting that these particles were able to transfect some cells within the inner nuclear layer. This difference in transfectivity may be explained by the different shapes and sizes of the nanoparticles that are produced by varying the counterion (AC or TFA) at the time of compaction or by different receptor affinities for the two formulations. The AC-GFP nanoparticles consist of rod-shaped structures whereas the TFA-GFP nanoparticles are ellipsoidal in shape (<xref ref-type="fig" rid="pone-0000038-g001">Fig 1</xref>). These formulations may have different diffusive properties in the ordered structure of the retina. Additionally, these nanoparticle formulations may have different affinities for the receptor that permits cellular uptake <xref rid="pone.0000038-Kube1" ref-type="bibr">[44]</xref>, <xref rid="pone.0000038-Chen3" ref-type="bibr">[45]</xref>. Varying the counterion has been shown to confer different transfection patterns between cell types. For example, AC but not TFA nanoparticles can transfect striated muscle cells in mice <xref rid="pone.0000038-Kowalczyk1" ref-type="bibr">[31]</xref>, an observation that correlates well with our finding that AC-GFP, but not TFA-GFP, transfects extraocular muscle fibers (<xref ref-type="fig" rid="pone-0000038-g005">Fig 5b</xref>).</p><p>Subretinal injection of both types of nanoparticles resulted in substantial transfection of the retina and RPE. The TFA-GFP nanoparticle drove strong expression in the RPE cell layer, although it was not as proficient in promoting expression in the photoreceptors. In contrast, the AC-GFP nanoparticle drove strong levels of expression in the entire photoreceptor cell layer and EGFP also was detected in the inner nuclear layer cells nearest to the photoreceptors. Furthermore, the delivery of compacted DNA nanoparticles did not produce a decrease in retinal function as assessed by ERG analyses (<xref ref-type="fig" rid="pone-0000038-g007">Fig 7</xref>) and there was no evidence of inflammation in histologic sections of the retina, demonstrating that this methodology does not have any overtly damaging consequences to retinal cells.</p><p>Taken together, our data suggest that this mode of gene therapy is applicable for multiple forms of ocular diseases. As intravitreal injection targets the tissues in the front of the eye, this mode of therapy could be widely applicable for corneal diseases such as cataracts and keratoconus. Expression of inflammatory regulators and siRNA may also be effective modes of treating infectious diseases affecting the cornea <xref rid="pone.0000038-Mohan1" ref-type="bibr">[46]</xref>, <xref rid="pone.0000038-Jun1" ref-type="bibr">[47]</xref>. This route of injection also was effective in transfecting retinal ganglion cells whereas optic nerve cells were transfected following subretinal injection. The latter finding indicates that AC nanoparticles can be transported in a retrograde fashion to the cell nuclei of optic nerve fibers in the lateral geniculate nucleus. Therefore, these methodologies might be suitable for treating multiple optic nerve diseases, including optic neuritis, Leber's hereditary optic neuropathy, and glaucoma <xref rid="pone.0000038-Martin2" ref-type="bibr">[48]</xref>, <xref rid="pone.0000038-Atencio1" ref-type="bibr">[49]</xref>. Specifically, delivery of brain derived neurotrophic factor (BDNF) had a protective effect in animal models of glaucoma <xref rid="pone.0000038-Martin3" ref-type="bibr">[50]</xref>. With the use of nanoparticle-mediated gene transfer, it may be possible to have retinal ganglion and optic nerve cells produce substantial levels of BDNF to promote their own sustainability during the stress from intraocular pressure that is observed in glaucoma. For other types of optic nerve injuries, the production of oncomodulin by DNA nanoparticles could be a practical approach for regenerating damaged axons <xref rid="pone.0000038-Yin1" ref-type="bibr">[51]</xref>. Also, a recent study demonstrated that ectopic expression of a microbial-type rhodopsin in retinal ganglion cells was capable of restoring visual function in mice lacking photoreceptors <xref rid="pone.0000038-Bi1" ref-type="bibr">[52]</xref>. Consequently, intravitreal injection to deliver this gene to RGCs may be a feasible approach for a multitude of retinal degenerative disorders. Furthermore, previous studies using polystyrene nanospheres described the vitreous as a barrier to gene transfer <xref rid="pone.0000038-Peeters1" ref-type="bibr">[53]</xref>, however the specialized compaction procedure utilized for the DNA nanoparticles used here produced a significantly smaller particle that seemed to be freely diffusible through the vitreous.</p><p>The subretinal injection showed a dramatic transfection of photoreceptor and RPE cells, demonstrating a significant utility for this non-viral system in rescuing multiple forms of retinal disease. As this system is capable of delivering large DNA cassettes, it would be possible to deliver the entire gene structure in some cases. For many inherited retinal diseases such as retinitis pigmentosa and Stargardt's disease, the disease pathogenesis arising from genetic mutations is understood and gene therapy strategies have already been developed <xref rid="pone.0000038-Ferreira1" ref-type="bibr">[4]</xref>, <xref rid="pone.0000038-Rolling1" ref-type="bibr">[11]</xref>, <xref rid="pone.0000038-Dinculescu1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000038-Cashman1" ref-type="bibr">[54]</xref>. The development of other complex diseases such as age related macular degeneration (AMD) is not completely understood, although genetic mutations have been identified as risk factors and supplementation of the wild-type genes may be a treatment option <xref rid="pone.0000038-Klein1" ref-type="bibr">[55]</xref>&#x02013;<xref rid="pone.0000038-Zareparsi1" ref-type="bibr">[58]</xref>. Current therapies available for the treatment of the &#x0201c;wet&#x0201d; form of AMD involve the use of small molecules to block the activity of vascular endothelial growth factor, but entail recurring injections to maintain this inhibitory effect <xref rid="pone.0000038-Gariano1" ref-type="bibr">[59]</xref>&#x02013;<xref rid="pone.0000038-Ng1" ref-type="bibr">[61]</xref>. The use of gene transfer to deliver an expression cassette to photoreceptors and RPE cells that produces a similar inhibitory molecule may be a less invasive strategy as it could produce a more sustained effect. This nanoparticle system shows tremendous promise as the basis for developing strategies to treat various diseases of the eye.</p></sec></body><back><ack><p>The authors are grateful to Dr. Shannon Conley for constructive discussions and Carla Hansens and Steve Farrand for technical assistance. M.I. Naash is a recipient of the Research to Prevent Blindness James S. Adams Scholar Award.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>MJC is Senior VP Science &#x00026; Medical Affairs for Copernicus Therapeutics, Inc.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>This study was supported by grants from the National Institutes of Health (EY016201 and EY10609, and Core Grant for Vision Research EY12190), the Foundation Fighting Blindness, and the Oklahoma Center for the Advancement of Science and Technology. M.I. Naash is a recipient of the Research to Prevent Blindness James S. Adams Scholar Award.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000038-Berry1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Berry</surname><given-names>V</given-names></name><name><surname>Francis</surname><given-names>P</given-names></name><name><surname>Kaushal</surname><given-names>S</given-names></name><name><surname>Moore</surname><given-names>A</given-names></name><name><surname>Bhattacharya</surname><given-names>S</given-names></name></person-group>
+<year>2000</year>
+<article-title>Missense mutations in MIP underlie autosomal dominant &#x02018;polymorphic&#x02019; and lamellar cataracts linked to 12q.</article-title>
+<source>Nat Genet</source>
+<volume>25</volume>
+<fpage>15</fpage>
+<lpage>17</lpage>
+<pub-id pub-id-type="pmid">10802646</pub-id></element-citation></ref><ref id="pone.0000038-Stone1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stone</surname><given-names>EM</given-names></name><name><surname>Fingert</surname><given-names>JH</given-names></name><name><surname>Alward</surname><given-names>WL</given-names></name><name><surname>Nguyen</surname><given-names>TD</given-names></name><name><surname>Polansky</surname><given-names>JR</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Identification of a gene that causes primary open angle glaucoma.</article-title>
+<source>Science</source>
+<volume>275</volume>
+<fpage>668</fpage>
+<lpage>670</lpage>
+<pub-id pub-id-type="pmid">9005853</pub-id></element-citation></ref><ref id="pone.0000038-Farrar1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Farrar</surname><given-names>GJ</given-names></name><name><surname>Kenna</surname><given-names>PF</given-names></name><name><surname>Humphries</surname><given-names>P</given-names></name></person-group>
+<year>2002</year>
+<article-title>On the genetics of retinitis pigmentosa and on mutation-independent approaches to therapeutic intervention.</article-title>
+<source>Embo J</source>
+<volume>21</volume>
+<fpage>857</fpage>
+<lpage>864</lpage>
+<pub-id pub-id-type="pmid">11867514</pub-id></element-citation></ref><ref id="pone.0000038-Ferreira1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ferreira</surname><given-names>PA</given-names></name></person-group>
+<year>2005</year>
+<article-title>Insights into X-linked retinitis pigmentosa type 3, allied diseases and underlying pathomechanisms.</article-title>
+<source>Hum Mol Genet</source>
+<volume>14</volume>
+<issue>Suppl 2</issue>
+<fpage>R259</fpage>
+<lpage>267</lpage>
+<pub-id pub-id-type="pmid">16244324</pub-id></element-citation></ref><ref id="pone.0000038-Molday1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Molday</surname><given-names>RS</given-names></name></person-group>
+<year>1998</year>
+<article-title>Photoreceptor membrane proteins, phototransduction, and retinal degenerative diseases. The Friedenwald Lecture.</article-title>
+<source>Invest Ophthalmol Vis Sci</source>
+<volume>39</volume>
+<fpage>2491</fpage>
+<lpage>2513</lpage>
+<pub-id pub-id-type="pmid">9856758</pub-id></element-citation></ref><ref id="pone.0000038-Bennett1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bennett</surname><given-names>J</given-names></name></person-group>
+<year>2006</year>
+<article-title>Commentary: an aye for eye gene therapy.</article-title>
+<source>Hum Gene Ther</source>
+<volume>17</volume>
+<fpage>177</fpage>
+<lpage>179</lpage>
+<pub-id pub-id-type="pmid">16454651</pub-id></element-citation></ref><ref id="pone.0000038-Batten1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Batten</surname><given-names>ML</given-names></name><name><surname>Imanishi</surname><given-names>Y</given-names></name><name><surname>Tu</surname><given-names>DC</given-names></name><name><surname>Doan</surname><given-names>T</given-names></name><name><surname>Zhu</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Pharmacological and rAAV gene therapy rescue of visual functions in a blind mouse model of Leber congenital amaurosis.</article-title>
+<source>PLoS Med</source>
+<volume>2</volume>
+<fpage>e333</fpage>
+<pub-id pub-id-type="pmid">16250670</pub-id></element-citation></ref><ref id="pone.0000038-Drenser1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Drenser</surname><given-names>KA</given-names></name><name><surname>Timmers</surname><given-names>AM</given-names></name><name><surname>Hauswirth</surname><given-names>WW</given-names></name><name><surname>Lewin</surname><given-names>AS</given-names></name></person-group>
+<year>1998</year>
+<article-title>Ribozyme-targeted destruction of RNA associated with autosomal-dominant retinitis pigmentosa.</article-title>
+<source>Invest Ophthalmol Vis Sci</source>
+<volume>39</volume>
+<fpage>681</fpage>
+<lpage>689</lpage>
+<pub-id pub-id-type="pmid">9538873</pub-id></element-citation></ref><ref id="pone.0000038-Lewin1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lewin</surname><given-names>AS</given-names></name><name><surname>Drenser</surname><given-names>KA</given-names></name><name><surname>Hauswirth</surname><given-names>WW</given-names></name><name><surname>Nishikawa</surname><given-names>S</given-names></name><name><surname>Yasumura</surname><given-names>D</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Ribozyme rescue of photoreceptor cells in a transgenic rat model of autosomal dominant retinitis pigmentosa.</article-title>
+<source>Nat Med</source>
+<volume>4</volume>
+<fpage>967</fpage>
+<lpage>971</lpage>
+<pub-id pub-id-type="pmid">9701253</pub-id></element-citation></ref><ref id="pone.0000038-Sarra1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sarra</surname><given-names>GM</given-names></name><name><surname>Stephens</surname><given-names>C</given-names></name><name><surname>de Alwis</surname><given-names>M</given-names></name><name><surname>Bainbridge</surname><given-names>JW</given-names></name><name><surname>Smith</surname><given-names>AJ</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Gene replacement therapy in the retinal degeneration slow (rds) mouse: the effect on retinal degeneration following partial transduction of the retina.</article-title>
+<source>Hum Mol Genet</source>
+<volume>10</volume>
+<fpage>2353</fpage>
+<lpage>2361</lpage>
+<pub-id pub-id-type="pmid">11689482</pub-id></element-citation></ref><ref id="pone.0000038-Rolling1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rolling</surname><given-names>F</given-names></name></person-group>
+<year>2004</year>
+<article-title>Recombinant AAV-mediated gene transfer to the retina: gene therapy perspectives.</article-title>
+<source>Gene Ther</source>
+<volume>11</volume>
+<issue>Suppl 1</issue>
+<fpage>S26</fpage>
+<lpage>32</lpage>
+<pub-id pub-id-type="pmid">15454954</pub-id></element-citation></ref><ref id="pone.0000038-Bennett2"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bennett</surname><given-names>J</given-names></name><name><surname>Tanabe</surname><given-names>T</given-names></name><name><surname>Sun</surname><given-names>D</given-names></name><name><surname>Zeng</surname><given-names>Y</given-names></name><name><surname>Kjeldbye</surname><given-names>H</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>Photoreceptor cell rescue in retinal degeneration (rd) mice by in vivo gene therapy.</article-title>
+<source>Nat Med</source>
+<volume>2</volume>
+<fpage>649</fpage>
+<lpage>654</lpage>
+<pub-id pub-id-type="pmid">8640555</pub-id></element-citation></ref><ref id="pone.0000038-Chen1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>Y</given-names></name><name><surname>Moiseyev</surname><given-names>G</given-names></name><name><surname>Takahashi</surname><given-names>Y</given-names></name><name><surname>Ma</surname><given-names>JX</given-names></name></person-group>
+<year>2006</year>
+<article-title>RPE65 gene delivery restores isomerohydrolase activity and prevents early cone loss in Rpe65-/- mice.</article-title>
+<source>Invest Ophthalmol Vis Sci</source>
+<volume>47</volume>
+<fpage>1177</fpage>
+<lpage>1184</lpage>
+<pub-id pub-id-type="pmid">16505056</pub-id></element-citation></ref><ref id="pone.0000038-Ali1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ali</surname><given-names>RR</given-names></name><name><surname>Sarra</surname><given-names>GM</given-names></name><name><surname>Stephens</surname><given-names>C</given-names></name><name><surname>Alwis</surname><given-names>MD</given-names></name><name><surname>Bainbridge</surname><given-names>JW</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Restoration of photoreceptor ultrastructure and function in retinal degeneration slow mice by gene therapy.</article-title>
+<source>Nat Genet</source>
+<volume>25</volume>
+<fpage>306</fpage>
+<lpage>310</lpage>
+<pub-id pub-id-type="pmid">10888879</pub-id></element-citation></ref><ref id="pone.0000038-Dinculescu1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dinculescu</surname><given-names>A</given-names></name><name><surname>Glushakova</surname><given-names>L</given-names></name><name><surname>Min</surname><given-names>SH</given-names></name><name><surname>Hauswirth</surname><given-names>WW</given-names></name></person-group>
+<year>2005</year>
+<article-title>Adeno-associated virus-vectored gene therapy for retinal disease.</article-title>
+<source>Hum Gene Ther</source>
+<volume>16</volume>
+<fpage>649</fpage>
+<lpage>663</lpage>
+<pub-id pub-id-type="pmid">15960597</pub-id></element-citation></ref><ref id="pone.0000038-Aguirre1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aguirre</surname><given-names>GD</given-names></name><name><surname>Baldwin</surname><given-names>V</given-names></name><name><surname>Pearce-Kelling</surname><given-names>S</given-names></name><name><surname>Narfstrom</surname><given-names>K</given-names></name><name><surname>Ray</surname><given-names>K</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Congenital stationary night blindness in the dog: common mutation in the RPE65 gene indicates founder effect.</article-title>
+<source>Mol Vis</source>
+<volume>4</volume>
+<fpage>23</fpage>
+<pub-id pub-id-type="pmid">9808841</pub-id></element-citation></ref><ref id="pone.0000038-Marlhens1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marlhens</surname><given-names>F</given-names></name><name><surname>Bareil</surname><given-names>C</given-names></name><name><surname>Griffoin</surname><given-names>JM</given-names></name><name><surname>Zrenner</surname><given-names>E</given-names></name><name><surname>Amalric</surname><given-names>P</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Mutations in RPE65 cause Leber's congenital amaurosis.</article-title>
+<source>Nat Genet</source>
+<volume>17</volume>
+<fpage>139</fpage>
+<lpage>141</lpage>
+<pub-id pub-id-type="pmid">9326927</pub-id></element-citation></ref><ref id="pone.0000038-Acland1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Acland</surname><given-names>GM</given-names></name><name><surname>Aguirre</surname><given-names>GD</given-names></name><name><surname>Ray</surname><given-names>J</given-names></name><name><surname>Zhang</surname><given-names>Q</given-names></name><name><surname>Aleman</surname><given-names>TS</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Gene therapy restores vision in a canine model of childhood blindness.</article-title>
+<source>Nat Genet</source>
+<volume>28</volume>
+<fpage>92</fpage>
+<lpage>95</lpage>
+<pub-id pub-id-type="pmid">11326284</pub-id></element-citation></ref><ref id="pone.0000038-Acland2"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Acland</surname><given-names>GM</given-names></name><name><surname>Aguirre</surname><given-names>GD</given-names></name><name><surname>Bennett</surname><given-names>J</given-names></name><name><surname>Aleman</surname><given-names>TS</given-names></name><name><surname>Cideciyan</surname><given-names>AV</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Long-term restoration of rod and cone vision by single dose rAAV-mediated gene transfer to the retina in a canine model of childhood blindness.</article-title>
+<source>Mol Ther</source>
+<volume>12</volume>
+<fpage>1072</fpage>
+<lpage>1082</lpage>
+<pub-id pub-id-type="pmid">16226919</pub-id></element-citation></ref><ref id="pone.0000038-Narfstrom1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Narfstrom</surname><given-names>K</given-names></name><name><surname>Vaegan</surname></name><name><surname>Katz</surname><given-names>M</given-names></name><name><surname>Bragadottir</surname><given-names>R</given-names></name><name><surname>Rakoczy</surname><given-names>EP</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Assessment of structure and function over a 3-year period after gene transfer in RPE65-/- dogs.</article-title>
+<source>Doc Ophthalmol</source>
+<volume>111</volume>
+<fpage>39</fpage>
+<lpage>48</lpage>
+<pub-id pub-id-type="pmid">16502306</pub-id></element-citation></ref><ref id="pone.0000038-Hong1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hong</surname><given-names>DH</given-names></name><name><surname>Pawlyk</surname><given-names>BS</given-names></name><name><surname>Adamian</surname><given-names>M</given-names></name><name><surname>Sandberg</surname><given-names>MA</given-names></name><name><surname>Li</surname><given-names>T</given-names></name></person-group>
+<year>2005</year>
+<article-title>A single, abbreviated RPGR-ORF15 variant reconstitutes RPGR function in vivo.</article-title>
+<source>Invest Ophthalmol Vis Sci</source>
+<volume>46</volume>
+<fpage>435</fpage>
+<lpage>441</lpage>
+<pub-id pub-id-type="pmid">15671266</pub-id></element-citation></ref><ref id="pone.0000038-Thomas1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thomas</surname><given-names>CE</given-names></name><name><surname>Ehrhardt</surname><given-names>A</given-names></name><name><surname>Kay</surname><given-names>MA</given-names></name></person-group>
+<year>2003</year>
+<article-title>Progress and problems with the use of viral vectors for gene therapy.</article-title>
+<source>Nat Rev Genet</source>
+<volume>4</volume>
+<fpage>346</fpage>
+<lpage>358</lpage>
+<pub-id pub-id-type="pmid">12728277</pub-id></element-citation></ref><ref id="pone.0000038-Halbert1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Halbert</surname><given-names>CL</given-names></name><name><surname>Miller</surname><given-names>AD</given-names></name><name><surname>McNamara</surname><given-names>S</given-names></name><name><surname>Emerson</surname><given-names>J</given-names></name><name><surname>Gibson</surname><given-names>RL</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Prevalence of neutralizing antibodies against adeno-associated virus (AAV) types 2, 5, and 6 in cystic fibrosis and normal populations: Implications for gene therapy using AAV vectors.</article-title>
+<source>Hum Gene Ther</source>
+<volume>17</volume>
+<fpage>440</fpage>
+<lpage>447</lpage>
+<pub-id pub-id-type="pmid">16610931</pub-id></element-citation></ref><ref id="pone.0000038-Ott1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ott</surname><given-names>MG</given-names></name><name><surname>Schmidt</surname><given-names>M</given-names></name><name><surname>Schwarzwaelder</surname><given-names>K</given-names></name><name><surname>Stein</surname><given-names>S</given-names></name><name><surname>Siler</surname><given-names>U</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Correction of X-linked chronic granulomatous disease by gene therapy, augmented by insertional activation of MDS1-EVI1, PRDM16 or SETBP1.</article-title>
+<source>Nat Med</source>
+<volume>12</volume>
+<fpage>401</fpage>
+<lpage>409</lpage>
+<pub-id pub-id-type="pmid">16582916</pub-id></element-citation></ref><ref id="pone.0000038-Baum1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baum</surname><given-names>C</given-names></name><name><surname>Kustikova</surname><given-names>O</given-names></name><name><surname>Modlich</surname><given-names>U</given-names></name><name><surname>Li</surname><given-names>Z</given-names></name><name><surname>Fehse</surname><given-names>B</given-names></name></person-group>
+<year>2006</year>
+<article-title>Mutagenesis and oncogenesis by chromosomal insertion of gene transfer vectors.</article-title>
+<source>Hum Gene Ther</source>
+<volume>17</volume>
+<fpage>253</fpage>
+<lpage>263</lpage>
+<pub-id pub-id-type="pmid">16544975</pub-id></element-citation></ref><ref id="pone.0000038-Raper1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Raper</surname><given-names>SE</given-names></name><name><surname>Chirmule</surname><given-names>N</given-names></name><name><surname>Lee</surname><given-names>FS</given-names></name><name><surname>Wivel</surname><given-names>NA</given-names></name><name><surname>Bagg</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Fatal systemic inflammatory response syndrome in a ornithine transcarbamylase deficient patient following adenoviral gene transfer.</article-title>
+<source>Mol Genet Metab</source>
+<volume>80</volume>
+<fpage>148</fpage>
+<lpage>158</lpage>
+<pub-id pub-id-type="pmid">14567964</pub-id></element-citation></ref><ref id="pone.0000038-Liu1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>G</given-names></name><name><surname>Li</surname><given-names>D</given-names></name><name><surname>Pasumarthy</surname><given-names>MK</given-names></name><name><surname>Kowalczyk</surname><given-names>TH</given-names></name><name><surname>Gedeon</surname><given-names>CR</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Nanoparticles of compacted DNA transfect postmitotic cells.</article-title>
+<source>J Biol Chem</source>
+<volume>278</volume>
+<fpage>32578</fpage>
+<lpage>32586</lpage>
+<pub-id pub-id-type="pmid">12807905</pub-id></element-citation></ref><ref id="pone.0000038-Ziady1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ziady</surname><given-names>AG</given-names></name><name><surname>Gedeon</surname><given-names>CR</given-names></name><name><surname>Muhammad</surname><given-names>O</given-names></name><name><surname>Stillwell</surname><given-names>V</given-names></name><name><surname>Oette</surname><given-names>SM</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Minimal toxicity of stabilized compacted DNA nanoparticles in the murine lung.</article-title>
+<source>Mol Ther</source>
+<volume>8</volume>
+<fpage>948</fpage>
+<lpage>956</lpage>
+<pub-id pub-id-type="pmid">14664797</pub-id></element-citation></ref><ref id="pone.0000038-Ziady2"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ziady</surname><given-names>AG</given-names></name><name><surname>Gedeon</surname><given-names>CR</given-names></name><name><surname>Miller</surname><given-names>T</given-names></name><name><surname>Quan</surname><given-names>W</given-names></name><name><surname>Payne</surname><given-names>JM</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Transfection of airway epithelium by stable PEGylated poly-L-lysine DNA nanoparticles in vivo.</article-title>
+<source>Mol Ther</source>
+<volume>8</volume>
+<fpage>936</fpage>
+<lpage>947</lpage>
+<pub-id pub-id-type="pmid">14664796</pub-id></element-citation></ref><ref id="pone.0000038-Fink1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fink</surname><given-names>TL</given-names></name><name><surname>Klepcyk</surname><given-names>PJ</given-names></name><name><surname>Oette</surname><given-names>SM</given-names></name><name><surname>Gedeon</surname><given-names>CR</given-names></name><name><surname>Hyatt</surname><given-names>SL</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Plasmid size up to 20 kbp does not limit effective in vivo lung gene transfer using compacted DNA nanoparticles.</article-title>
+<source>Gene Ther Epub</source>
+</element-citation></ref><ref id="pone.0000038-Kowalczyk1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kowalczyk</surname><given-names>TH</given-names></name><name><surname>Pasumarthy</surname><given-names>MK</given-names></name><name><surname>Gedeon</surname><given-names>C</given-names></name><name><surname>Hyatt</surname><given-names>S</given-names></name><name><surname>Payne</surname><given-names>JM</given-names></name><name><surname>Muhammad</surname><given-names>O</given-names></name><name><surname>Moen</surname><given-names>RC</given-names></name><name><surname>Cooper</surname><given-names>MJ</given-names></name></person-group>
+<year>2001</year>
+<article-title>Type of polylysine counterion influences morphology and biological function of condensed DNA.</article-title>
+<source>Mol Ther</source>
+<volume>3</volume>
+<fpage>S359</fpage>
+</element-citation></ref><ref id="pone.0000038-Konstan1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Konstan</surname><given-names>MW</given-names></name><name><surname>Davis</surname><given-names>PB</given-names></name><name><surname>Wagener</surname><given-names>JS</given-names></name><name><surname>Hilliard</surname><given-names>KA</given-names></name><name><surname>Stern</surname><given-names>RC</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Compacted DNA nanoparticles administered to the nasal mucosa of cystic fibrosis subjects are safe and demonstrate partial to complete cystic fibrosis transmembrane regulator reconstitution.</article-title>
+<source>Hum Gene Ther</source>
+<volume>15</volume>
+<fpage>1255</fpage>
+<lpage>1269</lpage>
+<pub-id pub-id-type="pmid">15684701</pub-id></element-citation></ref><ref id="pone.0000038-Liu2"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>G</given-names></name><name><surname>Molas</surname><given-names>M</given-names></name><name><surname>Grossmann</surname><given-names>GA</given-names></name><name><surname>Pasumarthy</surname><given-names>M</given-names></name><name><surname>Perales</surname><given-names>JC</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Biological properties of poly-L-lysine-DNA complexes generated by cooperative binding of the polycation.</article-title>
+<source>J Biol Chem</source>
+<volume>276</volume>
+<fpage>34379</fpage>
+<lpage>34387</lpage>
+<pub-id pub-id-type="pmid">11438546</pub-id></element-citation></ref><ref id="pone.0000038-Farjo1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Farjo</surname><given-names>R</given-names></name><name><surname>Skaggs</surname><given-names>JS</given-names></name><name><surname>Nagel</surname><given-names>BA</given-names></name><name><surname>Quiambao</surname><given-names>AB</given-names></name><name><surname>Nash</surname><given-names>ZA</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Retention of function without normal disc morphogenesis occurs in cone but not rod photoreceptors.</article-title>
+<source>J Cell Biol</source>
+<volume>173</volume>
+<fpage>59</fpage>
+<lpage>68</lpage>
+<pub-id pub-id-type="pmid">16585269</pub-id></element-citation></ref><ref id="pone.0000038-Nour1"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nour</surname><given-names>M</given-names></name><name><surname>Quiambao</surname><given-names>AB</given-names></name><name><surname>Al-Ubaidi</surname><given-names>MR</given-names></name><name><surname>Naash</surname><given-names>MI</given-names></name></person-group>
+<year>2004</year>
+<article-title>Absence of functional and structural abnormalities associated with expression of EGFP in the retina.</article-title>
+<source>Invest Ophthalmol Vis Sci</source>
+<volume>45</volume>
+<fpage>15</fpage>
+<lpage>22</lpage>
+<pub-id pub-id-type="pmid">14691148</pub-id></element-citation></ref><ref id="pone.0000038-Martin1"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martin</surname><given-names>AC</given-names></name><name><surname>Thornton</surname><given-names>JD</given-names></name><name><surname>Liu</surname><given-names>J</given-names></name><name><surname>Wang</surname><given-names>X</given-names></name><name><surname>Zuo</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Pathogenesis of persistent hyperplastic primary vitreous in mice lacking the arf tumor suppressor gene.</article-title>
+<source>Invest Ophthalmol Vis Sci</source>
+<volume>45</volume>
+<fpage>3387</fpage>
+<lpage>3396</lpage>
+<pub-id pub-id-type="pmid">15452040</pub-id></element-citation></ref><ref id="pone.0000038-Flannery1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Flannery</surname><given-names>JG</given-names></name><name><surname>Zolotukhin</surname><given-names>S</given-names></name><name><surname>Vaquero</surname><given-names>MI</given-names></name><name><surname>LaVail</surname><given-names>MM</given-names></name><name><surname>Muzyczka</surname><given-names>N</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Efficient photoreceptor-targeted gene expression in vivo by recombinant adeno-associated virus.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>94</volume>
+<fpage>6916</fpage>
+<lpage>6921</lpage>
+<pub-id pub-id-type="pmid">9192666</pub-id></element-citation></ref><ref id="pone.0000038-Bennett3"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bennett</surname><given-names>J</given-names></name><name><surname>Maguire</surname><given-names>AM</given-names></name><name><surname>Cideciyan</surname><given-names>AV</given-names></name><name><surname>Schnell</surname><given-names>M</given-names></name><name><surname>Glover</surname><given-names>E</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Stable transgene expression in rod photoreceptors after recombinant adeno-associated virus-mediated gene transfer to monkey retina.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>96</volume>
+<fpage>9920</fpage>
+<lpage>9925</lpage>
+<pub-id pub-id-type="pmid">10449795</pub-id></element-citation></ref><ref id="pone.0000038-Nour2"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nour</surname><given-names>M</given-names></name><name><surname>Quiambao</surname><given-names>AB</given-names></name><name><surname>Peterson</surname><given-names>WM</given-names></name><name><surname>Al-Ubaidi</surname><given-names>MR</given-names></name><name><surname>Naash</surname><given-names>MI</given-names></name></person-group>
+<year>2003</year>
+<article-title>P2Y(2) receptor agonist INS37217 enhances functional recovery after detachment caused by subretinal injection in normal and rds mice.</article-title>
+<source>Invest Ophthalmol Vis Sci</source>
+<volume>44</volume>
+<fpage>4505</fpage>
+<lpage>4514</lpage>
+<pub-id pub-id-type="pmid">14507899</pub-id></element-citation></ref><ref id="pone.0000038-Bauer1"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bauer</surname><given-names>S</given-names></name><name><surname>Maier</surname><given-names>SK</given-names></name><name><surname>Neyses</surname><given-names>L</given-names></name><name><surname>Maass</surname><given-names>AH</given-names></name></person-group>
+<year>2005</year>
+<article-title>Optimization of gene transfer into neonatal rat cardiomyocytes and unmasking of cytomegalovirus promoter silencing.</article-title>
+<source>DNA Cell Biol</source>
+<volume>24</volume>
+<fpage>381</fpage>
+<lpage>387</lpage>
+<pub-id pub-id-type="pmid">15941390</pub-id></element-citation></ref><ref id="pone.0000038-Brooks1"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brooks</surname><given-names>AR</given-names></name><name><surname>Harkins</surname><given-names>RN</given-names></name><name><surname>Wang</surname><given-names>P</given-names></name><name><surname>Qian</surname><given-names>HS</given-names></name><name><surname>Liu</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Transcriptional silencing is associated with extensive methylation of the CMV promoter following adenoviral gene delivery to muscle.</article-title>
+<source>J Gene Med</source>
+<volume>6</volume>
+<fpage>395</fpage>
+<lpage>404</lpage>
+<pub-id pub-id-type="pmid">15079814</pub-id></element-citation></ref><ref id="pone.0000038-Chen2"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>ZY</given-names></name><name><surname>He</surname><given-names>CY</given-names></name><name><surname>Meuse</surname><given-names>L</given-names></name><name><surname>Kay</surname><given-names>MA</given-names></name></person-group>
+<year>2004</year>
+<article-title>Silencing of episomal transgene expression by plasmid bacterial DNA elements in vivo.</article-title>
+<source>Gene Ther</source>
+<volume>11</volume>
+<fpage>856</fpage>
+<lpage>864</lpage>
+<pub-id pub-id-type="pmid">15029228</pub-id></element-citation></ref><ref id="pone.0000038-Naash1"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Naash</surname><given-names>MI</given-names></name><name><surname>Ballard</surname><given-names>RM</given-names></name><name><surname>Skaggs</surname><given-names>J</given-names></name><name><surname>Nash</surname><given-names>ZA</given-names></name><name><surname>Quiambao</surname><given-names>AB</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Non-Viral Ocular Gene Transfer for Hereditary Retinal Degeneration.</article-title>
+<source>Mol Ther</source>
+<fpage>S882</fpage>
+</element-citation></ref><ref id="pone.0000038-Kube1"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kube</surname><given-names>D</given-names></name><name><surname>Davis</surname><given-names>PB</given-names></name></person-group>
+<year>2003</year>
+<article-title>Intracellular trafficking of non-targeted stabilized molecular conjugates in human airway epithelia cells.</article-title>
+<source>Mol Ther</source>
+<volume>7</volume>
+<fpage>S371</fpage>
+</element-citation></ref><ref id="pone.0000038-Chen3"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>X</given-names></name><name><surname>Davis</surname></name><name><surname>B</surname><given-names>P</given-names></name></person-group>
+<year>2006</year>
+<article-title>Compacted DNA nanoparticles transfect cells by binding to cell surface nucleolin.</article-title>
+<source>Mol Ther</source>
+<volume>13</volume>
+<fpage>S397</fpage>
+</element-citation></ref><ref id="pone.0000038-Mohan1"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mohan</surname><given-names>RR</given-names></name><name><surname>Sharma</surname><given-names>A</given-names></name><name><surname>Netto</surname><given-names>MV</given-names></name><name><surname>Sinha</surname><given-names>S</given-names></name><name><surname>Wilson</surname><given-names>SE</given-names></name></person-group>
+<year>2005</year>
+<article-title>Gene therapy in the cornea.</article-title>
+<source>Prog Retin Eye Res</source>
+<volume>24</volume>
+<fpage>537</fpage>
+<lpage>559</lpage>
+<pub-id pub-id-type="pmid">15955719</pub-id></element-citation></ref><ref id="pone.0000038-Jun1"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jun</surname><given-names>AS</given-names></name><name><surname>Larkin</surname><given-names>DF</given-names></name></person-group>
+<year>2003</year>
+<article-title>Prospects for gene therapy in corneal disease.</article-title>
+<source>Eye</source>
+<volume>17</volume>
+<fpage>906</fpage>
+<lpage>911</lpage>
+<pub-id pub-id-type="pmid">14631395</pub-id></element-citation></ref><ref id="pone.0000038-Martin2"><label>48</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martin</surname><given-names>KR</given-names></name><name><surname>Quigley</surname><given-names>HA</given-names></name></person-group>
+<year>2004</year>
+<article-title>Gene therapy for optic nerve disease.</article-title>
+<source>Eye</source>
+<volume>18</volume>
+<fpage>1049</fpage>
+<lpage>1055</lpage>
+<pub-id pub-id-type="pmid">15534589</pub-id></element-citation></ref><ref id="pone.0000038-Atencio1"><label>49</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Atencio</surname><given-names>IA</given-names></name><name><surname>Chen</surname><given-names>Z</given-names></name><name><surname>Nguyen</surname><given-names>QH</given-names></name><name><surname>Faha</surname><given-names>B</given-names></name><name><surname>Maneval</surname><given-names>DC</given-names></name></person-group>
+<year>2004</year>
+<article-title>p21WAF-1/Cip-1 gene therapy as an adjunct to glaucoma filtration surgery.</article-title>
+<source>Curr Opin Mol Ther</source>
+<volume>6</volume>
+<fpage>624</fpage>
+<lpage>628</lpage>
+<pub-id pub-id-type="pmid">15663327</pub-id></element-citation></ref><ref id="pone.0000038-Martin3"><label>50</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martin</surname><given-names>KR</given-names></name><name><surname>Quigley</surname><given-names>HA</given-names></name><name><surname>Zack</surname><given-names>DJ</given-names></name><name><surname>Levkovitch-Verbin</surname><given-names>H</given-names></name><name><surname>Kielczewski</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Gene therapy with brain-derived neurotrophic factor as a protection: retinal ganglion cells in a rat glaucoma model.</article-title>
+<source>Invest Ophthalmol Vis Sci</source>
+<volume>44</volume>
+<fpage>4357</fpage>
+<lpage>4365</lpage>
+<pub-id pub-id-type="pmid">14507880</pub-id></element-citation></ref><ref id="pone.0000038-Yin1"><label>51</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yin</surname><given-names>Y</given-names></name><name><surname>Henzl</surname><given-names>MT</given-names></name><name><surname>Lorber</surname><given-names>B</given-names></name><name><surname>Nakazawa</surname><given-names>T</given-names></name><name><surname>Thomas</surname><given-names>TT</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Oncomodulin is a macrophage-derived signal for axon regeneration in retinal ganglion cells.</article-title>
+<source>Nat Neurosci</source>
+<volume>9</volume>
+<fpage>843</fpage>
+<lpage>852</lpage>
+<pub-id pub-id-type="pmid">16699509</pub-id></element-citation></ref><ref id="pone.0000038-Bi1"><label>52</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bi</surname><given-names>A</given-names></name><name><surname>Cui</surname><given-names>J</given-names></name><name><surname>Ma</surname><given-names>YP</given-names></name><name><surname>Olshevskaya</surname><given-names>E</given-names></name><name><surname>Pu</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Ectopic expression of a microbial-type rhodopsin restores visual responses in mice with photoreceptor degeneration.</article-title>
+<source>Neuron</source>
+<volume>50</volume>
+<fpage>23</fpage>
+<lpage>33</lpage>
+<pub-id pub-id-type="pmid">16600853</pub-id></element-citation></ref><ref id="pone.0000038-Peeters1"><label>53</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Peeters</surname><given-names>L</given-names></name><name><surname>Sanders</surname><given-names>NN</given-names></name><name><surname>Braeckmans</surname><given-names>K</given-names></name><name><surname>Boussery</surname><given-names>K</given-names></name><name><surname>Van de Voorde</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Vitreous: a barrier to nonviral ocular gene therapy.</article-title>
+<source>Invest Ophthalmol Vis Sci</source>
+<volume>46</volume>
+<fpage>3553</fpage>
+<lpage>3561</lpage>
+<pub-id pub-id-type="pmid">16186333</pub-id></element-citation></ref><ref id="pone.0000038-Cashman1"><label>54</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cashman</surname><given-names>SM</given-names></name><name><surname>Binkley</surname><given-names>EA</given-names></name><name><surname>Kumar-Singh</surname><given-names>R</given-names></name></person-group>
+<year>2005</year>
+<article-title>Towards mutation-independent silencing of genes involved in retinal degeneration by RNA interference.</article-title>
+<source>Gene Ther</source>
+<volume>12</volume>
+<fpage>1223</fpage>
+<lpage>1228</lpage>
+<pub-id pub-id-type="pmid">15877050</pub-id></element-citation></ref><ref id="pone.0000038-Klein1"><label>55</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klein</surname><given-names>RJ</given-names></name><name><surname>Zeiss</surname><given-names>C</given-names></name><name><surname>Chew</surname><given-names>EY</given-names></name><name><surname>Tsai</surname><given-names>JY</given-names></name><name><surname>Sackler</surname><given-names>RS</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Complement factor H polymorphism in age-related macular degeneration.</article-title>
+<source>Science</source>
+<volume>308</volume>
+<fpage>385</fpage>
+<lpage>389</lpage>
+<pub-id pub-id-type="pmid">15761122</pub-id></element-citation></ref><ref id="pone.0000038-Edwards1"><label>56</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Edwards</surname><given-names>AO</given-names></name><name><surname>Ritter</surname><given-names>R</given-names><suffix>3rd</suffix></name><name><surname>Abel</surname><given-names>KJ</given-names></name><name><surname>Manning</surname><given-names>A</given-names></name><name><surname>Panhuysen</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Complement factor H polymorphism and age-related macular degeneration.</article-title>
+<source>Science</source>
+<volume>308</volume>
+<fpage>421</fpage>
+<lpage>424</lpage>
+<pub-id pub-id-type="pmid">15761121</pub-id></element-citation></ref><ref id="pone.0000038-Haines1"><label>57</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haines</surname><given-names>JL</given-names></name><name><surname>Hauser</surname><given-names>MA</given-names></name><name><surname>Schmidt</surname><given-names>S</given-names></name><name><surname>Scott</surname><given-names>WK</given-names></name><name><surname>Olson</surname><given-names>LM</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Complement factor H variant increases the risk of age-related macular degeneration.</article-title>
+<source>Science</source>
+<volume>308</volume>
+<fpage>419</fpage>
+<lpage>421</lpage>
+<pub-id pub-id-type="pmid">15761120</pub-id></element-citation></ref><ref id="pone.0000038-Zareparsi1"><label>58</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zareparsi</surname><given-names>S</given-names></name><name><surname>Buraczynska</surname><given-names>M</given-names></name><name><surname>Branham</surname><given-names>KE</given-names></name><name><surname>Shah</surname><given-names>S</given-names></name><name><surname>Eng</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Toll-like receptor 4 variant D299G is associated with susceptibility to age-related macular degeneration.</article-title>
+<source>Hum Mol Genet</source>
+<volume>14</volume>
+<fpage>1449</fpage>
+<lpage>1455</lpage>
+<pub-id pub-id-type="pmid">15829498</pub-id></element-citation></ref><ref id="pone.0000038-Gariano1"><label>59</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gariano</surname><given-names>RF</given-names></name><name><surname>Gardner</surname><given-names>TW</given-names></name></person-group>
+<year>2005</year>
+<article-title>Retinal angiogenesis in development and disease.</article-title>
+<source>Nature</source>
+<volume>438</volume>
+<fpage>960</fpage>
+<lpage>966</lpage>
+<pub-id pub-id-type="pmid">16355161</pub-id></element-citation></ref><ref id="pone.0000038-Rosenfeld1"><label>60</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rosenfeld</surname><given-names>PJ</given-names></name><name><surname>Heier</surname><given-names>JS</given-names></name><name><surname>Hantsbarger</surname><given-names>G</given-names></name><name><surname>Shams</surname><given-names>N</given-names></name></person-group>
+<year>2006</year>
+<article-title>Tolerability and efficacy of multiple escalating doses of ranibizumab (Lucentis) for neovascular age-related macular degeneration.</article-title>
+<source>Ophthalmology</source>
+<volume>113</volume>
+<fpage>632</fpage>
+</element-citation></ref><ref id="pone.0000038-Ng1"><label>61</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ng</surname><given-names>EW</given-names></name><name><surname>Shima</surname><given-names>DT</given-names></name><name><surname>Calias</surname><given-names>P</given-names></name><name><surname>Cunningham</surname><given-names>ET</given-names><suffix>Jr</suffix></name><name><surname>Guyer</surname><given-names>DR</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Pegaptanib, a targeted anti-VEGF aptamer for ocular vascular disease.</article-title>
+<source>Nat Rev Drug Discov</source>
+<volume>5</volume>
+<fpage>123</fpage>
+<lpage>132</lpage>
+<pub-id pub-id-type="pmid">16518379</pub-id></element-citation></ref></ref-list></back></article>

@@ -1,0 +1,545 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183709</article-id><article-id pub-id-type="pmc">1762309</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00335</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000077</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Immunology/Innate Immunity</subject><subject>Infectious Diseases/Bacterial Infections</subject><subject>Infectious Diseases/Fungal Infections</subject></subj-group></article-categories><title-group><article-title>GATA Transcription Factor Required for Immunity to Bacterial and Fungal Pathogens</article-title><alt-title alt-title-type="running-head">ELT-2 in Innate Immunity</alt-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><name><surname>Kerry</surname><given-names>Samantha</given-names></name></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>TeKippe</surname><given-names>Michael</given-names></name></contrib><contrib contrib-type="author"><name><surname>Gaddis</surname><given-names>Nathan C.</given-names></name></contrib><contrib contrib-type="author"><name><surname>Aballay</surname><given-names>Alejandro</given-names></name><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib><aff>
+<institution>Department of Molecular Genetics and Microbiology, Duke University Medical Center</institution>
+<addr-line>Durham, North Carolina, United States of America</addr-line>
+</aff></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Mylonakis</surname><given-names>Eleftherios</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Massachusetts General Hospital, United States of America</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>a.aballay@duke.edu</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: AA MT SK. Performed the experiments: MT SK. Analyzed the data: AA MT SK. Contributed reagents/materials/analysis tools: NG. Wrote the paper: AA MT SK.</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e77</elocation-id><history><date date-type="received"><day>9</day><month>11</month><year>2006</year></date><date date-type="accepted"><day>12</day><month>11</month><year>2006</year></date></history><permissions><copyright-statement>Kerry et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>In the past decade, <italic>Caenorhabditis elegans</italic> has been used to dissect several genetic pathways involved in immunity; however, little is known about transcription factors that regulate the expression of immune effectors. <italic>C. elegans</italic> does not appear to have a functional homolog of the key immune transcription factor NF-&#x003ba;B. Here we show that that the intestinal GATA transcription factor ELT-2 is required for both immunity to <italic>Salmonella enterica</italic> and expression of a C-type lectin gene, <italic>clec-67</italic>, which is expressed in the intestinal cells and is a good marker of <italic>S. enterica</italic> infection. We also found that ELT-2 is required for immunity to <italic>Pseudomonas aeruginosa, Enterococcus faecalis</italic>, and <italic>Cryptococcus neoformans</italic>. Lack of immune inhibition by DAF-2, which negatively regulates the FOXO transcription factor DAF-16, rescues the hypersusceptibility to pathogens phenotype of <italic>elt-2(RNAi)</italic> animals. Our results indicate that ELT-2 is part of a multi-pathogen defense pathway that regulates innate immunity independently of the DAF-2/DAF-16 signaling pathway.</p></abstract><counts><page-count count="8"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>The study of innate immunity received renewed attention when the first parallels between mammalian and <italic>Drosophila melanogaster</italic> immunity were discovered (reviewed in <xref rid="pone.0000077-Mylonakis1" ref-type="bibr">[1]</xref>&#x02013;<xref rid="pone.0000077-Kim1" ref-type="bibr">[3]</xref>). Since then, various invertebrate model systems have been used to dissect highly-conserved immune responses without the complications of adaptive immunity. The genetically tractable nematode <italic>Caenorhabditis elegans</italic>, which has been used for decades to study the mechanisms of a number biological processes, has become a well-established invertebrate model for the study of microbial pathogenesis and innate immunity (reviewed in <xref rid="pone.0000077-Mylonakis1" ref-type="bibr">[1]</xref>, <xref rid="pone.0000077-Kim2" ref-type="bibr">[4]</xref>&#x02013;<xref rid="pone.0000077-Kurz1" ref-type="bibr">[7]</xref>). <italic>C. elegans</italic> has evolved mechanisms to recognize and respond to potential pathogens using an inducible immune system that contains many highly-conserved effectors, including anti-bacterial proteins, lysozymes, lipases, and C-type lectins <xref rid="pone.0000077-Nicholas1" ref-type="bibr">[8]</xref>. Additionally, conserved signaling pathways have been linked to <italic>C. elegans</italic> immunity, including the CED-3, TGF-&#x003b2;, PMK-1 MAP kinase, and DAF-2 pathways (reviewed in <xref rid="pone.0000077-Mylonakis1" ref-type="bibr">[1]</xref>, <xref rid="pone.0000077-GravatoNobre1" ref-type="bibr">[6]</xref>, <xref rid="pone.0000077-Kurz2" ref-type="bibr">[9]</xref>), suggesting that despite the vast evolutionary gulf between nematodes and mammals, some of the underlying mechanisms of immunity may be similar.</p><p>Despite the similarities, there are also characteristics of the immune response of <italic>C. elegans</italic> that distinguish it from mammals and other invertebrates. Although Toll receptors, first studied in <italic>Drosophila melanogaster</italic> and subsequently studied in mammals, are highly conserved across species, they do not appear to play a role in <italic>C. elegans</italic> immune responses <xref rid="pone.0000077-Pujol1" ref-type="bibr">[10]</xref>. Specifically, the single nematode Toll receptor homolog, Tol-1, is expressed in the nematode nervous system and is involved in bacterial avoidance behaviors, rather than in the activation of antimicrobial genes <xref rid="pone.0000077-Pujol1" ref-type="bibr">[10]</xref>, <xref rid="pone.0000077-Zhang1" ref-type="bibr">[11]</xref>. Consistent with the lack of Toll-like receptor-mediated immunity, there is no evidence of a NF-&#x003ba;B homolog in <italic>C. elegans</italic>. NF-&#x003ba;B-like transcription factors are critical in the regulation of Toll immune responses as they control the expression of key genes involved in innate immunity in many organisms (recently reviewed in <xref rid="pone.0000077-Moynagh1" ref-type="bibr">[12]</xref>). Thus, there is a distinct need to determine exactly which transcription factors are involved in modulating nematode immune responses, some of which may also play important immunity roles in mammals.</p><p>Recently, Shapira <italic>et al.</italic>
+<xref rid="pone.0000077-Shapira1" ref-type="bibr">[13]</xref> demonstrated that the intestinal transcription factor ELT-2 regulates intestinal immunity to the human pathogen <italic>P. aeruginosa.</italic> Here we show that disruption of ELT-2 causes nematodes to become hypersusceptible to <italic>Salmonella enterica</italic>-mediated killing and that ELT-2 upregulates the expression of <italic>clec-67</italic> which is a marker of <italic>S. enterica</italic> infection in <italic>C. elegans</italic>. Our results also suggest that ELT-2 is part of a multi-pathogen defense pathway that regulates innate immunity not only to <italic>S. enterica</italic> and <italic>Pseudomonas aeruginosa</italic>, but also to the Gram-positive bacterium <italic>Enterococcus faecalis</italic> and to the fungal pathogen <italic>Cryptococcus neoformans</italic>. We also show that ELT-2 functions in <italic>C. elegans</italic> immunity independently of the DAF-2/DAF-16 signaling pathway. These data indicate that ELT-2 is an important regulator of a conserved <italic>C. elegans</italic> immune response to pathogens.</p></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>elt-2 RNAi animals are hypersusceptible to S. enterica-mediated killing</title><p>The digestive tract of <italic>C. elegans</italic> is a primary interface between the immune system and potential bacterial pathogens. This is especially important in the case of bacteria such as the human pathogen <italic>S. enterica</italic> which is capable of establishing a persistent infection in the <italic>C. elegans</italic> intestine <xref rid="pone.0000077-Aballay1" ref-type="bibr">[14]</xref>, <xref rid="pone.0000077-Labrousse1" ref-type="bibr">[15]</xref>. In addition, several known effectors of the <italic>C. elegans</italic> immune system are expressed in the intestinal cells. Because of this link between the intestine and immunity, we sought to identify intestinal transcription factors which might modulate <italic>C. elegans</italic> immune responses.</p><p>Over 900 functional transcription factors are predicted to be encoded in the <italic>C. elegans</italic> genome <xref rid="pone.0000077-ReeceHoyes1" ref-type="bibr">[16]</xref>. To identify genes encoding transcription factors involved in the regulation of immune effectors expressed in the <italic>C. elegans</italic> intestinal cells, candidates were selected based on the following criteria: i) genes known to be expressed in the intestine (141 candidates), ii) genes expressed during adulthood (10 of the 141 candidates), and iii) genes which only regulate intestinal functions or for which a function in adulthood has not been reported (7 of the 10 candidates). Of the seven candidates, five were chosen for further analysis based on the availability of RNAi clones <xref rid="pone.0000077-Kamath1" ref-type="bibr">[17]</xref>. Thus, to address whether the selected candidate genes play a role in <italic>C. elegans</italic> immunity, we used RNAi to inhibit their expression and tested the susceptibility of these gene ablated animals to <italic>S. enterica</italic>. The results shown in <xref ref-type="table" rid="pone-0000077-t001">Table 1</xref> demonstrate that only RNAi ablation of <italic>elt-2</italic> results in consistent increased susceptibility of <italic>C. elegans</italic> to <italic>S. enterica</italic>.</p><table-wrap id="pone-0000077-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000077.t001</object-id><label>Table 1</label><caption><title>ELT-2 is required for <italic>C. elegans</italic> immunity to <italic>S. enterica</italic>.</title></caption><graphic xlink:href="pone.0000077.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">RNAi treatment</td><td align="left" rowspan="1" colspan="1">TD50&#x000b1;SEM</td><td align="left" rowspan="1" colspan="1">Events/Obs<xref ref-type="table-fn" rid="nt102">a</xref>
+</td><td align="left" rowspan="1" colspan="1">p-value vs control</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">control</td><td align="left" rowspan="1" colspan="1">5.90&#x000b1;0.23</td><td align="left" rowspan="1" colspan="1">149/210</td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>elt-2</italic>
+</td><td align="left" rowspan="1" colspan="1">1.91&#x000b1;0.06</td><td align="left" rowspan="1" colspan="1">114/120</td><td align="left" rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>F42G2.6</italic>
+</td><td align="left" rowspan="1" colspan="1">5.24&#x000b1;0.22</td><td align="left" rowspan="1" colspan="1">97/120</td><td align="left" rowspan="1" colspan="1">0.1483</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>F23F12.9</italic>
+</td><td align="left" rowspan="1" colspan="1">5.59&#x000b1;0.15</td><td align="left" rowspan="1" colspan="1">97/120</td><td align="left" rowspan="1" colspan="1">0.3375</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>ZK632.2</italic>
+</td><td align="left" rowspan="1" colspan="1">5.28&#x000b1;0.19</td><td align="left" rowspan="1" colspan="1">93/120</td><td align="left" rowspan="1" colspan="1">0.1900</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>C18G1.2</italic>
+</td><td align="left" rowspan="1" colspan="1">5.69&#x000b1;0.20</td><td align="left" rowspan="1" colspan="1">62/90</td><td align="left" rowspan="1" colspan="1">0.8779</td></tr></tbody></table><table-wrap-foot><fn id="nt101"><p>Wild type nematodes grown on <italic>E. coli</italic> carrying a vector control or on <italic>E. coli</italic> expressing double-stranded RNA of the gene listed in the RNAi treatment column were exposed to <italic>S. enterica</italic> SL1344. TD50&#x000b1;SEM and p-values were calculated using PRISM as described in Experimental Procedures.</p></fn><fn id="nt102"><label>a</label><p>Animals that were not found or that died as a result of getting stuck to the wall of the plate were censored.</p></fn></table-wrap-foot></table-wrap><p>The increased susceptibility of <italic>elt-2(RNAi)</italic> animals to <italic>S. enterica</italic> (<xref ref-type="table" rid="pone-0000077-t001">Table 1</xref> and <xref ref-type="fig" rid="pone-0000077-g001">Figure 1A</xref>) indicates that ELT-2 may be involved in the regulation of an immune response to this pathogen. However, it is also possible that <italic>elt-2(RNAi)</italic> animals are sickly due to a malfunctioning intestine. ELT-2 is a crucial GATA transcription factor involved in intestinal differentiation <xref rid="pone.0000077-Fukushige1" ref-type="bibr">[18]</xref>&#x02013;<xref rid="pone.0000077-Fukushige4" ref-type="bibr">[22]</xref> and <italic>elt-2</italic> knockouts exhibit a gut-obstructed (Gob) phenotype that results in arrest at L1 stage larvae and subsequent death, apparently by starvation <xref rid="pone.0000077-Fukushige1" ref-type="bibr">[18]</xref>. Therefore, to study whether <italic>elt-2</italic> ablation by RNAi makes the animals sickly, we first assayed the life span of <italic>elt-2</italic> RNAi nematodes. <xref ref-type="fig" rid="pone-0000077-g001">Figure 1B</xref> shows that although <italic>elt-2</italic> RNAi animals exhibit a reduced life span compared to control animals, they survive at least eight days, indicating that starvation is not a cause of death.</p><fig id="pone-0000077-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000077.g001</object-id><label>Figure 1</label><caption><title>
+<italic>elt-2</italic>(RNAi) animals are hypersusceptible to <italic>S. enterica-</italic>mediated killing and are colonized by <italic>E. coli</italic>.</title><p>(<bold>A</bold>) Wild-type nematodes grown on <italic>E. coli</italic> carrying a vector control or on <italic>E. coli</italic> expressing <italic>elt-2</italic> double-stranded RNA were exposed to <italic>S. enterica</italic> SL1344 (P&#x0003c;0.0001).</p><p>60 nematodes were used for each condition. Results are representative of at least 3 independent experiments.</p><p>(<bold>B</bold>) Wild-type nematodes grown on <italic>E. coli</italic> carrying a vector control or on <italic>E. coli</italic> expressing <italic>elt-2</italic> double-stranded RNA were placed on FUdR containing plates with lawns of heat-killed <italic>E. coli</italic> OP50 (P&#x0200a;=&#x0200a;0.0011).</p><p>20 nematodes were used for each condition. Results are representative of at least 3 independent experiments.</p><p>(<bold>C</bold>) and (<bold>D</bold>) Wild-type nematodes grown on <italic>E. coli</italic> carrying a vector control (C) or on <italic>E. coli</italic> expressing <italic>elt-2</italic> double-stranded RNA (D) were exposed to <italic>E. coli</italic> expressing DSred for 24 hours, and then visualized using a Leica TCS SL spectral confocal microscope (bar&#x0200a;=&#x0200a;50 &#x000b5;m).</p><p>(<bold>E</bold>) Wild-type nematodes grown on <italic>E. coli</italic> carrying a vector control or on <italic>E. coli</italic> expressing <italic>elt-2</italic> double-stranded RNA were transferred to a clean LB plate either immediately or after 24 hours exposure to <italic>E. coli</italic> OP50 (&#x0002b;24 hrs), where they were allowed to defecate for 2 hours.</p><p>Plates then were placed at 37&#x000b0;C overnight and colonies counted.</p><p>The combined data from 10 individual animals are shown, and data were normalized to the median colony count for the vector control at each timepoint.</p><p>Error bars represent SEM.</p><p>Results are representative of at least 3 independent experiments.</p></caption><graphic xlink:href="pone.0000077.g001"/></fig><p>To test whether <italic>elt-2(RNAi)</italic> animals are more susceptible to <italic>S. enterica</italic>-mediated killing when taking into account their reduced life span on <italic>E. coli</italic>, the relative mortality of <italic>elt-2(RNAi)</italic> animals feeding on <italic>S. enterica</italic> was used to assess the susceptibility to <italic>S. enterica-</italic>mediated killing of <italic>elt-2</italic> RNAi animals. The relative mortality measure takes into account changes in life span due to a general modification in fitness rather than a specific defect in innate immunity against <italic>S. enterica</italic>. The relative mortality of <italic>elt-2(RNAi)</italic> animals was calculated as described in Materials and methods and determined to be 2.4 (<xref ref-type="table" rid="pone-0000077-t002">Table 2</xref>). The relative mortality obtained is comparable to the relative mortality of animals lacking CED-3-mediated immunity <xref rid="pone.0000077-Aballay2" ref-type="bibr">[23]</xref> and greater than the relative mortality of animals lacking p38/PMK-1 <xref rid="pone.0000077-Tenor1" ref-type="bibr">[24]</xref>, which is crucial for <italic>C. elegans</italic> immunity <xref rid="pone.0000077-Kim3" ref-type="bibr">[25]</xref>&#x02013;<xref rid="pone.0000077-Huffman1" ref-type="bibr">[28]</xref>, indicating that the shortened life span of the <italic>elt-2(RNAi)</italic> animals infected by <italic>S. enterica</italic> is not simply a consequence of being sickly.</p><table-wrap id="pone-0000077-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000077.t002</object-id><label>Table 2</label><caption><title>Relative Mortality of <italic>elt-2</italic> RNAi animals on <italic>S. enterica</italic>.</title></caption><graphic xlink:href="pone.0000077.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Bacteria</td><td align="left" rowspan="1" colspan="1">RNAi treatment</td><td align="left" rowspan="1" colspan="1">Experiment</td><td align="left" rowspan="1" colspan="1">TD<sub>50</sub>&#x000b1;SEM</td><td align="left" rowspan="1" colspan="1">Events/Obs<xref ref-type="table-fn" rid="nt105">a</xref>
+</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<italic>S. enterica</italic>
+</td><td align="left" rowspan="1" colspan="1">control</td><td align="left" rowspan="1" colspan="1">1<xref ref-type="table-fn" rid="nt106">b</xref>
+</td><td align="left" rowspan="1" colspan="1">6.11&#x000b1;0.24</td><td align="left" rowspan="1" colspan="1">26/60</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>elt-2</italic>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">2.06&#x000b1;0.17</td><td align="left" rowspan="1" colspan="1">40/60</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">control</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">8.99&#x000b1;0.35</td><td align="left" rowspan="1" colspan="1">9/20</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>elt-2</italic>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">2.53&#x000b1;0.22</td><td align="left" rowspan="1" colspan="1">16/20</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">control</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">7.46&#x000b1;0.38</td><td align="left" rowspan="1" colspan="1">5/20</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>elt-2</italic>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">3.98&#x000b1;0.36</td><td align="left" rowspan="1" colspan="1">12/20</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">control</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">6.67&#x000b1;0.25</td><td align="left" rowspan="1" colspan="1">30/60</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>elt-2</italic>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1.97&#x000b1;0.08</td><td align="left" rowspan="1" colspan="1">50/60</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">control</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">5.12&#x000b1;0.15</td><td align="left" rowspan="1" colspan="1">42/60</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>elt-2</italic>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">2.81&#x000b1;0.09</td><td align="left" rowspan="1" colspan="1">46/60</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">control</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">7.17&#x000b1;0.27</td><td align="left" rowspan="1" colspan="1">20/40</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>elt-2</italic>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1.10&#x000b1;0.27</td><td align="left" rowspan="1" colspan="1">32/40</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">control</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">6.20&#x000b1;0.09</td><td align="left" rowspan="1" colspan="1">98/120</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>elt-2</italic>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">0.82&#x000b1;0.12</td><td align="left" rowspan="1" colspan="1">56/60</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>E. coli</italic>
+</td><td align="left" rowspan="1" colspan="1">control</td><td align="left" rowspan="1" colspan="1">1<xref ref-type="table-fn" rid="nt107">c</xref>
+</td><td align="left" rowspan="1" colspan="1">13.48&#x000b1;0.15</td><td align="left" rowspan="1" colspan="1">16/20</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>elt-2</italic>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">10.25&#x000b1;0.16</td><td align="left" rowspan="1" colspan="1">19/20</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">control</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">15.33&#x000b1;0.35</td><td align="left" rowspan="1" colspan="1">6/20</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>elt-2</italic>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">10.96&#x000b1;0.16</td><td align="left" rowspan="1" colspan="1">18/20</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">control</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">12.15&#x000b1;0.13</td><td align="left" rowspan="1" colspan="1">13/20</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>elt-2</italic>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">8.03&#x000b1;0.23</td><td align="left" rowspan="1" colspan="1">13/20</td></tr><tr><td align="left" rowspan="1" colspan="1">Bacteria</td><td align="left" rowspan="1" colspan="1">RNAi treatment</td><td align="left" rowspan="1" colspan="1">Mean&#x000b1;SD</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>S. enterica</italic>
+</td><td align="left" rowspan="1" colspan="1">control</td><td align="left" rowspan="1" colspan="1">6.82&#x000b1;1.14</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>S. enterica</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>elt-2</italic>
+</td><td align="left" rowspan="1" colspan="1">2.17&#x000b1;0.99</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>E. coli</italic>
+</td><td align="left" rowspan="1" colspan="1">control</td><td align="left" rowspan="1" colspan="1">13.65&#x000b1;1.30</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>E. coli</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>elt-2</italic>
+</td><td align="left" rowspan="1" colspan="1">9.75&#x000b1;1.25</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="2" align="left" rowspan="1">
+<bold>Relative Mortality&#x0200a;=&#x0200a;2.24</bold>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="nt104"><p>Wild type nematodes grown on <italic>E. coli</italic> carrying a vector control or on <italic>E. coli</italic> expressing <italic>elt-2</italic> double-stranded RNA were exposed to <italic>S. enterica</italic> SL1344 or <italic>E. coli</italic> OP50 on plates containing FUdR. TD<sub>50</sub> and SEM were calculated as described in Experimental Procedures. Relative mortality is determined by the following equation: (TD<sub>50</sub> of control worms on <italic>S. enterica</italic>/TD<sub>50</sub> of <italic>elt-2</italic> RNAi worms on <italic>S. enterica</italic>)/( TD<sub>50</sub> of control worms on <italic>E. coli</italic>/mean TD<sub>50</sub> of <italic>elt-2</italic> RNAi worms on <italic>E. coli</italic>).</p></fn><fn id="nt105"><label>a</label><p>Animals that were not found or that died as a result of getting stuck to the wall of the plate were censored.</p></fn><fn id="nt106"><label>b</label><p>Indicates experiment depicted in <xref ref-type="fig" rid="pone-0000077-g001">Figure 1A</xref>.</p></fn><fn id="nt107"><label>c</label><p>Indicates experiment depicted in <xref ref-type="fig" rid="pone-0000077-g001">Figure 1B</xref>.</p></fn></table-wrap-foot></table-wrap><p>Interestingly, within 24 hours, <italic>elt-2(RNAi)</italic> animals show distended intestines full of <italic>E. coli</italic> that clearly contrast with the non-distended intestinal lumens of control animals (<xref ref-type="fig" rid="pone-0000077-g001">Figures 1C and 1D</xref>). This intestinal distension was not seen within 20 minutes of exposure to <italic>E. coli</italic> expressing DSred (data not shown), which indicates that intestinal distension of <italic>elt-2(RNAi)</italic> animals is caused by proliferating <italic>E. coli</italic> rather than by an abnormal intestinal structure. This is not surprising given that proliferating <italic>E. coli</italic> is a cause of death in <italic>C. elegans</italic>
+<xref rid="pone.0000077-Garigan1" ref-type="bibr">[29]</xref>, that <italic>E. coli</italic> grown on rich media kills <italic>C. elegans</italic>
+<xref rid="pone.0000077-Garsin1" ref-type="bibr">[30]</xref>, and that immunocompromised animals are killed by <italic>E. coli</italic>
+<xref rid="pone.0000077-Singh1" ref-type="bibr">[31]</xref>. Additionally, after 24 hours of exposure to <italic>E. coli</italic> expressing DSred, <italic>elt-2</italic> RNAi animals exhibited intestinal colonization by the bacteria; DSred fluorescence was present in the <italic>elt-2</italic> RNAi nematode intestine even after three one-hour-transfers onto fresh nonfluorescent <italic>E. coli</italic> plates (data not shown). This indicates that <italic>E. coli</italic> expressing DSred is able to persistently colonize <italic>elt-2</italic> RNAi animals, which is of interest as <italic>E. coli</italic> does not typically colonize the nematode intestine in a persistent fashion <xref rid="pone.0000077-Aballay1" ref-type="bibr">[14]</xref>.</p><p>To ensure that the intestinal distension and <italic>E. coli</italic> colonization are not caused by an unseen blockage or an inability of the intestinal muscles to move bacteria through the gut, the defecation of <italic>elt-2(RNAi)</italic> nematodes exposed to <italic>E. coli</italic> was measured. As shown in <xref ref-type="fig" rid="pone-0000077-g001">Figure 1E</xref>, defecation of <italic>elt-2(RNAi)</italic> animals is not significantly different from vector control animals. Indeed, while not significantly different, there is a consistent slight increase in the defecation of <italic>elt-2(RNAi)</italic> animals. Taken together, these results indicate that <italic>elt-2(RNAi)</italic> animals do not exhibit the Gob phenotype observed in <italic>elt-2</italic> knockouts, that they do not die by starvation, and that they are immunocompromised animals killed by replicating bacteria capable of colonizing their intestine.</p></sec><sec id="s2b"><title>ELT-2 controls expression of clec-67 which is a marker of C. elegans immune response to S. enterica</title><p>To provide further evidence of the role of ELT-2 in innate immunity, we studied its involvement in the expression of the gene <italic>clec-67</italic>, which encodes a C-type lectin. Traditionally, C-type lectins function as soluble mediators that specifically bind carbohydrates, resulting in pathogen clearance by opsonization. A recent report shows that a C-type lectin encoding gene whose product possesses antimicrobial activity is upregulated in Paneth cells by microbial colonization, indicating that lectins are part of a primitive mechanism of innate immunity <xref rid="pone.0000077-Cash1" ref-type="bibr">[32]</xref>. In addition, genes encoding C-type lectin domains have been found to be upregulated in <italic>C. elegans</italic> by a human opportunistic pathogen <xref rid="pone.0000077-Mallo1" ref-type="bibr">[33]</xref>, a nematode specific pathogen <xref rid="pone.0000077-ORourke1" ref-type="bibr">[34]</xref>, and a bacterial toxin <xref rid="pone.0000077-Huffman1" ref-type="bibr">[28]</xref>, indicating that they are conserved markers of <italic>C. elegans</italic> immunity.</p><p>We decided to use <italic>clec-67</italic> as a marker of <italic>C. elegans</italic> immunity to <italic>S. enterica</italic> because it is consistently upregulated by this pathogen in several expression profiling experiments performed in our laboratory, because it is expressed in the intestine (<xref ref-type="fig" rid="pone-0000077-g002">Figure 2A</xref>), and because its promoter region contains a GATA binding site (A/T GATA A/G). As shown in <xref ref-type="fig" rid="pone-0000077-g002">Figure 2B</xref>, the <italic>clec-67</italic> upregulation by <italic>S. enterica</italic> observed in our microarrays was confirmed by qRT-PCR. <xref ref-type="fig" rid="pone-0000077-g002">Figure 2B</xref> also shows that when <italic>elt-2</italic> expression is ablated by RNAi, <italic>clec-67</italic> is downregulated compared to vector control, indicating that ELT-2 regulates the expression of this effector of <italic>C. elegans</italic> immunity to <italic>S. enterica</italic>. To ensure that the differences in expression pattern of <italic>clec-67</italic> are not due to intestinal defects in <italic>elt-2(RNAi)</italic> animals, we measured the expression of six intestinal housekeeping genes in <italic>elt-2(RNAi)</italic> and vector control nematodes exposed to <italic>S. enterica</italic> (<xref ref-type="fig" rid="pone-0000077-g002">Figure 2C</xref>). The expression of each of these genes is less than two-fold different from vector control, well within the error range of the assay, and much less than the differences seen in expression of <italic>clec-67</italic>. Therefore, the change in the expression pattern of <italic>clec-67</italic> is due to changes in ELT-2 levels, and not to nonspecific changes in intestinal gene expression.</p><fig id="pone-0000077-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000077.g002</object-id><label>Figure 2</label><caption><title>Expression of <italic>clec-67</italic> is controlled by ELT-2.</title><p>(<bold>A</bold>) <italic>Pclec-67::gfp</italic> nematodes were grown on <italic>E. coli</italic> OP50 and were visualized using a Leica MZ FLIII fluorescence stereomicroscope.</p><p>(<bold>B</bold>) Microarray (white) and qRT-PCR (light grey) comparing expression of <italic>clec-67</italic> in wild-type nematodes grown on <italic>S. enterica</italic> SL1344 versus wild-type nematodes grown on <italic>E. coli</italic> OP50.</p><p>qRT-PCR comparing expression of <italic>clec-67</italic> in wild-type nematodes grown on <italic>E. coli</italic> carrying a vector control versus wild-type nematodes grown on <italic>E. coli</italic> expressing <italic>elt-2</italic> double-stranded RNA (dark grey).</p><p>Results are the average of 3-7 independent experiments.</p><p>Error bars represent SEM.</p><p>(<bold>C</bold>) qRT-PCR comparing expression of a variety of intestinal housekeeping genes in wild-type nematodes grown on <italic>E. coli</italic> carrying a vector control versus wild-type nematodes grown on <italic>E. coli</italic> expressing <italic>elt-2</italic> double-stranded RNA.</p><p>Results are the average of 5 independent experiments.</p><p>Error bars represent SEM.</p></caption><graphic xlink:href="pone.0000077.g002"/></fig></sec><sec id="s2c"><title>ELT-2 is required for proper C. elegans immunity to a variety of microbial pathogens</title><p>To determine whether ELT-2 is part of an immune system specific to <italic>S. enterica</italic> or whether it is required for immunity to pathogens in general, <italic>elt-2(RNAi)</italic> animals were infected with the Gram-negative bacterial pathogen <italic>P. aeruginosa</italic>
+<xref rid="pone.0000077-Tan1" ref-type="bibr">[35]</xref>, the Gram-positive bacterial pathogen <italic>E. faecalis</italic>
+<xref rid="pone.0000077-Garsin1" ref-type="bibr">[30]</xref>, and the fungal pathogen <italic>C. neoformans</italic>
+<xref rid="pone.0000077-Mylonakis2" ref-type="bibr">[36]</xref> as described. For all of these pathogens, <italic>elt-2(RNAi)</italic> animals exhibit increased mortality compared to vector control animals (<xref ref-type="fig" rid="pone-0000077-g003">Figure 3</xref>). These data indicate that RNAi ablation of <italic>elt-2</italic> increases <italic>C. elegans</italic> susceptibility to different types of bacterial and fungal pathogens.</p><fig id="pone-0000077-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000077.g003</object-id><label>Figure 3</label><caption><title>
+<italic>elt-2(RNAi)</italic> animals are more susceptible than wild-type nematodes to a variety of pathogens.</title><p>(<bold>A</bold>)Wild-type nematodes grown on <italic>E. coli</italic> carrying a vector control or on <italic>E. coli</italic> expressing <italic>elt-2</italic> double-stranded RNA were exposed to <italic>P. aeruginosa</italic> PA14 (P&#x0200a;=&#x0200a;0.0001).</p><p>(<bold>B</bold>) Wild-type nematodes grown on <italic>E. coli</italic> carrying a vector control or on <italic>E. coli</italic> expressing <italic>elt-2</italic> double-stranded RNA were exposed to <italic>E. faecalis</italic> OG1RF (P&#x0003c;0.0001).</p><p>(<bold>C</bold>) Wild-type nematodes grown on <italic>E. coli</italic> carrying a vector control or on <italic>E. coli</italic> expressing <italic>elt-2</italic> double-stranded RNA were exposed to <italic>C. neoformans</italic> H99 (P&#x0003c;0.0001).</p><p>60&#x02013;120 nematodes were used for each condition.</p><p>Results are representative of at least 3 independent experiments.</p></caption><graphic xlink:href="pone.0000077.g003"/></fig><p>The DAF-2/DAF-16 insulin-like pathway which regulates longevity in <italic>C. elegans</italic> has recently been linked to immunity against bacteria. DAF-16 is a FOXO transcription factor, which regulates a wide variety of genes required for longevity, stress-response, development, and immunity <xref rid="pone.0000077-Murphy1" ref-type="bibr">[37]</xref>, <xref rid="pone.0000077-Lee1" ref-type="bibr">[38]</xref>, and it is negatively regulated by DAF-2 <xref rid="pone.0000077-Lee2" ref-type="bibr">[39]</xref>. Thus, <italic>daf-2</italic> mutants exhibit higher DAF-16 activity and are more resistant to different bacterial pathogens <xref rid="pone.0000077-Singh1" ref-type="bibr">[31]</xref>, <xref rid="pone.0000077-Garsin2" ref-type="bibr">[40]</xref>, <xref rid="pone.0000077-Anyanful1" ref-type="bibr">[41]</xref>. Because our data indicate that ELT-2 regulates a multi-pathogen immune response, we studied whether the transcription factor is required for the effects of DAF-2 in immunity to pathogens. First, we studied whether <italic>daf-2(e1370)</italic> mutants were more resistant to the fungal pathogen <italic>Cryptococcus neoformans</italic> and then whether RNAi ablation of <italic>elt-2</italic> reduces the resistance phenotype of <italic>daf-2(e1370)</italic> animals. As shown in <xref ref-type="fig" rid="pone-0000077-g004">Figure 4</xref>, <italic>daf-2(e1370)</italic> mutants are more resistant not only to <italic>S. enterica</italic> and <italic>E. faecalis</italic>, as previously shown <xref rid="pone.0000077-Garsin2" ref-type="bibr">[40]</xref>, but also to <italic>Cryptococcus neoformans</italic>, indicating that DAF-2 regulates immune response to pathogens in general. Furthermore, this increased resistance to <italic>C. neoformans</italic> is dependent upon DAF-16 function as <italic>daf-2(e1370);daf-16(RNAi)</italic> nematodes have increased mortality when compared to <italic>daf-2(e1370)</italic> mutants (<xref ref-type="fig" rid="pone-0000077-g004">Figure 4D</xref>).</p><fig id="pone-0000077-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000077.g004</object-id><label>Figure 4</label><caption><title>The <italic>daf-2(e1370)</italic> mutation rescues the increased susceptibility to pathogens phenotype of <italic>elt-2(RNAi)</italic> animals.</title><p>(<bold>A</bold>) Wild-type and <italic>daf2(e1370)</italic> nematodes grown on <italic>E. coli</italic> carrying a vector control or on <italic>E. coli</italic> expressing <italic>elt-2</italic> double-stranded RNA were exposed to <italic>S. enterica</italic> SL1344.</p><p>Significant differences were found when wild-type was compared to <italic>daf-2(e1370)</italic> (P&#x0003c;0.0001), when <italic>elt-2(RNAi)</italic> was compared to <italic>daf-2(e1370);elt-2(RNAi)</italic> (P&#x0003c;0.0001), and when <italic>daf-2(e1370)</italic> was compared to <italic>daf-2(e1370);elt-2(RNAi)</italic> (P&#x0003c;0.0001).</p><p>(<bold>B</bold>) Wild-type and <italic>daf2(e1370)</italic> nematodes grown on <italic>E. coli</italic> carrying a vector control or on <italic>E. coli</italic> expressing <italic>elt-2</italic> double-stranded RNA were exposed to <italic>E. faecalis</italic> OG1RF.</p><p>Significant differences were found when wild-type was compared to <italic>daf-2(e1370)</italic> (P&#x0200a;=&#x0200a;0.0056), when <italic>elt-2(RNAi)</italic> was compared to <italic>daf-2(e1370);elt-2(RNAi)</italic> (P&#x0003c;0.0001), and when <italic>daf-2(e1370)</italic> was compared to <italic>daf-2(e1370);elt-2(RNAi)</italic> (P&#x0003c;0.0001).</p><p>(<bold>C</bold>) Wild-type and <italic>daf2(e1370)</italic> nematodes grown on <italic>E. coli</italic> carrying a vector control or on <italic>E. coli</italic> expressing <italic>elt-2</italic> double-stranded RNA were exposed to <italic>C. neoformans</italic> H99 (P&#x0003c;0.0001).</p><p>Significant differences were found when wild-type was compared to <italic>daf-2(e1370)</italic> (P&#x0200a;=&#x0200a;0.0174) and when <italic>elt-2(RNAi)</italic> was compared to <italic>daf-2(e1370);elt-2(RNAi)</italic> (P&#x0003c;0.0001).</p><p>No significant difference was found when <italic>daf-2(e1370)</italic> was compared to <italic>daf-2(e1370);elt-2(RNAi)</italic> (P&#x0200a;=&#x0200a;0.1666).</p><p>(<bold>D</bold>) Wild-type and <italic>daf2(e1370)</italic> nematodes grown on <italic>E. coli</italic> carrying a vector control or on <italic>E. coli</italic> expressing <italic>daf-16</italic> double-stranded RNA were exposed to <italic>C. neoformans</italic> H99.</p><p>A significant difference was found when <italic>daf-2(e1370)</italic> was compared to <italic>daf-2(e1370);daf-16(RNAi)</italic> (P&#x0003c;0.0001), but no significant difference was found when wild-type was compared to <italic>daf-16(RNAi)</italic> (P&#x0200a;=&#x0200a;0.9375).</p><p>60-240 nematodes were used for each condition.</p><p>Results are representative of at least 3 independent experiments.</p></caption><graphic xlink:href="pone.0000077.g004"/></fig><p>To address whether the DAF-2 pathway regulates the immune system of the nematode via ELT-2, RNAi was used to ablate <italic>elt-2</italic> in <italic>daf-2(e1370)</italic> animals which were then exposed to <italic>S. enterica, E. faecalis</italic>, and <italic>C. neoformans</italic>. Visibly, the <italic>daf-2(e1370)</italic>;<italic>elt-2(RNAi)</italic> nematodes appear similar to <italic>elt-2(RNAi)</italic> animals, being thinner, and more transparent than wild-type nematodes or <italic>daf-2(e1370)</italic> mutants. However, the <italic>daf-2(e1370)</italic>; <italic>elt-2(RNAi)</italic> nematodes are significantly more resistant to all pathogens tested than <italic>elt-2</italic> RNAi animals (<xref ref-type="fig" rid="pone-0000077-g004">Figure 4</xref>). Interestingly, <italic>daf-2(e1370); elt-2(RNAi)</italic> animals have increased resistance to <italic>E. faecalis</italic> compared to <italic>daf-2(e1370)</italic> animals, indicating that ELT-2 may suppress immune defenses specific to <italic>E. faecalis</italic> that are typically inhibited by DAF-2. Control experiments indicate that <italic>daf-2(e1370);daf-16(RNAi)</italic> animals have increased susceptibility to all pathogens when compared to <italic>daf-2(e1370)</italic> (<xref ref-type="fig" rid="pone-0000077-g004">Figure 4D</xref> and data not shown).</p></sec></sec><sec id="s3"><title>Discussion</title><p>Our results suggest that the GATA transcription factor ELT-2 regulates a <italic>C. elegans</italic> innate immunity independently of DAF-2/DAF-16 and that it regulates the expression of <italic>clec-67</italic> which is a marker of <italic>C. elegans</italic> immunity to <italic>S. enterica</italic> infection. Previously, ELT-2 had been linked to intestinal development, but its role in innate immunity was unknown. Since DAF-16 does not appear to be required for immunity to bacterial <xref rid="pone.0000077-Garsin2" ref-type="bibr">[40]</xref> and fungal pathogens (<xref ref-type="fig" rid="pone-0000077-g004">Figure 4C</xref>), the ELT-2 requirement for proper immunity to bacterial and fungal pathogens described here provides one of the first direct evidences indicating that a <italic>C. elegans</italic> transcription factor is required not only for the expression of immunity-related genes but also for survival in the presence of pathogens. Consistent with our results, a paper published while this manuscript was being prepared indicates that ELT-2 is required for immunity to <italic>Pseudomonas aeruginosa</italic>
+<xref rid="pone.0000077-Shapira1" ref-type="bibr">[13]</xref>.</p><p>The most well-known mammalian GATA transcription factor is GATA-3, which regulates the development of CD4&#x0002b; T cells to a Th2 phenotype <xref rid="pone.0000077-Zheng1" ref-type="bibr">[42]</xref>. However, since <italic>C. elegans</italic> does not have adaptive immunity, our data indicate that GATA transcription factors are also involved in innate immune responses. This is supported by other invertebrate models, where GATA binding elements have been found in the promoters of genes important in defense responses of <italic>D. melanogaster</italic>
+<xref rid="pone.0000077-Bernal1" ref-type="bibr">[43]</xref>&#x02013;<xref rid="pone.0000077-Wertheim1" ref-type="bibr">[45]</xref>, the silkworm <italic>Bombyx mori</italic>
+<xref rid="pone.0000077-Cheng1" ref-type="bibr">[46]</xref>, and the mosquito <italic>Aedes aegypti</italic>
+<xref rid="pone.0000077-Cheon1" ref-type="bibr">[47]</xref>. GATA transcription factors are evolutionarily conserved in a wide variety of eukaryotes and are most often involved in cellular development and differentiation <xref rid="pone.0000077-Patient1" ref-type="bibr">[48]</xref>. Human GATAs 4&#x02013;6, which are the most similar to <italic>C. elegans</italic> ELT-2, are involved in development of gut and cardiac tissue. Additionally, human GATA-4 has been shown to regulate cardiac stress responses <xref rid="pone.0000077-Aries1" ref-type="bibr">[49]</xref>&#x02013;<xref rid="pone.0000077-Suzuki1" ref-type="bibr">[51]</xref>, indicating that GATA-4 may have more than a developmental role in mammals.</p><p>Since <italic>C. elegans</italic> does not appear to have functional NF-&#x003ba;B-like transcription factors, ELT-2 may be an ancestral transcription factor required for surviving microbial infections in a common ancestor of nematodes and vertebrates. The only other <italic>C. elegans</italic> transcription factor, DAF-16, known to regulate the expression of classical immune effectors, is not required for defense to bacterial pathogens. We show here that like DAF-16, ELT-2 appears to regulate the expression of immune effectors. In addition, it seems to be required for survival in the presence of Gram-negative bacteria, Gram-positive bacteria, and fungal pathogens. Lack of immune inhibition by DAF-2 rescues, fully or partially, the hypersusceptibility to pathogens phenotype of <italic>elt-2(RNAi)</italic> animals suggesting both that <italic>elt-2(RNAi)</italic> animals do not have developmental defects that make them more susceptible to pathogens and that ELT-2 acts upstream or independently of the DAF-2/DAF-16 pathway. The facts that RNAi ablation of ELT-2 results in an increased susceptibility to pathogens and that RNAi ablation of DAF-16 (<xref ref-type="fig" rid="pone-0000077-g004">Figure 4</xref>) or mutations in <italic>daf-16</italic>
+<xref rid="pone.0000077-Garsin2" ref-type="bibr">[40]</xref> does not affect the susceptibility to pathogens argue in favor of the second possibility. Taken together, our results indicate that DAF-16 and ELT-2 are two key transcription factors that regulate two independent pathways required for <italic>C. elegans</italic> innate immunity to microbial pathogens.</p></sec><sec id="s4"><title>Materials and Methods</title><sec id="s4a"><title>Microbial and nematode strains</title><p>The following strains were used: <italic>Escherichia coli</italic> OP50 <xref rid="pone.0000077-Brenner1" ref-type="bibr">[52]</xref>, <italic>Salmonella enterica</italic> serovar <italic>typhimurium</italic> SL1344 <xref rid="pone.0000077-Wray1" ref-type="bibr">[53]</xref>, <italic>Enterococcus faecalis</italic> OG1RF <xref rid="pone.0000077-Murray1" ref-type="bibr">[54]</xref>, <italic>Cryptococcus neoformans</italic> H99 <xref rid="pone.0000077-Franzot1" ref-type="bibr">[55]</xref>, and <italic>Pseudomonas aeruginosa</italic> PA14 <xref rid="pone.0000077-Tan1" ref-type="bibr">[35]</xref>. <italic>C. elegans</italic> strains utilized were wild-type N2 and <italic>daf-2(e1370)</italic>. These strains were originally obtained from the Caenorhabditis Genetics Center and maintained in our laboratory.</p></sec><sec id="s4b"><title>Transgenic Animals</title><p>To generate the <italic>Pclec-67::gfp</italic> construct, the genomic region 520 to 20 bp upstream of <italic>clec-67</italic> was PCR amplified using the following primers generated by PCR Primer Design for <italic>C. elegans</italic> promoter::gfp fusions (<ext-link ext-link-type="uri" xlink:href="http://elegans.bcgsc.bc.ca/promoter_primers/">http://elegans.bcgsc.bc.ca/promoter_primers/</ext-link>): TCGTTTCTAATGCTCTCGGAA and TGGGTCCTTTGGCCAATCCCGGGGCGTTTTATGCGGGTTTGTTTA. The <italic>gfp</italic> sequence was amplified from pPD95.79 (Addgene, Cambridge, MA) by PCR with the following primers: CCCGGGATTGGCCAAAGGACCCAAAG and CCGCTTACAGACAAGCTGTGACCG. These PCR products were mixed and an additional PCR with the outside primers was performed to fuse the promoter and <italic>gfp</italic> sequences. The linear PCR product of this reaction was injected at 10 ng/&#x000b5;l into N2 animals to create the transgenic line. The coinjection marker pRF4 was injected at 50 ng/&#x000b5;l. Transgenic animals were anesthetized with 10&#x00025; sodium azide solution and visualized using a Leica MZ FLIII fluorescence stereomicroscope.</p></sec><sec id="s4c"><title>C. elegans killing assays</title><p>
+<italic>C. elegans</italic> wild-type N2 animals and <italic>daf-2</italic> mutants were maintained as hermaphrodites at 15&#x000b0;C, grown on modified NG agar plates and fed with <italic>E. coli</italic> strain OP50 as described <xref rid="pone.0000077-Brenner1" ref-type="bibr">[52]</xref>. Cultures were grown in Luria-Bertani (LB) broth and agar plates, except <italic>C. neoformans</italic> H99 and <italic>E. faecalis</italic> OG1RF which were grown in yeast peptone dextrose (YPD) and brain-heart infusion (BHI) medium, respectively. All pathogens were grown at 37&#x000b0;C except <italic>C. neoformans</italic> which was grown at 30&#x000b0;C. Pathogen lawns used for <italic>C. elegans</italic> killing assays were prepared by spreading 10&#x02013;20 &#x000b5;l of an overnight culture of the bacterial strains on modified NG agar medium (0.35&#x00025; peptone) in 3.5 cm diameter Petri plates. <italic>C. neoformans</italic> and <italic>E. faecalis</italic> were plated on BHI with 50 &#x000b5;g/ml gentamycin selection. Plates were incubated overnight before seeding them with young adult RNAi animals, created as described above. The killing assays were performed at 25&#x000b0;C and animals were transferred once a day to fresh plates, until no more progeny were evident. Animals were scored at the times indicated and considered dead upon failure to respond to touch.</p></sec><sec id="s4d"><title>C. elegans defecation assays</title><p>RNAi animals were transferred individually either directly from RNAi plates (time 0) or after 24 hours of exposure to <italic>E. coli</italic> OP50 on modified NGM plates with 0.35&#x00025; peptone. Animals were initially individually transferred to clean LB agar plates for 10 minutes to remove excess bacteria, then transferred to a new LB agar plate and allowed to defecate for 2 hours at 25&#x000b0;C. Animals were then removed, and the plates incubated overnight at 37&#x000b0;C. Amount of defecation was determined by counting colonies of <italic>E. coli</italic> on each plate. Data were normalized to the median colony count of vector control for each experiment.</p></sec><sec id="s4e"><title>
+<italic>C. elegans</italic> aging assays</title><p>Modified NGM plates containing 0.35&#x00025; peptone and 100 &#x000b5;g/ml 5-fluorodeoxyuridine FUdR <xref rid="pone.0000077-Gandhi1" ref-type="bibr">[56]</xref> were plated with <italic>E. coli</italic> OP50 lawns and allowed to incubate at 37&#x000b0;C overnight. Young adult RNAi animals were seeded onto these plates, and scored as indicated for <italic>C. elegans</italic> killing assays. As FUdR inhibits growth of progeny, daily transfer of nematodes was unnecessary.</p></sec><sec id="s4f"><title>RNA interference</title><p>We used RNA interference to generate loss-of-function RNAi phenotypes by feeding worms with <italic>E. coli</italic> strain HT115(DE3) expressing double-stranded RNA that is homologous to a target gene <xref rid="pone.0000077-Timmons1" ref-type="bibr">[57]</xref>, <xref rid="pone.0000077-Fraser1" ref-type="bibr">[58]</xref>. Briefly, <italic>E. coli</italic> harboring the appropriate vectors were grown in LB broth containing ampicillin (100 &#x000b5;g/ml) and tetracycline (10 &#x000b5;g/ml) at 37&#x000b0;C overnight. Bacteria were plated onto NGM plates containing 100 &#x000b5;g/ml ampicillin and 10 mM Isopropyl &#x003b2;-D-thiogalactoside (IPTG) to induce double-stranded RNA expression, and were allowed to grow overnight at 37&#x000b0;C.</p><p>Gravid adults were allowed to lay eggs on RNAi-expressing lawns of bacteria for 6-12 hours. The eggs were allowed to develop into young adults on RNAi or vector control plates at 25&#x000b0;C or at 15&#x000b0;C in experiments involving <italic>daf-2(e1370). Unc-22</italic> RNAi was used as a positive control for the creation of loss-of-function phenotypes. Bacterial strains expressing double-stranded RNA to inactivate the <italic>C. elegans</italic> genes have been described <xref rid="pone.0000077-Kamath1" ref-type="bibr">[17]</xref>. The clone identity was confirmed by sequencing. RNAi-mediated ablation of <italic>elt-2</italic> results in animals that despite being typically smaller and thinner than control counterparts, do survive to adulthood and do not die by starvation (<xref ref-type="fig" rid="pone-0000077-g001">Figure 1B</xref>).</p></sec><sec id="s4g"><title>Statistical analyses</title><p>Animal survival was plotted as a staircase curve using the PRISM (version 4.00) computer program. Survival curves are considered significantly different than the control when P values are &#x0003c;0.05. Prism uses the product limit or Kaplan-Meier method to calculate survival fractions and the logrank test, which is equivalent to the Mantel-Heanszel test, to compare survival curves. The time for 50&#x00025; of the nematodes to die (time to death 50, TD<sub>50</sub>) was calculated using Prism software (version 4.01) using a non-linear regression analysis of survival proportions utilizing the equation: Y&#x0200a;=&#x0200a;Bottom&#x0002b;(Top-Bottom)/(1&#x0002b;10 <sup>(LogEC</sup>
+<sub>50</sub>
+<sup>-X)&#x0002a;Hill Slope)</sup>), where Top is set at 100, Bottom is set at 0, X is the time in days and Y is the percentage of nematodes alive at time X. In this instance, TD<sub>50</sub> is equivalent to EC<sub>50</sub>. The relative mortality of <italic>elt-2</italic> RNAi animals was calculated using the equation: (TD<sub>50</sub> of control worms on <italic>S. enterica</italic>/TD<sub>50</sub> of <italic>elt-2</italic> RNAi worms on <italic>S. enterica</italic>)/(TD<sub>50</sub> control worms on <italic>E. coli</italic>/TD<sub>50</sub> of <italic>elt-2</italic> RNAi on <italic>E. coli</italic>).</p></sec><sec id="s4h"><title>Confocal microscopy</title><p>Modified NGM plates with 0.35&#x00025; peptone were plated with overnight cultures of <italic>E. coli</italic> OP50 carrying the pDSred Express plasmid (Invitrogen) and allowed to incubate overnight. Vector control or <italic>elt-2</italic> RNAi young adult nematodes were seeded onto these plates and allowed to feed at 25&#x000b0;C. At the times indicated, the animals were removed from the plates and placed on microscope slides with 2&#x00025; agarose pads in 10&#x00025; sodium azide solution. A coverslip was placed on top of the agar pad, and sealed with clear nail polish. Images were captured at the indicated magnifications using a Leica TCS SL confocal microscope and Leica Confocal software (version 2.61 Build 1537) (Leica Microsystems Heidelberg GmbH). Images were resized and adjusted for brightness and contrast in Adobe Photoshop.</p></sec><sec id="s4i"><title>RNA isolation</title><p>Gravid adult N2 nematodes were lysed using a solution of sodium hydroxide and bleach, washed, and the eggs synchronized overnight in S basal liquid medium at room temperature. Synchronized L1 animals were seeded onto modified NGM plates with 0.35&#x00025; peptone containing <italic>S. enterica</italic> or <italic>E. coli</italic> OP50, and incubated at 25&#x000b0;C until the nematodes attained young adult stage (approximately 24&#x02013;30 hours). The animals were then collected by washing the plates with M9 buffer, and RNA extracted using Trizol reagent. Samples were further purified using a QIAGEN RNeasy kit and residual genomic DNA removed using DNase treatment (DNA-free kit Ambion Inc Austin TX). RNA concentration was determined by spectrophotometer and samples were diluted to 10ng/ul in RNase free water. A minimum of two individual RNA isolations was performed for each experiment.</p></sec><sec id="s4j"><title>Quantitative Real-time PCR (qRT-PCR)</title><p>qRT-PCR was conducted using the Applied Biosystems Taqman One-Step Real-time PCR protocol using SYBR Green fluorescence (Applied Biosystems) on an Applied Biosystems 7900HT real-time PCR machine in 96 well plate format. Primers were designed using Aceprimer version 1.2 (<ext-link ext-link-type="uri" xlink:href="http://elegans.bcgsc.bc.ca/aceprimer/aceprimer.shtml">http://elegans.bcgsc.bc.ca/aceprimer/aceprimer.shtml</ext-link>). Each independent RNA preparation was measured at least twice by qRT-PCR. Within each experiment, a minimum of duplicate wells was run for every primer set. The data for each gene were normalized to the housekeeping gene, ama-1, the large subunit of <italic>C. elegans</italic> RNA polymerase II. Once normalized, the fold difference between SL1344 and OP50 samples was determined and plotted using PRISM.</p></sec></sec></body><back><ack><p>We thank Erica Kintz for technical assistance. We thank <italic>Caenorhabditis</italic> Genetics Center for all the strains used in this study.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>S.E.K is funded by the NIH Ruth-Kirschstein postdoctoral fellowship GM074461. A.A. is funded by The Whitehead Scholars Program, DCTR, NIH SERCEB, and NIH grants GM070977 and AI065641.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000077-Mylonakis1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mylonakis</surname><given-names>E</given-names></name><name><surname>Aballay</surname><given-names>A</given-names></name></person-group>
+<year>2005</year>
+<article-title>Worms and flies as genetically tractable animal models to study host-pathogen interactions.</article-title>
+<source>Infect Immun</source>
+<volume>73</volume>
+<fpage>3833</fpage>
+<lpage>3841</lpage>
+<pub-id pub-id-type="pmid">15972468</pub-id></element-citation></ref><ref id="pone.0000077-Hoffmann1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoffmann</surname><given-names>JA</given-names></name></person-group>
+<year>2003</year>
+<article-title>The immune response of <italic>Drosophila</italic>.</article-title>
+<source>Nature</source>
+<volume>426</volume>
+<fpage>33</fpage>
+<lpage>38</lpage>
+<pub-id pub-id-type="pmid">14603309</pub-id></element-citation></ref><ref id="pone.0000077-Kim1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>T</given-names></name><name><surname>Kim</surname><given-names>YJ</given-names></name></person-group>
+<year>2005</year>
+<article-title>Overview of innate immunity in <italic>Drosophila</italic>.</article-title>
+<source>J Biochem Mol Biol</source>
+<volume>38</volume>
+<fpage>121</fpage>
+<lpage>127</lpage>
+<pub-id pub-id-type="pmid">15826489</pub-id></element-citation></ref><ref id="pone.0000077-Kim2"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>DH</given-names></name><name><surname>Ausubel</surname><given-names>FM</given-names></name></person-group>
+<year>2005</year>
+<article-title>Evolutionary perspectives on innate immunity from the study of <italic>Caenorhabditis elegans</italic>.</article-title>
+<source>Curr Opin Immunol</source>
+<volume>17</volume>
+<fpage>4</fpage>
+<lpage>10</lpage>
+<pub-id pub-id-type="pmid">15653303</pub-id></element-citation></ref><ref id="pone.0000077-Sifri1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sifri</surname><given-names>CD</given-names></name><name><surname>Begun</surname><given-names>J</given-names></name><name><surname>Ausubel</surname><given-names>FM</given-names></name></person-group>
+<year>2005</year>
+<article-title>The worm has turned - microbial virulence modeled in <italic>Caenorhabditis elegans</italic>.</article-title>
+<source>Trends Microbiol</source>
+<volume>13</volume>
+<fpage>119</fpage>
+<lpage>127</lpage>
+<pub-id pub-id-type="pmid">15737730</pub-id></element-citation></ref><ref id="pone.0000077-GravatoNobre1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gravato-Nobre</surname><given-names>MJ</given-names></name><name><surname>Hodgkin</surname><given-names>J</given-names></name></person-group>
+<year>2005</year>
+<article-title>
+<italic>Caenorhabditis elegans</italic> as a model for innate immunity to pathogens.</article-title>
+<source>Cell Microbiol</source>
+<volume>7</volume>
+<fpage>741</fpage>
+<lpage>751</lpage>
+<pub-id pub-id-type="pmid">15888078</pub-id></element-citation></ref><ref id="pone.0000077-Kurz1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kurz</surname><given-names>CL</given-names></name><name><surname>Ewbank</surname><given-names>JJ</given-names></name></person-group>
+<year>2003</year>
+<article-title>
+<italic>Caenorhabditis elegans</italic>: an emerging genetic model for the study of innate immunity.</article-title>
+<source>Nat Rev Genet</source>
+<volume>4</volume>
+<fpage>380</fpage>
+<lpage>390</lpage>
+<pub-id pub-id-type="pmid">12728280</pub-id></element-citation></ref><ref id="pone.0000077-Nicholas1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nicholas</surname><given-names>HR</given-names></name><name><surname>Hodgkin</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>Responses to infection and possible recognition strategies in the innate immune system of <italic>Caenorhabditis elegans</italic>.</article-title>
+<source>Mol Immunol</source>
+<volume>41</volume>
+<fpage>479</fpage>
+<lpage>493</lpage>
+<pub-id pub-id-type="pmid">15183927</pub-id></element-citation></ref><ref id="pone.0000077-Kurz2"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kurz</surname><given-names>CL</given-names></name><name><surname>Tan</surname><given-names>MW</given-names></name></person-group>
+<year>2004</year>
+<article-title>Regulation of aging and innate immunity in <italic>C. elegans</italic>.</article-title>
+<source>Aging Cell</source>
+<volume>3</volume>
+<fpage>185</fpage>
+<lpage>193</lpage>
+<pub-id pub-id-type="pmid">15268752</pub-id></element-citation></ref><ref id="pone.0000077-Pujol1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pujol</surname><given-names>N</given-names></name><name><surname>Link</surname><given-names>EM</given-names></name><name><surname>Liu</surname><given-names>LX</given-names></name><name><surname>Kurz</surname><given-names>CL</given-names></name><name><surname>Alloing</surname><given-names>G</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>A reverse genetic analysis of components of the Toll signaling pathway in <italic>Caenorhabditis elegans</italic>.</article-title>
+<source>Curr Biol</source>
+<volume>11</volume>
+<fpage>809</fpage>
+<lpage>821</lpage>
+<pub-id pub-id-type="pmid">11516642</pub-id></element-citation></ref><ref id="pone.0000077-Zhang1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>Y</given-names></name><name><surname>Lu</surname><given-names>H</given-names></name><name><surname>Bargmann</surname><given-names>CI</given-names></name></person-group>
+<year>2005</year>
+<article-title>Pathogenic bacteria induce aversive olfactory learning in <italic>Caenorhabditis elegans</italic>.</article-title>
+<source>Nature</source>
+<volume>438</volume>
+<fpage>179</fpage>
+<lpage>184</lpage>
+<pub-id pub-id-type="pmid">16281027</pub-id></element-citation></ref><ref id="pone.0000077-Moynagh1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moynagh</surname><given-names>PN</given-names></name></person-group>
+<year>2005</year>
+<article-title>TLR signalling and activation of IRFs: revisiting old friends from the NF-kappaB pathway.</article-title>
+<source>Trends Immunol</source>
+<volume>26</volume>
+<fpage>469</fpage>
+<lpage>476</lpage>
+<pub-id pub-id-type="pmid">16006187</pub-id></element-citation></ref><ref id="pone.0000077-Shapira1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shapira</surname><given-names>M</given-names></name><name><surname>Hamlin</surname><given-names>BJ</given-names></name><name><surname>Rong</surname><given-names>J</given-names></name><name><surname>Chen</surname><given-names>K</given-names></name><name><surname>Ronen</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>A conserved role for a GATA transcription factor in regulating epithelial innate immune responses.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>103</volume>
+<fpage>14086</fpage>
+<lpage>14091</lpage>
+<pub-id pub-id-type="pmid">16968778</pub-id></element-citation></ref><ref id="pone.0000077-Aballay1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aballay</surname><given-names>A</given-names></name><name><surname>Yorgey</surname><given-names>P</given-names></name><name><surname>Ausubel</surname><given-names>FM</given-names></name></person-group>
+<year>2000</year>
+<article-title>
+<italic>Salmonella typhimurium</italic> proliferates and establishes a persistent infection in the intestine of <italic>Caenorhabditis elegans</italic>.</article-title>
+<source>Curr Biol</source>
+<volume>10</volume>
+<fpage>1539</fpage>
+<lpage>1542</lpage>
+<pub-id pub-id-type="pmid">11114525</pub-id></element-citation></ref><ref id="pone.0000077-Labrousse1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Labrousse</surname><given-names>A</given-names></name><name><surname>Chauvet</surname><given-names>S</given-names></name><name><surname>Couillault</surname><given-names>C</given-names></name><name><surname>Kurz</surname><given-names>CL</given-names></name><name><surname>Ewbank</surname><given-names>JJ</given-names></name></person-group>
+<year>2000</year>
+<article-title>
+<italic>Caenorhabditis elegans</italic> is a model host for <italic>Salmonella typhimurium</italic>.</article-title>
+<source>Curr Biol</source>
+<volume>10</volume>
+<fpage>1543</fpage>
+<lpage>1545</lpage>
+<pub-id pub-id-type="pmid">11114526</pub-id></element-citation></ref><ref id="pone.0000077-ReeceHoyes1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reece-Hoyes</surname><given-names>JS</given-names></name><name><surname>Deplancke</surname><given-names>B</given-names></name><name><surname>Shingles</surname><given-names>J</given-names></name><name><surname>Grove</surname><given-names>CA</given-names></name><name><surname>Hope</surname><given-names>IA</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>A compendium of <italic>Caenorhabditis elegans</italic> regulatory transcription factors: a resource for mapping transcription regulatory networks.</article-title>
+<source>Genome Biol</source>
+<volume>6</volume>
+<fpage>R110</fpage>
+<pub-id pub-id-type="pmid">16420670</pub-id></element-citation></ref><ref id="pone.0000077-Kamath1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kamath</surname><given-names>RS</given-names></name><name><surname>Fraser</surname><given-names>AG</given-names></name><name><surname>Dong</surname><given-names>Y</given-names></name><name><surname>Poulin</surname><given-names>G</given-names></name><name><surname>Durbin</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Systematic functional analysis of the <italic>Caenorhabditis elegans</italic> genome using RNAi.</article-title>
+<source>Nature</source>
+<volume>421</volume>
+<fpage>231</fpage>
+<lpage>237</lpage>
+<pub-id pub-id-type="pmid">12529635</pub-id></element-citation></ref><ref id="pone.0000077-Fukushige1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fukushige</surname><given-names>T</given-names></name><name><surname>Hawkins</surname><given-names>MG</given-names></name><name><surname>McGhee</surname><given-names>JD</given-names></name></person-group>
+<year>1998</year>
+<article-title>The GATA-factor elt-2 is essential for formation of the <italic>Caenorhabditis elegans</italic> intestine.</article-title>
+<source>Dev Biol</source>
+<volume>198</volume>
+<fpage>286</fpage>
+<lpage>302</lpage>
+<pub-id pub-id-type="pmid">9659934</pub-id></element-citation></ref><ref id="pone.0000077-Fukushige2"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fukushige</surname><given-names>T</given-names></name><name><surname>Hendzel</surname><given-names>MJ</given-names></name><name><surname>Bazett-Jones</surname><given-names>DP</given-names></name><name><surname>McGhee</surname><given-names>JD</given-names></name></person-group>
+<year>1999</year>
+<article-title>Direct visualization of the elt-2 gut-specific GATA factor binding to a target promoter inside the living <italic>Caenorhabditis elegans</italic> embryo.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>96</volume>
+<fpage>11883</fpage>
+<lpage>11888</lpage>
+<pub-id pub-id-type="pmid">10518545</pub-id></element-citation></ref><ref id="pone.0000077-Moilanen1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moilanen</surname><given-names>LH</given-names></name><name><surname>Fukushige</surname><given-names>T</given-names></name><name><surname>Freedman</surname><given-names>JH</given-names></name></person-group>
+<year>1999</year>
+<article-title>Regulation of metallothionein gene transcription. Identification of upstream regulatory elements and transcription factors responsible for cell-specific expression of the metallothionein genes from <italic>Caenorhabditis elegans</italic>.</article-title>
+<source>J Biol Chem</source>
+<volume>274</volume>
+<fpage>29655</fpage>
+<lpage>29665</lpage>
+<pub-id pub-id-type="pmid">10514435</pub-id></element-citation></ref><ref id="pone.0000077-Fukushige3"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fukushige</surname><given-names>T</given-names></name><name><surname>Goszczynski</surname><given-names>B</given-names></name><name><surname>Tian</surname><given-names>H</given-names></name><name><surname>McGhee</surname><given-names>JD</given-names></name></person-group>
+<year>2003</year>
+<article-title>The evolutionary duplication and probable demise of an endodermal GATA factor in <italic>Caenorhabditis elegans</italic>.</article-title>
+<source>Genetics</source>
+<volume>165</volume>
+<fpage>575</fpage>
+<lpage>588</lpage>
+<pub-id pub-id-type="pmid">14573471</pub-id></element-citation></ref><ref id="pone.0000077-Fukushige4"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fukushige</surname><given-names>T</given-names></name><name><surname>Goszczynski</surname><given-names>B</given-names></name><name><surname>Yan</surname><given-names>J</given-names></name><name><surname>McGhee</surname><given-names>JD</given-names></name></person-group>
+<year>2005</year>
+<article-title>Transcriptional control and patterning of the <italic>pho-1</italic> gene, an essential acid phosphatase expressed in the <italic>C. elegans</italic> intestine.</article-title>
+<source>Dev Biol</source>
+<volume>279</volume>
+<fpage>446</fpage>
+<lpage>461</lpage>
+<pub-id pub-id-type="pmid">15733671</pub-id></element-citation></ref><ref id="pone.0000077-Aballay2"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aballay</surname><given-names>A</given-names></name><name><surname>Ausubel</surname><given-names>FM</given-names></name></person-group>
+<year>2001</year>
+<article-title>Programmed cell death mediated by <italic>ced-3</italic> and <italic>ced-4</italic> protects <italic>Caenorhabditis elegans</italic> from <italic>Salmonella typhimurium</italic>-mediated killing.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>98</volume>
+<fpage>2735</fpage>
+<lpage>2739</lpage>
+<pub-id pub-id-type="pmid">11226309</pub-id></element-citation></ref><ref id="pone.0000077-Tenor1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tenor</surname><given-names>JL</given-names></name><name><surname>McCormick</surname><given-names>BA</given-names></name><name><surname>Ausubel</surname><given-names>FM</given-names></name><name><surname>Aballay</surname><given-names>A</given-names></name></person-group>
+<year>2004</year>
+<article-title>
+<italic>Caenorhabditis elegans</italic>-based screen identifies <italic>Salmonella</italic> virulence factors required for conserved host-pathogen interactions.</article-title>
+<source>Curr Biol</source>
+<volume>14</volume>
+<fpage>1018</fpage>
+<lpage>1024</lpage>
+<pub-id pub-id-type="pmid">15182677</pub-id></element-citation></ref><ref id="pone.0000077-Kim3"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>DH</given-names></name><name><surname>Feinbaum</surname><given-names>R</given-names></name><name><surname>Alloing</surname><given-names>G</given-names></name><name><surname>Emerson</surname><given-names>FE</given-names></name><name><surname>Garsin</surname><given-names>DA</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>A conserved p38 MAP kinase pathway in <italic>Caenorhabditis elegans</italic> innate immunity.</article-title>
+<source>Science</source>
+<volume>297</volume>
+<fpage>623</fpage>
+<lpage>626</lpage>
+<pub-id pub-id-type="pmid">12142542</pub-id></element-citation></ref><ref id="pone.0000077-Aballay3"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aballay</surname><given-names>A</given-names></name><name><surname>Drenkard</surname><given-names>E</given-names></name><name><surname>Hilbun</surname><given-names>LR</given-names></name><name><surname>Ausubel</surname><given-names>FM</given-names></name></person-group>
+<year>2003</year>
+<article-title>
+<italic>Caenorhabditis elegans</italic> innate immune response triggered by <italic>Salmonella enterica</italic> requires intact LPS and is mediated by a MAPK signaling pathway.</article-title>
+<source>Curr Biol</source>
+<volume>13</volume>
+<fpage>47</fpage>
+<lpage>52</lpage>
+<pub-id pub-id-type="pmid">12526744</pub-id></element-citation></ref><ref id="pone.0000077-Kim4"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>DH</given-names></name><name><surname>Liberati</surname><given-names>NT</given-names></name><name><surname>Mizuno</surname><given-names>T</given-names></name><name><surname>Inoue</surname><given-names>H</given-names></name><name><surname>Hisamoto</surname><given-names>N</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Integration of <italic>Caenorhabditis elegans</italic> MAPK pathways mediating immunity and stress resistance by MEK-1 MAPK kinase and VHP-1 MAPK phosphatase.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>10990</fpage>
+<lpage>10994</lpage>
+<pub-id pub-id-type="pmid">15256594</pub-id></element-citation></ref><ref id="pone.0000077-Huffman1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huffman</surname><given-names>DL</given-names></name><name><surname>Abrami</surname><given-names>L</given-names></name><name><surname>Sasik</surname><given-names>R</given-names></name><name><surname>Corbeil</surname><given-names>J</given-names></name><name><surname>van der Goot</surname><given-names>FG</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Mitogen-activated protein kinase pathways defend against bacterial pore-forming toxins.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>10995</fpage>
+<lpage>11000</lpage>
+<pub-id pub-id-type="pmid">15256590</pub-id></element-citation></ref><ref id="pone.0000077-Garigan1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garigan</surname><given-names>D</given-names></name><name><surname>Hsu</surname><given-names>AL</given-names></name><name><surname>Fraser</surname><given-names>AG</given-names></name><name><surname>Kamath</surname><given-names>RS</given-names></name><name><surname>Ahringer</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Genetic analysis of tissue aging in <italic>Caenorhabditis elegans</italic>: a role for heat-shock factor and bacterial proliferation.</article-title>
+<source>Genetics</source>
+<volume>161</volume>
+<fpage>1101</fpage>
+<lpage>1112</lpage>
+<pub-id pub-id-type="pmid">12136014</pub-id></element-citation></ref><ref id="pone.0000077-Garsin1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garsin</surname><given-names>DA</given-names></name><name><surname>Sifri</surname><given-names>CD</given-names></name><name><surname>Mylonakis</surname><given-names>E</given-names></name><name><surname>Qin</surname><given-names>X</given-names></name><name><surname>Singh</surname><given-names>KV</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>A simple model host for identifying Gram-positive virulence factors.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>98</volume>
+<fpage>10892</fpage>
+<lpage>10897</lpage>
+<pub-id pub-id-type="pmid">11535834</pub-id></element-citation></ref><ref id="pone.0000077-Singh1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Singh</surname><given-names>V</given-names></name><name><surname>Aballay</surname><given-names>A</given-names></name></person-group>
+<year>2006</year>
+<article-title>Heat-shock transcription factor (HSF)-1 pathway required for <italic>Caenorhabditis elegans</italic> immunity.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>103</volume>
+<fpage>13092</fpage>
+<lpage>13097</lpage>
+<pub-id pub-id-type="pmid">16916933</pub-id></element-citation></ref><ref id="pone.0000077-Cash1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cash</surname><given-names>HL</given-names></name><name><surname>Whitham</surname><given-names>CV</given-names></name><name><surname>Behrendt</surname><given-names>CL</given-names></name><name><surname>Hooper</surname><given-names>LV</given-names></name></person-group>
+<year>2006</year>
+<article-title>Symbiotic bacteria direct expression of an intestinal bactericidal lectin.</article-title>
+<source>Science</source>
+<volume>313</volume>
+<fpage>1126</fpage>
+<lpage>1130</lpage>
+<pub-id pub-id-type="pmid">16931762</pub-id></element-citation></ref><ref id="pone.0000077-Mallo1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mallo</surname><given-names>GV</given-names></name><name><surname>Kurz</surname><given-names>CL</given-names></name><name><surname>Couillault</surname><given-names>C</given-names></name><name><surname>Pujol</surname><given-names>N</given-names></name><name><surname>Granjeaud</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Inducible Antibacterial Defense System in <italic>C. elegans</italic>.</article-title>
+<source>Curr Biol</source>
+<volume>12</volume>
+<fpage>1209</fpage>
+<lpage>1214</lpage>
+<pub-id pub-id-type="pmid">12176330</pub-id></element-citation></ref><ref id="pone.0000077-ORourke1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>O'Rourke</surname><given-names>D</given-names></name><name><surname>Baban</surname><given-names>D</given-names></name><name><surname>Demidova</surname><given-names>M</given-names></name><name><surname>Mott</surname><given-names>R</given-names></name><name><surname>Hodgkin</surname><given-names>J</given-names></name></person-group>
+<year>2006</year>
+<article-title>Genomic clusters, putative pathogen recognition molecules, and antimicrobial genes are induced by infection of <italic>C. elegans</italic> with <italic>M. nematophilum</italic>.</article-title>
+<source>Genome Res</source>
+<volume>16</volume>
+<fpage>1005</fpage>
+<lpage>1016</lpage>
+<pub-id pub-id-type="pmid">16809667</pub-id></element-citation></ref><ref id="pone.0000077-Tan1"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tan</surname><given-names>MW</given-names></name><name><surname>Mahajan-Miklos</surname><given-names>S</given-names></name><name><surname>Ausubel</surname><given-names>FM</given-names></name></person-group>
+<year>1999</year>
+<article-title>Killing of <italic>Caenorhabditis elegans</italic> by <italic>Pseudomonas aeruginosa</italic> used to model mammalian bacterial pathogenesis.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>96</volume>
+<fpage>715</fpage>
+<lpage>720</lpage>
+<pub-id pub-id-type="pmid">9892699</pub-id></element-citation></ref><ref id="pone.0000077-Mylonakis2"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mylonakis</surname><given-names>E</given-names></name><name><surname>Ausubel</surname><given-names>FM</given-names></name><name><surname>Perfect</surname><given-names>JR</given-names></name><name><surname>Heitman</surname><given-names>J</given-names></name><name><surname>Calderwood</surname><given-names>SB</given-names></name></person-group>
+<year>2002</year>
+<article-title>Killing of <italic>Caenorhabditis elegans</italic> by <italic>Cryptococcus neoformans</italic> as a model of yeast pathogenesis.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>15675</fpage>
+<lpage>15680</lpage>
+<pub-id pub-id-type="pmid">12438649</pub-id></element-citation></ref><ref id="pone.0000077-Murphy1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Murphy</surname><given-names>CT</given-names></name><name><surname>McCarroll</surname><given-names>SA</given-names></name><name><surname>Bargmann</surname><given-names>CI</given-names></name><name><surname>Fraser</surname><given-names>A</given-names></name><name><surname>Kamath</surname><given-names>RS</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Genes that act downstream of DAF-16 to influence the lifespan of <italic>Caenorhabditis elegans</italic>.</article-title>
+<source>Nature</source>
+<volume>424</volume>
+<fpage>277</fpage>
+<lpage>283</lpage>
+<pub-id pub-id-type="pmid">12845331</pub-id></element-citation></ref><ref id="pone.0000077-Lee1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>SS</given-names></name><name><surname>Kennedy</surname><given-names>S</given-names></name><name><surname>Tolonen</surname><given-names>AC</given-names></name><name><surname>Ruvkun</surname><given-names>G</given-names></name></person-group>
+<year>2003</year>
+<article-title>DAF-16 target genes that control <italic>C. elegans</italic> life-span and metabolism.</article-title>
+<source>Science</source>
+<volume>300</volume>
+<fpage>644</fpage>
+<lpage>647</lpage>
+<pub-id pub-id-type="pmid">12690206</pub-id></element-citation></ref><ref id="pone.0000077-Lee2"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>RY</given-names></name><name><surname>Hench</surname><given-names>J</given-names></name><name><surname>Ruvkun</surname><given-names>G</given-names></name></person-group>
+<year>2001</year>
+<article-title>Regulation of <italic>C. elegans</italic> DAF-16 and its human ortholog FKHRL1 by the daf-2 insulin-like signaling pathway.</article-title>
+<source>Curr Biol</source>
+<volume>11</volume>
+<fpage>1950</fpage>
+<lpage>1957</lpage>
+<pub-id pub-id-type="pmid">11747821</pub-id></element-citation></ref><ref id="pone.0000077-Garsin2"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garsin</surname><given-names>DA</given-names></name><name><surname>Villanueva</surname><given-names>JM</given-names></name><name><surname>Begun</surname><given-names>J</given-names></name><name><surname>Kim</surname><given-names>DH</given-names></name><name><surname>Sifri</surname><given-names>CD</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Long-lived <italic>C. elegans daf-2</italic> mutants are resistant to bacterial pathogens.</article-title>
+<source>Science</source>
+<volume>300</volume>
+<fpage>1921</fpage>
+<pub-id pub-id-type="pmid">12817143</pub-id></element-citation></ref><ref id="pone.0000077-Anyanful1"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anyanful</surname><given-names>A</given-names></name><name><surname>Dolan-Livengood</surname><given-names>JM</given-names></name><name><surname>Lewis</surname><given-names>T</given-names></name><name><surname>Sheth</surname><given-names>S</given-names></name><name><surname>Dezalia</surname><given-names>MN</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Paralysis and killing of <italic>Caenorhabditis elegans</italic> by enteropathogenic <italic>Escherichia coli</italic> requires the bacterial tryptophanase gene.</article-title>
+<source>Mol Microbiol</source>
+<volume>57</volume>
+<fpage>988</fpage>
+<lpage>1007</lpage>
+<pub-id pub-id-type="pmid">16091039</pub-id></element-citation></ref><ref id="pone.0000077-Zheng1"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zheng</surname><given-names>W</given-names></name><name><surname>Flavell</surname><given-names>RA</given-names></name></person-group>
+<year>1997</year>
+<article-title>The transcription factor GATA-3 is necessary and sufficient for Th2 cytokine gene expression in CD4 T cells.</article-title>
+<source>Cell</source>
+<volume>89</volume>
+<fpage>587</fpage>
+<lpage>596</lpage>
+<pub-id pub-id-type="pmid">9160750</pub-id></element-citation></ref><ref id="pone.0000077-Bernal1"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bernal</surname><given-names>A</given-names></name><name><surname>Kimbrell</surname><given-names>DA</given-names></name></person-group>
+<year>2000</year>
+<article-title>
+<italic>Drosophila</italic> Thor participates in host immune defense and connects a translational regulator with innate immunity.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>97</volume>
+<fpage>6019</fpage>
+<lpage>6024</lpage>
+<pub-id pub-id-type="pmid">10811906</pub-id></element-citation></ref><ref id="pone.0000077-Petersen1"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Petersen</surname><given-names>UM</given-names></name><name><surname>Kadalayil</surname><given-names>L</given-names></name><name><surname>Rehorn</surname><given-names>KP</given-names></name><name><surname>Hoshizaki</surname><given-names>DK</given-names></name><name><surname>Reuter</surname><given-names>R</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Serpent regulates <italic>Drosophila</italic> immunity genes in the larval fat body through an essential GATA motif.</article-title>
+<source>Embo J</source>
+<volume>18</volume>
+<fpage>4013</fpage>
+<lpage>4022</lpage>
+<pub-id pub-id-type="pmid">10406806</pub-id></element-citation></ref><ref id="pone.0000077-Wertheim1"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wertheim</surname><given-names>B</given-names></name><name><surname>Kraaijeveld</surname><given-names>AR</given-names></name><name><surname>Schuster</surname><given-names>E</given-names></name><name><surname>Blanc</surname><given-names>E</given-names></name><name><surname>Hopkins</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Genome-wide gene expression in response to parasitoid attack in <italic>Drosophila</italic>.</article-title>
+<source>Genome Biol</source>
+<volume>6</volume>
+<fpage>R94</fpage>
+<pub-id pub-id-type="pmid">16277749</pub-id></element-citation></ref><ref id="pone.0000077-Cheng1"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cheng</surname><given-names>T</given-names></name><name><surname>Zhao</surname><given-names>P</given-names></name><name><surname>Liu</surname><given-names>C</given-names></name><name><surname>Xu</surname><given-names>P</given-names></name><name><surname>Gao</surname><given-names>Z</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Structures, regulatory regions, and inductive expression patterns of antimicrobial peptide genes in the silkworm <italic>Bombyx mori</italic>.</article-title>
+<source>Genomics</source>
+<volume>87</volume>
+<fpage>356</fpage>
+<lpage>365</lpage>
+<pub-id pub-id-type="pmid">16406194</pub-id></element-citation></ref><ref id="pone.0000077-Cheon1"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cheon</surname><given-names>HM</given-names></name><name><surname>Shin</surname><given-names>SW</given-names></name><name><surname>Bian</surname><given-names>G</given-names></name><name><surname>Park</surname><given-names>JH</given-names></name><name><surname>Raikhel</surname><given-names>AS</given-names></name></person-group>
+<year>2006</year>
+<article-title>Regulation of lipid metabolism genes, lipid carrier protein lipophorin, and its receptor during immune challenge in the mosquito <italic>Aedes aegypti</italic>.</article-title>
+<source>J Biol Chem</source>
+<volume>281</volume>
+<fpage>8426</fpage>
+<lpage>8435</lpage>
+<pub-id pub-id-type="pmid">16449228</pub-id></element-citation></ref><ref id="pone.0000077-Patient1"><label>48</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Patient</surname><given-names>RK</given-names></name><name><surname>McGhee</surname><given-names>JD</given-names></name></person-group>
+<year>2002</year>
+<article-title>The GATA family (vertebrates and invertebrates).</article-title>
+<source>Curr Opin Genet Dev</source>
+<volume>12</volume>
+<fpage>416</fpage>
+<lpage>422</lpage>
+<pub-id pub-id-type="pmid">12100886</pub-id></element-citation></ref><ref id="pone.0000077-Aries1"><label>49</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aries</surname><given-names>A</given-names></name><name><surname>Paradis</surname><given-names>P</given-names></name><name><surname>Lefebvre</surname><given-names>C</given-names></name><name><surname>Schwartz</surname><given-names>RJ</given-names></name><name><surname>Nemer</surname><given-names>M</given-names></name></person-group>
+<year>2004</year>
+<article-title>Essential role of GATA-4 in cell survival and drug-induced cardiotoxicity.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>6975</fpage>
+<lpage>6980</lpage>
+<pub-id pub-id-type="pmid">15100413</pub-id></element-citation></ref><ref id="pone.0000077-Tenhunen1"><label>50</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tenhunen</surname><given-names>O</given-names></name><name><surname>Sarman</surname><given-names>B</given-names></name><name><surname>Kerkela</surname><given-names>R</given-names></name><name><surname>Szokodi</surname><given-names>I</given-names></name><name><surname>Papp</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Mitogen-activated protein kinases p38 and ERK 1/2 mediate the wall stress-induced activation of GATA-4 binding in adult heart.</article-title>
+<source>J Biol Chem</source>
+<volume>279</volume>
+<fpage>24852</fpage>
+<lpage>24860</lpage>
+<pub-id pub-id-type="pmid">15051723</pub-id></element-citation></ref><ref id="pone.0000077-Suzuki1"><label>51</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Suzuki</surname><given-names>YJ</given-names></name></person-group>
+<year>2003</year>
+<article-title>Stress-induced activation of GATA-4 in cardiac muscle cells.</article-title>
+<source>Free Radic Biol Med</source>
+<volume>34</volume>
+<fpage>1589</fpage>
+<lpage>1598</lpage>
+<pub-id pub-id-type="pmid">12788478</pub-id></element-citation></ref><ref id="pone.0000077-Brenner1"><label>52</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brenner</surname><given-names>S</given-names></name></person-group>
+<year>1974</year>
+<article-title>The genetics of <italic>Caenorhabditis elegans</italic>.</article-title>
+<source>Genetics</source>
+<volume>77</volume>
+<fpage>71</fpage>
+<lpage>94</lpage>
+<pub-id pub-id-type="pmid">4366476</pub-id></element-citation></ref><ref id="pone.0000077-Wray1"><label>53</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wray</surname><given-names>C</given-names></name><name><surname>Sojka</surname><given-names>WJ</given-names></name></person-group>
+<year>1978</year>
+<article-title>Experimental <italic>Salmonella typhimurium</italic> infection in calves.</article-title>
+<source>Res Vet Sci</source>
+<volume>25</volume>
+<fpage>139</fpage>
+<lpage>143</lpage>
+<pub-id pub-id-type="pmid">364573</pub-id></element-citation></ref><ref id="pone.0000077-Murray1"><label>54</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Murray</surname><given-names>BE</given-names></name><name><surname>Singh</surname><given-names>KV</given-names></name><name><surname>Ross</surname><given-names>RP</given-names></name><name><surname>Heath</surname><given-names>JD</given-names></name><name><surname>Dunny</surname><given-names>GM</given-names></name><etal/></person-group>
+<year>1993</year>
+<article-title>Generation of restriction map of <italic>Enterococcus faecalis</italic> OG1 and investigation of growth requirements and regions encoding biosynthetic function.</article-title>
+<source>J Bacteriol</source>
+<volume>175</volume>
+<fpage>5216</fpage>
+<lpage>5223</lpage>
+<pub-id pub-id-type="pmid">8349561</pub-id></element-citation></ref><ref id="pone.0000077-Franzot1"><label>55</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Franzot</surname><given-names>SP</given-names></name><name><surname>Salkin</surname><given-names>IF</given-names></name><name><surname>Casadevall</surname><given-names>A</given-names></name></person-group>
+<year>1999</year>
+<article-title>
+<italic>Cryptococcus neoformans</italic> var. <italic>grubii</italic>: separate varietal status for <italic>Cryptococcus neoformans</italic> serotype A isolates.</article-title>
+<source>J Clin Microbiol</source>
+<volume>37</volume>
+<fpage>838</fpage>
+<lpage>840</lpage>
+<pub-id pub-id-type="pmid">9986871</pub-id></element-citation></ref><ref id="pone.0000077-Gandhi1"><label>56</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gandhi</surname><given-names>S</given-names></name><name><surname>Santelli</surname><given-names>J</given-names></name><name><surname>Mitchell</surname><given-names>DH</given-names></name><name><surname>Stiles</surname><given-names>JW</given-names></name><name><surname>Sanadi</surname><given-names>DR</given-names></name></person-group>
+<year>1980</year>
+<article-title>A simple method for maintaining large, aging populations of <italic>Caenorhabditis elegans</italic>.</article-title>
+<source>Mech Ageing Dev</source>
+<volume>12</volume>
+<fpage>137</fpage>
+<lpage>150</lpage>
+<pub-id pub-id-type="pmid">6445025</pub-id></element-citation></ref><ref id="pone.0000077-Timmons1"><label>57</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Timmons</surname><given-names>L</given-names></name><name><surname>Fire</surname><given-names>A</given-names></name></person-group>
+<year>1998</year>
+<article-title>Specific interference by ingested dsRNA.</article-title>
+<source>Nature</source>
+<volume>395</volume>
+<fpage>854</fpage>
+<pub-id pub-id-type="pmid">9804418</pub-id></element-citation></ref><ref id="pone.0000077-Fraser1"><label>58</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fraser</surname><given-names>AG</given-names></name><name><surname>Kamath</surname><given-names>RS</given-names></name><name><surname>Zipperlen</surname><given-names>P</given-names></name><name><surname>Martinez-Campos</surname><given-names>M</given-names></name><name><surname>Sohrmann</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Functional genomic analysis of <italic>C. elegans</italic> chromosome I by systematic RNA interference.</article-title>
+<source>Nature</source>
+<volume>408</volume>
+<fpage>325</fpage>
+<lpage>330</lpage>
+<pub-id pub-id-type="pmid">11099033</pub-id></element-citation></ref></ref-list></back></article>

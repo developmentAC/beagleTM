@@ -1,0 +1,405 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183704</article-id><article-id pub-id-type="pmc">1762340</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00108R1</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000072</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Ecology</subject><subject>Evolutionary Biology/Animal Behavior</subject><subject>Genetics and Genomics/Gene Therapy</subject></subj-group></article-categories><title-group><article-title>Selection for Heterozygosity Gives Hope to a Wild Population of Inbred Wolves</article-title><alt-title alt-title-type="running-head">Inbred Wolves Heterozygosity</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Bensch</surname><given-names>Staffan</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Andr&#x000e9;n</surname><given-names>Henrik</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Hansson</surname><given-names>Bengt</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Pedersen</surname><given-names>Hans Chr.</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Sand</surname><given-names>H&#x000e5;kan</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Sejberg</surname><given-names>Douglas</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Wabakken</surname><given-names>Petter</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>&#x000c5;kesson</surname><given-names>Mikael</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Liberg</surname><given-names>Olof</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution>Department of Animal Ecology, Lund University</institution>
+<addr-line>Lund, Sweden</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>Grims&#x000f6; Wildlife Research Station, Department of Conservation Biology, Swedish University of Agricultural Sciences</institution>
+<addr-line>Riddarhyttan, Sweden</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<institution>Division of Terrestrial Ecology, Norwegian Institute for Nature Research</institution>
+<addr-line>Trondheim, Norway</addr-line>
+</aff><aff id="aff4">
+<label>4</label>
+<institution>Hedmark University College, Faculty of Forestry and Wildlife Management</institution>
+<addr-line>Koppang, Norway</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Gemmell</surname><given-names>Neil</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">University of Canterbury, New Zealand</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>staffan.bensch@zooekol.lu.se</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: SB HA HS PW OL. Analyzed the data: SB BH SD MA OL DS. Wrote the paper: SB BH MA. Other: Evaluated genotypes for the construction of the pedigree: OL. Ran the microsatellite analyses: DS MA. Organised field work and data collection: HP HS PW.</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e72</elocation-id><history><date date-type="received"><day>8</day><month>9</month><year>2006</year></date><date date-type="accepted"><day>7</day><month>11</month><year>2006</year></date></history><permissions><copyright-statement>Bensch et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Recent analyses have questioned the usefulness of heterozygosity estimates as measures of the inbreeding coefficient (<italic>f</italic>), a finding that may have dramatic consequences for the management of endangered populations. We confirm that <italic>f</italic> and heterozygosity is poorly correlated in a wild and highly inbred wolf population. Yet, our data show that for each level of <italic>f</italic>, it was the most heterozygous wolves that established themselves as breeders, a selection process that seems to have decelerated the loss of heterozygosity in the population despite a steady increase of <italic>f</italic>. The markers contributing to the positive relationship between heterozygosity and breeding success were found to be located on different chromosomes, but there was a substantial amount of linkage disequilibrium in the population, indicating that the markers are reflecting heterozygosity over relatively wide genomic regions. Following our results we recommend that management programs of endangered populations include estimates of both <italic>f</italic> and heterozygosity, as they may contribute with complementary information about population viability.</p></abstract><counts><page-count count="7"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Inbreeding is more likely to take place in small populations and may contribute to further decline and eventual extinction <xref rid="pone.0000072-Hedrick1" ref-type="bibr">[1]</xref>, <xref rid="pone.0000072-Gilpin1" ref-type="bibr">[2]</xref>. It has therefore become a key objective for conservation geneticists to monitor genetic variation <xref rid="pone.0000072-Garner1" ref-type="bibr">[3]</xref> and to measure the occurrence of inbreeding in threatened populations <xref rid="pone.0000072-Keller1" ref-type="bibr">[4]</xref>. In the absence of pedigree data, which is the case for the vast majority of endangered animals and plants, measures of average multilocus heterozygosity (MLH) have commonly been used as a proxy for inbreeding coefficients in order to identify the costs of inbreeding (i.e. inbreeding depression). Recent analyses have questioned the usefulness of MLH estimates as measures of the inbreeding coefficient (<italic>f</italic>) <xref rid="pone.0000072-Pemberton1" ref-type="bibr">[5]</xref>. If this is a general problem, as both simulated <xref rid="pone.0000072-Balloux1" ref-type="bibr">[6]</xref> and empirical data <xref rid="pone.0000072-Slate1" ref-type="bibr">[7]</xref> suggest, it will have dramatic consequences for the interpretations of heterozygosity estimates in conservation of endangered populations. Several studies have documented that MLH may correlate with various fitness traits even in situations when <italic>f</italic> is held constant, suggesting that MLH contributes with complementary information about phenotypic and reproductive deterioration above that revealed by measuring inbreeding from pedigree data <xref rid="pone.0000072-Leary1" ref-type="bibr">[8]</xref>&#x02013;<xref rid="pone.0000072-Markert1" ref-type="bibr">[11]</xref>. Unfortunately, very few studies to date have simultaneously investigated <italic>f</italic> and MLH and information is therefore missing to what extent these variables may have separate effects on fitness <xref rid="pone.0000072-Markert1" ref-type="bibr">[11]</xref>.</p><p>In this study, we examined the associations between breeding success, heterozygosity at 31 microsatellite loci and pedigree based inbreeding coefficients in a population of wild wolves <italic>Canis lupus</italic> in Scandinavia. This population is highly inbred and has previously been shown to suffer from inbreeding depression as manifested by a reduction in the number of surviving pups during the first winter in inbred litters <xref rid="pone.0000072-Liberg1" ref-type="bibr">[12]</xref> and an overall higher incidence of vertebral malformations <xref rid="pone.0000072-Rikknen1" ref-type="bibr">[13]</xref>. It presently consists of about 135&#x02013;152 individuals <xref rid="pone.0000072-Wabakken1" ref-type="bibr">[14]</xref>, all stemming from three founding individuals (two started breeding in 1983 and one in 1991) that likely originated from the much larger Finnish-Russian population <xref rid="pone.0000072-Flagstad1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000072-Vila1" ref-type="bibr">[16]</xref>. Until 1991, when the third immigrant was established in the population, there was only one reproducing pack of wolves, resulting in strong inbreeding and loss of heterozygosity <xref rid="pone.0000072-Liberg1" ref-type="bibr">[12]</xref>, <xref rid="pone.0000072-Vila1" ref-type="bibr">[16]</xref>. Following the establishment of this new wolf male, the population heterozygosity increased as did both the number of wolves and breeding packs (<xref ref-type="fig" rid="pone-0000072-g001">Figure 1A</xref>), suggesting the importance of this immigrant individual to the successful expansion of the species in Scandinavia <xref rid="pone.0000072-Vila1" ref-type="bibr">[16]</xref>.</p><fig id="pone-0000072-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000072.g001</object-id><label>Figure 1</label><caption><title>Demographic and genetic data for the Scandinavian wolf population between 1991 and 2002 averaged over two-year periods.</title><p>a) mean number of wolves and b) mean (&#x000b1;s.e.m.) inbreeding coefficients (blue) and standardized heterozygosity (red).</p><p>The number of genotyped wolves (<italic>n</italic>) per group of years is indicted above the X-axis.</p><p>Both inbreeding coefficients (<italic>F</italic>
+<sub>5,82</sub>&#x0200a;=&#x0200a;5.95, <italic>P</italic>&#x0003c;0.001) and standardized heterozygosity (<italic>F</italic>
+<sub>5,82</sub>&#x0200a;=&#x0200a;4.97, <italic>P</italic>&#x0003c;0.001) show significant differences among the groups of years.</p></caption><graphic xlink:href="pone.0000072.g001"/></fig><p>As a measure of fitness in the present study, we used data on whether individual wolves have successfully recruited as breeders into the population and test the hypothesis that the inbreeding coefficient (<italic>f</italic>) is a better predictor of fitness than is multilocus heterozygosity (MLH). The expected strengths of the associations between these variables and fitness should depend on factors such as the intensity of selection for heterozygosity, the level of linkage disequilibrium in the population and the action of genetic drift <xref rid="pone.0000072-Kimura1" ref-type="bibr">[17]</xref>, <xref rid="pone.0000072-David1" ref-type="bibr">[18]</xref>. To address these points we first mapped the genetic markers to the chromosomes in the dog genome and calculated the level of linkage disequilibrium of the markers in the population. Within cohorts of wolves, we then estimated the selection intensity for MLH and compared the observed level of selection with two independent estimates of the effective population size (N<sub>e</sub>), the parameter determining the predicted magnitude of genetic drift <xref rid="pone.0000072-Lacy1" ref-type="bibr">[19]</xref>. Our results confirm that <italic>f</italic> and MLH are poorly correlated, and it appears that MLH is strongly associated to our fitness measure independent of the effect of <italic>f</italic>. Over generations, the observed intensity of selection was substantially higher than the potential for genetic drift to change allele frequencies. Selection promoting heterozygotes therefore seems a likely explanation also to why the population largely has maintained the level of heterozygosity despite increased inbreeding coefficients across years.</p></sec><sec id="s2"><title>Results</title><p>The inbreeding coefficients (<italic>f</italic>) in cohorts of wolves that incidentally dropped as a result of the immigrant male in 1991, has again started to accumulate (<xref ref-type="fig" rid="pone-0000072-g001">Figure 1B</xref>) and approached <italic>f</italic>&#x0200a;=&#x0200a;0.25 in the cohorts born in 2001 and 2002, a level corresponding to full-sib mating. Unexpectedly, standardized mean heterozygosity (stMLH) at 31 microsatellite loci decreased only slightly (<xref ref-type="fig" rid="pone-0000072-g001">Figure 1B</xref>).</p><p>The two indices of individual genetic variation, <italic>f</italic> and stMLH, were negatively correlated (<italic>r</italic> observed&#x0200a;=&#x0200a;&#x02212;0.388, <xref ref-type="fig" rid="pone-0000072-g002">Figure 2A</xref>), however not as strongly as expected (<italic>r</italic> expected&#x0200a;=&#x0200a;&#x02212;0.532) following equation 4 in Slate et al. <xref rid="pone.0000072-Slate1" ref-type="bibr">[7]</xref>. The expected correlation was calculated using the following parameters estimated from the data as input; mean [(<italic>f</italic>)&#x0200a;=&#x0200a;0.209] and variance [&#x003c3;<sup>2</sup>(<italic>f</italic>)&#x0200a;=&#x0200a;0.009] of the inbreeding coefficient, mean number of scored loci [(L)&#x0200a;=&#x0200a;30.4] and mean heterozygosity (MLH&#x0200a;=&#x0200a;0.596).</p><fig id="pone-0000072-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000072.g002</object-id><label>Figure 2</label><caption><title>Reproductive status and inbreeding coefficients of Scandinavian wolves in relation to heterozygosity and chromosomal location of 31 microsatellite loci.</title><p>a) The relationship between inbreeding coefficient (<italic>f</italic>) and standardized heterozygosity (stMLH).</p><p>Individuals that recruited to the breeding population (filled red circles, solid red regression line) exhibited higher stMLH than those that did not enter the breeding population (open blue circles, solid blue regression line) (ANCOVA: inbreeding coefficient, <italic>F</italic>
+<sub>1,82</sub>&#x0200a;=&#x0200a;7.96, <italic>P</italic>&#x0200a;=&#x0200a;0.006; breeding recruitment success, <italic>F</italic>
+<sub>1,82</sub>&#x0200a;=&#x0200a;7.43, <italic>p</italic>&#x0200a;=&#x0200a;0.008).</p><p>The stippled black line shows the expected relationship between <italic>f</italic> and stMLH. b) Breeding probability against inbreeding coefficient (<italic>f</italic>) and stMLH based on model estimates from a logistic regression analysis (<italic>f</italic>, &#x003b2;&#x0200a;=&#x0200a;&#x02212;5.84, <italic>p</italic>&#x0200a;=&#x0200a;0.06; stMLH, &#x003b2;&#x0200a;=&#x0200a;4.87, <italic>p</italic>&#x0200a;=&#x0200a;0.017).</p><p>Relative to the population mean values of <italic>f</italic> (0.207) and stMLH (1.0), an increase of 1 SD in <italic>f</italic> corresponds to a 32&#x00025; reduction in breeding probability, and a decrease of 1 SD in stMLH corresponds to a 40&#x00025; reduction in breeding probability c) The effects of heterozygosity on the recruitment success of wolves for each of the 31 microsatellite markers and their locations on the autosomal chromosomes in the dog genome.</p><p>The statistical effect is measured as two-times the likelihood difference between the model with the marker and the null model; positive values (yellow-red) indicate positive associations, negative values (blue) negative associations.</p></caption><graphic xlink:href="pone.0000072.g002"/></fig><p>A way of testing whether the observed relationship between <italic>f</italic> and stMLH is weaker than the expected relationship is to compare the observed regression slope with the predicted slope assuming that MLH is 0 when <italic>f</italic>&#x0200a;=&#x0200a;1. By assuming an average stMLH of 1.10 for non-inbred wolves, taken from the mean of the six individuals with <italic>f</italic>&#x0200a;=&#x0200a;0, we found that the slope (<italic>b</italic> observed&#x0200a;=&#x0200a;&#x02212;0.594&#x000b1;0.155) was significantly more shallow than the predicted slope (<italic>b</italic> predicted&#x0200a;=&#x0200a;&#x02212;1.10) between stMLH and inbreeding coefficients (<xref ref-type="fig" rid="pone-0000072-g002">Figure. 2A</xref>; <italic>t</italic>&#x0200a;=&#x0200a;3.26, d.f.&#x0200a;=&#x0200a;83, <italic>p</italic>&#x0003c;0.01). This result suggests that for each level of <italic>f</italic> we find fewer homozygous wolves than expected. To examine whether this disparity is due to selection against homozygous individuals up to the event of sampling, we compared the observed MLH (mean 0.593) for each individual with the expected MLH (mean 0.579) as calculated from its parental genotypes. However, the observed and expected MLH were not significantly different (<italic>t</italic>&#x0200a;=&#x0200a;1.29, d.f.&#x0200a;=&#x0200a;38, <italic>p</italic>&#x0200a;=&#x0200a;0.2, paired t-test) suggesting that heterozygosity of offspring is no different from what is expected under Mendelian inheritance.</p><p>Instead the explanation to why we detect less homozygous wolves than expected seems to be found in a difference between breeders and non-breeders. The level of stMLH was significantly higher for wolves that established as breeders (<italic>n</italic>&#x0200a;=&#x0200a;32) compared to those never entering the breeding population (<italic>n</italic>&#x0200a;=&#x0200a;53) (ANCOVA, <italic>p</italic>&#x0200a;=&#x0200a;0.007; controlling for <italic>f</italic>; <xref ref-type="fig" rid="pone-0000072-g002">Figure 2A</xref>). That stMLH is in fact a stronger predictor of breeding probability than is <italic>f</italic> is supported by a multiple logistic regression analysis (<xref ref-type="fig" rid="pone-0000072-g002">Figure 2B</xref>).</p><p>It is important to understand how genetic variation can be maintained in populations accumulating inbreeding coefficients. We therefore investigated whether heterozygosity was heritable, but there is no evidence for this (midparent-midoffspring regression r&#x0200a;=&#x0200a;&#x02212;0.37, <italic>n</italic>&#x0200a;=&#x0200a;9, <italic>p</italic>&#x0200a;=&#x0200a;0.27) though our sample size is small due to lack of full genotypes from several breeding individuals. However, the important question to ask is whether the offspring from the relatively more heterozygote wolves that did reproduce, were more heterozygote than offspring that could have been produced from wolves picked randomly from the population. We studied this by a simulation approach, where haplotypes from randomly drawn pairs of one male and one female from the population were combined into 100,000 offspring genotypes. The mean MLH of the simulated offspring from the nine &#x0201c;real pairs&#x0201d; in the population was 0.567 (&#x000b1;0.100 S.D.) and it was only slightly higher than the mean of 0.548 (&#x000b1;0.094 S.D.) of all simulated offspring. When regressing the mean MLH of the offspring from each parental pair (n&#x0200a;=&#x0200a;2068) on the mean MLH in parents we found a regression coefficient of 0.241 (r<sup>2</sup>&#x0200a;=&#x0200a;0.057), which suggests that more heterozygous parents are more likely to produce more heterozygous offspring (<xref ref-type="fig" rid="pone-0000072-g003">Figure 3</xref>). It is also noteworthy that more heterozygous parent pairs had offspring that varied more in MLH than parents with low heterozygosity (regression of S.D. of offspring MLH on mean parent MLH; b&#x0200a;=&#x0200a;0.35)</p><fig id="pone-0000072-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000072.g003</object-id><label>Figure 3</label><caption><title>Simulated mean heterozygosity of 100.000 offspring from 2068 pairs of wolves regressed on the mean heterozygosity of the parents.</title><p>The filled blue circles represent the simulated heterozygosity of offspring from nine actual pairs in the Scandinavian wolf population.</p><p>The regression slope is 0.241 and r<sup>2</sup> is 0.057.</p></caption><graphic xlink:href="pone.0000072.g003"/></fig><p>The level of inbreeding depression in the Scandinavian wolf population was estimated by measuring &#x0201c;breeding-failure equivalents&#x0201d; in the genome (analogue to lethal equivalents) and was found to be 5.42 (95&#x00025; CI: 1.10&#x02013;12.26). To examine whether the observed effects of heterozygosity on recruitment success can be explained by a few loci with strong effects, or many loci with small effects, we used logistic regression analyses to calculate the association between heterozygosity and recruitment success for each locus separately. For the majority of loci (25 of 31), heterozygosity was positively associated with recruitment success, although only three of these associations were significant (AHT002, <italic>p</italic>&#x0200a;=&#x0200a;0.02; AHT133, <italic>p</italic>&#x0200a;=&#x0200a;0.045; 250, <italic>p</italic>&#x0200a;=&#x0200a;0.05), all on different chromosomes (<xref ref-type="fig" rid="pone-0000072-g002">Figure 2C</xref>).</p><p>There was strong linkage disequilibrium (LD) within chromosomes: 10 of 13 locus-pairs (77&#x00025;) located on the same chromosome had significant LD (<italic>p</italic>&#x0003c;0.05) with an average D&#x02032; of 0.624 (range: 0.43&#x02013;0.90; <xref ref-type="fig" rid="pone-0000072-g004">Figure 4</xref>). As expected, LD was less pronounced for loci located on different chromosomes: 168 of these 454 locus-pairs (37&#x00025;) had significant LD (<italic>p</italic>&#x0003c;0.05) with an average D&#x02032; of 0.344 (range: 0.11&#x02013;0.83; <xref ref-type="fig" rid="pone-0000072-g004">Figure 4</xref>).</p><fig id="pone-0000072-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000072.g004</object-id><label>Figure 4</label><caption><title>Linkage disequilibrium between pair-wise microsatellite loci in Scandinavian wolves.</title><p>D&#x02032;- and <italic>p</italic>-values are shown for locus-pairs located on the same (dots) and different (crosses) chromosomes.</p><p>The dashed line indicates the <italic>p</italic>&#x0200a;=&#x0200a;0.05 significance level.</p></caption><graphic xlink:href="pone.0000072.g004"/></fig><p>Selection differentials (<italic>S</italic>) and selection intensities (<italic>i</italic>), i.e. the standardized selection differentials, were calculated for all cohorts of wolves containing both breeders and non-breeders (<xref ref-type="table" rid="pone-0000072-t001">Table 1</xref>). In the following we only refer to the selection intensities (<italic>i</italic>) as this is the standardised parameter that can be directly compared with the effect of genetic drift. The selection intensity (<italic>i</italic>) was positive in six of the seven cohorts and on average tended to be different from zero (<italic>t</italic>&#x0200a;=&#x0200a;2.01, <italic>p</italic>&#x0200a;=&#x0200a;0.09). For the whole period of the eleven cohorts, it was estimated to be 0.491 (<italic>t</italic>&#x0200a;=&#x0200a;3.76, df&#x0200a;=&#x0200a;86, <italic>p</italic>&#x0003c;0.001; two-sample t-test). Note that the total selection intensity for the whole period does not correspond to the average values for the cohorts.</p><table-wrap id="pone-0000072-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000072.t001</object-id><label>Table 1</label><caption><title>Selection differential (S) and selection intensity (<italic>i</italic>) on standardized heterozygosity and trait differences between wolves recruited (r) and not recruited (nr) to the breeding population.</title></caption><graphic xlink:href="pone.0000072.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">
+<italic>Cohort</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>N</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>N<sub>R</sub></italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>Selection differential (S)</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>Selection intensity (i)</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>Trait difference (r-nr)</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>SE trait diff</italic>
+</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">1991</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">0.081</td><td align="left" rowspan="1" colspan="1">0.600</td><td align="left" rowspan="1" colspan="1">0.162</td><td align="left" rowspan="1" colspan="1">0.153</td></tr><tr><td align="left" rowspan="1" colspan="1">1992</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td></tr><tr><td align="left" rowspan="1" colspan="1">1993</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td></tr><tr><td align="left" rowspan="1" colspan="1">1994</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td></tr><tr><td align="left" rowspan="1" colspan="1">1995</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td></tr><tr><td align="left" rowspan="1" colspan="1">1996</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">0.014</td><td align="left" rowspan="1" colspan="1">0.124</td><td align="left" rowspan="1" colspan="1">0.072</td><td align="left" rowspan="1" colspan="1">0.163</td></tr><tr><td align="left" rowspan="1" colspan="1">1997</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">0.027</td><td align="left" rowspan="1" colspan="1">0.260</td><td align="left" rowspan="1" colspan="1">0.082</td><td align="left" rowspan="1" colspan="1">0.078</td></tr><tr><td align="left" rowspan="1" colspan="1">1998</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">0.032</td><td align="left" rowspan="1" colspan="1">0.228</td><td align="left" rowspan="1" colspan="1">0.058</td><td align="left" rowspan="1" colspan="1">0.091</td></tr><tr><td align="left" rowspan="1" colspan="1">1999</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.039</td><td align="left" rowspan="1" colspan="1">0.359</td><td align="left" rowspan="1" colspan="1">0.042</td><td align="left" rowspan="1" colspan="1">0.124</td></tr><tr><td align="left" rowspan="1" colspan="1">2000</td><td align="left" rowspan="1" colspan="1">19</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">&#x02212;0.033</td><td align="left" rowspan="1" colspan="1">&#x02212;0.339</td><td align="left" rowspan="1" colspan="1">&#x02212;0.034</td><td align="left" rowspan="1" colspan="1">0.104</td></tr><tr><td align="left" rowspan="1" colspan="1">2001</td><td align="left" rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">0.034</td><td align="left" rowspan="1" colspan="1">0.295</td><td align="left" rowspan="1" colspan="1">0.057</td><td align="left" rowspan="1" colspan="1">0.064</td></tr><tr><td align="left" rowspan="1" colspan="1">Average</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">0.020</td><td align="left" rowspan="1" colspan="1">0.218</td><td align="left" rowspan="1" colspan="1">
+<italic>0.005</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>0.004</italic>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Overall cohorts</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">0.070</td><td align="left" rowspan="1" colspan="1">0.491</td><td align="left" rowspan="1" colspan="1">
+<italic>0.112</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>0.030</italic>
+</td></tr></tbody></table><table-wrap-foot><fn id="nt101"><p>
+<italic>N<sub>R</sub></italic> is the number of breeding individuals in the cohort of <italic>N</italic> individuals.</p></fn></table-wrap-foot></table-wrap><p>In order to compare the observed selection intensity with the effect of genetic drift we used two different estimates of the effective population size. From demographic data and using the program VORTEX <xref rid="pone.0000072-Lacy1" ref-type="bibr">[19]</xref>, <italic>N</italic>
+<sub>e</sub> for the current population (135&#x02013;152 wolves) was previously estimate to be around 47&#x02013;53 individuals <xref rid="pone.0000072-Andrn1" ref-type="bibr">[20]</xref>, however these calculations are complicated due overlapping generations and that the population has increased during the study period. An independent estimate of the effective population size was obtained by analysing variation in microsatellite allele frequencies between cohorts in the program NeEstimator <xref rid="pone.0000072-Peel1" ref-type="bibr">[21]</xref>, and with this method we found a similar <italic>N</italic>
+<sub>e</sub> (45.6; 95&#x00025; CI: 20.4&#x02013;181.2). Assuming this <italic>N</italic>
+<sub>e</sub>, the identified per generation selection intensity (0.245) for heterozygosity is 22 times higher than the effect of genetic drift (1/(2&#x0002a;45.6)&#x0200a;=&#x0200a;0.011).</p></sec><sec id="s3"><title>Discussion</title><p>Though still globally distributed in the northern hemisphere, the wolf has in some parts of the world declined to only a fraction of its historical numbers, recently confirmed by genetic analyses of populations in both North America <xref rid="pone.0000072-Leonard1" ref-type="bibr">[22]</xref> and Europe <xref rid="pone.0000072-Aspi1" ref-type="bibr">[23]</xref>, <xref rid="pone.0000072-Lucchini1" ref-type="bibr">[24]</xref>. One may argue that the Scandinavian wolf population is extreme in its level of inbreeding, as it was founded by only three individuals <xref rid="pone.0000072-Liberg1" ref-type="bibr">[12]</xref>, <xref rid="pone.0000072-Vila1" ref-type="bibr">[16]</xref> and now having an average inbreeding coefficient of 0.25, corresponding to the mating between full sibs. However, similar degree of isolation and small population-sizes are sadly common features of many large carnivore species. We therefore trust that the patterns outlined here will help to better understand the genetics of small and endangered populations of other species.</p><p>In this study we found that for each level of inbreeding, it was the most heterozygous wolves that were recruited into the breeding population, i.e. we found evidence for selection against homozygous individuals. We argue that this selective process can explain both why the population is not losing stMLH at the same rate as <italic>f</italic> is increasing (<xref ref-type="fig" rid="pone-0000072-g001">Figure 1B</xref>) and the unexpectedly poor correlation between these variables (<xref ref-type="fig" rid="pone-0000072-g002">Figure 2A</xref>). Although we found statistical evidence for this correlation to be weaker than expected, we cannot fully rule out that errors in the pedigree might have introduced errors in <italic>f</italic> and thus weakened its correlation with stMLH. However, we feel confident that we have data from all but one reproducing pair since 1991, and since all individual genotypes have been compared with all possible parent-combinations in the population, the number of errors in the pedigree should be small <xref rid="pone.0000072-Liberg1" ref-type="bibr">[12]</xref>. Also, the most likely error would be to incorrectly assign parentage to a brother or sister of the reproducing male or female, respectively, however such a mistake would not affect the estimate of <italic>f</italic>. We therefore trust that the weak correlation between <italic>f</italic> and stMLH indeed is not resulting from errors in the pedigree. In contrast to our results, a previous study of Scandinavian wolves found good agreement between MLH and <italic>f</italic>
+<xref rid="pone.0000072-Ellegren1" ref-type="bibr">[25]</xref>. However, that study was done on wolves in captivity so the effects of natural selection and mate choice may have been reduced. This agrees with previous findings demonstrating that cost of inbreeding is context dependent <xref rid="pone.0000072-Keller2" ref-type="bibr">[26]</xref> and stronger in natural environment than in captivity <xref rid="pone.0000072-Jimenez1" ref-type="bibr">[27]</xref>.</p><p>The cost of inbreeding in the Scandinavian wolf population seems substantial compared to other species of mammals <xref rid="pone.0000072-Ralls1" ref-type="bibr">[28]</xref>, <xref rid="pone.0000072-Kalinowski1" ref-type="bibr">[29]</xref>. The estimate obtained here of &#x0201c;breeding-failure equivalents&#x0201d; of 5.42 is similar to the &#x0201c;litter-reducing equivalents&#x0201d; of 6.04 in this population that we previously obtained from a study of inbreeding depression of number of pups recruited per litter into their first winter <xref rid="pone.0000072-Liberg1" ref-type="bibr">[12]</xref>. Because heterozygosity has not dropped in parallel with the inbreeding coefficient (<xref ref-type="fig" rid="pone-0000072-g001">Figure 1B</xref>) and selection appears to act to maintain heterozygosity (<xref ref-type="fig" rid="pone-0000072-g002">Figure 2B</xref>), the calculated figure of breeding failure equivalents is probably an underestimate of the true number of detrimental alleles. The number detrimental alleles in a population founded by few individuals, probably depends heavily on the particular founders since the number and composition of detrimental alleles will differ between individuals in the source population <xref rid="pone.0000072-McKusick1" ref-type="bibr">[30]</xref>. Hence, a different set of three founding wolves from the Finnish-Russian population may have resulted in a lower cost of inbreeding. In turn, this would have reduced the advantage for heterozygotes and lowered the selection intensity, generating a more concordant change of <italic>f</italic> and stMLH as well as strengthening the correlation between the variables.</p><p>We found that the loci contributing to the correlation between stMLH and breeding success mapped to different chromosomes and that the level of linkage disequilibrium was high within chromosomes. These results suggest that the detected association between stMLH and probability of breeding is driven by several loci with smaller effects and that our microsatellite-based measure of heterozygosity reflects heterozygosity over a substantial part of the genome. The variation in genome-wide heterozygosity that selection acts upon in this wolf population might have been caused in two ways. First, the pronounced variation in <italic>f</italic> in the population (<xref ref-type="fig" rid="pone-0000072-g002">Figure 2A</xref>) causes variation in genome-wide heterozygosity. Second, when there is strong linkage disequilibrium (LD) in a population there are relatively few segregating chromosome units and then random segregation will have a marked influence on the variation in genome-wide heterozygosity also within each level of inbreeding <xref rid="pone.0000072-Markert1" ref-type="bibr">[11]</xref>. Moreover, of importance for our correlation between measured heterozygosity and probability of breeding is also that random segregation induces variation in heterozygosity in the local chromosomal vicinity of the markers, i.e. the parts of the chromosomes in LD with the markers. When there is much LD, selection on variation in heterozygosity on fitness loci located in these local but rather extensive regions of the genome can result in correlations between measured heterozygosity and variation in fitness-associated traits also within each level of inbreeding (B. Hansson and L. Westerberg, in prep.). Our analyses confirmed that the level of LD in the Scandinavian wolf population is substantial, with significant D&#x02032;-values ranging between 0.42 and 0.90 within chromosomes. This level of LD is considerably higher than found in many other natural populations <xref rid="pone.0000072-Hartl1" ref-type="bibr">[31]</xref>, <xref rid="pone.0000072-Dunning1" ref-type="bibr">[32]</xref>, and more similar to the high levels detected among some domesticated and artificially selected populations <xref rid="pone.0000072-Sutter1" ref-type="bibr">[33]</xref>, <xref rid="pone.0000072-McRae1" ref-type="bibr">[34]</xref>. It is probable that the high LD in the studied wolf population has been caused by the strong bottleneck and recent expansion with ongoing inbreeding.</p><p>In populations having small effective population sizes (<italic>N</italic>
+<sub>e</sub>) genetic drift is a strong force often over-riding the effect of selection (<italic>S</italic>) and this happens when 1/2<italic>N</italic>
+<sub>e</sub>&#x0003e;<italic>S</italic>
+<xref rid="pone.0000072-Kimura1" ref-type="bibr">[17]</xref>. Summed over the studied cohorts, we found the selection intensity <italic>i</italic> for heterozygosity to be 0.49 (<xref ref-type="table" rid="pone-0000072-t001">Table 1</xref>). Assuming a generation time of 5.5 years as previously estimated for this wolf population <xref rid="pone.0000072-Andrn1" ref-type="bibr">[20]</xref>, the per generation selection intensity is 0.245, which operationally would require an effective population size above two individuals only. Hence, the strength of selection identified in our population could potentially work also in the smallest of populations.</p><p>At present, we cannot distinguish whether the higher success of heterozygous wolves to recruit to the breeding population is caused by selection on survival to breeding age or factors determining pair formation and successful mating. Irrespective of the mechanism, selection is a likely explanation to the population maintaining relatively high levels of heterozygosity despite accumulating levels of inbreeding. We identify three circumstances that may have facilitated the maintenance of heterozygosity in this population. First, the population has increased five-fold during the study period (<xref ref-type="fig" rid="pone-0000072-g001">Figure 1A</xref>), allowing more power for selection than if the population had been constant or declining <xref rid="pone.0000072-Otto1" ref-type="bibr">[35]</xref>. Second, the population was founded by three presumably unrelated and outbred individuals as recently as zero to three generations before this study was commenced <xref rid="pone.0000072-Liberg1" ref-type="bibr">[12]</xref>. Third, we find from a simulation analysis that the average heterozygosity in offspring are positively correlated by the average heterozygosity of the parents. This suggests that the population has the potential to show &#x0201c;response&#x0201d; to the selection on heterozygosity. However, we find from our simulation only weak (or no) indications that the pairs that actually did reproduce would get offspring with higher expected heterozygosity than if mating was random. The low number of recombination events certainly contributes to the observed high level of LD, which enables selection on heterozygosity over relatively wide genomic regions. Our study demonstrates that small isolated populations in the wild may not lose genetic variation as quickly as predicted from neutral population genetic theory. This is particularly likely to apply to new populations founded by a few individuals or small populations recruiting immigrants.</p></sec><sec id="s4"><title>Materials and Methods</title><sec id="s4a"><title>Field data and genetic analyses</title><p>The Scandinavian wolf population has been monitored since 1978, based on snow tracking and, from 1998, also on radio telemetry. Details for determining number of wolves, identification of breeding units, and criteria for determining successful breeding, are given in Wabakken et al. <xref rid="pone.0000072-Wabakken2" ref-type="bibr">[36]</xref>. Samples for microsatellite analyses were derived from blood of captured wolves, muscle of dead wolves, from oestrus blood on snow and from scats, and were analysed as previously described <xref rid="pone.0000072-Liberg1" ref-type="bibr">[12]</xref>. Scat samples were amplified four to ten times per locus to circumvent inferring non-complete genotypes <xref rid="pone.0000072-Taberlet1" ref-type="bibr">[37]</xref>. Individuals from which genotypic data were available from scats only, were used for reconstructing the pedigree <xref rid="pone.0000072-Liberg1" ref-type="bibr">[12]</xref> but were excluded from the here presented analyses of individual heterozygosity as genotyping errors cannot fully be circumvented when using low quality DNA. The details of microsatellite primers are given in <xref ref-type="supplementary-material" rid="pone.0000072.s001">Table S1</xref> and the procedure of the reconstruction of the pedigree in the electronic appendix to Liberg et al. <xref rid="pone.0000072-Liberg1" ref-type="bibr">[12]</xref>. As a measure of fitness in the present study, we used data on whether individual wolves sampled during their first (<italic>n</italic>&#x0200a;=&#x0200a;7), second (<italic>n</italic>&#x0200a;=&#x0200a;36), third (<italic>n</italic>&#x0200a;=&#x0200a;16) or later calendar years (<italic>n</italic>&#x0200a;=&#x0200a;28), have successfully recruited as breeders into the population. This variable combines survival until reproductively mature, which is about two years for both sexes in the population (unpubl.), and the success of becoming an established breeding individual.</p><p>Genome locations of microsatellite loci (see <xref ref-type="supplementary-material" rid="pone.0000072.s001">Table S1</xref>) were determined by running BLAST analyses for the two primer sequences of each locus on the <italic>Canis familiaris</italic> genome (<ext-link ext-link-type="uri" xlink:href="http://www.ensembl.org/Canis_familiaris/index.html">http://www.ensembl.org/Canis_familiaris/index.html</ext-link>; BLAST settings: &#x02018;near-exact matches&#x02019; with W&#x0200a;=&#x0200a;8). In all cases a single highly significant location (<xref ref-type="fig" rid="pone-0000072-g002">Figure 2C</xref>) was detected and the length of the matching region was similar to the length of the amplified wolf PCR products.</p></sec><sec id="s4b"><title>Statistical analyses</title><p>Multilocus heterozygosity (MLH) is calculated as the proportion of heterozygote loci among loci typed (varied between 27 and 31). Standardized heterozygosity (stMLH) is calculated as MLH divided by the population mean MLH for these loci. In the statistical analyses we used stMLH rather than MLH as it adjusts for the variation in the analysed loci, however the two measures are strongly correlated (<italic>r</italic>&#x0200a;=&#x0200a;0.998) and all conclusions remain unchanged when the analyses are based on MLH. For the analyses of the effect of heterozygosity and inbreeding coefficients we included all wolves that were typed at 27&#x02013;31 microsatellite loci as previously described <xref rid="pone.0000072-Liberg1" ref-type="bibr">[12]</xref> and had estimated birth years between 1991 and 2001 (<italic>n</italic>&#x0200a;=&#x0200a;87). This excludes the three founding and supposedly outbred individuals (<italic>f</italic>&#x0200a;=&#x0200a;0) that entered as breeders in the population in 1983 (two) and 1991 (one), respectively. Also, the majority of individuals being recruited into the breeding populations are 2&#x02013;4 years, thus allowing the 2001 cohort to be evaluated for reproduction status without bias. We were not able to place two of the individuals in the pedigree due to lack of DNA samples from one breeding territory (territory Xa3 in Liberg et al. <xref rid="pone.0000072-Liberg1" ref-type="bibr">[12]</xref>) and these were therefore excluded as we did not have accurate estimates of their inbreeding coefficients. The total data set consisted therefore of 85 individuals. For the analyses of average heterozygosity and inbreeding coefficients per groups of cohorts (<xref ref-type="fig" rid="pone-0000072-g001">Figure 1</xref>) we also included data from three individuals from 2002.</p><p>Inbreeding depression is estimated using a method developed by Morton et al. <xref rid="pone.0000072-Morton1" ref-type="bibr">[38]</xref> and improved by Kalinowski and Hedrick <xref rid="pone.0000072-Kalinowski2" ref-type="bibr">[39]</xref>. We calculated breeding-failure equivalents in an analogous fashion to the calculation of lethal equivalents with maximum-likelihood <xref rid="pone.0000072-Kalinowski2" ref-type="bibr">[39]</xref> to overcome the problem of zero breeding success at one or more breeding levels. Because of small sample sizes within years we pooled all years in the analysis.</p><p>We estimated the directional selection differential <xref rid="pone.0000072-Kingsolver1" ref-type="bibr">[40]</xref>
+<italic> S</italic> and selection intensity <xref rid="pone.0000072-Kingsolver1" ref-type="bibr">[40]</xref>
+<italic>i</italic> for standardized heterozygosity (stMLH) as the difference between means of the characters before and after selection <xref rid="pone.0000072-Lande1" ref-type="bibr">[41]</xref>. The selection intensity <italic>i</italic> is the standardized selection differential with stMLH standardized to a mean of zero and a variance of one <xref rid="pone.0000072-Falconer1" ref-type="bibr">[42]</xref>. Individuals after selection consists of those that successfully managed to reproduce later in life. Selection differentials were calculated for each cohort separately and overall cohorts. Significance of <italic>S</italic> and <italic>i</italic> was tested by comparing stMLH and standardized stMLH of breeders and non-breeders using two-sample t-tests <xref rid="pone.0000072-Schluter1" ref-type="bibr">[43]</xref>.</p><p>Significance tests of linkage disequilibrium between all pairs of loci were performed in the program Arlequin (Ver. 2; <ext-link ext-link-type="uri" xlink:href="http://cmpg.unibe.ch/software/arlequin/">http://cmpg.unibe.ch/software/arlequin/</ext-link>) using 10,000 permutations. Pair-wise D&#x02032;-values were calculated using a function written in R (K. Csill&#x000e9;ry, in prep.). Haplotype frequencies were inferred from the genotype data with the EM algorithm implemented in the &#x02018;haplo.stats&#x02019; library of R. Effective population size was estimated from allele frequency data for the 31 microsatellites with the program NeEstimator (Ver. 1.3) <xref rid="pone.0000072-Peel1" ref-type="bibr">[21]</xref> using six temporal classes (corresponding to those in <xref ref-type="fig" rid="pone-0000072-g001">Figure 1A</xref>).</p><p>We simulated in Excel whether multilocus heterozygosity is likely to be heritable in our population. This was done by generating 100,000 offspring genotypes from parental pair combination drawn randomly from the 44 females and 47 males from which we had complete genotypes (i.e. 2068 possible pairs). Upon every simulated pairing, a haplotype from each parent was generated by random selection of alleles from their microsatellite genotypes. These haplotypes were combined to form an offspring genotype. The multilocus heterozygosity was calculated for the offspring and analyzed in relation to the parent heterozygosity in SPSS version 14.0.</p></sec></sec><sec sec-type="supplementary-material" id="s5"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pone.0000072.s001"><label>Table S1</label><caption><p>Number of alleles and expected and observed heterozygosity in the contemporary Scandinavian wolf population for 31 microsatellite loci used in the present study.</p><p>(0.06 MB DOC)</p></caption><media xlink:href="pone.0000072.s001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We are most grateful to N. Gemmel, P. Hedrick, J. Slate, T. von Schantz and J. Vucetich for insightful comments and suggestions on the manuscript, and to K. Csill&#x000e9;ry for calculating D&#x02032;-values.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>Funding was provided to SB and BH from the Swedish Research Council, to OL and SB from the the Swedish Research Council for Environment, Agricultural Sciences and Spatial Planning, to OL, HA and HS by the Swedish Environmental Protection Agency, the World Wide Fund for Nature (Sweden), the Swedish Association for Hunting and Wildlife Management, the private foundation &#x0201c;Olle och Signhild Engkvists Stiftelser&#x0201d; to HCP and PW by the Norwegian Research Council, the Norwegian Directorate for Nature Management, the Norwegian Institute for Nature Research, Norwegian Ministry of Environment, and the Hedmark University College.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000072-Hedrick1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hedrick</surname><given-names>PW</given-names></name></person-group>
+<year>2001</year>
+<article-title>Conservation genetics: where are we now?</article-title>
+<source>Trends Ecol Evol</source>
+<volume>16</volume>
+<fpage>629</fpage>
+<lpage>636</lpage>
+</element-citation></ref><ref id="pone.0000072-Gilpin1"><label>2</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Gilpin</surname><given-names>ME</given-names></name><name><surname>Soul&#x000e9;</surname><given-names>ME</given-names></name></person-group>
+<person-group person-group-type="editor"><name><surname>Soul&#x000e9;</surname><given-names>ME</given-names></name></person-group>
+<year>1986</year>
+<source>Conservation Biology: the science of scarcity and diversity,</source>
+<publisher-name>(Sinauer Associates)</publisher-name>
+<fpage>19</fpage>
+<lpage>34</lpage>
+</element-citation></ref><ref id="pone.0000072-Garner1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garner</surname><given-names>A</given-names></name><name><surname>Rachlow</surname><given-names>JL</given-names></name><name><surname>Hicks</surname><given-names>JF</given-names></name></person-group>
+<year>2005</year>
+<article-title>Patterns of genetic diversity and its loss in mammalian populations.</article-title>
+<source>Conservation Biology</source>
+<volume>19</volume>
+<fpage>1215</fpage>
+<lpage>1221</lpage>
+</element-citation></ref><ref id="pone.0000072-Keller1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Keller</surname><given-names>LF</given-names></name><name><surname>Waller</surname><given-names>DM</given-names></name></person-group>
+<year>2002</year>
+<article-title>Inbreeding effects in wild populations.</article-title>
+<source>Trends Ecol Evol</source>
+<volume>17</volume>
+<fpage>230</fpage>
+<lpage>241</lpage>
+</element-citation></ref><ref id="pone.0000072-Pemberton1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pemberton</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>Measuring inbreeding depression in the wild: the old ways are the best.</article-title>
+<source>Trends Ecol Evol</source>
+<volume>19</volume>
+<fpage>613</fpage>
+<lpage>615</lpage>
+<pub-id pub-id-type="pmid">16701322</pub-id></element-citation></ref><ref id="pone.0000072-Balloux1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Balloux</surname><given-names>F</given-names></name><name><surname>Amos</surname><given-names>W</given-names></name><name><surname>Coulson</surname><given-names>T</given-names></name></person-group>
+<year>2004</year>
+<article-title>Does heterozygosity estimate inbreeding in real populations?</article-title>
+<source>Mol. Ecol.</source>
+<volume>13</volume>
+<fpage>3021</fpage>
+<lpage>3031</lpage>
+<pub-id pub-id-type="pmid">15367117</pub-id></element-citation></ref><ref id="pone.0000072-Slate1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Slate</surname><given-names>J</given-names></name><name><surname>David</surname><given-names>P</given-names></name><name><surname>Dodds</surname><given-names>KG</given-names></name><name><surname>Veenvliet</surname><given-names>BA</given-names></name><name><surname>Glass</surname><given-names>BC</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Understanding the relationship between the inbreeding coefficient and multilocus heterozygosity: theoretical expectations and empirical data.</article-title>
+<source>Heredity</source>
+<volume>93</volume>
+<fpage>255</fpage>
+<lpage>265</lpage>
+<pub-id pub-id-type="pmid">15254488</pub-id></element-citation></ref><ref id="pone.0000072-Leary1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leary</surname><given-names>RF</given-names></name><name><surname>Allendorf</surname><given-names>FW</given-names></name><name><surname>Knudsen</surname><given-names>KL</given-names></name></person-group>
+<year>1987</year>
+<article-title>Differences in inbreeding coefficients do not explain the association between heterozygosity at allozyme loci and developmental stability in rainbow trout.</article-title>
+<source>Evolution</source>
+<volume>41</volume>
+<fpage>1413</fpage>
+<lpage>1415</lpage>
+<pub-id pub-id-type="pmid">28563601</pub-id></element-citation></ref><ref id="pone.0000072-Bierne1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bierne</surname><given-names>N</given-names></name><name><surname>Launey</surname><given-names>S</given-names></name><name><surname>Naciri-Graven</surname><given-names>Y</given-names></name><name><surname>Bonhomme</surname><given-names>F</given-names></name></person-group>
+<year>1998</year>
+<article-title>Early effect of inbreeding as revealed by microsatellite analyses on <italic>Ostrea edulis</italic> larvae.</article-title>
+<source>Genetics</source>
+<volume>148</volume>
+<fpage>1893</fpage>
+<lpage>1906</lpage>
+<pub-id pub-id-type="pmid">9560403</pub-id></element-citation></ref><ref id="pone.0000072-Hansson1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hansson</surname><given-names>B</given-names></name><name><surname>Westerdahl</surname><given-names>H</given-names></name><name><surname>Hasselquist</surname><given-names>D</given-names></name><name><surname>&#x000c5;kesson</surname><given-names>M</given-names></name><name><surname>Bensch</surname><given-names>S</given-names></name></person-group>
+<year>2004</year>
+<article-title>Does linkage disequilibria generate heterozygosity-fitness correlations in great reed warblers?</article-title>
+<source>Evolution</source>
+<volume>58</volume>
+<fpage>870</fpage>
+<lpage>879</lpage>
+<pub-id pub-id-type="pmid">15154561</pub-id></element-citation></ref><ref id="pone.0000072-Markert1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Markert</surname><given-names>JA</given-names></name><name><surname>Grant</surname><given-names>PR</given-names></name><name><surname>Grant</surname><given-names>BR</given-names></name><name><surname>Keller</surname><given-names>LF</given-names></name><name><surname>Coombs</surname><given-names>JL</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Neutral locus heterozygosity, inbreeding, and survival in Darwin's ground finches (<italic>Geospiza fortis</italic> and <italic>G. scandens</italic>).</article-title>
+<source>Heredity</source>
+<volume>92</volume>
+<fpage>306</fpage>
+<lpage>315</lpage>
+<pub-id pub-id-type="pmid">14735140</pub-id></element-citation></ref><ref id="pone.0000072-Liberg1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liberg</surname><given-names>O</given-names></name><name><surname>Andr&#x000e9;n</surname><given-names>H</given-names></name><name><surname>Pedersen</surname><given-names>H-C</given-names></name><name><surname>Sand</surname><given-names>H</given-names></name><name><surname>Sejberg</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Severe inbreeding depression in a wild wolf (<italic>Canis lupus</italic>) population.</article-title>
+<source>Biol. Lett.</source>
+<volume>1</volume>
+<fpage>17</fpage>
+<lpage>20</lpage>
+<pub-id pub-id-type="pmid">17148117</pub-id></element-citation></ref><ref id="pone.0000072-Rikknen1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>R&#x000e4;ikk&#x000f6;nen</surname><given-names>J</given-names></name><name><surname>Bignert</surname><given-names>A</given-names></name><name><surname>Mortensen</surname><given-names>P</given-names></name><name><surname>Fernholm</surname><given-names>B</given-names></name></person-group>
+<year>2006</year>
+<article-title>Congenital defects in a highly inbred wild wolf population (<italic>Canis lupus</italic>).</article-title>
+<source>Mammalian Biology</source>
+<volume>71</volume>
+<fpage>65</fpage>
+<lpage>73</lpage>
+</element-citation></ref><ref id="pone.0000072-Wabakken1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wabakken</surname><given-names>P</given-names></name><name><surname>Aronson</surname><given-names>&#x000c5;</given-names></name><name><surname>Stromseth</surname><given-names>TH</given-names></name><name><surname>Sand</surname><given-names>H</given-names></name><name><surname>Kojola</surname><given-names>I</given-names></name></person-group>
+<year>2005</year>
+<article-title>The wolf in Scandinavia: Status report of the 2004&#x02013;2005 winter. </article-title>
+<source>H&#x000f8;gskolan i Hedmark, Oppdragsrapport nr.</source>
+<comment>6&#x02013;2005. (in Norwegian with English summary)</comment>
+</element-citation></ref><ref id="pone.0000072-Flagstad1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Flagstad</surname><given-names>O</given-names></name><name><surname>Walker</surname><given-names>CW</given-names></name><name><surname>Vila</surname><given-names>C</given-names></name><name><surname>Sundquist</surname><given-names>A-K</given-names></name><name><surname>Fernholm</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Two centuries of the Scandinavian wolf population: patterns of genetic variability and migration during an era of dramatic decline.</article-title>
+<source>Mol. Ecol.</source>
+<volume>12</volume>
+<fpage>869</fpage>
+<lpage>880</lpage>
+<pub-id pub-id-type="pmid">12753208</pub-id></element-citation></ref><ref id="pone.0000072-Vila1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vila</surname><given-names>C</given-names></name><name><surname>Sundquist</surname><given-names>A-K</given-names></name><name><surname>Flagstad</surname><given-names>O</given-names></name><name><surname>Seddon</surname><given-names>J</given-names></name><name><surname>Bj&#x000f6;rnerfeldt</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Rescue of a severely bottlenecked wolf (<italic>Canis lupus</italic>) population by a single immigrant.</article-title>
+<source>Proc. R. Soc. Lond. B</source>
+<volume>270</volume>
+<fpage>91</fpage>
+<lpage>97</lpage>
+</element-citation></ref><ref id="pone.0000072-Kimura1"><label>17</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Kimura</surname><given-names>M</given-names></name></person-group>
+<year>1983</year>
+<source>The Neutral Theory of Molecular Evolution</source>
+<publisher-loc>Cambridge</publisher-loc>
+<publisher-name>Cambridge University Press</publisher-name>
+</element-citation></ref><ref id="pone.0000072-David1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>David</surname><given-names>P</given-names></name></person-group>
+<year>1998</year>
+<article-title>Heterozygosity-fitness correlations: new perspective on old problems.</article-title>
+<source>Heredity</source>
+<volume>80</volume>
+<fpage>531</fpage>
+<lpage>537</lpage>
+<pub-id pub-id-type="pmid">9650277</pub-id></element-citation></ref><ref id="pone.0000072-Lacy1"><label>19</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Lacy</surname><given-names>RC</given-names></name></person-group>
+<year>1995</year>
+<source>VORTEX &#x02013; a stochastic simulation of the extinction process. 7.0.</source>
+<publisher-name>Chicago Zoological Society</publisher-name>
+</element-citation></ref><ref id="pone.0000072-Andrn1"><label>20</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Andr&#x000e9;n</surname><given-names>H</given-names></name></person-group>
+<person-group person-group-type="editor"><name><surname>Liberg</surname><given-names>O</given-names></name></person-group>
+<year>2006</year>
+<source>Genetic aspects of viability in small wolf populations - with emphasis on the Scandinavian wolf population,</source>
+<publisher-loc>Stockholm</publisher-loc>
+<publisher-name>(Naturv&#x000e5;rdsverket - Swedish Environmental Protection Agency</publisher-name>
+<fpage>59</fpage>
+<lpage>61</lpage>
+</element-citation></ref><ref id="pone.0000072-Peel1"><label>21</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Peel</surname><given-names>D</given-names></name><name><surname>Ovenden</surname><given-names>JR</given-names></name><name><surname>Peel</surname><given-names>SL</given-names></name></person-group>
+<year>2004</year>
+<source>NeEstimator: software for estimating effective population size</source>
+<publisher-name>Queensland Government, Department of Primary Industries and Fisheries</publisher-name>
+</element-citation></ref><ref id="pone.0000072-Leonard1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leonard</surname><given-names>JA</given-names></name><name><surname>Vila</surname><given-names>C</given-names></name><name><surname>Wayne</surname><given-names>RK</given-names></name></person-group>
+<year>2005</year>
+<article-title>Legacy lost: genetic variability and population size of extirpated US grey wolves (<italic>Canis lupus</italic>).</article-title>
+<source>Mol. Ecol.</source>
+<volume>14</volume>
+<fpage>9</fpage>
+<lpage>17</lpage>
+<pub-id pub-id-type="pmid">15643947</pub-id></element-citation></ref><ref id="pone.0000072-Aspi1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aspi</surname><given-names>J</given-names></name><name><surname>Roininen</surname><given-names>E</given-names></name><name><surname>Ruokonen</surname><given-names>M</given-names></name><name><surname>Kojola</surname><given-names>I</given-names></name><name><surname>Vila</surname><given-names>C</given-names></name></person-group>
+<year>2006</year>
+<article-title>Genetic diversity, population structure, effective population size and demographic history of the Finnish wolf population.</article-title>
+<source>Mol. Ecol.</source>
+<volume>15</volume>
+<fpage>1561</fpage>
+<lpage>1576</lpage>
+<pub-id pub-id-type="pmid">16629811</pub-id></element-citation></ref><ref id="pone.0000072-Lucchini1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lucchini</surname><given-names>V</given-names></name><name><surname>Galov</surname><given-names>A</given-names></name><name><surname>Randi</surname><given-names>E</given-names></name></person-group>
+<year>2004</year>
+<article-title>Evidence of genetic distinction and long-term population decline in wolves (<italic>Canis lupus</italic>) in the Italian Apennines.</article-title>
+<source>Mol. Ecol.</source>
+<volume>13</volume>
+<fpage>523</fpage>
+<lpage>536</lpage>
+<pub-id pub-id-type="pmid">14871358</pub-id></element-citation></ref><ref id="pone.0000072-Ellegren1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ellegren</surname><given-names>H</given-names></name></person-group>
+<year>1999</year>
+<article-title>Inbreeding and relatedness in Scandinavian grey wolves <italic>Canis lupus</italic>.</article-title>
+<source>Hereditas</source>
+<volume>130</volume>
+<fpage>239</fpage>
+<lpage>244</lpage>
+<pub-id pub-id-type="pmid">10509138</pub-id></element-citation></ref><ref id="pone.0000072-Keller2"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Keller</surname><given-names>LF</given-names></name><name><surname>Arcese</surname><given-names>P</given-names></name><name><surname>Smith</surname><given-names>JNM</given-names></name><name><surname>Hochachka</surname><given-names>WM</given-names></name><name><surname>Stearns</surname><given-names>SC</given-names></name></person-group>
+<year>1994</year>
+<article-title>Selection against inbred song sparrows during a natural population bottleneck.</article-title>
+<source>Nature</source>
+<volume>372</volume>
+<fpage>356</fpage>
+<lpage>357</lpage>
+<pub-id pub-id-type="pmid">7969492</pub-id></element-citation></ref><ref id="pone.0000072-Jimenez1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jimenez</surname><given-names>JA</given-names></name><name><surname>Hughes</surname><given-names>KA</given-names></name><name><surname>Alaks</surname><given-names>G</given-names></name><name><surname>Graham</surname><given-names>L</given-names></name><name><surname>Lacy</surname><given-names>RC</given-names></name></person-group>
+<year>1994</year>
+<article-title>An experimental study of inbreeding depression in a natural habitat.</article-title>
+<source>Science</source>
+<volume>266</volume>
+<fpage>271</fpage>
+<lpage>273</lpage>
+<pub-id pub-id-type="pmid">7939661</pub-id></element-citation></ref><ref id="pone.0000072-Ralls1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ralls</surname><given-names>K</given-names></name><name><surname>Ballou</surname><given-names>JD</given-names></name><name><surname>Templeton</surname><given-names>A</given-names></name></person-group>
+<year>1988</year>
+<article-title>Estimates of Lethal Equivalents and the cost of inbreeding in mammals.</article-title>
+<source>Conservation Biology</source>
+<volume>2</volume>
+<fpage>185</fpage>
+<lpage>193</lpage>
+</element-citation></ref><ref id="pone.0000072-Kalinowski1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kalinowski</surname><given-names>ST</given-names></name><name><surname>Hedrick</surname><given-names>PW</given-names></name><name><surname>Miller</surname><given-names>PS</given-names></name></person-group>
+<year>1999</year>
+<article-title>No inbreeding depression observed in Mexican and red wolf captive breeding programs.</article-title>
+<source>Conservation Biology</source>
+<volume>13</volume>
+<fpage>1371</fpage>
+<lpage>1377</lpage>
+</element-citation></ref><ref id="pone.0000072-McKusick1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McKusick</surname><given-names>VA</given-names></name></person-group>
+<year>2000</year>
+<article-title>Ellis-van Creveld syndrome and the Amish.</article-title>
+<source>Nature Genetics</source>
+<volume>24</volume>
+<fpage>203</fpage>
+<lpage>204</lpage>
+<pub-id pub-id-type="pmid">10700162</pub-id></element-citation></ref><ref id="pone.0000072-Hartl1"><label>31</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Hartl</surname><given-names>DL</given-names></name><name><surname>Clark</surname><given-names>AG</given-names></name></person-group>
+<year>1997</year>
+<source>Principles of population genetics</source>
+<publisher-loc>Sunderland, Massachusetts</publisher-loc>
+<publisher-name>Sinauer Associates Inc.</publisher-name>
+</element-citation></ref><ref id="pone.0000072-Dunning1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dunning</surname><given-names>AM</given-names></name><name><surname>Durocher</surname><given-names>F</given-names></name><name><surname>Healey</surname><given-names>CS</given-names></name><name><surname>Teare</surname><given-names>MD</given-names></name><name><surname>McBride</surname><given-names>SE</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>The extent of linkage disequilibrium in four populations with distinct demographic histories.</article-title>
+<source>Am. J. Hum. Genet.</source>
+<volume>67</volume>
+<fpage>1544</fpage>
+<lpage>1554</lpage>
+<pub-id pub-id-type="pmid">11078480</pub-id></element-citation></ref><ref id="pone.0000072-Sutter1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sutter</surname><given-names>NB</given-names></name><name><surname>Eberle</surname><given-names>MA</given-names></name><name><surname>Parker</surname><given-names>HG</given-names></name><name><surname>Pullar</surname><given-names>BJ</given-names></name><name><surname>Kirkness</surname><given-names>EF</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Extensive and breeding-specific linkage disequilibrium in <italic>Canis familiaris</italic>.</article-title>
+<source>Genome Research</source>
+<volume>14</volume>
+<fpage>2388</fpage>
+<lpage>2396</lpage>
+<pub-id pub-id-type="pmid">15545498</pub-id></element-citation></ref><ref id="pone.0000072-McRae1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McRae</surname><given-names>AF</given-names></name><name><surname>McEwan</surname><given-names>JC</given-names></name><name><surname>Dodds</surname><given-names>KG</given-names></name><name><surname>Wilson</surname><given-names>T</given-names></name><name><surname>Crawford</surname><given-names>AM</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Linkage disequilibrium in domestic sheep.</article-title>
+<source>Genetics</source>
+<volume>160</volume>
+<fpage>1113</fpage>
+<lpage>1122</lpage>
+<pub-id pub-id-type="pmid">11901127</pub-id></element-citation></ref><ref id="pone.0000072-Otto1"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Otto</surname><given-names>SP</given-names></name><name><surname>Whitlock</surname><given-names>MC</given-names></name></person-group>
+<year>1997</year>
+<article-title>The probability of fixation in populations of changing size.</article-title>
+<source>Genetics</source>
+<volume>146</volume>
+<fpage>723</fpage>
+<lpage>733</lpage>
+<pub-id pub-id-type="pmid">9178020</pub-id></element-citation></ref><ref id="pone.0000072-Wabakken2"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wabakken</surname><given-names>P</given-names></name><name><surname>Sand</surname><given-names>H</given-names></name><name><surname>Liberg</surname><given-names>O</given-names></name><name><surname>Bj&#x000e4;rvall</surname><given-names>A</given-names></name></person-group>
+<year>2001</year>
+<article-title>The recovery, distribution, and population dynamics of wolves on the Scandinavian peninsula, 1978&#x02013;1998.</article-title>
+<source>Can. J. Zool.</source>
+<volume>79</volume>
+<fpage>710</fpage>
+<lpage>725</lpage>
+</element-citation></ref><ref id="pone.0000072-Taberlet1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Taberlet</surname><given-names>P</given-names></name><name><surname>Waits</surname><given-names>LP</given-names></name><name><surname>Luikart</surname><given-names>G</given-names></name></person-group>
+<year>1999</year>
+<article-title>Noninvasive genetic sampling: look before you leap.</article-title>
+<source>Trends Ecol. Evol.</source>
+<volume>14</volume>
+<fpage>323</fpage>
+<lpage>327</lpage>
+<pub-id pub-id-type="pmid">10407432</pub-id></element-citation></ref><ref id="pone.0000072-Morton1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morton</surname><given-names>NE</given-names></name><name><surname>Crow</surname><given-names>JF</given-names></name><name><surname>Muller</surname><given-names>HJ</given-names></name></person-group>
+<year>1956</year>
+<article-title>An estimate of the mutational damage in man from data on consanguineous marriages.</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<volume>42</volume>
+<fpage>855</fpage>
+<lpage>863</lpage>
+<pub-id pub-id-type="pmid">16589958</pub-id></element-citation></ref><ref id="pone.0000072-Kalinowski2"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kalinowski</surname><given-names>ST</given-names></name><name><surname>Hedrick</surname><given-names>PW</given-names></name></person-group>
+<year>1998</year>
+<article-title>An improved method for estimating inbreeding depression in pedigrees.</article-title>
+<source>Zoo Biology</source>
+<volume>17</volume>
+<fpage>481</fpage>
+<lpage>497</lpage>
+</element-citation></ref><ref id="pone.0000072-Kingsolver1"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kingsolver</surname><given-names>JG</given-names></name><name><surname>Hoekstra</surname><given-names>HE</given-names></name><name><surname>Hoekstra</surname><given-names>JM</given-names></name><name><surname>Berrigan</surname><given-names>D</given-names></name><name><surname>Vignieri</surname><given-names>SN</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>The strength of phenotypic selection in natural populations.</article-title>
+<source>Am. Nat.</source>
+<volume>157</volume>
+<fpage>245</fpage>
+<lpage>261</lpage>
+<pub-id pub-id-type="pmid">18707288</pub-id></element-citation></ref><ref id="pone.0000072-Lande1"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lande</surname><given-names>R</given-names></name><name><surname>Arnold</surname><given-names>SJ</given-names></name></person-group>
+<year>1983</year>
+<article-title>The measurement of selection on correlated characters.</article-title>
+<source>Evolution</source>
+<volume>37</volume>
+<fpage>1210</fpage>
+<lpage>1226</lpage>
+<pub-id pub-id-type="pmid">28556011</pub-id></element-citation></ref><ref id="pone.0000072-Falconer1"><label>42</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Falconer</surname><given-names>DS</given-names></name><name><surname>Mackay</surname><given-names>TFC</given-names></name></person-group>
+<year>1996</year>
+<source>Introduction to quantitative genetics</source>
+<publisher-loc>Essex</publisher-loc>
+<publisher-name>Longman Group Ltd</publisher-name>
+</element-citation></ref><ref id="pone.0000072-Schluter1"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schluter</surname><given-names>D</given-names></name><name><surname>Smith</surname><given-names>JNM</given-names></name></person-group>
+<year>1986</year>
+<article-title>Natural selection on beak and body size in the song sparrow.</article-title>
+<source>Evolution</source>
+<volume>40</volume>
+<fpage>221</fpage>
+<lpage>231</lpage>
+<pub-id pub-id-type="pmid">28556039</pub-id></element-citation></ref></ref-list></back></article>

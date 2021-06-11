@@ -1,0 +1,695 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183670</article-id><article-id pub-id-type="pmc">1762347</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00086R1</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000041</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Ecology</subject><subject>Evolutionary Biology</subject><subject>Infectious Diseases</subject><subject>Pathology</subject><subject>Public Health and Epidemiology</subject><subject>Virology</subject></subj-group></article-categories><title-group><article-title>Association and Host Selectivity in Multi-Host Pathogens</article-title><alt-title alt-title-type="running-head">Associations in Pathogens</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Malpica</surname><given-names>Jos&#x000e9; M.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Sacrist&#x000e1;n</surname><given-names>Soledad</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Fraile</surname><given-names>Aurora</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Garc&#x000ed;a-Arenal</surname><given-names>Fernando</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution>Departamento de Biotecnolog&#x000ed;a, Instituto Nacional de Investigaci&#x000f3;n Agraria y Alimentaria</institution>
+<addr-line>Madrid, Spain</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>Departamento de Biotecnolog&#x000ed;a y Centro de Biotecnolog&#x000ed;a y Gen&#x000f3;mica de Plantas, Universidad Polit&#x000e9;cnica de Madrid</institution>
+<addr-line>Madrid, Spain</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Buckling</surname><given-names>Angus</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Oxford University, United Kingdom</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>fernando.garciaarenal@upm.es</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: FG JM. Performed the experiments: AF SS. Analyzed the data: AF JM SS. Wrote the paper: FG JM.</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e41</elocation-id><history><date date-type="received"><day>31</day><month>8</month><year>2006</year></date><date date-type="accepted"><day>2</day><month>10</month><year>2006</year></date></history><permissions><copyright-statement>Malpica et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>The distribution of multi-host pathogens over their host range conditions their population dynamics and structure. Also, host co-infection by different pathogens may have important consequences for the evolution of hosts and pathogens, and host-pathogen co-evolution. Hence it is of interest to know if the distribution of pathogens over their host range is random, or if there are associations between hosts and pathogens, or between pathogens sharing a host. To analyse these issues we propose indices for the observed patterns of host infection by pathogens, and for the observed patterns of co-infection, and tests to analyse if these patterns conform to randomness or reflect associations. Applying these tests to the prevalence of five plant viruses on 21 wild plant species evidenced host-virus associations: most hosts and viruses were selective for viruses and hosts, respectively. Interestingly, the more host-selective viruses were the more prevalent ones, suggesting that host specialisation is a successful strategy for multi-host pathogens. Analyses also showed that viruses tended to associate positively in co-infected hosts. The developed indices and tests provide the tools to analyse how strong and common are these associations among different groups of pathogens, which will help to understand and model the population biology of multi-host pathogens.</p></abstract><counts><page-count count="8"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Pathogens have highly variable host ranges: in natural conditions some infect only one or a few related species (i.e., specialist pathogens) while other can infect a wide range of hosts belonging to different taxonomic groups (i.e., multi-host or generalist pathogens). A large fraction of described pathogens of humans, animals and plants are generalists <xref rid="pone.0000041-Woolhouse1" ref-type="bibr">[1]</xref>&#x02013;<xref rid="pone.0000041-GarcaArenal1" ref-type="bibr">[3]</xref>. The ability to infect different hosts conditions the epidemiology and pathogenicity of generalist pathogens and, therefore, is highly relevant for pathogen management and disease control <xref rid="pone.0000041-Woolhouse1" ref-type="bibr">[1]</xref>, <xref rid="pone.0000041-Haydon1" ref-type="bibr">[4]</xref>. The distribution of multi-host pathogens over their host range, i.e. the frequency of infection in the various host species within an ecosystem, may vary largely, which could determine the population dynamics and structure of the pathogen. The distribution of a pathogen species over its host range may also determine important aspects of its biology in hosts significant from an anthropocentric viewpoint (i.e. target hosts), such as reservoirs and inoculum sources, emergence and re-emergence, population thresholds for disease invasion or critical community size for disease persistence [e.g., <xref rid="pone.0000041-Woolhouse1" ref-type="bibr">[1]</xref>, <xref rid="pone.0000041-Haydon1" ref-type="bibr">[4]</xref>&#x02013;<xref rid="pone.0000041-Hudson1" ref-type="bibr">[7]</xref>].</p><p>Animal or plant species may be hosts for a range of pathogens, and most host populations encounter a large number of different pathogen species <xref rid="pone.0000041-Woolhouse3" ref-type="bibr">[8]</xref>. For significant host species, there is abundant evidence of differences in the infection frequency of the various pathogen species present in an ecosystem. The distribution of pathogens over their hosts, and the distribution of different pathogens within a host species, will affect the frequency of multiple infection of an individual host by different pathogens. Multiple infection may have important consequences for the infected hosts, for the pathogens, and for host-pathogen co-evolution <xref rid="pone.0000041-Woolhouse3" ref-type="bibr">[8]</xref>, <xref rid="pone.0000041-Read1" ref-type="bibr">[9]</xref>. In the host, frequent co-infections may lead to heterozygote superiority against multiple pathogens and contribute to the persistence in host populations of alleles conferring susceptibility to disease <xref rid="pone.0000041-McClelland1" ref-type="bibr">[10]</xref>. In multiple infected hosts, pathogens can cooperate or can compete for host resources, which will affect each other's fitness. Hence, multiple infections will be a factor in pathogen evolution. Theoretical analyses predict that the within-host dynamics of microparasites in multiple infected hosts may have important consequences in the evolution of their virulence <xref rid="pone.0000041-May1" ref-type="bibr">[11]</xref>&#x02013;<xref rid="pone.0000041-Brown1" ref-type="bibr">[14]</xref>, and there is evidence that multiple infection may result in either increased or reduced virulence [e.g., <xref rid="pone.0000041-Escriu1" ref-type="bibr">[15]</xref>&#x02013;<xref rid="pone.0000041-Griffin1" ref-type="bibr">[17]</xref>]. Multiple infection of a host may also directly affect the genetic diversity of the pathogen population, as co-infection is a prerequisite for genetic exchange between different pathogen species or strains. Also, infection by one pathogen may result in an increased host susceptibility to a second pathogen, a common phenomenon named facilitation or predisposition by animal and plant pathologists, respectively <xref rid="pone.0000041-Woolhouse3" ref-type="bibr">[8]</xref>, <xref rid="pone.0000041-Schoeneweiss1" ref-type="bibr">[18]</xref>.</p><p>In spite of its potential impact on pathogenicity, evolution, epidemiology and control, the distribution of pathogens over their host range and the occurrence of co-infections have been largely overlooked, and most research on pathogen ecology and epidemiology has dealt with specific pathogen-host interactions <xref rid="pone.0000041-Woolhouse3" ref-type="bibr">[8]</xref>. To our knowledge, it has not been analysed whether the distribution of pathogens over their host range is random or, alternatively, associations between pathogens and hosts occur, neither has been addressed whether host co-infection by different pathogens is random or associations between pathogens occur in particular hosts. Here we address these issues.</p><p>First, we propose indices for the observed patterns of host infection by different pathogens, and the observed patterns of co-infection, and tests to analyse if they conform to the null hypothesis of randomness or reflect associations. Second, we apply these tests to data on the prevalence of five insect-borne virus species in wild plant species within an agroecosystem in Central Spain. Results of these analyses uncover patterns that, if general, would be highly relevant to understand the ecology and evolution of pathogens.</p></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>Association between viruses and hosts, and among viruses, in weeds in Central Spain</title><p>Between January 2000 and December 2002, 2275 samples from 56 weed species or genera pertaining to 21 dicotyledonous plant families, were collected and analyzed for infection by the aphid transmitted viruses <italic>Alfalfa mosaic virus</italic> (AMV, genus <italic>Alfamovirus</italic>, family <italic>Bromoviridae</italic>), <italic>Beet western yellows virus</italic> (BWYV, genus <italic>Polerovirus</italic>, family <italic>Luteoviridae</italic>), <italic>Cucumber mosaic virus</italic> (CMV, genus <italic>Cucumovirus</italic>, family <italic>Bromoviridae</italic>), and <italic>Watermelon mosaic virus</italic> (WMV, genus <italic>Potyvirus</italic>, family <italic>Potyviridae</italic>), and by the thrips-transmitted <italic>Tomato spotted wilt virus</italic> (TSWV, genus <italic>Tospovirus</italic>, family <italic>Bunyaviridae</italic>) <xref rid="pone.0000041-VanRegenmortel1" ref-type="bibr">[19]</xref>. Except for TSWV, which has a single-stranded RNA genome of negative and ambisense polarity, all other viruses have single-stranded RNA genomes of messenger polarity. AMV, CMV and WMV are transmitted by aphids in a non-persistent manner, i.e. the virus is retained in the distal structures of the aphid mouth parts for short period of time. BWYV is transmitted in a circulative, non-propagative manner, i.e., the virus penetrates through the gut wall into the haemocoel of the insect vector, and circulates with the haemolymph to reach the salivary glands, from where it is inoculated into new plants. TSWV follows a similar path within the thrips body, but infects and multiplies in the insect cells <xref rid="pone.0000041-VanRegenmortel1" ref-type="bibr">[19]</xref>. All five viruses cause important diseases in vegetable crops world-wide, including the studied region in Central Spain, but infection in the analysed wild hosts was asymptomatic. <xref ref-type="table" rid="pone-0000041-t001">Table 1</xref> shows the number of samples analysed and the number of infected plants by each of these five virus species, in single or multiple infection, in the 21 most frequently found plant species in three monitored habitats (see <xref ref-type="sec" rid="s4">Methods</xref>) for the analysed period.</p><table-wrap id="pone-0000041-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000041.t001</object-id><label>Table 1</label><caption><title>Number of single and multiple infections with AMV, BWYV, CMV, TSWV and WMV in twenty one weed species</title></caption><graphic xlink:href="pone.0000041.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col width="282*" align="left" span="1"/><col width="90*" align="center" span="1"/><col width="93*" align="center" span="1"/><col width="90*" align="center" span="1"/><col width="93*" align="center" span="1"/><col width="90*" align="center" span="1"/><col width="93*" align="center" span="1"/><col width="90*" align="center" span="1"/><col width="93*" align="center" span="1"/><col width="90*" align="center" span="1"/><col width="93*" align="center" span="1"/><col width="87*" align="center" span="1"/><col width="93*" align="center" span="1"/><col width="90*" align="center" span="1"/><col width="93*" align="center" span="1"/><col width="90*" align="center" span="1"/><col width="93*" align="center" span="1"/><col width="90*" align="center" span="1"/><col width="93*" align="center" span="1"/><col width="90*" align="center" span="1"/><col width="93*" align="center" span="1"/><col width="90*" align="center" span="1"/><col width="93*" align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td colspan="5" align="left" rowspan="1"/><td colspan="16" align="left" rowspan="1">Multiple infections<xref ref-type="table-fn" rid="nt103">3</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td colspan="5" align="left" rowspan="1">Single infections</td><td colspan="10" align="left" rowspan="1">
+<bold>AMV&#x0002b;</bold>
+</td><td colspan="4" align="left" rowspan="1">
+<bold>BMV&#x0002b;</bold>
+</td><td colspan="2" align="left" rowspan="1">
+<bold>CMV&#x0002b;</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Host species<xref ref-type="table-fn" rid="nt101">1</xref>
+</td><td align="left" rowspan="1" colspan="1">N<xref ref-type="table-fn" rid="nt102">2</xref>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>AMV</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>BWYV</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>CMV</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>TSWV</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>WMV</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>B</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>C</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>T</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>W</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>B&#x0002b;C</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>B&#x0002b;T</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>C&#x0002b;T</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>T&#x0002b;W</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>B&#x0002b;C&#x0002b;T</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>B&#x0002b;T&#x0002b;W</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>C</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>T</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>C&#x0002b;T</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>C&#x0002b;T&#x0002b;W</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>B&#x0002b;T</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>B&#x0002b;W</bold>
+</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<italic>Amaranthus</italic> spp.</td><td align="left" rowspan="1" colspan="1">87</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">31</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">3</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>C. bursa-pastoris</italic> (L.) Medicus</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Chenopodium album</italic> L.</td><td align="left" rowspan="1" colspan="1">69</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Cirsium arvense</italic> (L.) Scop.</td><td align="left" rowspan="1" colspan="1">42</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">20</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Convolvulus arvensis</italic> L.</td><td align="left" rowspan="1" colspan="1">113</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Conyza</italic> sp.</td><td align="left" rowspan="1" colspan="1">121</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Datura stramonium</italic> L.</td><td align="left" rowspan="1" colspan="1">26</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Diplotaxis erucoides</italic> (L.) DC.</td><td align="left" rowspan="1" colspan="1">164</td><td align="left" rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">44</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Lactuca serriola</italic> L.</td><td align="left" rowspan="1" colspan="1">66</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Lamium amplexicaule L.</italic>
+</td><td align="left" rowspan="1" colspan="1">35</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Malva sylvestris</italic> L.</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Medicago sativa</italic> L.</td><td align="left" rowspan="1" colspan="1">90</td><td align="left" rowspan="1" colspan="1">38</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Papaver rhoeas</italic> L.</td><td align="left" rowspan="1" colspan="1">61</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Plantago sp</italic>
+</td><td align="left" rowspan="1" colspan="1">61</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Portulaca oleracea</italic> L.</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Silybum marianum</italic> (L.)Gaertner</td><td align="left" rowspan="1" colspan="1">29</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Solanum nigrum</italic> L.</td><td align="left" rowspan="1" colspan="1">24</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Sonchus oleraceus</italic> L.</td><td align="left" rowspan="1" colspan="1">51</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Taraxacum sp.</italic>
+</td><td align="left" rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Trifolium pratense</italic> L.</td><td align="left" rowspan="1" colspan="1">37</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Xanthium strumarium</italic> Moretti.</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1</td></tr></tbody></table><table-wrap-foot><fn id="nt101"><label>1</label><p>Amaranthus spp: A. retroflexus (L.) or A. hybridus (L.); C. bursa-pastoris (L.) Medicus: Capsella bursa-pastoris (L.) Medicus; Conyza spp: C. canadensis (L.) Cronq. or C. bonaerenses (L.) Cronq.; Plantago spp: P. coronopus L. or P. lagopus L.; Taraxacum spp: undetermined species.</p></fn><fn id="nt102"><label>2</label><p>N&#x0200a;=&#x0200a;Number of analysed plants</p></fn><fn id="nt103"><label>3</label><p>A&#x0200a;=&#x0200a;AMV, B&#x0200a;=&#x0200a;BWYV, C&#x0200a;=&#x0200a;CMV, T&#x0200a;=&#x0200a;TSWV, W&#x0200a;=&#x0200a;WMV</p></fn></table-wrap-foot></table-wrap><p>To this data set tests for association between hosts and pathogens (see <xref ref-type="sec" rid="s4">Methods</xref>) were applied. The index of selectivity of pathogen (ISP), and its significance, is shown in <xref ref-type="table" rid="pone-0000041-t002">Table 2</xref> for the five viruses. The distribution of three of five analysed viruses over their hosts was significantly non-random, i.e. some of the available hosts were preferentially infected. <xref ref-type="fig" rid="pone-0000041-g001">Fig. 1</xref> shows the relationship between prevalence and the ISP for the five viruses. A positive correlation was found for both parameters (r&#x0200a;=&#x0200a;0.9347, P&#x0200a;=&#x0200a;0.0189 in a Spearman rank correlation test), i.e., the more host-selective viruses were those with a highest prevalence in the analysed ecosystem. Similarly, the index of selectivity of the host (ISH), and its significance, was calculated for the 21 host plant species in <xref ref-type="table" rid="pone-0000041-t001">Table 1</xref>, and values are shown in <xref ref-type="table" rid="pone-0000041-t003">Table 3</xref>. For about half (9/21) of the analysed hosts (<italic>Amaranthus</italic> spp., <italic>Cirsium arvense, Convolvulus arvensis, Diplotaxis erucoides, Lactuca serriola, Medicago sativa, Portulaca oleracea, Solanum nigrum</italic> and <italic>Taraxacum</italic> spp.) differences in the prevalence of the five viruses departed significantly from random. <xref ref-type="fig" rid="pone-0000041-g002">Fig. 2</xref> shows the relationship between virus prevalence and the ISH for the 21 host species. Again, a positive correlation between both parameters was found (r&#x0200a;=&#x0200a;0.5161, P&#x0200a;=&#x0200a;0.0166, in a Spearman rank correlation test), i.e., the more virus-selective hosts were those with a higher prevalence of virus infection. The relationships between prevalence and selectivity for viruses and hosts were not due to a coincidence in the frequency of infection among hosts by different viruses, as shown by a contingency analysis of counts of infected hosts by the different viruses (P&#x0003c;10<sup>&#x02212;4</sup>).</p><fig id="pone-0000041-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000041.g001</object-id><label>Figure 1</label><caption><title>Relationship between average prevalence (P<sub>i</sub>) and the index of selectivity of the pathogen (ISP) for five virus species.</title></caption><graphic xlink:href="pone.0000041.g001"/></fig><table-wrap id="pone-0000041-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000041.t002</object-id><label>Table 2</label><caption><title>Average prevalence (P<sub>i</sub>), and index of selectivity of the pathogen (ISP) for five virus species.</title></caption><graphic xlink:href="pone.0000041.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Species</td><td align="left" rowspan="1" colspan="1">P<sub>i</sub>
+</td><td align="left" rowspan="1" colspan="1">ISH</td><td align="left" rowspan="1" colspan="1">P<xref ref-type="table-fn" rid="nt105">1</xref>
+</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">AMV</td><td align="left" rowspan="1" colspan="1">0.128</td><td align="left" rowspan="1" colspan="1">0.3943</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">BWYV</td><td align="left" rowspan="1" colspan="1">0.065</td><td align="left" rowspan="1" colspan="1">0.2193</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">CMV</td><td align="left" rowspan="1" colspan="1">0.173</td><td align="left" rowspan="1" colspan="1">0.3838</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">TSWV</td><td align="left" rowspan="1" colspan="1">0.039</td><td align="left" rowspan="1" colspan="1">0.1398</td><td align="left" rowspan="1" colspan="1">0.359</td></tr><tr><td align="left" rowspan="1" colspan="1">WMV</td><td align="left" rowspan="1" colspan="1">0.022</td><td align="left" rowspan="1" colspan="1">0.1844</td><td align="left" rowspan="1" colspan="1">0.063</td></tr></tbody></table><table-wrap-foot><fn id="nt105"><label>1</label><p>Probability of rejection of the null hypothesis of homogeneity of the prevalence of five analysed viruses. Raw significance probabilities were corrected by the sequential Bonferroni method for multiple independent tests as indicated in <xref rid="pone.0000041-Rice1" ref-type="bibr">[60]</xref>.</p></fn></table-wrap-foot></table-wrap><table-wrap id="pone-0000041-t003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000041.t003</object-id><label>Table 3</label><caption><title>Average prevalence of virus infection (P<sub>k</sub>), and index of selectivity of the host (ISH) for twenty one weed species.</title></caption><graphic xlink:href="pone.0000041.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Species</td><td align="left" rowspan="1" colspan="1">P<sub>k</sub>
+</td><td align="left" rowspan="1" colspan="1">ISH</td><td align="left" rowspan="1" colspan="1">P<xref ref-type="table-fn" rid="nt107">1</xref>
+</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<italic>Amaranthus</italic> spp.</td><td align="left" rowspan="1" colspan="1">0.117</td><td align="left" rowspan="1" colspan="1">0.4314</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Capsella bursa-pastoris</italic> (L.) Medicus</td><td align="left" rowspan="1" colspan="1">0.040</td><td align="left" rowspan="1" colspan="1">0.4083</td><td align="left" rowspan="1" colspan="1">1.000</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Chenopodium album</italic> L.</td><td align="left" rowspan="1" colspan="1">0.029</td><td align="left" rowspan="1" colspan="1">0.1445</td><td align="left" rowspan="1" colspan="1">0.761</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Cirsium arvense</italic> (L.) Scop.</td><td align="left" rowspan="1" colspan="1">0.229</td><td align="left" rowspan="1" colspan="1">0.3922</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Convolvulus arvensis</italic> L.</td><td align="left" rowspan="1" colspan="1">0.049</td><td align="left" rowspan="1" colspan="1">0.2257</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Conyza</italic> spp.</td><td align="left" rowspan="1" colspan="1">0.056</td><td align="left" rowspan="1" colspan="1">0.1331</td><td align="left" rowspan="1" colspan="1">0.243</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Datura stramonium</italic> L.</td><td align="left" rowspan="1" colspan="1">0.123</td><td align="left" rowspan="1" colspan="1">0.2710</td><td align="left" rowspan="1" colspan="1">0.342</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Diplotaxis erucoides</italic> (L.) DC.</td><td align="left" rowspan="1" colspan="1">0.118</td><td align="left" rowspan="1" colspan="1">0.2897</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Lactuca serriola</italic> L.</td><td align="left" rowspan="1" colspan="1">0.058</td><td align="left" rowspan="1" colspan="1">0.3327</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Lamium amplexicaule L.</italic>
+</td><td align="left" rowspan="1" colspan="1">0.074</td><td align="left" rowspan="1" colspan="1">0.1900</td><td align="left" rowspan="1" colspan="1">0.742</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Malva sylvestris</italic> L.</td><td align="left" rowspan="1" colspan="1">0.050</td><td align="left" rowspan="1" colspan="1">0.4589</td><td align="left" rowspan="1" colspan="1">0.999</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Medicago sativa</italic> L.</td><td align="left" rowspan="1" colspan="1">0.160</td><td align="left" rowspan="1" colspan="1">0.4709</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Papaver rhoeas</italic> L.</td><td align="left" rowspan="1" colspan="1">0.013</td><td align="left" rowspan="1" colspan="1">0.1680</td><td align="left" rowspan="1" colspan="1">0.711</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Plantago</italic> spp.</td><td align="left" rowspan="1" colspan="1">0.095</td><td align="left" rowspan="1" colspan="1">0.2043</td><td align="left" rowspan="1" colspan="1">0.114</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Portulaca oleracea</italic> L.</td><td align="left" rowspan="1" colspan="1">0.143</td><td align="left" rowspan="1" colspan="1">0.8165</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Silybum marianum</italic> (L.) Gaertner</td><td align="left" rowspan="1" colspan="1">0.034</td><td align="left" rowspan="1" colspan="1">0.1195</td><td align="left" rowspan="1" colspan="1">1.000</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Solanum nigrum</italic> L.</td><td align="left" rowspan="1" colspan="1">0.033</td><td align="left" rowspan="1" colspan="1">0.3714</td><td align="left" rowspan="1" colspan="1">0.045</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Sonchus oleraceus</italic> L.</td><td align="left" rowspan="1" colspan="1">0.063</td><td align="left" rowspan="1" colspan="1">0.1294</td><td align="left" rowspan="1" colspan="1">0.942</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Taraxacum</italic> spp.</td><td align="left" rowspan="1" colspan="1">0.133</td><td align="left" rowspan="1" colspan="1">0.7845</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Trifolium pratense</italic> L.</td><td align="left" rowspan="1" colspan="1">0.032</td><td align="left" rowspan="1" colspan="1">0.1495</td><td align="left" rowspan="1" colspan="1">0.956</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Xanthium strumarium</italic> Moretti.</td><td align="left" rowspan="1" colspan="1">0.125</td><td align="left" rowspan="1" colspan="1">0.2391</td><td align="left" rowspan="1" colspan="1">1.000</td></tr></tbody></table><table-wrap-foot><fn id="nt107"><label>1</label><p>Probability of rejection of the null hipothesis of homogeneity of the prevalence of each virus over the hosts. Raw significance probabilities were corrected by the sequential Bonferroni method for multiple independent tests as indicated in <xref rid="pone.0000041-Rice1" ref-type="bibr">[60]</xref>.</p></fn></table-wrap-foot></table-wrap><p>For 16 of the 21 plant species in <xref ref-type="table" rid="pone-0000041-t001">Table 1</xref>, co-infection with more than one of the five viruses occurred. For these 16 plant species, 102 plants were infected by at least one virus out of 1060 analysed plants (<xref ref-type="table" rid="pone-0000041-t004">Table 4</xref>). The above described test of association between pathogens was applied to this set. The data in <xref ref-type="table" rid="pone-0000041-t004">Table 4</xref> showed a tendency of the analysed viruses to associate positively: the distribution of the association index (AI) was skewed towards positive values (<xref ref-type="fig" rid="pone-0000041-g003">Fig. 3</xref>) so that out of 68 AIs computed for the five viruses in 16 plant species, 47/68 (more than two thirds) were positive and 21/68 were negative. Moreover, there was a conspicuous tendency of the positive AI values to have smaller probabilities (r&#x0200a;=&#x0200a;&#x02212;0.6575, P&#x0003c;10<sup>&#x02212;4</sup>, in a Spearman rank correlation test). When the pooled sample from the sixteen plant species was considered, the AI was positive and significantly different from zero for each of the five viruses, i.e. each of the five viruses was found in co-infection with a frequency significantly higher than expected from the null hypothesis of independence of infection. However, this was not so when the data for each of the sixteen plant species were analyzed separately. Hence the association analysis uncovered two patterns that were not obvious: i) a general tendency of the analysed viruses to associate positively, ii) association depended on both the plant and the virus species.</p><fig id="pone-0000041-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000041.g002</object-id><label>Figure 2</label><caption><title>Relationship between average prevalence (P<sub>k</sub>) of virus infection and the index of selectivity of the host (ISH) for twenty one weed species.</title></caption><graphic xlink:href="pone.0000041.g002"/></fig><fig id="pone-0000041-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000041.g003</object-id><label>Figure 3</label><caption><title>Distribution of the values of the association index (AI) and their individually associated probabilities of significance, for 68 virus-host plant systems.</title></caption><graphic xlink:href="pone.0000041.g003"/></fig><table-wrap id="pone-0000041-t004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000041.t004</object-id><label>Table 4</label><caption><title>Analysis of association among five virus species in sixteen host plant species</title></caption><graphic xlink:href="pone.0000041.t004"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">AMV</td><td align="left" rowspan="1" colspan="1">BWYV</td><td align="left" rowspan="1" colspan="1">CMV</td><td align="left" rowspan="1" colspan="1">TSWV</td><td align="left" rowspan="1" colspan="1">WMV</td><td colspan="2" align="left" rowspan="1">All</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">AI<xref ref-type="table-fn" rid="nt109">1</xref>
+</td><td align="left" rowspan="1" colspan="1">AI</td><td align="left" rowspan="1" colspan="1">AI</td><td align="left" rowspan="1" colspan="1">AI</td><td align="left" rowspan="1" colspan="1">AI</td><td align="left" rowspan="1" colspan="1">AI</td><td align="left" rowspan="1" colspan="1">P<xref ref-type="table-fn" rid="nt110">2</xref>
+</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<italic>Amaranthus</italic> spp.</td><td align="left" rowspan="1" colspan="1">0.559</td><td align="left" rowspan="1" colspan="1">0.186</td><td align="left" rowspan="1" colspan="1">0.084</td><td align="left" rowspan="1" colspan="1">&#x02013;0.428</td><td align="left" rowspan="1" colspan="1">0.329</td><td align="left" rowspan="1" colspan="1">0.318</td><td align="left" rowspan="1" colspan="1">0.514</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>C. album</italic>
+</td><td align="left" rowspan="1" colspan="1">&#x02013;0.071</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">0.248</td><td align="left" rowspan="1" colspan="1">&#x02013;0.112</td><td align="left" rowspan="1" colspan="1">0.888</td><td align="left" rowspan="1" colspan="1">0.222</td><td align="left" rowspan="1" colspan="1">0.615</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>C. arvense</italic>
+</td><td align="left" rowspan="1" colspan="1">0.009</td><td align="left" rowspan="1" colspan="1">0.384</td><td align="left" rowspan="1" colspan="1">&#x02013;0.006</td><td align="left" rowspan="1" colspan="1">0.319</td><td align="left" rowspan="1" colspan="1">&#x02013;0.665</td><td align="left" rowspan="1" colspan="1">0.55</td><td align="left" rowspan="1" colspan="1">0.865</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>C. arvensis</italic>
+</td><td align="left" rowspan="1" colspan="1">0.388</td><td align="left" rowspan="1" colspan="1">0.688</td><td align="left" rowspan="1" colspan="1">&#x02013;0.137</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">
+<bold>0.434</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.004</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Conyza</italic> sp.</td><td align="left" rowspan="1" colspan="1">0.622</td><td align="left" rowspan="1" colspan="1">0.159</td><td align="left" rowspan="1" colspan="1">&#x02013;0.021</td><td align="left" rowspan="1" colspan="1">0.622</td><td align="left" rowspan="1" colspan="1">0.794</td><td align="left" rowspan="1" colspan="1">
+<bold>0.464</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.003</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>D. stramonium</italic>
+</td><td align="left" rowspan="1" colspan="1">0.504</td><td align="left" rowspan="1" colspan="1">0.691</td><td align="left" rowspan="1" colspan="1">0.191</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">0.721</td><td align="left" rowspan="1" colspan="1">
+<bold>0.818</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.004</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>D. erucoides</italic>
+</td><td align="left" rowspan="1" colspan="1">0.162</td><td align="left" rowspan="1" colspan="1">0.340</td><td align="left" rowspan="1" colspan="1">0.054</td><td align="left" rowspan="1" colspan="1">0.431</td><td align="left" rowspan="1" colspan="1">0.579</td><td align="left" rowspan="1" colspan="1">
+<bold>0.470</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.007</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>L. serriola</italic>
+</td><td align="left" rowspan="1" colspan="1">&#x02013;0.233</td><td align="left" rowspan="1" colspan="1">0.767</td><td align="left" rowspan="1" colspan="1">0.095</td><td align="left" rowspan="1" colspan="1">&#x02013;0.233</td><td align="left" rowspan="1" colspan="1">0.767</td><td align="left" rowspan="1" colspan="1">0.235</td><td align="left" rowspan="1" colspan="1">0.500</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>L. amplexicaule</italic>
+</td><td align="left" rowspan="1" colspan="1">0.762</td><td align="left" rowspan="1" colspan="1">0.262</td><td align="left" rowspan="1" colspan="1">0.238</td><td align="left" rowspan="1" colspan="1">0.762</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">
+<bold>0.636</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.020</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>M. sativa</italic>
+</td><td align="left" rowspan="1" colspan="1">&#x02013;0.049</td><td align="left" rowspan="1" colspan="1">0.464</td><td align="left" rowspan="1" colspan="1">0.492</td><td align="left" rowspan="1" colspan="1">0.069</td><td align="left" rowspan="1" colspan="1">&#x02013;0.131</td><td align="left" rowspan="1" colspan="1">0.410</td><td align="left" rowspan="1" colspan="1">0.656</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>P. rhoeas</italic>
+</td><td align="left" rowspan="1" colspan="1">&#x02013;0.049</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">&#x02013;0.016</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0.905</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>Plantago sp</italic>
+</td><td align="left" rowspan="1" colspan="1">0.317</td><td align="left" rowspan="1" colspan="1">0.399</td><td align="left" rowspan="1" colspan="1">0.317</td><td align="left" rowspan="1" colspan="1">0.707</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">
+<bold>0.667</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.0007</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>S. marianum</italic>
+</td><td align="left" rowspan="1" colspan="1">&#x02013;0.132</td><td align="left" rowspan="1" colspan="1">&#x02013;0.100</td><td align="left" rowspan="1" colspan="1">&#x02013;0.132</td><td align="left" rowspan="1" colspan="1">&#x02013;0.132</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0.779</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>S. oleraceus</italic>
+</td><td align="left" rowspan="1" colspan="1">0.484</td><td align="left" rowspan="1" colspan="1">0.784</td><td align="left" rowspan="1" colspan="1">0.084</td><td align="left" rowspan="1" colspan="1">0.817</td><td align="left" rowspan="1" colspan="1">0.300</td><td align="left" rowspan="1" colspan="1">
+<bold>0.615</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.008</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>T. pratense</italic>
+</td><td align="left" rowspan="1" colspan="1">0.896</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">&#x02013;0.079</td><td align="left" rowspan="1" colspan="1">&#x02013;0.104</td><td align="left" rowspan="1" colspan="1">0.896</td><td align="left" rowspan="1" colspan="1">0.4</td><td align="left" rowspan="1" colspan="1">0.495</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>X. strumarium</italic>
+</td><td align="left" rowspan="1" colspan="1">0.670</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">&#x02013;0.330</td><td align="left" rowspan="1" colspan="1">&#x02013;0.330</td><td align="left" rowspan="1" colspan="1">0.670</td><td align="left" rowspan="1" colspan="1">0.5</td><td align="left" rowspan="1" colspan="1">0.786</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Total</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.422</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.690</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.308</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.619</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.667</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.185</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>7.6&#x000b7;10<sup>&#x02212;15</sup></bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>P</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>9.9&#x000b7;10<sup>&#x02212;4</sup></bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.0&#x000b7;10<sup>&#x02212;5</sup></bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>6.9&#x000b7;10<sup>&#x02212;3</sup></bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.2&#x000b7;10<sup>&#x02212;4</sup></bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.2&#x000b7;10<sup>&#x02212;2</sup></bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>7.6&#x000b7;10<sup>&#x02212;15</sup></bold>
+</td><td align="left" rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="nt109"><label>1</label><p>Value of Association index</p></fn><fn id="nt110"><label>2</label><p>Probability of rejection of the null hypothesis of independence of infection. When significant, AI and P values are shown in bold face. Raw significance probabilities were corrected by the sequential Bonferroni method for multiple independent tests as indicated in <xref rid="pone.0000041-Rice1" ref-type="bibr">[60]</xref>.</p></fn></table-wrap-foot></table-wrap></sec></sec><sec id="s3"><title>Discussion</title><p>Most efforts to understand the population biology of pathogens have focussed on specialist pathogens, and population biologists have successfully developed a formal understanding of the dynamics and evolution of single-host pathogens. However, most pathogens of humans, animals and plants are multi-host pathogens <xref rid="pone.0000041-Woolhouse1" ref-type="bibr">[1]</xref>&#x02013;<xref rid="pone.0000041-GarcaArenal1" ref-type="bibr">[3]</xref>, <xref rid="pone.0000041-Cleaveland1" ref-type="bibr">[20]</xref>. As stated by Woolhouse et al. <xref rid="pone.0000041-Woolhouse1" ref-type="bibr">[1]</xref> &#x0201c;understanding the more complex population biology of multi-host pathogens will be one major challenge in the 21st century &#x0201c;. There is evidence that within an ecosystem the prevalence of multi-host pathogens may differ largely for the different species of their host range [e.g., <xref rid="pone.0000041-Sacristn1" ref-type="bibr">[21]</xref>&#x02013;<xref rid="pone.0000041-Moriones1" ref-type="bibr">[25]</xref>]. Similarly, there is evidence of large differences in the prevalence on a host species of the various pathogens that are able to infect it [e.g., <xref rid="pone.0000041-LuisArteaga1" ref-type="bibr">[26]</xref>&#x02013;<xref rid="pone.0000041-Riley1" ref-type="bibr">[29]</xref>]. However, no attempt has been made, to our knowledge, to analyse if differences in the distribution of multi-host pathogens over their hosts are random or if there are associations between hosts and pathogens. The uncovering of associations between hosts and pathogens would be highly relevant to understand and model the population biology of multi-host pathogens, and for understanding the phenomenon of generalism itself.</p><p>We present here indices and tests to analyse if there is association between multi-host pathogens and their hosts. The proposed indices of selectivity for the pathogen and for the host measure the degree of association between hosts and pathogens. The tests analyse the homogeneity of distribution of a pathogen over different host species or populations, and of different pathogens on a host, and analyse how significantly the values of the indices departs from zero (i.e. no association). The literature on pathogen ecology does not abound with data on the prevalence of various pathogens on various hosts. Hence, we have applied these indices to our unpublished data on the prevalence of five insect-borne plant viruses on 21 species of wild plants in an agroecosystem in central Spain over a three year period.</p><p>The analysis of the prevalence of the different viruses in each host species by the homogeneity test that we propose, shows that half of the analysed plant species showed an index of selectivity of the host (ISH) significantly different from zero. The distribution of the host species showing virus selectivity was not related to taxonomy, habitat (fallow fields, edges or wastelands), seasonality or vegetative cycle (annual vs. perennial) (not shown). Interestingly, there was a positive correlation between the ISH and the average virus prevalence for these 21 host plant species, showing that the more selective hosts are more prone to be virus-infected, obviously by the virus(es) that better infects them. This phenomenon suggests that in spite that each host encounters a wide array of pathogens, mechanisms of escape and/or resistance <xref rid="pone.0000041-Soosaar1" ref-type="bibr">[30]</xref> to some of them would operate, which could explain their selectivity. In fact, contingency analysis of counts of infected hosts by different viruses, suggest that different viruses specialise on different hosts.</p><p>The analysis of the homogeneity of prevalence of a virus over its host species showed that for three of the five analysed viruses there was a significant host association, i.e., the value of the index of selectivity for the pathogen (ISP) significantly departed form zero. One major and unexpected finding of the analysis was that there was a positive and highly significant correlation between the value of the ISP and the prevalence of the viruses. The value of the ISP was not conditioned by the number of host plant species infected by each virus, as there was no correlation (r&#x0200a;=&#x0200a;0.60, P&#x0200a;=&#x0200a;0.173 in a Spearman rank correlation test) between ISP and the number of plant species that each virus infected in the analysed system i.e., the more selective viruses were not those infecting a smaller number of plant species. Thus, the more host-selective viruses were those that did best in the analysed ecosystem. This result could be highly relevant for understanding the evolution of generalism in pathogens. Although most described pathogens are generalists, the advantages of generalism are poorly understood. A generalist strategy provides the pathogen with more opportunities for transmission and survival, but it is predicted that evolution would favour specialism, because pathogen-host co-evolution could result in functional trade-offs that would limit the generalist fitness in any one host <xref rid="pone.0000041-Woolhouse1" ref-type="bibr">[1]</xref>, <xref rid="pone.0000041-Fry1" ref-type="bibr">[31]</xref>&#x02013;<xref rid="pone.0000041-Kirchner1" ref-type="bibr">[34]</xref>. Our results are compatible with the hypothesis that specialism is advantageous for pathogens, as host selectivity is the rule for the analysed set of generalist viruses, and the more host selective is the virus, the more successful its strategy. Hence, our results could suggest that for generalist pathogens a degree of host specialisation, i.e. host-selectivity as defined here, is a successful strategy. Host specialisation in generalist pathogens would also be relevant for important issues of host and pathogen biology, as host specialisation will affect host-pathogen co-evolution and co-speciation, would reduce the opportunities for host switches and jumps, thus constraining the evolution of host expansion, and may result in spatial heterogeneity of hosts, thus favouring the stable maintenance of pathogen and host diversity <xref rid="pone.0000041-Woolhouse2" ref-type="bibr">[6]</xref>, <xref rid="pone.0000041-Brockhurst1" ref-type="bibr">[35]</xref>&#x02013;<xref rid="pone.0000041-Morgan1" ref-type="bibr">[37]</xref>. In addition, host specialisation may affect the opportunity for different pathogens of sharing a host and, thus, the consequences of multiple infection for pathogen and host evolution, as discussed below.</p><p>We propose here also a simple procedure to estimate association among pathogens, which enables to compute an association index whose significance can be tested against the null assumption of independence of infections that follow a binomial distribution. The test was applied to the same data set as above, and the second major contribution of our analysis is the finding that co-infection was mostly non-random and that associations among the five analysed viruses were mostly positive. This result is relevant because co-infection of different pathogens may have important consequences for the pathogens, the infected hosts, and for host-pathogen co-evolution <xref rid="pone.0000041-Woolhouse3" ref-type="bibr">[8]</xref>, <xref rid="pone.0000041-Read1" ref-type="bibr">[9]</xref>, <xref rid="pone.0000041-Brown1" ref-type="bibr">[14]</xref>. For viruses, co-infection of a host may result in the generation of new genotypes by recombination or by reassortment of genomic segments between different viral species or strains, often with dramatic changes in host range or pathogenicity. The classical example is the reassortment of avian and human strains of influenza A resulting in novel viruses with pandemic potential <xref rid="pone.0000041-Gibbs1" ref-type="bibr">[38]</xref>&#x02013;<xref rid="pone.0000041-Russell1" ref-type="bibr">[41]</xref>, but examples abound for both animal and plant viruses [e.g., <xref rid="pone.0000041-GarcaArenal1" ref-type="bibr">[3]</xref>, <xref rid="pone.0000041-Javier1" ref-type="bibr">[42]</xref>&#x02013;<xref rid="pone.0000041-Kondo1" ref-type="bibr">[48]</xref>]. In the individual host, co-infection may lead to aggravated disease, often resulting from extracellular cooperativity of independently replicating viruses, by which one virus modulates the host response to infection to the benefit of the other <xref rid="pone.0000041-Griffiths1" ref-type="bibr">[49]</xref>, <xref rid="pone.0000041-Dunoyer1" ref-type="bibr">[50]</xref>. In addition, direct interactions of different viruses in co-infected cells may result in complementation of highly pathogenic defective genotypes, in increased virus replication or in modified cell and tissue tropisms [e.g., <xref rid="pone.0000041-Karayiannis1" ref-type="bibr">[51]</xref>&#x02013;<xref rid="pone.0000041-Briddon1" ref-type="bibr">[57]</xref>]. Alternatively, there is also evidence that mixed infections of pathogens result in reduced pathogenicity and less severe disease <xref rid="pone.0000041-Griffin1" ref-type="bibr">[17]</xref>. Examples from viruses include mixed infection with satellite or with defective interfering nucleic acids <xref rid="pone.0000041-Simon1" ref-type="bibr">[58]</xref>. In our data set, association between viruses depended on each particular virus-host system. Hence, data suggest that in some hosts, but not in all, co-infection would be advantageous for some viruses, though the underlying mechanism remains to be analysed.</p><p>The analysis here reported of plant virus infection on weeds has uncovered two major features that should be relevant to understand the population biology of viruses: i) the more host-selective viruses do better on the analysed ecosystem, ii) viruses tend to associate positively in co-infected hosts. It would be of high interest to know how general are these features and in which types of pathogens would they occur. The indices and tests that we propose here could be of general use in the analysis of the ecology of pathogens, and we hope that our results would prompt research on the ecology of pathogen-host and pathogen-pathogen associations, as these analyses might uncover pathogen properties relevant to the formal understanding of the population biology of multi-host pathogens.</p></sec><sec id="s4"><title>Methods</title><sec id="s4a"><title>Indices and tests</title><p>We study two factors relative of the distribution of pathogens in different hosts (i.e. different host populations, genotypes, species etc): if there are associations between pathogens and their hosts and if there are associations among pathogens. To analyse these two factors we propose the following tests and indices:</p><sec id="s4a1"><title>Association between pathogens and their hosts</title><p>Let us call <italic>N<sub>k</sub></italic> the number of analysed individuals in host <italic>k</italic> (<inline-formula><inline-graphic xlink:href="pone.0000041.e001.jpg" mimetype="image"/></inline-formula>) and <italic>X<sub>ik</sub></italic> the number of these individuals that are infected by pathogen <italic>i</italic> (<inline-formula><inline-graphic xlink:href="pone.0000041.e002.jpg" mimetype="image"/></inline-formula>). The <bold><italic>prevalence</italic></bold> of pathogen <italic>i</italic> in host <italic>k</italic> will be the ratio <italic>P<sub>ik</sub></italic>&#x0200a;=&#x0200a;<italic>X<sub>ik</sub>/N<sub>k</sub></italic>.</p><p>The <bold><italic>average prevalence of pathogen</italic></bold>
+<italic>i</italic> over hosts will be<disp-formula><graphic xlink:href="pone.0000041.e003.jpg" mimetype="image" position="float"/></disp-formula>Conversely, the <bold><italic>average prevalence of the different pathogens</italic></bold>
+<italic>in host</italic>
+<italic>k</italic> can be defined as<disp-formula><graphic xlink:href="pone.0000041.e004.jpg" mimetype="image" position="float"/></disp-formula>Homogeneity of the prevalence of a pathogen among hosts can be tested by means of a 2<italic>xn<sub>i</sub></italic> contingency table with elements <italic>X<sub>ik</sub></italic> and (<italic>N<sub>k</sub></italic>&#x02212;<italic>X<sub>ik</sub></italic>) <xref rid="pone.0000041-KendallM1" ref-type="bibr">[59]</xref>. Different proportions (i.e. lack of homogeneity) will indicate a property of the pathogen that we will call <bold><italic>selectivity</italic></bold>. Selectivity will be measured by the Cramer's <bold><italic>coefficient of contingency</italic></bold>
+<xref rid="pone.0000041-KendallM1" ref-type="bibr">[59]</xref> of the contingency table. If <inline-formula><inline-graphic xlink:href="pone.0000041.e005.jpg" mimetype="image"/></inline-formula> is the chi-squared of the 2<italic>xn<sub>i</sub></italic> table, the <bold><italic>index of selectivity of the pathogen</italic></bold> will be:<disp-formula><graphic xlink:href="pone.0000041.e006.jpg" mimetype="image" position="float"/></disp-formula>Similarly we can test for homogeneity of the prevalence of the different pathogens in a host, and define the <bold><italic>index of selectivity of the host</italic></bold> as:<disp-formula><graphic xlink:href="pone.0000041.e007.jpg" mimetype="image" position="float"/></disp-formula>Both of these indices range from zero to one, with zero meaning equal prevalence of the pathogen over hosts, or of pathogens over the same host, i.e. no selectivity for the pathogen or the host.</p></sec><sec id="s4a2"><title>Association between different pathogens</title><p>Let us call <italic>Xs<sub>ik</sub></italic> and <italic>Xa<sub>ik</sub></italic> the number of analysed individuals of host <italic>k</italic> that are infected only by pathogen <italic>i</italic> (single infections) and by pathogen <italic>i</italic> and at least another one (associated infections), respectively, (<italic>X<sub>ik</sub></italic>&#x0200a;=&#x0200a;<italic>Xs<sub>ik</sub></italic>&#x0002b;<italic>Xa<sub>ik</sub></italic>).</p><p>The frequency of pathogen <italic>i</italic> in host <italic>k</italic> can be estimated as:<disp-formula><graphic xlink:href="pone.0000041.e008.jpg" mimetype="image" position="float"/></disp-formula>which equals the above defined prevalence. Under the null hypothesis of independence of infection by different pathogens, the probability of a sampled host individual being infected only by pathogen <italic>i</italic> is:<disp-formula><graphic xlink:href="pone.0000041.e009.jpg" mimetype="image" position="float"/></disp-formula>The conditional probability of non-infection by any other pathogen given the presence of pathogen <italic>i</italic> is:<disp-formula><graphic xlink:href="pone.0000041.e010.jpg" mimetype="image" position="float"/></disp-formula>and the conditional probability for the observed multiple infections given the presence of <italic>i</italic> is:<disp-formula><graphic xlink:href="pone.0000041.e011.jpg" mimetype="image" position="float"/></disp-formula>So, under the hypothesis of independence of infection by different pathogens (non-association between pathogens), <italic>Xs<sub>ik</sub></italic> will be distributed as a binomial with <italic>X<sub>ik</sub></italic> trials and probability <italic>ps<sub>ik</sub></italic>.</p><p>We define the <bold><italic>association index</italic></bold> (<italic>AI</italic>) for pathogen <italic>i</italic> in host <italic>k</italic> as the difference between the proportion of samples that being infected by pathogen <italic>i</italic> are infected also by at least another pathogen (<italic>Xa<sub>ik</sub>/X<sub>ik</sub></italic>), minus the expectation of this proportion under the null hypothesis (<italic>pa<sub>ik</sub></italic>). This index has a range from one to minus one and an expected value, under the null hypothesis, of zero. The significance of the observation can be estimated as a one-tail test from the binomial above.</p><p>To test for association of different pathogens within a host, or for a given pathogen across different hosts, we follow the same process, as the expectation of a sum of observations will be equal to the sum of their expectations, and the corresponding sums of observations will be binomially distributed given the <italic>X<sub>ik</sub></italic>.</p><p>To single out significant tests in a group, raw significance probabilities were corrected by the sequential Bonferroni method for multiple independent tests as indicated in <xref rid="pone.0000041-Rice1" ref-type="bibr">[60]</xref>.</p></sec></sec><sec id="s4b"><title>Analyses of virus prevalence in wild plants</title><p>Plants were sampled monthly for three years in a horticultural area in central Spain within three habitats characterised by different degrees of human intervention: fallow fields, edges between fields, and wastelands. Plants were sampled systematically along fixed itineraries, with no consideration of symptom expression, as described in Sacrist&#x000e1;n et al. <xref rid="pone.0000041-Sacristn1" ref-type="bibr">[21]</xref>. Infection by AMV, BWYV, CMV, WMV and TSWV in the sampled plants was analysed by double-antibody sandwich enzyme-linked immunosorbent assay (DAS-ELISA), using commercial antisera (Bio-Rad, Marnes-La-Coquette, France), according to the manufacturer's instructions.</p><p>The distribution of the host species showing virus selectivity according to taxonomy, habitat (fallow fields, edges or wastelands), seasonality or vegetative cycle (annual vs. perennial) was analysed by chi-squared tests of 2x N contingency tables, and their significances assessed, as in the rest of tests of this work, by simulation following model III.</p></sec></sec></body><back><ack><p>We want to thank Dr. Angus Buckling, PLoS ONE Editor, for most useful criticisms.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>This work was in part supported by grant AGL2004-03496, Ministerio de Educaci&#x000f3;n y Ciencia, Spain, to AF. SS was in receipt of a FPU fellowship, Ministerio de Educaci&#x000f3;n y Ciencia, Spain.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000041-Woolhouse1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Woolhouse</surname><given-names>MEJ</given-names></name><name><surname>Taylor</surname><given-names>LH</given-names></name><name><surname>Haydon</surname><given-names>DT</given-names></name></person-group>
+<year>2001</year>
+<article-title>Population biology of multihost pathogens.</article-title>
+<source>Science</source>
+<volume>292</volume>
+<fpage>1109</fpage>
+<lpage>1112</lpage>
+<pub-id pub-id-type="pmid">11352066</pub-id></element-citation></ref><ref id="pone.0000041-McDonald1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McDonald</surname><given-names>BA</given-names></name><name><surname>Linde</surname><given-names>C</given-names></name></person-group>
+<year>2002</year>
+<article-title>Pathogen population genetics, evolutionary potential and durable resistance.</article-title>
+<source>Annu. Rev. Phytopathol.</source>
+<volume>40</volume>
+<fpage>349</fpage>
+<lpage>379</lpage>
+<pub-id pub-id-type="pmid">12147764</pub-id></element-citation></ref><ref id="pone.0000041-GarcaArenal1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garc&#x000ed;a-Arenal</surname><given-names>F</given-names></name><name><surname>McDonald</surname><given-names>BA</given-names></name></person-group>
+<year>2003</year>
+<article-title>An analysis of the durability of resistance to plant viruses.</article-title>
+<source>Phytopathology</source>
+<volume>93</volume>
+<fpage>941</fpage>
+<lpage>952</lpage>
+<pub-id pub-id-type="pmid">18943860</pub-id></element-citation></ref><ref id="pone.0000041-Haydon1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haydon</surname><given-names>DT</given-names></name><name><surname>Cleaveland</surname><given-names>S</given-names></name><name><surname>Taylor</surname><given-names>LH</given-names></name><name><surname>Laurenson</surname><given-names>MK</given-names></name></person-group>
+<year>2002</year>
+<article-title>Identifying reservoirs of infection: a conceptual and practical challenge.</article-title>
+<source>Emerg. Infect. Dis.</source>
+<volume>8</volume>
+<fpage>1468</fpage>
+<lpage>1473</lpage>
+<pub-id pub-id-type="pmid">12498665</pub-id></element-citation></ref><ref id="pone.0000041-LloydSmith1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lloyd-Smith</surname><given-names>JO</given-names></name><name><surname>Cross</surname><given-names>PC</given-names></name><name><surname>Briggs</surname><given-names>CJ</given-names></name><name><surname>Daugherty</surname><given-names>M</given-names></name><name><surname>Getz</surname><given-names>WM</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Should we expect population thresholds for wildlife disease?</article-title>
+<source>Trends Ecol. Evol.</source>
+<volume>20</volume>
+<fpage>511</fpage>
+<lpage>518</lpage>
+<pub-id pub-id-type="pmid">16701428</pub-id></element-citation></ref><ref id="pone.0000041-Woolhouse2"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Woolhouse</surname><given-names>MEJ</given-names></name><name><surname>Haydon</surname><given-names>DT</given-names></name><name><surname>Antia</surname><given-names>R</given-names></name></person-group>
+<year>2005</year>
+<article-title>Emerging pathogens: the epidemiology and evolution of species jumps.</article-title>
+<source>Trends Ecol. Evol.</source>
+<volume>20</volume>
+<fpage>238</fpage>
+<lpage>244</lpage>
+<pub-id pub-id-type="pmid">16701375</pub-id></element-citation></ref><ref id="pone.0000041-Hudson1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hudson</surname><given-names>PJ</given-names></name><name><surname>Dobson</surname><given-names>AP</given-names></name><name><surname>Lafferty</surname><given-names>KD</given-names></name></person-group>
+<year>2006</year>
+<article-title>Is a healthy ecosystem one that is rich in parasites?</article-title>
+<source>Trends Ecol. Evol.</source>
+<volume>21</volume>
+<fpage>381</fpage>
+<lpage>385</lpage>
+<pub-id pub-id-type="pmid">16713014</pub-id></element-citation></ref><ref id="pone.0000041-Woolhouse3"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Woolhouse</surname><given-names>MEJ</given-names></name><name><surname>Webster</surname><given-names>JP</given-names></name><name><surname>Domingo</surname><given-names>E</given-names></name><name><surname>Charlesworth</surname><given-names>B</given-names></name><name><surname>Levin</surname><given-names>BR</given-names></name></person-group>
+<year>2002</year>
+<article-title>Biological and biomedical implications of the co-evolution of pathogens and their hosts.</article-title>
+<source>Nat. Genet.</source>
+<volume>32</volume>
+<fpage>569</fpage>
+<lpage>577</lpage>
+<pub-id pub-id-type="pmid">12457190</pub-id></element-citation></ref><ref id="pone.0000041-Read1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Read</surname><given-names>AF</given-names></name><name><surname>Taylor</surname><given-names>LH</given-names></name></person-group>
+<year>2001</year>
+<article-title>The ecology of genetically diverse infections.</article-title>
+<source>Science</source>
+<volume>292</volume>
+<fpage>1099</fpage>
+<lpage>1102</lpage>
+<pub-id pub-id-type="pmid">11352063</pub-id></element-citation></ref><ref id="pone.0000041-McClelland1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McClelland</surname><given-names>EE</given-names></name><name><surname>Penn</surname><given-names>DJ</given-names></name><name><surname>Potts</surname><given-names>WK</given-names></name></person-group>
+<year>2003</year>
+<article-title>Major histocompatibility complex heterozygote superiority during coinfection.</article-title>
+<source>Infect. Immun.</source>
+<volume>71</volume>
+<fpage>2079</fpage>
+<lpage>2086</lpage>
+<pub-id pub-id-type="pmid">12654829</pub-id></element-citation></ref><ref id="pone.0000041-May1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>May</surname><given-names>RM</given-names></name><name><surname>Nowak</surname><given-names>MA</given-names></name></person-group>
+<year>1995</year>
+<article-title>Coinfection and the evolution of parasite virulence.</article-title>
+<source>Proc. R. Soc. London B.</source>
+<volume>261</volume>
+<fpage>209</fpage>
+<lpage>215</lpage>
+</element-citation></ref><ref id="pone.0000041-Gandon1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gandon</surname><given-names>S</given-names></name><name><surname>Jansen</surname><given-names>VAA</given-names></name><name><surname>van Baalen</surname><given-names>M</given-names></name></person-group>
+<year>2001</year>
+<article-title>Host life history and the evolution of parasite virulence.</article-title>
+<source>Evolution</source>
+<volume>55</volume>
+<fpage>1056</fpage>
+<lpage>62</lpage>
+<pub-id pub-id-type="pmid">11430642</pub-id></element-citation></ref><ref id="pone.0000041-Ganusov1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ganusov</surname><given-names>VV</given-names></name><name><surname>Bergstrom</surname><given-names>TC</given-names></name><name><surname>Antia</surname><given-names>R</given-names></name></person-group>
+<year>2002</year>
+<article-title>Within-host population dynamics and the evolution of microparasites in a heterogeneous host population.</article-title>
+<source>Evolution</source>
+<volume>56</volume>
+<fpage>213</fpage>
+<lpage>223</lpage>
+<pub-id pub-id-type="pmid">11926490</pub-id></element-citation></ref><ref id="pone.0000041-Brown1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brown</surname><given-names>SP</given-names></name><name><surname>Hochgberg</surname><given-names>ME</given-names></name><name><surname>Grenfell</surname><given-names>BT</given-names></name></person-group>
+<year>2002</year>
+<article-title>Does multiple infection select for raised virulence?</article-title>
+<source>Trends Microbiol.</source>
+<volume>10</volume>
+<fpage>401</fpage>
+<lpage>405</lpage>
+<pub-id pub-id-type="pmid">12217504</pub-id></element-citation></ref><ref id="pone.0000041-Escriu1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Escriu</surname><given-names>F</given-names></name><name><surname>Fraile</surname><given-names>A</given-names></name><name><surname>Garcia-Arenal</surname><given-names>F</given-names></name></person-group>
+<year>2003</year>
+<article-title>The evolution of virulence in a plant virus.</article-title>
+<source>Evolution Int J Org Evolution,</source>
+<volume>57</volume>
+<fpage>755</fpage>
+<lpage>65</lpage>
+</element-citation></ref><ref id="pone.0000041-Foster1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Foster</surname><given-names>KR</given-names></name></person-group>
+<year>2005</year>
+<article-title>Hamiltonian medicine: why the social lives of pathogens matter.</article-title>
+<source>Science</source>
+<volume>308</volume>
+<fpage>1269</fpage>
+<lpage>1270</lpage>
+<pub-id pub-id-type="pmid">15919984</pub-id></element-citation></ref><ref id="pone.0000041-Griffin1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Griffin</surname><given-names>AS</given-names></name><name><surname>West</surname><given-names>SA</given-names></name><name><surname>Buckling</surname><given-names>A</given-names></name></person-group>
+<year>2004</year>
+<article-title>Cooperation and competition in pathogenic bacteria.</article-title>
+<source>Nature</source>
+<volume>430</volume>
+<fpage>1024</fpage>
+<lpage>1027</lpage>
+<pub-id pub-id-type="pmid">15329720</pub-id></element-citation></ref><ref id="pone.0000041-Schoeneweiss1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schoeneweiss</surname><given-names>DF</given-names></name></person-group>
+<year>1975</year>
+<article-title>Predisposition, stress, and plant disease.</article-title>
+<source>Annu. Rev. Phytopathol.</source>
+<volume>13</volume>
+<fpage>193</fpage>
+<lpage>211</lpage>
+</element-citation></ref><ref id="pone.0000041-VanRegenmortel1"><label>19</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Van Regenmortel</surname><given-names>MHV</given-names></name><name><surname>Fauquet</surname><given-names>CM</given-names></name><name><surname>Bishop</surname><given-names>BHL</given-names></name><name><surname>Carstens</surname><given-names>EB</given-names></name><name><surname>Estes</surname><given-names>MK</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Virus taxonomy.</article-title>
+<source>Seventh report of the International Committee on Taxonomy of Viruses.</source>
+<publisher-loc>San Diego, CA</publisher-loc>
+<publisher-name>Academic Press</publisher-name>
+</element-citation></ref><ref id="pone.0000041-Cleaveland1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cleaveland</surname><given-names>S</given-names></name><name><surname>Laurenson</surname><given-names>MK</given-names></name><name><surname>Taylor</surname><given-names>LH</given-names></name></person-group>
+<year>2001</year>
+<article-title>Diseases of humans and their domestic mammals: pathogen characteristics, host range and the risk of emergence.</article-title>
+<source>Phil. Trans. R. Soc. Lond. B.</source>
+<volume>356</volume>
+<fpage>991</fpage>
+<lpage>999</lpage>
+<pub-id pub-id-type="pmid">11516377</pub-id></element-citation></ref><ref id="pone.0000041-Sacristn1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sacrist&#x000e1;n</surname><given-names>S</given-names></name><name><surname>Fraile</surname><given-names>A</given-names></name><name><surname>Garc&#x000ed;a-Arenal</surname><given-names>F</given-names></name></person-group>
+<year>2004</year>
+<article-title>Population Dynamics of <italic>Cucumber Mosaic Virus</italic> in Melon Crops and in Weeds in Central Spain.</article-title>
+<source>Phytopathology</source>
+<volume>94</volume>
+<fpage>992</fpage>
+<lpage>998</lpage>
+<pub-id pub-id-type="pmid">18943076</pub-id></element-citation></ref><ref id="pone.0000041-Cleaveland2"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cleaveland</surname><given-names>S</given-names></name><name><surname>Dye</surname><given-names>C</given-names></name></person-group>
+<year>1995</year>
+<article-title>Rabies in the Serengeti: persistence of a microparasite infecting several host species.</article-title>
+<source>Parasitology</source>
+<volume>111</volume>
+<fpage>S33</fpage>
+<lpage>S47</lpage>
+<pub-id pub-id-type="pmid">8632923</pub-id></element-citation></ref><ref id="pone.0000041-Mills1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mills</surname><given-names>JN</given-names></name><name><surname>Ksiazek</surname><given-names>TG</given-names></name><name><surname>Ellis</surname><given-names>BA</given-names></name><name><surname>Rollin</surname><given-names>PE</given-names></name><name><surname>Nichol</surname><given-names>ST</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Pattern of association with host and habitat: Antibody reactive with Sin Nombre virus in small mammals in the major biotic communities of the southwestern United States.</article-title>
+<source>Am. J. Trop. Med. Hyg.</source>
+<volume>56</volume>
+<fpage>273</fpage>
+<lpage>284</lpage>
+<pub-id pub-id-type="pmid">9129529</pub-id></element-citation></ref><ref id="pone.0000041-Kilpatrick1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kilpatrick</surname><given-names>AM</given-names></name><name><surname>Krammer</surname><given-names>LD</given-names></name><name><surname>Campbell</surname><given-names>SR</given-names></name><name><surname>Alleyne</surname><given-names>EO</given-names></name><name><surname>Dobson</surname><given-names>AP</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>West Nile virus risk assessment and the bridge vector paradigm.</article-title>
+<source>Emer. Infect. Dis.</source>
+<volume>11</volume>
+<fpage>425</fpage>
+<lpage>429</lpage>
+</element-citation></ref><ref id="pone.0000041-Moriones1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moriones</surname><given-names>E</given-names></name><name><surname>Garc&#x000ed;a-Arenal</surname><given-names>F</given-names></name></person-group>
+<year>1991</year>
+<article-title>Occurrence of barley yellow dwarf viruses in small-grain cereals and in alternative hosts in Spain.</article-title>
+<source>Plant Dis.</source>
+<volume>75</volume>
+<fpage>930</fpage>
+<lpage>934</lpage>
+</element-citation></ref><ref id="pone.0000041-LuisArteaga1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Luis-Arteaga</surname><given-names>M</given-names></name><name><surname>Alvarez</surname><given-names>JM</given-names></name><name><surname>Alonso-Prados</surname><given-names>JL</given-names></name><name><surname>Bernal</surname><given-names>JJ</given-names></name><name><surname>Garc&#x000ed;a-Arenal</surname><given-names>F</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Occurrence, distribution and relative incidence of mosaic viruses infecting field-grown melon in Spain.</article-title>
+<source>Plant Dis.</source>
+<volume>82</volume>
+<fpage>979</fpage>
+<lpage>982</lpage>
+</element-citation></ref><ref id="pone.0000041-Raybould1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Raybould</surname><given-names>AF</given-names></name><name><surname>Maskell</surname><given-names>LC</given-names></name><name><surname>Edwards</surname><given-names>ML</given-names></name><name><surname>Cooper</surname><given-names>JI</given-names></name><name><surname>Gray</surname><given-names>AJ</given-names></name></person-group>
+<year>1999</year>
+<article-title>The prevalence and spatial distribution of viruses in natural populations of <italic>Brassica oleracea</italic>.</article-title>
+<source>New Phytol.</source>
+<volume>141</volume>
+<fpage>265</fpage>
+<lpage>275</lpage>
+</element-citation></ref><ref id="pone.0000041-Packer1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Packer</surname><given-names>C</given-names></name><name><surname>Altizer</surname><given-names>S</given-names></name><name><surname>Appel</surname><given-names>M</given-names></name><name><surname>Brown</surname><given-names>E</given-names></name><name><surname>Martenson</surname><given-names>J</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Viruses of the Serengeti: patterns of infection and mortality in Africa lions.</article-title>
+<source>J. Anim. Ecol.</source>
+<volume>68</volume>
+<fpage>1161</fpage>
+<lpage>1178</lpage>
+</element-citation></ref><ref id="pone.0000041-Riley1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Riley</surname><given-names>SPD</given-names></name><name><surname>Foley</surname><given-names>J</given-names></name><name><surname>Chomel</surname><given-names>B</given-names></name></person-group>
+<year>2004</year>
+<article-title>Exposure to feline and canine pathogens in bobcats and gray foxes in urban and rural zones of a national park in California.</article-title>
+<source>J. Wildlife Dis.</source>
+<volume>40</volume>
+<fpage>11</fpage>
+<lpage>22</lpage>
+</element-citation></ref><ref id="pone.0000041-Soosaar1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Soosaar</surname><given-names>JLM</given-names></name><name><surname>Burch-Smith</surname><given-names>TM</given-names></name><name><surname>Dinesh-Kumar</surname><given-names>SP</given-names></name></person-group>
+<year>2005</year>
+<article-title>Mechanisms of plant resistance to viruses.</article-title>
+<source>Nature Rev. Microbiol.</source>
+<volume>3</volume>
+<fpage>789</fpage>
+<lpage>798</lpage>
+<pub-id pub-id-type="pmid">16132037</pub-id></element-citation></ref><ref id="pone.0000041-Fry1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fry</surname><given-names>JD</given-names></name></person-group>
+<year>1996</year>
+<article-title>The evolution of host specialization: are trade-offs overrated?</article-title>
+<source>Am. Nat.</source>
+<volume>148</volume>
+<fpage>S84</fpage>
+<lpage>S107</lpage>
+</element-citation></ref><ref id="pone.0000041-Kawecki1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kawecki</surname><given-names>TJ</given-names></name></person-group>
+<year>1998</year>
+<article-title>Red Queen meets Santa Rosalia: arms race and the evolution of host specialization in organimsms with parasitic lifestyles.</article-title>
+<source>Am. Nat.</source>
+<volume>152</volume>
+<fpage>635</fpage>
+<lpage>651</lpage>
+<pub-id pub-id-type="pmid">18811369</pub-id></element-citation></ref><ref id="pone.0000041-Regoes1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Regoes</surname><given-names>RE</given-names></name><name><surname>Nowak</surname><given-names>MA</given-names></name><name><surname>Bonhoefer</surname><given-names>S</given-names></name></person-group>
+<year>2000</year>
+<article-title>Evolution of virulence in a heterogeneous host population.</article-title>
+<source>Evolution</source>
+<volume>54</volume>
+<fpage>64</fpage>
+<lpage>71</lpage>
+<pub-id pub-id-type="pmid">10937184</pub-id></element-citation></ref><ref id="pone.0000041-Kirchner1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kirchner</surname><given-names>JW</given-names></name><name><surname>Roy</surname><given-names>BA</given-names></name></person-group>
+<year>2002</year>
+<article-title>Evolutionary implications of host-pathogen specificity: fitness consequences of pathogen virulence traits.</article-title>
+<source>Evol. Ecol. Res.</source>
+<volume>4</volume>
+<fpage>27</fpage>
+<lpage>48</lpage>
+</element-citation></ref><ref id="pone.0000041-Brockhurst1"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brockhurst</surname><given-names>MA</given-names></name><name><surname>Buckling</surname><given-names>A</given-names></name><name><surname>Rainey</surname><given-names>PB</given-names></name></person-group>
+<year>2006</year>
+<article-title>Spatial heterogeneity and the stability of host-parasite coexistence.</article-title>
+<source>J. Evol. Biol.</source>
+<volume>19</volume>
+<fpage>374</fpage>
+<lpage>379</lpage>
+<pub-id pub-id-type="pmid">16599913</pub-id></element-citation></ref><ref id="pone.0000041-Roy1"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roy</surname><given-names>BA</given-names></name></person-group>
+<year>2001</year>
+<article-title>Patterns of association between crucifers and their flower mimic pathogens: host jumps are more common than coevolution and cospeciation.</article-title>
+<source>Evolution</source>
+<volume>55</volume>
+<fpage>41</fpage>
+<lpage>53</lpage>
+<pub-id pub-id-type="pmid">11263745</pub-id></element-citation></ref><ref id="pone.0000041-Morgan1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morgan</surname><given-names>AD</given-names></name><name><surname>Gandon</surname><given-names>S</given-names></name><name><surname>Buckling</surname><given-names>A</given-names></name></person-group>
+<year>2005</year>
+<article-title>The effect of migration on local adaptation in a coevolving host-parasite system.</article-title>
+<source>Nature</source>
+<volume>437</volume>
+<fpage>253</fpage>
+<lpage>256</lpage>
+<pub-id pub-id-type="pmid">16148933</pub-id></element-citation></ref><ref id="pone.0000041-Gibbs1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gibbs</surname><given-names>MJ</given-names></name><name><surname>Armstrong</surname><given-names>JS</given-names></name><name><surname>Gibbs</surname><given-names>AJ</given-names></name></person-group>
+<year>2001</year>
+<article-title>Recombination in the hemagglutinin gene of the 1918 &#x0201c;Spanish flu&#x0201d;.</article-title>
+<source>Science</source>
+<volume>293</volume>
+<fpage>1842</fpage>
+<lpage>1845</lpage>
+<pub-id pub-id-type="pmid">11546876</pub-id></element-citation></ref><ref id="pone.0000041-Guan1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guan</surname><given-names>Y</given-names></name><name><surname>Poon</surname><given-names>LLM</given-names></name><name><surname>Cheung</surname><given-names>CY</given-names></name><name><surname>Ellis</surname><given-names>TM</given-names></name><name><surname>Lim</surname><given-names>W</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>H5N1 influenza: A protean pandemic threat.</article-title>
+<source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>101</volume>
+<fpage>8156</fpage>
+<lpage>8161</lpage>
+<pub-id pub-id-type="pmid">15148370</pub-id></element-citation></ref><ref id="pone.0000041-Reid1"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reid</surname><given-names>AH</given-names></name><name><surname>Taubenberger</surname><given-names>JK</given-names></name></person-group>
+<year>2003</year>
+<article-title>The origin of the 1918 pandemic influenza virus: a continuing enigma.</article-title>
+<source>J. Gen. Virol.</source>
+<volume>84</volume>
+<fpage>2285</fpage>
+<lpage>2292</lpage>
+<pub-id pub-id-type="pmid">12917448</pub-id></element-citation></ref><ref id="pone.0000041-Russell1"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Russell</surname><given-names>CJ</given-names></name><name><surname>Webster</surname><given-names>RG</given-names></name></person-group>
+<year>2005</year>
+<article-title>The genesis of a pandemic influenza virus.</article-title>
+<source>Cell</source>
+<volume>123</volume>
+<fpage>368</fpage>
+<lpage>371</lpage>
+<pub-id pub-id-type="pmid">16269328</pub-id></element-citation></ref><ref id="pone.0000041-Javier1"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Javier</surname><given-names>RT</given-names></name><name><surname>Sedarati</surname><given-names>F</given-names></name><name><surname>Stevens</surname><given-names>JG</given-names></name></person-group>
+<year>1986</year>
+<article-title>Two avirulent herpes simplex viruses generate lethal recombinants in vivo.</article-title>
+<source>Science</source>
+<volume>234</volume>
+<fpage>746</fpage>
+<lpage>748</lpage>
+<pub-id pub-id-type="pmid">3022376</pub-id></element-citation></ref><ref id="pone.0000041-Gibbs2"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gibbs</surname><given-names>MJ</given-names></name><name><surname>Weiller</surname><given-names>GF</given-names></name></person-group>
+<year>1999</year>
+<article-title>Evidence that a plant virus switched hosts to infect a vertebrate and then recombined with a vertebrate-infecting virus.</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<volume>96</volume>
+<fpage>8022</fpage>
+<lpage>8027</lpage>
+<pub-id pub-id-type="pmid">10393941</pub-id></element-citation></ref><ref id="pone.0000041-Hu1"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hu</surname><given-names>WS</given-names></name><name><surname>Rhodes</surname><given-names>T</given-names></name><name><surname>Dang</surname><given-names>Q</given-names></name><name><surname>Pathak</surname><given-names>V</given-names></name></person-group>
+<year>2003</year>
+<article-title>Retroviral recombination: Review of genetic analyses.</article-title>
+<source>Front Biosci.</source>
+<volume>8</volume>
+<fpage>D143</fpage>
+<lpage>D155</lpage>
+<pub-id pub-id-type="pmid">12456341</pub-id></element-citation></ref><ref id="pone.0000041-Rest1"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rest</surname><given-names>JS</given-names></name><name><surname>Mindell</surname><given-names>DP</given-names></name></person-group>
+<year>2003</year>
+<article-title>SARS associated coronavirus has a recombinant polymerase and coronaviruses have a history of host-shifting.</article-title>
+<source>Infect. Genet. Evol.</source>
+<volume>3</volume>
+<fpage>219</fpage>
+<lpage>225</lpage>
+<pub-id pub-id-type="pmid">14522185</pub-id></element-citation></ref><ref id="pone.0000041-Legg1"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Legg</surname><given-names>JP</given-names></name><name><surname>Thresh</surname><given-names>JM</given-names></name></person-group>
+<year>2000</year>
+<article-title>Cassava mosaic virus disease in East Africa: a dynamic disease in a changing environment.</article-title>
+<source>Virus Res.</source>
+<volume>71</volume>
+<fpage>135</fpage>
+<lpage>149</lpage>
+<pub-id pub-id-type="pmid">11137168</pub-id></element-citation></ref><ref id="pone.0000041-Monci1"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Monci</surname><given-names>F</given-names></name><name><surname>S&#x000e1;nchezCampos</surname><given-names>S</given-names></name><name><surname>NavasCastillo</surname><given-names>J</given-names></name><name><surname>Moriones</surname><given-names>E</given-names></name></person-group>
+<year>2002</year>
+<article-title>A natural recombinant between the geminiviruses Tomato yellow leaf curl Sardinia virus and Tomato yellow leaf curl virus exhibits a novel pathogenic phenotype and is becoming prevalent in Spanish populations.</article-title>
+<source>Virology</source>
+<volume>303</volume>
+<fpage>317</fpage>
+<lpage>326</lpage>
+<pub-id pub-id-type="pmid">12490393</pub-id></element-citation></ref><ref id="pone.0000041-Kondo1"><label>48</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kondo</surname><given-names>A</given-names></name><name><surname>Maeda</surname><given-names>S</given-names></name></person-group>
+<year>1991</year>
+<article-title>Host range expansion by recombination of the baculoviruses <italic>Bombix mori</italic> nuclear polyhedrosis virus and <italic>Autographa californica</italic> nuclear polyhedrosis virus.</article-title>
+<source>J. Virol.</source>
+<volume>65</volume>
+<fpage>3625</fpage>
+<lpage>3632</lpage>
+<pub-id pub-id-type="pmid">2041087</pub-id></element-citation></ref><ref id="pone.0000041-Griffiths1"><label>49</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Griffiths</surname><given-names>PD</given-names></name></person-group>
+<year>2000</year>
+<article-title>Biological synergism between infectious agents.</article-title>
+<source>Rev. Med. Virol.</source>
+<volume>10</volume>
+<fpage>351</fpage>
+<lpage>353</lpage>
+<pub-id pub-id-type="pmid">11114074</pub-id></element-citation></ref><ref id="pone.0000041-Dunoyer1"><label>50</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dunoyer</surname><given-names>P</given-names></name><name><surname>Voinnet</surname><given-names>O</given-names></name></person-group>
+<year>2005</year>
+<article-title>The complex interplay between plant viruses and host RNA silencing pathways.</article-title>
+<source>Curr. Op. Plant Biol.</source>
+<volume>8</volume>
+<fpage>415</fpage>
+<lpage>423</lpage>
+</element-citation></ref><ref id="pone.0000041-Karayiannis1"><label>51</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karayiannis</surname><given-names>P</given-names></name></person-group>
+<year>1998</year>
+<article-title>Hepatitis D virus.</article-title>
+<source>Rev. Med. Virol.</source>
+<volume>8</volume>
+<fpage>13</fpage>
+<lpage>24</lpage>
+<pub-id pub-id-type="pmid">10398491</pub-id></element-citation></ref><ref id="pone.0000041-LpezFerber1"><label>52</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>L&#x000f3;pez-Ferber</surname><given-names>M</given-names></name><name><surname>Sim&#x000f3;n</surname><given-names>O</given-names></name><name><surname>Williams</surname><given-names>T</given-names></name><name><surname>Caballero</surname><given-names>P</given-names></name></person-group>
+<year>2003</year>
+<article-title>Defective or effective? Mutualistic interactions between virus genotypes.</article-title>
+<source>Proc. R. Soc. London B.</source>
+<volume>270</volume>
+<fpage>2249</fpage>
+<lpage>2255</lpage>
+</element-citation></ref><ref id="pone.0000041-CicinSain1"><label>53</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cicin-Sain</surname><given-names>L</given-names></name><name><surname>Podlech</surname><given-names>J</given-names></name><name><surname>Messerle</surname><given-names>M</given-names></name><name><surname>Reddehase</surname><given-names>MJ</given-names></name><name><surname>Koszinowski</surname><given-names>UH</given-names></name></person-group>
+<year>2005</year>
+<article-title>Frequent coinfection of cells explains functional in vivo complementation between cytomegalovirus variants in the multiply infected host.</article-title>
+<source>J. Virol.</source>
+<volume>79</volume>
+<fpage>9492</fpage>
+<lpage>9502</lpage>
+<pub-id pub-id-type="pmid">16014912</pub-id></element-citation></ref><ref id="pone.0000041-Mansky1"><label>54</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mansky</surname><given-names>LM</given-names></name><name><surname>Durand</surname><given-names>DP</given-names></name><name><surname>Hill</surname><given-names>JH</given-names></name></person-group>
+<year>1995</year>
+<article-title>Evidence for complementation of plant potyvirus pathogenic strains in mixed infection.</article-title>
+<source>J. Phytopathol.</source>
+<volume>143</volume>
+<fpage>247</fpage>
+<lpage>250</lpage>
+</element-citation></ref><ref id="pone.0000041-Moreno1"><label>55</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moreno</surname><given-names>I</given-names></name><name><surname>Malpica</surname><given-names>JM</given-names></name><name><surname>Rodr&#x000ed;guez-Cerezo</surname><given-names>E</given-names></name><name><surname>Garc&#x000ed;a-Arenal</surname><given-names>F</given-names></name></person-group>
+<year>1997</year>
+<article-title>A mutation in tomato aspermy cucumovirus that abolishes cell-to-cell movement is maintained to high levels in the viral RNA population by complementation.</article-title>
+<source>J. Virol.</source>
+<volume>71</volume>
+<fpage>9157</fpage>
+<lpage>9162</lpage>
+<pub-id pub-id-type="pmid">9371573</pub-id></element-citation></ref><ref id="pone.0000041-Talianski1"><label>56</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Talianski</surname><given-names>M</given-names></name><name><surname>Barker</surname><given-names>H</given-names></name></person-group>
+<person-group person-group-type="editor"><name><surname>Smith</surname><given-names>HG</given-names></name><name><surname>Barker</surname><given-names>H</given-names></name></person-group>
+<year>1999</year>
+<article-title>Movement of luteoviruses in infected plants.</article-title>
+<source>The Luteoviridae.</source>
+<publisher-loc>Wallingford, UK</publisher-loc>
+<publisher-name>CAB International</publisher-name>
+<fpage>69</fpage>
+<lpage>84</lpage>
+</element-citation></ref><ref id="pone.0000041-Briddon1"><label>57</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Briddon</surname><given-names>RW</given-names></name></person-group>
+<year>2003</year>
+<article-title>Cotton leaf curl disease, a multicomponent begomovirus complex.</article-title>
+<source>Mol. Plant Pathol.</source>
+<volume>4</volume>
+<fpage>427</fpage>
+<lpage>434</lpage>
+<pub-id pub-id-type="pmid">20569402</pub-id></element-citation></ref><ref id="pone.0000041-Simon1"><label>58</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Simon</surname><given-names>AE</given-names></name><name><surname>Roossinck</surname><given-names>MJ</given-names></name><name><surname>Havelda</surname><given-names>Z</given-names></name></person-group>
+<year>2004</year>
+<article-title>Plant virus satellite and defective interfering RNAs: New paradigms for a new century.</article-title>
+<source>Annu. Rev. Phytopathol.</source>
+<volume>42</volume>
+<fpage>415</fpage>
+<lpage>437</lpage>
+<pub-id pub-id-type="pmid">15283672</pub-id></element-citation></ref><ref id="pone.0000041-KendallM1"><label>59</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Kendall M</surname><given-names>G</given-names></name><name><surname>Stuart</surname><given-names>A</given-names></name></person-group>
+<year>1961</year>
+<source>The Advanced Theory of Statistics.</source>
+<comment>Vol. 2</comment>
+<publisher-loc>London</publisher-loc>
+<publisher-name>Charles Griffin &#x00026; Co.</publisher-name>
+</element-citation></ref><ref id="pone.0000041-Rice1"><label>60</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rice</surname><given-names>WR</given-names></name></person-group>
+<year>1989</year>
+<article-title>Analyzing tables of statistical tests.</article-title>
+<source>Evolution</source>
+<volume>43</volume>
+<fpage>223</fpage>
+<lpage>225</lpage>
+<pub-id pub-id-type="pmid">28568501</pub-id></element-citation></ref></ref-list></back></article>

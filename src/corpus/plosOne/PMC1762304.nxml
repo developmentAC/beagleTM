@@ -1,0 +1,579 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183712</article-id><article-id pub-id-type="pmc">1762304</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00011R2</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000008</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Evolutionary Biology</subject></subj-group></article-categories><title-group><article-title>Molecular Adaptation during Adaptive Radiation in the Hawaiian Endemic Genus <italic>Schiedea</italic>
+</article-title><alt-title alt-title-type="running-head"><italic>Schiedea</italic> Molecular Adaptation</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Kapralov</surname><given-names>Maxim V.</given-names></name></contrib><contrib contrib-type="author"><name><surname>Filatov</surname><given-names>Dmitry A.</given-names></name><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib><aff>
+<institution>School of Biosciences, University of Birmingham</institution>
+<addr-line>Birmingham, United Kingdom</addr-line>
+</aff></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Scheffler</surname><given-names>Konrad</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">University of Cape Town, South Africa</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>D.Filatov@bham.ac.uk</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: DF. Performed the experiments: MK. Analyzed the data: MK. Wrote the paper: DF MK</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e8</elocation-id><history><date date-type="received"><day>7</day><month>8</month><year>2006</year></date><date date-type="accepted"><day>6</day><month>9</month><year>2006</year></date></history><permissions><copyright-statement>Kapralov and Filatov.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><sec><title>Background</title><p>&#x0201c;Explosive&#x0201d; adaptive radiations on islands remain one of the most puzzling evolutionary phenomena. The rate of phenotypic and ecological adaptations is extremely fast during such events, suggesting that many genes may be under fairly strong selection. However, no evidence for adaptation at the level of protein coding genes was found, so it has been suggested that selection may work mainly on regulatory elements. Here we report the first evidence that positive selection does operate at the level of protein coding genes during rapid adaptive radiations. We studied molecular adaptation in Hawaiian endemic plant genus <italic>Schiedea</italic> (<italic>Caryophyllaceae</italic>), which includes closely related species with a striking range of morphological and ecological forms, varying from rainforest vines to woody shrubs growing in desert-like conditions on cliffs. Given the remarkable difference in photosynthetic performance between <italic>Schiedea</italic> species from different habitats, we focused on the &#x0201c;photosynthetic&#x0201d; Rubisco enzyme, the efficiency of which is known to be a limiting step in plant photosynthesis.</p></sec><sec><title>Results</title><p>We demonstrate that the chloroplast <italic>rbcL</italic> gene, encoding the large subunit of Rubisco enzyme, evolved under strong positive selection in <italic>Schiedea</italic>. Adaptive amino acid changes occurred in functionally important regions of Rubisco that interact with Rubisco activase, a chaperone which promotes and maintains the catalytic activity of Rubisco. Interestingly, positive selection acting on the <italic>rbcL</italic> might have caused favorable cytotypes to spread across several <italic>Schiedea</italic> species.</p></sec><sec><title>Significance</title><p>We report the first evidence for adaptive changes at the DNA and protein sequence level that may have been associated with the evolution of photosynthetic performance and colonization of new habitats during a recent adaptive radiation in an island plant genus. This illustrates how small changes at the molecular level may change ecological species performance and helps us to understand the molecular bases of extremely fast rate of adaptation during island adaptive radiations.</p></sec></abstract><counts><page-count count="8"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>The most dramatic &#x0201c;bursts&#x0201d; of adaptive radiation often occur within confined geographical regions (e.g. oceanic islands or inland freshwater lakes; e.g. <xref rid="pone.0000008-Schluter1" ref-type="bibr">[1]</xref>). Although island adaptive radiations may be viewed as extreme examples of evolutionary diversification, it is thought that major adaptive radiations in the history of our planet have been following the same evolutionary processes as island endemic radiations. Thus, islands may be viewed as evolutionary laboratories one can use to understand general processes of adaptation and speciation <xref rid="pone.0000008-Schluter1" ref-type="bibr">[1]</xref>, <xref rid="pone.0000008-Seehausen1" ref-type="bibr">[2]</xref>.</p><p>&#x0201c;Explosive&#x0201d; island adaptive radiations are accompanied by tremendous phenotypical and ecological changes that suggest many genes might be under fairly strong positive selection. However, we do not know how natural selection works at the molecular level during adaptive radiation events. Island habitats are always limited in area, so island populations are limited in size. In addition, many island species are thought to evolve via colonization of new islands or habitats (&#x0201c;island hopping speciation&#x0201d;, <xref rid="pone.0000008-Hollocher1" ref-type="bibr">[3]</xref>). Such colonization events should lead to a drastic reduction in population size. As the efficacy of selection is proportional to the product of the selective coefficient and the effective population size <xref rid="pone.0000008-Kimura1" ref-type="bibr">[4]</xref>, the relatively small effective population size of island species should result in a reduced efficacy of natural selection. In small populations (e.g. in endemic island species), the dynamics of non-synonymous mutations is dominated by drift and the fixation probabilities of deleterious and advantageous mutations are expected to be approximately equal <xref rid="pone.0000008-Ohta1" ref-type="bibr">[5]</xref>. Few studies have investigated the action of selection at the molecular level during island adaptive radiations <xref rid="pone.0000008-Barrier1" ref-type="bibr">[6]</xref>, <xref rid="pone.0000008-Remington1" ref-type="bibr">[7]</xref>. These studies indicated some increase in non-synonymous (d<italic>N</italic>) to synonymous (d<italic>S</italic>) substitution rates in the Hawaiian silversword alliance, which may reflect slight relaxation of purifying selection in small island populations, but no convincing evidence of positive selection has been reported.</p><p>The small size of island populations may also limit the genetic variability required for natural selection to work, so the fast rate of phenotypic diversification on islands is quite surprising. Interspecific hybridization may be a possible source of additional genetic variation within species <xref rid="pone.0000008-Seehausen1" ref-type="bibr">[2]</xref>, <xref rid="pone.0000008-Stebbins1" ref-type="bibr">[8]</xref>, <xref rid="pone.0000008-Morjan1" ref-type="bibr">[9]</xref>. Closely related species are often cross-compatible and there are numerous examples of interspecific hybridization in plants and animals <xref rid="pone.0000008-Arnold1" ref-type="bibr">[10]</xref>. Even with low rates of introgression positively selected alleles can spread across several species <xref rid="pone.0000008-Slatkin1" ref-type="bibr">[11]</xref>. Occasional events of interspecific hybridization allow adaptive radiations to be considered as metapopulations, where adaptive mutations may spread across several species significantly accelerating the adaptation process <xref rid="pone.0000008-Lewontin1" ref-type="bibr">[12]</xref>. However, it is not known how common such sharing of adaptive mutations by several species might be.</p><p>In this paper we report the analysis of positive selection at the molecular level and the spread of adaptive alleles across several species in Hawaiian endemic plant genus <italic>Schiedea</italic> (<italic>Caryophyllaceae</italic>), which represents one of the largest plant adaptive radiations on Hawaii. <italic>Schiedea</italic> comprises 32 living (and at least two extinct) species adapted to a wide range of habitats from wet rainforest to dry desert-like conditions of coastal cliffs <xref rid="pone.0000008-Wagner1" ref-type="bibr">[13]</xref>. Among <italic>Schiedea</italic>'s most prominent evolutionary transitions have been remarkable changes in its growth habit, ranging from rainforest vines and perennial herbs through mesic and dry forest subshrubs and shrubs to cliff-dwelling shrubs <xref rid="pone.0000008-Wagner1" ref-type="bibr">[13]</xref> (see <xref ref-type="supplementary-material" rid="pone.0000008.s001">Table S1</xref>). The latter are particularly notable for a lineage within the <italic>Caryophyllaceae</italic> family which contains mainly herbaceous annuals and perennials.</p><p>
+<italic>Schiedea</italic> species from contrasting environments (e.g. rainforest vs. coastal cliffs) are dramatically different from each other in many physiological traits <xref rid="pone.0000008-Wagner1" ref-type="bibr">[13]</xref>. In particular, there are substantial differences in photosynthetic performance in <italic>Schiedea</italic>, suggesting that some of the protein coding genes involved in photosynthesis could be under positive selection. This motivated us to choose two chloroplast &#x0201c;photosynthetic&#x0201d; genes, <italic>psbA</italic> and <italic>rbcL</italic>, for phylogeny-based analysis of positive selection. The first gene, <italic>psbA</italic>, encodes photosystem II reaction center protein D1. Photosystem II is the first link in the chain of photosynthesis, it captures photons and uses the energy to extract electrons from water molecules <xref rid="pone.0000008-Ferreira1" ref-type="bibr">[14]</xref>. The second gene, <italic>rbcL</italic>, encodes large subunits of Ribulose-1,5-bisphospate (RuBP) carboxylase/oxigenase (Rubisco; EC 4.1.1.39) which catalyzes the first step in net photosynthetic CO<sub>2</sub> assimilation and photorespiratory carbon oxidation <xref rid="pone.0000008-Spreitzer1" ref-type="bibr">[15]</xref>. &#x0201c;The most abundant protein in the world&#x0201d;, Rubisco comprises about 40&#x02013;50&#x00025; of all soluble proteins in green plant tissues and is responsible for almost all carbon fixation on Earth. Despite its critical importance for life on our planet, this protein is notoriously inefficient in its function, creating a bottleneck, which limits plant growth <xref rid="pone.0000008-Spreitzer1" ref-type="bibr">[15]</xref>. This makes <italic>rbcL</italic> a likely target of positive selection, as any improvements in its function may drastically change plant growth rate. For comparison we also studied a non-photosyntetic chloroplast gene, <italic>matK</italic>, that encodes a protein of unknown function which is hypothesized to be involved in splicing in the chloroplast genome <xref rid="pone.0000008-Neuhaus1" ref-type="bibr">[16]</xref>, <xref rid="pone.0000008-Vogel1" ref-type="bibr">[17]</xref>.</p><p>Below we demonstrate that one of the studied photosynthetic genes, <italic>rbcL</italic>, evolved under positive selection during adaptive radiation in <italic>Schiedea</italic>. The differences in amino acid sequence among different <italic>Schiedea</italic> species could possibly account for the observed differences in photosynthetic performance and may have helped the genus to colonise a new habitat&#x02013;dry sunny slopes and cliffs. Interestingly, the positive selection at <italic>Schiedea rbcL</italic> may have caused adaptive chloroplast haplotypes to spread across several <italic>Schiedea</italic> species, which are known to occasionally form hybrids in the wild <xref rid="pone.0000008-Wagner1" ref-type="bibr">[13]</xref>. This supports the view that sharing of adaptive mutations by several species may play a significant role in plant adaptive evolution <xref rid="pone.0000008-Seehausen1" ref-type="bibr">[2]</xref>, <xref rid="pone.0000008-Morjan1" ref-type="bibr">[9]</xref>, <xref rid="pone.0000008-Lewontin1" ref-type="bibr">[12]</xref>.</p></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>Positive Selection in <italic>Schiedea rbcL</italic>
+</title><p>Phylogenetic maximum likelihood analysis of selection at the molecular level assumes that the phylogeny of an analyzed gene is correct <xref rid="pone.0000008-Yang1" ref-type="bibr">[18]</xref>. The published phylogeny of the genus <italic>Schiedea</italic> is based on morphology and ITS and ETS sequences and is relatively well established <xref rid="pone.0000008-Wagner1" ref-type="bibr">[13]</xref>. However, individual genes may have gene trees that differ from the species tree due to horizontal gene transfer and lineage sorting <xref rid="pone.0000008-Seehausen1" ref-type="bibr">[2]</xref>, <xref rid="pone.0000008-Maddison1" ref-type="bibr">[19]</xref>, <xref rid="pone.0000008-Machado1" ref-type="bibr">[20]</xref>. Thus, in order to conduct phylogenetic maximum likelihood analysis of selection in chloroplast genes it was essential to construct a robust gene tree of the <italic>Schiedea</italic> chloroplast DNA. For this purpose we sequenced fragments of <italic>psbA, rbcL</italic> and <italic>matK</italic> protein coding genes, as well as noncoding <italic>trnL</italic> intron, <italic>psbA-trnK</italic> and <italic>trnL-trnF</italic> intergenic spacers and <italic>trnS-trnG</italic> region (in total, 5.3 kb per individual, <xref ref-type="table" rid="pone-0000008-t001">Table 1</xref>) from all 27 <italic>Schiedea</italic> species used in this study (<xref ref-type="fig" rid="pone-0000008-g001">Fig. 1</xref> and <xref ref-type="supplementary-material" rid="pone.0000008.s001">supplementary table S1</xref>). As expected for a non-recombining chloroplast genome, the phylogenies based on individual chloroplast regions were consistent with each other, allowing us to concatenate the datasets, which resulted in a fairly well resolved phylogeny with high bootstrap support (25 haplotypes for concatenated dataset, <xref ref-type="fig" rid="pone-0000008-g001">Fig. 1</xref>). Interestingly, the <italic>Schiedea</italic> chloroplast gene tree (<xref ref-type="fig" rid="pone-0000008-g001">Fig. 1</xref>) substantially differed from the accepted ITS&#x0002b;ETS&#x0002b;morphology based phylogeny of the genus <xref rid="pone.0000008-Wagner1" ref-type="bibr">[13]</xref>. The plausible explanation for the observed discordance of the phylogenies as well as for rather &#x0201c;shallow&#x0201d; clades III and IV in the cpDNA tree (<xref ref-type="fig" rid="pone-0000008-g001">Fig. 1</xref>) could be the transition of cytotypes via interspecific hybridization and further fixation of favorable haplotypes within multiple species. Indeed, all the <italic>Schiedea</italic> species from cpDNA clade III live on the same island, Kaua'i, while the species from cpDNA clade IV inhabit several younger islands (O'ahu, Maui, Moloka'i, Lana'i, Hawai'i) that were connected to each other at various points in history of the archipelago. Thus, it seems likely that the cpDNA clades III and IV represent chloroplast hapoltypes that have spread across several species in Kaua'i, or younger islands. Strong positive selection in the <italic>Schiedea</italic> photosynthetic gene <italic>rbcL</italic> described below may have caused the cytotypes to spread across several species.</p><fig id="pone-0000008-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000008.g001</object-id><label>Figure 1</label><caption><title>Neighbor joining tree of 27 <italic>Schiedea</italic> species constructed using three coding and four non-coding cpDNA regions.</title><p>Numbers above branches are bootstrap support values (&#x00025;).</p><p>Non-synonymous (diamonds) and synonymous (circles) substitutions are shown for <italic>rbcL</italic> (black filled symbols) and <italic>matK</italic> (white symbols).</p><p>The four clades are marked by Roman numbers.</p></caption><graphic xlink:href="pone.0000008.g001"/></fig><table-wrap id="pone-0000008-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000008.t001</object-id><label>Table 1</label><caption><title>Investigated Chloroplast DNA Regions of 27 <italic>Schiedea</italic> Species</title></caption><graphic xlink:href="pone.0000008.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Region</td><td align="left" rowspan="1" colspan="1">Length (indel length), bp</td><td align="left" rowspan="1" colspan="1">Haplotypes</td><td align="left" rowspan="1" colspan="1">Mutations (singletons)</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<italic>matK</italic>
+</td><td align="left" rowspan="1" colspan="1">1077 (9)</td><td align="left" rowspan="1" colspan="1">17</td><td align="left" rowspan="1" colspan="1">25 (19)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>psbA</italic>
+</td><td align="left" rowspan="1" colspan="1">723 (0)</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">8 (5)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>rbcL</italic>
+</td><td align="left" rowspan="1" colspan="1">1362 (0)</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">18 (5)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>psbA-trnK</italic> intergenic spacer</td><td align="left" rowspan="1" colspan="1">545 (52)</td><td align="left" rowspan="1" colspan="1">14</td><td align="left" rowspan="1" colspan="1">16 (13)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>trnL</italic> gene, intron</td><td align="left" rowspan="1" colspan="1">611 (24)</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">8 (4)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>trnL-trnF</italic> intergenic spacer</td><td align="left" rowspan="1" colspan="1">404 (0)</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">15 (10)</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>trnS-trnG</italic> intergenic spacer&#x0002b;<italic>trnG</italic> gene</td><td align="left" rowspan="1" colspan="1">638 (0)</td><td align="left" rowspan="1" colspan="1">16</td><td align="left" rowspan="1" colspan="1">28 (22)</td></tr><tr><td align="left" rowspan="1" colspan="1">Concatenated dataset</td><td align="left" rowspan="1" colspan="1">5360 (85)</td><td align="left" rowspan="1" colspan="1">25</td><td align="left" rowspan="1" colspan="1">118 (78)</td></tr></tbody></table></table-wrap><p>One out of the three investigated protein coding genes&#x02013;<italic>psbA</italic>&#x02013;appeared to be under strong purifying selection in <italic>Schiedea</italic>, showing no non-synonymous and only eight synonymous substitutions (<xref ref-type="table" rid="pone-0000008-t002">Table 2</xref>). Moreover, when we compared <italic>Schiedea</italic>'s <italic>psbA</italic> with homologs from <italic>Silene latifolia</italic> (<italic>Caryophyllaceae, Caryophyllales</italic>; GenBank AB189069) and <italic>Chenopodium rubrum</italic> (<italic>Chenopodiaceae, Caryophyllales</italic>; GenBank Y14732) all 47 observed mutations again appeared to be synonymous.</p><table-wrap id="pone-0000008-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000008.t002</object-id><label>Table 2</label><caption><title>Non-synonymous and Synonymous Substitutions Rates in Three Investigated Chloroplast Genes of 27 <italic>Schiedea</italic> Species</title></caption><graphic xlink:href="pone.0000008.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Gene</td><td align="left" rowspan="1" colspan="1">Codons</td><td align="left" rowspan="1" colspan="1">cDNA &#x00025; <xref ref-type="table-fn" rid="nt102">a</xref>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>N</italic>
+<xref ref-type="table-fn" rid="nt103">b</xref>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>S</italic>
+<xref ref-type="table-fn" rid="nt104">c</xref>
+</td><td align="left" rowspan="1" colspan="1">d<italic>N</italic>
+<xref ref-type="table-fn" rid="nt105">d</xref>
+</td><td align="left" rowspan="1" colspan="1">d<italic>S</italic>
+<xref ref-type="table-fn" rid="nt106">e</xref>
+</td><td align="left" rowspan="1" colspan="1">d<italic>N</italic>/d<italic>S</italic>
+<xref ref-type="table-fn" rid="nt107">f</xref>
+</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<italic>matK</italic>
+</td><td align="left" rowspan="1" colspan="1">356</td><td align="left" rowspan="1" colspan="1">70.8</td><td align="left" rowspan="1" colspan="1">19 (14)</td><td align="left" rowspan="1" colspan="1">6 (5)</td><td align="left" rowspan="1" colspan="1">0.02317</td><td align="left" rowspan="1" colspan="1">0.03234</td><td align="left" rowspan="1" colspan="1">0.72</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>psbA</italic>
+</td><td align="left" rowspan="1" colspan="1">241</td><td align="left" rowspan="1" colspan="1">68.3</td><td align="left" rowspan="1" colspan="1">0 (0)</td><td align="left" rowspan="1" colspan="1">8 (5)</td><td align="left" rowspan="1" colspan="1">0.00000</td><td align="left" rowspan="1" colspan="1">0.05295</td><td align="left" rowspan="1" colspan="1">0.00</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>rbcL</italic>
+</td><td align="left" rowspan="1" colspan="1">454</td><td align="left" rowspan="1" colspan="1">95.4</td><td align="left" rowspan="1" colspan="1">10 (0)</td><td align="left" rowspan="1" colspan="1">8 (5)</td><td align="left" rowspan="1" colspan="1">0.01386</td><td align="left" rowspan="1" colspan="1">0.02789</td><td align="left" rowspan="1" colspan="1">0.50</td></tr></tbody></table><table-wrap-foot><fn id="nt102"><label>a</label><p>Proportion of the whole gene length based on coding sequences annotated in GenBank.</p></fn><fn id="nt103"><label>b</label><p>The number of non-synonymous mutations (singletons).</p></fn><fn id="nt104"><label>c</label><p>The number of synonymous mutations (singletons).</p></fn><fn id="nt105"><label>d</label><p>Non-synonymous divergence estimated by PAML.</p></fn><fn id="nt106"><label>e</label><p>Synonymous divergence estimated by PAML.</p></fn><fn id="nt107"><label>f</label><p>The ratio of non-synonymous to synonymous substitutions rates.</p></fn></table-wrap-foot></table-wrap><p>Both <italic>matK</italic> and <italic>rbcL</italic> showed relatively high d<italic>N</italic>/d<italic>S</italic> averaged across the whole <italic>Schiedea</italic> phylogeny&#x02013;0.72 and 0.50 respectively (<xref ref-type="table" rid="pone-0000008-t002">Table 2</xref>). However, the distribution of non-synonymous substitutions on the phylogenetic tree for <italic>rbcL</italic> and all other regions was remarkably different (<xref ref-type="table" rid="pone-0000008-t002">Table 2</xref>). While all ten non-synonymous substitutions in <italic>rbcL</italic> occurred in the internal branches, non-synonymous substitutions in <italic>matK</italic> as well as synonymous mutations in <italic>rbcL, matK</italic> and <italic>psbA</italic> and mutations in all non-coding regions appeared mainly in the terminal branches (<xref ref-type="table" rid="pone-0000008-t002">Table 2</xref>; <xref ref-type="fig" rid="pone-0000008-g001">Fig 1</xref>). 2&#x000d7;2 contingency tests demonstrate that an unusually large number of amino acid replacements in the <italic>Schiedea rbcL</italic> occurred on the internal branches of the tree in comparison to synonymous mutations in <italic>rbcL</italic> as well as to non-synonymous and synonymous mutations in <italic>matK</italic> and <italic>psbA</italic> and mutations in non-coding regions (<xref ref-type="table" rid="pone-0000008-t003">Table 3</xref>).</p><table-wrap id="pone-0000008-t003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000008.t003</object-id><label>Table 3</label><caption><title>Comparisons of Mutation Numbers on Internal and External Branches of the <italic>Schiedea</italic> Chloroplast Gene Tree</title></caption><graphic xlink:href="pone.0000008.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">
+<bold>Gene</bold>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td colspan="2" align="left" rowspan="1">
+<italic>RbcL</italic>
+</td><td colspan="2" align="left" rowspan="1">
+<italic>matK</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>psbA</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>psbA-trnK</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>trnL</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>trnL-trnF</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>trnS-trnG</italic>
+</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<bold><italic>N/S</italic></bold>
+<xref ref-type="table-fn" rid="nt110">a</xref>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>N</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>S</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>N</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>S</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>S</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>S</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>S</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>S</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>S</italic>
+</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<bold><italic>IntM</italic></bold>
+<xref ref-type="table-fn" rid="nt111">b</xref>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<bold>10</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>3</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>3</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>3</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>4</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>6</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<bold><italic>ExtM</italic></bold>
+<xref ref-type="table-fn" rid="nt111">b</xref>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>14</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>13</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>4</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>10</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>22</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>rbcL</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>N</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>10</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0</bold>
+</td><td align="left" rowspan="1" colspan="1">-</td><td align="left" rowspan="1" colspan="1">8.65&#x0002a;&#x0002a;</td><td align="left" rowspan="1" colspan="1">14.25&#x0002a;&#x0002a;&#x0002a;</td><td align="left" rowspan="1" colspan="1">12.12&#x0002a;&#x0002a;&#x0002a;</td><td align="left" rowspan="1" colspan="1">8.65&#x0002a;&#x0002a;</td><td align="left" rowspan="1" colspan="1">16.25&#x0002a;&#x0002a;&#x0002a;</td><td align="left" rowspan="1" colspan="1">6.43&#x0002a;</td><td align="left" rowspan="1" colspan="1">11.11&#x0002a;&#x0002a;&#x0002a;</td><td align="left" rowspan="1" colspan="1">18.66&#x0002a;&#x0002a;&#x0002a;</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>rbcL</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>S</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>3</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">-</td><td align="left" rowspan="1" colspan="1">0.34</td><td align="left" rowspan="1" colspan="1">0.73</td><td align="left" rowspan="1" colspan="1">0.00</td><td align="left" rowspan="1" colspan="1">0.08</td><td align="left" rowspan="1" colspan="1">0.25</td><td align="left" rowspan="1" colspan="1">0.04</td><td align="left" rowspan="1" colspan="1">0.86</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>matK</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>N</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>14</bold>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">-</td><td align="left" rowspan="1" colspan="1">0.23</td><td align="left" rowspan="1" colspan="1">0.34</td><td align="left" rowspan="1" colspan="1">0.28</td><td align="left" rowspan="1" colspan="1">1.42</td><td align="left" rowspan="1" colspan="1">0.20</td><td align="left" rowspan="1" colspan="1">0.15</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>matK</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>S</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">-</td><td align="left" rowspan="1" colspan="1">0.73</td><td align="left" rowspan="1" colspan="1">0.01</td><td align="left" rowspan="1" colspan="1">1.66</td><td align="left" rowspan="1" colspan="1">0.58</td><td align="left" rowspan="1" colspan="1">0.07</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>psbA</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>S</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>3</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">-</td><td align="left" rowspan="1" colspan="1">0.08</td><td align="left" rowspan="1" colspan="1">0.25</td><td align="left" rowspan="1" colspan="1">0.04</td><td align="left" rowspan="1" colspan="1">0.86</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>psbA-trnK</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>S</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>3</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>13</bold>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">-</td><td align="left" rowspan="1" colspan="1">2.52</td><td align="left" rowspan="1" colspan="1">0.86</td><td align="left" rowspan="1" colspan="1">0.05</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>trnL</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>S</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>4</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>4</bold>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">-</td><td align="left" rowspan="1" colspan="1">0.61</td><td align="left" rowspan="1" colspan="1">0.05</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>trnL-trnF</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>S</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>10</bold>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">-</td><td align="left" rowspan="1" colspan="1">0.73</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>trnS-trnG</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>S</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>6</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>22</bold>
+</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">-</td></tr></tbody></table><table-wrap-foot><fn id="nt109"><label/><p>Mutation numbers for internal and external branches are given in bold; &#x003c7;<sup>2</sup> values for 2&#x000d7;2 contingency tests of the number of mutations on the internal vers. external branches are given at the intersection of the column and row for the respective gene and mutation type.</p></fn><fn id="nt110"><label>a</label><p>
+<italic>S</italic>&#x02013;synonymous or non-coding mutations; <italic>N</italic>&#x02013;non-synonymous mutations.</p></fn><fn id="nt111"><label>b</label><p>IntM&#x02013;mutations number on internal branches; ExtM&#x02013;mutations number on external branches.</p></fn><fn id="nt112"><label/><p>
+<italic>P</italic> values: &#x0002a; <italic>P</italic>&#x0003c;0.02; &#x0002a;&#x0002a; <italic>P</italic>&#x0003c;0.01; &#x0002a;&#x0002a;&#x0002a; <italic>P</italic>&#x0003c;0.001.</p></fn></table-wrap-foot></table-wrap><p>To test for the presence of codons under positive selection in <italic>matK</italic> and <italic>rbcL</italic> we used likelihood ratio tests (LRTs) to compare the nested models allowing for variation in d<italic>N</italic>/d<italic>S</italic> ratio across codons <xref rid="pone.0000008-Yang2" ref-type="bibr">[21]</xref>. In this analysis we compared the following pairs of models implemented in codeml program <xref rid="pone.0000008-Yang1" ref-type="bibr">[18]</xref>: M1a/M2a <xref rid="pone.0000008-Wong1" ref-type="bibr">[22]</xref>, M7/M8 <xref rid="pone.0000008-Yang2" ref-type="bibr">[21]</xref> and M8a/M8 <xref rid="pone.0000008-Swanson1" ref-type="bibr">[23]</xref>. Model M1a allows two classes of sites: one class with d<italic>N</italic>/d<italic>S</italic> varying freely between 0 and 1, and another one with d<italic>N</italic>/d<italic>S</italic>&#x0200a;=&#x0200a;1 <xref rid="pone.0000008-Wong1" ref-type="bibr">[22]</xref>. Model 2a has an additional class of sites, which can accommodate codons with d<italic>N</italic>/d<italic>S</italic>&#x0003e;1 <xref rid="pone.0000008-Yang2" ref-type="bibr">[21]</xref>. The model M2a fits <italic>rbcL</italic> data significantly better than model M1a (&#x003c7;<sup>2</sup>&#x0200a;=&#x0200a;12.88, <italic>P</italic>&#x0200a;=&#x0200a;0.0016, df&#x0200a;=&#x0200a;2), while there is no significant difference in fit of the two models to <italic>matK</italic> data (&#x003c7;<sup>2</sup>&#x0200a;=&#x0200a;1.82, <italic>P</italic>&#x0200a;=&#x0200a;0.4025, df&#x0200a;=&#x0200a;2). In another nested pair of models M7 assumes that all codons have d<italic>N</italic>/d<italic>S</italic> distributed according to discrete beta distribution between 0 and 1, while model M8 allows for an additional class of codons with d<italic>N</italic>/d<italic>S</italic>&#x0003e;1 <xref rid="pone.0000008-Yang2" ref-type="bibr">[21]</xref>. The comparison of these two models in a LRT is a test for the presence of a class of codons with d<italic>N</italic>/d<italic>S</italic>&#x0003e;1 <xref rid="pone.0000008-Yang2" ref-type="bibr">[21]</xref>. The model M8 fits <italic>rbcL</italic> data significantly better than model M7 (&#x003c7;<sup>2</sup>&#x0200a;=&#x0200a;13.25, <italic>P</italic>&#x0200a;=&#x0200a;0.0013, df&#x0200a;=&#x0200a;2), while there is no significant difference in fit of the two models for <italic>matK</italic> data (&#x003c7;<sup>2</sup>&#x0200a;=&#x0200a;1.87, <italic>P</italic>&#x0200a;=&#x0200a;0.3926, df&#x0200a;=&#x0200a;2). Under the model M8 about 4&#x00025; of codons in <italic>rbcL</italic> fall into the positively selected class, which had d<italic>N</italic>/d<italic>S</italic>&#x0200a;=&#x0200a;13.92. A more stringent test for positive selection compares models M8 and M8a, which is the same as model M8, but the class of codons with d<italic>N</italic>/d<italic>S</italic>&#x0003e;1 in M8 is forced to have d<italic>N</italic>/d<italic>S</italic>&#x0200a;=&#x0200a;1 in M8a. This LRT specifically tests whether the d<italic>N</italic>/d<italic>S</italic> for codons falling into this class is significantly larger than unity <xref rid="pone.0000008-Swanson1" ref-type="bibr">[23]</xref>. While in M8-M8a comparison there was no significant difference in fit for <italic>matK</italic> data (&#x003c7;<sup>2</sup>&#x0200a;=&#x0200a;1.82, <italic>P</italic>&#x0200a;=&#x0200a;0.1773, df&#x0200a;=&#x0200a;1), application of this test to <italic>Schiedea rbcL</italic> demonstrated that this gene does have codons with d<italic>N</italic>/d<italic>S</italic> significantly larger than unity (&#x003c7;<sup>2</sup>&#x0200a;=&#x0200a;12.87, <italic>P</italic>&#x0200a;=&#x0200a;0.0003, df&#x0200a;=&#x0200a;1), providing strong evidence for positive selection.</p></sec><sec id="s2b"><title>Amino Acid Substitutions in <italic>Schiedea RbcL</italic>
+</title><p>The summary of the amino acid substitutions in <italic>Schiedea rbcL</italic> and their possible effects is presented in <xref ref-type="table" rid="pone-0000008-t004">Table 4</xref>. Throughout the text amino acid positions are numbered according to spinach <italic>rbcL</italic> for which protein cristal structure is available <xref rid="pone.0000008-Knight1" ref-type="bibr">[24]</xref>. Nine out of ten amino acid substitutions occurred on the branches of the phylogeny predating the split of the clades III and IV or leading to the clades III and IV (<xref ref-type="fig" rid="pone-0000008-g001">Fig. 1</xref>).</p><table-wrap id="pone-0000008-t004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000008.t004</object-id><label>Table 4</label><caption><title>Physical Properties of Amino Acid Substitutions in <italic>Schiedea</italic>'s <italic>RbcL</italic>
+</title></caption><graphic xlink:href="pone.0000008.t004"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Codon No<xref ref-type="table-fn" rid="nt114">a</xref>
+</td><td align="left" rowspan="1" colspan="1">Amino acid changes</td><td align="left" rowspan="1" colspan="1">Type of changes<xref ref-type="table-fn" rid="nt115">b</xref>
+</td><td align="left" rowspan="1" colspan="1">&#x00394;&#x0003c;/emph&#x0003e;H<xref ref-type="table-fn" rid="nt116">c</xref>
+</td><td align="left" rowspan="1" colspan="1">&#x00394;P<xref ref-type="table-fn" rid="nt117">d</xref>
+</td><td align="left" rowspan="1" colspan="1">&#x00394;V<xref ref-type="table-fn" rid="nt118">e</xref>
+</td><td align="left" rowspan="1" colspan="1">IS<xref ref-type="table-fn" rid="nt119">f</xref>
+</td><td align="left" rowspan="1" colspan="1">&#x00394;G<xref ref-type="table-fn" rid="nt120">g</xref>, kcal/mol</td><td align="left" rowspan="1" colspan="1">SA<xref ref-type="table-fn" rid="nt121">h</xref>, &#x00025;</td><td align="left" rowspan="1" colspan="1">Location of residue<xref ref-type="table-fn" rid="nt122">j</xref>
+</td></tr></thead><tbody><tr><td colspan="10" align="left" rowspan="1">Branch within the clade I</td></tr><tr><td align="left" rowspan="1" colspan="1">145</td><td align="left" rowspan="1" colspan="1">Ile&#x021d2;Val</td><td align="left" rowspan="1" colspan="1">HN&#x021d2;HN</td><td align="left" rowspan="1" colspan="1">&#x02212;0.3</td><td align="left" rowspan="1" colspan="1">0.7</td><td align="left" rowspan="1" colspan="1">&#x02212;19</td><td align="left" rowspan="1" colspan="1">D</td><td align="left" rowspan="1" colspan="1">&#x02212;0.51</td><td align="left" rowspan="1" colspan="1">0.7</td><td align="left" rowspan="1" colspan="1">&#x003b1;-helix D</td></tr><tr><td colspan="10" align="left" rowspan="1">Branches leading to the clades II &#x00026; III (two independent mutations)</td></tr><tr><td align="left" rowspan="1" colspan="1">86</td><td align="left" rowspan="1" colspan="1">His&#x021d2;Tyr</td><td align="left" rowspan="1" colspan="1">UB&#x021d2;UR</td><td align="left" rowspan="1" colspan="1">1.9</td><td align="left" rowspan="1" colspan="1">&#x02212;4.2</td><td align="left" rowspan="1" colspan="1">23</td><td align="left" rowspan="1" colspan="1">D</td><td align="left" rowspan="1" colspan="1">&#x02212;1.62</td><td align="left" rowspan="1" colspan="1">47.3</td><td align="left" rowspan="1" colspan="1">&#x003b2;-strand C</td></tr><tr><td colspan="10" align="left" rowspan="1">Branch leading to the clades III &#x00026; IV</td></tr><tr><td align="left" rowspan="1" colspan="1">230</td><td align="left" rowspan="1" colspan="1">Ala&#x021d2;Thr</td><td align="left" rowspan="1" colspan="1">HN&#x021d2;UP</td><td align="left" rowspan="1" colspan="1">&#x02212;2.5</td><td align="left" rowspan="1" colspan="1">0.5</td><td align="left" rowspan="1" colspan="1">26</td><td align="left" rowspan="1" colspan="1">S</td><td align="left" rowspan="1" colspan="1">0.70</td><td align="left" rowspan="1" colspan="1">58.1</td><td align="left" rowspan="1" colspan="1">&#x003b1;-helix 2</td></tr><tr><td align="left" rowspan="1" colspan="1">326</td><td align="left" rowspan="1" colspan="1">Ile&#x021d2;Val</td><td align="left" rowspan="1" colspan="1">HN&#x021d2;HN</td><td align="left" rowspan="1" colspan="1">&#x02212;0.3</td><td align="left" rowspan="1" colspan="1">0.7</td><td align="left" rowspan="1" colspan="1">&#x02212;19</td><td align="left" rowspan="1" colspan="1">S</td><td align="left" rowspan="1" colspan="1">0.30</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">&#x003b2;-strand 6</td></tr><tr><td align="left" rowspan="1" colspan="1">449</td><td align="left" rowspan="1" colspan="1">Cys&#x021d2;Ser</td><td align="left" rowspan="1" colspan="1">HP&#x021d2;UP</td><td align="left" rowspan="1" colspan="1">&#x02212;3.3</td><td align="left" rowspan="1" colspan="1">3.7</td><td align="left" rowspan="1" colspan="1">&#x02212;13</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">20.9</td><td align="left" rowspan="1" colspan="1">&#x003b1;-helix G</td></tr><tr><td colspan="10" align="left" rowspan="1">Branch leading to the clade III</td></tr><tr><td align="left" rowspan="1" colspan="1">23</td><td align="left" rowspan="1" colspan="1">Thr&#x021d2;Asn</td><td align="left" rowspan="1" colspan="1">UP&#x021d2;UP</td><td align="left" rowspan="1" colspan="1">&#x02212;2.8</td><td align="left" rowspan="1" colspan="1">3.0</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">D</td><td align="left" rowspan="1" colspan="1">&#x02212;0.74</td><td align="left" rowspan="1" colspan="1">28.1</td><td align="left" rowspan="1" colspan="1">N-terminal-domain above &#x003b2;-strand A</td></tr><tr><td colspan="10" align="left" rowspan="1">Branch leading to the clade IV</td></tr><tr><td align="left" rowspan="1" colspan="1">354</td><td align="left" rowspan="1" colspan="1">Thr&#x021d2;Ile</td><td align="left" rowspan="1" colspan="1">UP&#x021d2;HN</td><td align="left" rowspan="1" colspan="1">5.2</td><td align="left" rowspan="1" colspan="1">&#x02212;3.4</td><td align="left" rowspan="1" colspan="1">31</td><td align="left" rowspan="1" colspan="1">D</td><td align="left" rowspan="1" colspan="1">&#x02212;1.52</td><td align="left" rowspan="1" colspan="1">3.6</td><td align="left" rowspan="1" colspan="1">&#x003b2;-strand G</td></tr><tr><td align="left" rowspan="1" colspan="1">363</td><td align="left" rowspan="1" colspan="1">Tyr&#x021d2;Phe</td><td align="left" rowspan="1" colspan="1">UR&#x021d2;HR</td><td align="left" rowspan="1" colspan="1">4.1</td><td align="left" rowspan="1" colspan="1">&#x02212;1.0</td><td align="left" rowspan="1" colspan="1">&#x02212;6</td><td align="left" rowspan="1" colspan="1">D</td><td align="left" rowspan="1" colspan="1">&#x02212;2.92</td><td align="left" rowspan="1" colspan="1">8.0</td><td align="left" rowspan="1" colspan="1">below &#x003b2;-strand H</td></tr><tr><td align="left" rowspan="1" colspan="1">367</td><td align="left" rowspan="1" colspan="1">Ser&#x021d2;Pro</td><td align="left" rowspan="1" colspan="1">UP&#x021d2;HN</td><td align="left" rowspan="1" colspan="1">&#x02212;0.8</td><td align="left" rowspan="1" colspan="1">&#x02212;1.2</td><td align="left" rowspan="1" colspan="1">17</td><td align="left" rowspan="1" colspan="1">S</td><td align="left" rowspan="1" colspan="1">3.68</td><td align="left" rowspan="1" colspan="1">32.4</td><td align="left" rowspan="1" colspan="1">&#x003b2;-strand H</td></tr><tr><td align="left" rowspan="1" colspan="1">470</td><td align="left" rowspan="1" colspan="1">Gln&#x021d2;Glu</td><td align="left" rowspan="1" colspan="1">UP&#x021d2;UA</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">1.8</td><td align="left" rowspan="1" colspan="1">&#x02212;5</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">81.0</td><td align="left" rowspan="1" colspan="1">the carboxyl terminus</td></tr></tbody></table><table-wrap-foot><fn id="nt114"><label>a</label><p>Codon numbering is based on the sequence of the spinach <xref rid="pone.0000008-Knight1" ref-type="bibr">[24]</xref>.</p></fn><fn id="nt115"><label>b</label><p>Side chain type changes. Types abbreviations: A&#x02013;acidic (negatively charged); B&#x02013;basic (positively charged); H&#x02013;hydrophobic; N&#x02013;nonpolar aliphatic; P&#x02013;polar uncharged; R&#x02013;aromatic; U&#x02013;hydrophilic <xref rid="pone.0000008-Nelson1" ref-type="bibr">[42]</xref>.</p></fn><fn id="nt116"><label>c</label><p>Hydropathicity difference <xref rid="pone.0000008-Kyte1" ref-type="bibr">[43]</xref>.</p></fn><fn id="nt117"><label>d</label><p>Polarity difference <xref rid="pone.0000008-Grantham1" ref-type="bibr">[44]</xref>.</p></fn><fn id="nt118"><label>e</label><p>Van der Waals volume difference <xref rid="pone.0000008-Nelson1" ref-type="bibr">[42]</xref>.</p></fn><fn id="nt119"><label>f</label><p>IS&#x02013;impact on overall stability: D&#x02013;destabilising; S&#x02013;stabilising <xref rid="pone.0000008-Parthiban1" ref-type="bibr">[39]</xref>.</p></fn><fn id="nt120"><label>g</label><p>Predicted free energy changes <xref rid="pone.0000008-Parthiban1" ref-type="bibr">[39]</xref>.</p></fn><fn id="nt121"><label>h</label><p>Solvent accessibility <xref rid="pone.0000008-Parthiban1" ref-type="bibr">[39]</xref>.</p></fn><fn id="nt122"><label>j</label><p>
+<xref rid="pone.0000008-Spreitzer1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000008-Kellogg1" ref-type="bibr">[26]</xref>.</p></fn></table-wrap-foot></table-wrap><p>For four out of ten amino acid substitutions in <italic>Schiedea rbcL</italic> (residues 86, 230, 326 and 449) a Bayesian posterior probability of positive selection larger than 0.99 was shown by the Bayes Empirical Bayes analysis implemented in the PAML package <xref rid="pone.0000008-Yang3" ref-type="bibr">[25]</xref>. Three of these residues (positions 230, 326 and 86) reside in regions that play key role in the functioning of Rubisco enzyme.</p><p>Replacement Ala230&#x021d2;Thr230 occurred on the branch leading to the clades III and IV of the <italic>Schiedea</italic> chloroplast gene tree (<xref ref-type="fig" rid="pone-0000008-g001">Fig. 1</xref>). Residue 230 interacts with the &#x003b2;A-&#x003b2;B loop of small subunit <xref rid="pone.0000008-Kellogg1" ref-type="bibr">[26]</xref>. This residue 230 is highly solvent accessible (about 60&#x00025; of total surface area; <xref ref-type="table" rid="pone-0000008-t004">Table 4</xref>) and has a hydrogen bond with residue 10 of the small subunit of Rubisco. Replacement Ala230&#x021d2;Thr230 significantly decreases hydrophobicity of the residue that has a stabilizing effect in this position (<xref ref-type="table" rid="pone-0000008-t004">Table 4</xref>).</p><p>Replacement Ile326&#x021d2;Val326 happened on the branch leading to the clades III and IV of the gene tree (<xref ref-type="fig" rid="pone-0000008-g001">Fig. 1</xref>). Residue 326 has six internal contacts and located inside of the protein molecule in the &#x003b2;-strand flanking loop 6, a flexible element that folds over substrate during catalysis and plays a key role in discriminating between CO<sub>2</sub> and O<sub>2</sub> in competing RuBP carboxylation and oxygenation reactions of Rubisco <xref rid="pone.0000008-Spreitzer1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000008-Kellogg1" ref-type="bibr">[26]</xref>. Although Ile and Val have similar properties, Val is smaller and such replacement should increase the overall molecule stability (<xref ref-type="table" rid="pone-0000008-t004">Table 4</xref>).</p><p>Interestingly, replacement His86&#x021d2;Tyr86 happened twice independently in <italic>Schiedea</italic> phylogeny&#x02013;on the branches leading to the clade II and to the clade III (<xref ref-type="fig" rid="pone-0000008-g001">Fig. 1</xref>). Residue 86 is highly solvent accessible (about 50&#x00025; of total surface area; <xref ref-type="table" rid="pone-0000008-t004">Table 4</xref>) and may be a part of the Rubisco activase recognition region located in the N-terminal domain <xref rid="pone.0000008-Spreitzer1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000008-Portis1" ref-type="bibr">[27]</xref>. The activase recognition region provides a physical contact between Rubisco and Rubisco activase, an ATP-dependent enzyme that releases tight-binding sugar phosphates from the Rubisco active site and facilitates conversion of Rubisco from the closed to the open conformation. Rubisco activase plays a vital role in the response of photosynthesis to temperature <xref rid="pone.0000008-Portis1" ref-type="bibr">[27]</xref>. Properties of His and Tyr are very different: after His86&#x021d2;Tyr86 replacement hydrophobicy and volume of residue increased and polarity decreased dramatically making the molecule more tight while less soluble (<xref ref-type="table" rid="pone-0000008-t004">Table 4</xref>). Although this is predicted to decrease stability of the molecule (<xref ref-type="table" rid="pone-0000008-t004">Table 4</xref>), this analysis was done without taking interaction with Rubisco activase into account (for which no protein structure is available). Decreased polarity and increased hydrophobicy of the residue interacting with Rubisco activase may result in tighter binding. Thus, His86&#x021d2;Tyr86 replacement is likely to affect physical interaction of Rubisco with Rubisco activase. Although residue 86 is one of the most variable positions in the large subunit (up to 11 different amino acids across the 499 plant species; <xref rid="pone.0000008-Kellogg1" ref-type="bibr">[26]</xref>), His86&#x021d2;Tyr86 replacement is very rare, considering that about 76&#x00025; from 491 flowering species have His86, but only two species (&#x0003c;1&#x00025;) have Tyr86 <xref rid="pone.0000008-Spreitzer1" ref-type="bibr">[15]</xref>.</p><p>Furthermore, residue 86 is not the only one of <italic>Schiedea rbcL</italic> replacements that may be involved into Rubisco-Rubisco activase interactions. The critical residues for these interactions identified so far are immediately adjacent to the active site (<xref ref-type="fig" rid="pone-0000008-g002">Fig. 2</xref>, <xref rid="pone.0000008-Portis1" ref-type="bibr">[27]</xref>), as well as residues in strand G (particularly strand 6)&#x02013;strand H region and carboxyl terminus <xref rid="pone.0000008-Spreitzer1" ref-type="bibr">[15]</xref>. Based on published data <xref rid="pone.0000008-Spreitzer1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000008-Portis1" ref-type="bibr">[27]</xref> and structural modelling we found that apart from residue 86 six other residues out of ten replacements in <italic>Schiedea rbcL</italic> could be involved in Rubisco-Rubisco activase interactions (residues 23 and 326 are close to the active site; residues 354, 363, 367 belong to strand G&#x02013;strand H region and residue 470 is close to the carboxyl terminus). Six out of ten detected amino acid mutations while residing far from each other in the amino acid sequence appeared relatively close in the tertiary structure and could potentially influence each other: in the tertiary structure the average distance between the residues 86, 145, 326, 354, 363 and 367 is 15.1&#x000c5;; between the residues 145, 326, 354 and 363 is 12.2&#x000c5;; and between the residues 145, 354 and 363 is 9.2&#x000c5;). The proximity of these replacements in the tertiary protein structure suggests that several mutations may have a cumulative effect that affects overall properties of Rubisco activase interaction region in <italic>Schiedea</italic>'s Rubisco (<xref ref-type="fig" rid="pone-0000008-g002">Fig. 2</xref>).</p><fig id="pone-0000008-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000008.g002</object-id><label>Figure 2</label><caption><title>The structure of Rubisco enzyme in two projections (A, B) and (C) the residues that belong to active site (coloured red) and that are involved in interactions with Rubisco activase (coloured green; after <xref rid="pone.0000008-Spreitzer1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000008-Knight1" ref-type="bibr">[24]</xref>, <xref rid="pone.0000008-Kellogg1" ref-type="bibr">[26]</xref>, <xref rid="pone.0000008-Portis1" ref-type="bibr">[27]</xref>).</title><p>Eight residues replaced in <italic>Schiedea</italic> (positions 23, 86, 145, 326, 354, 363, 367, 470) are coloured yellow.</p></caption><graphic xlink:href="pone.0000008.g002"/></fig></sec></sec><sec id="s3"><title>Discussion</title><p>We demonstrated that the <italic>rbcL</italic> gene, encoding the large subunit of Rubisco enzyme, might have been under strong positive selection during recent adaptive radiation in Hawaiian <italic>Schiedea</italic>. Rubisco catalyzes the first step in net photosynthetic CO<sub>2</sub> assimilation and photorespiratory carbon oxidation. The enzyme is subject to competitive inhibition by O<sub>2</sub>, inactivation by loss of carbamylation, and dead-end inhibition by RuBP, that makes Rubisco inefficient as a catalyst for the carboxylation of RuBP and limiting for photosynthesis and plant growth <xref rid="pone.0000008-Spreitzer1" ref-type="bibr">[15]</xref>. Thus, even small improvements in efficiency of this enzyme may provide significant physiological advantage.</p><p>In land plants Rubisco is composed of eight large subunits (LSUs) encoded by the chloroplast <italic>rbcL</italic> gene and eight small subunits (SSUs) encoded by a family of <italic>rbcS</italic> nuclear genes <xref rid="pone.0000008-Dean1" ref-type="bibr">[28]</xref>, <xref rid="pone.0000008-Roy1" ref-type="bibr">[29]</xref>. By directed mutagenesis in <italic>Rhodospirillum rubrum, Synechococcus, Chlamydomonas</italic>, and tobacco it has been shown that even single mutations can positively or negatively change stability or substrate specificity of Rubisco <xref rid="pone.0000008-Spreitzer1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000008-Satagopan1" ref-type="bibr">[30]</xref>. The most dramatic changes in Rubisco performance are inducted by replacements in the active site and in the regions providing interactions between LSUs and SSUs, and between Rubisco and Rubisco activase <xref rid="pone.0000008-Spreitzer1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000008-Satagopan1" ref-type="bibr">[30]</xref>.</p><p>Most amino acid replacements in <italic>Schiedea rbcL</italic> (residues 23, 86, 326, 354, 363, 367 and 470) reside in regions influencing interactions with Rubisco activase, a chaperone which promotes and maintains the catalytic activity of Rubisco <xref rid="pone.0000008-Spreitzer1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000008-Portis1" ref-type="bibr">[27]</xref>. Rubisco activase plays a vital role in the response of photosynthesis to temperature <xref rid="pone.0000008-Portis1" ref-type="bibr">[27]</xref>, thus molecular adaptation of Rubisco-Rubisco activase interactions may have played an important role in adaptation of <italic>Schiedea</italic> species to dry sunny conditions. Furthermore, five of the replaced residues (86, 326, 354, 363 and 367) are close to each other (distances&#x0003c;20&#x000c5;) in the Rubisco tertiary structure, suggesting possible cumulative effect. Sequencing and investigation of <italic>Schiedea</italic>'s Rubisco activase might be of considerable interest for future studies of possible coevolution of Rubisco and Rubisco activase in <italic>Schiedea</italic>.</p><p>The distribution of <italic>rbcL</italic> amino acid replacements in the <italic>Schiedea</italic> cpDNA phylogeny corroborates their possible functional importance. Non-synonymous mutations favored by positive selection are expected to be more common at the internal branches relative to terminal branches <xref rid="pone.0000008-RuizPesini1" ref-type="bibr">[31]</xref>. Indeed all amino acid replacements in <italic>Schiedea</italic> appeared in the internal branches (<xref ref-type="fig" rid="pone-0000008-g001">Fig. 1</xref>), a pattern significally different from ones of <italic>rbcL</italic> synonymous substitutions as well as from non-synonymous and synonymous mutations in other investigated cpDNA regions (<xref ref-type="table" rid="pone-0000008-t003">Table 3</xref>).</p><p>The possible changes of Rubisco properties in <italic>Schiedea</italic> predicted from structural modeling match well with the observed difference in rates of photosynthesis <xref rid="pone.0000008-Wagner1" ref-type="bibr">[13]</xref> between &#x0201c;basal&#x0201d; and &#x0201c;advanced&#x0201d; species (roughly corresponding to clades I&#x0002b;II and III&#x0002b;IV, respectively) as well as with wide distribution of &#x0201c;advanced&#x0201d; <italic>rbcL</italic> haplotypes within <italic>Schiedea</italic>. The &#x0201c;basal&#x0201d; <italic>Schiedea</italic> species inhabit mesic or wet shady forests, while most species in the &#x0201c;advanced&#x0201d; clades (section <italic>Schiedea</italic>) colonised dry sunny habitats, such as coastal cliffs. Given the importance of Rubisco enzyme performance for plant growth and the significant effect of mutations affecting the contacts with Rubisco activase <xref rid="pone.0000008-Spreitzer1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000008-Satagopan1" ref-type="bibr">[30]</xref>, the His86&#x021d2;Tyr86 and other replacements in <italic>Schiedea rbcL</italic> may have played an important role in colonisation of dry habitats during recent adaptive radiation in <italic>Schiedea</italic>. Molecular adaptation in photosynthetic Rubisco enzyme represents the first known case of adaptation at the protein level during a recent adaptive radiation and reveals molecular bases of physiological and ecological evolution during rapid radiations in island endemics.</p><p>Positive selection on <italic>rbcL</italic> may possibly be the cause of fixation of two chloroplast haplotypes in virtually all species of <italic>Schiedea</italic>
+<italic>sensu stricto</italic> (clades III and IV on <xref ref-type="fig" rid="pone-0000008-g001">Fig. 1</xref>) and hence the main reason for cytonuclear discordance. This hypothesis is corroborated by the geographical pattern of <italic>Schiedea</italic> cpDNA haplotype distribution, where clades represent islands, rather than recognized <italic>Schiedea</italic> sections (<xref ref-type="fig" rid="pone-0000008-g001">Fig. 1</xref>).</p><p>Despite remarkable morphological and ecological divergence, natural interspecific hybrids have been found for many <italic>Schiedea</italic> species and the ability to cross-hybridize with each other has been shown for virtually all <italic>Schiedea</italic> species in green-house experiments <xref rid="pone.0000008-Wagner1" ref-type="bibr">[13]</xref>. However, strong geographical isolation between and within the islands makes interspecies contacts quite rare. Indeed, a previous DNA diversity study has demonstrated that isolation between the populations of <italic>S. globosa</italic> from different islands is much stronger than one between the populations from the same island <xref rid="pone.0000008-Filatov1" ref-type="bibr">[32]</xref>. Thus, it is quite likely that only genes under strong positive selection can spread across <italic>Schiedea</italic> species.</p><p>Positive selection on non-recombining chloroplast DNA is expected to lead to a spread of the selected chloroplast haplotype across several species, causing phylogenetic cytonuclear discordance. Cytonuclear discordance promoted by interspecific hybridization has been found in many adaptive radiations including Darwin's finches, African cichlids, Lake Baikal sculpins and Hawaiian silversword alliance (reviewed in <xref rid="pone.0000008-Seehausen1" ref-type="bibr">[2]</xref>). Complete plastom and mitochondrion replacements via interspecific introgression have been documented for various plant and animal groups (reviewed in <xref rid="pone.0000008-Avise1" ref-type="bibr">[33]</xref>). Most authors typically attribute the occurrence of introgression to demographic events and chance fixation, whereas relatively few suggest positive selection as a possible cause <xref rid="pone.0000008-Ballard1" ref-type="bibr">[34]</xref>, <xref rid="pone.0000008-Doiron1" ref-type="bibr">[35]</xref>. The adaptive amino acid replacements in <italic>Schiedea rbcL</italic> occurred on the branches leading to the clades III and IV of the chloroplast gene tree. The spread of advantageous <italic>rbcL</italic> alleles across many <italic>Schiedea</italic> species inhabiting the same island (or a group of previously connected islands) argues in favor of positive selection as a main cause of cytonuclear discordance and suggests that sharing of adaptive mutations by several closely related species may be an important factor in adaptive evolution in small populations within confined geographical regions, such as oceanic islands or big lakes.</p></sec><sec id="s4"><title>Materials and Methods</title><sec id="s4a"><title>Isolation and sequencing of <italic>Schiedea</italic> genes</title><p>Morphology, ecology and origin of <italic>Schiedea</italic> species used in this study are presented in <xref ref-type="supplementary-material" rid="pone.0000008.s001">Table S1</xref>. Genomic DNA was isolated from fresh leaf material using magnetic beads-based Plant DNA Charge Switch Kit (Invitrogen) in accordance with manufacturer protocol. The primers used for amplification and sequencing are listed in <xref ref-type="supplementary-material" rid="pone.0000008.s002">Table S2</xref>. For PCR amplification of all regions except <italic>trnS-trnG</italic> we used BioMix Red (Bioline) with the following PCR conditions: one cycle of 95&#x000b0;C, 2 min, 55&#x000b0;C, 30 s, 72&#x000b0;C, 4 min followed by 36 cycles of 93&#x000b0;C, 30 s, 53&#x000b0;C, 30 s, 72&#x000b0;C, 3.5 min. For PCR amplification of <italic>trnS-trnG</italic> region we used Protocol 1 from <xref rid="pone.0000008-Shaw1" ref-type="bibr">[36]</xref>. The PCR products were extracted from the agarose gels using the Qiagen gel extraction kit. Sequencing was performed using ABI BigDye v3.1 system on an ABI3700 automated sequencing machine. Sequence chromatograms were checked and corrected, and the contigs were assembled and aligned using ProSeq3 software <xref rid="pone.0000008-Filatov2" ref-type="bibr">[37]</xref>. All polymorphic sites were checked against original sequence chromatograms and doubtful regions were resequenced; obtained sequences were compared with homologues from GenBank and ORFs integrity was confirmed for protein coding sequences; all indels were removed before further analyses. Novel sequences have been submitted to GenBank under accession numbers DQ907721-DQ907909.</p></sec><sec id="s4b"><title>Statistical Tests for Positive Selection</title><p>The neighbor-joining trees for every investigated chloroplast region as well as for three concatenated datasets (noncoding regions, coding regions, all regions) were created using MEGA v3.1 <xref rid="pone.0000008-Kumar1" ref-type="bibr">[38]</xref>. The topologies of all obtained trees were similar and for further phylogenetic analyses of positive selection in <italic>Schiedea</italic>'s chloroplast protein coding genes we used the unrooted tree based on concatenated dataset of all regions.</p><p>We used the codeml program in the PAML v.3.14 <xref rid="pone.0000008-Yang1" ref-type="bibr">[18]</xref> package to estimate the non-synonymous divergence (d<italic>N</italic>), synonymous divergence (d<italic>S</italic>), and their ratio (d<italic>N</italic>/d<italic>S</italic>) in model 0, that allows for a single d<italic>N</italic>/d<italic>S</italic> value throughout the whole phylogenetic tree. Further, codeml was used to perform likelihood ratio tests (LRTs) for rate heterogeneity and positive selection among amino acid sites. We applied models of codon evolution which allow for variation in d<italic>N</italic>/d<italic>S</italic> among codons but assume the same distribution in all branches of the phylogeny. We performed three LRTs for positive selection: M1a&#x02013;M2a LRT, M7&#x02013;M8 LRT and M8a&#x02013;M8 LRT <xref rid="pone.0000008-Yang2" ref-type="bibr">[21]</xref>&#x02013;<xref rid="pone.0000008-Swanson1" ref-type="bibr">[23]</xref>. For all LRTs, the first model is a simplified version of the second, with fewer parameters, and is thus expected to provide a poorer fit to the data (lower maximum likelihood). The M1, M7 and M8a models are the null models without positive selection (no codons with d<italic>N</italic>/d<italic>S</italic>&#x0003e;1) and the M2 and M8 models are the alternative models with positive selection. The significance of the LRTs was calculated assuming that twice the difference in the log of maximum likelihood between the two models is distributed as a chi-square distribution with the degrees of freedom (df) given by the difference in the numbers of parameters in the two nested models. For both M1a&#x02013;M2a and M7&#x02013;M8 comparisons we used df&#x0200a;=&#x0200a;2 <xref rid="pone.0000008-Yang2" ref-type="bibr">[21]</xref>, <xref rid="pone.0000008-Wong1" ref-type="bibr">[22]</xref>. It was argued that for M8a&#x02013;M8 comparisons the appropriate test would use a 50&#x02236;50 mixture of df&#x0200a;=&#x0200a;0 and df&#x0200a;=&#x0200a;1 <xref rid="pone.0000008-Swanson1" ref-type="bibr">[23]</xref>, however we assumed df&#x0200a;=&#x0200a;1 for this test, which is conservative <xref rid="pone.0000008-Wong1" ref-type="bibr">[22]</xref>.</p><p>To identify amino acid sites potentially under positive selection, the parameter estimates from M8 model were used to calculate the posterior probabilities that an amino acid belongs to a class with d<italic>N</italic>/d<italic>S</italic>&#x0003e;1 using the Bayes Empirical Bayes approaches implemented in PAML <xref rid="pone.0000008-Yang3" ref-type="bibr">[25]</xref>.</p></sec><sec id="s4c"><title>Structural Analysis of Rubisco</title><p>We used spinach Rubisco protein structure <xref rid="pone.0000008-Knight1" ref-type="bibr">[24]</xref> to infer the possible effect(s) of mutations at the residues identified as being under positive selection in <italic>Schiedea</italic>. The divergence between <italic>rbcL</italic>s of spinach and <italic>Schiedea</italic> at the amino acid level is between 3.2&#x00025; and 4.4&#x00025;, depending on the <italic>Schiedea</italic> species. Furthermore, the ancestral states of eight out of ten replacements found in <italic>Schiedea rbcL</italic> are identical to corresponding residues in spinach, making it appropriate to use protein structure obtained for spinach. Rubisco structural data for spinach (1RBO) were obtained from the RCB Protein Data Bank (<ext-link ext-link-type="uri" xlink:href="http://www.rcsb.org/pdb">http://www.rcsb.org/pdb</ext-link>). The solvent accessible surface areas for individual amino acids in the structure and the impact of single replacements on overall structural stability were analyzed using CUPSAT software [39; <ext-link ext-link-type="uri" xlink:href="http://cupsat.uni-koeln.de">http://cupsat.uni-koeln.de</ext-link>]. The structural contacts for individual amino acids in the structure were analyzed using DeepView&#x02013;Swiss-PdbViewer v. 3.7 [40; <ext-link ext-link-type="uri" xlink:href="http://www.expasy.org/spdbv/">http://www.expasy.org/spdbv/</ext-link>] and STING Report [41; <ext-link ext-link-type="uri" xlink:href="http://trantor.bioc.columbia.edu/SMS/">http://trantor.bioc.columbia.edu/SMS/</ext-link>].</p></sec></sec><sec sec-type="supplementary-material" id="s6"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pone.0000008.s001"><label>Table S1</label><caption><p>Habit, Habitat and Distribution of Investigated 27 Schiedea Species (after <xref rid="pone.0000008-Wagner1" ref-type="bibr">[13]</xref>).</p><p>(0.06 MB DOC)</p></caption><media xlink:href="pone.0000008.s001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000008.s002"><label>Table S2</label><caption><p>Investigated Chloroplast DNA Regions and Used Primers.</p><p>(0.04 MB DOC)</p></caption><media xlink:href="pone.0000008.s002.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We are grateful to Dr S. Weller for providing us <italic>Schiedea</italic> leaf material, to Dr Z. Yang and Dr M. Anisimova for advice on PAML, to Dr K. Futterrer for help and advice with protein structure analysis and to Dr G. Muir for suggestions and correction of the manuscript.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>This work was funded by a grant from the BBSRC.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000008-Schluter1"><label>1</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Schluter</surname><given-names>D</given-names></name></person-group>
+<year>2000</year>
+<source>The ecology of adaptive radiation.</source>
+<publisher-loc>Oxford</publisher-loc>
+<publisher-name>Oxford University Press</publisher-name>
+<fpage>296</fpage>
+</element-citation></ref><ref id="pone.0000008-Seehausen1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Seehausen</surname><given-names>O</given-names></name></person-group>
+<year>2004</year>
+<article-title>Hybridization and adaptive radiation.</article-title>
+<source>Trends Ecol Evol</source>
+<volume>19</volume>
+<fpage>198</fpage>
+<lpage>207</lpage>
+<pub-id pub-id-type="pmid">16701254</pub-id></element-citation></ref><ref id="pone.0000008-Hollocher1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hollocher</surname><given-names>H</given-names></name></person-group>
+<year>1996</year>
+<article-title>Island hopping in <italic>Drosophila</italic>: patterns and processes.</article-title>
+<source>Philos Trans R Soc Lond B Biol Sci</source>
+<volume>351</volume>
+<fpage>735</fpage>
+<lpage>743</lpage>
+<pub-id pub-id-type="pmid">8693017</pub-id></element-citation></ref><ref id="pone.0000008-Kimura1"><label>4</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Kimura</surname><given-names>M</given-names></name></person-group>
+<year>1983</year>
+<source>The neutral theory of molecular evolution.</source>
+<publisher-loc>Cambridge</publisher-loc>
+<publisher-name>Cambridge University Press</publisher-name>
+<fpage>367</fpage>
+</element-citation></ref><ref id="pone.0000008-Ohta1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ohta</surname><given-names>T</given-names></name></person-group>
+<year>1992</year>
+<article-title>The nearly neutral theory of molecular evolution.</article-title>
+<source>Annu Rev Ecol Syst</source>
+<volume>23</volume>
+<fpage>263</fpage>
+<lpage>286</lpage>
+</element-citation></ref><ref id="pone.0000008-Barrier1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barrier</surname><given-names>M</given-names></name><name><surname>Robichaux</surname><given-names>RH</given-names></name><name><surname>Purugganan</surname><given-names>MD</given-names></name></person-group>
+<year>2001</year>
+<article-title>Accelerated regulatory gene evolution in an adaptive radiation.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>98</volume>
+<fpage>10208</fpage>
+<lpage>10213</lpage>
+<pub-id pub-id-type="pmid">11517318</pub-id></element-citation></ref><ref id="pone.0000008-Remington1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Remington</surname><given-names>DL</given-names></name><name><surname>Purugganan</surname><given-names>MD</given-names></name></person-group>
+<year>2002</year>
+<article-title>GAI Homologues in the Hawaiian Silversword Alliance (Asteraceae-Madiinae): molecular evolution of growth regulators in a rapidly diversifying plant lineage.</article-title>
+<source>Mol Biol Evol</source>
+<volume>19</volume>
+<fpage>1563</fpage>
+<lpage>1574</lpage>
+<pub-id pub-id-type="pmid">12200483</pub-id></element-citation></ref><ref id="pone.0000008-Stebbins1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stebbins</surname><given-names>GL</given-names><suffix>Jr</suffix></name></person-group>
+<year>1959</year>
+<article-title>The role of hybridisation in evolution.</article-title>
+<source>Proc Am Philos Soc</source>
+<volume>103</volume>
+<fpage>231</fpage>
+<lpage>251</lpage>
+</element-citation></ref><ref id="pone.0000008-Morjan1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morjan</surname><given-names>CL</given-names></name><name><surname>Riesberg</surname><given-names>LH</given-names></name></person-group>
+<year>2004</year>
+<article-title>How species evolve collectively: implications of gene flow and selection for the spread of advantageous alleles.</article-title>
+<source>Mol Ecol</source>
+<volume>13</volume>
+<fpage>1341</fpage>
+<lpage>1356</lpage>
+<pub-id pub-id-type="pmid">15140081</pub-id></element-citation></ref><ref id="pone.0000008-Arnold1"><label>10</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Arnold</surname><given-names>ML</given-names></name></person-group>
+<year>1997</year>
+<source>Natural hybridisation and evolution.</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Oxford University Press</publisher-name>
+<fpage>215</fpage>
+</element-citation></ref><ref id="pone.0000008-Slatkin1"><label>11</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Slatkin</surname><given-names>M</given-names></name></person-group>
+<year>1976</year>
+<article-title>The rate of spread of advantageous alleles in a subdivided population.</article-title>
+<person-group person-group-type="editor"><name><surname>Karlin</surname><given-names>S</given-names></name><name><surname>Nevo</surname><given-names>E</given-names></name></person-group>
+<source>Population Genetics and Ecology.</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Academic Press</publisher-name>
+<fpage>767</fpage>
+<lpage>780</lpage>
+</element-citation></ref><ref id="pone.0000008-Lewontin1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lewontin</surname><given-names>RC</given-names></name><name><surname>Birch</surname><given-names>LC</given-names></name></person-group>
+<year>1966</year>
+<article-title>Hybridization as a source of variation for adaptation to new environments.</article-title>
+<source>Evolution</source>
+<volume>20</volume>
+<fpage>315</fpage>
+<lpage>336</lpage>
+<pub-id pub-id-type="pmid">28562982</pub-id></element-citation></ref><ref id="pone.0000008-Wagner1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wagner</surname><given-names>WL</given-names></name><name><surname>Weller</surname><given-names>SG</given-names></name><name><surname>Sakai</surname><given-names>A</given-names></name></person-group>
+<year>2005</year>
+<article-title>Monograph of <italic>Schiedea</italic> (<italic>Caryophyllaceae</italic> subfam. <italic>Alsinoideae</italic>).</article-title>
+<source>Syst Bot Monographs</source>
+<volume>72</volume>
+<fpage>1</fpage>
+<lpage>169</lpage>
+</element-citation></ref><ref id="pone.0000008-Ferreira1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ferreira</surname><given-names>KN</given-names></name><name><surname>Iverson</surname><given-names>TM</given-names></name><name><surname>Maghlaoui</surname><given-names>K</given-names></name><name><surname>Barber</surname><given-names>J</given-names></name><name><surname>Iwata</surname><given-names>S</given-names></name></person-group>
+<year>2004</year>
+<article-title>Architecture of the photosynthetic oxygen-evolving center.</article-title>
+<source>Science</source>
+<volume>303</volume>
+<fpage>1831</fpage>
+<lpage>1838</lpage>
+<pub-id pub-id-type="pmid">14764885</pub-id></element-citation></ref><ref id="pone.0000008-Spreitzer1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Spreitzer</surname><given-names>RJ</given-names></name><name><surname>Salvucci</surname><given-names>ME</given-names></name></person-group>
+<year>2002</year>
+<article-title>RUBISCO: structure, regulatory interactions, and possibilities for a better enzyme.</article-title>
+<source>Annu Rev Plant Biol</source>
+<volume>53</volume>
+<fpage>449</fpage>
+<lpage>475</lpage>
+<pub-id pub-id-type="pmid">12221984</pub-id></element-citation></ref><ref id="pone.0000008-Neuhaus1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Neuhaus</surname><given-names>H</given-names></name><name><surname>Link</surname><given-names>G</given-names></name></person-group>
+<year>1987</year>
+<article-title>The chloroplast tRNALys (UUU) gene from mustard (<italic>Sinapsis alba</italic>) contains a class II intron potentially coding for a maturase related polypeptide.</article-title>
+<source>Current Genetics</source>
+<volume>11</volume>
+<fpage>251</fpage>
+<lpage>257</lpage>
+<pub-id pub-id-type="pmid">2834093</pub-id></element-citation></ref><ref id="pone.0000008-Vogel1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vogel</surname><given-names>J</given-names></name><name><surname>H&#x000fc;bschmann</surname><given-names>T</given-names></name><name><surname>B&#x000f6;rner</surname><given-names>T</given-names></name><name><surname>Hess</surname><given-names>WR</given-names></name></person-group>
+<year>1997</year>
+<article-title>Splicing and intron-internal RNA editing of <italic>trnK-matK</italic> transcripts in barley plastids: support for <italic>matK</italic> as an essential splice factor.</article-title>
+<source>J Mol Biol</source>
+<volume>270</volume>
+<fpage>179</fpage>
+<lpage>187</lpage>
+<pub-id pub-id-type="pmid">9236120</pub-id></element-citation></ref><ref id="pone.0000008-Yang1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>Z</given-names></name></person-group>
+<year>1997</year>
+<article-title>PAML: a program package for phylogenetic analysis by maximum likelihood.</article-title>
+<source>Comput Appl Biosci</source>
+<volume>13</volume>
+<fpage>555</fpage>
+<lpage>556</lpage>
+<pub-id pub-id-type="pmid">9367129</pub-id></element-citation></ref><ref id="pone.0000008-Maddison1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maddison</surname><given-names>WP</given-names></name></person-group>
+<year>1997</year>
+<article-title>Gene trees in species trees.</article-title>
+<source>Syst Biol</source>
+<volume>46</volume>
+<fpage>523</fpage>
+<lpage>536</lpage>
+</element-citation></ref><ref id="pone.0000008-Machado1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Machado</surname><given-names>CA</given-names></name><name><surname>Hey</surname><given-names>J</given-names></name></person-group>
+<year>2003</year>
+<article-title>The causes of phylogenetic conflict in a classic <italic>Drosophila</italic> species group.</article-title>
+<source>Proc Biol Sci</source>
+<volume>270</volume>
+<fpage>1193</fpage>
+<lpage>1202</lpage>
+<pub-id pub-id-type="pmid">12816659</pub-id></element-citation></ref><ref id="pone.0000008-Yang2"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>Z</given-names></name><name><surname>Nielsen</surname><given-names>R</given-names></name><name><surname>Goldman</surname><given-names>N</given-names></name><name><surname>Pedersen</surname><given-names>AM</given-names></name></person-group>
+<year>2000</year>
+<article-title>Codon-substitution models for heterogeneous selection pressure at amino acid sites.</article-title>
+<source>Genetics</source>
+<volume>155</volume>
+<fpage>431</fpage>
+<lpage>449</lpage>
+<pub-id pub-id-type="pmid">10790415</pub-id></element-citation></ref><ref id="pone.0000008-Wong1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wong</surname><given-names>WSW</given-names></name><name><surname>Yang</surname><given-names>Z</given-names></name><name><surname>Goldman</surname><given-names>N</given-names></name><name><surname>Nielsen</surname><given-names>R</given-names></name></person-group>
+<year>2004</year>
+<article-title>Accuracy and power of statistical methods for detecting adaptive evolution in protein coding sequences and for identifying positively selected sites.</article-title>
+<source>Genetics</source>
+<volume>168</volume>
+<fpage>1041</fpage>
+<lpage>1051</lpage>
+<pub-id pub-id-type="pmid">15514074</pub-id></element-citation></ref><ref id="pone.0000008-Swanson1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Swanson</surname><given-names>WJ</given-names></name><name><surname>Nielsen</surname><given-names>R</given-names></name><name><surname>Yang</surname><given-names>Q</given-names></name></person-group>
+<year>2003</year>
+<article-title>Pervasive adaptive evolution in mammalian fertilization proteins.</article-title>
+<source>Mol Biol Evol</source>
+<volume>20</volume>
+<fpage>18</fpage>
+<lpage>20</lpage>
+<pub-id pub-id-type="pmid">12519901</pub-id></element-citation></ref><ref id="pone.0000008-Knight1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Knight</surname><given-names>S</given-names></name><name><surname>Andersson</surname><given-names>I</given-names></name><name><surname>Branden</surname><given-names>CI</given-names></name></person-group>
+<year>1990</year>
+<article-title>Crystallographic analysis of ribulose 1,5-bisphosphate carboxylase from spinach at 2.4&#x000c5; resolution.</article-title>
+<source>J Mol Biol</source>
+<volume>215</volume>
+<fpage>113</fpage>
+<lpage>160</lpage>
+<pub-id pub-id-type="pmid">2118958</pub-id></element-citation></ref><ref id="pone.0000008-Yang3"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>Z</given-names></name><name><surname>Wong</surname><given-names>WS</given-names></name><name><surname>Nielsen</surname><given-names>R</given-names></name></person-group>
+<year>2005</year>
+<article-title>Bayes empirical Bayes inference of amino acid sites under positive selection.</article-title>
+<source>Mol Biol Evol</source>
+<volume>22</volume>
+<fpage>1107</fpage>
+<lpage>1118</lpage>
+<pub-id pub-id-type="pmid">15689528</pub-id></element-citation></ref><ref id="pone.0000008-Kellogg1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kellogg</surname><given-names>EA</given-names></name><name><surname>Juliano</surname><given-names>ND</given-names></name></person-group>
+<year>1997</year>
+<article-title>The structure and function of RuBisCO and their implications for systematic studies.</article-title>
+<source>Am J Bot</source>
+<volume>84</volume>
+<fpage>413</fpage>
+<lpage>428</lpage>
+<pub-id pub-id-type="pmid">21708595</pub-id></element-citation></ref><ref id="pone.0000008-Portis1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Portis</surname><given-names>AR</given-names><suffix>Jr</suffix></name></person-group>
+<year>2003</year>
+<article-title>Rubisco activase&#x02013;Rubisco's catalytic chaperone.</article-title>
+<source>Photosynthesis Res</source>
+<volume>75</volume>
+<fpage>11</fpage>
+<lpage>27</lpage>
+</element-citation></ref><ref id="pone.0000008-Dean1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dean</surname><given-names>C</given-names></name><name><surname>Pichersky</surname><given-names>E</given-names></name><name><surname>Dunsmuir</surname><given-names>P</given-names></name></person-group>
+<year>1989</year>
+<article-title>Structure, evolution, and regulation of <italic>RbcS</italic> genes in higher plants.</article-title>
+<source>Annu Rev Plant Physiol Plant Mol Biol</source>
+<volume>40</volume>
+<fpage>415</fpage>
+<lpage>439</lpage>
+</element-citation></ref><ref id="pone.0000008-Roy1"><label>29</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Roy</surname><given-names>H</given-names></name><name><surname>Andrews</surname><given-names>TJ</given-names></name></person-group>
+<year>2000</year>
+<article-title>Rubisco: assembly and mechanism.</article-title>
+<person-group person-group-type="editor"><name><surname>Leegood</surname><given-names>RC</given-names></name><name><surname>Sharkey</surname><given-names>TD</given-names></name><name><surname>von Caemmerer</surname><given-names>S</given-names></name></person-group>
+<source>Photosynthesis: Physiology and Metabolism.</source>
+<publisher-loc>Dordrecht</publisher-loc>
+<publisher-name>Kluwer</publisher-name>
+<fpage>53</fpage>
+<lpage>83</lpage>
+</element-citation></ref><ref id="pone.0000008-Satagopan1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Satagopan</surname><given-names>S</given-names></name><name><surname>Spreitzer</surname><given-names>RJ</given-names></name></person-group>
+<year>2004</year>
+<article-title>Substitutions at the Asp-473 latch residue of <italic>Chlamydomonas</italic> ribulosebisphosphate carboxylase/oxygenase cause decreases in carboxylation efficiency and CO<sub>2</sub>/O<sub>2</sub> specificity.</article-title>
+<source>J Biol Chem</source>
+<volume>279</volume>
+<fpage>14240</fpage>
+<lpage>14244</lpage>
+<pub-id pub-id-type="pmid">14734540</pub-id></element-citation></ref><ref id="pone.0000008-RuizPesini1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ruiz-Pesini</surname><given-names>E</given-names></name><name><surname>Mishmar</surname><given-names>D</given-names></name><name><surname>Brandon</surname><given-names>M</given-names></name><name><surname>Procaccio</surname><given-names>V</given-names></name><name><surname>Wallace</surname><given-names>DC</given-names></name></person-group>
+<year>2004</year>
+<article-title>Effects of purifying and adaptive selection on regional variation in human mtDNA.</article-title>
+<source>Science</source>
+<volume>303</volume>
+<fpage>223</fpage>
+<lpage>226</lpage>
+<pub-id pub-id-type="pmid">14716012</pub-id></element-citation></ref><ref id="pone.0000008-Filatov1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Filatov</surname><given-names>DA</given-names></name><name><surname>Burke</surname><given-names>S</given-names></name></person-group>
+<year>2004</year>
+<article-title>DNA diversity in Hawaiian endemic plant <italic>Schiedea globosa</italic>.</article-title>
+<source>Heredity</source>
+<volume>92</volume>
+<fpage>452</fpage>
+<lpage>458</lpage>
+<pub-id pub-id-type="pmid">15014424</pub-id></element-citation></ref><ref id="pone.0000008-Avise1"><label>33</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Avise</surname><given-names>JC</given-names></name></person-group>
+<year>2004</year>
+<source>Molecular markers, natural history, and evolution.</source>
+<publisher-loc>Sunderland</publisher-loc>
+<publisher-name>Sinauer Ass</publisher-name>
+<fpage>684</fpage>
+</element-citation></ref><ref id="pone.0000008-Ballard1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ballard</surname><given-names>JWO</given-names></name><name><surname>Kreitman</surname><given-names>M</given-names></name></person-group>
+<year>1995</year>
+<article-title>Is mitochondrial DNA a strictly neutral marker?</article-title>
+<source>Trends Ecol Evol</source>
+<volume>10</volume>
+<fpage>485</fpage>
+<lpage>488</lpage>
+<pub-id pub-id-type="pmid">21237113</pub-id></element-citation></ref><ref id="pone.0000008-Doiron1"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Doiron</surname><given-names>S</given-names></name><name><surname>Bernatchez</surname><given-names>L</given-names></name><name><surname>Blier</surname><given-names>PU</given-names></name></person-group>
+<year>2002</year>
+<article-title>A comparative mitogenomic analysis of the potential adaptive value of arctic charr mtDNA introgression in Brook charr populations (<italic>Salvelinus fontinalis</italic> Mitchill).</article-title>
+<source>Mol Biol Evol</source>
+<volume>19</volume>
+<fpage>1902</fpage>
+<lpage>1909</lpage>
+<pub-id pub-id-type="pmid">12411599</pub-id></element-citation></ref><ref id="pone.0000008-Shaw1"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shaw</surname><given-names>J</given-names></name><name><surname>Lickey</surname><given-names>EB</given-names></name><name><surname>Beck</surname><given-names>JT</given-names></name><name><surname>Farmer</surname><given-names>SB</given-names></name><name><surname>Liu</surname><given-names>W</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>The tortoise and the hare II: relative utility of 21 noncoding chloroplast sequences for phylogenetic analysis.</article-title>
+<source>Amer J Bot</source>
+<volume>92</volume>
+<fpage>142</fpage>
+<lpage>166</lpage>
+<pub-id pub-id-type="pmid">21652394</pub-id></element-citation></ref><ref id="pone.0000008-Filatov2"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Filatov</surname><given-names>DA</given-names></name></person-group>
+<year>2002</year>
+<article-title>PROSEQ: A software for preparation and evolutionary analysis of DNA sequence data sets.</article-title>
+<source>Mol Ecol Notes</source>
+<volume>2</volume>
+<fpage>621</fpage>
+<lpage>624</lpage>
+</element-citation></ref><ref id="pone.0000008-Kumar1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kumar</surname><given-names>S</given-names></name><name><surname>Tamura</surname><given-names>K</given-names></name><name><surname>Nei</surname><given-names>M</given-names></name></person-group>
+<year>2004</year>
+<article-title>MEGA3: Integrated software for molecular evolutionary genetics analysis and sequence alignment.</article-title>
+<source>Briefings Bioinformatics</source>
+<volume>5</volume>
+<fpage>150</fpage>
+<lpage>163</lpage>
+</element-citation></ref><ref id="pone.0000008-Parthiban1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parthiban</surname><given-names>V</given-names></name><name><surname>Gromiha</surname><given-names>MM</given-names></name><name><surname>Schomburg</surname><given-names>D</given-names></name></person-group>
+<year>2006</year>
+<article-title>CUPSAT: prediction of protein stability upon point mutations.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>34</volume>
+<fpage>W239</fpage>
+<lpage>242</lpage>
+<pub-id pub-id-type="pmid">16845001</pub-id></element-citation></ref><ref id="pone.0000008-Guex1"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guex</surname><given-names>N</given-names></name><name><surname>Peitsch</surname><given-names>MC</given-names></name></person-group>
+<year>1997</year>
+<article-title>SWISS-MODEL and the Swiss-PdbViewer: An environment for comparative protein modeling.</article-title>
+<source>Electrophoresis</source>
+<volume>18</volume>
+<fpage>2714</fpage>
+<lpage>2723</lpage>
+<pub-id pub-id-type="pmid">9504803</pub-id></element-citation></ref><ref id="pone.0000008-Neshich1"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Neshich</surname><given-names>G</given-names></name><name><surname>Mancini</surname><given-names>AL</given-names></name><name><surname>Yamagishi</surname><given-names>ME</given-names></name><name><surname>Kuser</surname><given-names>PR</given-names></name><name><surname>Fileto</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>STING Report: convenient web-based application for graphic and tabular presentations of protein sequence, structure and function descriptors from the STING database.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>33</volume>
+<fpage>269</fpage>
+<lpage>274</lpage>
+</element-citation></ref><ref id="pone.0000008-Nelson1"><label>42</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Nelson</surname><given-names>DL</given-names></name><name><surname>Cox</surname><given-names>MM</given-names></name></person-group>
+<year>2005</year>
+<source>Lehninger principles of biochemistry,</source>
+<comment>4th edition</comment>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>WH Freeman and Company</publisher-name>
+<fpage>1119</fpage>
+</element-citation></ref><ref id="pone.0000008-Kyte1"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kyte</surname><given-names>J</given-names></name><name><surname>Doolittle</surname><given-names>RF</given-names></name></person-group>
+<year>1982</year>
+<article-title>A simple method for displaying the hydropathic character of a protein.</article-title>
+<source>J Mol Biol</source>
+<volume>157</volume>
+<fpage>105</fpage>
+<lpage>132</lpage>
+<pub-id pub-id-type="pmid">7108955</pub-id></element-citation></ref><ref id="pone.0000008-Grantham1"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grantham</surname><given-names>R</given-names></name></person-group>
+<year>1974</year>
+<article-title>Amino acid difference formula to help explain protein evolution.</article-title>
+<source>Science</source>
+<volume>185</volume>
+<fpage>862</fpage>
+<lpage>864</lpage>
+<pub-id pub-id-type="pmid">4843792</pub-id></element-citation></ref><ref id="pone.0000008-Cunoud1"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cu&#x000e9;noud</surname><given-names>P</given-names></name><name><surname>Savolainen</surname><given-names>V</given-names></name><name><surname>Chatrou</surname><given-names>LW</given-names></name><name><surname>Powell</surname><given-names>M</given-names></name><name><surname>Grayer</surname><given-names>RJ</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Molecular phylogenetics of <italic>Caryophyllales</italic> based on nuclear 18S rDNA and plastid <italic>rbcL, atpB</italic>, and <italic>matK</italic> DNA sequences.</article-title>
+<source>Amer J Bot</source>
+<volume>89</volume>
+<fpage>132</fpage>
+<lpage>144</lpage>
+<pub-id pub-id-type="pmid">21669721</pub-id></element-citation></ref><ref id="pone.0000008-Kadereit1"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kadereit</surname><given-names>G</given-names></name><name><surname>Borsch</surname><given-names>T</given-names></name><name><surname>Weising</surname><given-names>K</given-names></name><name><surname>Freitag</surname><given-names>H</given-names></name></person-group>
+<year>2003</year>
+<article-title>Phylogeny of <italic>Amaranthaceae</italic> and <italic>Chenopodiaceae</italic> and the evolution of C<sub>4</sub> photosynthesis.</article-title>
+<source>Int J Plant Sci</source>
+<volume>164</volume>
+<fpage>959</fpage>
+<lpage>986</lpage>
+</element-citation></ref><ref id="pone.0000008-Taberlet1"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Taberlet</surname><given-names>P</given-names></name><name><surname>Gielly</surname><given-names>L</given-names></name><name><surname>Pautou</surname><given-names>G</given-names></name><name><surname>Bouvet</surname><given-names>J</given-names></name></person-group>
+<year>1991</year>
+<article-title>Universal primers for amplification of three non-coding regions of chloroplast DNA.</article-title>
+<source>Plant Mol Biol</source>
+<volume>17</volume>
+<fpage>1105</fpage>
+<lpage>1109</lpage>
+<pub-id pub-id-type="pmid">1932684</pub-id></element-citation></ref></ref-list></back></article>

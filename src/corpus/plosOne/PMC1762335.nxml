@@ -1,0 +1,396 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183717</article-id><article-id pub-id-type="pmc">1762335</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00317R1</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000086</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Neuroscience/Behavioral Neuroscience</subject><subject>Neuroscience/Cognitive Neuroscience</subject><subject>Neurological Disorders/Cognitive Neurology and Dementia</subject><subject>Neurological Disorders/Movement Disorders</subject><subject>Neurological Disorders/Neurogenetics</subject></subj-group></article-categories><title-group><article-title>Error Processing in Huntington's Disease</article-title><alt-title alt-title-type="running-head">Error Processing in HD</alt-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><name><surname>Beste</surname><given-names>Christian</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Saft</surname><given-names>Carsten</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Andrich</surname><given-names>J&#x000fc;rgen</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Gold</surname><given-names>Ralf</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Falkenstein</surname><given-names>Michael</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution>Leibniz Research Centre for Working Environment and Human Factors, WHO Collaborating Centre for Occupational Health and Human Factors</institution>
+<addr-line>Dortmund, Germany</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>Department of Neurology, Huntington Centre NRW, St. Josef Hospital, Ruhr-University Bochum</institution>
+<addr-line>Bochum, Germany</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Baune</surname><given-names>Bernhard</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">James Cook University, Australia</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>beste@ifado.de</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: CB MF. Performed the experiments: CB. Analyzed the data: CB CS MF. Contributed reagents/materials/analysis tools: CS JA RG. Wrote the paper: CB CS.</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e86</elocation-id><history><date date-type="received"><day>6</day><month>11</month><year>2006</year></date><date date-type="accepted"><day>15</day><month>11</month><year>2006</year></date></history><permissions><copyright-statement>Beste et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><sec><title>Background</title><p>Huntington's disease (HD) is a genetic disorder expressed by a degeneration of the basal ganglia inter alia accompanied with dopaminergic alterations. These dopaminergic alterations are related to genetic factors i.e., CAG-repeat expansion. The error (related) negativity (Ne/ERN), a cognitive event-related potential related to performance monitoring, is generated in the anterior cingulate cortex (ACC) and supposed to depend on the dopaminergic system. The Ne is reduced in Parkinson's Disease (PD). Due to a dopaminergic deficit in HD, a reduction of the Ne is also likely. Furthermore it is assumed that movement dysfunction emerges as a consequence of dysfunctional error-feedback processing. Since dopaminergic alterations are related to the CAG-repeat, a Ne reduction may furthermore also be related to the genetic disease load.</p></sec><sec><title>Methodology/Principle Findings</title><p>We assessed the error negativity (Ne) in a speeded reaction task under consideration of the underlying genetic abnormalities. HD patients showed a specific reduction in the Ne, which suggests impaired error processing in these patients. Furthermore, the Ne was closely related to CAG-repeat expansion.</p></sec><sec><title>Conclusions/Significance</title><p>The reduction of the Ne is likely to be an effect of the dopaminergic pathology. The result resembles findings in Parkinson's Disease. As such the Ne might be a measure for the integrity of striatal dopaminergic output function. The relation to the CAG-repeat expansion indicates that the Ne could serve as a gene-associated &#x0201c;cognitive&#x0201d; biomarker in HD.</p></sec></abstract><counts><page-count count="5"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Huntington's disease (HD) is an autosomal dominant, monogentic neurological disorder causing a degeneration of the neostriatum. The disease is genetically expressed by an extension of the CAG-repeat length at the 4<sup>th</sup> chromosome <xref rid="pone.0000086-Noauthorslisted1" ref-type="bibr">[1]</xref> encoding a large protein, the &#x0201c;huntingtin&#x0201d;. This protein accumulates and causes apoptotic striatal neuronal death <xref rid="pone.0000086-Paulsen1" ref-type="bibr">[2]</xref>. The most obvious sign of HD is chorea: rapid, arrhythmic and complex involuntary movements, which are supposed to be an effect of dysfunctional error-feedback processing <xref rid="pone.0000086-Smith1" ref-type="bibr">[3]</xref>. Besides these motor symptoms, psychiatric and cognitive deterioration appear, finally associated with dementia <xref rid="pone.0000086-Craufurd1" ref-type="bibr">[4]</xref>. HD is accompanied by alterations in the dopaminergic system with a reduction in D1 and D2 receptor density <xref rid="pone.0000086-Ginovart1" ref-type="bibr">[5]</xref>, <xref rid="pone.0000086-Pavese1" ref-type="bibr">[6]</xref>. It is shown that the decreased striatal dopamine receptor content is related to CAG-repeat length <xref rid="pone.0000086-vanOostrom1" ref-type="bibr">[7]</xref>, <xref rid="pone.0000086-Antonini1" ref-type="bibr">[8]</xref>. Also animal studies show a close relation of CAG repeat expansion and dopaminergic alterations <xref rid="pone.0000086-Petersen1" ref-type="bibr">[9]</xref>. Yet besides dopaminergic alterations, other neurotransmitter systems are also affected <xref rid="pone.0000086-Yohrling1" ref-type="bibr">[10]</xref> and neuroanatomical degeneration is wide spread <xref rid="pone.0000086-Gutekunst1" ref-type="bibr">[11]</xref>.</p><p>The dopaminergic system itself is involved in many cognitive processes. One such process most likely depending on the dopamine system is the processing of errors and hence performance monitoring. A means to assess error-related processes is via an event-related potential (ERP), called error negativity (Ne) <xref rid="pone.0000086-Falkenstein1" ref-type="bibr">[12]</xref> or error-related negativity (ERN) <xref rid="pone.0000086-Gehring1" ref-type="bibr">[13]</xref>. A major source of the Ne is located in the medial frontal cortex, especially the anterior cingulate cortex (ACC) <xref rid="pone.0000086-Ridderinkhof1" ref-type="bibr">[14]</xref>&#x02013;<xref rid="pone.0000086-Cohen1" ref-type="bibr">[16]</xref>. The Ne is classically interpreted as the detection of a mismatch or conflict between response representations <xref rid="pone.0000086-Falkenstein1" ref-type="bibr">[12]</xref>, <xref rid="pone.0000086-Gehring1" ref-type="bibr">[13]</xref>, <xref rid="pone.0000086-Cohen1" ref-type="bibr">[16]</xref>, <xref rid="pone.0000086-Carter1" ref-type="bibr">[17]</xref>. Another theory <xref rid="pone.0000086-Holroyd2" ref-type="bibr">[18]</xref> assumes a more general functional significance of the Ne. According to this &#x0201c;<italic>reinforcement learning hypothesis</italic>&#x0201d; the midbrain dopamine system (DA-system) supervises and evaluates evolving events, such as responses. If an event is not as expected (e.g. an incorrect response), the DA-system sends an error signal to the ACC which in turn elicits the Ne. There is converging evidence that the Ne is in fact dependent on the dopaminergic system <xref rid="pone.0000086-Cohen1" ref-type="bibr">[16]</xref>, <xref rid="pone.0000086-Holroyd2" ref-type="bibr">[18]</xref>&#x02013;<xref rid="pone.0000086-Falkenstein2" ref-type="bibr">[22]</xref>. In particular, the Ne is reduced in the most common basal ganglia disease, Parkinson's disease (PD) <xref rid="pone.0000086-Falkenstein2" ref-type="bibr">[22]</xref>, but also a null result is reported <xref rid="pone.0000086-Holroyd4" ref-type="bibr">[23]</xref>. Further, the Ne was found to be reduced in patients with focal basal ganglia lesions <xref rid="pone.0000086-Ullsperger1" ref-type="bibr">[24]</xref>.</p><p>The goal of the present study is to investigate whether patients with HD also show alterations of the Ne as shown in PD. Although, the fundamental deficit is different in the two diseases, i.e. in PD the primary deficit is a reduction of DA-producing cells in the substantia nigra, hence leading to a presynaptic deficit. In HD striatal cells are affected, hence leading to a (post)synaptic deficit. Finally, both Parkinson's and Huntington's disease compromise striatal output function. If the Ne depends on an output signal from the basal ganglia to the ACC, this should also cause a reduction of the Ne in HD. Such a finding would strengthen the evidence that the Ne is related to the integrity of the dopaminergic striatal output and may serve as a measure of this integrity, maybe even define a gene-associated biomarker in HD, since dopaminergic alterations in HD are related to genetic factors (e.g. CAG repeat expansion) <xref rid="pone.0000086-vanOostrom1" ref-type="bibr">[7]</xref>&#x02013;<xref rid="pone.0000086-Petersen1" ref-type="bibr">[9]</xref>.</p></sec><sec id="s2"><title>Methods</title><sec id="s2a"><title>Participants</title><p>Eleven right-handed, unmedicated HD-patients (N&#x0200a;=&#x0200a;11) from 26 to 57 years of age [mean&#x0200a;=&#x0200a;39.81, SD&#x0200a;=&#x0200a;&#x000b1;8.96] genetically confirmed and with manifest symptoms <xref rid="pone.0000086-Huntington1" ref-type="bibr">[25]</xref> participated in the study. A clinical description of the HD-patients is given in <xref ref-type="table" rid="pone-0000086-t001">Table 1</xref>.</p><table-wrap id="pone-0000086-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000086.t001</object-id><label>Table 1</label><caption><title>Clinical description of the HD-patients.</title></caption><graphic xlink:href="pone.0000086.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Patients</td><td align="left" rowspan="1" colspan="1">CAG</td><td align="left" rowspan="1" colspan="1">UHDRS (motor)</td><td align="left" rowspan="1" colspan="1">UHDRS (cognitive)</td><td align="left" rowspan="1" colspan="1">TFC</td><td align="left" rowspan="1" colspan="1">IS</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">52</td><td align="left" rowspan="1" colspan="1">42</td><td align="left" rowspan="1" colspan="1">180</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">70</td></tr><tr><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">40</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">360</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">95</td></tr><tr><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">47</td><td align="left" rowspan="1" colspan="1">32</td><td align="left" rowspan="1" colspan="1">137</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">80</td></tr><tr><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">41</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">143</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">90</td></tr><tr><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">43</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">201</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">90</td></tr><tr><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">50</td><td align="left" rowspan="1" colspan="1">27</td><td align="left" rowspan="1" colspan="1">149</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">90</td></tr><tr><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">51</td><td align="left" rowspan="1" colspan="1">28</td><td align="left" rowspan="1" colspan="1">164</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">90</td></tr><tr><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">41</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">215</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">100</td></tr><tr><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">49</td><td align="left" rowspan="1" colspan="1">25</td><td align="left" rowspan="1" colspan="1">191</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">90</td></tr><tr><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">44</td><td align="left" rowspan="1" colspan="1">44</td><td align="left" rowspan="1" colspan="1">149</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">80</td></tr><tr><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">50</td><td align="left" rowspan="1" colspan="1">27</td><td align="left" rowspan="1" colspan="1">211</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">90</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Mean (SD)</bold>
+</td><td align="left" rowspan="1" colspan="1">46.18(4.49)</td><td align="left" rowspan="1" colspan="1">24.27(12.47)</td><td align="left" rowspan="1" colspan="1">190.90(62.63)</td><td align="left" rowspan="1" colspan="1">12(0.77)</td><td align="left" rowspan="1" colspan="1">87.72(8.17)</td></tr></tbody></table><table-wrap-foot><fn id="nt101"><p>The table depicts values for CAG-repeat, UHDRS motor score (UHDRS (motor)) <xref rid="pone.0000086-Huntington1" ref-type="bibr">[25]</xref>, UHDRS cognitive score (UHDRS (cognitive)), total functional capacity scale (TFC) and independence scale (IS) for each single patient and the whole HD-group with mean and standard deviation (SD).</p></fn></table-wrap-foot></table-wrap><p>Psychiatric assessment showed that there was no manifest depression as indicated by the <italic>Beck Depression Inventory</italic> (BDI) [mean&#x0200a;=&#x0200a;6.54; SD&#x0200a;=&#x0200a;&#x000b1;4.36]. Assessment using the <italic>Young Mania Rating Scale</italic> for adults (YMRS) revealed no mania [mean&#x0200a;=&#x0200a;4.63; SD&#x0200a;=&#x0200a;&#x000b1;3.50]. Cognitive screening for dementia using the <italic>Mini Mental Status Examination</italic> (MMSE) revealed no dementia [mean&#x0200a;=&#x0200a;27.09; SD&#x0200a;=&#x0200a;&#x000b1;2.11]. Furthermore 12 healthy controls were from 26 to 57 years of age were recruited (mean&#x0200a;=&#x0200a;38.12; SD&#x0200a;=&#x0200a;&#x000b1;7.56). The same psychiatric assessment using the BDI revealed no depression [mean&#x0200a;=&#x0200a;1.83; SD&#x0200a;=&#x0200a;&#x000b1;1.46] or any mania [mean&#x0200a;=&#x0200a;1.16; SD&#x0200a;=&#x0200a;&#x000b1;0.83] as revealed by the YMRS. Both groups had a comparable educational background. All participants gave written informed consent. The study was approved by the ethics committee of the University of Bochum.</p></sec><sec id="s2b"><title>Task</title><p>To measure error-related processing we used a &#x0201c;<italic>Flanker Task</italic>&#x0201d; <xref rid="pone.0000086-Kopp1" ref-type="bibr">[26]</xref> which reliably yields a high percentage of errors. This task was similar to one of the three tasks used in the cited PD-study <xref rid="pone.0000086-Falkenstein2" ref-type="bibr">[22]</xref>. In the present task vertically arranged visual stimuli were presented. The target-stimulus (arrowhead or circle) was presented in the center with the arrowhead pointing to the right or left. The central stimuli were flanked by two vertically adjacent arrowheads which pointed in the same (compatible) or opposite (incompatible) direction as the target. The flankers preceded the target by 100 ms to maximize premature responding to the flankers, which would result in errors in the incompatible and Nogo condition. The target was displayed for 300 ms. The response-stimulus interval was 1600 ms. Flankers and target were switched off simultaneously. Time pressure was administered by asking the subjects to respond within 550 ms. In trials with reaction times exceeding this deadline a feedback stimulus (1000 Hz, 60 dB SPL) was given 1200 ms after the response; this stimulus had to be avoided by the subjects. Four blocks of 105 stimuli each were presented in this task. Compatible (60&#x00025;) and incompatible stimuli (20&#x00025;) and Nogo-stimuli (circle) (20&#x00025;) were presented randomly. The subjects had to react with the thumb depending on the direction of the central arrowhead and to refrain from responding to circles. The Nogo trial data were not further evaluated within the present study, which focused on error processing and not on inhibition.</p></sec><sec id="s2c"><title>EEG recording and analysis</title><p>During the task the EEG was recorded from 32 electrodes (Ag/AgCl) (Fpz, Fp1, Fp2, Fz, F3, F4, F7, F8, FCz, FC3, FC4, FC5, FC6, Cz, C3, C4, C7, C8, Pz, P3, P4, P7, P8, Oz, O1, O2, M1, M2), two lateral and four vertical EOG electrodes (sampling rate: 500 Hz). Cz was used as primary reference. The filter bandwidth was from DC to 80 Hz. Impedances were kept below 8 k&#x003a9;. The EEG was digitally filtered using a 0.10 Hz high-pass and 20 Hz low-pass filter. From the EEG response-locked ERPs were computed, beginning 400 ms before and ending 700 ms after the correct or incorrect response. After this, eye movement artifacts were corrected with the Gratton-Coles-Algorithm using the EOG data <xref rid="pone.0000086-Gratton1" ref-type="bibr">[27]</xref>, followed by a baseline correction (&#x02212;200 ms - 0 ms [i.e. response]). Remaining artifacts were rejected using an amplitude criterion of &#x000b1;80 &#x000b5;V followed by re-referencing all data to linked mastoids. The Nogo trial data were not further evaluated. The amplitude of the Ne in error trials and of the CRN in the correct trials was measured relative to the peak of the positivity, which precedes both components <xref rid="pone.0000086-Kopp1" ref-type="bibr">[26]</xref>, <xref rid="pone.0000086-Falkenstein3" ref-type="bibr">[28]</xref>, <xref rid="pone.0000086-Gehring2" ref-type="bibr">[29]</xref>.</p></sec><sec id="s2d"><title>Statistics</title><p>Peak-to-peak amplitudes were subjected to a repeated-measures ANOVA with electrode (Fz, Fcz, Cz) and correctness (right/false) as within-subject factors and group (HD, controls) as between-subject factor. The degrees of freedom were adjusted using the Greenhouse-Geisser-Correction when appropriate. In addition, separate univariate ANOVAs of the post-response negativities after false (i.e. the Ne/ERN) were conducted at electrodes Fz, FCz and Cz with the between-subject factor group. For these analyses Bonferroni-corrections were applied. Tests of normal distribution using the Kolmogorov-Smirnov Test revealed that each variable included to the ANOVAs was normal distributed (all z&#x0003c;0.883; <italic>p</italic>&#x0003e;.205; one-tailed). Because of higher test-power, one-tailed tests were used. As a measure of variability the standard deviation (SD) together with the mean is given.</p></sec></sec><sec id="s3"><title>Results</title><sec id="s3a"><title>Behavioral data</title><p>The analysis of the reaction time (RT) revealed that the HD-group reacted more slowly than the control group in correct responses (c-RT) [HD: 420.74 ms&#x000b1;13.96] [controls: 324.19 ms&#x000b1;13.36] (F(1,219&#x0200a;=&#x0200a;24.94; <italic>p</italic>&#x0003c;.001). The same was apparent for the error responses (f-RT) [HD: 330.34 ms&#x000b1;60.66] [controls: 259.12 ms&#x000b1;35.59] (F(1,12)&#x0200a;=&#x0200a;12.04; <italic>p</italic>&#x0200a;=&#x0200a;.002). Both groups did not differ with respect to the frequency of errors [HD: 20.72&#x000b1;9.50] [controls: 25.33&#x000b1;10.25] (F(1,21)&#x0200a;=&#x0200a;1.24; <italic>p</italic>&#x0200a;=&#x0200a;.278). RTs of correct responses after an error was committed (post-RT) are generally prolonged, which reflects the behavioral adaptation after an error. Therefore we subjected the mean reaction time of all correct responses and those after an error as within-subject factor to a repeated measure ANOVA with group as between-subject factor. Post-RTs [402.41 ms&#x000b1;16.27], were significantly longer than c-RTs [372.46 ms&#x000b1;9.66] (F(1,21)&#x0200a;=&#x0200a;7.26; <italic>p</italic>&#x0200a;=&#x0200a;.014); no interaction with the factor group (F(1,21)&#x0200a;=&#x0200a;1.37; p&#x0200a;=&#x0200a;.255) was obtained.</p></sec><sec id="s3b"><title>Electrophysiological data</title><p>The potentials of the Ne and the CRN are given in <xref ref-type="fig" rid="pone-0000086-g001">Figure 1</xref>. The response-related negative potential differed significantly between the electrodes (F(2,42)&#x0200a;=&#x0200a;41.61; p&#x0003c;.001). Response-related negativities were larger at Fz [&#x02212;6.49 &#x000b5;V] and FCz [&#x02212;7.05 &#x000b5;V] compared to Cz [&#x02212;3.62 &#x000b5;V] (<italic>p</italic>&#x0003c;.001). Fz and FCz did not differ from each other (<italic>p</italic>&#x0200a;=&#x0200a;.331). Furthermore the groups differed with respect to the activity at the different electrodes, as reflected in a group by electrode interaction (F(2,42)&#x0200a;=&#x0200a;5.75; <italic>p</italic>&#x0200a;=&#x0200a;.006). As expected, the brain potentials strongly differed between correct and error responses (F(1,21)&#x0200a;=&#x0200a;37.70; <italic>p</italic>&#x0003c;.001). This effect differed between groups, as reflected in a group by correctness interaction (F(1,21)&#x0200a;=&#x0200a;5.56; <italic>p</italic>&#x0200a;=&#x0200a;.028). A subsequent simple-effects analysis revealed that the factor group was significant for error responses (F(1,21)&#x0200a;=&#x0200a;8.39; <italic>p</italic>&#x0200a;=&#x0200a;.009) but not for correct responses (F(1,21)&#x0200a;=&#x0200a;0.009; <italic>p</italic>&#x0200a;=&#x0200a;.925). The separate ANOVA for the Ne (i.e. error responses) at electrode FCz (where the Ne is usually maximum) showed that the Ne was smaller in HDs [&#x02212;8.61&#x000b1;3.51] than in controls [&#x02212;12.75&#x000b1;5.27] (F(1,21)&#x0200a;=&#x0200a;4.78; <italic>p</italic>&#x0200a;=&#x0200a;.040) (<xref ref-type="fig" rid="pone-0000086-g001">Fig. 1 top</xref>). Similar but even larger effects were seen at Fz [HD: &#x02212;6.70&#x000b1;2.20] [controls: &#x02212;11.56&#x000b1;4.10] (F(1,21)&#x0200a;=&#x0200a;12.19; <italic>p</italic>&#x0200a;=&#x0200a;.002) and Cz [HD: &#x02212;3.34&#x000b1;0.90] [controls: &#x02212;5.48&#x000b1;1.80] (F(1,219&#x0200a;=&#x0200a;12.51; <italic>p</italic>&#x0200a;=&#x0200a;.002) (<xref ref-type="fig" rid="pone-0000086-g001">Fig. 1 bottom</xref>). To check the possibility that the reduction of the Ne in HD patients is due to a larger latency variance we measured the Ne latency in single low-pass filtered error trials <xref rid="pone.0000086-Falkenstein2" ref-type="bibr">[22]</xref>. The intrasubject variances of the negative peak latencies for the electrode Fz and FCz were subjected into a repeated measures ANOVA with the between-subject factor group. The intrasubject variances of the negative peak latencies did not differ neither between the electrodes (F(1,21)&#x0200a;=&#x0200a;0.005; <italic>p</italic>&#x0200a;=&#x0200a;.943) nor when the factor group was taken into account, too (F(1,21)&#x0200a;=&#x0200a;1.008; <italic>p</italic>&#x0200a;=&#x0200a;.327). The main effect group showed that both groups also did not differ with respect to intrasubject variances (F(1,21)&#x0200a;=&#x0200a;2.88; <italic>p</italic>&#x0200a;=&#x0200a;.104). The most well-known ERP is the P300. Analyzing this component at electrode Pz across the time window from 200 till 500 ms revealed no difference between the groups [controls: 9.22&#x000b1;0.93] [HD: 7.15&#x000b1;0.97] (F(1,21)&#x0200a;=&#x0200a;1.60; <italic>p</italic>&#x0200a;=&#x0200a;.219).</p><fig id="pone-0000086-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000086.g001</object-id><label>Figure 1</label><caption><title>Event-related potentials of the Ne/ERN and CRN.</title><p>The Ne/ERN (false responses) and CRN (correct responses) for HD and controls at electrode FCz (top) and at Fz (bottom).</p><p>The x-axis denotes time in milliseconds (ms).</p><p>The y-axis denotes voltage in &#x000b5;V.</p><p>The bar plots denote significant differences in the peak-to-peak amplitude of the Ne/ERN between the groups for the electrodes FCz (left) and Fz (right).</p></caption><graphic xlink:href="pone.0000086.g001"/></fig><p>In a second step we analyzed the relation of genetic factors to the Ne. For this purpose we used the CAG-index, i.e. the number of triplets in excess (CAG<sub>n</sub> &#x02013; 35.5), multiplied by the age of the patient. The CAG-index is an expression of genetic disease load normalized to each individual <xref rid="pone.0000086-Paulsen1" ref-type="bibr">[2]</xref>, <xref rid="pone.0000086-SanchezPernaute1" ref-type="bibr">[30]</xref>. The mean CAG-index was 403.81 (SD&#x0200a;=&#x0200a;154.34). For correlational purposes we used electrode Fz (which showed the maximum group effect on Ne amplitude) and FCz (the usual maximum of the Ne). Pearson-correlation revealed that the CAG-index was correlated with the peak-to-peak amplitude of the Ne at Fz (<italic>r</italic>&#x0200a;=&#x0200a;.872, <italic>R</italic>
+<sup>2</sup>&#x0200a;=&#x0200a;0.75; <italic>p</italic>&#x0003c;.001) (<xref ref-type="fig" rid="pone-0000086-g002">Figure 2</xref>).</p><fig id="pone-0000086-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000086.g002</object-id><label>Figure 2</label><caption><title>The Relation of the Ne peak-to-peak amplitude at Fz and CAG-index.</title><p>This figure shows a linear relation of the Ne peak-to-peak amplitude at electrode Fz with the CAG-index, derived via (CAG<sub>n</sub> &#x02013; 35.5) &#x000d7; &#x0201c;age of the patient&#x0201d; <xref rid="pone.0000086-Paulsen1" ref-type="bibr">[see: 2]</xref>, <xref rid="pone.0000086-SanchezPernaute1" ref-type="bibr">30]</xref>.</p></caption><graphic xlink:href="pone.0000086.g002"/></fig><p>A similar but smaller correlation was found for FCz (<italic>r</italic>&#x0200a;=&#x0200a;.603, <italic>R</italic>
+<sup>2</sup>&#x0200a;=&#x0200a;0.36; <italic>p</italic>&#x0200a;=&#x0200a;.025). However, one can argue that this correlation might be driven by two outliers, but a further analysis excluding these outliers also showed a significant relation of the Ne at Fz (r&#x0200a;=&#x0200a;.645, <italic>R</italic>
+<sup>2</sup>&#x0200a;=&#x0200a;0.40; <italic>p</italic>&#x0200a;=&#x0200a;.030) and FCz (r&#x0200a;=&#x0200a;.371, <italic>R</italic>
+<sup>2</sup>&#x0200a;=&#x0200a;0.13; <italic>p</italic>&#x0200a;=&#x0200a;.045). The Ne is known to show age-dependent variations <xref rid="pone.0000086-Falkenstein2" ref-type="bibr">[22]</xref>, which might be critical when using the age of the patient in the calculation of the CAG-index. However, the repeat itself was correlated to the Ne at Fz (r&#x0200a;=&#x0200a;.663, <italic>R</italic>
+<sup>2</sup>&#x0200a;=&#x0200a;0.43; <italic>p</italic>&#x0200a;=&#x0200a;.013) and FCz (r&#x0200a;=&#x0200a;.541, <italic>R</italic>
+<sup>2</sup>&#x0200a;=&#x0200a;0.29; <italic>p</italic>&#x0200a;=&#x0200a;.043) indicating that &#x0201c;age&#x0201d; is not the driving factor in this correlation. This is supported by the fact that even &#x0201c;age&#x0201d; itsself was uncorrelated with Ne at Fz (r&#x0200a;=&#x0200a;.050, <italic>R</italic>
+<sup>2</sup>&#x0200a;=&#x0200a;0.25; p&#x0200a;=&#x0200a;.442) and FCz (r&#x0200a;=&#x0200a;&#x02212;.124, <italic>R</italic>
+<sup>2</sup>&#x0200a;=&#x0200a;0.14; <italic>p</italic>&#x0200a;=&#x0200a;.358). Furthermore it could be argued that the Ne reflects the progression of disease and only to a lesser extend the genetic processes. To meet this objection we calculated the correlation of the Ne with the time span since motor age of onset, as an estimate of disease progression. It can be seen that this factor was not related to the Ne at Fz (r&#x0200a;=&#x0200a;.379, <italic>R</italic>
+<sup>2</sup>&#x0200a;=&#x0200a;0.13; <italic>p</italic>&#x0200a;=&#x0200a;.125) and FCz (r&#x0200a;=&#x0200a;&#x02212;.099, <italic>R</italic>
+<sup>2</sup>&#x0200a;=&#x0200a;0.08; <italic>p</italic>&#x0200a;=&#x0200a;386).</p><p>Besides CAG-repeat length, parental age of onset <xref rid="pone.0000086-Ranen1" ref-type="bibr">[31]</xref>, <xref rid="pone.0000086-Duyao1" ref-type="bibr">[32]</xref> as well as paternal vs. maternal transmission <xref rid="pone.0000086-Ranen1" ref-type="bibr">[31]</xref> is of strong influence in and presumably reflects additional genetic and/or environmental influences <xref rid="pone.0000086-Wexler1" ref-type="bibr">[33]</xref>. Therefore we subjected CAG-index, parental age of onset as well as paternal vs. maternal transmission as independent variables to a stepwise linear regression analysis with the Ne/ERN as dependent variable. The results show that the incorporation of these additional parameters did not increase the amount of explained variance, as shown by the partial correlations (parental age of onset: r&#x0200a;=&#x0200a;.605; <italic>p</italic>&#x0200a;=&#x0200a;.112) (paternal vs. maternal transmission: r&#x0200a;=&#x0200a;&#x02212;.063; <italic>p</italic>&#x0200a;=&#x0200a;.882).</p></sec></sec><sec id="s4"><title>Discussion</title><p>In this study we examined an ERP related to error-processing (Ne) likely dependent on the dopaminergic system in HD and its relation to genetic factors. Deficits in this cognitive function are assumed to play a major role in the emergence of motor symptoms in HD <xref rid="pone.0000086-Smith1" ref-type="bibr">[3]</xref>. We showed that (i) the Ne was reduced in HD compared to healthy controls and (ii) that this alteration was specific for the error trials (i.e. for the Ne) and related to genetics.</p><p>The behavioral data indicated that both groups committed a comparable amount of errors. Thus the group differences in the ERP are unbiased by the frequency of errors. Furthermore the HD group showed no psychiatric pathology (e.g. depression), which might also have influenced the results <xref rid="pone.0000086-Jazbec1" ref-type="bibr">[34]</xref>. The behavioral data of the present study suggest that the HD patients are able to perform behavioral adaptation; in spite they have a reduced Ne. This is in line with the finding that healthy old subjects usually show a larger post-error slowing than young controls, despite a clear reduction of their Ne <xref rid="pone.0000086-Falkenstein2" ref-type="bibr">[22]</xref>, which either suggests that the process reflected in the Ne is not driving the posterror slowing, or that it operates adequately also in the patients, even when its strength is reduced.</p><p>The pattern of results, namely a reduced Ne but unaffected CRN closely resembles findings with Parkinson' disease <xref rid="pone.0000086-Falkenstein2" ref-type="bibr">[22]</xref>. In those patients the Ne, but not the CRN (and the Pe <xref rid="pone.0000086-Falkenstein4" ref-type="bibr">[35]</xref>) were reduced compared to healthy control subjects. This strongly suggests a similar mechanism underlying the Ne decrease in Parkinson's and Huntington's disease. The reduction in the Ne in HD can be explained by the alterations in the dopaminergic system, which is prominent in HD <xref rid="pone.0000086-Ginovart1" ref-type="bibr">[5]</xref>, <xref rid="pone.0000086-Pavese1" ref-type="bibr">[6]</xref>, because the Ne and hence error-processing is determined by the dopaminergic system as stated by other findings in psychiatric and neurological diseases <xref rid="pone.0000086-Cohen1" ref-type="bibr">[16]</xref>, <xref rid="pone.0000086-Holroyd2" ref-type="bibr">[18]</xref>&#x02013;<xref rid="pone.0000086-Falkenstein2" ref-type="bibr">[22]</xref>, <xref rid="pone.0000086-Ullsperger2" ref-type="bibr">[36]</xref>. The importance of the dopaminergic deficit is underlined by the finding that the P300 did not differ between the groups, which has consistently been shown to be unrelated to the dopaminergic system <xref rid="pone.0000086-FrodlBauch1" ref-type="bibr">[37]</xref>. As already mentioned in the introduction, the pathophysiology in Parkinson's and Huntington's disease is different: in PD the primary alteration is a depletion of dopamine, i.e. a presynaptic dysfunction. In contrast, in HD, the deficit lies in the striatal cells themselves. It is well documented in HD that underlying genetic factors (i.e. CAG repeat length) are related to dopaminergic alterations at the receptor level <xref rid="pone.0000086-vanOostrom1" ref-type="bibr">[7]</xref>&#x02013;<xref rid="pone.0000086-Petersen1" ref-type="bibr">[9]</xref>, i.e. a strong reduction of DA receptor density in the striatum. Hence we assume that the most likely common cause of the Ne reduction in PD and HD is an impaired functioning of striatal DA system, either via a presynaptic DA depletion (in PD) or a postsynaptic (receptor) deficit (in HD). As such the Ne migth serve as an easy deriveable measure of the integrity of the dopaminergic striatial output function. The fact that the Ne was related to the CAG repeat mutation, which is in turn related to the receptor density/integrity <xref rid="pone.0000086-vanOostrom1" ref-type="bibr">[7]</xref>&#x02013;<xref rid="pone.0000086-Petersen1" ref-type="bibr">[9]</xref>, further supports the dependence of the Ne on striatal DA system (receptor) functioning. This interpretation is supported by older findings in HD in which there was no change in the levels of free-available dopamine <xref rid="pone.0000086-Reynolds1" ref-type="bibr">[38]</xref>, <xref rid="pone.0000086-Melamed1" ref-type="bibr">[39]</xref> that could have influenced the results. Furthermore the findings of an altered Ne in ADHD <xref rid="pone.0000086-Liotti1" ref-type="bibr">[19]</xref> and the effects of alcohol consumption <xref rid="pone.0000086-Holroyd2" ref-type="bibr">[18]</xref>, <xref rid="pone.0000086-Ridderinkhof2" ref-type="bibr">[21]</xref> are also in line with our interpretation, because ADHD is known to show alterations at the receptor level and the effects of alcohol are mediated at this level, too. However, besides the fact that striatal cells are affected in HD, which might lead to the reduction of the Ne, research indicates that also the functioning of the ACC itself is altered <xref rid="pone.0000086-Reading1" ref-type="bibr">[40]</xref>, <xref rid="pone.0000086-Bartenstein1" ref-type="bibr">[41]</xref>. Since the ACC is known to be a source of the Ne, the reduction of the Ne could also be due to dysfunction in the ACC. Although the precise neuroanatomical location underlying the Ne-reduction is uncertain it is likely that the dopaminergic deficit is the driving force for the Ne-alteration in HD. Irrespective of anatomical location (striatum or ACC), the dopamine system (receptor) reduction seems to be of importance.</p><p>As stated above we found a correlation of the Ne with the underlying genetic alteration in HD suggesting for a relationship of genes and cognition. Since the CAG-index is age-related, it might be argued that the correlation simply reflect the reduction of the Ne with advanced age <xref rid="pone.0000086-Falkenstein2" ref-type="bibr">[22]</xref>. However, even when we used the CAG-repeat (which is independent of age), the correlation remained significant. Also, we found no significant correlation between the age of the subjects and Ne amplitude. The correlation with the Ne amplitude can also not be attributed to be biased due to the progression of disease, since this parameter was not related to the Ne. This strongly suggests that age or disease progression per se cannot explain the high correlation found in our study. As such the relation indicates that the Ne might be used as a gene-associated cognitive biomarker in HD. We assume that this is possible in this case, because a monogenetic factor (CAG-repeat) influences the integrity of the dopaminergic (receptor) system in the basal ganglia. This in turn influences error processing measured by the Ne. The dopaminergic alteration serves as a mediator between genetic and cognitive processes. Generalizing the current results of the genetic relation of the Ne it may be hypothesized that any cognitive process can be related to genetic factors, if it relies on predominantly one neurofunctional system with this system prevailingly being influenced by genetics. However, we cannot completely rule out that changes in other neurotransmitter systems <xref rid="pone.0000086-Yohrling1" ref-type="bibr">[10]</xref> or the wide spread neuropathology <xref rid="pone.0000086-Gutekunst1" ref-type="bibr">[11]</xref> also have an influence, but because of the accordance of these results with results in Parkinson's disease and the relation to the genetic factors, we think that the dopaminergic pathology is most important. In similar vein, the limited sample size may also possibly seem critical.</p><sec id="s4a"><title>Perspectives</title><p>An important practical consequence from the results is that a simple electrophysiological measure as the Ne might be useful to evaluate dopamine (receptor) functioning in the striatum, or the effects of pharmacological treatment <xref rid="pone.0000086-Capuron1" ref-type="bibr">[42]</xref>, <xref rid="pone.0000086-Zirnheld1" ref-type="bibr">[43]</xref>. Since we were not able to include a direct measure of the dopamine receptor integrity (e.g. via PET scans) this may seem somewhat speculative. Hence we think that electrophysiological techniques (e.g. ERPs) can have useful applications in interdisciplinary neuroscientific research. Based upon the current results further research should focus on the presymptomatic stage to disentangle possible <italic>early</italic> &#x0201c;cognitive biomarkers&#x0201d; that might lead to a better understanding of the processes taking place in this phase and might have useful clinical applications in presymptomatic disease care. Furthermore the relation to other biomarkers in HD <xref rid="pone.0000086-Rachakonda1" ref-type="bibr">[44]</xref> should be evaluated.</p></sec><sec id="s4b"><title>Conclusions</title><p>In the current study we accounted for a reduction of a cognitive event-related potential (i.e. Ne) in HD, which was related to the underlying genetic alteration. Thus the Ne may be treated as an easy derivable gene-associated cognitive biomarker in HD.</p></sec></sec></body><back><ack><p>The previous support of Prof. Przuntek and his great enthusiasm in founding the HD unit are gratefully acknowledged. We thank all participants for their participation and V. Boyd for linguistic improvements to the manuscript. We thank L. Blanke for commited technical assistance.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>The study was funded by a grant from the Univerisity of Bochum (FoRUM AZ-F479-2005). The funders played no role in design and conduction of the study, as well as in the collection, analysis or interpretation of the data. The same is the case for preparation, review and approval of the manuscript.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000086-Noauthorslisted1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>No authors listed</surname></name></person-group>
+<year>1993</year>
+<article-title>A novel gene containing a trinucleotide repeat that is expanded and unstable on Huntington's disease chromosomes. The Huntington's Disease Collaborative Research Group.</article-title>
+<source>Cell</source>
+<volume>72</volume>
+<fpage>971</fpage>
+<lpage>983</lpage>
+<pub-id pub-id-type="pmid">8458085</pub-id></element-citation></ref><ref id="pone.0000086-Paulsen1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paulsen</surname><given-names>JS</given-names></name><name><surname>Zhao</surname><given-names>H</given-names></name><name><surname>Stout</surname><given-names>JC</given-names></name><name><surname>Brinkman</surname><given-names>RR</given-names></name><name><surname>Guttman</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Clinical markers of early disease in persons near onset of Huntington's disease.</article-title>
+<source>Neurology</source>
+<volume>57</volume>
+<fpage>658</fpage>
+<lpage>662</lpage>
+<pub-id pub-id-type="pmid">11524475</pub-id></element-citation></ref><ref id="pone.0000086-Smith1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>MA</given-names></name><name><surname>Brandt</surname><given-names>J</given-names></name><name><surname>Shadmehr</surname><given-names>R</given-names></name></person-group>
+<year>2000</year>
+<article-title>Motor disorder in Huntington's disease begins as a dysfunction in error feedback control.</article-title>
+<source>Nature</source>
+<volume>403</volume>
+<fpage>544</fpage>
+<lpage>549</lpage>
+<pub-id pub-id-type="pmid">10676962</pub-id></element-citation></ref><ref id="pone.0000086-Craufurd1"><label>4</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Craufurd</surname><given-names>D</given-names></name><name><surname>Snowden</surname><given-names>J</given-names></name></person-group>
+<year>2002</year>
+<article-title>Neuropsychological and neuropsychiatric aspects of Huntington's Disease.</article-title>
+<person-group person-group-type="editor"><name><surname>Bates</surname><given-names>G</given-names></name><name><surname>Harper</surname><given-names>P</given-names></name><name><surname>Jones</surname><given-names>L</given-names></name></person-group>
+<source>Huntington's Disease.</source>
+<comment>3<sup>rd</sup> edition.</comment>
+<publisher-loc>Oxford</publisher-loc>
+<publisher-name>Oxford University Press</publisher-name>
+<fpage>62</fpage>
+<lpage>94</lpage>
+</element-citation></ref><ref id="pone.0000086-Ginovart1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ginovart</surname><given-names>N</given-names></name><name><surname>Lundin</surname><given-names>A</given-names></name><name><surname>Farde</surname><given-names>L</given-names></name></person-group>
+<year>1997</year>
+<article-title>PET study of the pre- and post-synaptic dopaminergic markers for the neurodegenerative process in Huntington's disease.</article-title>
+<source>Brain</source>
+<volume>120</volume>
+<fpage>503</fpage>
+<lpage>514</lpage>
+<pub-id pub-id-type="pmid">9126061</pub-id></element-citation></ref><ref id="pone.0000086-Pavese1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pavese</surname><given-names>N</given-names></name><name><surname>Andrews</surname><given-names>TC</given-names></name><name><surname>Brooks</surname><given-names>DJ</given-names></name><name><surname>Ho</surname><given-names>AK</given-names></name><name><surname>Rosser</surname><given-names>AE</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Progressive striatal and cortical dopamine receptor dysfunction in Huntington's disease: a PET study.</article-title>
+<source>Brain</source>
+<volume>126</volume>
+<fpage>1127</fpage>
+<lpage>1135</lpage>
+<pub-id pub-id-type="pmid">12690052</pub-id></element-citation></ref><ref id="pone.0000086-vanOostrom1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van Oostrom</surname><given-names>JC</given-names></name><name><surname>Maquire</surname><given-names>RP</given-names></name><name><surname>Verschuuren-Bemelmans</surname><given-names>CC</given-names></name><name><surname>Veenma-van der Duin</surname><given-names>L</given-names></name><name><surname>Pruim</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Striatal dopamine D2 receptors, metabolism, and volume in preclinical Huntington disease.</article-title>
+<source>Neurology</source>
+<volume>65</volume>
+<fpage>941</fpage>
+<lpage>943</lpage>
+<pub-id pub-id-type="pmid">16186542</pub-id></element-citation></ref><ref id="pone.0000086-Antonini1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Antonini</surname><given-names>A</given-names></name><name><surname>Leenders</surname><given-names>KL</given-names></name><name><surname>Eidelberg</surname><given-names>D</given-names></name></person-group>
+<year>1998</year>
+<article-title>[11C]raclopride-PET studies of the Huntington's disease rate of progression: relevance of the trinucleotide repeat length.</article-title>
+<source>Ann Neurol</source>
+<volume>43</volume>
+<fpage>253</fpage>
+<lpage>255</lpage>
+<pub-id pub-id-type="pmid">9485067</pub-id></element-citation></ref><ref id="pone.0000086-Petersen1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Petersen</surname><given-names>A</given-names></name><name><surname>Larsen</surname><given-names>KE</given-names></name><name><surname>Behr</surname><given-names>GG</given-names></name></person-group>
+<year>2001</year>
+<article-title>Expanded CAG repeats in exon 1 of the Huntington's disease gene stimulate dopamine-mediated striatal neuron autophagy and degeneration.</article-title>
+<source>Hum Mol Genet</source>
+<volume>10</volume>
+<fpage>1243</fpage>
+<lpage>1254</lpage>
+<pub-id pub-id-type="pmid">11406606</pub-id></element-citation></ref><ref id="pone.0000086-Yohrling1"><label>10</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Yohrling</surname><given-names>GJ</given-names><suffix>4th</suffix></name><name><surname>Cha</surname><given-names>JHJ</given-names></name></person-group>
+<year>2002</year>
+<article-title>Neurochemistry of Huntington's disease.</article-title>
+<person-group person-group-type="editor"><name><surname>Bates</surname><given-names>G</given-names></name><name><surname>Harper</surname><given-names>P</given-names></name><name><surname>Jones</surname><given-names>L</given-names></name></person-group>
+<source>Huntington's Disease.</source>
+<comment>3<sup>rd</sup> edition.</comment>
+<publisher-loc>Oxford</publisher-loc>
+<publisher-name>Oxford University Press</publisher-name>
+<fpage>276</fpage>
+<lpage>309</lpage>
+</element-citation></ref><ref id="pone.0000086-Gutekunst1"><label>11</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Gutekunst</surname><given-names>CA</given-names></name><name><surname>Norflus</surname><given-names>F</given-names></name><name><surname>Hersch</surname><given-names>SM</given-names></name></person-group>
+<year>2002</year>
+<article-title>The neuropathology of Huntington's disease.</article-title>
+<person-group person-group-type="editor"><name><surname>Bates</surname><given-names>G</given-names></name><name><surname>Harper</surname><given-names>P</given-names></name><name><surname>Jones</surname><given-names>L</given-names></name></person-group>
+<source>Huntington's Disease.</source>
+<comment>3<sup>rd</sup> edition.</comment>
+<publisher-loc>Oxford</publisher-loc>
+<publisher-name>Oxford University Press</publisher-name>
+<fpage>251</fpage>
+<lpage>275</lpage>
+</element-citation></ref><ref id="pone.0000086-Falkenstein1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Falkenstein</surname><given-names>M</given-names></name><name><surname>Hohnsbein</surname><given-names>J</given-names></name><name><surname>Hoormann</surname><given-names>J</given-names></name><name><surname>Blanke</surname><given-names>L</given-names></name></person-group>
+<year>1991</year>
+<article-title>Effects of crossmodal divided attention on late ERP components. II. Error processing in choice reaction tasks.</article-title>
+<source>Electroencephalogr Clin Neurophysiol</source>
+<volume>78</volume>
+<fpage>447</fpage>
+<lpage>455</lpage>
+<pub-id pub-id-type="pmid">1712280</pub-id></element-citation></ref><ref id="pone.0000086-Gehring1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gehring</surname><given-names>WJ</given-names></name><name><surname>Goss</surname><given-names>B</given-names></name><name><surname>Coles</surname><given-names>MGH</given-names></name><name><surname>Meyer</surname><given-names>DE</given-names></name><name><surname>Donchin</surname><given-names>E</given-names></name></person-group>
+<year>1993</year>
+<article-title>A neural system for error detection and compensation.</article-title>
+<source>Psychol Sci</source>
+<volume>4</volume>
+<fpage>385</fpage>
+<lpage>390</lpage>
+</element-citation></ref><ref id="pone.0000086-Ridderinkhof1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ridderinkhof</surname><given-names>KR</given-names></name><name><surname>Ullsperger</surname><given-names>M</given-names></name><name><surname>Crone</surname><given-names>EA</given-names></name><name><surname>Nieuwenhuis</surname><given-names>S</given-names></name></person-group>
+<year>2004</year>
+<article-title>The role of the medial frontal cortex in cognitive control.</article-title>
+<source>Science</source>
+<volume>306</volume>
+<fpage>443</fpage>
+<lpage>447</lpage>
+<pub-id pub-id-type="pmid">15486290</pub-id></element-citation></ref><ref id="pone.0000086-Holroyd1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Holroyd</surname><given-names>CB</given-names></name><name><surname>Coles</surname><given-names>MGH</given-names></name><name><surname>Nieuwenhuis</surname><given-names>S</given-names></name></person-group>
+<year>2002</year>
+<article-title>Medial prefrontal cortex and error potentials.</article-title>
+<source>Science</source>
+<volume>295</volume>
+<fpage>1610</fpage>
+<lpage>1611</lpage>
+</element-citation></ref><ref id="pone.0000086-Cohen1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cohen</surname><given-names>JC</given-names></name><name><surname>Botvinick</surname><given-names>M</given-names></name><name><surname>Carter</surname><given-names>CS</given-names></name></person-group>
+<year>2000</year>
+<article-title>Anterior cingulate and prefrontal cortex: who's in control.</article-title>
+<source>Nat Neurosci</source>
+<volume>3</volume>
+<fpage>421</fpage>
+<pub-id pub-id-type="pmid">10769376</pub-id></element-citation></ref><ref id="pone.0000086-Carter1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carter</surname><given-names>CS</given-names></name><name><surname>Braver</surname><given-names>TS</given-names></name><name><surname>Barch</surname><given-names>DM</given-names></name><name><surname>Botvinick</surname><given-names>MM</given-names></name><name><surname>Noll</surname><given-names>D</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Anterior cingulate cortex, error detection, and the online monitoring performance.</article-title>
+<source>Science</source>
+<volume>280</volume>
+<fpage>747</fpage>
+<lpage>749</lpage>
+<pub-id pub-id-type="pmid">9563953</pub-id></element-citation></ref><ref id="pone.0000086-Holroyd2"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Holroyd</surname><given-names>CB</given-names></name><name><surname>Coles</surname><given-names>MGH</given-names></name></person-group>
+<year>2002</year>
+<article-title>The neural basis of human error processing: reinforcement learning, dopamine, and the error-related negativity.</article-title>
+<source>Psychol Rev</source>
+<volume>109</volume>
+<fpage>679</fpage>
+<lpage>709</lpage>
+<pub-id pub-id-type="pmid">12374324</pub-id></element-citation></ref><ref id="pone.0000086-Liotti1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liotti</surname><given-names>M</given-names></name><name><surname>Pliszka</surname><given-names>SR</given-names></name><name><surname>Perez</surname><given-names>R</given-names></name><name><surname>Kothmann</surname><given-names>D</given-names></name><name><surname>Woldorff</surname><given-names>MG</given-names></name></person-group>
+<year>2005</year>
+<article-title>Abnormal brain activity related to performance monitoring and error detection in children with ADHD.</article-title>
+<source>Cortex</source>
+<volume>41</volume>
+<fpage>377</fpage>
+<lpage>388</lpage>
+<pub-id pub-id-type="pmid">15871602</pub-id></element-citation></ref><ref id="pone.0000086-Holroyd3"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Holroyd</surname><given-names>CB</given-names></name><name><surname>Yeung</surname><given-names>N</given-names></name></person-group>
+<year>2003</year>
+<article-title>Alcohol and error processing.</article-title>
+<source>Trends Neurosci</source>
+<volume>26</volume>
+<fpage>402</fpage>
+<lpage>404</lpage>
+<pub-id pub-id-type="pmid">12900168</pub-id></element-citation></ref><ref id="pone.0000086-Ridderinkhof2"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ridderinkhof</surname><given-names>KR</given-names></name><name><surname>de Vlugt</surname><given-names>Y</given-names></name><name><surname>Bramlage</surname><given-names>A</given-names></name><name><surname>Spaan</surname><given-names>M</given-names></name><name><surname>Elton</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Alcohol consumption impairs detection of performance errors in mediofrontal cortex.</article-title>
+<source>Science</source>
+<volume>298</volume>
+<fpage>2209</fpage>
+<lpage>11</lpage>
+<pub-id pub-id-type="pmid">12424384</pub-id></element-citation></ref><ref id="pone.0000086-Falkenstein2"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Falkenstein</surname><given-names>M</given-names></name><name><surname>Hielscher</surname><given-names>H</given-names></name><name><surname>Dziobek</surname><given-names>I</given-names></name><name><surname>Schwarzenau</surname><given-names>P</given-names></name><name><surname>Hoormann</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Action monitoring, error detection, and the basal ganglia: an ERP study.</article-title>
+<source>Neuroreport</source>
+<volume>12</volume>
+<fpage>157</fpage>
+<lpage>161</lpage>
+<pub-id pub-id-type="pmid">11201078</pub-id></element-citation></ref><ref id="pone.0000086-Holroyd4"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Holroyd</surname><given-names>CB</given-names></name><name><surname>Praamstra</surname><given-names>P</given-names></name><name><surname>Plat</surname><given-names>E</given-names></name><name><surname>Coles</surname><given-names>MGH</given-names></name></person-group>
+<year>2002</year>
+<article-title>Spared error-related potentials in mild to moderate Parkinson's disease.</article-title>
+<source>Neuropsychologia</source>
+<volume>40</volume>
+<fpage>2116</fpage>
+<lpage>2124</lpage>
+<pub-id pub-id-type="pmid">12208007</pub-id></element-citation></ref><ref id="pone.0000086-Ullsperger1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ullsperger</surname><given-names>M</given-names></name><name><surname>von Cramon</surname></name></person-group>
+<year>2006</year>
+<article-title>The role of intact frontostriatal circuits in error processing.</article-title>
+<source>J Cogn Neurosci</source>
+<volume>18</volume>
+<fpage>651</fpage>
+<lpage>64</lpage>
+<pub-id pub-id-type="pmid">16768367</pub-id></element-citation></ref><ref id="pone.0000086-Huntington1"><label>25</label><element-citation publication-type="journal">
+<collab>Huntington Study Group</collab>
+<year>1996</year>
+<article-title>Unified Huntington's Disease Rating Scale: reliability and consistency. Huntington Study Group.</article-title>
+<source>Mov Disord</source>
+<volume>11</volume>
+<fpage>136</fpage>
+<lpage>142</lpage>
+<pub-id pub-id-type="pmid">8684382</pub-id></element-citation></ref><ref id="pone.0000086-Kopp1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kopp</surname><given-names>B</given-names></name><name><surname>Rist</surname><given-names>F</given-names></name><name><surname>Mattler</surname><given-names>U</given-names></name></person-group>
+<year>1996</year>
+<article-title>N200 in the flanker task as a neurobehavioral tool for investigating executive control.</article-title>
+<source>Psychophysiology</source>
+<volume>33</volume>
+<fpage>282</fpage>
+<lpage>294</lpage>
+<pub-id pub-id-type="pmid">8936397</pub-id></element-citation></ref><ref id="pone.0000086-Gratton1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gratton</surname><given-names>G</given-names></name><name><surname>Coles</surname><given-names>MGH</given-names></name><name><surname>Donchin</surname><given-names>E</given-names></name></person-group>
+<year>1983</year>
+<article-title>A new method for off-line removal of ocular artifact.</article-title>
+<source>Electroencephalogr Clin Neurophysiol</source>
+<volume>55</volume>
+<fpage>468</fpage>
+<lpage>484</lpage>
+<pub-id pub-id-type="pmid">6187540</pub-id></element-citation></ref><ref id="pone.0000086-Falkenstein3"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Falkenstein</surname><given-names>M</given-names></name><name><surname>Hoormann</surname><given-names>J</given-names></name><name><surname>Christ</surname><given-names>S</given-names></name><name><surname>Hohnsbein</surname><given-names>J</given-names></name></person-group>
+<year>2000</year>
+<article-title>ERP components on reaction errors and their functional significance: a tutorial.</article-title>
+<source>Biol Psychol</source>
+<volume>51</volume>
+<fpage>87</fpage>
+<lpage>107</lpage>
+<pub-id pub-id-type="pmid">10686361</pub-id></element-citation></ref><ref id="pone.0000086-Gehring2"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gehring</surname><given-names>WJ</given-names></name><name><surname>Knight</surname><given-names>RT</given-names></name></person-group>
+<year>2000</year>
+<article-title>Prefrontal-cingulate interactions in action monitoring.</article-title>
+<source>Nat Neurosci</source>
+<volume>3</volume>
+<fpage>516</fpage>
+<lpage>520</lpage>
+<pub-id pub-id-type="pmid">10769394</pub-id></element-citation></ref><ref id="pone.0000086-SanchezPernaute1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sanchez-Pernaute</surname><given-names>R</given-names></name><name><surname>Kunig</surname><given-names>G</given-names></name><name><surname>del Barrio Alba</surname><given-names>A</given-names></name><name><surname>de Yebenes</surname><given-names>JG</given-names></name><name><surname>Vontobel</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Bradykinesia in early Huntington's disease.</article-title>
+<source>Neurology</source>
+<volume>54</volume>
+<fpage>119</fpage>
+<lpage>125</lpage>
+<pub-id pub-id-type="pmid">10636136</pub-id></element-citation></ref><ref id="pone.0000086-Ranen1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ranen</surname><given-names>NG</given-names></name><name><surname>Stine</surname><given-names>OC</given-names></name><name><surname>Abbott</surname><given-names>MH</given-names></name><name><surname>Sherr</surname><given-names>M</given-names></name><name><surname>Codori</surname><given-names>AM</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>Anticipation and instability of IT-15 (CAG)n repeats in parent-offspring pairs with Huntington disease.</article-title>
+<source>Am J Hum Genet</source>
+<volume>57</volume>
+<fpage>593</fpage>
+<lpage>602</lpage>
+<pub-id pub-id-type="pmid">7668287</pub-id></element-citation></ref><ref id="pone.0000086-Duyao1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Duyao</surname><given-names>M</given-names></name><name><surname>Ambrose</surname><given-names>C</given-names></name><name><surname>Myers</surname><given-names>R</given-names></name><name><surname>Noeletto</surname><given-names>A</given-names></name><name><surname>Persichetti</surname><given-names>F</given-names></name><etal/></person-group>
+<year>1993</year>
+<article-title>Trinucleotide repeat length instability and age of onset in Huntington's disease.</article-title>
+<source>Nat Genet</source>
+<volume>4</volume>
+<fpage>387</fpage>
+<lpage>392</lpage>
+<pub-id pub-id-type="pmid">8401587</pub-id></element-citation></ref><ref id="pone.0000086-Wexler1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wexler</surname><given-names>NS</given-names></name><name><surname>Lorimer</surname><given-names>J</given-names></name><name><surname>Porter</surname><given-names>J</given-names></name><name><surname>Gomez</surname><given-names>F</given-names></name><name><surname>Moskowitz</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Venezuelan kindreds reveal that genetic and environmental factors modulate Huntington's disease age of onset.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>3498</fpage>
+<lpage>3503</lpage>
+<pub-id pub-id-type="pmid">14993615</pub-id></element-citation></ref><ref id="pone.0000086-Jazbec1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jazbec</surname><given-names>S</given-names></name><name><surname>McClure</surname><given-names>E</given-names></name><name><surname>Hardin</surname><given-names>M</given-names></name><name><surname>Pine</surname><given-names>DS</given-names></name><name><surname>Ernst</surname><given-names>M</given-names></name></person-group>
+<year>2005</year>
+<article-title>Cognitive control under contingencies in anxious and depressed adolescents: an antisaccade task.</article-title>
+<source>Biol Psychiatry</source>
+<volume>58</volume>
+<fpage>632</fpage>
+<lpage>639</lpage>
+<pub-id pub-id-type="pmid">16018983</pub-id></element-citation></ref><ref id="pone.0000086-Falkenstein4"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Falkenstein</surname><given-names>M</given-names></name><name><surname>Willemsen</surname><given-names>R</given-names></name><name><surname>Hohnsbein</surname><given-names>J</given-names></name><name><surname>Hielscher</surname><given-names>H</given-names></name></person-group>
+<year>2005</year>
+<article-title>Error Processing in Parkinson's Disease: The error positivity (Pe).</article-title>
+<source>J Psychophysiol</source>
+<volume>19</volume>
+<fpage>305</fpage>
+<lpage>310</lpage>
+</element-citation></ref><ref id="pone.0000086-Ullsperger2"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ullsperger</surname><given-names>M</given-names></name></person-group>
+<year>2006</year>
+<article-title>Performance monitoring in neurological and psychiatric patients.</article-title>
+<source>Int J Psychophysiol</source>
+<volume>59</volume>
+<fpage>59</fpage>
+<lpage>69</lpage>
+<pub-id pub-id-type="pmid">16288812</pub-id></element-citation></ref><ref id="pone.0000086-FrodlBauch1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Frodl-Bauch</surname><given-names>T</given-names></name><name><surname>Bottlender</surname><given-names>R</given-names></name><name><surname>Hegerl</surname><given-names>U</given-names></name></person-group>
+<year>1999</year>
+<article-title>Neurochemical substrates and neuroanatomical generators of the event-related P300.</article-title>
+<source>Neuropsychobiology</source>
+<volume>40</volume>
+<fpage>86</fpage>
+<lpage>94</lpage>
+<pub-id pub-id-type="pmid">10474063</pub-id></element-citation></ref><ref id="pone.0000086-Reynolds1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reynolds</surname><given-names>GP</given-names></name><name><surname>Garrett</surname><given-names>NJ</given-names></name></person-group>
+<year>1986</year>
+<article-title>Striatal dopamine and homovanillic acid in Huntington's disease.</article-title>
+<source>J Neural Transm</source>
+<volume>65</volume>
+<fpage>151</fpage>
+<lpage>155</lpage>
+<pub-id pub-id-type="pmid">2939198</pub-id></element-citation></ref><ref id="pone.0000086-Melamed1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Melamed</surname><given-names>E</given-names></name><name><surname>Hefti</surname><given-names>F</given-names></name><name><surname>Bird</surname><given-names>ED</given-names></name></person-group>
+<year>1982</year>
+<article-title>Huntington chorea is not associated with hyperactivity of nigrostriatal dopaminergic neurons: studies in postmortem tissues and in rats with kainic acid lesions.</article-title>
+<source>Neurology</source>
+<volume>32</volume>
+<fpage>640</fpage>
+<lpage>644</lpage>
+<pub-id pub-id-type="pmid">6211637</pub-id></element-citation></ref><ref id="pone.0000086-Reading1"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reading</surname><given-names>SA</given-names></name><name><surname>Dziorny</surname><given-names>AC</given-names></name><name><surname>Peroutka</surname><given-names>LA</given-names></name><name><surname>Schreiber</surname><given-names>M</given-names></name><name><surname>Gourley</surname></name><etal/></person-group>
+<year>2004</year>
+<article-title>Functional brain changes in presymptomatic Huntington's disease.</article-title>
+<source>Ann Neurol</source>
+<volume>55</volume>
+<fpage>879</fpage>
+<lpage>883</lpage>
+<pub-id pub-id-type="pmid">15174024</pub-id></element-citation></ref><ref id="pone.0000086-Bartenstein1"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bartenstein</surname><given-names>P</given-names></name><name><surname>Weindl</surname><given-names>A</given-names></name><name><surname>Spiegel</surname><given-names>S</given-names></name><name><surname>Boecker</surname><given-names>H</given-names></name><name><surname>Wenzel</surname><given-names>R</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Central motor processing in Huntington's disease. A PET study.</article-title>
+<source>Brain</source>
+<volume>120</volume>
+<fpage>1553</fpage>
+<lpage>1567</lpage>
+<pub-id pub-id-type="pmid">9313639</pub-id></element-citation></ref><ref id="pone.0000086-Capuron1"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Capuron</surname><given-names>L</given-names></name><name><surname>Pagnoni</surname><given-names>G</given-names></name><name><surname>Demetrashvili</surname><given-names>M</given-names></name><name><surname>Woolwine</surname><given-names>BJ</given-names></name><name><surname>Nemeroff</surname><given-names>CB</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Anterior cingulate activation and error processing during interferon-alpha treatment.</article-title>
+<source>Biol Psychiatry</source>
+<volume>58</volume>
+<fpage>190</fpage>
+<lpage>196</lpage>
+<pub-id pub-id-type="pmid">16084839</pub-id></element-citation></ref><ref id="pone.0000086-Zirnheld1"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zirnheld</surname><given-names>PJ</given-names></name><name><surname>Carroll</surname><given-names>CA</given-names></name><name><surname>Kieffaber</surname><given-names>PD</given-names></name><name><surname>O'Donnell</surname><given-names>BF</given-names></name><name><surname>Shekhar</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Haloperidol impairs learning and error-related negativity in humans.</article-title>
+<source>J Cogn Neurosci</source>
+<volume>16</volume>
+<fpage>1098</fpage>
+<lpage>1112</lpage>
+<pub-id pub-id-type="pmid">15298795</pub-id></element-citation></ref><ref id="pone.0000086-Rachakonda1"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rachakonda</surname><given-names>V</given-names></name><name><surname>Pan</surname><given-names>TH</given-names></name><name><surname>Le</surname><given-names>WD</given-names></name></person-group>
+<year>2004</year>
+<article-title>Biomarkers of neurodegenerative disorders: how good are they?</article-title>
+<source>Cell Res</source>
+<volume>14</volume>
+<fpage>347</fpage>
+<lpage>358</lpage>
+<pub-id pub-id-type="pmid">15538967</pub-id></element-citation></ref></ref-list></back></article>

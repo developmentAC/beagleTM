@@ -1,0 +1,421 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183701</article-id><article-id pub-id-type="pmc">1762351</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00033R2</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000007</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Evolutionary Biology</subject><subject>Genetics and Genomics</subject><subject>Evolutionary Biology/Developmental Evolution</subject><subject>Evolutionary Biology/Evolutionary and Comparative Genetics</subject><subject>Evolutionary Biology/Pattern Formation</subject><subject>Genetics and Genomics/Animal Genetics</subject><subject>Genetics and Genomics/Complex Traits</subject></subj-group></article-categories><title-group><article-title>A Single Basis for Developmental Buffering of <italic>Drosophila</italic> Wing Shape</article-title><alt-title alt-title-type="running-head">Developmental Buffering</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Breuker</surname><given-names>Casper J</given-names></name><xref ref-type="author-notes" rid="fn1">
+<sup>&#x000a4;</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Patterson</surname><given-names>James S</given-names></name></contrib><contrib contrib-type="author"><name><surname>Klingenberg</surname><given-names>Christian Peter</given-names></name><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib><aff>
+<institution>Faculty of Life Sciences, University of Manchester</institution>
+<addr-line>Manchester, United Kingdom</addr-line>
+</aff></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Rutherford</surname><given-names>Suzannah</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Fred Hutchinson Cancer Research Center, United States of America</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>cpk@manchester.ac.uk</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: CK CB. Performed the experiments: CK CB JP. Analyzed the data: CK CB. Wrote the paper: CK CB</p></fn><fn id="fn1" fn-type="current-aff"><label>&#x000a4;</label><p>Current address: Department of Biology, University of Antwerp, Antwerp, Belgium</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e7</elocation-id><history><date date-type="received"><day>9</day><month>8</month><year>2006</year></date><date date-type="accepted"><day>7</day><month>9</month><year>2006</year></date></history><permissions><copyright-statement>Breuker et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>The nature of developmental buffering processes has been debated extensively, based on both theoretical reasoning and empirical studies. In particular, controversy has focused on the question of whether distinct processes are responsible for canalization, the buffering against environmental or genetic variation, and for developmental stability, the buffering against random variation intrinsic in developmental processes. Here, we address this question for the size and shape of <italic>Drosophila melanogaster</italic> wings in an experimental design with extensively replicated and fully controlled genotypes. The amounts of variation among individuals and of fluctuating asymmetry differ markedly among genotypes, demonstrating a clear genetic basis for size and shape variability. For wing shape, there is a high correlation between the amounts of variation among individuals and fluctuating asymmetry, which indicates a correspondence between the two types of buffering. Likewise, the multivariate patterns of shape variation among individuals and of fluctuating asymmetry show a close association. For wing size, however, the amounts of individual variation and fluctuating asymmetry are not correlated. There was a significant link between the amounts of variation between wing size and shape, more so for fluctuating asymmetry than for variation among individuals. Overall, these experiments indicate a considerable degree of shared control of individual variation and fluctuating asymmetry, although it appears to differ between traits.</p></abstract><counts><page-count count="7"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Developmental buffering is an important factor in evolutionary processes, because it can maintain adaptive phenotypic traits in the presence of genetic and environmental variation and it can conceal genetic variation from selection <xref rid="pone.0000007-Gibson1" ref-type="bibr">[1]</xref>&#x02013;<xref rid="pone.0000007-Hallgrmsson1" ref-type="bibr">[3]</xref>. The processes responsible for developmental buffering are little known and have been debated extensively <xref rid="pone.0000007-Debat1" ref-type="bibr">[4]</xref>&#x02013;<xref rid="pone.0000007-Meiklejohn1" ref-type="bibr">[6]</xref>. Possible mechanisms include molecular chaperone proteins such as Hsp90 <xref rid="pone.0000007-Rutherford1" ref-type="bibr">[7]</xref> and the architecture of genetic regulatory networks responsible for gene expression <xref rid="pone.0000007-Houchmandzadeh1" ref-type="bibr">[8]</xref>, <xref rid="pone.0000007-Bergman1" ref-type="bibr">[9]</xref>. A particular focus in this debate is the question of how canalization, the buffering against genetic and environmental variation, is related to developmental stability, the buffering against random variation arising in developmental processes <xref rid="pone.0000007-Debat1" ref-type="bibr">[4]</xref>. It has been contentious whether these are independent processes <xref rid="pone.0000007-Debat1" ref-type="bibr">[4]</xref>, <xref rid="pone.0000007-Debat2" ref-type="bibr">[10]</xref> or whether they are manifestations of the same biological process <xref rid="pone.0000007-Meiklejohn1" ref-type="bibr">[6]</xref>. Theoretical studies typically favor the latter point of view because both types of buffering emerge as results of developmental models <xref rid="pone.0000007-Siegal1" ref-type="bibr">[2]</xref>, <xref rid="pone.0000007-Klingenberg2" ref-type="bibr">[11]</xref>, and some authors treat the two concepts as synonymous <xref rid="pone.0000007-Flatt1" ref-type="bibr">[12]</xref>. Nevertheless, the relation of canalization and developmental stability is primarily an empirical question, and therefore needs to be addressed by studies of real organisms.</p><p>Empirical studies have tackled the question of whether canalization and developmental stability are distinct processes by comparing variation among individuals and the left-right asymmetries within individuals. Two main approaches have been used, which focus either on the amounts of variation or on covariance structures of multivariate features such as shape. Some studies have indicated that the amounts of individual variation and fluctuating asymmetry (FA) are correlated among genotypes <xref rid="pone.0000007-Dworkin1" ref-type="bibr">[13]</xref>, whereas others found no such association <xref rid="pone.0000007-Rale1" ref-type="bibr">[14]</xref> and some studies reported differences according to traits <xref rid="pone.0000007-Woods1" ref-type="bibr">[15]</xref>. Likewise, the studies comparing the multivariate patterns of shape variation have produced a range of results from strong congruence <xref rid="pone.0000007-Klingenberg3" ref-type="bibr">[16]</xref>&#x02013;<xref rid="pone.0000007-Badyaev1" ref-type="bibr">[18]</xref> to more or less complete independence <xref rid="pone.0000007-Debat2" ref-type="bibr">[10]</xref>, <xref rid="pone.0000007-Klingenberg5" ref-type="bibr">[19]</xref>, <xref rid="pone.0000007-Willmore1" ref-type="bibr">[20]</xref>, whereas other studies produced intermediate or mixed results <xref rid="pone.0000007-Klingenberg6" ref-type="bibr">[21]</xref>, <xref rid="pone.0000007-Santos1" ref-type="bibr">[22]</xref>. Many of these studies used population samples without controlling for genetic variation and with little replication, if any, and therefore these results should be interpreted with some caution.</p><p>This study used both these approaches simultaneously in the context of an experimental design with complete control of genetic variation, replicated for 115 distinct genotypes from the Exelixis deficiency stocks of <italic>Drosophila melanogaster</italic>
+<xref rid="pone.0000007-Parks1" ref-type="bibr">[23]</xref>. Each of these strains carries a different deficiency on an otherwise isogenic background and therefore can be considered as a distinct and fully controlled genotype. We used the methods of geometric morphometrics <xref rid="pone.0000007-Bookstein1" ref-type="bibr">[24]</xref>&#x02013;<xref rid="pone.0000007-Zelditch1" ref-type="bibr">[26]</xref> to quantify variation of size and shape in the wings of the flies. This design provided a large sample size for comparisons among genotypes and a high degree of replication for within-genotype analyses. The study yielded clear evidence for a common basis for developmental stability and canalization.</p></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>Measurement Precision</title><p>We digitized 15 landmarks on the left and right wings of each fly (<xref ref-type="fig" rid="pone-0000007-g001">Fig. 1</xref>). To estimate the amount of measurement error for shape, we carried out Procrustes ANOVA <xref rid="pone.0000007-Klingenberg3" ref-type="bibr">[16]</xref> for a subsample of 72 flies for which two images of each wing were taken and each image was digitized twice. The mean squares for FA and individual variation exceeded the error components by more than 41-fold (<xref ref-type="table" rid="pone-0000007-t001">Table 1</xref>), indicating that measurement error was negligible relative to the biological shape variation. Likewise, measurement error for centroid size was negligible (not shown).</p><fig id="pone-0000007-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000007.g001</object-id><label>Figure 1</label><caption><title>The set of 15 landmarks used in this study.</title></caption><graphic xlink:href="pone.0000007.g001"/></fig><table-wrap id="pone-0000007-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000007.t001</object-id><label>Table 1</label><caption><title>Analysis of measurement error</title></caption><graphic xlink:href="pone.0000007.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Source</td><td align="left" rowspan="1" colspan="1">Sums of Squares</td><td align="left" rowspan="1" colspan="1">Degrees of freedom</td><td align="left" rowspan="1" colspan="1">Mean Squares &#x000d7;10<sup>6</sup>
+</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Individuals</td><td align="left" rowspan="1" colspan="1">0.1366</td><td align="left" rowspan="1" colspan="1">1846</td><td align="left" rowspan="1" colspan="1">74.0 &#x0002a;&#x0002a;&#x0002a;</td></tr><tr><td align="left" rowspan="1" colspan="1">Sides</td><td align="left" rowspan="1" colspan="1">0.0015</td><td align="left" rowspan="1" colspan="1">26</td><td align="left" rowspan="1" colspan="1">57.0 &#x0002a;&#x0002a;&#x0002a;</td></tr><tr><td align="left" rowspan="1" colspan="1">Individuals&#x000d7;sides</td><td align="left" rowspan="1" colspan="1">0.0307</td><td align="left" rowspan="1" colspan="1">1846</td><td align="left" rowspan="1" colspan="1">16.7 &#x0002a;&#x0002a;&#x0002a;</td></tr><tr><td align="left" rowspan="1" colspan="1">Measurement error 1: Imaging</td><td align="left" rowspan="1" colspan="1">0.0015</td><td align="left" rowspan="1" colspan="1">3744</td><td align="left" rowspan="1" colspan="1">0.403 &#x0002a;</td></tr><tr><td align="left" rowspan="1" colspan="1">Measurement error 2: Digitizing</td><td align="left" rowspan="1" colspan="1">0.0028</td><td align="left" rowspan="1" colspan="1">7488</td><td align="left" rowspan="1" colspan="1">0.378</td></tr></tbody></table><table-wrap-foot><fn id="nt101"><label/><p>Procrustes analysis of variance <xref rid="pone.0000007-Klingenberg3" ref-type="bibr">[16]</xref> of the amounts of shape variation attributable to different sources, for the wings of 72 individuals that were photographed and digitized twice. Sums of squares and mean squares are in units of squared Procrustes distance.</p></fn><fn id="nt102"><label/><p>&#x0002a;&#x0002a;&#x0002a; <italic>P</italic>&#x0003c;0.001; &#x0002a; <italic>P</italic>&#x0003c;0.05</p></fn></table-wrap-foot></table-wrap></sec><sec id="s2b"><title>Amounts of Variation and Asymmetry</title><p>We used two different methods to quantify the amounts of shape variation among individuals and FA <xref rid="pone.0000007-Klingenberg7" ref-type="bibr">[27]</xref>. The first method uses Procrustes distance to quantify the absolute amount of shape variation and treats all aspects of shape variation equally, regardless of their degree of variability in the sample <xref rid="pone.0000007-Klingenberg7" ref-type="bibr">[27]</xref>. The second method is based on Mahalanobis distance and measures the amount of variation relative to the variability in the data set; features of shape that are relatively invariant are more heavily weighted, so that this measure can be interpreted as a measure of the degree to which shapes or shape asymmetries are unusual <xref rid="pone.0000007-Klingenberg7" ref-type="bibr">[27]</xref>. These two measures of shape variability were highly correlated with each other, both for individual variation (<italic>r</italic>&#x0200a;=&#x0200a;0.81, <italic>P</italic>&#x0003c;0.0001) and for FA (<italic>r</italic>&#x0200a;=&#x0200a;0.84, <italic>P</italic>&#x0003c;0.0001). Although the two measures are computed from different aspects of variation, they both convey similar information in the context of this study and therefore can be interpreted as nearly equivalent measures of shape variation.</p><p>The amounts of variation differed markedly among the different genotypes, although there was also a consistent effect of the vials in which the flies had been reared. For centroid size, the ANOVAs indicated that the variation among genotypes exceeded the variation among vials both for variation among individuals (<italic>F</italic>
+<sub>114, 259</sub>&#x0200a;=&#x0200a;2.08, <italic>P</italic>&#x0003c;0.0001) and for FA (<italic>F</italic>
+<sub>114, 259</sub>&#x0200a;=&#x0200a;2.26, <italic>P</italic>&#x0003c;0.0001). Similarly, the ANOVAs for both measures of shape variation indicated significant effects of the genotypes on variation among individuals (Procrustes distance: <italic>F</italic>
+<sub>114, 259</sub>&#x0200a;=&#x0200a;2.21, <italic>P</italic>&#x0003c;0.0001; Mahalanobis distance: <italic>F</italic>
+<sub>114, 259</sub>&#x0200a;=&#x0200a;2.63, <italic>P</italic>&#x0003c;0.0001) and on FA (Procrustes distance: <italic>F</italic>
+<sub>114, 259</sub>&#x0200a;=&#x0200a;2.34, <italic>P</italic>&#x0003c;0.0001; Mahalanobis distance: <italic>F</italic>
+<sub>114, 259</sub>&#x0200a;=&#x0200a;3.29, <italic>P</italic>&#x0003c;0.0001). These results show that the chromosomal deficiencies have clear effects on the amounts of variation among individuals and on FA, which in turn indicates a genetic basis for the amounts of variation.</p></sec><sec id="s2c"><title>Relationship Between Variation Among Individuals and Fluctuating Asymmetry</title><p>For both measures of shape variability, the amounts of shape variation among individuals and of shape FA were significantly correlated across genotypes (<xref ref-type="fig" rid="pone-0000007-g002">Fig. 2A, B</xref>). In the analysis using Procrustes distance, the correlation was 0.49 (<italic>P</italic>&#x0003c;0.0001), and in the analysis using Mahalanobis distance, it was 0.67 (<italic>P</italic>&#x0003c;0.0001). Overall, there is a clear trend for genotypes with greater amounts of individual variation to have greater amounts of shape FA as well.</p><p>In contrast, the correlation between individual variation and FA of centroid size was low and not statistically significant (<italic>r</italic>&#x0200a;=&#x0200a;0.074, <italic>P</italic>&#x0200a;=&#x0200a;0.22; <xref ref-type="fig" rid="pone-0000007-g002">Fig. 2C</xref>). Unlike shape, therefore, there appears to be no connection between FA and individual variation of centroid size.</p><fig id="pone-0000007-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000007.g002</object-id><label>Figure 2</label><caption><title>Relationships between individual variation and FA for shape and size.</title><p>(A) Shape variation and FA quantified by Procrustes distance.</p><p>(B) Shape variation and FA quantified using Mahalanobis distance.</p><p>(C) Variation and FA of centroid size.</p><p>The solid lines are major axis regression lines, and the dashed lines in (A) and (C) are the theoretical limits for the situation when left and right sides are independent (FA variance is 4 times the variance among individuals; see text for details).</p></caption><graphic xlink:href="pone.0000007.g002"/></fig></sec><sec id="s2d"><title>Associations of Size and Shape Variation</title><p>The correlations between the amounts of FA of shape and of centroid size were 0.46 and 0.36 for the shape measures using Procrustes and Mahalanobis distances, respectively (<xref ref-type="fig" rid="pone-0000007-g003">Fig. 3A, B</xref>; both <italic>P</italic>&#x0003c;0.0001 in permutation tests). Accordingly, genotypes that are more asymmetric for size also tend to be more asymmetric for shape. The correlations between amounts of individual variation of size and shape were 0.25 (<italic>P</italic>&#x0200a;=&#x0200a;0.0059) and 0.19 (<italic>P</italic>&#x0200a;=&#x0200a;0.022) for the measures using Procrustes and Mahalanobis distances, respectively (<xref ref-type="fig" rid="pone-0000007-g003">Fig. 3C, D</xref>). The association between the amounts of size and shape variability therefore appeared to be present at both levels of variation, but was stronger for FA than for individual variation.</p><fig id="pone-0000007-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000007.g003</object-id><label>Figure 3</label><caption><title>Relationships between size and shape for FA (A, B) and for individual variation (C, D).</title></caption><graphic xlink:href="pone.0000007.g003"/></fig><p>To assess the possibility that this association was caused by a direct developmental link between size and shape, we tested for allometry within genotypes by multivariate regression of shape on centroid size <xref rid="pone.0000007-Loy1" ref-type="bibr">[28]</xref>&#x02013;<xref rid="pone.0000007-Baylac1" ref-type="bibr">[30]</xref>. There was significant allometry among individuals in more than half of the genotypes (<italic>P</italic>&#x0003c;0.05 for 68 of the 115 genotypes after sequential Bonferroni adjustment) and size accounted for an average of 8.18&#x00025; of shape variation among individuals. The asymmetry of size accounted for an average of 4.61&#x00025; of the asymmetry of shape (<italic>P</italic>&#x0003c;0.05 for 14 genotypes after sequential Bonferroni adjustment). Accordingly, size accounts for only relatively minor proportions of shape variation and asymmetry under the conditions of our experiment. It therefore appears that the correlation between size and shape in the amounts asymmetry and individual variation is not simply the result from a direct allometric link between size and shape, but is based at least to a considerable part on linkages in the processes that produce or buffer against the variation.</p></sec><sec id="s2e"><title>Patterns of Shape Variation</title><p>To examine whether among-individual variation and FA primarily concern the same or different features of shape, we quantified the degree of congruence between the respective patterns of covariation in landmark shifts. For this purpose, we computed matrix correlations between the respective covariance matrices for those 95 genotypes for which there were at least 50 specimens. Matrix correlations were computed both with the diagonal blocks included and excluded to examine whether the total patterns of landmark variation differ from the patterns of covariation among different landmarks <xref rid="pone.0000007-Klingenberg3" ref-type="bibr">[16]</xref>. The patterns of shape variation for FA and individual variation consistently showed a clear correspondence in all these genotypes. The matrix correlations ranged from 0.54 to 0.91 for the whole covariance matrices and from 0.31 to 0.79 if the diagonal blocks were omitted (<xref ref-type="fig" rid="pone-0000007-g004">Fig. 4</xref>). The difference in matrix correlations for the two methods of computation suggests that a component of the correspondence between individual variation and FA originated from the amounts of variation of individual landmarks. Nevertheless, because most matrix correlations were still fairly high even when the diagonal blocks of the covariance matrices were omitted, there appears to be a clear and consistent congruence between patterns of shape variation of individual variation and FA. The permutation tests indicated that all the matrix correlations were statistically significant (all <italic>P</italic> &#x02264; 0.0001).</p><fig id="pone-0000007-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000007.g004</object-id><label>Figure 4</label><caption><title>Matrix correlations between the covariance matrices for individual variation and FA.</title><p>(A) Matrix correlations including the diagonal blocks (variances and covariances for <italic>x</italic> and <italic>y</italic> coordinates of each landmark).</p><p>(B) Matrix correlations for covariance matrices without the diagonal blocks (only covariances among landmarks).</p></caption><graphic xlink:href="pone.0000007.g004"/></fig></sec></sec><sec id="s3"><title>Discussion</title><p>This study shows a significant genetic effect on the amounts of individual variation and FA as well as a clear association in both the amounts and patterns of variation between individual variation and FA for wing shape. This is consistent with the idea of a common genetic and developmental basis for buffering of wing patterning processes against variation from different sources. The correlations between size and shape in the amounts of FA and individual variation provide further evidence in favor of a common basis for buffering. In contrast, the lack of association between the amounts of individual variation and FA for centroid size indicates that these relationships depend on the specific traits under study and the processes involved in their development. Here we discuss these findings and their implications for interpreting the mixed results of published empirical studies on canalization and developmental stability.</p><sec id="s3a"><title>Amounts of Variation and Asymmetry</title><p>Our data indicate a clear association of the amounts of individual variation and FA of wing shape across genotypes (<xref ref-type="fig" rid="pone-0000007-g002">Fig. 2A, B</xref>). This finding matches the results of an earlier study of sternopleural bristle counts in <italic>Drosophila melanogaster</italic>
+<xref rid="pone.0000007-Dworkin1" ref-type="bibr">[13]</xref>. Moreover, experiments using overexpression of several genes in different regions of the <italic>Drosophila</italic> wing found an association between the severity of effects and levels of FA <xref rid="pone.0000007-Trotta1" ref-type="bibr">[31]</xref>. The result is also broadly consistent with a range of studies in other organisms that have found associations between individual variation and FA in comparisons across measurements <xref rid="pone.0000007-Woods1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000007-Willmore1" ref-type="bibr">[20]</xref>, <xref rid="pone.0000007-Windig1" ref-type="bibr">[32]</xref>, <xref rid="pone.0000007-Clarke1" ref-type="bibr">[33]</xref>. There are other studies, however, that did not find such a relationship <xref rid="pone.0000007-Rale1" ref-type="bibr">[14]</xref> or where the results varied from trait to trait <xref rid="pone.0000007-Woods1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000007-Willmore2" ref-type="bibr">[34]</xref>. Finally, comparisons among successive developmental stages in prenatal mice also revealed similar trends of FA and variation among individuals <xref rid="pone.0000007-Hallgrmsson2" ref-type="bibr">[35]</xref>. Whereas a relationship between the amounts of individual variation and FA seems to hold across genotypes and traits, there does not appear to be such an association between different stress regimes <xref rid="pone.0000007-Woods1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000007-Hoffmann1" ref-type="bibr">[36]</xref>.</p><p>In stark contrast to the shape data, the association between individual variation and FA did not hold in the analysis for centroid size (<xref ref-type="fig" rid="pone-0000007-g002">Fig. 2C</xref>). This different behavior, in the same experiment, suggests that different processes influence the amounts of variation of size and shape. It is conceivable that size and shape variation are subject to different sources of external variation. In particular, it is plausible that size variation is more sensitive to small variations in the availability and uptake of resources. The resulting differences in the acquired nutrients among individual larvae are likely to affect both sides jointly and therefore increase individual variation but not FA. Because the direct developmental links between size and shape are weak for most genotypes, size and shape can respond to such external factors differentially.</p><p>The discrepancy between these findings for size and shape highlights a methodological problem inherent in studies of developmental buffering: how can the effects of buffering be distinguished from differences in the initial input of developmental variation? Buffering is only observable if there is variation, and the resulting phenotypic variation is the joint expression of both the input of variation and the buffering of that variation by the developmental system. The original amount of variation, however, which is the input for the buffering processes in the developmental system, is unknown. The input of variation and buffering are therefore almost inextricably linked and cannot be separated without specifically designed experiments. Here we used samples of flies with controlled genotypes, so that genetic variation within samples can be ruled out. However, non-genetic effects cannot be controlled in this manner. The theoretical limit is a situation in which the environment is held constant so that the conditions under which the wings of two different flies develop are no more different than the conditions encountered by the two wings of the same fly. In this case, the left and right wings of individual flies would not be correlated, and the variance for individuals, var(0.5(right&#x0002b;left)), would be one-quarter of the variance for asymmetry, var(right&#x02212;left). For shape, individual variation (quantified using Procrustes distance) exceeded this theoretical limit consistently, but only by relatively small amounts (<xref ref-type="fig" rid="pone-0000007-g002">Fig. 2A</xref>, dashed line). This suggests that the patterning processes determining shape are affected by micro-environmental heterogeneity only to a moderate degree. For centroid size, however, the among-individual variance far exceeds the theoretical minimum and, in all but a few genotypes, is much greater than FA (<xref ref-type="fig" rid="pone-0000007-g002">Fig. 2C</xref>), indicating that such environmental heterogeneity is a major factor for size variation. Accordingly, the lack of correlation among strains in the amounts of individual variation and FA for centroid size cannot be attributed unambiguously to an inherent difference between canalization and developmental stability, but must be due at least in part to a difference in the processes that generate developmental variation.</p><p>The correlation between the amounts of FA for centroid size and shape across the 115 genotypes exceeds the within-sample correlations of size and shape asymmetry for all but a few samples. Therefore, the direct developmental association of size and shape is not sufficient to account for the agreement of amounts of FA of size and shape. This is further evidence for a common genetic control of developmental variation of size and shape, although the data do not permit one to distinguish whether this control affects the origin of developmental noise or the developmental stability buffering against it. The association across many deficiency genotypes affecting different genomic regions may also be taken as evidence that a range of different genes contribute to the control of developmental stability, rather than just a few specialized genes <xref rid="pone.0000007-Rutherford1" ref-type="bibr">[7]</xref>, <xref rid="pone.0000007-Milton1" ref-type="bibr">[37]</xref>, <xref rid="pone.0000007-McKenzie1" ref-type="bibr">[38]</xref>, and is in agreement with theoretical arguments <xref rid="pone.0000007-Siegal1" ref-type="bibr">[2]</xref>, <xref rid="pone.0000007-Klingenberg2" ref-type="bibr">[11]</xref> as well as other empirical evidence <xref rid="pone.0000007-Leamy1" ref-type="bibr">[39]</xref>.</p></sec><sec id="s3b"><title>Patterns of Shape Variation</title><p>We not only compared the amounts of variation, but also the patterns of landmark shifts associated with individual variation and FA. There is a close and consistent correspondence between the patterns of individual variation and FA. A similar correspondence of patterns of shape integration for individual variation and FA has been found previously in the wings of <italic>Drosophila melanogaster</italic>
+<xref rid="pone.0000007-Klingenberg4" ref-type="bibr">[17]</xref>, interspecific hybrids of two <italic>Drosophila</italic> species <xref rid="pone.0000007-Rego1" ref-type="bibr">[40]</xref>, tsetse flies <xref rid="pone.0000007-Klingenberg3" ref-type="bibr">[16]</xref>, and bumble bees <xref rid="pone.0000007-Klingenberg8" ref-type="bibr">[41]</xref>. In contrast, two studies in <italic>Drosophila subobscura</italic> found considerable differences <xref rid="pone.0000007-Santos1" ref-type="bibr">[22]</xref>, <xref rid="pone.0000007-FernndezIriarte1" ref-type="bibr">[42]</xref>. Just as for insect wings, a range of different results was also found for mammals. A good correspondence between individual variation and FA was reported for the mandibles of shrews <xref rid="pone.0000007-Badyaev1" ref-type="bibr">[18]</xref> and mice <xref rid="pone.0000007-Leamy2" ref-type="bibr">[43]</xref>, <xref rid="pone.0000007-Klingenberg9" ref-type="bibr">[44]</xref>, whereas studies in the skulls of mice found no correspondence whatsoever <xref rid="pone.0000007-Debat2" ref-type="bibr">[10]</xref> or only a weak but statistically significant association <xref rid="pone.0000007-Hallgrmsson3" ref-type="bibr">[45]</xref>. Small but significant matrix correlations were also found in a study of macaque skulls <xref rid="pone.0000007-Willmore1" ref-type="bibr">[20]</xref>. Finally, a study of the pharyngeal jaws of cichlid fish produced no significant matrix correlation, but there is the possibility that phenotypic plasticity contributed to this discrepancy <xref rid="pone.0000007-Klingenberg5" ref-type="bibr">[19]</xref>. Overall, there is no clear pattern discernible in these results, neither for the distribution across taxa nor for the organ systems that were studied. This lack of a consistent pattern has contributed to the contentious debate on the nature of canalization and developmental stability <xref rid="pone.0000007-Debat1" ref-type="bibr">[4]</xref>.</p><p>Because each of our samples was genetically uniform, we can rule out a contribution from allelic differences to the variation among individuals, which would produce effects that depend on the genetic composition of the sample and usually would differ from the within-individual effects. Imagine a population in which one locus with two alleles affects shape, so that the allelic differences will cause variation along a single line (with additive effect only) or in a plane (with additive and dominance effect). Unless the non-genetic components of variation also happen to be concentrated in the direction of this particular line or plane, the two components of variation will therefore be different. Even when more complex genetic models are used, the covariance structure among individuals will depend on the particular mix of genotypes, and may not reflect the inherent patterns of canalization. This reasoning can explain the closer resemblance of the patterns of FA to those of environmental rather than of genetic variation that has been found in empirical studies that specifically examined this effect <xref rid="pone.0000007-Hallgrmsson1" ref-type="bibr">[3]</xref>, <xref rid="pone.0000007-Santos1" ref-type="bibr">[22]</xref>, <xref rid="pone.0000007-Hallgrmsson4" ref-type="bibr">[46]</xref>. Likewise, phenotypic plasticity in response to environmental differences, such as different trophic morphs <xref rid="pone.0000007-Klingenberg5" ref-type="bibr">[19]</xref>, may introduce heterogeneity of covariance patterns that are unrelated to other patterns of variation. Because most studies were based on experimental designs that do not distinguish genetic and environmental components of variation, is not clear to which extent this reasoning also can explain the heterogeneous results in other comparisons of patterns of individual variation and FA.</p><p>Overall, the results of this study clearly indicate that both the amounts and the patterns of individual variation and FA of shape are associated consistently across a broad spectrum of distinct genotypes. This suggests that canalization and developmental stability for wing shape share a common basis <xref rid="pone.0000007-Siegal1" ref-type="bibr">[2]</xref>, <xref rid="pone.0000007-Meiklejohn1" ref-type="bibr">[6]</xref>. That these relationships emerged consistently across a large sample of different genotypes agrees with the view that buffering and its genetic control may be an intrinsic property of developmental systems <xref rid="pone.0000007-Bergman1" ref-type="bibr">[9]</xref>, <xref rid="pone.0000007-Klingenberg2" ref-type="bibr">[11]</xref>. The difference between the results for shape and size, however, underscores that developmental buffering is specific to the traits and the processes involved in their development <xref rid="pone.0000007-Trotta1" ref-type="bibr">[31]</xref>. Developmental stability and canalization therefore need to be considered in the specific context of the traits under study.</p></sec></sec><sec id="s4"><title>Materials and Methods</title><sec id="s4a"><title>Flies and Measurements</title><p>The flies used here were offspring from crosses between the Exelixis deficiency stocks <xref rid="pone.0000007-Parks1" ref-type="bibr">[23]</xref> and the strain with the common genetic background used for generating all the deficiency stocks (strain numbers and the statistics that form the basis of this study can be found in <xref ref-type="supplementary-material" rid="pone.0000007.s001">Table S1</xref>). Accordingly, the flies were isogenic, except for the small genomic regions of the deficiencies themselves, for which the flies are hemizygous, and the flanking sequences from the transposable element insertion used to produce the deficiencies <xref rid="pone.0000007-Parks1" ref-type="bibr">[23]</xref>. The flies were reared in vials of cornmeal-melasses fly food at 25&#x000b0;C and killed one to two days after emergence. The wings were mounted on slides and digital images of the wings were taken with a Leica DFC320 camera attached to a Leica DM LB2 compound microscope.</p><p>A set of 15 landmarks was digitized on each image (<xref ref-type="fig" rid="pone-0000007-g001">Fig. 1</xref>). To assess the amount of error due to the imaging and digitizing steps, two different images of each wing were taken for a subsample of 72 flies and each of these images was digitized twice. The remaining analyses used samples from 115 lines, averaging 62 flies per strain (ranging from 40 to 102), for a total of 7123 flies (for variation among individuals) or 7046 flies (for FA). For each strain, flies from multiple vials were used, ranging from two to ten vials per strain, with an average of 19 flies per vial (varying with the sample size used and on the fecundity and viability of the flies).</p></sec><sec id="s4b"><title>Statistical Analyses</title><p>The shape information was extracted from the landmark coordinates with a generalized least-squares Procrustes fit <xref rid="pone.0000007-Dryden1" ref-type="bibr">[25]</xref>. The measurement error components for shape were quantified with Procrustes ANOVA <xref rid="pone.0000007-Klingenberg3" ref-type="bibr">[16]</xref>, <xref rid="pone.0000007-Klingenberg5" ref-type="bibr">[19]</xref> for the subsample of flies for which replicate images had been taken.</p><p>To quantify individual variation and FA of wing size, we used the within-sample variance of the centroid size <xref rid="pone.0000007-Dryden1" ref-type="bibr">[25]</xref> of the wings and the variance of the (right&#x02212;left) difference of centroid size. This procedure corresponds to the two-factor ANOVA model customary in asymmetry studies <xref rid="pone.0000007-Palmer1" ref-type="bibr">[47]</xref> and automatically corrects for the presence of directional asymmetry.</p><p>We used two different methods to quantify variation, which are based on different measures of morphological distance: Procrustes distance and Mahalanobis distance <xref rid="pone.0000007-Klingenberg7" ref-type="bibr">[27]</xref>. Procrustes distance is a measure of absolute shape differences <xref rid="pone.0000007-Dryden1" ref-type="bibr">[25]</xref> and treats shape deviations from the sample mean equally, regardless of their direction. Procrustes variances were obtained by summing the squared deviations from the respective sample means and dividing by the appropriate degrees of freedom. Mahalanobis distance is a measure of distance relative to the variation in each direction of the multivariate space <xref rid="pone.0000007-Mardia1" ref-type="bibr">[48]</xref>. We used the pooled within-group covariance matrix (within genotypes and sexes) to compute the Mahalanobis distance of each observation from the mean shape of its group <xref rid="pone.0000007-Klingenberg7" ref-type="bibr">[27]</xref>. A measure of the amount of variation within samples was obtained by summing up the squares of the Mahalanobis distances and dividing by the respective degrees of freedom.</p><p>To test whether the amounts of variation differed among genotypes, we used an extension of Levene's test <xref rid="pone.0000007-VanValen1" ref-type="bibr">[49]</xref>, that is, an ANOVA of the individual deviations from the respective group averages. To take into account the effect of the environment in which the flies were reared, we used a nested ANOVA design with vials nested within genotypes. The tests used the vial effect as the error term, and a significant result therefore indicates that the differences among genotypes exceed the environmental variation among vials. The extension for the shape data was based on the fact that the Procrustes and Mahalanobis distances of individual observations from the sample mean shapes are measures of deviation that are similar to the absolute value of the deviation from the mean of scalar variables. Accordingly, the test used the same nested ANOVA of these Procrustes or Mahalanobis distances, with the genotypes as the grouping criterion and vials as the error term.</p><p>To examine the correspondence between the amounts of individual variation and FA, we computed the variances based on the two distance measures for data sets with either the mean shapes of both wings or the signed (right&#x02212;left) differences of wing shape. Product-moment correlations were then computed across genotypes. The statistical significance of correlations was assessed with permutation tests <xref rid="pone.0000007-Good1" ref-type="bibr">[50]</xref> with 10,000 random permutations per test.</p><p>Allometry within genotypes was tested by multivariate regression of shape on centroid size <xref rid="pone.0000007-Loy1" ref-type="bibr">[28]</xref>, <xref rid="pone.0000007-Monteiro1" ref-type="bibr">[29]</xref>. This was done for both the variation among individuals (means of both sides for size and shape) as well as for FA (signed asymmetry values of size and shape). Percentages of shape variation for which size accounted were computed from the Procrustes variances of the shapes predicted by the regression and the total Procrustes variance for the respective analysis (asymmetry or means of both sides). The statistical significance of the regressions was established with permutation tests with 10,000 random permutations per analysis.</p><p>For the strains for which at least 50 specimens were available, we also compared the patterns of shape variation between individual variation and FA <xref rid="pone.0000007-Klingenberg3" ref-type="bibr">[16]</xref>. Matrix correlations between the covariance matrices for the means of both wings of each individual and for the signed (right&#x02212;left) differences were computed and tested with a matrix permutation test using 10,000 random permutations of landmarks in one of the matrices (<italic>x</italic> and <italic>y</italic> coordinates of each landmark were kept together) <xref rid="pone.0000007-Klingenberg3" ref-type="bibr">[16]</xref>. Matrix correlations were computed both with and without the diagonal blocks of the covariance matrices (variances of landmark coordinates and covariances between <italic>x</italic> and <italic>y</italic> coordinates of each landmark) <xref rid="pone.0000007-Klingenberg3" ref-type="bibr">[16]</xref>.</p></sec></sec><sec sec-type="supplementary-material" id="s6"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pone.0000007.s001"><label>Table S1</label><caption><p>Strains used in this study and various sample statistics.</p><p>(0.36 MB DOC)</p></caption><media xlink:href="pone.0000007.s001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We thank S. Harold, K. Stewart, and P. Tickle for technical assistance and an anonymous reviewer and the editor for helpful comments.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>This research was supported by a Marie Curie Intra-European Fellowship within the 6th European Community Framework Programme and a research grant from the UK Biotechnology and Biological Sciences Research Council.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000007-Gibson1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gibson</surname><given-names>G</given-names></name><name><surname>Dworkin</surname><given-names>IM</given-names></name></person-group>
+<year>2004</year>
+<article-title>Uncovering cryptic genetic variation.</article-title>
+<source>Nat Rev Genet</source>
+<volume>5</volume>
+<fpage>681</fpage>
+<lpage>690</lpage>
+<pub-id pub-id-type="pmid">15372091</pub-id></element-citation></ref><ref id="pone.0000007-Siegal1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Siegal</surname><given-names>ML</given-names></name><name><surname>Bergman</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>Waddington's canalization revisited: developmental stability and evolution.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>99</volume>
+<fpage>10528</fpage>
+<lpage>10532</lpage>
+<pub-id pub-id-type="pmid">12082173</pub-id></element-citation></ref><ref id="pone.0000007-Hallgrmsson1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hallgr&#x000ed;msson</surname><given-names>B</given-names></name><name><surname>Willmore</surname><given-names>K</given-names></name><name><surname>Hall</surname><given-names>BK</given-names></name></person-group>
+<year>2002</year>
+<article-title>Canalization, developmental stability, and morphological integration in primate limbs.</article-title>
+<source>Yearb Phys Anthropol</source>
+<volume>45</volume>
+<fpage>131</fpage>
+<lpage>158</lpage>
+</element-citation></ref><ref id="pone.0000007-Debat1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Debat</surname><given-names>V</given-names></name><name><surname>David</surname><given-names>P</given-names></name></person-group>
+<year>2001</year>
+<article-title>Mapping phenotypes: canalization, plasticity and developmental stability.</article-title>
+<source>Trends Ecol Evol</source>
+<volume>16</volume>
+<fpage>555</fpage>
+<lpage>561</lpage>
+</element-citation></ref><ref id="pone.0000007-Klingenberg1"><label>5</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Klingenberg</surname><given-names>CP</given-names></name></person-group>
+<year>2003</year>
+<person-group person-group-type="editor"><name><surname>Polak</surname><given-names>M</given-names></name></person-group>
+<article-title>A developmental perspective on developmental instability: theory, models and mechanisms.</article-title>
+<source>Developmental instability: causes and consequences.</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Oxford University Press</publisher-name>
+<fpage>14</fpage>
+<lpage>34</lpage>
+</element-citation></ref><ref id="pone.0000007-Meiklejohn1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meiklejohn</surname><given-names>CD</given-names></name><name><surname>Hartl</surname><given-names>DL</given-names></name></person-group>
+<year>2002</year>
+<article-title>A single mode of canalization.</article-title>
+<source>Trends Ecol Evol</source>
+<volume>17</volume>
+<fpage>468</fpage>
+<lpage>473</lpage>
+</element-citation></ref><ref id="pone.0000007-Rutherford1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rutherford</surname><given-names>SL</given-names></name><name><surname>Lindquist</surname><given-names>S</given-names></name></person-group>
+<year>1998</year>
+<article-title>Hsp90 as a capacitor for morphological evolution.</article-title>
+<source>Nature</source>
+<volume>396</volume>
+<fpage>336</fpage>
+<lpage>342</lpage>
+<pub-id pub-id-type="pmid">9845070</pub-id></element-citation></ref><ref id="pone.0000007-Houchmandzadeh1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Houchmandzadeh</surname><given-names>B</given-names></name><name><surname>Wieschaus</surname><given-names>E</given-names></name><name><surname>Leibler</surname><given-names>S</given-names></name></person-group>
+<year>2002</year>
+<article-title>Establishment of developmental precision and proportions in the early <italic>Drosophila</italic> embryo.</article-title>
+<source>Nature</source>
+<volume>415</volume>
+<fpage>798</fpage>
+<lpage>802</lpage>
+<pub-id pub-id-type="pmid">11845210</pub-id></element-citation></ref><ref id="pone.0000007-Bergman1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bergman</surname><given-names>A</given-names></name><name><surname>Siegal</surname><given-names>ML</given-names></name></person-group>
+<year>2003</year>
+<article-title>Evolutionary capacitance as a general feature of complex gene networks.</article-title>
+<source>Nature</source>
+<volume>424</volume>
+<fpage>549</fpage>
+<lpage>552</lpage>
+<pub-id pub-id-type="pmid">12891357</pub-id></element-citation></ref><ref id="pone.0000007-Debat2"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Debat</surname><given-names>V</given-names></name><name><surname>Alibert</surname><given-names>P</given-names></name><name><surname>David</surname><given-names>P</given-names></name><name><surname>Paradis</surname><given-names>E</given-names></name><name><surname>Auffray</surname><given-names>J-C</given-names></name></person-group>
+<year>2000</year>
+<article-title>Independence between developmental stability and canalization in the skull of the house mouse.</article-title>
+<source>Proc R Soc Lond B Biol Sci</source>
+<volume>267</volume>
+<fpage>423</fpage>
+<lpage>430</lpage>
+</element-citation></ref><ref id="pone.0000007-Klingenberg2"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klingenberg</surname><given-names>CP</given-names></name><name><surname>Nijhout</surname><given-names>HF</given-names></name></person-group>
+<year>1999</year>
+<article-title>Genetics of fluctuating asymmetry: a developmental model of developmental instability.</article-title>
+<source>Evolution</source>
+<volume>53</volume>
+<fpage>358</fpage>
+<lpage>375</lpage>
+<pub-id pub-id-type="pmid">28565420</pub-id></element-citation></ref><ref id="pone.0000007-Flatt1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Flatt</surname><given-names>T</given-names></name></person-group>
+<year>2005</year>
+<article-title>The evolutionary genetics of canalization.</article-title>
+<source>Q Rev Biol</source>
+<volume>80</volume>
+<fpage>287</fpage>
+<lpage>316</lpage>
+<pub-id pub-id-type="pmid">16250465</pub-id></element-citation></ref><ref id="pone.0000007-Dworkin1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dworkin</surname><given-names>I</given-names></name></person-group>
+<year>2005</year>
+<article-title>A study of canalization and developmental stability in the sternopleural bristle system of <italic>Drosophila melanogaster</italic>.</article-title>
+<source>Evolution</source>
+<volume>59</volume>
+<fpage>1500</fpage>
+<lpage>1509</lpage>
+<pub-id pub-id-type="pmid">16153035</pub-id></element-citation></ref><ref id="pone.0000007-Rale1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>R&#x000e9;ale</surname><given-names>D</given-names></name><name><surname>Roff</surname><given-names>DA</given-names></name></person-group>
+<year>2003</year>
+<article-title>Inbreeding, developmental stability, and canalization in the sand cricket <italic>Gryllus firmus</italic>.</article-title>
+<source>Evolution</source>
+<volume>57</volume>
+<fpage>597</fpage>
+<lpage>605</lpage>
+<pub-id pub-id-type="pmid">12703949</pub-id></element-citation></ref><ref id="pone.0000007-Woods1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Woods</surname><given-names>RE</given-names></name><name><surname>Sgr&#x000f2;</surname><given-names>CM</given-names></name><name><surname>Hercus</surname><given-names>MJ</given-names></name><name><surname>Hoffmann</surname><given-names>AA</given-names></name></person-group>
+<year>1999</year>
+<article-title>The association between fluctuating asymmetry, trait variability, trait heritability, and stress: A multiply replicated experiment on combined stresses in Drosophila melanogaster.</article-title>
+<source>Evolution</source>
+<volume>53</volume>
+<fpage>493</fpage>
+<lpage>505</lpage>
+<pub-id pub-id-type="pmid">28565415</pub-id></element-citation></ref><ref id="pone.0000007-Klingenberg3"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klingenberg</surname><given-names>CP</given-names></name><name><surname>McIntyre</surname><given-names>GS</given-names></name></person-group>
+<year>1998</year>
+<article-title>Geometric morphometrics of developmental instability: analyzing patterns of fluctuating asymmetry with Procrustes methods.</article-title>
+<source>Evolution</source>
+<volume>52</volume>
+<fpage>1363</fpage>
+<lpage>1375</lpage>
+<pub-id pub-id-type="pmid">28565401</pub-id></element-citation></ref><ref id="pone.0000007-Klingenberg4"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klingenberg</surname><given-names>CP</given-names></name><name><surname>Zaklan</surname><given-names>SD</given-names></name></person-group>
+<year>2000</year>
+<article-title>Morphological integration between developmental compartments in the <italic>Drosophila</italic> wing.</article-title>
+<source>Evolution</source>
+<volume>54</volume>
+<fpage>1273</fpage>
+<lpage>1285</lpage>
+<pub-id pub-id-type="pmid">11005294</pub-id></element-citation></ref><ref id="pone.0000007-Badyaev1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Badyaev</surname><given-names>AV</given-names></name><name><surname>Foresman</surname><given-names>KR</given-names></name></person-group>
+<year>2004</year>
+<article-title>Evolution of morphological integration. I. Functional units channel stress-induced variation in shrew mandibles.</article-title>
+<source>Am Nat</source>
+<volume>163</volume>
+<fpage>868</fpage>
+<lpage>879</lpage>
+<pub-id pub-id-type="pmid">15266384</pub-id></element-citation></ref><ref id="pone.0000007-Klingenberg5"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klingenberg</surname><given-names>CP</given-names></name><name><surname>Barluenga</surname><given-names>M</given-names></name><name><surname>Meyer</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>Shape analysis of symmetric structures: quantifying variation among individuals and asymmetry.</article-title>
+<source>Evolution</source>
+<volume>56</volume>
+<fpage>1909</fpage>
+<lpage>1920</lpage>
+<pub-id pub-id-type="pmid">12449478</pub-id></element-citation></ref><ref id="pone.0000007-Willmore1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Willmore</surname><given-names>KE</given-names></name><name><surname>Klingenberg</surname><given-names>CP</given-names></name><name><surname>Hallgr&#x000ed;msson</surname><given-names>B</given-names></name></person-group>
+<year>2005</year>
+<article-title>The relationship between fluctuating asymmetry and environmental variance in rhesus macaque skulls.</article-title>
+<source>Evolution</source>
+<volume>59</volume>
+<fpage>898</fpage>
+<lpage>909</lpage>
+<pub-id pub-id-type="pmid">15926699</pub-id></element-citation></ref><ref id="pone.0000007-Klingenberg6"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klingenberg</surname><given-names>CP</given-names></name><name><surname>Mebus</surname><given-names>K</given-names></name><name><surname>Auffray</surname><given-names>J-C</given-names></name></person-group>
+<year>2003</year>
+<article-title>Developmental integration in a complex morphological structure: how distinct are the modules in the mouse mandible?</article-title>
+<source>Evol Dev</source>
+<volume>5</volume>
+<fpage>522</fpage>
+<lpage>531</lpage>
+<pub-id pub-id-type="pmid">12950630</pub-id></element-citation></ref><ref id="pone.0000007-Santos1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Santos</surname><given-names>M</given-names></name><name><surname>Fern&#x000e1;ndez Iriarte</surname><given-names>P</given-names></name><name><surname>C&#x000e9;spedes</surname><given-names>W</given-names></name></person-group>
+<year>2005</year>
+<article-title>Genetics and geometry of canalization and developmental stability in <italic>Drosophila subobscura</italic>.</article-title>
+<source>BMC Evol Biol</source>
+<volume>5</volume>
+<fpage>7</fpage>
+<pub-id pub-id-type="pmid">15663797</pub-id></element-citation></ref><ref id="pone.0000007-Parks1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parks</surname><given-names>AL</given-names></name><name><surname>Cook</surname><given-names>KR</given-names></name><name><surname>Belvin</surname><given-names>M</given-names></name><name><surname>Dompe</surname><given-names>NA</given-names></name><name><surname>Fawcett</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Systematic generation of high-resolution deletion coverage of the <italic>Drosophila melanogaster</italic> genome.</article-title>
+<source>Nat Genet</source>
+<volume>36</volume>
+<fpage>288</fpage>
+<lpage>292</lpage>
+<pub-id pub-id-type="pmid">14981519</pub-id></element-citation></ref><ref id="pone.0000007-Bookstein1"><label>24</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Bookstein</surname><given-names>FL</given-names></name></person-group>
+<year>1991</year>
+<source>Morphometric tools for landmark data: geometry and biology.</source>
+<publisher-loc>Cambridge</publisher-loc>
+<publisher-name>Cambridge University Press</publisher-name>
+</element-citation></ref><ref id="pone.0000007-Dryden1"><label>25</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Dryden</surname><given-names>IL</given-names></name><name><surname>Mardia</surname><given-names>KV</given-names></name></person-group>
+<year>1998</year>
+<source>Statistical shape analysis.</source>
+<publisher-loc>Chichester</publisher-loc>
+<publisher-name>Wiley</publisher-name>
+<fpage>xx&#x0002b;347</fpage>
+</element-citation></ref><ref id="pone.0000007-Zelditch1"><label>26</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Zelditch</surname><given-names>ML</given-names></name><name><surname>Swiderski</surname><given-names>DL</given-names></name><name><surname>Sheets</surname><given-names>HD</given-names></name><name><surname>Fink</surname><given-names>WL</given-names></name></person-group>
+<year>2004</year>
+<source>Geometric morphometrics for biologists: a primer.</source>
+<publisher-loc>San Diego</publisher-loc>
+<publisher-name>Elsevier</publisher-name>
+<fpage>x&#x0002b;443</fpage>
+</element-citation></ref><ref id="pone.0000007-Klingenberg7"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klingenberg</surname><given-names>CP</given-names></name><name><surname>Monteiro</surname><given-names>LR</given-names></name></person-group>
+<year>2005</year>
+<article-title>Distances and directions in multidimensional shape spaces: implications for morphometric applications.</article-title>
+<source>Syst Biol</source>
+<volume>54</volume>
+<fpage>678</fpage>
+<lpage>688</lpage>
+<pub-id pub-id-type="pmid">16126663</pub-id></element-citation></ref><ref id="pone.0000007-Loy1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Loy</surname><given-names>A</given-names></name><name><surname>Mariani</surname><given-names>L</given-names></name><name><surname>Bertelletti</surname><given-names>M</given-names></name><name><surname>Tunesi</surname><given-names>L</given-names></name></person-group>
+<year>1998</year>
+<article-title>Visualizing allometry: geometric morphometrics in the study of shape changes in the early stages of the two-banded sea bream, <italic>Diplodus vulgaris</italic> (Perciformes, Sparidae).</article-title>
+<source>J Morphol</source>
+<volume>237</volume>
+<fpage>137</fpage>
+<lpage>146</lpage>
+</element-citation></ref><ref id="pone.0000007-Monteiro1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Monteiro</surname><given-names>LR</given-names></name></person-group>
+<year>1999</year>
+<article-title>Multivariate regression models and geometric morphometrics: the search for causal factors in the analysis of shape.</article-title>
+<source>Syst Biol</source>
+<volume>48</volume>
+<fpage>192</fpage>
+<lpage>199</lpage>
+<pub-id pub-id-type="pmid">12078640</pub-id></element-citation></ref><ref id="pone.0000007-Baylac1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baylac</surname><given-names>M</given-names></name><name><surname>Penin</surname><given-names>X</given-names></name></person-group>
+<year>1998</year>
+<article-title>Wing static allometry in <italic>Drosophila simulans</italic> males (Diptera, Drosophilidae) and its relationships with developmental compartments.</article-title>
+<source>Acta Zool Acad Sci Hung</source>
+<volume>44</volume>
+<fpage>97</fpage>
+<lpage>112</lpage>
+</element-citation></ref><ref id="pone.0000007-Trotta1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trotta</surname><given-names>V</given-names></name><name><surname>Garoia</surname><given-names>F</given-names></name><name><surname>Guerra</surname><given-names>D</given-names></name><name><surname>Pezzoli</surname><given-names>MC</given-names></name><name><surname>Grifoni</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Developmental instability of the <italic>Drosophila</italic> wing as an index of genomic perturbation and altered cell proliferation.</article-title>
+<source>Evol Dev</source>
+<volume>7</volume>
+<fpage>234</fpage>
+<lpage>243</lpage>
+<pub-id pub-id-type="pmid">15876196</pub-id></element-citation></ref><ref id="pone.0000007-Windig1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Windig</surname><given-names>JJ</given-names></name><name><surname>Nylin</surname><given-names>S</given-names></name></person-group>
+<year>2000</year>
+<article-title>How to compare fluctuating asymmetry of different traits.</article-title>
+<source>J Evol Biol</source>
+<volume>13</volume>
+<fpage>29</fpage>
+<lpage>37</lpage>
+</element-citation></ref><ref id="pone.0000007-Clarke1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Clarke</surname><given-names>GM</given-names></name></person-group>
+<year>1998</year>
+<article-title>The genetic basis of developmental stability. V. Inter- and intra-individual character variation.</article-title>
+<source>Heredity</source>
+<volume>80</volume>
+<fpage>562</fpage>
+<lpage>567</lpage>
+</element-citation></ref><ref id="pone.0000007-Willmore2"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Willmore</surname><given-names>KE</given-names></name><name><surname>Zelditch</surname><given-names>ML</given-names></name><name><surname>Young</surname><given-names>N</given-names></name><name><surname>Ah-Seng</surname><given-names>A</given-names></name><name><surname>Lozanoff</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Canalization and developmental stability in the brachyrrhine mouse.</article-title>
+<source>J Anat</source>
+<volume>208</volume>
+<fpage>361</fpage>
+<lpage>372</lpage>
+<pub-id pub-id-type="pmid">16533318</pub-id></element-citation></ref><ref id="pone.0000007-Hallgrmsson2"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hallgr&#x000ed;msson</surname><given-names>B</given-names></name><name><surname>Miyake</surname><given-names>T</given-names></name><name><surname>Willmore</surname><given-names>K</given-names></name><name><surname>Hall</surname><given-names>BK</given-names></name></person-group>
+<year>2003</year>
+<article-title>Embryological origins of developmental stability: size, shape and fluctuating asymmetry in prenatal random bred mice.</article-title>
+<source>J Exp Zool</source>
+<volume>296B</volume>
+<fpage>40</fpage>
+<lpage>57</lpage>
+</element-citation></ref><ref id="pone.0000007-Hoffmann1"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoffmann</surname><given-names>AA</given-names></name><name><surname>Woods</surname><given-names>RE</given-names></name></person-group>
+<year>2001</year>
+<article-title>Trait variability and stress: canalization, developmental stability and the need for a broad approach.</article-title>
+<source>Ecol Lett</source>
+<volume>4</volume>
+<fpage>97</fpage>
+<lpage>101</lpage>
+</element-citation></ref><ref id="pone.0000007-Milton1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Milton</surname><given-names>CC</given-names></name><name><surname>Huynh</surname><given-names>B</given-names></name><name><surname>Batterham</surname><given-names>P</given-names></name><name><surname>Rutherford</surname><given-names>SL</given-names></name><name><surname>Hoffmann</surname><given-names>AA</given-names></name></person-group>
+<year>2003</year>
+<article-title>Quantitative trait symmetry independent of Hsp90 buffering: distinct modes of genetic canalization and developmental stability.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>100</volume>
+<fpage>13396</fpage>
+<lpage>13401</lpage>
+<pub-id pub-id-type="pmid">14595030</pub-id></element-citation></ref><ref id="pone.0000007-McKenzie1"><label>38</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>McKenzie</surname><given-names>JA</given-names></name></person-group>
+<year>2003</year>
+<person-group person-group-type="editor"><name><surname>Polak</surname><given-names>M</given-names></name></person-group>
+<article-title>The analysis of the asymmetry phenotype: single genes and the environment.</article-title>
+<source>Developmental instability: causes and consequences.</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Oxford University Press</publisher-name>
+<fpage>135</fpage>
+<lpage>141</lpage>
+</element-citation></ref><ref id="pone.0000007-Leamy1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leamy</surname><given-names>LJ</given-names></name><name><surname>Klingenberg</surname><given-names>CP</given-names></name></person-group>
+<year>2005</year>
+<article-title>The genetics and evolution of fluctuating asymmetry.</article-title>
+<source>Annu Rev Ecol Evol Syst</source>
+<volume>36</volume>
+<fpage>1</fpage>
+<lpage>21</lpage>
+</element-citation></ref><ref id="pone.0000007-Rego1"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rego</surname><given-names>C</given-names></name><name><surname>Matos</surname><given-names>M</given-names></name><name><surname>Santos</surname><given-names>M</given-names></name></person-group>
+<year>2006</year>
+<article-title>Symmetry breaking in interspecific <italic>Drosophila</italic> hybrids is not due to developmental noise.</article-title>
+<source>Evolution</source>
+<volume>60</volume>
+<fpage>746</fpage>
+<lpage>761</lpage>
+<pub-id pub-id-type="pmid">16739456</pub-id></element-citation></ref><ref id="pone.0000007-Klingenberg8"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klingenberg</surname><given-names>CP</given-names></name><name><surname>Badyaev</surname><given-names>AV</given-names></name><name><surname>Sowry</surname><given-names>SM</given-names></name><name><surname>Beckwith</surname><given-names>NJ</given-names></name></person-group>
+<year>2001</year>
+<article-title>Inferring developmental modularity from morphological integration: analysis of individual variation and asymmetry in bumblebee wings.</article-title>
+<source>Am Nat</source>
+<volume>157</volume>
+<fpage>11</fpage>
+<lpage>23</lpage>
+<pub-id pub-id-type="pmid">18707232</pub-id></element-citation></ref><ref id="pone.0000007-FernndezIriarte1"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fern&#x000e1;ndez Iriarte</surname><given-names>P</given-names></name><name><surname>C&#x000e9;spedes</surname><given-names>W</given-names></name><name><surname>Santos</surname><given-names>M</given-names></name></person-group>
+<year>2003</year>
+<article-title>Quantitative-genetic analysis of wing form and bilateral asymmetry in isochromosomal lines of <italic>Drosophila subobscura</italic> using Procrustes methods.</article-title>
+<source>J Genet</source>
+<volume>82</volume>
+<fpage>95</fpage>
+<lpage>113</lpage>
+<pub-id pub-id-type="pmid">15133189</pub-id></element-citation></ref><ref id="pone.0000007-Leamy2"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leamy</surname><given-names>L</given-names></name></person-group>
+<year>1993</year>
+<article-title>Morphological integration of fluctuating asymmetry in the mouse mandible.</article-title>
+<source>Genetica</source>
+<volume>89</volume>
+<fpage>139</fpage>
+<lpage>153</lpage>
+</element-citation></ref><ref id="pone.0000007-Klingenberg9"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klingenberg</surname><given-names>CP</given-names></name><name><surname>Mebus</surname><given-names>K</given-names></name><name><surname>Auffray</surname><given-names>JC</given-names></name></person-group>
+<year>2003</year>
+<article-title>Developmental integration in a complex morphological structure: how distinct are the modules in the mouse mandible?</article-title>
+<source>Evol Dev</source>
+<volume>5</volume>
+<issue>(5)</issue>
+<fpage>522</fpage>
+<lpage>531</lpage>
+<pub-id pub-id-type="pmid">12950630</pub-id></element-citation></ref><ref id="pone.0000007-Hallgrmsson3"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hallgr&#x000ed;msson</surname><given-names>B</given-names></name><name><surname>Willmore</surname><given-names>K</given-names></name><name><surname>Dorval</surname><given-names>C</given-names></name><name><surname>Cooper</surname><given-names>DML</given-names></name></person-group>
+<year>2004</year>
+<article-title>Craniofacial variability and modularity in macaques and mice.</article-title>
+<source>J Exp Zool</source>
+<volume>302B</volume>
+<fpage>207</fpage>
+<lpage>225</lpage>
+</element-citation></ref><ref id="pone.0000007-Hallgrmsson4"><label>46</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Hallgr&#x000ed;msson</surname><given-names>B</given-names></name><name><surname>Brown</surname><given-names>JJY</given-names></name><name><surname>Hall</surname><given-names>BK</given-names></name></person-group>
+<year>2005</year>
+<person-group person-group-type="editor"><name><surname>Hallgr&#x000ed;msson</surname><given-names>B</given-names></name><name><surname>Hall</surname><given-names>BK</given-names></name></person-group>
+<article-title>The study of phenotypic variability: an emerging research agenda for understanding the developmental-genetic architecture underlying phenotypic variation.</article-title>
+<source>Variation: A central concept in biology.</source>
+<publisher-loc>Burlington, MA</publisher-loc>
+<publisher-name>Elsevier</publisher-name>
+<fpage>525</fpage>
+<lpage>551</lpage>
+</element-citation></ref><ref id="pone.0000007-Palmer1"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Palmer</surname><given-names>AR</given-names></name><name><surname>Strobeck</surname><given-names>C</given-names></name></person-group>
+<year>1986</year>
+<article-title>Fluctuating asymmetry: measurement, analysis, patterns.</article-title>
+<source>Annu Rev Ecol Syst</source>
+<volume>17</volume>
+<fpage>391</fpage>
+<lpage>421</lpage>
+</element-citation></ref><ref id="pone.0000007-Mardia1"><label>48</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Mardia</surname><given-names>KV</given-names></name><name><surname>Kent</surname><given-names>JT</given-names></name><name><surname>Bibby</surname><given-names>JM</given-names></name></person-group>
+<year>1979</year>
+<source>Multivariate analysis.</source>
+<publisher-loc>London</publisher-loc>
+<publisher-name>Academic Press</publisher-name>
+<fpage>xv&#x0002b;518</fpage>
+</element-citation></ref><ref id="pone.0000007-VanValen1"><label>49</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Van Valen</surname><given-names>L</given-names></name></person-group>
+<year>2005</year>
+<person-group person-group-type="editor"><name><surname>Hallgr&#x000ed;msson</surname><given-names>B</given-names></name><name><surname>Hall</surname><given-names>BK</given-names></name></person-group>
+<article-title>The statistics of variation.</article-title>
+<source>Variation: a central concept in biology.</source>
+<publisher-loc>Burlington, MA</publisher-loc>
+<publisher-name>Elsevier</publisher-name>
+<fpage>29</fpage>
+<lpage>47</lpage>
+</element-citation></ref><ref id="pone.0000007-Good1"><label>50</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Good</surname><given-names>P</given-names></name></person-group>
+<year>2000</year>
+<source>Permutation tests: a practical guide to resampling methods for testing hypotheses.</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Springer</publisher-name>
+<fpage>xvi&#x0002b;270</fpage>
+</element-citation></ref></ref-list></back></article>

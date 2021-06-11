@@ -1,0 +1,761 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183687</article-id><article-id pub-id-type="pmc">1762350</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00174R1</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000057</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Infectious Diseases</subject><subject>Genetics and Genomics/Complex Traits</subject><subject>Genetics and Genomics/Disease Models</subject><subject>Immunology/Genetics of the Immune System</subject><subject>Immunology/Immune Response</subject><subject>Immunology/Immunity to Infections</subject><subject>Microbiology/Immunity to Infections</subject><subject>Microbiology/Medical Microbiology</subject></subj-group></article-categories><title-group><article-title>Genes from Chagas Susceptibility Loci That Are Differentially Expressed in <italic>T. cruzi</italic>-Resistant Mice Are Candidates Accounting for Impaired Immunity</article-title><alt-title alt-title-type="running-head">Chagas Susceptibility Genes</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Graefe</surname><given-names>Sebastian E. B.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Streichert</surname><given-names>Thomas</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Budde</surname><given-names>Birgit S.</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>N&#x000fc;rnberg</surname><given-names>Peter</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Steeg</surname><given-names>Christiane</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>M&#x000fc;ller-Myhsok</surname><given-names>Bertram</given-names></name><xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Fleischer</surname><given-names>Bernhard</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution>Institute for Immunology, University Hospital Eppendorf</institution>
+<addr-line>Hamburg, Germany</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>Department for Medical Microbiology and Immunology, Bernhard-Nocht-Institute for Tropical Medicine</institution>
+<addr-line>Hamburg, Germany</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<institution>Institute for Clinical Chemistry, University Hospital</institution>
+<addr-line>Hamburg, Germany</addr-line>
+</aff><aff id="aff4">
+<label>4</label>
+<institution>Cologne Center of Genomics and Institute for Genetics, University of Cologne</institution>
+<addr-line>K&#x000f6;ln, Germany</addr-line>
+</aff><aff id="aff5">
+<label>5</label>
+<institution>Max-Planck-Institute for Experimental Psychiatry</institution>
+<addr-line>M&#x000fc;nchen, Germany</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Unutmaz</surname><given-names>Derya</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">New York University School of Medicine, United States of America</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>graefe@bni-hamburg.de</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: SG BM BF. Performed the experiments: SG BB CS TS. Analyzed the data: SG BB CS BM TS. Contributed reagents/materials/analysis tools: SG BB PN TS BF. Wrote the paper: SG.</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e57</elocation-id><history><date date-type="received"><day>1</day><month>10</month><year>2006</year></date><date date-type="accepted"><day>20</day><month>10</month><year>2006</year></date></history><permissions><copyright-statement>Graefe et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Variation between inbred mice of susceptibility to experimental <italic>Trypanosoma cruzi</italic> infection has frequently been described, but the immunogenetic background is poorly understood. The outcross of the susceptible parental mouse strains C57BL/6 (B6) and DBA/2 (D2), B6D2F1 (F1) mice, is highly resistant to this parasite. In the present study we show by quantitative PCR that the increase of tissue parasitism during the early phase of infection is comparable up to day 11 between susceptible B6 and resistant F1 mice. A reduction of splenic parasite burdens occurs thereafter in both strains but is comparatively retarded in susceptible mice. Splenic microarchitecture is progressively disrupted with loss of follicles and B lymphocytes in B6 mice, but not in F1 mice. By genotyping of additional backcross offspring we corroborate our earlier findings that susceptibility maps to three loci on Chromosomes 5, 13 and 17. Analysis of gene expression of spleen cells from infected B6 and F1 mice with microarrays identifies about 0.3&#x00025; of transcripts that are differentially expressed. Assuming that differential susceptibility is mediated by altered gene expression, we propose that the following differentially expressed transcripts from these loci are strong candidates for the observed phenotypic variation: <italic>H2-E&#x003b1;, H2-D1, Ng23, Msh5</italic> and <italic>Tubb5</italic> from Chromosome 17; and <italic>Cxcl11, Bmp2k</italic> and <italic>Spp1</italic> from Chromosome 5. Our results indicate that innate mechanisms are not of primary relevance to resistance of F1 mice to <italic>T. cruzi</italic> infection, and that differential susceptibility to experimental infection with this protozoan pathogen is not paralleled by extensive variation of the transcriptome.</p></abstract><counts><page-count count="11"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Chagas' disease severely affects a considerable number of persons on the American continent, but in the majority of infected, it takes an &#x02018;indeterminate&#x02019; course over a long period of time <xref rid="pone.0000057-Miles1" ref-type="bibr">[1]</xref>. Genetic factors determining the course and outcome of the infection are thought to be of major influence on the severity of the disease <xref rid="pone.0000057-WilliamsBlangero1" ref-type="bibr">[2]</xref>&#x02013;<xref rid="pone.0000057-Deghaide1" ref-type="bibr">[6]</xref>, but the precise background has not been elucidated. Variablity of parasite strains contributes to the complex host-pathogen interaction <xref rid="pone.0000057-Campbell1" ref-type="bibr">[3]</xref>. As in human disease, the experimental infection has an early parasitaemic phase, which is followed by chronic infection that may or may not lead to the symptoms characteristic of the disease. Some controversy has prevailed over the question whether the severity of the acute phase of the infection and the degree of parasitaemia and/or tissue parasitism correlated with the severity of the chronic complications of Chagas' disease. Recently, it has increasingly been appreciated that the persistence of parasites, rather than the occurence of autoreactive antibodies or cells, determines the degree of tissue destruction <xref rid="pone.0000057-Zhang1" ref-type="bibr">[7]</xref>&#x02013;<xref rid="pone.0000057-Buckner1" ref-type="bibr">[11]</xref>. It was shown that an early phase with high parasitic loads resulted in a late phase with more prominent repercussions on the integrity of affected tissue, with more intense inflammatory infiltrates, more tissue destruction and greater loss of physiological function <xref rid="pone.0000057-Guarner1" ref-type="bibr">[12]</xref>, <xref rid="pone.0000057-Marinho2" ref-type="bibr">[13]</xref>.</p><p>The course of experimental <italic>T. cruzi</italic> infection in inbred strains of mice varies considerably depending on the mouse strain, the route of infection, the parasite strain, and the clone of a given parasite strain <xref rid="pone.0000057-Wrightsman1" ref-type="bibr">[14]</xref>&#x02013;<xref rid="pone.0000057-Powell1" ref-type="bibr">[16]</xref>. Other than with Leishmania, no consistent picture has evolved that would relate a certain type of immunologic reactivity with protection from severe disease. It has been noted that certain H2 haplotypes confer a degree of resistance <xref rid="pone.0000057-Wrightsman2" ref-type="bibr">[17]</xref>&#x02013;<xref rid="pone.0000057-Andrade2" ref-type="bibr">[19]</xref>. The requirement for pro-inflammatory cytokines such as IL-12, IFN-&#x003b3;, and TNF-&#x003b1;, as well as for MHC-class I and II molecules, CD4&#x0002b; and CD8&#x0002b; T lymphocytes and the synthesis of antigen-specific antibodies, for protective immunity has repeatedly been demonstrated <xref rid="pone.0000057-Tarleton2" ref-type="bibr">[20]</xref>&#x02013;<xref rid="pone.0000057-Graefe1" ref-type="bibr">[25]</xref>. Generally, a higher degree of expression of anti-inflammatory cytokines such as IL-4, IL-10 and TGF-&#x003b2; was correlated with increased severity of infection, but some conflicting results have been published (e.g., <xref rid="pone.0000057-Zhang2" ref-type="bibr">[26]</xref>, <xref rid="pone.0000057-Soares1" ref-type="bibr">[27]</xref>).</p><p>In contrast to the parental strains C57BL/6 (B6) and DBA/2 (D2), B6D2F1 (F1) hybrid mice display a considerable degree of resistance to experimental infection in terms of parasitaemia levels and rates of mortality, but precise mechanisms that explained the unusual phenotype of this strain have not been identified. By comparison with susceptible B6 mice, resistance in F1 mice was related to decreased expression of IL-10 and TGF-&#x003b2; in the early phase <xref rid="pone.0000057-Silva1" ref-type="bibr">[21]</xref>, <xref rid="pone.0000057-Silva2" ref-type="bibr">[28]</xref>. However, the isolated analysis of cytokine responses, and the correlation of cytokine expression or regulatory molecules with outcome, bear the danger of focussing on secondary effects or on counter-regulative reactivity, rather than identifying the initial cause for differential outcomes. In the present work, we therefore investigated at which stage of experimental infection tissue parasite loads dissociated between susceptible B6 and resistant F1 mice in order to identify the time point at which the immune responses diverge. We then analysed genomewide expression differences at this time point in the spleen, identified transcriptional correlates for differential outcomes and matched the genomic localisation of these genes with mapped susceptibility loci.</p></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>Experimental <italic>T. cruzi</italic> infection in susceptible B6 and in resistant F1 mice</title><p>Infection of B6 mice with 10<sup>4</sup> trypomastigotes of the <italic>T. cruzi</italic> tulahuen strain caused an acute illness that was usually lethal. Mice succumbed between days 20 and 30 after infection (<xref ref-type="fig" rid="pone-0000057-g001">fig. 1 A</xref>). Shortly before death, parasitaemia increased to well over 10<sup>6</sup>/ml (<xref ref-type="fig" rid="pone-0000057-g001">fig. 1 B</xref>). In F1 mice, there was a transient para&#x02013;sitaemic phase around day 13, but parasitaemia did not exceed 10<sup>6</sup>/ml, and all mice invariably survived experimental infection under these conditions (<xref ref-type="fig" rid="pone-0000057-g001">fig 1 A, B</xref>). Tissue parasite loads were quantified by real time PCR in various organs during the early phase of the infection (until day 17, <xref ref-type="fig" rid="pone-0000057-g001">fig. 1 C&#x02013;F</xref>). Interestingly, the degree of tissue parasitism was not significantly different in the first 11 days of infection between mouse strains. Resistant F1 mice actually displayed slightly higher parasite loads in all tested tissues up to this stage. After day 11, tissue parasite load declined in resistant mice, while it further increased in spleens of susceptible B6 mice. Thereafter, parasitism decreased in susceptible mice, too, in all tested organs. The rate of parasite clearance in the spleen was lower than in F1 mice. These results indicate that innate resistance is not compromised, if not more effective, in B6 mice. They also indicate that acquired immune responses develop in B6 mice with a delay and appear to be less efficient in containing tissue parasitism, especially in the spleen and liver.</p><fig id="pone-0000057-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000057.g001</object-id><label>Figure 1</label><caption><title>Experimental <bold><italic>T. cruzi</italic></bold>
+<bold> infection in susceptible B6 and in resistant F1 mice.</bold>
+</title><p>Mice were infected with 10<sup>4</sup>
+<italic>T. cruzi</italic> trypomastigotes into the peritoneum.</p><p>Survival was monitored up to day 60.</p><p>Parasitaemia was determined in a Neubauer chamber.</p><p>Tissue parasite loads in spleen, liver, heart and skeletal muscle were determined by real time PCR and are expressed as arbitrary log units of <italic>T. cruzi</italic> DNA relative to quantity of murine &#x003b2;-actin DNA.</p></caption><graphic xlink:href="pone.0000057.g001"/></fig></sec><sec id="s2b"><title>Splenic architecture was severely disrupted, and cellular composition was altered, in susceptible mice infected with <italic>T. cruzi</italic>
+</title><p>After day 10 of infection, there was a striking difference of parasite loads in the spleen between the mouse strains. Splenomegaly was present in all infected mice to the same extent (total spleen cell numbers increased to about 1&#x02013;2&#x000d7;10<sup>8</sup> in either strain) and pointed to a strong involvement of the spleen in the immune response to <italic>T. cruzi</italic>. We thus assessed by histologic analysis whether splenic architecture was modified, and by flow cytometry whether there were quantitative differences in splenic cellular composition between B6 and F1 mice.</p><p>Histologically, the appearance of red and white pulp, the numbers and size of primary follicles, and the distribution of periarteriolar lymphatic sheaths (PALS) was not obviously different in naive mice, and the cellular localisation of cells expressing CD4, CD8, CD19 and CD11b was indistinguishable (<xref ref-type="fig" rid="pone-0000057-g002">fig. 2 A, B and data not shown</xref>). By day 13 of an experimental infection with <italic>T. cruzi</italic>, splenic microarchitecture was observed to be disrupted in B6 mice but not in F1 mice (<xref ref-type="fig" rid="pone-0000057-g002">fig. 2 C, D</xref>). The disruption was even more severe on day 23 (not shown). In F1 mice, abundant cells with intracellular apoptotic bodies, resembling tingible body macrophages, were seen in secondary follicles (<xref ref-type="fig" rid="pone-0000057-g002">fig. 2 D, inset</xref>), but these were not observed in B6 mice. Periarteriolar sheaths (PALS) were reduced by numbers and smaller in size in B6 mice, but CD4&#x0002b; cells were found throughout the spleen (<xref ref-type="fig" rid="pone-0000057-g002">fig. 2 E</xref>). In F1 mice, some prominent PALS consisting of CD4&#x0002b; T cells were detectable (<xref ref-type="fig" rid="pone-0000057-g002">fig. 2 F</xref>). Follicles with CD19&#x0002b; B lymphocytes were also reduced in size and numbers in the spleen of infected B6 mice (<xref ref-type="fig" rid="pone-0000057-g002">fig. 2 G</xref>). Contrarily, in resistant F1 mice, prominent B cell follicles were present adjacent to PALS (<xref ref-type="fig" rid="pone-0000057-g002">fig. 2 H</xref>). CD8 T cells did generally not co-localise to PALS in susceptible mice, but were located in the remains of the red and white pulp (<xref ref-type="fig" rid="pone-0000057-g002">fig. 2 I</xref>). In F1 mice, CD8&#x0002b; cells formed small clusters in the red pulp and co-localised with PALS (<xref ref-type="fig" rid="pone-0000057-g002">fig. 2 K</xref>). In summary, the main difference in splenic microarchitecture between mouse strains was the obvious loss of compartmentalised organisation of lyphocytes in susceptible but not in resistant mice.</p><fig id="pone-0000057-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000057.g002</object-id><label>Figure 2</label><caption><title>Splenic architecture and cellular composition in susceptible B6 and in resistant F1 mice.</title><p>Spleens from B6 mice (left panel) and from F1 mice (right panel) were either fixed in paraformaldehyde, embedded in paraffin, and subsequently stained with hematoxylin and eosin (A&#x02013;D), or they were shock frozen in liquid nitrogen and analysed by immunohistochemistry (C&#x02013;M).</p><p>Sections are from naive mice (A, B) or from <italic>T. cruzi</italic>- infected mice (C&#x02013;M) at the indicated day of infection.</p><p>Cryosections were stained for CD4 (E, F), CD19 (G, H), CD8 (I, K), or by the TUNEL reaction (L, M).</p><p>Micrographs A&#x02013;K at original magnification 100&#x000d7;, micrographs L, M and insert in D at 400&#x000d7;; inset in D shows centre of a secondary follice.</p></caption><graphic xlink:href="pone.0000057.g002"/></fig><p>The proliferation of <italic>T. cruzi</italic> within macrophages has been shown to be enhanced in the presence of apoptotic T cells due to a downregulatory effect of apoptotic bodies on trypanocidal effector functions of infected macrophages <xref rid="pone.0000057-FreiredeLima1" ref-type="bibr">[29]</xref>. We therefore determined the quantitiy and distribution of apoptotic cells in the spleens of infected mice. In spleens from B6 mice, abundant apoptotic cells (identified by the TUNEL reaction) were found throughout the spleen, and they were frequently located sub-capsularly and in the remaining T cell areas, (<xref ref-type="fig" rid="pone-0000057-g002">fig. 2 L</xref>). By contrast, apoptotic cell numbers were lower, and they were mainly found in the centre of follicles, in the spleen of F1 mice (<xref ref-type="fig" rid="pone-0000057-g002">fig. 2 M</xref>).</p><p>The splenic cellular composition in infected mice was analysed cytometrically with explanted spleen cells to verify the histologic alterations. In naive mice, relative numbers of splenic CD4&#x0002b; T cells, CD8&#x0002b; T cells, CD19&#x0002b; B cells and CD11b&#x0002b; macrophages did not differ between mice (<xref ref-type="fig" rid="pone-0000057-g003">fig. 3 A</xref>). However, cell fractions were notably different later during infection. On day 24 of infection, prior to the detrimental outcome in B6 mice, CD19&#x0002b; B lymphocytes were decreased at around 30&#x00025; of cells (<xref ref-type="fig" rid="pone-0000057-g003">fig 3 B</xref>) in susceptible B6 mice. Interestingly, in infected F1 mice, the fraction of B cells was similar to that of control mice (about 60&#x00025;, <xref ref-type="fig" rid="pone-0000057-g003">fig. 3 B</xref>). The fraction of CD4&#x0002b; lymphocytes was 10&#x02013;15&#x00025; in both strains (not shown). Splenic CD8&#x0002b; T cells increased to around 20&#x02013;25&#x00025; of cells in B6 mice, and to about 15&#x00025; in F1 mice (not shown). Strikingly, in B6 mice, relative numbers of CD11b&#x0002b; macrophages drastically increased more than tenfold, from about 3&#x00025; in naive mice to 30&#x02013;50&#x00025; in infected mice, but in F1 mice, the increase was less pronounced to about 10&#x02013;20&#x00025; of spleen cells (<xref ref-type="fig" rid="pone-0000057-g003">fig. 3 B</xref>). In summary, a strong bias towards macrophages, and a slight bias towards CD8&#x0002b; T cells, at the expense of B lymphocytes, was found in the spleen of infected B6 mice, but not in resistant F1 mice.</p><fig id="pone-0000057-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000057.g003</object-id><label>Figure 3</label><caption><title>Cellular composition of the spleen from naive and <italic>T. cruzi</italic>- infected mice. </title><p>Single spleen cell suspensions from naive mice (A) and from mice infected on day 24 with <italic>T. cruzi</italic> (B) were analysed by flow cytometry.</p><p>Cells were stained for both CD4 and CD8, for CD19, for CD11b, or with propidium iodide (PI) and Annexin V (AxV).</p><p>Numbers indicate percentage of cells expressing the respective marker.</p><p>B6, C57BL/6 mice; F1, B6D2F1 mice.</p></caption><graphic xlink:href="pone.0000057.g003"/></fig><p>In naive mice, numbers of apoptotic cells were low at around 1&#x00025; (determined cytometrically by staining with Annexin V) and did not differ between the two strains (not shown). In infected mice, however, there was a strong increase of Annexin V (AxV) positive cells in B6 mice (<xref ref-type="fig" rid="pone-0000057-g003">fig 3 B</xref>). The relative number of cells expressing AxV was 10&#x02013;20&#x00025;, with half of these also staining with propidium iodide (PI), indicating that these cells had lost integrity of the cell membrane. In infected F1 mice, AxV positive cells increased to about 2&#x02013;5&#x00025;. The proportion of cells stained by PI only was about 10&#x00025; in either strain, indicating that preparation of samples had equal effects on staining of cells in causing some degree of cell death. In summary, susceptible mice displayed a considerably higher rate of apoptosis in the spleen, possibly accounting for the reduced numbers of B cells.</p></sec><sec id="s2c"><title>Significant linkage of susceptibility to loci on Chromosomes 5 and 17, and suggestive linkage on Chromosome 13</title><p>We previously mapped genomic loci as being either suggestively (Chromosome 5) or significantly (Chromosome 17) linked to susceptibility to lethal experimental <italic>T. cruzi</italic> infection, respectively <xref rid="pone.0000057-Graefe2" ref-type="bibr">[30]</xref>. The score of a further genomic region on Chromosome 13 did not attain the threshold level for genome-wide linkage but appeared to be involved, too. In an extension study, designed to confirm linkage of a locus previously reported as suggestively linked <xref rid="pone.0000057-Lander1" ref-type="bibr">[31]</xref>, we phenotyped further male B6xF1 backcross mice, and another 22 mice died during the early phase (up to day 50) of infection. The candidate regions were genotyped with microsatellite markers in these mice, and the resulting data replicated that susceptibility mapped to the reported locus on Chromosome 17, and further substantiated the linkage evidence for the loci on Chromosomes 5 and 13 by raising it to the level of significant and suggestive linkage, respectively (<xref ref-type="fig" rid="pone-0000057-g004">fig. 4</xref>).</p><fig id="pone-0000057-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000057.g004</object-id><label>Figure 4</label><caption><title>Murine <italic>T. cruzi</italic> susceptibility loci map to Chromosomes 5, 13, and 17.</title><p>Nine microsatellite markers from the three candidate genomic regions previously identified as suceptibility loci <xref rid="pone.0000057-Graefe2" ref-type="bibr">[30]</xref> were typed in an additional 22 <italic>T. cruzi</italic>- susceptible B6xF1 backcross mice (see <xref ref-type="table" rid="pone-0000057-t003">table 3</xref> for respective markers).</p><p>Single-point (dashed line) and multi-point (solid line) calculations of &#x003c7;<sup>2</sup> are shown for all 68 susceptible backcross mice including the 46 from the original study.</p><p>Dotted lines at &#x003c7;<sup>2</sup>&#x0200a;=&#x0200a;16.56 and &#x003c7;<sup>2</sup>&#x0200a;=&#x0200a;8.74 indicate thresholds for suggestive and significant linkage, respectively.</p></caption><graphic xlink:href="pone.0000057.g004"/></fig><p>Even though the genes conferring susceptibility are thus mapped, the respective genetic regions are large and the number of candidate genes is substantial, so that safe predictions about the genes themselves are not straightforward. However, it is generally accepted that quantitative differences of transcription determine the outcome of an infection with a complex immunogenetic background. The kinetics of tissue parasite loads during early experimental <italic>T. cruzi</italic> infection in the two differentially susceptible mouse strains indicate that after about day 10, the implementation of effector immune responses was impaired but not abrogated in susceptible B6 mice. The described differences in parasite proliferation, splenic architecture and splenic cellular composition progressively developed after this time point. Since the spleen appeared to be fundamentally involved in the differential immunity to the parasite, we therefore analysed genome wide expression in explanted spleen cells from either mouse strain in order to identify genes that were differentially transcribed and that mapped to the susceptibility loci. We chose to analyse expression on day 11 as the starting point from which the infection took a divergent course. At this stage, the cellular composition of the spleen was marginally different between mouse strains in that there were more CD8&#x0002b; cells (7&#x00025; vs. 4&#x00025;) in B6 mice, but fewer CD19&#x0002b; cells, (10&#x00025; vs. 18&#x00025;) in B6 mice, while the proportion of CD4&#x0002b; and of CD11b&#x0002b; cells was comparable (12&#x00025; and 17&#x02013;20&#x00025;, respectively).</p></sec><sec id="s2d"><title>Differential gene expression in the spleens of susceptible B6 and from resistant F1 mice on day 11 of <italic>T. cruzi</italic> infection</title><p>We used mouse expression arrays containing 22690 transcripts and obtained three biologically independent specimen pairs. Data were normalised using target value scaling (target value: 100). Expression was considered significantly different when it showed a concordant regulation in at least 6 of 9 crosswise comparisons and a signal log ratio of 0.8 (fold change of 1.6) or more. Applying these criteria, we found that 28 transcripts were upregulated and 42 transcripts were downregulated in B6 mice, compared to F1 mice (<xref ref-type="table" rid="pone-0000057-t001">tables 1</xref> and <xref ref-type="table" rid="pone-0000057-t002">2</xref>). A second, biologically independent experiment was performed in which we analysed the transcription profile of pooled spleen cells from three infected animals of each strain to confirm transcriptional differences. Applying the same statistical algorithms and criteria, we could verify the differential expression of 14 transcripts with increased expression and of 35 transcripts with decreased expression (highlighted by bold gene titles, <xref ref-type="table" rid="pone-0000057-t001">tables 1</xref> and <xref ref-type="table" rid="pone-0000057-t002">2</xref>).</p><table-wrap id="pone-0000057-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000057.t001</object-id><label>Table 1</label><caption><title>Transcripts with increased expression in spleens of <italic>T. cruzi</italic>- infected susceptible B6 mice with respect to resistant F1 mice.</title></caption><graphic xlink:href="pone.0000057.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Gene Symbol<xref ref-type="table-fn" rid="nt102">a</xref>
+</td><td align="left" rowspan="1" colspan="1">Gene Title (Annotations)</td><td align="left" rowspan="1" colspan="1">Mean SLR<xref ref-type="table-fn" rid="nt103">b</xref>
+</td><td align="left" rowspan="1" colspan="1">Affymetrix Probe ID</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<bold>Tcrb-V13/LOC384374/LOC436520</bold>
+</td><td align="left" rowspan="1" colspan="1">T-cell receptor beta, variable 13/similar to TCRBV3S1/similar to TCRBV3S1</td><td align="left" rowspan="1" colspan="1">3.7</td><td align="left" rowspan="1" colspan="1">1427849_a_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Tcrb-V13/LOC384375/LOC386550</bold>
+</td><td align="left" rowspan="1" colspan="1">T-cell receptor beta, variable 13/similar to TCRBV7S1/similar to TCRBV7S1</td><td align="left" rowspan="1" colspan="1">3.2</td><td align="left" rowspan="1" colspan="1">1427752_a_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>1110033J19Rik</bold>
+</td><td align="left" rowspan="1" colspan="1">RIKEN cDNA 1110033J19 gene (similar to ribosomal protein S4)</td><td align="left" rowspan="1" colspan="1">3.0</td><td align="left" rowspan="1" colspan="1">1452730_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Adamdec1</td><td align="left" rowspan="1" colspan="1">ADAM-like, decysin 1</td><td align="left" rowspan="1" colspan="1">1.8</td><td align="left" rowspan="1" colspan="1">1419476_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Mmp13</td><td align="left" rowspan="1" colspan="1">matrix metalloproteinase 13</td><td align="left" rowspan="1" colspan="1">1.7</td><td align="left" rowspan="1" colspan="1">1417256_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Spp1/Opn</bold>
+</td><td align="left" rowspan="1" colspan="1">secreted phosphoprotein 1 (osteopontin, Eta-1)</td><td align="left" rowspan="1" colspan="1">1.7</td><td align="left" rowspan="1" colspan="1">1449254_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Marco</td><td align="left" rowspan="1" colspan="1">macrophage receptor with collagenous structure</td><td align="left" rowspan="1" colspan="1">1.5</td><td align="left" rowspan="1" colspan="1">1449498_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>&#x02014;</bold>
+</td><td align="left" rowspan="1" colspan="1">Mus musculus, clone IMAGE:3983821, (mRNA, similar to ES derived homeobox)</td><td align="left" rowspan="1" colspan="1">1.2</td><td align="left" rowspan="1" colspan="1">1427820_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Tspan4</td><td align="left" rowspan="1" colspan="1">tetraspanin 4</td><td align="left" rowspan="1" colspan="1">1.1</td><td align="left" rowspan="1" colspan="1">1448276_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Snx6</bold>
+</td><td align="left" rowspan="1" colspan="1">sorting nexin 6</td><td align="left" rowspan="1" colspan="1">1.1</td><td align="left" rowspan="1" colspan="1">1451602_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>C1qb</bold>
+</td><td align="left" rowspan="1" colspan="1">complement component 1, q subcomponent, beta polypeptide</td><td align="left" rowspan="1" colspan="1">1.0</td><td align="left" rowspan="1" colspan="1">1417063_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>2700079J08Rik</bold>
+</td><td align="left" rowspan="1" colspan="1">Riken cDNA 2700079J08 gene/Gag protein (fragment) homolog</td><td align="left" rowspan="1" colspan="1">1.0</td><td align="left" rowspan="1" colspan="1">1436362_x_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Erdr1</td><td align="left" rowspan="1" colspan="1">erythroid differentiation regulator 1</td><td align="left" rowspan="1" colspan="1">1.0</td><td align="left" rowspan="1" colspan="1">1452406_x_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>C1qb</bold>
+</td><td align="left" rowspan="1" colspan="1">complement component 1, q subcomponent, beta polypeptide</td><td align="left" rowspan="1" colspan="1">1.0</td><td align="left" rowspan="1" colspan="1">1437726_x_at</td></tr><tr><td align="left" rowspan="1" colspan="1">C1qa</td><td align="left" rowspan="1" colspan="1">complement component 1, q subcomponent, alpha polypeptide</td><td align="left" rowspan="1" colspan="1">1.0</td><td align="left" rowspan="1" colspan="1">1417381_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Erdr1</td><td align="left" rowspan="1" colspan="1">Erythroid differentiation regulator 1</td><td align="left" rowspan="1" colspan="1">1.0</td><td align="left" rowspan="1" colspan="1">1439200_x_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>1700029I01Rik/LOC433791/LOC545705</bold>
+</td><td align="left" rowspan="1" colspan="1">RIKEN cDNA 1700029I01 gene/similar to RIKEN cDNA 1700029I01/similar to RIKEN cDNA 1700029I01 (similar to zinc finger protein 665)</td><td align="left" rowspan="1" colspan="1">0.9</td><td align="left" rowspan="1" colspan="1">1424784_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Klf9</td><td align="left" rowspan="1" colspan="1">Kruppel-like factor 9</td><td align="left" rowspan="1" colspan="1">0.9</td><td align="left" rowspan="1" colspan="1">1428288_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Prdx2</td><td align="left" rowspan="1" colspan="1">peroxiredoxin 2</td><td align="left" rowspan="1" colspan="1">0.9</td><td align="left" rowspan="1" colspan="1">1430979_a_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Tcrg</td><td align="left" rowspan="1" colspan="1">T-cell receptor gamma chain, variable 4</td><td align="left" rowspan="1" colspan="1">0.9</td><td align="left" rowspan="1" colspan="1">1422188_s_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Clec4n</td><td align="left" rowspan="1" colspan="1">C-type lectin domain family 4, member n</td><td align="left" rowspan="1" colspan="1">0.9</td><td align="left" rowspan="1" colspan="1">1425951_a_at</td></tr><tr><td align="left" rowspan="1" colspan="1">C1qg</td><td align="left" rowspan="1" colspan="1">complement component 1, q subcomponent, gamma polypeptide</td><td align="left" rowspan="1" colspan="1">0.9</td><td align="left" rowspan="1" colspan="1">1449401_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Tlr1</bold>
+</td><td align="left" rowspan="1" colspan="1">toll-like receptor 1</td><td align="left" rowspan="1" colspan="1">0.9</td><td align="left" rowspan="1" colspan="1">1449049_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Trim12</bold>
+</td><td align="left" rowspan="1" colspan="1">tripartite motif protein 12</td><td align="left" rowspan="1" colspan="1">0.9</td><td align="left" rowspan="1" colspan="1">1437432_a_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Trim34/LOC434218</bold>
+</td><td align="left" rowspan="1" colspan="1">tripartite motif protein 34/similar to tripartite motif protein TRIM34 alpha</td><td align="left" rowspan="1" colspan="1">0.8</td><td align="left" rowspan="1" colspan="1">1424857_a_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Wars</td><td align="left" rowspan="1" colspan="1">tryptophanyl-tRNA synthetase</td><td align="left" rowspan="1" colspan="1">0.8</td><td align="left" rowspan="1" colspan="1">1415694_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>ifi203</bold>
+</td><td align="left" rowspan="1" colspan="1">interferon-activatable gene 203</td><td align="left" rowspan="1" colspan="1">0.8</td><td align="left" rowspan="1" colspan="1">1426906_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Ndel1</bold>
+</td><td align="left" rowspan="1" colspan="1">nuclear distribution gene E-like homolog 1 (A. nidulans)</td><td align="left" rowspan="1" colspan="1">0.8</td><td align="left" rowspan="1" colspan="1">1424893_at</td></tr></tbody></table><table-wrap-foot><fn id="nt101"><p>Affymetrix GeneChip Mouse Expression Array 430A</p></fn><fn id="nt102"><label>a</label><p>
+<bold>Bold gene title</bold>: Differential expression verified in an independent analysis, see text</p></fn><fn id="nt103"><label>b</label><p>Mean SLR: Signal log ratio, log<sub>2</sub>
+</p></fn></table-wrap-foot></table-wrap><table-wrap id="pone-0000057-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000057.t002</object-id><label>Table 2</label><caption><title>Transcripts with decreased expression in spleens of <italic>T. cruzi</italic>- infected susceptible B6 mice with respect to resistant F1 mice.</title></caption><graphic xlink:href="pone.0000057.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Gene Symbol<xref ref-type="table-fn" rid="nt106">a</xref>
+</td><td align="left" rowspan="1" colspan="1">Gene Title (Annotations)</td><td align="left" rowspan="1" colspan="1">Mean SLR<xref ref-type="table-fn" rid="nt107">b</xref>
+</td><td align="left" rowspan="1" colspan="1">Affymetrix Probe ID</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<bold>Igh-1a</bold>
+</td><td align="left" rowspan="1" colspan="1">immunoglobulin heavy chain 1a (serum IgG2a)</td><td align="left" rowspan="1" colspan="1">&#x02212;7.9</td><td align="left" rowspan="1" colspan="1">1451632_a_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>H2-Ea</bold>
+</td><td align="left" rowspan="1" colspan="1">histocompatibility 2, class II antigen E alpha</td><td align="left" rowspan="1" colspan="1">&#x02212;7.9</td><td align="left" rowspan="1" colspan="1">1422892_s_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>H2-D1</bold>
+</td><td align="left" rowspan="1" colspan="1">histocompatibility 2, D region locus 1</td><td align="left" rowspan="1" colspan="1">&#x02212;7.6</td><td align="left" rowspan="1" colspan="1">1452544_x_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>H2-D1</bold>
+</td><td align="left" rowspan="1" colspan="1">histocompatibility 2, D region locus 1</td><td align="left" rowspan="1" colspan="1">&#x02212;7.4</td><td align="left" rowspan="1" colspan="1">1425614_x_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Ifi202b</bold>
+</td><td align="left" rowspan="1" colspan="1">interferon activated gene 202B</td><td align="left" rowspan="1" colspan="1">&#x02212;7.1</td><td align="left" rowspan="1" colspan="1">1421551_s_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>H2-Ea</bold>
+</td><td align="left" rowspan="1" colspan="1">histocompatibility 2, class II antigen E alpha</td><td align="left" rowspan="1" colspan="1">&#x02212;6.2</td><td align="left" rowspan="1" colspan="1">1422891_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>H2-D1</bold>
+</td><td align="left" rowspan="1" colspan="1">histocompatibility 2, D region locus 1</td><td align="left" rowspan="1" colspan="1">&#x02212;6.2</td><td align="left" rowspan="1" colspan="1">1427651_x_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Mela</bold>
+</td><td align="left" rowspan="1" colspan="1">melanoma antigen</td><td align="left" rowspan="1" colspan="1">&#x02212;4.3</td><td align="left" rowspan="1" colspan="1">1456182_x_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>H2-Q1</bold>
+</td><td align="left" rowspan="1" colspan="1">Histocompatibility 2, D region locus 1</td><td align="left" rowspan="1" colspan="1">&#x02212;3.6</td><td align="left" rowspan="1" colspan="1">1451593_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Mcpt2</bold>
+</td><td align="left" rowspan="1" colspan="1">mast cell protease 2</td><td align="left" rowspan="1" colspan="1">&#x02212;3.6</td><td align="left" rowspan="1" colspan="1">1449989_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>2210010A19Rik</bold>
+</td><td align="left" rowspan="1" colspan="1">Riken cDNA 2210010A19 gene (hypoth. pyridoxal-dependent decarboxylase family containing protein)</td><td align="left" rowspan="1" colspan="1">&#x02212;3.3</td><td align="left" rowspan="1" colspan="1">1419327_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Ng23</bold>
+</td><td align="left" rowspan="1" colspan="1">Ng23 protein</td><td align="left" rowspan="1" colspan="1">&#x02212;3.1</td><td align="left" rowspan="1" colspan="1">1422952_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Tnfrsf14/HVEM</bold>
+</td><td align="left" rowspan="1" colspan="1">tumor necrosis factor receptor superfamily, member 14 (herpesvirus entry mediator)</td><td align="left" rowspan="1" colspan="1">&#x02212;2.8</td><td align="left" rowspan="1" colspan="1">1452425_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Gm288</bold>
+</td><td align="left" rowspan="1" colspan="1">Gene model 288, (NCBI)</td><td align="left" rowspan="1" colspan="1">&#x02212;2.8</td><td align="left" rowspan="1" colspan="1">1435998_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Pnpt1</bold>
+</td><td align="left" rowspan="1" colspan="1">polyribonucleotide nucleotidyltransferase 1</td><td align="left" rowspan="1" colspan="1">&#x02212;2.5</td><td align="left" rowspan="1" colspan="1">1452677_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Serpina1b/Serpina1d/Serpina1e</bold>
+</td><td align="left" rowspan="1" colspan="1">serine (or cysteine) proteinase inhibitor, clade A, member 1b/serine (or cysteine) proteinase inhibitor, clade A, member 1d/serine (or cysteine) proteinase inhibitor, clade A, member 1e</td><td align="left" rowspan="1" colspan="1">&#x02212;2.4</td><td align="left" rowspan="1" colspan="1">1418282_x_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Wdtc1</bold>
+</td><td align="left" rowspan="1" colspan="1">WD and tetratricopeptide repeats 1</td><td align="left" rowspan="1" colspan="1">&#x02212;2.2</td><td align="left" rowspan="1" colspan="1">1434560_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Sfi1/LOC673420</td><td align="left" rowspan="1" colspan="1">Sfi1 homolog, spindle assembly associated (yeast)/similar to spindle assembly associated Sfi1 homolog isoform b</td><td align="left" rowspan="1" colspan="1">&#x02212;2.1</td><td align="left" rowspan="1" colspan="1">1452195_s_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Msh5</bold>
+</td><td align="left" rowspan="1" colspan="1">mutS homolog 5 (E. coli)</td><td align="left" rowspan="1" colspan="1">&#x02212;1.9</td><td align="left" rowspan="1" colspan="1">1430771_a_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Gcg</td><td align="left" rowspan="1" colspan="1">glucagon</td><td align="left" rowspan="1" colspan="1">&#x02212;1.7</td><td align="left" rowspan="1" colspan="1">1425952_a_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>LOC628926</bold>
+</td><td align="left" rowspan="1" colspan="1">hypothotetical protein LOC628926</td><td align="left" rowspan="1" colspan="1">&#x02212;1.7</td><td align="left" rowspan="1" colspan="1">1427553_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Dnase1l3</bold>
+</td><td align="left" rowspan="1" colspan="1">deoxyribonuclease 1-like 3</td><td align="left" rowspan="1" colspan="1">&#x02212;1.6</td><td align="left" rowspan="1" colspan="1">1421056_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Cxcl11</td><td align="left" rowspan="1" colspan="1">chemokine (C-X-C motif) ligand 11</td><td align="left" rowspan="1" colspan="1">&#x02212;1.6</td><td align="left" rowspan="1" colspan="1">1419697_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Cap1</bold>
+</td><td align="left" rowspan="1" colspan="1">CAP, adenylate cyclase-associated protein 1 (yeast)</td><td align="left" rowspan="1" colspan="1">&#x02212;1.5</td><td align="left" rowspan="1" colspan="1">1417461_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Aps</bold>
+</td><td align="left" rowspan="1" colspan="1">adaptor protein with pleckstrin homology and src</td><td align="left" rowspan="1" colspan="1">&#x02212;1.4</td><td align="left" rowspan="1" colspan="1">1450718_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Bmp2k</bold>
+</td><td align="left" rowspan="1" colspan="1">BMP2 inducible kinase</td><td align="left" rowspan="1" colspan="1">&#x02212;1.4</td><td align="left" rowspan="1" colspan="1">1421103_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Cap1</bold>
+</td><td align="left" rowspan="1" colspan="1">CAP, adenylate cyclase-associated protein 1 (yeast)</td><td align="left" rowspan="1" colspan="1">&#x02212;1.3</td><td align="left" rowspan="1" colspan="1">1417462_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>AI324046</bold>
+</td><td align="left" rowspan="1" colspan="1">expressed sequence AI324046 (immunoglobulin heavy chain, IgG3)</td><td align="left" rowspan="1" colspan="1">&#x02212;1.2</td><td align="left" rowspan="1" colspan="1">1447998_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Foxj3</td><td align="left" rowspan="1" colspan="1">forkhead box J3</td><td align="left" rowspan="1" colspan="1">&#x02212;1.1</td><td align="left" rowspan="1" colspan="1">1438220_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Ptp4a2</bold>
+</td><td align="left" rowspan="1" colspan="1">Protein tyrosine phosphatase 4a2</td><td align="left" rowspan="1" colspan="1">&#x02212;1.0</td><td align="left" rowspan="1" colspan="1">1435129_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Ets1</bold>
+</td><td align="left" rowspan="1" colspan="1">E26 avian leukemia oncogene 1, 5&#x02032; domain</td><td align="left" rowspan="1" colspan="1">&#x02212;1.0</td><td align="left" rowspan="1" colspan="1">1422028_a_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>D13Ertd608e</bold>
+</td><td align="left" rowspan="1" colspan="1">DNA segment, chr 13, ERATO Doi 608, expressed</td><td align="left" rowspan="1" colspan="1">&#x02212;1.0</td><td align="left" rowspan="1" colspan="1">1439771_s_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Srd5a2l</bold>
+</td><td align="left" rowspan="1" colspan="1">steroid 5 alpha-reductase 2-like</td><td align="left" rowspan="1" colspan="1">&#x02212;1.0</td><td align="left" rowspan="1" colspan="1">1439241_x_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Supt16h</bold>
+</td><td align="left" rowspan="1" colspan="1">suppressor of Ty 16 homolog (S. cerevisiae)</td><td align="left" rowspan="1" colspan="1">&#x02212;1.0</td><td align="left" rowspan="1" colspan="1">1449578_at</td></tr><tr><td align="left" rowspan="1" colspan="1">E030041M21Rik</td><td align="left" rowspan="1" colspan="1">RIKEN cDNA E030041M21 gene</td><td align="left" rowspan="1" colspan="1">&#x02212;0.9</td><td align="left" rowspan="1" colspan="1">1451276_at</td></tr><tr><td align="left" rowspan="1" colspan="1">37135</td><td align="left" rowspan="1" colspan="1">septin 1</td><td align="left" rowspan="1" colspan="1">&#x02212;0.9</td><td align="left" rowspan="1" colspan="1">1449898_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Hyou1</td><td align="left" rowspan="1" colspan="1">hypoxia up-regulated 1</td><td align="left" rowspan="1" colspan="1">&#x02212;0.9</td><td align="left" rowspan="1" colspan="1">1423290_at</td></tr><tr><td align="left" rowspan="1" colspan="1">Rnf6</td><td align="left" rowspan="1" colspan="1">ring finger protein (C3H2C3 type) 6</td><td align="left" rowspan="1" colspan="1">&#x02212;0.8</td><td align="left" rowspan="1" colspan="1">1427899_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Alad</bold>
+</td><td align="left" rowspan="1" colspan="1">aminolevulinate, delta-, dehydratase</td><td align="left" rowspan="1" colspan="1">&#x02212;0.8</td><td align="left" rowspan="1" colspan="1">1424877_a_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Tubb5</bold>
+</td><td align="left" rowspan="1" colspan="1">tubulin, beta 5</td><td align="left" rowspan="1" colspan="1">&#x02212;0.8</td><td align="left" rowspan="1" colspan="1">1455719_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Rbm5</bold>
+</td><td align="left" rowspan="1" colspan="1">RNA binding motif protein 5</td><td align="left" rowspan="1" colspan="1">&#x02212;0.8</td><td align="left" rowspan="1" colspan="1">1456262_at</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Comt</bold>
+</td><td align="left" rowspan="1" colspan="1">catechol-O-methyltransferase</td><td align="left" rowspan="1" colspan="1">&#x02212;0.8</td><td align="left" rowspan="1" colspan="1">1418701_at</td></tr></tbody></table><table-wrap-foot><fn id="nt105"><p>Affymetrix GeneChip Mouse Expression Array 430A</p></fn><fn id="nt106"><label>a</label><p>
+<bold>Bold gene title</bold>: Differential expression verified in an independent analysis, see text</p></fn><fn id="nt107"><label>b</label><p>Mean SLR: Signal log ratio, log<sub>2</sub>
+</p></fn></table-wrap-foot></table-wrap><p>Over all, only about 0.3&#x00025; of transcripts present on the microarray were found to be differentially expressed between the two mouse strains. Among these were a number of genes that are involved in immune responses or inflammatory processes, such as: the T cell receptor (TCR) V&#x003b2; 13; the TCR gamma chain; osteopontin (<italic>Opn</italic>, or <italic>Spp1</italic>, secreted phosphoprotein 1); complement component 1 subcomponents; the herpes virus entry mediator (<italic>Hvem</italic>), a member of the TNF receptor superfamily and the ligand of the B and T lymphocyte attenuator (BTLA) <xref rid="pone.0000057-Sedy1" ref-type="bibr">[32]</xref>; <italic>Cxcl11</italic>, a T cell recruiting CXC chemokine (also known as I-TAC); Toll-like receptor 1 (<italic>Tlr1</italic>); <italic>Clec4n</italic>, a C type lectin-like receptor (also termed dectin-2). Among the transcripts with decreased expression, the strongest differences were expectedly found for genes not encoded in the genome of B6 mice, such as <italic>Igh-1a</italic> (an allotype of the <italic>&#x003b3;2a</italic> gene encoding the heavy chain of Ig2a immunoglobulins, <xref rid="pone.0000057-Morgado1" ref-type="bibr">[33]</xref>), <italic>H2-Ea</italic> (encoding H2-E&#x003b1;, an MHC class II protein) <xref rid="pone.0000057-Jones1" ref-type="bibr">[34]</xref>, <xref rid="pone.0000057-Liao1" ref-type="bibr">[35]</xref>, and <italic>H2-D1</italic> (encoding an MHC class Ia protein not expressed in mice with the H2<sup>b</sup> haplotype <xref rid="pone.0000057-Allcock1" ref-type="bibr">[36]</xref>).</p><p>Only a few differentially transcribed genes map to the susceptibility loci on Chromosomes 5 and 17 (<xref ref-type="table" rid="pone-0000057-t003">table 3</xref>). Three transcripts map to the locus on Chromosome 5, with two (the IFN-inducible chemokine <italic>Cxcl11</italic>, and <italic>Bmp2k</italic>, bone morphogenetic protein 2-inducible kinase) being down-regulated, and one (<italic>Spp1</italic>) being upregulated, in susceptible mice. Expression of <italic>Bmp2k</italic> and <italic>Spp1</italic> transcripts were concordantly regulated in the second microarray experiment. <italic>Cxcl11</italic> mRNA was not detectable in either pool of RNA in this experiment, but it was found to be about four-fold decreased in infected B6 mice in an RT-PCR assay (O. Steinmetz, personal communication), corroborating the results of the gene array in which a signal log ratio of &#x02212;1.6 was determined (corresponding to a three-fold decrease, <xref ref-type="table" rid="pone-0000057-t003">table 3</xref>). By contrast, expression levels of two other CXC chemokines (<italic>Cxcl9</italic> and <italic>Cxcl10</italic>) did not vary between mice in either analysis.</p><table-wrap id="pone-0000057-t003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000057.t003</object-id><label>Table 3</label><caption><title>susceptibility loci in B6 mice, and transcripts of genes encoded in these genomic regions that are differentially expressed between <italic>T. cruzi</italic>- infected B6 and F1 mice.</title></caption><graphic xlink:href="pone.0000057.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Chromosomal marker</td><td colspan="2" align="left" rowspan="1">single-point<xref ref-type="table-fn" rid="nt109">a</xref>
+</td><td colspan="2" align="left" rowspan="1">multi-point<xref ref-type="table-fn" rid="nt109">a</xref>
+</td><td colspan="2" align="left" rowspan="1">differentially expressed transcripts<xref ref-type="table-fn" rid="nt110">b</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">&#x003c7;<sup>2</sup>
+</td><td align="left" rowspan="1" colspan="1">p-value</td><td align="left" rowspan="1" colspan="1">&#x003c7;<sup>2</sup>
+</td><td align="left" rowspan="1" colspan="1">p-value</td><td align="left" rowspan="1" colspan="1">gene symbol</td><td align="left" rowspan="1" colspan="1">mean SLR<xref ref-type="table-fn" rid="nt110">b</xref>
+</td></tr></thead><tbody><tr><td colspan="7" align="left" rowspan="1">Chromosome 5</td></tr><tr><td align="left" rowspan="1" colspan="1">d5mit20</td><td align="left" rowspan="1" colspan="1">15,52</td><td align="left" rowspan="1" colspan="1">4,08E-05</td><td align="left" rowspan="1" colspan="1">14,34</td><td align="left" rowspan="1" colspan="1">7,63E-05</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">d5mit155</td><td align="left" rowspan="1" colspan="1">14,78</td><td align="left" rowspan="1" colspan="1">6,04E-05</td><td align="left" rowspan="1" colspan="1">15,06</td><td align="left" rowspan="1" colspan="1">5,21E-05</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">d5mit157</td><td align="left" rowspan="1" colspan="1">16,00</td><td align="left" rowspan="1" colspan="1">3,17E-05</td><td align="left" rowspan="1" colspan="1">15,06</td><td align="left" rowspan="1" colspan="1">5,21E-05</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">d5mit10</td><td align="left" rowspan="1" colspan="1">18,65</td><td align="left" rowspan="1" colspan="1">7,85E-06</td><td align="left" rowspan="1" colspan="1">19,06</td><td align="left" rowspan="1" colspan="1">6,33E-06</td><td align="left" rowspan="1" colspan="1">Cxcl11</td><td align="left" rowspan="1" colspan="1">&#x02212;1.6</td></tr><tr><td align="left" rowspan="1" colspan="1">d5mit41</td><td align="left" rowspan="1" colspan="1">16,75</td><td align="left" rowspan="1" colspan="1">2,13E-05</td><td align="left" rowspan="1" colspan="1">18,28</td><td align="left" rowspan="1" colspan="1">9,53E-06</td><td align="left" rowspan="1" colspan="1">Bmp2k</td><td align="left" rowspan="1" colspan="1">&#x02212;1.4</td></tr><tr><td align="left" rowspan="1" colspan="1">d5mit403</td><td align="left" rowspan="1" colspan="1">17,52</td><td align="left" rowspan="1" colspan="1">1,42E-05</td><td align="left" rowspan="1" colspan="1">18,28</td><td align="left" rowspan="1" colspan="1">9,53E-06</td><td align="left" rowspan="1" colspan="1">Opn/Spp1/Eta-1</td><td align="left" rowspan="1" colspan="1">&#x0002b;1.7</td></tr><tr><td align="left" rowspan="1" colspan="1">d5mit239</td><td align="left" rowspan="1" colspan="1">16,25</td><td align="left" rowspan="1" colspan="1">2,78E-05</td><td align="left" rowspan="1" colspan="1">16,25</td><td align="left" rowspan="1" colspan="1">2,78E-05</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">d5mit240</td><td align="left" rowspan="1" colspan="1">16,00</td><td align="left" rowspan="1" colspan="1">3,17E-05</td><td align="left" rowspan="1" colspan="1">16,25</td><td align="left" rowspan="1" colspan="1">2,78E-05</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">d5mit25</td><td align="left" rowspan="1" colspan="1">18,06</td><td align="left" rowspan="1" colspan="1">1,07E-05</td><td align="left" rowspan="1" colspan="1">18,28</td><td align="left" rowspan="1" colspan="1">9,53E-06</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1">Chromosome 13</td></tr><tr><td align="left" rowspan="1" colspan="1">d13mit148a</td><td align="left" rowspan="1" colspan="1">10,56</td><td align="left" rowspan="1" colspan="1">5,78E-04</td><td align="left" rowspan="1" colspan="1">9,62</td><td align="left" rowspan="1" colspan="1">9,65E-04</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">d13mit76a</td><td align="left" rowspan="1" colspan="1">12,55</td><td align="left" rowspan="1" colspan="1">1,98E-04</td><td align="left" rowspan="1" colspan="1">12,55</td><td align="left" rowspan="1" colspan="1">1,98E-04</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">d13mit230</td><td align="left" rowspan="1" colspan="1">12,25</td><td align="left" rowspan="1" colspan="1">2,33E-04</td><td align="left" rowspan="1" colspan="1">12,55</td><td align="left" rowspan="1" colspan="1">1,98E-04</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">d13mit262</td><td align="left" rowspan="1" colspan="1">10,90</td><td align="left" rowspan="1" colspan="1">4,81E-04</td><td align="left" rowspan="1" colspan="1">10,88</td><td align="left" rowspan="1" colspan="1">4,86E-04</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">d13mit151</td><td align="left" rowspan="1" colspan="1">6,00</td><td align="left" rowspan="1" colspan="1">7,15E-03</td><td align="left" rowspan="1" colspan="1">10,88</td><td align="left" rowspan="1" colspan="1">4,86E-04</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">d13mit77</td><td align="left" rowspan="1" colspan="1">11,95</td><td align="left" rowspan="1" colspan="1">2,73E-04</td><td align="left" rowspan="1" colspan="1">11,88</td><td align="left" rowspan="1" colspan="1">2,84E-04</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">MM13BM1</td><td align="left" rowspan="1" colspan="1">10,25</td><td align="left" rowspan="1" colspan="1">6,83E-04</td><td align="left" rowspan="1" colspan="1">13,64</td><td align="left" rowspan="1" colspan="1">1,11E-04</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">MM13BM2</td><td align="left" rowspan="1" colspan="1">12,94</td><td align="left" rowspan="1" colspan="1">1,61E-04</td><td align="left" rowspan="1" colspan="1">14,34</td><td align="left" rowspan="1" colspan="1">7,62E-05</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">d13mit35</td><td align="left" rowspan="1" colspan="1">13,64</td><td align="left" rowspan="1" colspan="1">1,11E-04</td><td align="left" rowspan="1" colspan="1">12,55</td><td align="left" rowspan="1" colspan="1">1,98E-04</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1">Chromosome 17</td></tr><tr><td align="left" rowspan="1" colspan="1">d17mit173</td><td align="left" rowspan="1" colspan="1">20,08</td><td align="left" rowspan="1" colspan="1">3,71E-06</td><td align="left" rowspan="1" colspan="1">20,43</td><td align="left" rowspan="1" colspan="1">3,09E-06</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">d17mit30</td><td align="left" rowspan="1" colspan="1">20,43</td><td align="left" rowspan="1" colspan="1">3,09E-06</td><td align="left" rowspan="1" colspan="1">20,43</td><td align="left" rowspan="1" colspan="1">3,09E-06</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">d17mit198</td><td align="left" rowspan="1" colspan="1">19,64</td><td align="left" rowspan="1" colspan="1">4,67E-06</td><td align="left" rowspan="1" colspan="1">20,43</td><td align="left" rowspan="1" colspan="1">3,09E-06</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">d17mit135</td><td align="left" rowspan="1" colspan="1">22,70</td><td align="left" rowspan="1" colspan="1">9,47E-07</td><td align="left" rowspan="1" colspan="1">22,70</td><td align="left" rowspan="1" colspan="1">9,47E-07</td><td align="left" rowspan="1" colspan="1">H2-Ea</td><td align="left" rowspan="1" colspan="1">&#x02212;7.9</td></tr><tr><td align="left" rowspan="1" colspan="1">d17mit16</td><td align="left" rowspan="1" colspan="1">21,88</td><td align="left" rowspan="1" colspan="1">1,45E-06</td><td align="left" rowspan="1" colspan="1">22,70</td><td align="left" rowspan="1" colspan="1">9,47E-07</td><td align="left" rowspan="1" colspan="1">Msh5</td><td align="left" rowspan="1" colspan="1">&#x02212;1.9</td></tr><tr><td align="left" rowspan="1" colspan="1">d17mit234</td><td align="left" rowspan="1" colspan="1">21,06</td><td align="left" rowspan="1" colspan="1">2,23E-06</td><td align="left" rowspan="1" colspan="1">22,70</td><td align="left" rowspan="1" colspan="1">9,47E-07</td><td align="left" rowspan="1" colspan="1">Ng23</td><td align="left" rowspan="1" colspan="1">&#x02212;3.1</td></tr><tr><td align="left" rowspan="1" colspan="1">d17mit11</td><td align="left" rowspan="1" colspan="1">18,46</td><td align="left" rowspan="1" colspan="1">8,68E-06</td><td align="left" rowspan="1" colspan="1">22,70</td><td align="left" rowspan="1" colspan="1">9,47E-07</td><td align="left" rowspan="1" colspan="1">H2-D1</td><td align="left" rowspan="1" colspan="1">&#x02212;7.6</td></tr><tr><td align="left" rowspan="1" colspan="1">d17mit168</td><td align="left" rowspan="1" colspan="1">16,52</td><td align="left" rowspan="1" colspan="1">2,41E-05</td><td align="left" rowspan="1" colspan="1">20,43</td><td align="left" rowspan="1" colspan="1">3,09E-06</td><td align="left" rowspan="1" colspan="1">Tubb5</td><td align="left" rowspan="1" colspan="1">&#x02212;0.8</td></tr><tr><td align="left" rowspan="1" colspan="1">d17mit50</td><td align="left" rowspan="1" colspan="1">18,28</td><td align="left" rowspan="1" colspan="1">9,53E-06</td><td align="left" rowspan="1" colspan="1">18,28</td><td align="left" rowspan="1" colspan="1">9,53E-06</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="nt109"><label>a</label><p>Single-point and multi-point calculations of &#x003c7;<sup>2</sup> for microsatellite markers typed in 68 susceptible B6xF1 backcross mice. &#x003c7;<sup>2</sup> and p values refer to a one-sided test for homozygosity</p></fn><fn id="nt110"><label>b</label><p>Differentially expressed genes (derived from microarray analysis, see <xref ref-type="table" rid="pone-0000057-t001">tables 1</xref> and <xref ref-type="table" rid="pone-0000057-t002">2</xref>) in line with approximate genomic localisation; SLR, signal log ratio, log<sub>2</sub>. Differential expression was confirmed by an independent analysis, see text</p></fn></table-wrap-foot></table-wrap><p>Five transcripts that were significantly reduced in B6 mice map to the locus on Chromosome 17, which covers the murine MHC complex (<xref ref-type="table" rid="pone-0000057-t003">table 3</xref>). All differences were confirmed in the second microarray experiment with pooled RNA. One additional gene (<italic>Glo1</italic>, glyoxalase 1) close to the locus on Chromosome 17 was insignificantly (SLR&#x02212;0.6, equivalent to a 1.5 fold decrease) but consistently regulated in that it was decreased in all 9 comparisons between the 3 individual mice of either strain, and the regulation was observed for several transcripts of the gene. It maps centromerically to the suceptibility locus at about 16 cM.</p><p>No significant expression differences were found to map to the putative locus on Chromosome 13 (cytogenetic band 13D2.3), but three transcripts of an expressed gene (4833420G17Rik) were reproducibly regulated below the threshold (SLR&#x0002b;0.4, eqivalent to a 1.3 fold increase). It encodes a protein with a gonadotropin beta chain-like domain. The slightly increased expression in B6 mice was confirmed in the pooled RNA microarray analysis. Another transcript from this locus, <italic>Paip1</italic> (polyadelynate binding protein-interacting protein 1, a translation factor), was downregulated in 5 of 9 comparisons only (SLR&#x02212;1.9), but this could not be substantiated in the second experiment.</p><p>Numerous gene transcripts have been shown to be involved in immunity of Chagas' disease and its experimental models. A few of these displayed differential expression below the threshold level, and there was concordant regulation in the microarray experiment with pooled RNA samples. Several transcripts of inducible TGF-&#x003b2; were increased in B6 mice (SLR&#x0002b;0.6). This is noteworthy as it supports results of a previous investigation on the differences of the immune response of B6 and F1 mice to <italic>T. cruzi</italic> in which increased TGF-&#x003b2; expression was shown to enhance susceptibilty <xref rid="pone.0000057-Silva2" ref-type="bibr">[28]</xref>. Transcription signals of <italic>CD44</italic> (coding for an adhesion factor on activated T and B cells; SLR&#x0002b;0.4), and of <italic>granzyme B</italic> (SLR&#x0002b;0.4) were slightly upregulated in B6 mice. A downregulated transcription signal in B6 mice was found for the beta chain of the IL-2 receptor (SLR&#x02212;0.5).</p></sec></sec><sec id="s3"><title>Discussion</title><p>Disease following infection with a pathogen is the result of a complex interaction between the host and the infectious agent <xref rid="pone.0000057-Casadevall1" ref-type="bibr">[37]</xref>. Both host and pathogen genomes are involved in determining the severity of a sickness, and enviromental factors also contribute to the course of an ailment. Genetic variation within human cohorts complicates matters with respect to the identification of genetic sources for disease severity, and in general, several gene loci, splice variants and variation of gene copy numbers are involved <xref rid="pone.0000057-Cooke1" ref-type="bibr">[38]</xref>. It is thus conceivable that the identification of suceptibility genes to infectious diseases in man has not been fruitful thus far, despite of the progress that genome sequencing has achieved. Therefore, it may be a more straightforward approach to pinpoint genes that affect the severity of infectious disease in animal models, and then to assess whether orthologous mechanisms are at work in the human situation <xref rid="pone.0000057-Kellam1" ref-type="bibr">[39]</xref>. Since a hosts genotype manifests via transcription of genes, candidate genes may be identified by a combination of mapping data and transcriptional profiling. Determining the gene expression differences from susceptibility loci is thus a hypothesis-driven experiment with the advantage that the multiple testing problem of microarray analyses disappears and that the verification of the gene expression data by independent methods is not strictly required <xref rid="pone.0000057-Knudsen1" ref-type="bibr">[40]</xref>.</p><p>Morphological and cytometrical analysis of the organ with the greatest differences in parasite loads, the spleen, revealed a disruption of normal anatomical structure and modulation of cellular composition in susceptible B6 mice. In addition, a substantial increase of apoptotic cells was observed, possibly accounting further for the increased parasite burden, since the presence of apoptotic cells were connected with increased parasite proliferation, and with decreased trypanocidal activity of infected macrophages <xref rid="pone.0000057-FreiredeLima1" ref-type="bibr">[29]</xref>. B cell apoptosis has also been shown to correlate with reduced numbers of B cells and with a suppressed immune response to <italic>T. cruzi</italic>
+<xref rid="pone.0000057-Zuniga1" ref-type="bibr">[41]</xref>. The loss of B cells and of splenic follicles make a decreased humoral immune response to the parasite a candidate pathogenetic pathway. Indeed, on day 17 of infection, serologic reactivity to parasite antigens was decreased in B6 mice for antibodies of all IgG subclasses, except for IgG2b, when compared with F1 mice (unpublished observation). The requirement of an effective humoral response for the resolution of experimental <italic>T. cruzi</italic> infection has been demonstrated <xref rid="pone.0000057-Kumar1" ref-type="bibr">[42]</xref>&#x02013;<xref rid="pone.0000057-Trischmann3" ref-type="bibr">[44]</xref>. The bias towards macrophages at the expense of B cells in the spleen of susceptible mice reproduces results of a previous study with parasites of differential virulence. In this study, virulent parasites, but not avirulent ones, caused a reduction of CD19&#x0002b; B cells, and an increase of Mac3&#x0002b; macrophages, in the spleen of infected mice <xref rid="pone.0000057-AlbaSoto1" ref-type="bibr">[45]</xref>.</p><p>We analysed genome wide expression in the spleen, prior to an insufficient immune response to the parasite, and prior to the profound alterations in cellular composition, in order to identify transcriptional correlates of susceptibility that mapped to the genomic susceptibility loci. We identified three candidate genes from the susceptibility locus on Chromosome 5, and five from the locus on Chromosome 17, with significantly different expression between differentially resistant strains of mice. The organisation of secondary lymphoid organs, such as the spleen, is regulated by compartmentalised expression of lymphoid tissue chemokines, enabling effective communication between lymphocytes and antigen-presenting cells to mount protective immune responses to pathogens. It was therefore interesting to find that the expression of T cell attractant CXC chemokine ligand <italic>Cxcl11</italic> mRNA was decreased in suscptible mice. CXCL11 is the most potent agonist of the chemokine receptor CXCR3 that is predominantly found on activated T cells, Th1 type T cells, peripheral T cells and a subset of B cells <xref rid="pone.0000057-Cole1" ref-type="bibr">[46]</xref>, <xref rid="pone.0000057-Petkovic1" ref-type="bibr">[47]</xref>. It is produced by monocytoid cells, epithelial cells, neutrophils and endothelial cells, and its expression is induced by IFN-&#x003b3;. It is involved in generating Th1 type immune responses. CXCL11 was also reported to be a natural antagonist of CCR3 <xref rid="pone.0000057-Xanthou1" ref-type="bibr">[48]</xref>, <xref rid="pone.0000057-Loetscher1" ref-type="bibr">[49]</xref> and of CCR5 <xref rid="pone.0000057-Petkovic1" ref-type="bibr">[47]</xref>, indicating a possible role in counteracting the effects of other inflammatory chemokines such as RANTES, MIP-1&#x003b1; and MIP-1&#x003b2;. More recently, CCR5 expression was shown to augment the inflammatory reaction and to participate in host protection in experimental Chagas' disease <xref rid="pone.0000057-Hardison1" ref-type="bibr">[50]</xref>, <xref rid="pone.0000057-Machado1" ref-type="bibr">[51]</xref>. It was now published that CXCL11 also binds to a newly identified chemokine receptor, CXCR7, that is expressed on activated endothelial and other cells, providing a growth and survival advantage and adhesion properties <xref rid="pone.0000057-Burns1" ref-type="bibr">[52]</xref>. The role of CXCL11 in <italic>T. cruzi</italic> infection has not been investigated, but the two other CXCR3- binding chemokines, CXCL9 and CXCL10, were found to contribute to a protective immune response in mice <xref rid="pone.0000057-Hardison2" ref-type="bibr">[53]</xref>, <xref rid="pone.0000057-Talvani1" ref-type="bibr">[54]</xref>. Decreased expression of <italic>Cxcl11</italic> mRNA in susceptible mice may be involved in the insufficient immune response observed in B6 mice by preventing adequate association between T cells and antigen-presenting cells and/or B cells, or by reduced antagonism of CCR3- and/or CCR5- mediated inflammatory reactions.</p><p>A further gene from the locus on Chromosome 5 with decreased expression in B6 mice was <italic>Bmp2k</italic>. Bone morphogenetic proteins play a role in skeletal development. Signalling involves transcription of <italic>Bmp2k</italic> which encodes a serin/threonin kinase. Activation of BMP2K attenuates osteocalcin expression and reduces osteoblast differentiation <xref rid="pone.0000057-Kearns1" ref-type="bibr">[55]</xref>. Its role in infections in general, and its possible role in determing the outcome of experimental <italic>T. cruzi</italic> infection, remain to be determined.</p><p>Osteopontin (OPN; also termed secreted phosphoprotein 1, SPP1, or early T lymphocyte activation 1, ETA-1) was primarily described as an early adhesion receptor expressed after T cell activation and mediating macrophage migration <xref rid="pone.0000057-Patarca1" ref-type="bibr">[56]</xref>, <xref rid="pone.0000057-Singh1" ref-type="bibr">[57]</xref>. It is regarded as an essential factor in inducing Th1 type immune responses and has been described as a regulator of resistance to microbial infection <xref rid="pone.0000057-Nau1" ref-type="bibr">[58]</xref>&#x02013;<xref rid="pone.0000057-Ashkar1" ref-type="bibr">[61]</xref>. Recently, its role in Th1 type viral immunity was disputed <xref rid="pone.0000057-Abel1" ref-type="bibr">[62]</xref>, and it was shown that SPP1 mediated IFN-&#x003b1; production in plasmacytoid dendritic cells <xref rid="pone.0000057-Shinohara1" ref-type="bibr">[63]</xref>. Several cells express <italic>Spp1</italic> following viral or bacterial infection, including dendritic cells, T cells and macrophages, and it functions as a cytokine and anti-apoptotic growth factor, involved in adhesion, chemotaxis, cell differentiation and inflammation. Osteopontin was also found to participate in collagen fibrillogenesis and matrix re-organisation in wound healing <xref rid="pone.0000057-Liaw1" ref-type="bibr">[64]</xref>. Transcription of <italic>Spp1</italic> was increased in <italic>T. cruzi</italic> susceptible B6 mice, indicating its role in determining the strong Th1 type immune response. Possibly, its expression is increased secondary to the severe disruption of splenic architecture and due to an increased re-modelling activity.</p><p>Several genes within the susceptibility locus on Chromosome 17 were expressed at reduced levels in susceptible mice. The MHC H2-D1 and H2-E&#x003b1; genes are not encoded in B6 mice and signals were thus drastically decreased. MHC encoded proteins are essential for the presentation of antigens to T lymphocytes. MHC polymorphism is believed to be driven by pathogen-based mechanisms <xref rid="pone.0000057-Potts1" ref-type="bibr">[65]</xref>, and it has been associated with increased resistance to a model infection <xref rid="pone.0000057-Messaoudi1" ref-type="bibr">[66]</xref>. The heterozygosity of the intercross F1 at the MHC locus (H2<sup>b/d</sup>) implies that a greater number of antigens can potentially be presented to antigen-specific T cells, resulting in a larger pool of lymphoytes that are able to respond to the pathogen. Since a protective response to <italic>T. cruzi</italic> infection requires both cellular and humoral acquired immune effector mechanisms, it follows that both MHC class I and class II genes are strong candidates for determining susceptibility. However, the presence of a heterozygous state as such did not necessarily confer resistance <xref rid="pone.0000057-Wrightsman1" ref-type="bibr">[14]</xref>. Certain H2 haplotypes were associated with a protective effect under given experimental conditions (reviewed by Campbell <xref rid="pone.0000057-Campbell1" ref-type="bibr">[3]</xref>). In the present study, though, both parental strains succumbed to infection <xref rid="pone.0000057-Trischmann1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000057-Graefe2" ref-type="bibr">[30]</xref>, and neither H2 haplotype (neither H2<sup>b</sup> nor H2<sup>d</sup>) was thus protective in itself. In man, the influence of HLA haplotypes on disease progression has been demonstrated <xref rid="pone.0000057-Deghaide1" ref-type="bibr">[6]</xref>, <xref rid="pone.0000057-Colorado1" ref-type="bibr">[67]</xref>, <xref rid="pone.0000057-Nieto1" ref-type="bibr">[68]</xref>.</p><p>The other genes with decreased expression within the locus on Chromosome 17 have not been assigned a role in immunity so far. <italic>Tubb5</italic> codes for the &#x003b2;5 isotype of the &#x003b2;-tubulin family and is expressed at low levels ubiquitously <xref rid="pone.0000057-Luduena1" ref-type="bibr">[69]</xref>. <italic>Msh5</italic> codes for a member of the mismatch repair family of proteins, that is expressed mainly in gonads and has a role in chromosome pairing during meiosis; deficiency was associated with apoptosis of testicular and ovarian cells and sterility <xref rid="pone.0000057-Edelmann1" ref-type="bibr">[70]</xref>, <xref rid="pone.0000057-deVries1" ref-type="bibr">[71]</xref>. The expressed sequence <italic>Ng23</italic> has not yet been classified regarding function or process <xref rid="pone.0000057-Mouse1" ref-type="bibr">[72]</xref>.</p><p>The immunogenetic background of susceptibility of inbred mice to experimental infections in general, and to experimental infection with <italic>T. cruzi</italic> in particular, has not been delineated despite progress in analysing numerous immunologic players and pathways. The present work aimed at identifying candidates that direct the many secondary variations of the immune response that have been described. Further work is needed to substantiate these proposals and to clarify the role of susceptibility genes in the evolution of an ineffective immune response. It is important to recognise that the results are strictly related to the common model that has been used in this study. It is certainly probable that alternate mechanisms apply in other inbred mice and with other stocks and strains of <italic>T. cruzi</italic>.</p></sec><sec id="s4"><title>Materials and Methods</title><sec id="s4a"><title>Parasites and mice</title><p>The <italic>T. cruzi</italic> tulahuen strain was used in all experiments. Mouse experiments were registered at and approved by the Federal Health Authorities of the State of Hamburg. Parasites were maintained in Balb/c mice by fortnightly passage. Trypomastigotes were counted in a Neubauer chamber following lysis in a solution of NH<sub>4</sub>Cl (0.89&#x00025; w/v) <xref rid="pone.0000057-Hoff1" ref-type="bibr">[73]</xref>, and blood was appropriately diluted with phosphate buffered saline (PBS) for an experimental infection with 10<sup>4</sup> parasites. C57BL/6 (B6) and C57BL/6xDBA/2 (B6D2F1, F1) mice were obtained from Charles River (Sulzbach, Germany) and infected at the age of 6&#x02013;8 weeks by inoculation of parasites into the peritoneum in a volume of 200 &#x000b5;l. Parasitaemia was determined in 2 &#x000b5;l of tail vein blood after lysis in 18 &#x000b5;l of NH<sub>4</sub>Cl.</p></sec><sec id="s4b"><title>Quantitative PCR</title><p>Relative tissue parasite burdens were determined by real time PCR in specimens of about 20 mg of tissue. DNA extraction was performed with a Gentra Puregene&#x02122; tissue kit (Biozym, Hessisch Oldendorf, Germany) according to the manufacturer's instructions. DNA was dissolved in 50 &#x000b5;l of H<sub>2</sub>O, and a 100 fold dilution was used for amplification. <italic>T. cruzi</italic> PCR was performed on an Abi Prism 7700 SDS Instrument (Applied Biosystems, Weiterstadt, Germany) as previously described <xref rid="pone.0000057-Graefe2" ref-type="bibr">[30]</xref>. The quantity of host DNA was determined by real time PCR of &#x003b2;-actin from the same samples as described <xref rid="pone.0000057-Graefe2" ref-type="bibr">[30]</xref>, with the exception that thermal cycles were 20 s at 95&#x000b0;C and 40 s at 58&#x000b0;C. The quantity of parasite DNA in a given sample is expressed in relation to its content of &#x003b2;-actin DNA.</p></sec><sec id="s4c"><title>Histology</title><p>Specimens from the spleen were obtained from naive and from experimentally infected mice, fixed in buffered 10&#x00025; formalin and embedded in paraffin. Sections were stained with hematoxylin-eosin (HE) and examined by light microscopy.</p></sec><sec id="s4d"><title>Immunohistochemistry</title><p>Spleen specimens were shock frozen in liquid nitrogen and stored at &#x02212;80&#x000b0;C until further processing. Sections of 5&#x02013;8 &#x000b5;m were stained with one of the following antibodies (obtained from Beckton Dickinson, Heidelberg, Germany): anti-CD4; anti-CD8; or anti-CD19; antibodies were diluted 1&#x02236;50 in PBS. Sections were then fixed in paraformaldehyde, and a secondary biotinylated anti-rat Ig antibody was applied for 30 min. Detection was achieved with streptavidin/horseradish peroxidase conjugate and developed with the peroxidase substrate diaminobenzidine (Dako, Hamburg, Germany). The TUNEL reaction on some sections was performed with the &#x02018;In Situ Cell Death Detection Kit, AP&#x02019; according to the manufacturers instructions (Roche, Mannheim Germany) Sections were counterstained with hematoxylin and analysed by optical microscopy.</p></sec><sec id="s4e"><title>Flow cytometry</title><p>Spleen cell surface expression was analysed by staining of cell suspensions with antibodies against either CD4 (Cy5-conjugated) and CD8 (FITC-conjugated), against CD19 (PE-conjugated), or against CD11b (PE-conjugated). Some samples were stained with Annexin V and with propidium iodide to determine fractions of apoptotic cells. All reagents were obtained from Becton Dickinson (Heidelberg, Germany). Cells were fixed in 1&#x00025; paraformaldehyde and analysed with a FACSCalibur flow cytometer (Beckton Dickinson, Mountain View, CA, USA) using the CellQuest software. Results are expressed as the percentage of cells analysed that were positive for the surface marker of interest.</p></sec><sec id="s4f"><title>Microsatellite genotyping</title><p>As an extension of our previous study <xref rid="pone.0000057-Graefe2" ref-type="bibr">[30]</xref>, a further 22 male backcross mice (B6xF1) were experimentally infected and identified as being susceptible to a lethal outcome. Genomic DNA of these animals was subjected to microsatellite genotyping to confirm and fine map the genomic regions on Chromosomes 17, 5, and 13, previously identified as putatively linked to susceptibility. Nine polymorphic markers for each region were analysed, as described elsewhere <xref rid="pone.0000057-Graefe2" ref-type="bibr">[30]</xref>. The markers MM13BM1 and MM13BM2 were identified on mouse Chromosome 13 and amplified with the follwing primer pairs: MM13BM1F (5&#x02032;atagccaccaacaggcattg) and MM13BM1R (5&#x02032;FAM-tcggctttccctaaactgtg) as well as MM13BM2F (5&#x02032;gcttaggcaatgggtctgatag) and MM13BM2R (5&#x02032;HEX-tttgggtttgtatatgtctgactg). For statistical analysis, genotyping data of the newly typed 22 animals were combined with the original data set obtained from 46 susceptible mice in the previous study. Chi-square statistics were computed comparing the numbers of homozygous versus heterozygous mice. The construction of the genetic maps was performed with MAPMAKER/EXP v3.0b.</p></sec><sec id="s4g"><title>Microarray Analysis</title><p>Procedures for cDNA synthesis, labelling and hybridization were carried out according to the manufacturer's protocol (Affymetrix). All experiments were performed using Affymetrix mouse genome GeneChip 430A. Three mice of either strain (B6 and F1, respectively) from three independent experiments were sacrificed on day 11, the spleen was removed, and single cell suspensions were prepared. All procedures were performed at 4&#x000b0;C. RNA was prepared with a Qiagen RNeasy kit (Qiagen, Hilden, Germany) according to the manufacturers instructions, and the quality of the preparation was checked by agarose gel electrophoresis. In brief, 5 &#x000b5;g of total RNA were used for first strand cDNA synthesis with an HPLC-purified T<sub>7</sub>-(dT)<sub>24</sub> primer (One-Cycle cDNA Synthesis Kit, Affymetrix). Synthesis of biotin-labeled cRNA was carried out using the IVT Labeling Kit (Affymetrix) and then purified (Sample Cleanup Module, Affymetrix). For hybridization, 15 &#x000b5;g of fragmented cRNA was incubated with the chip in 200 &#x000b5;l of hybridization solution in Hybridization Oven 640 (Affymetrix) at 45&#x000b0;C for 16 hours. GeneChips were then washed and stained using the Affymetrix Fluidics Station according to the GeneChip Expression Analysis Technical Manual. Microarrays were scanned with the Agilent GeneArray Scanner, and the signals were processed using the GeneChip expression analysis algorithm (v.2; Affymetrix). To compare samples and experiments, the trimmed mean signal of each array was scaled to a target intensity of 100. Absolute and comparison analyses were performed with Affymetrix MAS (version 5.0, Affymetrix) software using default parameters. To assist in the identification of genes that were positively or negatively regulated in the experiment, we selected genes that showed a signal log ratio of at least 0.8 (increase) or &#x02212;0.8 (decrease) compared to the baseline (B6 compared to F1) <xref rid="pone.0000057-Rajagopalan1" ref-type="bibr">[74]</xref>. Annotations were further analyzed with interactive query analysis at <ext-link ext-link-type="uri" xlink:href="http://www.affymetrix.com">www.affymetrix.com</ext-link>. Pathways and other functional groupings of genes were evaluated for differential regulation using the visualisation tool GenMAPP (UCSF) as described elsewhere <xref rid="pone.0000057-Doniger1" ref-type="bibr">[75]</xref>, <xref rid="pone.0000057-Bonner1" ref-type="bibr">[76]</xref>.</p></sec></sec></body><back><ack><p>We thank Klara Tenner-Racz and Paul Racz for help with histological and immunohistochemical analysis of spleen sections. The technical assistance of Kristin Reeck, Ulricke Klauenberg and Petra Eggers is gratefully acknowledged.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>This work was supported by the German Federal Ministry of Science and Education through the National Genome Research Network.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000057-Miles1"><label>1</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Miles</surname><given-names>MA</given-names></name></person-group>
+<year>2005</year>
+<article-title>New World Trypanosomiasis.</article-title>
+<person-group person-group-type="editor"><name><surname>Cox</surname><given-names>FEG</given-names></name><name><surname>Wakelin</surname><given-names>D</given-names></name><name><surname>Gillespie</surname><given-names>SH</given-names></name><name><surname>Despommier</surname><given-names>DD</given-names></name></person-group>
+<source>Topley &#x00026; Wilson's Microbiology and Microbial Infections.</source>
+<publisher-loc>London</publisher-loc>
+<publisher-name>Hodder Arnold</publisher-name>
+<fpage>376</fpage>
+<lpage>398</lpage>
+</element-citation></ref><ref id="pone.0000057-WilliamsBlangero1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Williams-Blangero</surname><given-names>S</given-names></name><name><surname>Vandeberg</surname><given-names>JL</given-names></name><name><surname>Blangero</surname><given-names>J</given-names></name><name><surname>Teixeira</surname><given-names>AR</given-names></name></person-group>
+<year>1997</year>
+<article-title>Genetic epidemiology of seropositivity for Trypanosoma cruzi infection in rural Goias, Brazil.</article-title>
+<source>Am J Trop Med Hyg</source>
+<volume>57</volume>
+<fpage>538</fpage>
+<lpage>543</lpage>
+<pub-id pub-id-type="pmid">9392592</pub-id></element-citation></ref><ref id="pone.0000057-Campbell1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Campbell</surname><given-names>DA</given-names></name><name><surname>Westenberger</surname><given-names>SJ</given-names></name><name><surname>Sturm</surname><given-names>NR</given-names></name></person-group>
+<year>2004</year>
+<article-title>The determinants of Chagas disease: connecting parasite and host genetics.</article-title>
+<source>Curr Mol Med</source>
+<volume>4</volume>
+<fpage>549</fpage>
+<lpage>562</lpage>
+<pub-id pub-id-type="pmid">15357207</pub-id></element-citation></ref><ref id="pone.0000057-Fae1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fae</surname><given-names>KC</given-names></name><name><surname>Drigo</surname><given-names>SA</given-names></name><name><surname>Cunha-Neto</surname><given-names>E</given-names></name><name><surname>Ianni</surname><given-names>B</given-names></name><name><surname>Mady</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>HLA and beta-myosin heavy chain do not influence susceptibility to Chagas disease cardiomyopathy.</article-title>
+<source>Microbes Infect</source>
+<volume>2</volume>
+<fpage>745</fpage>
+<lpage>751</lpage>
+<pub-id pub-id-type="pmid">10955954</pub-id></element-citation></ref><ref id="pone.0000057-FernandezMestre1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fernandez-Mestre</surname><given-names>MT</given-names></name><name><surname>Layrisse</surname><given-names>Z</given-names></name><name><surname>Montagnani</surname><given-names>S</given-names></name><name><surname>Acquatella</surname><given-names>H</given-names></name><name><surname>Catalioti</surname><given-names>F</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Influence of the HLA class II polymorphism in chronic Chagas' disease.</article-title>
+<source>Parasite Immunol</source>
+<volume>20</volume>
+<fpage>197</fpage>
+<lpage>203</lpage>
+<pub-id pub-id-type="pmid">9618730</pub-id></element-citation></ref><ref id="pone.0000057-Deghaide1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Deghaide</surname><given-names>NH</given-names></name><name><surname>Dantas</surname><given-names>RO</given-names></name><name><surname>Donadi</surname><given-names>EA</given-names></name></person-group>
+<year>1998</year>
+<article-title>HLA class I and II profiles of patients presenting with Chagas' disease.</article-title>
+<source>Dig Dis Sci</source>
+<volume>43</volume>
+<fpage>246</fpage>
+<lpage>252</lpage>
+<pub-id pub-id-type="pmid">9512114</pub-id></element-citation></ref><ref id="pone.0000057-Zhang1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>L</given-names></name><name><surname>Tarleton</surname><given-names>RL</given-names></name></person-group>
+<year>1999</year>
+<article-title>Parasite persistence correlates with disease severity and localization in chronic Chagas' disease.</article-title>
+<source>J Infect Dis</source>
+<volume>180</volume>
+<fpage>480</fpage>
+<lpage>486</lpage>
+<pub-id pub-id-type="pmid">10395865</pub-id></element-citation></ref><ref id="pone.0000057-Vago1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vago</surname><given-names>AR</given-names></name><name><surname>Macedo</surname><given-names>AM</given-names></name><name><surname>Adad</surname><given-names>SJ</given-names></name><name><surname>Reis</surname><given-names>DD</given-names></name><name><surname>Correa-Oliveira</surname><given-names>R</given-names></name></person-group>
+<year>1996</year>
+<article-title>PCR detection of Trypanosoma cruzi DNA in oesophageal tissues of patients with chronic digestive Chagas' disease.</article-title>
+<source>Lancet</source>
+<volume>348</volume>
+<fpage>891</fpage>
+<lpage>892</lpage>
+<pub-id pub-id-type="pmid">8826826</pub-id></element-citation></ref><ref id="pone.0000057-Tarleton1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tarleton</surname><given-names>RL</given-names></name><name><surname>Zhang</surname><given-names>L</given-names></name><name><surname>Downs</surname><given-names>MO</given-names></name></person-group>
+<year>1997</year>
+<article-title>&#x0201c;Autoimmune rejection&#x0201d; of neonatal heart transplants in experimental Chagas disease is a parasite-specific response to infected host tissue.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>94</volume>
+<fpage>3932</fpage>
+<lpage>3937</lpage>
+<pub-id pub-id-type="pmid">9108082</pub-id></element-citation></ref><ref id="pone.0000057-Marinho1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marinho</surname><given-names>CR</given-names></name><name><surname>Bucci</surname><given-names>DZ</given-names></name><name><surname>Dagli</surname><given-names>ML</given-names></name><name><surname>Bastos</surname><given-names>KR</given-names></name><name><surname>Grisotto</surname><given-names>MG</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Pathology affects different organs in two mouse strains chronically infected by a Trypanosoma cruzi clone: a model for genetic studies of Chagas' disease.</article-title>
+<source>Infect Immun</source>
+<volume>72</volume>
+<fpage>2350</fpage>
+<lpage>2357</lpage>
+<pub-id pub-id-type="pmid">15039360</pub-id></element-citation></ref><ref id="pone.0000057-Buckner1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Buckner</surname><given-names>FS</given-names></name><name><surname>Wilson</surname><given-names>AJ</given-names></name><name><surname>Van Voorhis</surname><given-names>WC</given-names></name></person-group>
+<year>1999</year>
+<article-title>Detection of live Trypanosoma cruzi in tissues of infected mice by using histochemical stain for beta-galactosidase.</article-title>
+<source>Infect Immun</source>
+<volume>67</volume>
+<fpage>403</fpage>
+<lpage>409</lpage>
+<pub-id pub-id-type="pmid">9864242</pub-id></element-citation></ref><ref id="pone.0000057-Guarner1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guarner</surname><given-names>J</given-names></name><name><surname>Bartlett</surname><given-names>J</given-names></name><name><surname>Zaki</surname><given-names>SR</given-names></name><name><surname>Colley</surname><given-names>DG</given-names></name><name><surname>Grijalva</surname><given-names>MJ</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Mouse model for Chagas disease: immunohistochemical distribution of different stages of Trypanosoma cruzi in tissues throughout infection.</article-title>
+<source>Am J Trop Med Hyg</source>
+<volume>65</volume>
+<fpage>152</fpage>
+<lpage>158</lpage>
+<pub-id pub-id-type="pmid">11508392</pub-id></element-citation></ref><ref id="pone.0000057-Marinho2"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marinho</surname><given-names>CR</given-names></name><name><surname>D'Imperio Lima</surname><given-names>MR</given-names></name><name><surname>Grisotto</surname><given-names>MG</given-names></name><name><surname>Alvarez</surname><given-names>JM</given-names></name></person-group>
+<year>1999</year>
+<article-title>Influence of acute-phase parasite load on pathology, parasitism, and activation of the immune system at the late chronic phase of Chagas' disease.</article-title>
+<source>Infect Immun</source>
+<volume>67</volume>
+<fpage>308</fpage>
+<lpage>318</lpage>
+<pub-id pub-id-type="pmid">9864231</pub-id></element-citation></ref><ref id="pone.0000057-Wrightsman1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wrightsman</surname><given-names>R</given-names></name><name><surname>Krassner</surname><given-names>S</given-names></name><name><surname>Watson</surname><given-names>J</given-names></name></person-group>
+<year>1982</year>
+<article-title>Genetic control of responses to Trypanosoma cruzi in mice: multiple genes influencing parasitemia and survival.</article-title>
+<source>Infect Immun</source>
+<volume>36</volume>
+<fpage>637</fpage>
+<lpage>644</lpage>
+<pub-id pub-id-type="pmid">6806192</pub-id></element-citation></ref><ref id="pone.0000057-Trischmann1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trischmann</surname><given-names>TM</given-names></name><name><surname>Bloom</surname><given-names>BR</given-names></name></person-group>
+<year>1982</year>
+<article-title>Genetics of murine resistance to Trypanosoma cruzi.</article-title>
+<source>Infect Immun</source>
+<volume>35</volume>
+<fpage>546</fpage>
+<lpage>551</lpage>
+<pub-id pub-id-type="pmid">6799406</pub-id></element-citation></ref><ref id="pone.0000057-Powell1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Powell</surname><given-names>MR</given-names></name><name><surname>Wassom</surname><given-names>DL</given-names></name></person-group>
+<year>1993</year>
+<article-title>Host genetics and resistance to acute Trypanosoma cruzi infection in mice. I. Antibody isotype profiles.</article-title>
+<source>Parasite Immunol</source>
+<volume>15</volume>
+<fpage>215</fpage>
+<lpage>221</lpage>
+<pub-id pub-id-type="pmid">8506117</pub-id></element-citation></ref><ref id="pone.0000057-Wrightsman2"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wrightsman</surname><given-names>RA</given-names></name><name><surname>Krassner</surname><given-names>SM</given-names></name><name><surname>Watson</surname><given-names>JD</given-names></name><name><surname>Manning</surname><given-names>JE</given-names></name></person-group>
+<year>1984</year>
+<article-title>Role of the H-2s haplotype in survival of mice after infection with Trypanosoma cruzi.</article-title>
+<source>Infect Immun</source>
+<volume>44</volume>
+<fpage>351</fpage>
+<lpage>354</lpage>
+<pub-id pub-id-type="pmid">6425221</pub-id></element-citation></ref><ref id="pone.0000057-Andrade1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Andrade</surname><given-names>V</given-names></name><name><surname>Barral-Netto</surname><given-names>M</given-names></name><name><surname>Andrade</surname><given-names>SG</given-names></name></person-group>
+<year>1985</year>
+<article-title>Patterns of resistance of inbred mice to Trypanosoma cruzi are determined by parasite strain.</article-title>
+<source>Braz J Med Biol Res</source>
+<volume>18</volume>
+<fpage>499</fpage>
+<lpage>506</lpage>
+<pub-id pub-id-type="pmid">3939191</pub-id></element-citation></ref><ref id="pone.0000057-Andrade2"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Andrade</surname><given-names>LO</given-names></name><name><surname>Machado</surname><given-names>CR</given-names></name><name><surname>Chiari</surname><given-names>E</given-names></name><name><surname>Pena</surname><given-names>SD</given-names></name><name><surname>Macedo</surname><given-names>AM</given-names></name></person-group>
+<year>2002</year>
+<article-title>Trypanosoma cruzi: role of host genetic background in the differential tissue distribution of parasite clonal populations.</article-title>
+<source>Exp Parasitol</source>
+<volume>100</volume>
+<fpage>269</fpage>
+<lpage>275</lpage>
+<pub-id pub-id-type="pmid">12128054</pub-id></element-citation></ref><ref id="pone.0000057-Tarleton2"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tarleton</surname><given-names>RL</given-names></name><name><surname>Koller</surname><given-names>BH</given-names></name><name><surname>Latour</surname><given-names>A</given-names></name><name><surname>Postan</surname><given-names>M</given-names></name></person-group>
+<year>1992</year>
+<article-title>Susceptibility of beta 2-microglobulin-deficient mice to Trypanosoma cruzi infection.</article-title>
+<source>Nature</source>
+<volume>356</volume>
+<fpage>338</fpage>
+<lpage>340</lpage>
+<pub-id pub-id-type="pmid">1549177</pub-id></element-citation></ref><ref id="pone.0000057-Silva1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Silva</surname><given-names>JS</given-names></name><name><surname>Morrissey</surname><given-names>PJ</given-names></name><name><surname>Grabstein</surname><given-names>KH</given-names></name><name><surname>Mohler</surname><given-names>KM</given-names></name><name><surname>Anderson</surname><given-names>D</given-names></name><etal/></person-group>
+<year>1992</year>
+<article-title>Interleukin 10 and interferon gamma regulation of experimental Trypanosoma cruzi infection.</article-title>
+<source>J Exp Med</source>
+<volume>175</volume>
+<fpage>169</fpage>
+<lpage>174</lpage>
+<pub-id pub-id-type="pmid">1730915</pub-id></element-citation></ref><ref id="pone.0000057-Rottenberg1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rottenberg</surname><given-names>ME</given-names></name><name><surname>Bakhiet</surname><given-names>M</given-names></name><name><surname>Olsson</surname><given-names>T</given-names></name><name><surname>Kristensson</surname><given-names>K</given-names></name><name><surname>Mak</surname><given-names>T</given-names></name><etal/></person-group>
+<year>1993</year>
+<article-title>Differential susceptibilities of mice genomically deleted of CD4 and CD8 to infections with Trypanosoma cruzi or Trypanosoma brucei.</article-title>
+<source>Infect Immun</source>
+<volume>61</volume>
+<fpage>5129</fpage>
+<lpage>5133</lpage>
+<pub-id pub-id-type="pmid">8225589</pub-id></element-citation></ref><ref id="pone.0000057-Michailowsky1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Michailowsky</surname><given-names>V</given-names></name><name><surname>Silva</surname><given-names>NM</given-names></name><name><surname>Rocha</surname><given-names>CD</given-names></name><name><surname>Vieira</surname><given-names>LQ</given-names></name><name><surname>Lannes-Vieira</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Pivotal role of interleukin-12 and interferon-gamma axis in controlling tissue parasitism and inflammation in the heart and central nervous system during Trypanosoma cruzi infection.</article-title>
+<source>Am J Pathol</source>
+<volume>159</volume>
+<fpage>1723</fpage>
+<lpage>1733</lpage>
+<pub-id pub-id-type="pmid">11696433</pub-id></element-citation></ref><ref id="pone.0000057-Holscher1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Holscher</surname><given-names>C</given-names></name><name><surname>Kohler</surname><given-names>G</given-names></name><name><surname>Muller</surname><given-names>U</given-names></name><name><surname>Mossmann</surname><given-names>H</given-names></name><name><surname>Schaub</surname><given-names>GA</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Defective nitric oxide effector functions lead to extreme susceptibility of Trypanosoma cruzi-infected mice deficient in gamma interferon receptor or inducible nitric oxide synthase.</article-title>
+<source>Infect Immun</source>
+<volume>66</volume>
+<fpage>1208</fpage>
+<lpage>1215</lpage>
+<pub-id pub-id-type="pmid">9488415</pub-id></element-citation></ref><ref id="pone.0000057-Graefe1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Graefe</surname><given-names>SE</given-names></name><name><surname>Jacobs</surname><given-names>T</given-names></name><name><surname>Gaworski</surname><given-names>I</given-names></name><name><surname>Klauenberg</surname><given-names>U</given-names></name><name><surname>Steeg</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Interleukin-12 but not interleukin-18 is required for immunity to Trypanosoma cruzi in mice.</article-title>
+<source>Microbes Infect</source>
+<volume>5</volume>
+<fpage>833</fpage>
+<lpage>839</lpage>
+<pub-id pub-id-type="pmid">12919851</pub-id></element-citation></ref><ref id="pone.0000057-Zhang2"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>L</given-names></name><name><surname>Tarleton</surname><given-names>RL</given-names></name></person-group>
+<year>1996</year>
+<article-title>Characterization of cytokine production in murine Trypanosoma cruzi infection by in situ immunocytochemistry: lack of association between susceptibility and type 2 cytokine production.</article-title>
+<source>Eur J Immunol</source>
+<volume>26</volume>
+<fpage>102</fpage>
+<lpage>109</lpage>
+<pub-id pub-id-type="pmid">8566051</pub-id></element-citation></ref><ref id="pone.0000057-Soares1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Soares</surname><given-names>MB</given-names></name><name><surname>Silva-Mota</surname><given-names>KN</given-names></name><name><surname>Lima</surname><given-names>RS</given-names></name><name><surname>Bellintani</surname><given-names>MC</given-names></name><name><surname>Pontes-de-Carvalho</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Modulation of chagasic cardiomyopathy by interleukin-4: dissociation between inflammation and tissue parasitism.</article-title>
+<source>Am J Pathol</source>
+<volume>159</volume>
+<fpage>703</fpage>
+<lpage>709</lpage>
+<pub-id pub-id-type="pmid">11485928</pub-id></element-citation></ref><ref id="pone.0000057-Silva2"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Silva</surname><given-names>JS</given-names></name><name><surname>Twardzik</surname><given-names>DR</given-names></name><name><surname>Reed</surname><given-names>SG</given-names></name></person-group>
+<year>1991</year>
+<article-title>Regulation of Trypanosoma cruzi infections in vitro and in vivo by transforming growth factor beta (TGF-beta).</article-title>
+<source>J Exp Med</source>
+<volume>174</volume>
+<fpage>539</fpage>
+<lpage>545</lpage>
+<pub-id pub-id-type="pmid">1908509</pub-id></element-citation></ref><ref id="pone.0000057-FreiredeLima1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Freire-de-Lima</surname><given-names>CG</given-names></name><name><surname>Nascimento</surname><given-names>DO</given-names></name><name><surname>Soares</surname><given-names>MB</given-names></name><name><surname>Bozza</surname><given-names>PT</given-names></name><name><surname>Castro-Faria-Neto</surname><given-names>HC</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Uptake of apoptotic cells drives the growth of a pathogenic trypanosome in macrophages.</article-title>
+<source>Nature</source>
+<volume>403</volume>
+<fpage>199</fpage>
+<lpage>203</lpage>
+<pub-id pub-id-type="pmid">10646605</pub-id></element-citation></ref><ref id="pone.0000057-Graefe2"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Graefe</surname><given-names>SE</given-names></name><name><surname>Meyer</surname><given-names>BS</given-names></name><name><surname>Muller-Myhsok</surname><given-names>B</given-names></name><name><surname>Ruschendorf</surname><given-names>F</given-names></name><name><surname>Drosten</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Murine susceptibility to Chagas' disease maps to chromosomes 5 and 17.</article-title>
+<source>Genes Immun</source>
+<volume>4</volume>
+<fpage>321</fpage>
+<lpage>325</lpage>
+<pub-id pub-id-type="pmid">12847546</pub-id></element-citation></ref><ref id="pone.0000057-Lander1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lander</surname><given-names>E</given-names></name><name><surname>Kruglyak</surname><given-names>L</given-names></name></person-group>
+<year>1995</year>
+<article-title>Genetic dissection of complex traits: guidelines for interpreting and reporting linkage results.</article-title>
+<source>Nat Genet</source>
+<volume>11</volume>
+<fpage>241</fpage>
+<lpage>247</lpage>
+<pub-id pub-id-type="pmid">7581446</pub-id></element-citation></ref><ref id="pone.0000057-Sedy1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sedy</surname><given-names>JR</given-names></name><name><surname>Gavrieli</surname><given-names>M</given-names></name><name><surname>Potter</surname><given-names>KG</given-names></name><name><surname>Hurchla</surname><given-names>MA</given-names></name><name><surname>Lindsley</surname><given-names>RC</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>B and T lymphocyte attenuator regulates T cell activation through interaction with herpesvirus entry mediator.</article-title>
+<source>Nat Immunol</source>
+<volume>6</volume>
+<fpage>90</fpage>
+<lpage>98</lpage>
+<pub-id pub-id-type="pmid">15568026</pub-id></element-citation></ref><ref id="pone.0000057-Morgado1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morgado</surname><given-names>MG</given-names></name><name><surname>Cam</surname><given-names>P</given-names></name><name><surname>Gris-Liebe</surname><given-names>C</given-names></name><name><surname>Cazenave</surname><given-names>PA</given-names></name><name><surname>Jouvin-Marche</surname><given-names>E</given-names></name></person-group>
+<year>1989</year>
+<article-title>Further evidence that BALB/c and C57BL/6 gamma 2a genes originate from two distinct isotypes.</article-title>
+<source>Embo J</source>
+<volume>8</volume>
+<fpage>3245</fpage>
+<lpage>3251</lpage>
+<pub-id pub-id-type="pmid">2510996</pub-id></element-citation></ref><ref id="pone.0000057-Jones1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jones</surname><given-names>PP</given-names></name><name><surname>Murphy</surname><given-names>DB</given-names></name><name><surname>McDevitt</surname><given-names>HO</given-names></name></person-group>
+<year>1981</year>
+<article-title>Variable synthesis and expression of E alpha and Ae (E beta) Ia polypeptide chains in mice of different H-2 haplotypes.</article-title>
+<source>Immunogenetics</source>
+<volume>12</volume>
+<fpage>321</fpage>
+<lpage>337</lpage>
+<pub-id pub-id-type="pmid">6937437</pub-id></element-citation></ref><ref id="pone.0000057-Liao1"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liao</surname><given-names>G</given-names></name><name><surname>Wang</surname><given-names>J</given-names></name><name><surname>Guo</surname><given-names>J</given-names></name><name><surname>Allard</surname><given-names>J</given-names></name><name><surname>Cheng</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>In silico genetics: identification of a functional element regulating H2-Ealpha gene expression.</article-title>
+<source>Science</source>
+<volume>306</volume>
+<fpage>690</fpage>
+<lpage>695</lpage>
+<pub-id pub-id-type="pmid">15499019</pub-id></element-citation></ref><ref id="pone.0000057-Allcock1"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Allcock</surname><given-names>RJ</given-names></name><name><surname>Martin</surname><given-names>AM</given-names></name><name><surname>Price</surname><given-names>P</given-names></name></person-group>
+<year>2000</year>
+<article-title>The mouse as a model for the effects of MHC genes on human disease.</article-title>
+<source>Immunol Today</source>
+<volume>21</volume>
+<fpage>328</fpage>
+<lpage>332</lpage>
+<pub-id pub-id-type="pmid">10871872</pub-id></element-citation></ref><ref id="pone.0000057-Casadevall1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Casadevall</surname><given-names>A</given-names></name><name><surname>Pirofski</surname><given-names>L</given-names></name></person-group>
+<year>2001</year>
+<article-title>Host-pathogen interactions: the attributes of virulence.</article-title>
+<source>J Infect Dis</source>
+<volume>184</volume>
+<fpage>337</fpage>
+<lpage>344</lpage>
+<pub-id pub-id-type="pmid">11443560</pub-id></element-citation></ref><ref id="pone.0000057-Cooke1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cooke</surname><given-names>GS</given-names></name><name><surname>Hill</surname><given-names>AV</given-names></name></person-group>
+<year>2001</year>
+<article-title>Genetics of susceptibility to human infectious disease.</article-title>
+<source>Nat Rev Genet</source>
+<volume>2</volume>
+<fpage>967</fpage>
+<lpage>977</lpage>
+<pub-id pub-id-type="pmid">11733749</pub-id></element-citation></ref><ref id="pone.0000057-Kellam1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kellam</surname><given-names>P</given-names></name><name><surname>Weiss</surname><given-names>RA</given-names></name></person-group>
+<year>2006</year>
+<article-title>Infectogenomics: insights from the host genome into infectious diseases.</article-title>
+<source>Cell</source>
+<volume>124</volume>
+<fpage>695</fpage>
+<lpage>697</lpage>
+<pub-id pub-id-type="pmid">16497580</pub-id></element-citation></ref><ref id="pone.0000057-Knudsen1"><label>40</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Knudsen</surname><given-names>S</given-names></name></person-group>
+<year>2004</year>
+<source>Guide to analysis of DNA microarray data.</source>
+<publisher-loc>Chichester</publisher-loc>
+<publisher-name>John Wiley &#x00026; Sons Inc</publisher-name>
+<fpage>184</fpage>
+</element-citation></ref><ref id="pone.0000057-Zuniga1"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zuniga</surname><given-names>E</given-names></name><name><surname>Motran</surname><given-names>C</given-names></name><name><surname>Montes</surname><given-names>CL</given-names></name><name><surname>Diaz</surname><given-names>FL</given-names></name><name><surname>Bocco</surname><given-names>JL</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Trypanosoma cruzi-induced immunosuppression: B cells undergo spontaneous apoptosis and lipopolysaccharide (LPS) arrests their proliferation during acute infection.</article-title>
+<source>Clin Exp Immunol</source>
+<volume>119</volume>
+<fpage>507</fpage>
+<lpage>515</lpage>
+<pub-id pub-id-type="pmid">10691924</pub-id></element-citation></ref><ref id="pone.0000057-Kumar1"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kumar</surname><given-names>S</given-names></name><name><surname>Tarleton</surname><given-names>RL</given-names></name></person-group>
+<year>1998</year>
+<article-title>The relative contribution of antibody production and CD8&#x0002b; T cell function to immune control of Trypanosoma cruzi.</article-title>
+<source>Parasite Immunol</source>
+<volume>20</volume>
+<fpage>207</fpage>
+<lpage>216</lpage>
+<pub-id pub-id-type="pmid">9651921</pub-id></element-citation></ref><ref id="pone.0000057-Trischmann2"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trischmann</surname><given-names>TM</given-names></name></person-group>
+<year>1983</year>
+<article-title>Non-antibody-mediated control of parasitemia in acute experimental Chagas' disease.</article-title>
+<source>J Immunol</source>
+<volume>130</volume>
+<fpage>1953</fpage>
+<lpage>1957</lpage>
+<pub-id pub-id-type="pmid">6403614</pub-id></element-citation></ref><ref id="pone.0000057-Trischmann3"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trischmann</surname><given-names>TM</given-names></name></person-group>
+<year>1984</year>
+<article-title>Role of cellular immunity in protection against Trypanosoma cruzi in mice.</article-title>
+<source>Parasite Immunol</source>
+<volume>6</volume>
+<fpage>561</fpage>
+<lpage>570</lpage>
+<pub-id pub-id-type="pmid">6240625</pub-id></element-citation></ref><ref id="pone.0000057-AlbaSoto1"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alba Soto</surname><given-names>CD</given-names></name><name><surname>Mirkin</surname><given-names>GA</given-names></name><name><surname>Solana</surname><given-names>ME</given-names></name><name><surname>Gonzalez Cappa</surname><given-names>SM</given-names></name></person-group>
+<year>2003</year>
+<article-title>Trypanosoma cruzi infection modulates in vivo expression of major histocompatibility complex class II molecules on antigen-presenting cells and T-cell stimulatory activity of dendritic cells in a strain-dependent manner.</article-title>
+<source>Infect Immun</source>
+<volume>71</volume>
+<fpage>1194</fpage>
+<lpage>1199</lpage>
+<pub-id pub-id-type="pmid">12595432</pub-id></element-citation></ref><ref id="pone.0000057-Cole1"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cole</surname><given-names>KE</given-names></name><name><surname>Strick</surname><given-names>CA</given-names></name><name><surname>Paradis</surname><given-names>TJ</given-names></name><name><surname>Ogborne</surname><given-names>KT</given-names></name><name><surname>Loetscher</surname><given-names>M</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Interferon-inducible T cell alpha chemoattractant (I-TAC): a novel non-ELR CXC chemokine with potent activity on activated T cells through selective high affinity binding to CXCR3.</article-title>
+<source>J Exp Med</source>
+<volume>187</volume>
+<fpage>2009</fpage>
+<lpage>2021</lpage>
+<pub-id pub-id-type="pmid">9625760</pub-id></element-citation></ref><ref id="pone.0000057-Petkovic1"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Petkovic</surname><given-names>V</given-names></name><name><surname>Moghini</surname><given-names>C</given-names></name><name><surname>Paoletti</surname><given-names>S</given-names></name><name><surname>Uguccioni</surname><given-names>M</given-names></name><name><surname>Gerber</surname><given-names>B</given-names></name></person-group>
+<year>2004</year>
+<article-title>I-TAC/CXCL11 is a natural antagonist for CCR5.</article-title>
+<source>J Leukoc Biol</source>
+<volume>76</volume>
+<fpage>701</fpage>
+<lpage>708</lpage>
+<pub-id pub-id-type="pmid">15178708</pub-id></element-citation></ref><ref id="pone.0000057-Xanthou1"><label>48</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xanthou</surname><given-names>G</given-names></name><name><surname>Duchesnes</surname><given-names>CE</given-names></name><name><surname>Williams</surname><given-names>TJ</given-names></name><name><surname>Pease</surname><given-names>JE</given-names></name></person-group>
+<year>2003</year>
+<article-title>CCR3 functional responses are regulated by both CXCR3 and its ligands CXCL9, CXCL10 and CXCL11.</article-title>
+<source>Eur J Immunol</source>
+<volume>33</volume>
+<fpage>2241</fpage>
+<lpage>2250</lpage>
+<pub-id pub-id-type="pmid">12884299</pub-id></element-citation></ref><ref id="pone.0000057-Loetscher1"><label>49</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Loetscher</surname><given-names>P</given-names></name><name><surname>Pellegrino</surname><given-names>A</given-names></name><name><surname>Gong</surname><given-names>JH</given-names></name><name><surname>Mattioli</surname><given-names>I</given-names></name><name><surname>Loetscher</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>The ligands of CXC chemokine receptor 3, I-TAC, Mig, and IP10, are natural antagonists for CCR3.</article-title>
+<source>J Biol Chem</source>
+<volume>276</volume>
+<fpage>2986</fpage>
+<lpage>2991</lpage>
+<pub-id pub-id-type="pmid">11110785</pub-id></element-citation></ref><ref id="pone.0000057-Hardison1"><label>50</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hardison</surname><given-names>JL</given-names></name><name><surname>Wrightsman</surname><given-names>RA</given-names></name><name><surname>Carpenter</surname><given-names>PM</given-names></name><name><surname>Kuziel</surname><given-names>WA</given-names></name><name><surname>Lane</surname><given-names>TE</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>The CC chemokine receptor 5 is important in control of parasite replication and acute cardiac inflammation following infection with Trypanosoma cruzi.</article-title>
+<source>Infect Immun</source>
+<volume>74</volume>
+<fpage>135</fpage>
+<lpage>143</lpage>
+<pub-id pub-id-type="pmid">16368966</pub-id></element-citation></ref><ref id="pone.0000057-Machado1"><label>51</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Machado</surname><given-names>FS</given-names></name><name><surname>Koyama</surname><given-names>NS</given-names></name><name><surname>Carregaro</surname><given-names>V</given-names></name><name><surname>Ferreira</surname><given-names>BR</given-names></name><name><surname>Milanezi</surname><given-names>CM</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>CCR5 plays a critical role in the development of myocarditis and host protection in mice infected with Trypanosoma cruzi.</article-title>
+<source>J Infect Dis</source>
+<volume>191</volume>
+<fpage>627</fpage>
+<lpage>636</lpage>
+<pub-id pub-id-type="pmid">15655788</pub-id></element-citation></ref><ref id="pone.0000057-Burns1"><label>52</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Burns</surname><given-names>JM</given-names></name><name><surname>Summers</surname><given-names>BC</given-names></name><name><surname>Wang</surname><given-names>Y</given-names></name><name><surname>Melikian</surname><given-names>A</given-names></name><name><surname>Berahovich</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>A novel chemokine receptor for SDF-1 and I-TAC involved in cell survival, cell adhesion, and tumor development.</article-title>
+<source>J Exp Med</source>
+<volume>203</volume>
+<fpage>2201</fpage>
+<lpage>2213</lpage>
+<pub-id pub-id-type="pmid">16940167</pub-id></element-citation></ref><ref id="pone.0000057-Hardison2"><label>53</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hardison</surname><given-names>JL</given-names></name><name><surname>Wrightsman</surname><given-names>RA</given-names></name><name><surname>Carpenter</surname><given-names>PM</given-names></name><name><surname>Lane</surname><given-names>TE</given-names></name><name><surname>Manning</surname><given-names>JE</given-names></name></person-group>
+<year>2006</year>
+<article-title>The chemokines CXCL9 and CXCL10 promote a protective immune response but do not contribute to cardiac inflammation following infection with Trypanosoma cruzi.</article-title>
+<source>Infect Immun</source>
+<volume>74</volume>
+<fpage>125</fpage>
+<lpage>134</lpage>
+<pub-id pub-id-type="pmid">16368965</pub-id></element-citation></ref><ref id="pone.0000057-Talvani1"><label>54</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Talvani</surname><given-names>A</given-names></name><name><surname>Ribeiro</surname><given-names>CS</given-names></name><name><surname>Aliberti</surname><given-names>JC</given-names></name><name><surname>Michailowsky</surname><given-names>V</given-names></name><name><surname>Santos</surname><given-names>PV</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Kinetics of cytokine gene expression in experimental chagasic cardiomyopathy: tissue parasitism and endogenous IFN-gamma as important determinants of chemokine mRNA expression during infection with Trypanosoma cruzi.</article-title>
+<source>Microbes Infect</source>
+<volume>2</volume>
+<fpage>851</fpage>
+<lpage>866</lpage>
+<pub-id pub-id-type="pmid">10962268</pub-id></element-citation></ref><ref id="pone.0000057-Kearns1"><label>55</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kearns</surname><given-names>AE</given-names></name><name><surname>Donohue</surname><given-names>MM</given-names></name><name><surname>Sanyal</surname><given-names>B</given-names></name><name><surname>Demay</surname><given-names>MB</given-names></name></person-group>
+<year>2001</year>
+<article-title>Cloning and characterization of a novel protein kinase that impairs osteoblast differentiation in vitro.</article-title>
+<source>J Biol Chem</source>
+<volume>276</volume>
+<fpage>42213</fpage>
+<lpage>42218</lpage>
+<pub-id pub-id-type="pmid">11500515</pub-id></element-citation></ref><ref id="pone.0000057-Patarca1"><label>56</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Patarca</surname><given-names>R</given-names></name><name><surname>Freeman</surname><given-names>GJ</given-names></name><name><surname>Singh</surname><given-names>RP</given-names></name><name><surname>Wei</surname><given-names>FY</given-names></name><name><surname>Durfee</surname><given-names>T</given-names></name><etal/></person-group>
+<year>1989</year>
+<article-title>Structural and functional studies of the early T lymphocyte activation 1 (Eta-1) gene. Definition of a novel T cell-dependent response associated with genetic resistance to bacterial infection.</article-title>
+<source>J Exp Med</source>
+<volume>170</volume>
+<fpage>145</fpage>
+<lpage>161</lpage>
+<pub-id pub-id-type="pmid">2787378</pub-id></element-citation></ref><ref id="pone.0000057-Singh1"><label>57</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Singh</surname><given-names>RP</given-names></name><name><surname>Patarca</surname><given-names>R</given-names></name><name><surname>Schwartz</surname><given-names>J</given-names></name><name><surname>Singh</surname><given-names>P</given-names></name><name><surname>Cantor</surname><given-names>H</given-names></name></person-group>
+<year>1990</year>
+<article-title>Definition of a specific interaction between the early T lymphocyte activation 1 (Eta-1) protein and murine macrophages in vitro and its effect upon macrophages in vivo.</article-title>
+<source>J Exp Med</source>
+<volume>171</volume>
+<fpage>1931</fpage>
+<lpage>1942</lpage>
+<pub-id pub-id-type="pmid">2351930</pub-id></element-citation></ref><ref id="pone.0000057-Nau1"><label>58</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nau</surname><given-names>GJ</given-names></name><name><surname>Liaw</surname><given-names>L</given-names></name><name><surname>Chupp</surname><given-names>GL</given-names></name><name><surname>Berman</surname><given-names>JS</given-names></name><name><surname>Hogan</surname><given-names>BL</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Attenuated host resistance against Mycobacterium bovis BCG infection in mice lacking osteopontin.</article-title>
+<source>Infect Immun</source>
+<volume>67</volume>
+<fpage>4223</fpage>
+<lpage>4230</lpage>
+<pub-id pub-id-type="pmid">10417195</pub-id></element-citation></ref><ref id="pone.0000057-Maeno1"><label>59</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maeno</surname><given-names>Y</given-names></name><name><surname>Nakazawa</surname><given-names>S</given-names></name><name><surname>Dao le</surname><given-names>D</given-names></name><name><surname>Van Tuan</surname><given-names>N</given-names></name><name><surname>Giang</surname><given-names>ND</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Osteopontin is involved in Th1-mediated immunity against Plasmodium falciparum infection in a holoendemic malaria region in Vietnam.</article-title>
+<source>Acta Trop</source>
+<volume>98</volume>
+<fpage>305</fpage>
+<lpage>310</lpage>
+<pub-id pub-id-type="pmid">16765311</pub-id></element-citation></ref><ref id="pone.0000057-Koguchi1"><label>60</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Koguchi</surname><given-names>Y</given-names></name><name><surname>Kawakami</surname><given-names>K</given-names></name><name><surname>Uezu</surname><given-names>K</given-names></name><name><surname>Fukushima</surname><given-names>K</given-names></name><name><surname>Kon</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>High plasma osteopontin level and its relationship with interleukin-12-mediated type 1 T helper cell response in tuberculosis.</article-title>
+<source>Am J Respir Crit Care Med</source>
+<volume>167</volume>
+<fpage>1355</fpage>
+<lpage>1359</lpage>
+<pub-id pub-id-type="pmid">12574077</pub-id></element-citation></ref><ref id="pone.0000057-Ashkar1"><label>61</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ashkar</surname><given-names>S</given-names></name><name><surname>Weber</surname><given-names>GF</given-names></name><name><surname>Panoutsakopoulou</surname><given-names>V</given-names></name><name><surname>Sanchirico</surname><given-names>ME</given-names></name><name><surname>Jansson</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Eta-1 (osteopontin): an early component of type-1 (cell-mediated) immunity.</article-title>
+<source>Science</source>
+<volume>287</volume>
+<fpage>860</fpage>
+<lpage>864</lpage>
+<pub-id pub-id-type="pmid">10657301</pub-id></element-citation></ref><ref id="pone.0000057-Abel1"><label>62</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abel</surname><given-names>B</given-names></name><name><surname>Freigang</surname><given-names>S</given-names></name><name><surname>Bachmann</surname><given-names>MF</given-names></name><name><surname>Boschert</surname><given-names>U</given-names></name><name><surname>Kopf</surname><given-names>M</given-names></name></person-group>
+<year>2005</year>
+<article-title>Osteopontin is not required for the development of Th1 responses and viral immunity.</article-title>
+<source>J Immunol</source>
+<volume>175</volume>
+<fpage>6006</fpage>
+<lpage>6013</lpage>
+<pub-id pub-id-type="pmid">16237095</pub-id></element-citation></ref><ref id="pone.0000057-Shinohara1"><label>63</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shinohara</surname><given-names>ML</given-names></name><name><surname>Lu</surname><given-names>L</given-names></name><name><surname>Bu</surname><given-names>J</given-names></name><name><surname>Werneck</surname><given-names>MB</given-names></name><name><surname>Kobayashi</surname><given-names>KS</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Osteopontin expression is essential for interferon-alpha production by plasmacytoid dendritic cells.</article-title>
+<source>Nat Immunol</source>
+<volume>7</volume>
+<fpage>498</fpage>
+<lpage>506</lpage>
+<pub-id pub-id-type="pmid">16604075</pub-id></element-citation></ref><ref id="pone.0000057-Liaw1"><label>64</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liaw</surname><given-names>L</given-names></name><name><surname>Birk</surname><given-names>DE</given-names></name><name><surname>Ballas</surname><given-names>CB</given-names></name><name><surname>Whitsitt</surname><given-names>JS</given-names></name><name><surname>Davidson</surname><given-names>JM</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Altered wound healing in mice lacking a functional osteopontin gene (spp1).</article-title>
+<source>J Clin Invest</source>
+<volume>101</volume>
+<fpage>1468</fpage>
+<lpage>1478</lpage>
+</element-citation></ref><ref id="pone.0000057-Potts1"><label>65</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Potts</surname><given-names>WK</given-names></name><name><surname>Slev</surname><given-names>PR</given-names></name></person-group>
+<year>1995</year>
+<article-title>Pathogen-based models favoring MHC genetic diversity.</article-title>
+<source>Immunol Rev</source>
+<volume>143</volume>
+<fpage>181</fpage>
+<lpage>197</lpage>
+<pub-id pub-id-type="pmid">7558076</pub-id></element-citation></ref><ref id="pone.0000057-Messaoudi1"><label>66</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Messaoudi</surname><given-names>I</given-names></name><name><surname>Guevara Patino</surname><given-names>JA</given-names></name><name><surname>Dyall</surname><given-names>R</given-names></name><name><surname>LeMaoult</surname><given-names>J</given-names></name><name><surname>Nikolich-Zugich</surname><given-names>J</given-names></name></person-group>
+<year>2002</year>
+<article-title>Direct link between mhc polymorphism, T cell avidity, and diversity in immune defense.</article-title>
+<source>Science</source>
+<volume>298</volume>
+<fpage>1797</fpage>
+<lpage>1800</lpage>
+<pub-id pub-id-type="pmid">12459592</pub-id></element-citation></ref><ref id="pone.0000057-Colorado1"><label>67</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Colorado</surname><given-names>IA</given-names></name><name><surname>Acquatella</surname><given-names>H</given-names></name><name><surname>Catalioti</surname><given-names>F</given-names></name><name><surname>Fernandez</surname><given-names>MT</given-names></name><name><surname>Layrisse</surname><given-names>Z</given-names></name></person-group>
+<year>2000</year>
+<article-title>HLA class II DRB1, DQB1, DPB1 polymorphism and cardiomyopathy due to Trypanosoma cruzi chronic infection.</article-title>
+<source>Hum Immunol</source>
+<volume>61</volume>
+<fpage>320</fpage>
+<lpage>325</lpage>
+<pub-id pub-id-type="pmid">10689123</pub-id></element-citation></ref><ref id="pone.0000057-Nieto1"><label>68</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nieto</surname><given-names>A</given-names></name><name><surname>Beraun</surname><given-names>Y</given-names></name><name><surname>Collado</surname><given-names>MD</given-names></name><name><surname>Caballero</surname><given-names>A</given-names></name><name><surname>Alonso</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>HLA haplotypes are associated with differential susceptibility to Trypanosoma cruzi infection.</article-title>
+<source>Tissue Antigens</source>
+<volume>55</volume>
+<fpage>195</fpage>
+<lpage>198</lpage>
+<pub-id pub-id-type="pmid">10777093</pub-id></element-citation></ref><ref id="pone.0000057-Luduena1"><label>69</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Luduena</surname><given-names>RF</given-names></name></person-group>
+<year>1998</year>
+<article-title>Multiple forms of tubulin: different gene products and covalent modifications.</article-title>
+<source>Int Rev Cytol</source>
+<volume>178</volume>
+<fpage>207</fpage>
+<lpage>275</lpage>
+<pub-id pub-id-type="pmid">9348671</pub-id></element-citation></ref><ref id="pone.0000057-Edelmann1"><label>70</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Edelmann</surname><given-names>W</given-names></name><name><surname>Cohen</surname><given-names>PE</given-names></name><name><surname>Kneitz</surname><given-names>B</given-names></name><name><surname>Winand</surname><given-names>N</given-names></name><name><surname>Lia</surname><given-names>M</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Mammalian MutS homologue 5 is required for chromosome pairing in meiosis.</article-title>
+<source>Nat Genet</source>
+<volume>21</volume>
+<fpage>123</fpage>
+<lpage>127</lpage>
+<pub-id pub-id-type="pmid">9916805</pub-id></element-citation></ref><ref id="pone.0000057-deVries1"><label>71</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>de Vries</surname><given-names>SS</given-names></name><name><surname>Baart</surname><given-names>EB</given-names></name><name><surname>Dekker</surname><given-names>M</given-names></name><name><surname>Siezen</surname><given-names>A</given-names></name><name><surname>de Rooij</surname><given-names>DG</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Mouse MutS-like protein Msh5 is required for proper chromosome synapsis in male and female meiosis.</article-title>
+<source>Genes Dev</source>
+<volume>13</volume>
+<fpage>523</fpage>
+<lpage>531</lpage>
+<pub-id pub-id-type="pmid">10072381</pub-id></element-citation></ref><ref id="pone.0000057-Mouse1"><label>72</label><mixed-citation publication-type="book">
+<comment>Mouse Genome Database (MGD), Mouse Genome Informatics Web Site, The Jackson Laboratory, <ext-link ext-link-type="uri" xlink:href="http://www.informatics.jax.org">http://www.informatics.jax.org</ext-link>. Sept. 2006</comment>
+</mixed-citation></ref><ref id="pone.0000057-Hoff1"><label>73</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoff</surname><given-names>R</given-names></name></person-group>
+<year>1974</year>
+<article-title>A method for counting and concentrating living Trypanosoma cruzi in blood lysed with ammonium chloride.</article-title>
+<source>J Parasitol</source>
+<volume>60</volume>
+<fpage>527</fpage>
+<lpage>528</lpage>
+<pub-id pub-id-type="pmid">4209381</pub-id></element-citation></ref><ref id="pone.0000057-Rajagopalan1"><label>74</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rajagopalan</surname><given-names>D</given-names></name></person-group>
+<year>2003</year>
+<article-title>A comparison of statistical methods for analysis of high density oligonucleotide array data.</article-title>
+<source>Bioinformatics</source>
+<volume>19</volume>
+<fpage>1469</fpage>
+<lpage>1476</lpage>
+<pub-id pub-id-type="pmid">12912826</pub-id></element-citation></ref><ref id="pone.0000057-Doniger1"><label>75</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Doniger</surname><given-names>SW</given-names></name><name><surname>Salomonis</surname><given-names>N</given-names></name><name><surname>Dahlquist</surname><given-names>KD</given-names></name><name><surname>Vranizan</surname><given-names>K</given-names></name><name><surname>Lawlor</surname><given-names>SC</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>MAPPFinder: using Gene Ontology and GenMAPP to create a global gene-expression profile from microarray data.</article-title>
+<source>Genome Biol</source>
+<volume>4</volume>
+<fpage>R7</fpage>
+<pub-id pub-id-type="pmid">12540299</pub-id></element-citation></ref><ref id="pone.0000057-Bonner1"><label>76</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bonner</surname><given-names>AE</given-names></name><name><surname>Lemon</surname><given-names>WJ</given-names></name><name><surname>You</surname><given-names>M</given-names></name></person-group>
+<year>2003</year>
+<article-title>Gene expression signatures identify novel regulatory pathways during murine lung development: implications for lung tumorigenesis.</article-title>
+<source>J Med Genet</source>
+<volume>40</volume>
+<fpage>408</fpage>
+<lpage>417</lpage>
+<pub-id pub-id-type="pmid">12807961</pub-id></element-citation></ref></ref-list></back></article>

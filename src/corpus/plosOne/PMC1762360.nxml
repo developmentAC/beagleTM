@@ -1,0 +1,260 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183693</article-id><article-id pub-id-type="pmc">1762360</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00004R1</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000062</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Evolutionary Biology</subject><subject>Neuroscience</subject><subject>Evolutionary Biology/Animal Behavior</subject></subj-group></article-categories><title-group><article-title>Sexual Selection and the Evolution of Brain Size in Primates</article-title><alt-title alt-title-type="running-head">Selection and Brain Evolution</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Schillaci</surname><given-names>Michael A.</given-names></name></contrib><aff>
+<institution>Department of Anthropology, University of Toronto</institution>
+<addr-line>Toronto, Ontario, Canada</addr-line>
+</aff></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Grant</surname><given-names>Seth G.N.</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Wellcome Trust Sanger Institute, United Kingdom</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>schillaci@utsc.utoronto.ca</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: MS. Performed the experiments: MS. Analyzed the data: MS. Contributed reagents/materials/analysis tools: MS. Wrote the paper: MS.</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e62</elocation-id><history><date date-type="received"><day>7</day><month>8</month><year>2006</year></date><date date-type="accepted"><day>12</day><month>10</month><year>2006</year></date></history><permissions><copyright-statement>Michael Schillaci.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Reproductive competition among males has long been considered a powerful force in the evolution of primates. The evolution of brain size and complexity in the Order Primates has been widely regarded as the hallmark of primate evolutionary history. Despite their importance to our understanding of primate evolution, the relationship between sexual selection and the evolutionary development of brain size is not well studied. The present research examines the evolutionary relationship between brain size and two components of primate sexual selection, sperm competition and male competition for mates. Results indicate that there is not a significant relationship between relative brain size and sperm competition as measured by relative testis size in primates, suggesting sperm competition has not played an important role in the evolution of brain size in the primate order. There is, however, a significant negative evolutionary relationship between relative brain size and the level of male competition for mates. The present study shows that the largest relative brain sizes among primate species are associated with monogamous mating systems, suggesting primate monogamy may require greater social acuity and abilities of deception.</p></abstract><counts><page-count count="5"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Since Darwin's 1871 publication <xref rid="pone.0000062-Darwin1" ref-type="bibr">[1]</xref> on the evolution of humans and sexual selection, reproductive competition among males has been considered a powerful force in the evolution of primates and other mammals. The evolution of brain size and complexity in the Order Primates is widely regarded as the hallmark of primate evolutionary history. Despite their importance to understanding primate evolution, the relationship between sexual selection and brain size evolution is not well studied. With the exception of whales, primate brain evolution is unique among mammals. For primates, the evolutionary increase in brain size is often attributed to increased social complexity. Research associating increasing brain size with increasing group size and social complexity in primates predicts brain size, specifically, the size of the neocortex, will co-evolve with mating systems exhibiting social complexity <xref rid="pone.0000062-Dunbar1" ref-type="bibr">[2]</xref>&#x02013;<xref rid="pone.0000062-Dunbar3" ref-type="bibr">[4]</xref>. In this context, larger brains are selected for because they confer greater reproductive fitness associated with increased social acuity or the ability to manipulate others within the group <xref rid="pone.0000062-Dunbar1" ref-type="bibr">[2]</xref>, <xref rid="pone.0000062-Byrne1" ref-type="bibr">[5]</xref>. Increases in the size of the prefrontal cortex in particular, which mediates important components of complex social behavior such as planning, working memory, memory for serial order, and language may have played an important role in human brain evolution <xref rid="pone.0000062-Schoenemann1" ref-type="bibr">[6]</xref>.</p><p>Recent research on mating systems and brain size in a closely related mammal, bats, predicts a negative evolutionary relationship between levels of sperm competition as measured by relative testes mass, and the development of brain size stemming from an investment trade-off between two metabolically costly tissues <xref rid="pone.0000062-Pitnick1" ref-type="bibr">[7]</xref>. The results from that study indicated that while species with mating systems that include multiple copulations by males has no evolutionary impact on relative brain size, mating systems with multiple matings by females do influence brain size evolution. Bat species with mating systems based on female promiscuity were associated with smaller brains and larger testes, while species with mating systems based on female fidelity were associated with significantly larger brains and smaller testicles <xref rid="pone.0000062-Pitnick1" ref-type="bibr">[7]</xref>.</p><p>The present research investigates the evolutionary relationship between brain size and two components of primate sexual selection in primates 1) sperm competition as measured by relative testes size, and 2) male competition for mates estimated from the level of sexual mass dimorphism.</p></sec><sec id="s2"><title>Results</title><p>Results from the analyses of covariance (ANCOVA) estimating the relationships of female promiscuity and mating system with brain size and testes size indicated mating system was associated significantly with brain size in primates after accounting for body mass, while female promiscuity was not (<xref ref-type="table" rid="pone-0000062-t001">Table 1</xref>). After accounting for body mass, both mating system and female promiscuity were associated significantly with the level of sperm competition estimated from testes size. Although male body mass was associated with male competition for mates as measured by mass dimorphism, mating system and female promiscuity were not. This pattern of association remained unchanged when humans are excluded from the analysis.</p><table-wrap id="pone-0000062-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000062.t001</object-id><label>Table 1</label><caption><title>Results of analyses of covariance (ANCOVA) and variance (ANOVA) for the dependent log<sub>e</sub>-transformed variables: brain mass, testis mass, and mass dimorphism on measures of mating system and female promiscuity with body mass treated as a covariate.</title></caption><graphic xlink:href="pone.0000062.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Independent variables</td><td colspan="2" align="left" rowspan="1">Brain mass</td><td colspan="2" align="left" rowspan="1">Testis mass</td><td colspan="2" align="left" rowspan="1">Mass dimorphism</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>P-value</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>P-value</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>P-value</italic>
+</td></tr></thead><tbody><tr><td colspan="7" align="left" rowspan="1">ANCOVA (including humans)</td></tr><tr><td align="left" rowspan="1" colspan="1">Mating system</td><td align="left" rowspan="1" colspan="1">6.40</td><td align="left" rowspan="1" colspan="1">
+<bold>0.0021</bold>
+</td><td align="left" rowspan="1" colspan="1">29.41</td><td align="left" rowspan="1" colspan="1">
+<bold>&#x0003c;0.0001</bold>
+</td><td align="left" rowspan="1" colspan="1">1.83</td><td align="left" rowspan="1" colspan="1">0.1666</td></tr><tr><td align="left" rowspan="1" colspan="1">Body mass</td><td align="left" rowspan="1" colspan="1">215.52</td><td align="left" rowspan="1" colspan="1">
+<bold>&#x0003c;0.0001</bold>
+</td><td align="left" rowspan="1" colspan="1">119.24</td><td align="left" rowspan="1" colspan="1">
+<bold>&#x0003c;0.0001</bold>
+</td><td align="left" rowspan="1" colspan="1">6.25</td><td align="left" rowspan="1" colspan="1">
+<bold>0.0191</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Female promiscuity</td><td align="left" rowspan="1" colspan="1">0.03</td><td align="left" rowspan="1" colspan="1">0.8649</td><td align="left" rowspan="1" colspan="1">90.21</td><td align="left" rowspan="1" colspan="1">
+<bold>&#x0003c;0.0001</bold>
+</td><td align="left" rowspan="1" colspan="1">0.76</td><td align="left" rowspan="1" colspan="1">0.3899</td></tr><tr><td align="left" rowspan="1" colspan="1">Body mass</td><td align="left" rowspan="1" colspan="1">206.21</td><td align="left" rowspan="1" colspan="1">
+<bold>&#x0003c;0.0001</bold>
+</td><td align="left" rowspan="1" colspan="1">209.07</td><td align="left" rowspan="1" colspan="1">
+<bold>&#x0003c;0.0001</bold>
+</td><td align="left" rowspan="1" colspan="1">14.00</td><td align="left" rowspan="1" colspan="1">
+<bold>0.0008</bold>
+</td></tr><tr><td colspan="7" align="left" rowspan="1">ANCOVA (excluding humans)</td></tr><tr><td align="left" rowspan="1" colspan="1">Mating system</td><td align="left" rowspan="1" colspan="1">3.87</td><td align="left" rowspan="1" colspan="1">
+<bold>0.0212</bold>
+</td><td align="left" rowspan="1" colspan="1">27.90</td><td align="left" rowspan="1" colspan="1">
+<bold>&#x0003c;0.0001</bold>
+</td><td align="left" rowspan="1" colspan="1">0.94</td><td align="left" rowspan="1" colspan="1">0.4368</td></tr><tr><td align="left" rowspan="1" colspan="1">Body mass</td><td align="left" rowspan="1" colspan="1">193.50</td><td align="left" rowspan="1" colspan="1">
+<bold>&#x0003c;0.0001</bold>
+</td><td align="left" rowspan="1" colspan="1">90.30</td><td align="left" rowspan="1" colspan="1">
+<bold>&#x0003c;0.0001</bold>
+</td><td align="left" rowspan="1" colspan="1">5.79</td><td align="left" rowspan="1" colspan="1">
+<bold>0.0238</bold>
+</td></tr></tbody></table></table-wrap><p>Results from an analysis of variance (ANOVA) derived from multiple regression models with mass dimorphism and male body mass as independent variables, and brain size and testis size as dependent variables, indicated that the level of male competition for mates had a significant association with brain size but not with testis size. When humans are excluded from the analysis, however, the effect of male competition on relative brain size is not significant (<italic>p</italic>&#x0200a;=&#x0200a;0.060). The regression coefficient (&#x003b2;) from the multiple regression model indicated an inverse relationship between relative brain size and mass dimorphism when humans are included (whole model adjusted <italic>r</italic>
+<sup>2</sup>&#x0200a;=&#x0200a;0.904, &#x003b2;&#x0200a;=&#x0200a;&#x02212;0.7693, <italic>p</italic>&#x0200a;=&#x0200a;0.013), and excluded (whole model adjusted <italic>r</italic>
+<sup>2</sup>&#x0200a;=&#x0200a;0.923, &#x003b2;&#x0200a;=&#x0200a;&#x02212;0.4841, <italic>p</italic>&#x0200a;=&#x0200a;0.060), from the analysis. The ANCOVA results estimating the influence of mating system and female promiscuity on primate brain size and testis size were supported by informal visual comparisons of residuals from least-squares regressions of testis and brain weights on body mass (<xref ref-type="fig" rid="pone-0000062-g001">Fig. 1</xref>). These residuals represented a measure of testis and brain size relative to body mass. A formal comparison across mating systems indicated that there are significant differences in sexual dimorphism and in regression residuals describing relative brain size and relative testis size (<xref ref-type="table" rid="pone-0000062-t002">Table 2</xref>). A comparison between the two levels of promiscuity indicated that there were not significant differences in relative brain size and levels of dimorphism. Predictably, there was a difference between the two levels of promiscuity in relative testis size. A reanalysis of residuals from regression models excluding humans yielded similar results.</p><fig id="pone-0000062-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000062.g001</object-id><label>Figure 1</label><caption><p>Error-bar plots of residuals from the least-squares regressions of brain (a,b) and testis (c,d) weights on body weight, and sexual mass dimorphism values (e, f) by mating system and female promiscuity determinations.</p><p>Variables were log<sub>e</sub>&#x02013;transformed prior to regression analysis.</p><p>Error bars represent one standard error of the mean.</p><p>Mating system: MMMF, multi-male/multi-female; PA, polyandrous; Mon, monogamous; SM single male.</p></caption><graphic xlink:href="pone.0000062.g001"/></fig><table-wrap id="pone-0000062-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000062.t002</object-id><label>Table 2</label><caption><title>Results of the analysis of variance (ANOVA) comparing relative brain size, relative testis size, and sexual dimorphism across mating systems, and Mann-Whitney comparisons between promiscuity levels.</title></caption><graphic xlink:href="pone.0000062.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td colspan="2" align="left" rowspan="1">Mating systems</td><td align="left" rowspan="1" colspan="1">Promiscuity</td></tr></thead><tbody><tr><td colspan="4" align="left" rowspan="1">Humans included in the model</td></tr><tr><td align="left" rowspan="1" colspan="1">Relative brain size</td><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>&#x0200a;=&#x0200a;6.59</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>p</italic></bold>
+<bold>&#x0200a;=&#x0200a;0.002</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>p</italic>&#x0200a;=&#x0200a;0.570</td></tr><tr><td align="left" rowspan="1" colspan="1">Relative testis size</td><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>&#x0200a;=&#x0200a;26.93</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>p</italic></bold>
+<bold>&#x0003c;0.0001</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>p</italic></bold>
+<bold>&#x0003c;0.0001</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Sexual dimorphism</td><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>&#x0200a;=&#x0200a;3.83</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>p</italic></bold>
+<bold>&#x0200a;=&#x0200a;0.021</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>p</italic>&#x0200a;=&#x0200a;0.721</td></tr><tr><td colspan="4" align="left" rowspan="1">Humans excluded from the model</td></tr><tr><td align="left" rowspan="1" colspan="1">Relative brain size</td><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>&#x0200a;=&#x0200a;3.93</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>p</italic></bold>
+<bold>&#x0200a;=&#x0200a;0.019</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>p</italic>&#x0200a;=&#x0200a;0.341</td></tr><tr><td align="left" rowspan="1" colspan="1">Relative testis size</td><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>&#x0200a;=&#x0200a;26.52</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>p</italic></bold>
+<bold>&#x0003c;0.0001</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>p</italic></bold>
+<bold>&#x0003c;0.0001</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Sexual dimorphism</td><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>&#x0200a;=&#x0200a;3.83</td><td align="left" rowspan="1" colspan="1">
+<bold><italic>p</italic></bold>
+<bold>&#x0200a;=&#x0200a;0.023</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>p</italic>&#x0200a;=&#x0200a;0.818</td></tr></tbody></table><table-wrap-foot><fn id="nt102"><p>
+<italic>F</italic>, test statistic from the ANCOVA and ANOVA models; significant probabilities bolded.</p></fn></table-wrap-foot></table-wrap><p>Relative brain size exhibited a significant negative Pearson correlation coefficient with mass dimorphism but not with relative testis size (<xref ref-type="table" rid="pone-0000062-t003">Table 3</xref>). Not surprisingly, body mass exhibited a significant correlation with mass dimorphism. After controlling for the effects of shared evolutionary history, or phylogenetic inertia, independent contrasts for relative brain size exhibited a significant negative correlation with mass dimorphism contrasts, but no correlation with relative testis size contrasts. The bootstrap regression of relative brain size contrasts on mass dimorphism contrasts yielded a negative slope value (<italic>b</italic>) significantly less than zero (<italic>b</italic>&#x0200a;=&#x0200a;&#x02212;0.5849, <italic>r</italic>&#x0200a;=&#x0200a;&#x02212;0.396, <italic>p</italic>&#x0200a;=&#x0200a;0.026). This slope value generated from the independent contrasts was not significantly different from the estimate calculated using data not corrected for phylogenetic effects (<italic>b</italic>&#x0200a;=&#x0200a;&#x02212;0.5360, 95&#x00025;CI&#x02212;0.9189, &#x02212;0.0565, <italic>r</italic>&#x0200a;=&#x0200a;&#x02212;0.378, <italic>p</italic>&#x0200a;=&#x0200a;0.039) (<xref ref-type="fig" rid="pone-0000062-g002">Fig. 2</xref>). The regression of relative testis size contrasts on mass dimorphism contrasts yielded a non-significant slope value (<italic>b</italic>&#x0200a;=&#x0200a;&#x02212;0.052, <italic>r</italic>&#x0200a;=&#x0200a;&#x02212;0.020, <italic>p</italic>&#x0200a;=&#x0200a;0.881), as did the regression of relative brain size contrasts on contrasts for relative testis size (<italic>b</italic>&#x0200a;=&#x0200a;0.0074, <italic>r</italic>&#x0200a;=&#x0200a;0.014, <italic>p</italic>&#x0200a;=&#x0200a;0.856).</p><fig id="pone-0000062-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000062.g002</object-id><label>Figure 2</label><caption><p>Bivariate plot of relative brain size regressed on dimorphism.</p><p>Gray oval represents the 95&#x00025; confidence ellipse of the bivariate distribution.</p><p>The positions of all monogamous genera (<italic>Homo, Hylobates, Aotus</italic>), chimpanzees and gorillas are labeled for reference.</p></caption><graphic xlink:href="pone.0000062.g002"/></fig><table-wrap id="pone-0000062-t003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000062.t003</object-id><label>Table 3</label><caption><title>Pearson correlation coefficients among variables (listed above the diagonal) and independent contrasts (listed below the diagonal)</title></caption><graphic xlink:href="pone.0000062.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">Mass</td><td align="left" rowspan="1" colspan="1">Dimorphism</td><td align="left" rowspan="1" colspan="1">TR</td><td align="left" rowspan="1" colspan="1">BR</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Mass</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">
+<bold>0.5614</bold>
+</td><td align="left" rowspan="1" colspan="1">0.0000</td><td align="left" rowspan="1" colspan="1">0.0000</td></tr><tr><td align="left" rowspan="1" colspan="1">Dimorphism</td><td align="left" rowspan="1" colspan="1">
+<bold>0.4357</bold>
+</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">0.2394</td><td align="left" rowspan="1" colspan="1">
+<bold>&#x02212;<italic>0.3727</italic></bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Testis residuals (TR)</td><td align="left" rowspan="1" colspan="1">&#x02212;0.1444</td><td align="left" rowspan="1" colspan="1">&#x02212;0.0197</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">&#x02212;<italic>0.0093</italic>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Brain residuals (BR)</td><td align="left" rowspan="1" colspan="1">&#x02212;0.3379</td><td align="left" rowspan="1" colspan="1">
+<bold>&#x02212;<italic>0.4088</italic></bold>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>0.0382</italic>
+</td><td align="left" rowspan="1" colspan="1">&#x02014;</td></tr></tbody></table><table-wrap-foot><fn id="nt104"><p>Significant (&#x003b1;&#x0200a;=&#x0200a;0.05) correlations are in bold. Correlations with relative brain size are in italics.</p></fn></table-wrap-foot></table-wrap></sec><sec id="s3"><title>Discussion</title><p>The results of the study indicate that unlike bats, sperm competition did not significantly influence the evolution of brain size in primates. Male competition for access to fertile females, however, is associated with primate brain size evolution, with increasing levels of mass dimorphism associated with decreasing relative brain size.</p><p>Mass dimorphism in primates is reported to be correlated strongly with the intensity of male competition, which is proportional to the ratio of reproductively active males to active females <xref rid="pone.0000062-Mitani1" ref-type="bibr">[8]</xref>. This ratio, often termed the operational sex ratio, is largely dependent on the mating period for females, which in primates is a function of the number and length of estrus cycles experienced before conception <xref rid="pone.0000062-Mitani1" ref-type="bibr">[8]</xref>. The intensity of male competition in a population&#x02014;and by extension the level of mass dimorphism&#x02014;is therefore in part a function of the average length and number of estrus cycles before conception. To test this hypothesis, a <italic>post hoc</italic> analysis of the relationship between dimorphism and temporal availability of fertile females using least squares regression through the origin was conducted. The results of these <italic>post hoc</italic> tests indicated that female availability among primates species does not covary significantly with the average number of days in estrus annually (<italic>b</italic>&#x0200a;=&#x0200a;0.039, <italic>r</italic>&#x0200a;=&#x0200a;0.023, <italic>p</italic>&#x0200a;=&#x0200a;0.965), or with the inter-birth interval (<italic>b</italic>&#x0200a;=&#x0200a;0.026, <italic>r</italic>&#x0200a;=&#x0200a;0.038, <italic>p</italic>&#x0200a;=&#x0200a;0.833) after the phylogenetic effects are accounted for. The relationship between the contrasts for the average number of days of estrous and relative brain size was also not significant (<italic>b</italic>&#x0200a;=&#x0200a;0.234, <italic>r</italic>&#x0200a;=&#x0200a;0.181, <italic>p</italic>&#x0200a;=&#x0200a;0.583), nor was the relationship between relative brain size and the inter-birth interval (<italic>b</italic>&#x0200a;=&#x0200a;0.271, <italic>r</italic>&#x0200a;=&#x0200a;0.274, <italic>p</italic>&#x0200a;=&#x0200a;0.227). These findings suggest that some other component of sexual mass dimorphism that is independent of female availability is likely influencing the evolution of brain size in primates.</p><p>Superficially, these results seem to not support the social complexity model for the evolution of larger brain size in primates <xref rid="pone.0000062-Dunbar1" ref-type="bibr">[2]</xref>, because monogamy is associated with larger brain sizes than that observed for presumably more complex mating systems such as multi-male/multi-female or single male/multi-female&#x02014;even after humans are excluded from the analysis. It is important to note however, the social brain hypothesis <xref rid="pone.0000062-Dunbar1" ref-type="bibr">[2]</xref> predicts a strong positive relationship between social complexity as measured by group size, and neocortex size, rather than total brain size. Although total brain size is a proportional measure of neocortex size in primates, future research should incorporate brain organization and tissue type in the analysis of sexual selection and brain evolution.</p><p>In their study on testis size and brain evolution in bats Pitnick et al. <xref rid="pone.0000062-Pitnick1" ref-type="bibr">[7]</xref> explain that the expensive tissue hypothesis predicts more intense sexual selection will constrain the evolution of larger brains as a result of energetic trade-offs with costly sexual organs such as testis. Because the present study indicates that relative testis size is not associated with brain size evolution as in bats, the expensive tissue hypotheses as a plausible explanation for brain size evolution in primates is rejected. This finding is perhaps not surprising given the small volume of testicular tissue relative to brain tissue in anthropoid primates. Similar to the study of brain size evolution in bats <xref rid="pone.0000062-Pitnick1" ref-type="bibr">[7]</xref>, the present results do not support the recently proposed sexual conflict hypothesis which states that both males and females are under selection to subvert the reproductive investment made by the other sex. As recently summarized by Pitnick et al. <xref rid="pone.0000062-Pitnick1" ref-type="bibr">[7]</xref>, the sexual conflict hypothesis predicts species with promiscuous breeding will have larger relative brain sizes than those who breed monogamously. The present study indicates that for primates, just the opposite is found, monogamy is associated with larger relative brain sizes.</p><p>The interpretation that the results of the present study are inconsistent with the social brain hypothesis assumes that multi-male/multi-female mating systems are more complex than monogamous systems. If, however, monogamous mating systems require greater social acuity and abilities for deception and social or psychological manipulation, then monogamy would select for larger and potentially more complex brains. Such selection would be associated with lower levels of male competition and would operate independent of sperm competition. If accurate, these interpretations suggest the present study actually supports a social complexity model for primate evolution, with the caveat that group size may not always be the best indicator of all forms social complexity in primates. Additional data on brain size from monogamous and polyandrous primate species are needed to test further the nuanced relationships between the evolution of brain size, sexual selection and social complexity.</p></sec><sec id="s4"><title>Methods</title><p>For the present study, relative testes size, or the gonadosomatic index, was used as a measure of the level of sperm competition <xref rid="pone.0000062-Harcourt1" ref-type="bibr">[9]</xref>&#x02013;<xref rid="pone.0000062-Parker1" ref-type="bibr">[12]</xref>, and sexual mass dimorphism was used as a measure of the level of male competition for mates <xref rid="pone.0000062-CluttonBrock1" ref-type="bibr">[13]</xref>. Data on body mass, testis weight, brain weight, mating systems, and female promiscuity for 30 species of primates, including humans were gathered from several sources <xref rid="pone.0000062-Harcourt1" ref-type="bibr">[9]</xref>, <xref rid="pone.0000062-Harvey2" ref-type="bibr">[14]</xref> (<xref ref-type="supplementary-material" rid="pone.0000062.s001">Table S1</xref>). As a result, the data on brain and testes size do not originate from the same subjects. Data were not available for all variables for all taxa. Testes weights represent the combined mass of both testes. Species averages for brain weight comprise both males and females. Body mass dimorphism was calculated as the ratio of the male to female body mass. Relative brain and testis sizes were represented by the residuals of brain and testis size regressed on male body mass using the least-squares model. Female promiscuity and the form of mating system for a given taxon was determined from accounts in the literature <xref rid="pone.0000062-Harvey2" ref-type="bibr">[14]</xref> and coded as categorical variables. <italic>Post hoc</italic>, or secondary analyses, were conducted on published data on estrus cycle length and inter-birth interval (<xref ref-type="supplementary-material" rid="pone.0000062.s002">Table S2</xref>) after initial findings on the relationship between sexual dimorphism and relative brain size.</p><sec id="s4a"><title>Statistical analysis</title><p>Like all mammals, brain size and testes size scale allometrically with body size in primates <xref rid="pone.0000062-Rilling1" ref-type="bibr">[15]</xref>. Much of the variation in brain and testes sizes among primate taxa, therefore, is attributable to selection for body size. An analysis of covariance (ANCOVA) model with body mass as a covariate was used to assess the effect of mating system and female promiscuity on brain size and testes size in the sample after accounting for body mass. These effects were illustrated graphically using the residuals from the linear regression models of brain and testis weights on male body mass. The effect of body size dimorphism was examined using multiple regression with brain and testis size as the dependent variables and male body size and mass dimorphism as independent covariables. Bootstrapping was used to generate bias-free estimates of regression and correlation coefficients. All variables were log<sub>e</sub> transformed prior to analysis, and an arbitrary two-tailed significance level of &#x003b1;.&#x0200a;=&#x0200a;0.05 was used for all tests.</p><p>Before employing a phylogenetically based comparative method, phylogenetic autocorrelation in relative brain size, body mass, and relative testicular size was tested using Phylogenetic Independence version 2.0 <xref rid="pone.0000062-Reeve1" ref-type="bibr">[16]</xref>, <xref rid="pone.0000062-Abouheif1" ref-type="bibr">[17]</xref>. The results of these tests (not shown) indicated these variables were significantly correlated with evolutionary history. The effects of shared evolutionary history on the relationships among measures of relative brain size, relative testes size, and dimorphism were therefore assessed using phylogenetically independent contrasts <xref rid="pone.0000062-Felsenstein1" ref-type="bibr">[18]</xref>. Independent contrasts were estimated using the primate phylogeny presented in Purvis <xref rid="pone.0000062-Purvis1" ref-type="bibr">[19]</xref> with all branch lengths set to 1 (<xref ref-type="supplementary-material" rid="pone.0000062.s003">Text S1</xref>). The evolutionary relationship among variables was assessed using Pearson correlation coefficients and least-squares regression through the origin. Analyses of independent contrasts and test diagnostics <xref rid="pone.0000062-Garland1" ref-type="bibr">[20]</xref> were conducted with the PDAP:PDTREE module of Mesquite 1.06 <xref rid="pone.0000062-Maddison1" ref-type="bibr">[21]</xref>.</p></sec></sec><sec sec-type="supplementary-material" id="s5"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pone.0000062.s001"><label>Table S1</label><caption><p>Primary morphometric data and mating system designations</p><p>(0.03 MB DOC)</p></caption><media xlink:href="pone.0000062.s001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000062.s002"><label>Table S2</label><caption><p>Data on oestrus length and inter-birth intervals</p><p>(0.03 MB DOC)</p></caption><media xlink:href="pone.0000062.s002.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000062.s003"><label>Text S1</label><caption><p>Description of phylogenetic tree topology</p><p>(0.03 MB DOC)</p></caption><media xlink:href="pone.0000062.s003.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>I am grateful to M. Nargolwalla, N. Taylor, and S. Lehman for their technical assistance during portions of my analysis. Naturally, responsibility for any interpretations, errors, or omissions lies solely with the author.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The author has declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>This research was funded in part by the University of Toronto's Connaught Fund.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000062-Darwin1"><label>1</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Darwin</surname><given-names>C</given-names></name></person-group>
+<year>1871</year>
+<source>The descent of man, and selection in relation to sex.</source>
+<publisher-loc>London, UK</publisher-loc>
+<publisher-name>Murray</publisher-name>
+</element-citation></ref><ref id="pone.0000062-Dunbar1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dunbar</surname><given-names>RIM</given-names></name></person-group>
+<year>1995</year>
+<article-title>Neocortex size and group size in primates: a test of the hypothesis.</article-title>
+<source>J Hum Evol</source>
+<volume>28</volume>
+<fpage>287</fpage>
+<lpage>296</lpage>
+</element-citation></ref><ref id="pone.0000062-Dunbar2"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dunbar</surname><given-names>RIM</given-names></name></person-group>
+<year>1998</year>
+<article-title>The social brain hypothesis.</article-title>
+<source>Evol Anthropol</source>
+<volume>6</volume>
+<fpage>178</fpage>
+<lpage>190</lpage>
+</element-citation></ref><ref id="pone.0000062-Dunbar3"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dunbar</surname><given-names>RIM</given-names></name></person-group>
+<year>2003</year>
+<article-title>The social brain: mind, language, and society in evolutionary perspective.</article-title>
+<source>Ann Rev Anthropol</source>
+<volume>32</volume>
+<fpage>163</fpage>
+<lpage>168</lpage>
+</element-citation></ref><ref id="pone.0000062-Byrne1"><label>5</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Byrne</surname><given-names>RW</given-names></name><name><surname>Whiten</surname><given-names>A</given-names></name></person-group>
+<year>1997</year>
+<article-title>Machiavellian intelligence.</article-title>
+<source>Machiavellian intelligence II. Extensions and evaluations</source>
+<person-group person-group-type="editor"><name><surname>Whiten</surname><given-names>A</given-names></name><name><surname>Byrne</surname><given-names>RW</given-names></name></person-group>
+<publisher-loc>Cambridge, UK</publisher-loc>
+<publisher-name>Cambridge University Press</publisher-name>
+<fpage>1</fpage>
+<lpage>23</lpage>
+</element-citation></ref><ref id="pone.0000062-Schoenemann1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schoenemann</surname><given-names>PT</given-names></name><name><surname>Sheehan</surname><given-names>MJ</given-names></name><name><surname>Glotzer</surname><given-names>LD</given-names></name></person-group>
+<year>2005</year>
+<article-title>Prefrontal whit matter volume is disproportionately larger in humans than other primates.</article-title>
+<source>Nat Neurosci.</source>
+<volume>8</volume>
+<fpage>242</fpage>
+<lpage>252</lpage>
+<pub-id pub-id-type="pmid">15665874</pub-id></element-citation></ref><ref id="pone.0000062-Pitnick1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pitnick</surname><given-names>S</given-names></name><name><surname>Jones</surname><given-names>KE</given-names></name><name><surname>Wilkison</surname><given-names>GS</given-names></name></person-group>
+<year>2005</year>
+<article-title>Mating system and brain size in bats.</article-title>
+<source>Proc R Soc B</source>
+<volume>273</volume>
+<fpage>719</fpage>
+<lpage>724</lpage>
+</element-citation></ref><ref id="pone.0000062-Mitani1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mitani</surname><given-names>JC</given-names></name><name><surname>Gros-Louis</surname><given-names>J</given-names></name><name><surname>Richards</surname><given-names>AF</given-names></name></person-group>
+<year>1996</year>
+<article-title>Sexual dimorphism, the operational sex ratio, and the intensity of male competition in polygynous primates.</article-title>
+<source>Am Nat</source>
+<volume>147</volume>
+<fpage>966</fpage>
+<lpage>980</lpage>
+</element-citation></ref><ref id="pone.0000062-Harcourt1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harcourt</surname><given-names>AH</given-names></name><name><surname>Harvey</surname><given-names>PH</given-names></name><name><surname>Larson</surname><given-names>SG</given-names></name><name><surname>Short</surname><given-names>RV</given-names></name></person-group>
+<year>1981</year>
+<article-title>Testis weight, body weight and breeding system in primates.</article-title>
+<source>Nature</source>
+<volume>293</volume>
+<fpage>55</fpage>
+<lpage>57</lpage>
+<pub-id pub-id-type="pmid">7266658</pub-id></element-citation></ref><ref id="pone.0000062-Harvey1"><label>10</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Harvey</surname><given-names>PH</given-names></name><name><surname>Harcourt</surname><given-names>AH</given-names></name></person-group>
+<year>1984</year>
+<article-title>Sperm competition, testes size, and breeding systems in primates.</article-title>
+<source>Sperm competition and the evolution of animal mating systems</source>
+<person-group person-group-type="editor"><name><surname>Smith</surname><given-names>RL</given-names></name></person-group>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Academic Press</publisher-name>
+<fpage>589</fpage>
+<lpage>600</lpage>
+</element-citation></ref><ref id="pone.0000062-Mller1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>M&#x000f8;ller</surname><given-names>AP</given-names></name></person-group>
+<year>1988</year>
+<article-title>Ejaclate quality, testes size and sperm competition in primates.</article-title>
+<source>J Hum Evol</source>
+<volume>17</volume>
+<fpage>479</fpage>
+<lpage>488</lpage>
+</element-citation></ref><ref id="pone.0000062-Parker1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parker</surname><given-names>GA</given-names></name><name><surname>Ball</surname><given-names>MA</given-names></name></person-group>
+<year>2005</year>
+<article-title>Sperm competition, mating rate and the evolution of testis and ejaculate sizes: a population model.</article-title>
+<source>Biol Lett</source>
+<volume>1</volume>
+<fpage>235</fpage>
+<lpage>238</lpage>
+<pub-id pub-id-type="pmid">17148175</pub-id></element-citation></ref><ref id="pone.0000062-CluttonBrock1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Clutton-Brock</surname><given-names>T</given-names></name><name><surname>Harvey</surname><given-names>P</given-names></name><name><surname>Rudder</surname><given-names>B</given-names></name></person-group>
+<year>1977</year>
+<article-title>Sexual dimorphism, socionomic sex ratio, and body weight in primates.</article-title>
+<source>Nature</source>
+<volume>269</volume>
+<fpage>797</fpage>
+<lpage>800</lpage>
+<pub-id pub-id-type="pmid">927503</pub-id></element-citation></ref><ref id="pone.0000062-Harvey2"><label>14</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Harvey</surname><given-names>PH</given-names></name><name><surname>Martin</surname><given-names>RD</given-names></name><name><surname>Clutton-Brock</surname><given-names>TH</given-names></name></person-group>
+<year>1987</year>
+<article-title>Life histories in comparative perspective.</article-title>
+<source>Primate societies</source>
+<person-group person-group-type="editor"><name><surname>Smuts</surname><given-names>BB</given-names></name><name><surname>Cheney</surname><given-names>DL</given-names></name><name><surname>Seyfarth</surname><given-names>RM</given-names></name><name><surname>Wrangham</surname><given-names>RW</given-names></name><name><surname>Struhsaker</surname><given-names>TT</given-names></name></person-group>
+<publisher-loc>Chicago</publisher-loc>
+<publisher-name>University of Chicago Press, Chicago</publisher-name>
+<fpage>181</fpage>
+<lpage>196</lpage>
+</element-citation></ref><ref id="pone.0000062-Rilling1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rilling</surname><given-names>JK</given-names></name></person-group>
+<year>2006</year>
+<article-title>Human and nonhuman primate brains: are they allometrically scaled versions of the same design?</article-title>
+<source>Evol Anthropol</source>
+<volume>15</volume>
+<fpage>66</fpage>
+<lpage>77</lpage>
+</element-citation></ref><ref id="pone.0000062-Reeve1"><label>16</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Reeve</surname><given-names>J</given-names></name><name><surname>Abouheif</surname><given-names>E</given-names></name></person-group>
+<year>2003</year>
+<source>Phylogenetic Independence,</source>
+<comment>Version 2.0,</comment>
+<publisher-name>Department of Biology, McGill University</publisher-name>
+</element-citation></ref><ref id="pone.0000062-Abouheif1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abouheif</surname><given-names>E</given-names></name></person-group>
+<year>1999</year>
+<article-title>A method to test the assumption of phylogenetic independence in comparative data.</article-title>
+<source>Evolutionary Ecology Research</source>
+<volume>1</volume>
+<fpage>895</fpage>
+<lpage>909</lpage>
+</element-citation></ref><ref id="pone.0000062-Felsenstein1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Felsenstein</surname><given-names>J</given-names></name></person-group>
+<year>1985</year>
+<article-title>Phylogenies and the comparative method.</article-title>
+<source>Am Nat</source>
+<volume>125</volume>
+<fpage>1</fpage>
+<lpage>15</lpage>
+</element-citation></ref><ref id="pone.0000062-Purvis1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Purvis</surname><given-names>A</given-names></name></person-group>
+<year>1995</year>
+<article-title>A composite estimate of primate phylogeny.</article-title>
+<source>Phil Trans R Soc Lond B</source>
+<volume>348</volume>
+<fpage>405</fpage>
+<lpage>421</lpage>
+<pub-id pub-id-type="pmid">7480112</pub-id></element-citation></ref><ref id="pone.0000062-Garland1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garland</surname><given-names>T</given-names><suffix>Jr</suffix></name><name><surname>Harvey</surname><given-names>PH</given-names></name><name><surname>Ives</surname><given-names>AR</given-names></name></person-group>
+<year>1992</year>
+<article-title>Procedures for the analysis of comparative data using phylogenetically independent contrasts.</article-title>
+<source>Syst Biol</source>
+<volume>41</volume>
+<fpage>18</fpage>
+<lpage>31</lpage>
+</element-citation></ref><ref id="pone.0000062-Maddison1"><label>21</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Maddison</surname><given-names>WP</given-names></name><name><surname>Maddison</surname><given-names>DR</given-names></name></person-group>
+<year>2005</year>
+<source>Mesquite: A modular system for evolutionary analysis</source>
+<comment>Version 1.06, <ext-link ext-link-type="uri" xlink:href="http://mesquiteproject.org">http://mesquiteproject.org</ext-link></comment>
+</element-citation></ref></ref-list></back></article>

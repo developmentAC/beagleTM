@@ -1,0 +1,346 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183657</article-id><article-id pub-id-type="pmc">1762336</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00005</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000003</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Evolutionary Biology</subject><subject>Molecular Biology</subject><subject>Genetics and Genomics/Gene Therapy</subject></subj-group></article-categories><title-group><article-title>Invasion and Persistence of a Selfish Gene in the Cnidaria</article-title><alt-title alt-title-type="running-head">Metazoan Selfish Gene Dynamics</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Goddard</surname><given-names>Matthew R.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Leigh</surname><given-names>Jessica</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Roger</surname><given-names>Andrew J</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Pemberton</surname><given-names>Andrew J</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref><xref ref-type="author-notes" rid="fn1">
+<sup>&#x000a4;</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution>School of Biological Sciences, University of Auckland</institution>
+<addr-line>New Zealand</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>National Environment Research Council Centre for Population Biology, Imperial College</institution>
+<addr-line>London, United Kingdom</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<institution>Department of Biochemistry and Molecular Biology, Dalhousie University</institution>
+<addr-line>Halifax, Nova Scotia, Canada</addr-line>
+</aff><aff id="aff4">
+<label>4</label>
+<institution>Marine Biological Association of the United Kingdom</institution>
+<addr-line>Plymouth, United Kingdom</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Fraser</surname><given-names>James</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">University of Queensland, Australia</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>m.goddard@auckland.ac.nz</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: MG. Analyzed the data: AR MG JL. Contributed reagents/materials/analysis tools: AR MG AP. Wrote the paper: MG AP</p></fn><fn id="fn1" fn-type="current-aff"><label>&#x000a4;</label><p>Current address: Zoological Museum of the University of Zurich, Zurich, Switzerland</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e3</elocation-id><history><date date-type="received"><day>1</day><month>8</month><year>2006</year></date><date date-type="accepted"><day>12</day><month>8</month><year>2006</year></date></history><permissions><copyright-statement>Goddard et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><sec><title>Background</title><p>Homing endonuclease genes (HEGs) are superfluous, but are capable of invading populations that mix alleles by biasing their inheritance patterns through gene conversion. One model suggests that their long-term persistence is achieved through recurrent invasion. This circumvents evolutionary degeneration, but requires reasonable rates of transfer between species to maintain purifying selection. Although HEGs are found in a variety of microbes, we found the previous discovery of this type of selfish genetic element in the mitochondria of a sea anemone surprising.</p></sec><sec><title>Methods/Principal Findings</title><p>We surveyed 29 species of Cnidaria for the presence of the <italic>COXI</italic> HEG. Statistical analyses provided evidence for HEG invasion. We also found that 96 individuals of <italic>Metridium senile</italic>, from five different locations in the UK, had identical HEG sequences. This lack of sequence divergence illustrates the stable nature of Anthozoan mitochondria. Our data suggests this HEG conforms to the recurrent invasion model of evolution.</p></sec><sec><title>Conclusions</title><p>Ordinarily such low rates of HEG transfer would likely be insufficient to enable major invasion. However, the slow rate of Anthozoan mitochondrial change lengthens greatly the time to HEG degeneration: this significantly extends the periodicity of the HEG life-cycle. We suggest that a combination of very low substitution rates and rare transfers facilitated metazoan HEG invasion.</p></sec></abstract><counts><page-count count="6"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Homing endonuclease genes (HEGs) are superfluous, but invade populations because they cheat the rules of Mendelian inheritance and over-represent themselves in the next generation <xref rid="pone.0000003-Burt1" ref-type="bibr">[1]</xref>&#x02013;<xref rid="pone.0000003-Haugen1" ref-type="bibr">[3]</xref>. Each homing endonuclease (HE), the protein product of an HEG, recognises and cuts a specific 15&#x02013;30 bp DNA recognition sequence which is typically unique within a genome <xref rid="pone.0000003-Chevalier1" ref-type="bibr">[4]</xref>, <xref rid="pone.0000003-Belfort1" ref-type="bibr">[5]</xref>. HEGs are located in the middle of their own recognition sequence and so their presence splits this site in two and protects against chromosome cleavage. However, in individuals heterozygous for any particular HEG, the uninterrupted recognition sequence is encountered and cut producing a potentially lethal broken chromosome <xref rid="pone.0000003-Chevalier1" ref-type="bibr">[4]</xref>. Chromosome breaks are typically repaired using the homologous area of the intact chromosome as a template, and the HEG is copied onto the other chromosome as a consequence of the repair procedure <xref rid="pone.0000003-Burt1" ref-type="bibr">[1]</xref>. This &#x02018;homing&#x02019; process allows HEGs to effect super-Mendelian inheritance and increase in frequency <xref rid="pone.0000003-Goddard1" ref-type="bibr">[2]</xref>.</p><p>The infective nature of HEGs allows them to quickly invade species <xref rid="pone.0000003-Goddard1" ref-type="bibr">[2]</xref>, but the lack of homing opportunities near and at fixation means that selection for HEG function will become substantially relaxed. One evolutionary model suggests that purifying selection may only be maintained, and thus degeneration circumvented, by restoring homing events <xref rid="pone.0000003-Goddard2" ref-type="bibr">[6]</xref>. The recurrent invasion of closely related uninfected species, via horizontal transfer, is a hypothesis that permits the longer-term persistence of HEGs by maintaining purifying selection. This cyclical evolutionary model allows major invasions of closely related species, and predicts the patchy distribution of both functional and non-functional HEGs, and incongruence between host-genome and HEG phylogenies <xref rid="pone.0000003-Goddard2" ref-type="bibr">[6]</xref>&#x02013;<xref rid="pone.0000003-Bergthorsson1" ref-type="bibr">[8]</xref>. HEGs have been reported from a wide array of species and comparative data from phage, archaea, fungi, algae and plants support this HEG recurrent invasion model (see <xref rid="pone.0000003-Burt1" ref-type="bibr">[1]</xref> and references within). One clear prediction of this model is that selection will produce HEGs that are adapted for major invasion by having recognition sites that are conserved among taxa. This seems to be the case since extant HEGs have recognition sequences usually targeted toward essential and sequentially conserved genes <xref rid="pone.0000003-Koufopanou1" ref-type="bibr">[7]</xref>. The presence of HEGs in the nuclear genomes of eukaryotes, archebacteria and phage correlates with the fact that alleles may be bought together in each of these groups by mating, conjugation and co-infection respectively, and thus permit HEG homing and invasion <xref rid="pone.0000003-Burt1" ref-type="bibr">[1]</xref>, <xref rid="pone.0000003-Haugen1" ref-type="bibr">[3]</xref>, <xref rid="pone.0000003-Belfort1" ref-type="bibr">[5]</xref>, <xref rid="pone.0000003-Dalgaard1" ref-type="bibr">[9]</xref>, <xref rid="pone.0000003-Haugen2" ref-type="bibr">[10]</xref>. If HEG-plus and HEG-minus alleles are not bought together there will be no opportunities for homing and spread within a species. In general HEGs will not be able to persist in strictly asexual genomes <xref rid="pone.0000003-Goddard1" ref-type="bibr">[2]</xref>. Thus, it appears that HEGs have two requirements for major invasion: 1, a reasonable opportunity for homing; and 2, relatively frequent transfer to naive hosts to maintain purifying selection and escape degeneration.</p><p>An HEG has been discovered in the cytochrome oxidase I (<italic>COXI</italic>) gene of the mitochondria of the sea anemone <italic>Metridium senile</italic>
+<xref rid="pone.0000003-Beagley1" ref-type="bibr">[11]</xref>. This HEG is located in the middle of a self splicing group I intron (as is common) which allows excision from the host gene at the RNA level: this allows the production of a functional COXI. This original report of an HEG among metazoans is one of an extremely small number of known metazoan mitochondrial introns. This discovery is puzzling. The mitochondria of animals are generally thought to be uni-parentally inherited, and not to recombine: this should deny opportunities for homing. Even if within-species HEG spread were possible for some reason, then escape from long-term degeneration would seem unlikely as one imagines horizontal transfer between metazoan germ-lines to be a prohibitively rare event.</p><p>We investigated the distribution and evolutionary genetics of this HEG within the Cnidaria in order to test the applicability of the recurrent invasion model <xref rid="pone.0000003-Goddard2" ref-type="bibr">[6]</xref> in metazoans. We present evidence which strongly suggests that this HEG invaded and then spread within the Actinaria (true sea anemones).</p></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>Phylogenies and HEG distribution</title><p>The nuclear 18S, 5.8S and ITS sequence data were assumed to represent the evolutionary history of the Cnidarian host genome (accession numbers 18S: DQ831237 - DQ831296; ITS1: DQ831297 - DQ831306; 5.8S: DQ831307 - DQ831322; ITS2: DQ831323 - DQ831332). After alignment and correct model selection (see <xref ref-type="supplementary-material" rid="pone.0000003.s001">Supporting Material 1</xref>), Bayesian, likelihood and parsimony optimality criteria produced extremely similar phylogenetic trees; the tree recovered using Bayesian methods is shown in <xref ref-type="fig" rid="pone-0000003-g001">figure 1</xref>. The partitioning of the taxa in this phylogeny agrees with previous estimates of Cnidarian phylogeny <xref rid="pone.0000003-Berntson1" ref-type="bibr">[12]</xref>&#x02013;<xref rid="pone.0000003-Medina1" ref-type="bibr">[14]</xref>, and with their taxonomic classifications.</p><fig id="pone-0000003-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000003.g001</object-id><label>Figure 1</label><caption><title>Cnidaria host genome phylogeny reconstructed using Bayesian methods from 18S, 5.8S and ITS data, and is a 50&#x00025; majority rule consensus taken from the MCMC analyses after plateau (i.e. &#x02018;burn-in&#x02019; trees discarded).</title><p>The Bayesian posterior probabilities are given for each node.</p><p>Taxa containing a HEG are highlighted; the non-functional HEG is boxed.</p><p>Taxonomic classification is also distinguished; O(A) &#x0200a;=&#x0200a; Octocorallia (Alcyonaria); C &#x0200a;=&#x0200a; Corrimorpharia; S &#x0200a;=&#x0200a; Scleratinia; Z &#x0200a;=&#x0200a; Zoanthiniaria.</p></caption><graphic xlink:href="pone.0000003.g001"/></fig><p>All twenty nine taxa produced a single <italic>COXI</italic> PCR product, and seventeen of these harboured the correct sized larger product indicating the presence of an HEG in the <italic>COXI</italic> gene. When HEG presence is mapped onto the host phylogeny the distribution appears non-random, with a strong cluster in members of the Actinaria and Corrimorpharia (<xref ref-type="fig" rid="pone-0000003-g001">figure 1</xref>). Such a pattern seems to minimise the change of HEG status across the tree, and implies that horizontal transfer has not played a large part in this HEG's evolutionary history. Indeed, if we assume that HEG gains and losses are equally likely, then the inferred three character changes across the tree (two gains and one loss) are significantly less than that observed when intron status is randomised (<italic>P</italic>&#x0003c;0.01; <italic>n</italic>&#x0200a;=&#x0200a;100 randomisations). This clumped distribution, and simple test, suggests this HEG has not been subject to rampant horizontal transfer across all these taxa, and, for some reason, that the HEG is restricted to specific clades.</p></sec><sec id="s2b"><title>Tests for HEG horizontal transfer</title><p>A more robust test for horizontal transfer makes use of sequence data from both areas of interest. We obtained sequence for fourteen of the HEGs and their flanking group I introns (accession numbers DQ831333 - DQ831345). All HEGs were putatively functional, with the exception of that found in <italic>Megalactis sp</italic>. which had four deletions of between four and 12 bp which destroyed the HEG reading frame (one deletion even removes the HEG start codon). Overall the HEG sequences showed extremely good alignment allowing un-ambiguous translation for all but the non-functional version in <italic>Megalactis sp</italic>. The protein motifs which place this HEG in the LAGLIDADG family <xref rid="pone.0000003-Dalgaard1" ref-type="bibr">[9]</xref> may be readily identified. Phylogenies reconstructed exclusively from the Actinarian derived HEGs using Bayesian, likelihood and parsimony criteria all agreed (see <xref ref-type="supplementary-material" rid="pone.0000003.s001">Supporting Material 1</xref> for model details). A phylogeny reconstructed from the translated amino acid data was also congruent with the DNA derived phylogenies. Statistical comparisons of host and HEG data allowed us clear tests for differences in evolutionary histories. An Actinaria host tree was reconstructed using only those taxa for which we have HEG sequence (see <xref ref-type="fig" rid="pone-0000003-g002">figure 2A</xref>). First, this was compared to the HEG tree using the likelihood based Shimodaira-Hasegawa (SH) test as implemented by PAUP&#x0002a; (full optimisation, 1000 replicates). Comparisons performed on each relevant data set returned a <italic>P</italic> value of &#x0003c;0.001 in each case (four tests total, bootstrap and best trees tested on both data partitions) which suggested that the two data sets contained different phylogenetic signals. One criticism with the SH tests, as carried out here, is that only two topologies were considered at a time: the test was really designed to consider a large multiplicity of trees <xref rid="pone.0000003-Shimodaira1" ref-type="bibr">[15]</xref>. In addition, the support for some of the nodes seen in <xref ref-type="fig" rid="pone-0000003-g002">figure 2</xref> is low &#x02013; ideally tests which do not rely on fixed topologies should be employed.</p><fig id="pone-0000003-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000003.g002</object-id><label>Figure 2</label><caption><title>Comparison of Actinarian and HEG phylogenies.</title><p>
+<bold>A.</bold> The numbers above each branch are the Bayesian posterior probabilities (again after burn-in trees discarded), and those below the branch are the support generated from a likelihood bootstrap analysis (n&#x0200a;=&#x0200a;1000).</p><p>The HEG tree is unrooted (it is unknown) and displayed in such a way as to minimise the differences with the host tree.</p><p>
+<bold>B.</bold> The null distribution for the likelihood ratio test generated by evaluating &#x003b4; for 1000 non-parametric bootstrap resampled data sets, 50&#x00025; of which are drawn entirely from the host data and 50&#x00025; from the HEG data.</p><p>The likelihood ratio for the observed partition is shown.</p></caption><graphic xlink:href="pone.0000003.g002"/></fig><p>A more appropriate test for incongruence uses Bayes factors (BF) to compare evolutionary histories <xref rid="pone.0000003-Nylander1" ref-type="bibr">[16]</xref>. The marginal log-likelihood of an analysis where the HEG and the host partitions were forced to share the same topology (the &#x02018;one tree&#x02019; model) was subtracted from the marginal log-likelihood of an analysis which allowed a separate tree from each partition (the &#x02018;two tree&#x02019; model): this yielded an estimate of the log-Bayes factor. Four separate MCMCMC runs of the &#x02018;one&#x02019; tree versus &#x02018;two tree&#x02019; models were completed, and the resulting average log-BF was 23.48. This test circumvents the problems mentioned above, and provides strong evidence against accepting the simpler one tree model since 2(log-BF) &#x0003e;10 (see <xref rid="pone.0000003-Nylander1" ref-type="bibr">[16]</xref>): the two tree model is clearly favoured. However, some caution is warranted in interpreting this result, as a recent analysis suggests that the harmonic mean estimate of the marginal log-likelihood for these Bayes factor calculations may be biased in favour of more complex models <xref rid="pone.0000003-Lartillot1" ref-type="bibr">[17]</xref>.</p><p>Thus, as a final test for incongruence between HEG and host histories, we used a non-parametric version of Huelsenbeck and Bull's likelihood ratio test for conflicting phylogenetic signal <xref rid="pone.0000003-Huelsenbeck1" ref-type="bibr">[18]</xref>. In this test, a likelihood ratio test statistic is calculated for the &#x02018;two tree&#x02019; versus &#x02018;one tree&#x02019; models, and compared to a null distribution generated by non-parametric bootstrapping (see <xref ref-type="sec" rid="s4">Methods</xref>). For our data, the test statistic, &#x003b4;&#x0200a;=&#x0200a;27.88, was markedly larger than any value from the null bootstrap distribution. This allows the null hypothesis to be firmly rejected with <italic>p</italic>&#x0003c;0.001 (<xref ref-type="fig" rid="pone-0000003-g002">figure 2B</xref>). Collectively these three tests show that the evolutionary histories of the host and HEG data significantly differ, and therefore provide evidence for the horizontal transfer of this HEG among these actinarians.</p><p>Having demonstrated that HEG horizontal transfer has very likely occurred, we were keen to estimate a rate of HEG movement: is this a frequent or rare event? Recent work based on fossil data suggests that an approximate age for the basal split of the host phylogeny in <xref ref-type="fig" rid="pone-0000003-g001">figure 1</xref> is 500 MY <xref rid="pone.0000003-Waggoner1" ref-type="bibr">[19]</xref>. Using branch lengths calculated by maximum likelihood, with a molecular clock enforced, the total time encompassed by the most likely resolution of the tree seen in <xref ref-type="fig" rid="pone-0000003-g001">figure 1</xref> is approximately 5500 MY (estimated by summing the lengths of all the branches and converting to MY). We examined the dynamics of recurrent HEG gain and loss across this phylogeny using maximum likelihood methods as implemented by Pagel's Multistate (v0.8) program <xref rid="pone.0000003-Pagel1" ref-type="bibr">[20]</xref>. We found no significant difference between a one parameter model where rates of HEG gain and loss were constrained to be the same (ln likelihood&#x0200a;=&#x0200a;13.478; 1 d.f.), and a two parameter model where rates were free to vary (12.691; 2 d.f.). A one parameter model which constrained gains to be zero was also significantly worse than a model which included gains (16.218, 1 d.f., <italic>p</italic>&#x0003c;0.025). The model where gains and losses were constrained to be equal produced an extremely tentative estimate of one transition (either gain or loss) every 500 MY, with 2 log likelihood support limits (equivalent to 95&#x00025; confidence intervals) between once every 100 MY and 0 (never). Reconstructing specific transfer events between lineages is an extremely hard problem <xref rid="pone.0000003-Page1" ref-type="bibr">[21]</xref>, but this method offers an alternative approach and provides a likely rate of movement. This very approximate estimate suggest that around 11 gain and loss cycles occurred across this phylogeny, and this equates to a very low horizontal transfer rate of 0.002 events per MY, with bounds from 0&#x02013;0.01.</p></sec><sec id="s2c"><title>HEG population study</title><p>One little studied area of HEG biology concerns their intra-population variance. All of the 95 <italic>M. senile</italic> individuals (from four UK collection sites, see <xref ref-type="supplementary-material" rid="pone.0000003.s001">Supporting Material 1</xref>) contained a complete HEG as indicated by the presence of an appropriately sized PCR product. All of the 51 different one-way sequences we obtained (approximately half and half 5&#x02032; and 3&#x02032;) were identical to one another and identical to the published sequence from a single individual from the west coast of the USA <xref rid="pone.0000003-Beagley1" ref-type="bibr">[11]</xref>.</p></sec></sec><sec id="s3"><title>Discussion</title><p>The observation of functional, non-functional and absent HEG states, combined with our inference of horizontal transfer, strongly suggests that this HEG, like many others, conforms to a cyclical evolutionary model. These inferences suggest that this HEG invaded the Actinaria <xref rid="pone.0000003-Goddard2" ref-type="bibr">[6]</xref>. It is possible that whole mitochondrial genomes moved between species, but our supposition of HEG transfer is directly corroborated by a very recent study examining a number of complete anthozoan mitochondria: Medina et al <xref rid="pone.0000003-Medina1" ref-type="bibr">[14]</xref> concluded this HEG (and not whole mitochondrial genomes) has been gained many times by the Hexacorallia (see <xref ref-type="fig" rid="pone-0000003-g001">figure 1</xref>). Our tentative estimate for a rate HEGs transfer among metazoans is approximately two orders of magnitude lower than that for HEGs in the mitochondria and nucleus of Saccharomycete yeasts <xref rid="pone.0000003-Goddard2" ref-type="bibr">[6]</xref>, <xref rid="pone.0000003-Koufopanou1" ref-type="bibr">[7]</xref>. There are other reports of horizontal transfer events among metazoans, notably in insects because of the dynamics of other types of selfish element (e.g., TEs and P-elements in <italic>Drosophila</italic>
+<xref rid="pone.0000003-Loreto1" ref-type="bibr">[22]</xref>, <xref rid="pone.0000003-Lampe1" ref-type="bibr">[23]</xref>). There are also reports of large mitochondrial horizontal transfer events and intron invasions of plants <xref rid="pone.0000003-Bergthorsson1" ref-type="bibr">[8]</xref>, <xref rid="pone.0000003-Bergthorsson2" ref-type="bibr">[24]</xref>. Our conclusions are therefore not only consistent with other data concerning this HEG <xref rid="pone.0000003-Medina1" ref-type="bibr">[14]</xref>, but also with the idea that horizontal transfer and intron invasion occurs among multicellular organisms. These data suggest that, surprisingly, horizontal transfer rates on the order of once every 100 MY may be frequent enough to allow the invasion, cycling and persistence of HEGs within the Cnidaria.</p><p>Once transferred, the <italic>COXI</italic> HEG must home in order to restore purifying selection, and this requires that the mitochondria of the recipients must, at least on occasion, mix. The mitochondria of both mating types of the algae <italic>Chlamydomonas</italic> co-exist briefly after zygote formation before one is degraded, and this provides enough opportunity for an HEG to home <xref rid="pone.0000003-Nishimura1" ref-type="bibr">[25]</xref> and therefore presumably invade a species where uni-parental mitochondrial inheritance seems the norm. Although we know of no direct evidence from sea anemones, mitochondrial leakage has been observed in a wide variety of animal species and may provide a window of opportunity for HEG homing <xref rid="pone.0000003-Rokas1" ref-type="bibr">[26]</xref>.</p><p>Based on the distribution of this HEG (see <xref ref-type="fig" rid="pone-0000003-g001">figure 1</xref>), one has to infer that either the ancestor of the Cnidaria harboured an HEG, and that it has been lost a number of times, yet retained for some reason in the Hexacorallia, or else infer that the HEG was gained from some other lineage. Dalgaard et al <xref rid="pone.0000003-Dalgaard1" ref-type="bibr">[9]</xref> have reconstructed the relationships between over 130 HEGs, and the most closely related HEG to that in <italic>M. senile</italic> (apart from the sequences reported here) is found in <italic>Neurospora crassa</italic>. A seemingly strange best estimate would be that sea anemones received this HEG from fungi. However, this suggestion directly parallels data from angiosperms, which also appear to have gained a mitochondrial <italic>COXI</italic> HEG from fungi <xref rid="pone.0000003-Bergthorsson1" ref-type="bibr">[8]</xref>, <xref rid="pone.0000003-Bergthorsson2" ref-type="bibr">[24]</xref> which then rapidly invaded the angiosperms via homing and horizontal transfer events.</p><p>The HEG survey results suggest that it is at or near fixation within <italic>M. senile</italic>. The lack of sequence divergence may imply a recent invasion and sweep within this species. However, it must be pointed out that the mitochondria of anthozoans are extraordinarily stable <xref rid="pone.0000003-Shearer1" ref-type="bibr">[27]</xref>, with rates of evolution around only 0.03&#x00025; per MY <xref rid="pone.0000003-Fukami1" ref-type="bibr">[28]</xref>. Moreover, the <italic>COXI</italic> genes of Anthozoans have extremely low levels of divergence <xref rid="pone.0000003-France1" ref-type="bibr">[29]</xref>, and one explanation for this highlights the discovery of a homologue to a mismatch repair gene <xref rid="pone.0000003-PontKingdom1" ref-type="bibr">[30]</xref>.</p><p>Overall these data suggest that the HEG within the mitochondria of the Actinaria behaves in a similar evolutionary manner to HEGs in a variety of other organisms <xref rid="pone.0000003-Burt1" ref-type="bibr">[1]</xref>, <xref rid="pone.0000003-Haugen1" ref-type="bibr">[3]</xref>, and conforms to the recurrent invasion model <xref rid="pone.0000003-Goddard2" ref-type="bibr">[6]</xref>. The low rates of horizontal transfer among metazoans will likely ensure that HEGs degenerate long before an opportunity to &#x02018;escape&#x02019; arises, and mean that major clade-wide invasion is prevented. It might be that HEGs were able to invade anthozoan mitochondria only because of their extremely slow rates of substitution: this greatly extends the time to HEG degeneration, and damps down the periodicity of the HEG recurrent invasion cycle. It is only under these sluggish conditions that very rare horizontal transfer events are sufficient for long term HEG persistence and invasion. In general it seems that there need be a minimum lower bound on the rate of horizontal transfer, and frequency of homing opportunities, which enable HEGs to invade and persist in any clade. The likelihood of these events appears greater in simpler single celled organisms, but it also seems that whist the opportunities for homing and horizontal transfer are less in higher organisms, this does not necessarily put them out of HEGs reach. It is possible that HEGs were only able to invade sea anemones because of the slow evolutionary rate of their mitochondrial DNA <xref rid="pone.0000003-Shearer1" ref-type="bibr">[27]</xref>, <xref rid="pone.0000003-Fukami1" ref-type="bibr">[28]</xref>. The extent to which HEGs have not invaded other metazoans may either be a lack of opportunity, or that most metazoans have faster substitution rates, which mean the more rapid degeneration of HEGs.</p></sec><sec id="s4"><title>Materials and Methods</title><sec id="s4a"><title>Sample collection</title><p>Twenty-nine different species of Cnidaria were sampled (see <xref ref-type="supplementary-material" rid="pone.0000003.s002">Table S1</xref>); these spanned the Anthozoa and Hydrozoa, but as a result of the tentative distribution of introns reported by Beagley et al <xref rid="pone.0000003-Beagley1" ref-type="bibr">[11]</xref> we mainly concentrated within the Anthozoa:Actinaria (true sea anemones). Samples were predominantly from the south coast of the UK but also included tropical examples. To investigate the within-species variation of HEGs we focused on <italic>Metridium senile</italic>. Ninety-five individuals from four different marinas on the south coast of the UK were sampled (see <xref ref-type="supplementary-material" rid="pone.0000003.s001">Supporting Material 1</xref> for details).</p></sec><sec id="s4b"><title>Molecular methods</title><p>When necessary DNA was isolated from tissues using the method described by Pinto et al <xref rid="pone.0000003-Pinto1" ref-type="bibr">[31]</xref>. HEG presence and absence was scored by amplification with the PCR primers described in Beagley et al <xref rid="pone.0000003-Beagley1" ref-type="bibr">[11]</xref>; these were designed such that the size of the product indicated the HEG status of each sample. The three 5&#x02032; most regions of the nuclear 18S and the ITS1-5.8S-ITS2 region were also amplified for each taxon using the primers described by White et al <xref rid="pone.0000003-White1" ref-type="bibr">[32]</xref>. PCR products were directly sequenced and analysed with an ABI 3700 instrument. Complete and partial two-way sequences of the <italic>COXI</italic> intron were obtained for 14 of the intron containing taxa. Fifty-one one way <italic>COXI</italic> intron sequence were obtained from the 95 <italic>Metridium senile</italic> samples. Partial 18S sequence was obtained for all taxa but replaced with the more complete genbank 18S sequences AJ133552, AF254377, AJ877002, U19553, AY372249, AF052892 and AF052889 for <italic>Actinia equina, Edwardsia gilbertensis, Lophelia pertusa, Tubularia indivisa, Sinularia sp, Palythoa variabilis</italic> and <italic>Metridium senile</italic> respectively.</p></sec><sec id="s4c"><title>Analyses</title><p>After manual inspection and editing where necessary, sequences were aligned using ClustalX <xref rid="pone.0000003-Thompson1" ref-type="bibr">[33]</xref>; the intron alignment was conducted by taking into account secondary structure following Goddard and Burt <xref rid="pone.0000003-Goddard2" ref-type="bibr">[6]</xref>. The resulting alignments were inspected and ambiguous areas were removed before phylogenetic analyses. The 18S data alone were insufficient to resolve some shallower nodes; we therefore added 5.8S and ITS data for these taxa since there was no conflict between data partitions. PAUP&#x0002a; (v 4.0b10) <xref rid="pone.0000003-Swofford1" ref-type="bibr">[34]</xref> and MrBayes (3.1.2) <xref rid="pone.0000003-Ronquist1" ref-type="bibr">[35]</xref> for Windows were used for phylogenetic reconstruction. The appropriate likelihood models were selected using MrModeltest (v2.2) <xref rid="pone.0000003-Nylander2" ref-type="bibr">[36]</xref>, and are shown in <xref ref-type="supplementary-material" rid="pone.0000003.s001">Supporting Material 1</xref>. Bayesian, likelihood and parsimony methods were used to analyse the host and HEG data sets. The loss test was conducted by constructing randomised intron assignments with Mathematica (v5.2) <xref rid="pone.0000003-Wolfram1" ref-type="bibr">[37]</xref> and then using PAUP&#x0002a; to score the number of losses. Multistate (v0.8) <xref rid="pone.0000003-Pagel1" ref-type="bibr">[20]</xref> was used to estimate the most likely transition rates for HEG gain and loss across the host phylogeny.</p></sec><sec id="s4d"><title>Phylogenetic congruence tests</title><p>To assess congruence between data partitions three methods were used. First, as a heuristic test, reciprocal Shimodaira-Hasegawa (SH) tests <xref rid="pone.0000003-Shimodaira1" ref-type="bibr">[15]</xref>, as implemented in PAUP&#x0002a;, were used to test whether optimal trees from different partitions were incongruent. Congruence was more rigorously tested using a Bayesian model selection framework (Bayes factors) <xref rid="pone.0000003-Nylander1" ref-type="bibr">[16]</xref> and lastly, a modified version of the likelihood ratio test proposed by Huelsenbeck and Bull <xref rid="pone.0000003-Huelsenbeck1" ref-type="bibr">[18]</xref> (Leigh, Susko and Roger, unpublished) was employed.</p><p>The Bayes factor model selection was carried out with MrBayes as follows. Two models were tested. Under the &#x02018;one tree&#x02019; model, the two data partitions were constrained to shared a single topology; however, the model parameters and branch-lengths were unlinked across the partitions for the Metropolis-coupled Markov chain Monte Carlo (MCMCMC) analysis. The &#x02018;two tree&#x02019; model was identical to the &#x02018;one tree&#x02019; model, except the tree topology was also unlinked, allowing tree-space to be separately explored for each data partition. The harmonic mean likelihood from the Metropolis-coupled Markov chain Monte Carlo (MCMCMC) iterations (after burnin was discarded) was used as an approximation to the marginal log-likelihood of the data <xref rid="pone.0000003-Nylander1" ref-type="bibr">[16]</xref>. For both the &#x02018;one-tree&#x02019; and &#x02018;two tree&#x02019; analyses, four independent runs from random starting trees were completed: two with one million MCMCMC iterations and two with two million MCMCMC iterations. Inspection of log-likelihood plots indicated that stationarity was achieved &#x0003c;50,000 iterations, and a conservative burnin of 150,000 iterations was discarded. Convergence was further assessed by monitoring the standard deviation in split frequencies between MCMCMC runs from different random starting trees. In all cases, at the end of the runs these standard errors were &#x0003c;0.01. Log-Bayes factors were computed by taking the differences in the harmonic mean log-likelihoods averaged over all four runs between the &#x02018;two tree&#x02019; model and the &#x02018;one tree&#x02019; model.</p><p>For the likelihood ratio test, the log-likelihood of two data sets (e.g. A and B) is maximized under the null hypothesis where A and B share a single tree (<italic>T<sub>AB</sub></italic>) but each gene is allowed to have its own model and branch-length parameters (&#x003b8;<sub>A</sub> and &#x003b8;<sub>B</sub>). The log-likelihood of this hypothesis is given by:<disp-formula><graphic xlink:href="pone.0000003.e001.jpg" mimetype="image" position="float"/></disp-formula>Under the alternative hypothesis each data set is allowed to have a separate tree (<italic>T<sub>A</sub></italic> and <italic>T<sub>B</sub></italic>) and its own model and branch-length parameters with maximum log-likelihood given by:<disp-formula><graphic xlink:href="pone.0000003.e002.jpg" mimetype="image" position="float"/></disp-formula>The log-likelihood ratio statistic (&#x003b4;) is then defined as:<disp-formula><graphic xlink:href="pone.0000003.e003.jpg" mimetype="image" position="float"/></disp-formula>A null distribution for this statistic is generated by evaluating &#x003b4; for 1000 non-parametric bootstrap resampled data sets, 50&#x00025; of which are drawn entirely from data set A and 50&#x00025; from dataset B. This procedure was accomplished with a software tool, <sc>CONCATERPILLAR</sc> (Leigh, Susko and Roger, unpublished) that calculates trees and likelihoods under the General Time Reversible plus invariable sites plus gamma model (GTR&#x0002b;I&#x0002b;&#x00393; with the programs PHYML <xref rid="pone.0000003-Guindon1" ref-type="bibr">[38]</xref> and TREE-PUZZLE version 5.2 <xref rid="pone.0000003-Schmidt1" ref-type="bibr">[39]</xref>).</p></sec></sec><sec sec-type="supplementary-material" id="s6"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pone.0000003.s001"><label>Supporting Material 1</label><caption><p>Details concerning the intra-specific sampling of <italic>Metridium senile</italic> and information concerning the models used in phylogenetic reconstruction, which were derived using Mr Model Test</p><p>(0.03 MB DOC)</p></caption><media xlink:href="pone.0000003.s001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000003.s002"><label>Table S1</label><caption><p>
+<xref ref-type="supplementary-material" rid="pone.0000003.s002">Table S1</xref> shows the taxonomy, sampling location and personnel involved in the collection and identification of samples. The taxonomic hierarchy is mainly based on Fautin, Daphne G. 2005. Hexacorallians of the World. http://hercules.kgs.ku.edu/hexacoral/anemone2/index.cfm. &#x02018;-&#x02019; indicates that this taxonomical level is not in common use in this taxa. Collection locations: &#x02018;MBA tanks&#x02019; - sea water tanks of the Marine Biological Association of the UK, Plymouth; species may have recruited naturally from the circulating sea water system or been brought in from local shores by staff; &#x02018;MBA standard haul&#x02019; is an offshore benthic trawl as described in Genner, M.J. et al Proc. R. Soc. Lond. B (2004) 271, 655-661; &#x02018;Pet store&#x02019; - sample purchased from commercial pet store therefore original collection location is unknown. Personnel: &#x02018;JB&#x02019; - John Bishop, MBA; &#x02018;MD&#x02019; - Marymegan Daly, U. of Kansas, USA; &#x02018;JD&#x02019; - Jo Davy, MBA; &#x02018;SD&#x02019; - Simon Davy, MBA; &#x02018;MD&#x02019; - Marie Le Goff, Southampton Oceanography Centre, UK; &#x02018;KH&#x02019; - Keith Hiscock, MBA; and &#x02018;KN&#x02019; - Ken Neal, MBA. All other collections and/or identification by Andrew Pemberton (AP) <italic>Aglaophenia kirchenpaueri</italic> - this species is known to occur at this location; however, the specimen was collected outside the reproductive season so lacked the gonads required for certain identification to species level.</p><p>(0.01 MB PDF)</p></caption><media xlink:href="pone.0000003.s002.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We thank John Bishop, Marymegan Daly, Jo Davy, Simon Davy, Marie Le Goff, Keith Hiscock and Ken Neal for providing samples and helping with identification. We thank Callum Brandon for technical assistance and David Bryant for discussions regarding phylogenetic congruence testing.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>The contributions of JL and AJR were supported by an operating grant (MOP-62809) from the Canadian Institutes for Health Research. This work was funded by the UK Natural Environment Research Council and a University of Auckland Research grant (3606223) to MG.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000003-Burt1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Burt</surname><given-names>A</given-names></name><name><surname>Koufopanou</surname><given-names>V</given-names></name></person-group>
+<year>2004</year>
+<article-title>Homing endonuclease genes: the rise and fall and rise again of a selfish genetic element.</article-title>
+<source>Current Opinion in Genetics and Development</source>
+<volume>14</volume>
+<fpage>609</fpage>
+<lpage>615</lpage>
+<pub-id pub-id-type="pmid">15531154</pub-id></element-citation></ref><ref id="pone.0000003-Goddard1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goddard</surname><given-names>MR</given-names></name><name><surname>Greig</surname><given-names>D</given-names></name><name><surname>Burt</surname><given-names>A</given-names></name></person-group>
+<year>2001</year>
+<article-title>Outcrossed sex allows a selfish gene to invade yeast populations.</article-title>
+<source>Proceedings of the Royal Society of London Series B, Containing papers of a Biological character:</source>
+<volume>268</volume>
+<fpage>2537</fpage>
+<lpage>2542</lpage>
+</element-citation></ref><ref id="pone.0000003-Haugen1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haugen</surname><given-names>P</given-names></name><name><surname>Simon</surname><given-names>DM</given-names></name><name><surname>Bhattacharya</surname><given-names>D</given-names></name></person-group>
+<year>2005</year>
+<article-title>The natural history of group I introns.</article-title>
+<source>Trends in Genetics</source>
+<volume>21</volume>
+<fpage>111</fpage>
+<lpage>119</lpage>
+<pub-id pub-id-type="pmid">15661357</pub-id></element-citation></ref><ref id="pone.0000003-Chevalier1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chevalier</surname><given-names>BS</given-names></name><name><surname>Stoddard</surname><given-names>BL</given-names></name></person-group>
+<year>2001</year>
+<article-title>Homing endonucleases: structural and functional insights into the catalysts of intron/intein mobility.</article-title>
+<source>Nucleic Acids Research</source>
+<volume>29</volume>
+<fpage>3757</fpage>
+<lpage>3774</lpage>
+<pub-id pub-id-type="pmid">11557808</pub-id></element-citation></ref><ref id="pone.0000003-Belfort1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Belfort</surname><given-names>M</given-names></name><name><surname>Roberts</surname><given-names>RJ</given-names></name></person-group>
+<year>1997</year>
+<article-title>Homing endouncleases: keeping the house in order.</article-title>
+<source>Nucleic Acids Research</source>
+<volume>25</volume>
+<fpage>3379</fpage>
+<lpage>3388</lpage>
+<pub-id pub-id-type="pmid">9254693</pub-id></element-citation></ref><ref id="pone.0000003-Goddard2"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goddard</surname><given-names>MR</given-names></name><name><surname>Burt</surname><given-names>A</given-names></name></person-group>
+<year>1999</year>
+<article-title>Recurrent invasion and extinction of a selfish gene.</article-title>
+<source>Proceedings of the National Academy of Sciences: USA</source>
+<volume>96</volume>
+<fpage>13880</fpage>
+<lpage>13885</lpage>
+</element-citation></ref><ref id="pone.0000003-Koufopanou1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Koufopanou</surname><given-names>V</given-names></name><name><surname>Goddard</surname><given-names>MR</given-names></name><name><surname>Burt</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>Adaptation for horizontal transfer in a homing endonuclease.</article-title>
+<source>Molecular Biology and Evolution</source>
+<volume>19</volume>
+<fpage>239</fpage>
+<lpage>246</lpage>
+<pub-id pub-id-type="pmid">11861883</pub-id></element-citation></ref><ref id="pone.0000003-Bergthorsson1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bergthorsson</surname><given-names>U</given-names></name><name><surname>Adams</surname><given-names>K</given-names></name><name><surname>Thomason</surname><given-names>B</given-names></name><name><surname>Palmer</surname><given-names>J</given-names></name></person-group>
+<year>2003</year>
+<article-title>Widespread horizontal transfer of mitochondrial genes in flowering plants.</article-title>
+<source>Nature</source>
+<volume>424</volume>
+<fpage>197</fpage>
+<lpage>201</lpage>
+<pub-id pub-id-type="pmid">12853958</pub-id></element-citation></ref><ref id="pone.0000003-Dalgaard1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dalgaard</surname><given-names>JZ</given-names></name><name><surname>Klar</surname><given-names>AJ</given-names></name><name><surname>Moser</surname><given-names>MJ</given-names></name><name><surname>Holley</surname><given-names>WR</given-names></name><name><surname>Chatterjee</surname><given-names>A</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Statistical modelling and analysis of the LAGLIDADG family of site-specific endonuclease of the HNH family.</article-title>
+<source>Nucleic Acids Research</source>
+<volume>25</volume>
+<fpage>4626</fpage>
+<lpage>4638</lpage>
+<pub-id pub-id-type="pmid">9358175</pub-id></element-citation></ref><ref id="pone.0000003-Haugen2"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haugen</surname><given-names>P</given-names></name><name><surname>Reeb</surname><given-names>V</given-names></name><name><surname>Lutzoni</surname><given-names>F</given-names></name><name><surname>Bhattacharya</surname><given-names>D</given-names></name></person-group>
+<year>2004</year>
+<article-title>The evolution of homing endonuclease genes and group I introns in nuclear rDNA.</article-title>
+<source>Molecular Biology and Evolution</source>
+<volume>21</volume>
+<fpage>129</fpage>
+<lpage>140</lpage>
+<pub-id pub-id-type="pmid">14595099</pub-id></element-citation></ref><ref id="pone.0000003-Beagley1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beagley</surname><given-names>CT</given-names></name><name><surname>Okada</surname><given-names>NA</given-names></name><name><surname>Wolstenholme</surname><given-names>DR</given-names></name></person-group>
+<year>1996</year>
+<article-title>Two mitochondrial group I introns in a metazoan, the sea anemone <italic>Metridium senile</italic>: One intron contains genes for subunits 1 and 3 of NADH dehydrogenase.</article-title>
+<source>Proceedings of the National Academy of Sciences: USA</source>
+<volume>93</volume>
+<fpage>5619</fpage>
+<lpage>5623</lpage>
+</element-citation></ref><ref id="pone.0000003-Berntson1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Berntson</surname><given-names>EA</given-names></name><name><surname>France</surname><given-names>SC</given-names></name><name><surname>Mullineaux</surname><given-names>LS</given-names></name></person-group>
+<year>1999</year>
+<article-title>Phylogenetic relationships within the class anthozoa (Phylum Cnidaria) based in nuclear 18S rDNA sequences.</article-title>
+<source>Molecular Phylogenetics and Evolution</source>
+<volume>13</volume>
+<fpage>417</fpage>
+<lpage>433</lpage>
+<pub-id pub-id-type="pmid">10603268</pub-id></element-citation></ref><ref id="pone.0000003-Won1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Won</surname><given-names>JH</given-names></name><name><surname>Rho</surname><given-names>BJ</given-names></name><name><surname>Song</surname><given-names>JI</given-names></name></person-group>
+<year>2001</year>
+<article-title>A phylogenetic study of the Anthozoa (phylum Cnidaria) based on morphological and molecular characters.</article-title>
+<source>Coral Reefs</source>
+<volume>20</volume>
+<fpage>39</fpage>
+<lpage>50</lpage>
+</element-citation></ref><ref id="pone.0000003-Medina1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Medina</surname><given-names>M</given-names></name><name><surname>Collins</surname><given-names>AG</given-names></name><name><surname>Takaoka</surname><given-names>TL</given-names></name><name><surname>Kuehl</surname><given-names>JV</given-names></name><name><surname>Boore</surname><given-names>JL</given-names></name></person-group>
+<year>2006</year>
+<article-title>Naked corals: skeleton loss in Scleratinia.</article-title>
+<source>Proceedings of the National Academy of Sciences: USA</source>
+<volume>103</volume>
+<fpage>9096</fpage>
+<lpage>9100</lpage>
+</element-citation></ref><ref id="pone.0000003-Shimodaira1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shimodaira</surname><given-names>H</given-names></name><name><surname>Hasegawa</surname><given-names>M</given-names></name></person-group>
+<year>1999</year>
+<article-title>Multiple comparisons of log-likelihood with applications to phylogenetics inference.</article-title>
+<source>Molecular Biology and Evolution</source>
+<volume>16</volume>
+<fpage>1114</fpage>
+<lpage>1116</lpage>
+</element-citation></ref><ref id="pone.0000003-Nylander1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nylander</surname><given-names>JAA</given-names></name><name><surname>Ronquist</surname><given-names>F</given-names></name><name><surname>Huelsenbeck</surname><given-names>JP</given-names></name><name><surname>Nieves-Aldrey</surname><given-names>JL</given-names></name></person-group>
+<year>2004</year>
+<article-title>Bayesian phylogenetic analysis of combined data.</article-title>
+<source>Systematic Biology</source>
+<volume>53</volume>
+<fpage>47</fpage>
+<lpage>67</lpage>
+<pub-id pub-id-type="pmid">14965900</pub-id></element-citation></ref><ref id="pone.0000003-Lartillot1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lartillot</surname><given-names>N</given-names></name><name><surname>Philippe</surname><given-names>H</given-names></name></person-group>
+<year>2006</year>
+<article-title>Computing Bayes Factors using thermodynamic integration.</article-title>
+<source>Systematic Biology</source>
+<volume>55</volume>
+<fpage>195</fpage>
+<lpage>207</lpage>
+<pub-id pub-id-type="pmid">16522570</pub-id></element-citation></ref><ref id="pone.0000003-Huelsenbeck1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huelsenbeck</surname><given-names>JP</given-names></name><name><surname>Bull</surname><given-names>JJ</given-names></name></person-group>
+<year>1996</year>
+<article-title>A likelihood ratio test to detect conflicting phylogenetic signal.</article-title>
+<source>Systematic Biology</source>
+<volume>45</volume>
+<fpage>92</fpage>
+<lpage>98</lpage>
+</element-citation></ref><ref id="pone.0000003-Waggoner1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Waggoner</surname><given-names>B</given-names></name><name><surname>Collins</surname><given-names>AG</given-names></name></person-group>
+<year>2004</year>
+<article-title>Reductio ad absurdum: testing the evolutionary relationships of Ediacaran and Paleozoic problematic fossils using molecular divergence dates.</article-title>
+<source>Journal of Palaeontology</source>
+<volume>78</volume>
+<fpage>51</fpage>
+<lpage>61</lpage>
+</element-citation></ref><ref id="pone.0000003-Pagel1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pagel</surname><given-names>M</given-names></name></person-group>
+<year>1999</year>
+<article-title>Inferring the historical patterns of biological evolution.</article-title>
+<source>Nature</source>
+<volume>401</volume>
+<fpage>877</fpage>
+<lpage>884</lpage>
+<pub-id pub-id-type="pmid">10553904</pub-id></element-citation></ref><ref id="pone.0000003-Page1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Page</surname><given-names>RDM</given-names></name><name><surname>Charleston</surname><given-names>MA</given-names></name></person-group>
+<year>1998</year>
+<article-title>Trees within trees: phylogeny and historical associations.</article-title>
+<source>Trends in Ecology and Evolution</source>
+<volume>13</volume>
+<fpage>356</fpage>
+<lpage>359</lpage>
+<pub-id pub-id-type="pmid">21238340</pub-id></element-citation></ref><ref id="pone.0000003-Loreto1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Loreto</surname><given-names>E</given-names></name><name><surname>Valente</surname><given-names>V</given-names></name><name><surname>Zaha</surname><given-names>A</given-names></name><name><surname>Silva</surname><given-names>J</given-names></name><name><surname>Kidwell</surname><given-names>M</given-names></name></person-group>
+<year>2001</year>
+<article-title>Drosophila mediopunctata P elements: A new example of horizontal transfer.</article-title>
+<source>Journal of Heredity</source>
+<volume>92</volume>
+<fpage>375</fpage>
+<lpage>381</lpage>
+<pub-id pub-id-type="pmid">11773243</pub-id></element-citation></ref><ref id="pone.0000003-Lampe1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lampe</surname><given-names>D</given-names></name><name><surname>Witherspoon</surname><given-names>D</given-names></name><name><surname>Soto-Adames</surname><given-names>F</given-names></name><name><surname>Robertson</surname><given-names>H</given-names></name></person-group>
+<year>2003</year>
+<article-title>Recent horizontal transfer of mellifera subfamily Mariner transposons into insect lineages representing four different orders shows that selection acts only during horizontal transfer.</article-title>
+<source>Molecular Biology and Evolution</source>
+<volume>20</volume>
+<fpage>554</fpage>
+<lpage>562</lpage>
+<pub-id pub-id-type="pmid">12654937</pub-id></element-citation></ref><ref id="pone.0000003-Bergthorsson2"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bergthorsson</surname><given-names>U</given-names></name><name><surname>Richardson</surname><given-names>A</given-names></name><name><surname>Young</surname><given-names>G</given-names></name><name><surname>Goertzen</surname><given-names>L</given-names></name><name><surname>Palmer</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>Massive horizontal transfer of mitochondrial genes from diverse land plant donors to the basal angiosperm Amborella.</article-title>
+<source>Proceedings of the National Academy of Sciences: USA</source>
+<volume>101</volume>
+<fpage>17747</fpage>
+<lpage>17752</lpage>
+</element-citation></ref><ref id="pone.0000003-Nishimura1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nishimura</surname><given-names>Y</given-names></name><name><surname>Misumi</surname><given-names>O</given-names></name><name><surname>Kato</surname><given-names>K</given-names></name><name><surname>Inada</surname><given-names>N</given-names></name><name><surname>Higashiyama</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>An mt<sup>&#x0002b;</sup> gamete-specific nuclease that targets mt<sup>&#x02212;</sup> chloroplasts during sexual reproduction in <italic>C. reinhardtii</italic>.</article-title>
+<source>Genes and Development</source>
+<volume>16</volume>
+<fpage>1116</fpage>
+<lpage>1128</lpage>
+<pub-id pub-id-type="pmid">12000794</pub-id></element-citation></ref><ref id="pone.0000003-Rokas1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rokas</surname><given-names>A</given-names></name><name><surname>Ladoukakis</surname><given-names>ED</given-names></name><name><surname>Zouros</surname><given-names>E</given-names></name></person-group>
+<year>2003</year>
+<article-title>Animal mitochondrial DNA recombination revisited.</article-title>
+<source>Trends in Ecology and Evolution</source>
+<volume>18</volume>
+<fpage>411</fpage>
+<lpage>417</lpage>
+</element-citation></ref><ref id="pone.0000003-Shearer1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shearer</surname><given-names>TL</given-names></name><name><surname>Oppen</surname><given-names>MJHV</given-names></name><name><surname>Romano</surname><given-names>SL</given-names></name><name><surname>Worheide</surname><given-names>G</given-names></name></person-group>
+<year>2002</year>
+<article-title>Slow mitochindrial DNA sequence evolution in the Anthozoa (Cnidaria).</article-title>
+<source>Molecular Ecology</source>
+<volume>11</volume>
+<fpage>2475</fpage>
+<lpage>2487</lpage>
+<pub-id pub-id-type="pmid">12453233</pub-id></element-citation></ref><ref id="pone.0000003-Fukami1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fukami</surname><given-names>H</given-names></name><name><surname>Knowlton</surname><given-names>N</given-names></name></person-group>
+<year>2005</year>
+<article-title>Analysis of complete mitochondrial DNA sequences of three members of the <italic>Montastraea annularis</italic> coral species complex (Cnidaria, Anthozoa, Scleratinia).</article-title>
+<source>Coral Reefs</source>
+<volume>24</volume>
+<fpage>410</fpage>
+<lpage>417</lpage>
+</element-citation></ref><ref id="pone.0000003-France1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>France</surname><given-names>SC</given-names></name><name><surname>Hoover</surname><given-names>LL</given-names></name></person-group>
+<year>2002</year>
+<article-title>DNA sequence of the mitochondrial <italic>COXI</italic> gene have low levels of divergence among deep-sea octocorals (Cnidaria: Anthozoa).</article-title>
+<source>Hydrobiologia</source>
+<volume>471</volume>
+<fpage>149</fpage>
+<lpage>155</lpage>
+</element-citation></ref><ref id="pone.0000003-PontKingdom1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pont-Kingdom</surname><given-names>G</given-names></name><name><surname>Okada</surname><given-names>NA</given-names></name><name><surname>Macfarlane</surname><given-names>JL</given-names></name><name><surname>Beagley</surname><given-names>CT</given-names></name><name><surname>Watkins-Sims</surname><given-names>CD</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Mitochondrial DNA of the coral <italic>Sarcophyton glaucum</italic> contains a gene for a homologue of bacterial MutS: a possible case of gene transfer from the nucleus to the mitochondria.</article-title>
+<source>Journal of Molecular Evolution</source>
+<volume>46</volume>
+<fpage>419</fpage>
+<lpage>431</lpage>
+</element-citation></ref><ref id="pone.0000003-Pinto1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pinto</surname><given-names>SM</given-names></name><name><surname>Fernades-Matioli</surname><given-names>FMC</given-names></name><name><surname>Schlenz</surname><given-names>E</given-names></name></person-group>
+<year>2000</year>
+<article-title>DNA extraction from the sea anemone (Cnidarina: Actinaria) tissues for molecular analyses.</article-title>
+<source>Genetics and Molecular Biology</source>
+<volume>23</volume>
+<fpage>601</fpage>
+<lpage>604</lpage>
+</element-citation></ref><ref id="pone.0000003-White1"><label>32</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>White</surname><given-names>TJ</given-names></name><name><surname>Bruns</surname><given-names>T</given-names></name><name><surname>Lee</surname><given-names>S</given-names></name><name><surname>Taylor</surname><given-names>J</given-names></name></person-group>
+<year>1990</year>
+<article-title>Amplification and direct sequencing of fungal ribosomal RNA genes for phylogenetics.</article-title>
+<person-group person-group-type="editor"><name><surname>Innes</surname><given-names>MA</given-names></name><name><surname>Gelfand</surname><given-names>DH</given-names></name><name><surname>Sninsky</surname><given-names>TT</given-names></name><name><surname>White</surname><given-names>TJ</given-names></name></person-group>
+<source>PCR Protocols: a guide to methods and applications.</source>
+<publisher-loc>San Diego</publisher-loc>
+<publisher-name>Academic Press</publisher-name>
+<fpage>315</fpage>
+<lpage>322</lpage>
+</element-citation></ref><ref id="pone.0000003-Thompson1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thompson</surname><given-names>JD</given-names></name><name><surname>Gibson</surname><given-names>TJ</given-names></name><name><surname>Plewniak</surname><given-names>F</given-names></name><name><surname>Jeanmougin</surname><given-names>F</given-names></name><name><surname>Higgins</surname><given-names>DG</given-names></name></person-group>
+<year>1997</year>
+<article-title>The ClustalX windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools.</article-title>
+<source>Nucleic Acids Research</source>
+<volume>25</volume>
+<fpage>4876</fpage>
+<lpage>4882</lpage>
+<pub-id pub-id-type="pmid">9396791</pub-id></element-citation></ref><ref id="pone.0000003-Swofford1"><label>34</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Swofford</surname><given-names>DL</given-names></name></person-group>
+<year>2002</year>
+<article-title>PAUP&#x0002a;.</article-title>
+<source>Phylogenetic analysis using parsimony (&#x0002a;and other methods).</source>
+<publisher-loc>Sunderland, Massachsettes</publisher-loc>
+<publisher-name>Sinauer Associates</publisher-name>
+</element-citation></ref><ref id="pone.0000003-Ronquist1"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ronquist</surname><given-names>F</given-names></name><name><surname>Huelsenbeck</surname><given-names>JP</given-names></name></person-group>
+<year>2003</year>
+<article-title>MrBayes 3: Bayesian phylogenetic inference under mixed models.</article-title>
+<source>Bioinformatics</source>
+<volume>19</volume>
+<fpage>1572</fpage>
+<lpage>1574</lpage>
+<pub-id pub-id-type="pmid">12912839</pub-id></element-citation></ref><ref id="pone.0000003-Nylander2"><label>36</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Nylander</surname><given-names>JAA</given-names></name></person-group>
+<year>2004</year>
+<source>MrModeltest v2.</source>
+<comment>Uppsala University: Evolutionary Biology Centre. pp. Program distributed by the author</comment>
+</element-citation></ref><ref id="pone.0000003-Wolfram1"><label>37</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Wolfram</surname><given-names>S</given-names></name></person-group>
+<year>1996</year>
+<source>Mathematica.</source>
+<comment>5.0 ed</comment>
+<publisher-loc>Champaign</publisher-loc>
+<publisher-name>Wolfram Media</publisher-name>
+</element-citation></ref><ref id="pone.0000003-Guindon1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guindon</surname><given-names>S</given-names></name><name><surname>Gascuel</surname><given-names>O</given-names></name></person-group>
+<year>2003</year>
+<article-title>A simple, fast and accurate algorithm to estimate large phylogenies by maximum likelihood.</article-title>
+<source>Systematic Biology</source>
+<volume>52</volume>
+<fpage>696</fpage>
+<lpage>704</lpage>
+<pub-id pub-id-type="pmid">14530136</pub-id></element-citation></ref><ref id="pone.0000003-Schmidt1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schmidt</surname><given-names>HA</given-names></name><name><surname>Strimmer</surname><given-names>K</given-names></name><name><surname>Vingron</surname><given-names>M</given-names></name><name><surname>von Haeseler</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>TREE-PUZZLE: maximum likelihood phylogenetic analysis using quartets and parallel computing.</article-title>
+<source>Bioinformatics</source>
+<volume>18</volume>
+<fpage>502</fpage>
+<lpage>504</lpage>
+<pub-id pub-id-type="pmid">11934758</pub-id></element-citation></ref></ref-list></back></article>

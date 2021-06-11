@@ -1,0 +1,590 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183631</article-id><article-id pub-id-type="pmc">1762328</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00029</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000001</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Immunology/Immunomodulation</subject><subject>Immunology/Innate Immunity</subject><subject>Neuroscience/Behavioral Neuroscience</subject><subject>Neuroscience/Neural Homeostasis</subject><subject>Neuroscience/Sensory Systems</subject><subject>Physiology/Immunity to Infections</subject><subject>Physiology/Integrative Physiology</subject><subject>Physiology/Neural Homeostasis</subject><subject>Critical Care and Emergency Medicine/Sepsis and Multiple Organ Failure</subject><subject>Infectious Diseases/Bacterial Infections</subject><subject>Neurological Disorders/Neuropharmacology</subject></subj-group></article-categories><title-group><article-title>Neural Substrate of Cold-Seeking Behavior in Endotoxin Shock</article-title><alt-title alt-title-type="running-head">Neural Basis of Cold Seeking</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Almeida</surname><given-names>Maria C</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Steiner</surname><given-names>Alexandre A</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Branco</surname><given-names>Luiz G S</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Romanovsky</surname><given-names>Andrej A</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution>Systemic Inflammation Laboratory, Trauma Research, St. Joseph's Hospital and Medical Center</institution>
+<addr-line>Phoenix, Arizona, United States of America</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>Medical School of Ribeir&#x000e3;o Preto, University of S&#x000e3;o Paulo</institution>
+<addr-line>Ribeir&#x000e3;o Preto, S&#x000e3;o Paulo, Brazil</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<institution>Dental School of Ribeir&#x000e3;o Preto, University of S&#x000e3;o Paulo</institution>
+<addr-line>Ribeir&#x000e3;o Preto, S&#x000e3;o Paulo, Brazil</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Aballay</surname><given-names>Alejandro</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Duke University Medical Center, United States of America</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>aromano@chw.edu</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: AR AS MA LB. Performed the experiments: MA. Analyzed the data: AR AS MA LB. Wrote the paper: AR MA</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e1</elocation-id><history><date date-type="received"><day>8</day><month>8</month><year>2006</year></date><date date-type="accepted"><day>16</day><month>8</month><year>2006</year></date></history><permissions><copyright-statement>Almeida et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Systemic inflammation is a leading cause of hospital death. Mild systemic inflammation is accompanied by warmth-seeking behavior (and fever), whereas severe inflammation is associated with cold-seeking behavior (and hypothermia). Both behaviors are adaptive. Which brain structures mediate which behavior is unknown. The involvement of hypothalamic structures, namely, the preoptic area (POA), paraventricular nucleus (PVH), or dorsomedial nucleus (DMH), in thermoregulatory behaviors associated with endotoxin (lipopolysaccharide [LPS])-induced systemic inflammation was studied in rats. The rats were allowed to select their thermal environment by freely moving in a thermogradient apparatus. A low intravenous dose of <italic>Escherichia coli</italic> LPS (10 &#x000b5;g/kg) caused warmth-seeking behavior, whereas a high, shock-inducing dose (5,000 &#x000b5;g/kg) caused cold-seeking behavior. Bilateral electrocoagulation of the PVH or DMH, but not of the POA, prevented this cold-seeking response. Lesioning the DMH with ibotenic acid, an excitotoxin that destroys neuronal bodies but spares fibers of passage, also prevented LPS-induced cold-seeking behavior; lesioning the PVH with ibotenate did not affect it. Lesion of no structure affected cold-seeking behavior induced by heat exposure or by pharmacological stimulation of the transient receptor potential (TRP) vanilloid-1 channel (&#x0201c;warmth receptor&#x0201d;). Nor did any lesion affect warmth-seeking behavior induced by a low dose of LPS, cold exposure, or pharmacological stimulation of the TRP melastatin-8 (&#x0201c;cold receptor&#x0201d;). We conclude that LPS-induced cold-seeking response is mediated by neuronal bodies located in the DMH and neural fibers passing through the PVH. These are the first two landmarks on the map of the circuitry of cold-seeking behavior associated with endotoxin shock.</p></abstract><counts><page-count count="11"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Deep body temperature (T<sub>b</sub>) is regulated by both autonomic and behavioral means. Autonomic thermoregulation is limited in its ability to compensate for thermal loads and exacts a high price. Indeed, the most effective mechanisms of heat loss involve evaporation of water from the surface of the skin or respiratory pathways (e.g., by sweating, salivation, or polypnea), which strains the body's precious water resources, whereas heat production (nonshivering or shivering thermogenesis) depletes the body's energy stores. In contrast to autonomic thermoregulation, behavior places no demands on the body's water or energy resources; furthermore, behavioral thermoregulation can compensate for much greater thermal loads. By behavioral means, humans can survive at ambient temperatures (T<sub>a</sub>s) ranging from &#x02212;110&#x000b0;C (the surface of the moon) to 2,000&#x000b0;C (the air around a space shuttle as it reenters the atmosphere) while maintaining T<sub>b</sub> within a few tenths of a degree Celsius <xref rid="pone.0000001-Romanovsky1" ref-type="bibr">[1]</xref>. Behavioral thermoregulatory responses vary from primitive (e.g., locomotion to a preferred T<sub>a</sub> in a T<sub>a</sub> gradient) to complex (e.g., maintaining T<sub>a</sub> inside a space shuttle). Evidence (mostly from stimulation experiments) suggests that different thermoregulatory behaviors in the rat (e.g., relaxed postural extension, thermoregulatory grooming, and locomotion) use distinct neural circuitries <xref rid="pone.0000001-Roberts1" ref-type="bibr">[2]</xref>. However, the neuroanatomic substrate of no thermoregulatory behavior has been studied extensively, and almost nothing is known about the neuroanatomy of behavioral thermoregulation <xref rid="pone.0000001-Nagashima1" ref-type="bibr">[3]</xref>.</p><p>The present study was undertaken to evaluate whether hypothalamic structures are involved in selection of preferred T<sub>a</sub> under various conditions in rats. We were especially interested in the thermoregulatory behavior associated with systemic inflammation. In the laboratory, systemic inflammation is often studied by administering bacterial lipopolysaccharide (LPS, endotoxin) to rats. Studies using this model have suggested that low doses of LPS (mild inflammation) cause fever and warmth-seeking behavior <xref rid="pone.0000001-FlorezDuquet1" ref-type="bibr">[4]</xref>, <xref rid="pone.0000001-Almeida1" ref-type="bibr">[5]</xref>, whereas high doses (severe inflammation) cause hypothermia and cold-seeking behavior <xref rid="pone.0000001-Almeida1" ref-type="bibr">[5]</xref>, <xref rid="pone.0000001-Romanovsky2" ref-type="bibr">[6]</xref>. Warmth-seeking behavior in mild systemic inflammation is likely to contribute to the development of fever, an increase in T<sub>b</sub> that exerts antimicrobial and immunostimulating actions <xref rid="pone.0000001-Kluger1" ref-type="bibr">[7]</xref>. Cold-seeking behavior and hypothermia occurring in severe systemic inflammation are also beneficial <xref rid="pone.0000001-Romanovsky3" ref-type="bibr">[8]</xref>. They are aimed at energy conservation and are associated with analgesia, sleep, and locomotor depression, i.e., the energy-saving symptoms proposed or demonstrated to be beneficial during infection and severe inflammation <xref rid="pone.0000001-Hart1" ref-type="bibr">[9]</xref>&#x02013;<xref rid="pone.0000001-Romanovsky4" ref-type="bibr">[11]</xref>. With the exception of one study in toads <xref rid="pone.0000001-Bicego1" ref-type="bibr">[12]</xref>, the neuronal circuitry of LPS-induced warmth-seeking behavior has not been investigated, and nothing is known about brain mediation of LPS-induced cold-seeking behavior.</p></sec><sec id="s2"><title>Results and Discussion</title><sec id="s2a"><title>Hypothalamic structures studied</title><p>Three structures were selected for this study: the preoptic area (POA), paraventricular hypothalamic nucleus (PVH), and dorsomedial hypothalamic nucleus (DMH). The POA, previously known as the &#x0201c;thermoregulatory center,&#x0201d; contains warm-sensitive neurons that control all autonomic thermoeffectors <xref rid="pone.0000001-Nagashima1" ref-type="bibr">[3]</xref> and that are thought to be the first neurons in the efferent fever pathway <xref rid="pone.0000001-Nakamura1" ref-type="bibr">[13]</xref>&#x02013;<xref rid="pone.0000001-Oka1" ref-type="bibr">[16]</xref>. Animals with POA lesions cannot defend their T<sub>b</sub> autonomically against either cold or heat <xref rid="pone.0000001-Lipton1" ref-type="bibr">[17]</xref>&#x02013;<xref rid="pone.0000001-Carlisle1" ref-type="bibr">[21]</xref>. In the present study, we placed large bilateral electrolytic lesions in the POA of rats (<xref ref-type="fig" rid="pone-0000001-g001">Fig. 1A</xref>). Confirming findings by others <xref rid="pone.0000001-Lipton1" ref-type="bibr">[17]</xref>&#x02013;<xref rid="pone.0000001-Korneva1" ref-type="bibr">[25]</xref>, the POA-lesioned rats had a somewhat elevated T<sub>b</sub> and were incapable of defending their T<sub>b</sub> autonomically against either moderate heat exposure (P&#x0200a;=&#x0200a;0.003) or mild cold exposure (P&#x0003c;0.001) (<xref ref-type="fig" rid="pone-0000001-g001">Fig. 1B</xref>). In fact, heat-induced hyperthermia in POA-lesioned animals was so severe that the time of heat exposure in these experiments had to be reduced to 1 h (instead of the 2 h planned) to avoid heat stroke.</p><fig id="pone-0000001-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000001.g001</object-id><label>Figure 1</label><caption><title>Electrolytic ablation of the POA: histological verification and effects on autonomic thermoregulation.</title><p>(A) Bright-field photomicrographs of serial coronal brain sections (50 &#x000b5;m, cresyl violet staining) are shown for a sham-lesioned rat and a POA-lesioned rat.</p><p>Here and in <xref ref-type="fig" rid="pone-0000001-g002">Figures 2</xref>, <xref ref-type="fig" rid="pone-0000001-g003">[3]</xref>, <xref ref-type="fig" rid="pone-0000001-g007">[7]</xref> and <xref ref-type="fig" rid="pone-0000001-g008">[8]</xref>, the number in the right upper corner of the schematic of each section of the sham-lesioned brain indicates the distance (in mm) between the section's plane and bregma. ac, anterior commissure; f, fornix; LPO, lateral preoptic area; MnPO, median preoptic nucleus; MPA, medial preoptic area; ox, optic chiasm; Sch, suprachiasmatic nucleus; SO, supraoptic nucleus; 3V, third ventricle.</p><p>(B) The ability of sham-lesioned and POA-lesioned rats to defend their T<sub>b</sub> (abdominal) during moderate heat exposure (28&#x000b0;C, 1 h) or mild cold exposure (17&#x000b0;C, 2 h).</p><p>The rats could not move to a different T<sub>a</sub>; therefore, they were forced to regulate their T<sub>b</sub> mostly by autonomic mechanisms.</p></caption><graphic xlink:href="pone.0000001.g001"/></fig><p>The second structure studied, the PVH, is unique from a thermoregulatory perspective: it has been implicated in selectively mediating thermoregulatory responses to inflammatory stimuli. Indeed, electrolytic and chemical lesions of the PVH neither alter the circadian rhythm of T<sub>b</sub>
+<xref rid="pone.0000001-Lu1" ref-type="bibr">[26]</xref> nor affect T<sub>b</sub> responses to cold or heat <xref rid="pone.0000001-Caldeira1" ref-type="bibr">[27]</xref>, <xref rid="pone.0000001-Horn1" ref-type="bibr">[28]</xref>. However, they do attenuate LPS fever, at least when the animals cannot use behavioral means to regulate their T<sub>b</sub> and must rely on autonomic means to mount the febrile response <xref rid="pone.0000001-Lu1" ref-type="bibr">[26]</xref>&#x02013;<xref rid="pone.0000001-Horn1" ref-type="bibr">[28]</xref>. We placed large bilateral electrolytic lesions in the PVH of rats (<xref ref-type="fig" rid="pone-0000001-g002">Fig. 2A</xref>). As expected, such lesions did not affect their ability to defend T<sub>b</sub> autonomically against either heat or cold (<xref ref-type="fig" rid="pone-0000001-g002">Fig. 2B</xref>).</p><fig id="pone-0000001-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000001.g002</object-id><label>Figure 2</label><caption><title>Electrolytic ablation of the PVH: histological verification and effects on autonomic thermoregulation.</title><p>(A) Serial coronal brain sections are shown for a sham-lesioned rat and a PVH-lesioned rat. Arc, arcuate hypothalamic nucleus; ME, median eminence; mt, mammillothalamic tract; sox, supraoptic decussation; VMH, ventromedial hypothalamic nucleus.</p><p>Other abbreviations used are the same as in <xref ref-type="fig" rid="pone-0000001-g001">Figure 1</xref>.</p><p>(B) The ability of sham-lesioned and PVH-lesioned rats to defend their T<sub>b</sub> by autonomic mechanisms during moderate heat exposure (28&#x000b0;C, 2 h) or mild cold exposure (17&#x000b0;C, 2 h).</p></caption><graphic xlink:href="pone.0000001.g002"/></fig><p>The third structure studied, the DMH, is involved in the control of the most important heat production thermoeffector in the rat: brown adipose tissue <xref rid="pone.0000001-Nagashima1" ref-type="bibr">[3]</xref>, <xref rid="pone.0000001-Morrison1" ref-type="bibr">[29]</xref>, <xref rid="pone.0000001-DiMicco1" ref-type="bibr">[30]</xref>. Blocking the activation of DMH neurons pharmacologically interrupts the stimulation of brown fat thermogenesis <xref rid="pone.0000001-Madden1" ref-type="bibr">[31]</xref>, <xref rid="pone.0000001-Zaretskaia1" ref-type="bibr">[32]</xref>. A recent study of Fos protein expression in the brain <xref rid="pone.0000001-Maruyama1" ref-type="bibr">[33]</xref> suggested that the DMH is also involved in the control of operant heat-avoidance behavior (moving to a reward area to trigger a breeze of cold air). When we placed large bilateral electrolytic lesions in the DMH (<xref ref-type="fig" rid="pone-0000001-g003">Fig. 3A</xref>), the lesions did not affect the autonomic defense of T<sub>b</sub> against heat. However, they strongly compromised autonomic cold-defense: the same cold exposure that failed to alter T<sub>b</sub> of the sham-lesioned rats caused marked hypothermia (P&#x0003c;0.001) in DMH-lesioned rats (<xref ref-type="fig" rid="pone-0000001-g003">Fig. 3B</xref>).</p><fig id="pone-0000001-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000001.g003</object-id><label>Figure 3</label><caption><title>Electrolytic ablation of the DMH: histological verification and effects on autonomic thermoregulation.</title><p>(A) Serial coronal brain sections are shown for a sham-lesioned rat and a DMH-lesioned rat. InfS, infundibular stem.</p><p>Other abbreviations used are the same as in <xref ref-type="fig" rid="pone-0000001-g001">Figures 1</xref> and <xref ref-type="fig" rid="pone-0000001-g002">[2]</xref>.</p><p>(B) The ability of sham-lesioned and DMH-lesioned rats to defend their T<sub>b</sub> by autonomic mechanisms during moderate heat exposure (28&#x000b0;C, 2 h) or mild cold exposure (17&#x000b0;C, 2 h).</p></caption><graphic xlink:href="pone.0000001.g003"/></fig></sec><sec id="s2b"><title>Electrolytic lesions: effects on thermoregulatory behavior</title><p>After we verified that lesions of different hypothalamic structures produced the expected effects on the autonomic regulation of T<sub>b</sub>, we studied the effects of these lesions on thermoregulatory behavior in a thermogradient apparatus. Systemic inflammation was induced by intravenous (i.v.) injection of bacterial LPS either at a low, fever-inducing dose (10 &#x000b5;g/kg) or at a high, shock- and hypothermia-inducing dose (5,000 &#x000b5;g/kg). These two doses cause, respectively, slowly occurring, long-lasting warmth-seeking behavior and rapidly occurring, marked cold-seeking behavior <xref rid="pone.0000001-Almeida1" ref-type="bibr">[5]</xref>. Although all autonomic responses were severely compromised in the POA-lesioned rats (<xref ref-type="fig" rid="pone-0000001-g001">Fig. 1B</xref>), neither LPS-induced warmth-seeking behavior nor LPS-induced cold-seeking behavior was affected in these animals (<xref ref-type="fig" rid="pone-0000001-g004">Fig. 4</xref>). Furthermore, when allowed to regulate their T<sub>b</sub> behaviorally in the thermogradient apparatus, the POA-lesioned rats responded to a low dose of LPS with normal fever, and to a high dose of LPS with normal hypothermia (<xref ref-type="fig" rid="pone-0000001-g004">Fig. 4</xref>). These findings are somewhat unexpected. They seem to contradict the current view that neuronal groups within the preoptic anterior hypothalamus are crucial for generating the febrile response <xref rid="pone.0000001-Saper1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000001-Scammell1" ref-type="bibr">[34]</xref>, <xref rid="pone.0000001-Nakamura2" ref-type="bibr">[35]</xref>. They are also contrary to the finding that lesioning the POA attenuates LPS-induced warmth-seeking behavior in toads <xref rid="pone.0000001-Bicego1" ref-type="bibr">[12]</xref>. However, squirrel monkeys <xref rid="pone.0000001-Lipton2" ref-type="bibr">[36]</xref> and rabbits <xref rid="pone.0000001-Korneva1" ref-type="bibr">[25]</xref> have been shown to develop normal febrile responses to LPS and prostaglandin E<sub>1</sub> when the POA is ablated electrolytically. The two latter studies and the present one indicate that an intact POA is not required for LPS fever, thus suggesting that POA neurons are not the only targets for febrigenic mediators. That the febrile response can occur when the POA is ablated bilaterally suggests that the current understanding of the neural basis of fever has to be revised. The present study also shows that LPS hypothermia can occur when the POA is coagulated.</p><fig id="pone-0000001-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000001.g004</object-id><label>Figure 4</label><caption><title>The effects of LPS (doses indicated) on the selected T<sub>a</sub> (top panels) and T<sub>b</sub> (bottom panels) of sham-lesioned and POA-lesioned rats.</title></caption><graphic xlink:href="pone.0000001.g004"/></fig><p>We also looked at thermoregulatory locomotion induced by non-inflammatory stimuli: thermal and pharmacological. Thermal stimuli included mild cold exposure and moderate heat exposure (see <xref ref-type="sec" rid="s3">Methods</xref> for details). Pharmacological stimulation was achieved by systemic administration of agonists of the so-called thermo-TRP (transient receptor potential) channels, a class of heat-activated molecules recently implicated in thermosensation <xref rid="pone.0000001-Szallasi1" ref-type="bibr">[37]</xref>&#x02013;<xref rid="pone.0000001-Peier1" ref-type="bibr">[40]</xref>. At least some members of this class have been shown to be involved in the selection of preferred T<sub>a</sub> in both vertebrates <xref rid="pone.0000001-Almeida1" ref-type="bibr">[5]</xref>, <xref rid="pone.0000001-Lee1" ref-type="bibr">[41]</xref>, <xref rid="pone.0000001-Moqrich1" ref-type="bibr">[42]</xref> and invertebrates <xref rid="pone.0000001-Rosenzweig1" ref-type="bibr">[43]</xref>. In the present study, we used menthol (50 &#x000b5;g/kg, i.v.), an agonist of the TRP melastatin-8 (TRPM8) channel (&#x0201c;cold receptor&#x0201d;), to induce warmth-seeking behavior and resiniferatoxin (RTX, 0.5 &#x000b5;g/kg, i.v.), an agonist of the TRP vanilloid-1 (TRPV1) channel (&#x0201c;warmth receptor&#x0201d;), to induce cold-seeking behavior. All four stimuli (two thermal and two pharmacological) were also used in our recent study, which describes thermoregulatory behaviors of normal rats to these stimuli <xref rid="pone.0000001-Almeida1" ref-type="bibr">[5]</xref>. In the present study, none of the four behavioral responses studied was affected in the POA-lesioned rats (data not shown). That the POA lacks an indispensable role in warmth- and cold-seeking behaviors induced by thermal and pharmacological stimuli is consistent with the literature. Indeed, the only mammalian thermoregulatory behavior in which involvement of the POA has been firmly established is a relaxed postural extension in response to heat exposure; such postural extension does not occur in POA-lesioned animals <xref rid="pone.0000001-Roberts2" ref-type="bibr">[44]</xref>. Other thermoregulatory behaviors, such as moving to a &#x0201c;reward&#x0201d; zone or pressing a lever to trigger warming or cooling of the system, remain intact in POA-lesioned animals <xref rid="pone.0000001-Schulze1" ref-type="bibr">[20]</xref>, <xref rid="pone.0000001-Carlisle1" ref-type="bibr">[21]</xref>, <xref rid="pone.0000001-Satinoff2" ref-type="bibr">[45]</xref>, <xref rid="pone.0000001-Lipton3" ref-type="bibr">[46]</xref>. That ablation of the POA results in the loss of autonomic responses but does not affect thermoregulatory locomotion suggests that POA thermosensors are more important for autonomic thermoregulation than for cold- and warmth-seeking behaviors. Because thermoregulatory locomotion is aimed at escaping the forthcoming thermal insult, it occurs before the body core warms up or cools down; therefore, it is triggered by peripheral temperatures. In contrast, autonomic cold-defense responses (energetically expensive) and heat-defense responses (water-consuming) are often recruited only when T<sub>b</sub> starts changing because behavioral mechanisms were ineffective or could not have been used (e.g., due to competing behavioral demands) <xref rid="pone.0000001-Romanovsky1" ref-type="bibr">[1]</xref>.</p><p>Like the electrolytic lesions of the POA, lesions of the PVH affected neither warmth-seeking behavior nor fever induced by a low dose of LPS. Unlike the POA lesions, lesions of the PVH strongly attenuated both cold-seeking behavior (P&#x0200a;=&#x0200a;0.035) and hypothermia (P&#x0200a;=&#x0200a;0.047) caused by a high, shock-inducing dose of LPS (<xref ref-type="fig" rid="pone-0000001-g005">Fig. 5</xref>). The observation that lesions of the PVH had no effect on the LPS-induced warmth-seeking behavior and fever is somewhat surprising, because electrolytic and excitotoxic lesions of this structure have attenuated the febrile response to LPS in several studies <xref rid="pone.0000001-Lu1" ref-type="bibr">[26]</xref>&#x02013;<xref rid="pone.0000001-Horn1" ref-type="bibr">[28]</xref>. However, the animals used in these previous studies were not allowed to select their preferred T<sub>a</sub>. Furthermore, the previous studies were most likely conducted under subthermoneutral conditions (for detailed discussion of thermoneutrality, see Ref. <xref rid="pone.0000001-Romanovsky5" ref-type="bibr">[47]</xref>). Under such conditions, fever is caused primarily by activation of brown fat thermogenesis <xref rid="pone.0000001-Szekely1" ref-type="bibr">[48]</xref>, <xref rid="pone.0000001-Crawshaw1" ref-type="bibr">[49]</xref>. In contrast, PVH-lesioned rats were allowed to select their preferred T<sub>a</sub> and used behavioral thermoregulation (moved to a warmer environment) while responding to LPS administration in the present study. Not only does a supraneutral environment warms the body of a rat exposed to it, but it also allows the animal to mount the fever response by using skin vasoconstriction instead of the energetically expensive thermogenesis <xref rid="pone.0000001-Szekely1" ref-type="bibr">[48]</xref>, <xref rid="pone.0000001-Crawshaw1" ref-type="bibr">[49]</xref>. Hence, the PVH is likely involved in the circuitry of fever when the response is mounted primarily by activation of brown fat thermogenesis. When fever occurs due to warmth-seeking behavior, skin vasoconstriction, or both, the PVH loses its important role in the response. Such a scenario is consistent with the fact that the PVH controls primarily thermogenesis and not skin vasomotion <xref rid="pone.0000001-Yoshimatsu1" ref-type="bibr">[50]</xref>&#x02013;<xref rid="pone.0000001-Sakaguchi1" ref-type="bibr">[52]</xref> or thermopreferendum (present study). The effect of PVH ablation on LPS-induced cold-seeking behavior was highly selective: the same electrolytic lesions that strongly attenuated this behavior affected neither cold-seeking behavior caused by moderate heat exposure or RTX nor warmth-seeking behavior caused by mild cold exposure or menthol (data not shown).</p><fig id="pone-0000001-g005" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000001.g005</object-id><label>Figure 5</label><caption><title>The effects of LPS (doses indicated) on the selected T<sub>a</sub> (top panels) and T<sub>b</sub> (bottom panels) of sham-lesioned and PVH-lesioned rats.</title></caption><graphic xlink:href="pone.0000001.g005"/></fig><p>The effects of lesioning the DMH were remarkably similar to those of lesioning the PVH. Electrocoagulation of the DMH blocked both cold-seeking behavior (P&#x0200a;=&#x0200a;0.04) and hypothermia (P&#x0200a;=&#x0200a;0.032) caused by a high, shock-inducing dose of LPS, but it affected neither warmth-seeking behavior nor fever caused by a low dose of LPS (<xref ref-type="fig" rid="pone-0000001-g006">Fig. 6</xref>). Neither did electrocoagulation of DMH affect cold-seeking behaviors caused by heat exposure and menthol nor warmth-seeking behaviors caused by cold exposure and RTX (data not shown). The found attenuation of LPS-induced hypothermia in PVH- and DMH-lesioned rats is a first report of a brain structure being crucial for the development of hypothermia in systemic inflammation. These findings provide an additional, perhaps decisive, argument in a dispute as to whether LPS-induced hypothermia is a passive consequence of peripheral vasodilation and uncontrolled heat loss or, alternatively, whether it is a brain-mediated response. To determine whether the effects of electrolytic lesioning of the PVH and DMH on cold-seeking behavior and hypothermia in LPS shock were from the destruction of neuronal bodies in these areas or, alternatively, from the interruption of fibers of passage, we performed chemical lesions with ibotenic acid, an excitotoxin known to destroy neuronal bodies but to spare passing axons <xref rid="pone.0000001-Jarrard1" ref-type="bibr">[53]</xref>.</p><fig id="pone-0000001-g006" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000001.g006</object-id><label>Figure 6</label><caption><title>The effects of LPS (doses indicated) on the selected T<sub>a</sub> (top panels) and T<sub>b</sub> (bottom panels) of sham-lesioned and DMH-lesioned rats.</title></caption><graphic xlink:href="pone.0000001.g006"/></fig></sec><sec id="s2c"><title>Excitotoxic lesions of PVH and DMH: effects on thermoregulation</title><p>Similarly to how electrocoagulation of the PVH (<xref ref-type="fig" rid="pone-0000001-g002">Fig. 2A</xref>) did not affect autonomic thermoregulation (<xref ref-type="fig" rid="pone-0000001-g002">Fig. 2B</xref>), bilateral lesioning of this structure by ibotenic acid (<xref ref-type="fig" rid="pone-0000001-g007">Fig. 7A</xref>) had no effect on autonomic heat-defense or cold-defense mechanisms (<xref ref-type="fig" rid="pone-0000001-g007">Fig. 7B</xref>). Similarly to how electrolytic lesions of the DMH (<xref ref-type="fig" rid="pone-0000001-g003">Fig. 3A</xref>) did not affect autonomic heat-defense mechanisms but impaired autonomic cold-defense mechanisms (<xref ref-type="fig" rid="pone-0000001-g003">Fig. 3B</xref>), bilateral ibotenic acid lesioning of the DMH (<xref ref-type="fig" rid="pone-0000001-g008">Fig. 8A</xref>) had no effect on the autonomic defense of T<sub>b</sub> during heat exposure but made the rats incapable of defending their T<sub>b</sub> autonomically against mild cold exposure (P&#x0003c;0.001; <xref ref-type="fig" rid="pone-0000001-g008">Fig. 8B</xref>). The effects of excitotoxic lesions of these two structures on responses to the high dose of LPS were different (<xref ref-type="fig" rid="pone-0000001-g009">Fig. 9</xref>). Lesioning the PVH affected neither LPS-induced cold-seeking behavior nor LPS-induced hypothermia. In contrast, lesioning the DMH by ibotenic acid prevented LPS-induced cold-seeking behavior (P&#x0200a;=&#x0200a;0.014) and attenuated LPS hypothermia (P&#x0200a;=&#x0200a;0.028). These results indicate that the DMH contains the bodies of neurons involved in the mechanisms of cold-seeking behavior and hypothermia caused by a high dose of LPS, and that the PVH contains neuronal fibers (but not cell bodies) involved in these two responses.</p><fig id="pone-0000001-g007" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000001.g007</object-id><label>Figure 7</label><caption><title>Excitotoxic ablation of the PVH: histological verification and effects on autonomic thermoregulation.</title><p>(A) Bright-field photomicrographs of serial coronal brain sections (50 &#x000b5;m, Kl&#x000fc;ver-Barrera staining) of a sham-lesioned rat and a representative rat with bilateral ibotenic acid lesions of the PVH.</p><p>The magnification of photomicrographs and the scale vary in different panels.</p><p>Panels I-VI: &#x000d7;40 (magnification) and 500 &#x000b5;m (scale bar).</p><p>Panels VII and VIII: &#x000d7;100 (magnification) and 200 &#x000b5;m (scale bar).</p><p>Panels IX and X: &#x000d7;400 (magnification) and 50 &#x000b5;m (scale bar).</p><p>(B) The ability of sham-lesioned rats and rats with bilateral ibotenic acid lesions of the PVH to defend their T<sub>b</sub> by autonomic mechanisms during moderate heat exposure or mild cold exposure.</p></caption><graphic xlink:href="pone.0000001.g007"/></fig><fig id="pone-0000001-g008" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000001.g008</object-id><label>Figure 8</label><caption><title>Excitotoxic ablation of the DMH: histological verification and effects on autonomic thermoregulation.</title><p>(A) Bright-field photomicrographs of serial coronal brain sections (50 &#x000b5;m, Kl&#x000fc;ver-Barrera staining) of a sham-lesioned rat and a representative rat with bilateral ibotenic acid lesions of the DMH.</p><p>The magnification and scale of each panel are the same as those of the corresponding panel in <xref ref-type="fig" rid="pone-0000001-g007">Figure 7</xref>.</p><p>(B) The ability of sham-lesioned rats and rats with bilateral ibotenic acid lesions of the DMH to defend their T<sub>b</sub> by autonomic mechanisms during moderate heat exposure or mild cold exposure.</p></caption><graphic xlink:href="pone.0000001.g008"/></fig><fig id="pone-0000001-g009" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000001.g009</object-id><label>Figure 9</label><caption><title>The effects of LPS (5,000 &#x000b5;g/kg, i.v.) on the selected T<sub>a</sub> and T<sub>b</sub> of sham-lesioned rats and rats with bilateral ibotenic acid lesions of either PVH or DMH.</title></caption><graphic xlink:href="pone.0000001.g009"/></fig><p>How the DMH neurons and PVH fibers fit into the circuitry of LPS-induced cold-seeking behavior is a subject for speculation. The DMH projects to the periaqueductal gray matter (PAG) <xref rid="pone.0000001-deMenezes1" ref-type="bibr">[54]</xref>, <xref rid="pone.0000001-terHorst1" ref-type="bibr">[55]</xref>. The PAG is a center for efferent integration of autonomic and behavioral responses, and different cellular groups within the PAG are involved in motor behaviors caused by various stimuli <xref rid="pone.0000001-Lovick1" ref-type="bibr">[56]</xref>, <xref rid="pone.0000001-Jhou1" ref-type="bibr">[57]</xref>. It is, therefore, tempting to hypothesize that DMH lesions block LPS-induced cold-seeking behavior by interrupting the DMH projection to the PAG. However, this projection does not go through the PVH. Hence, the DMH-PAG hypothesis cannot explain the effect of PVH lesions. Furthermore, cold-seeking responses triggered by different stimuli represent the same behavioral act (moving to a lower T<sub>a</sub>) and are, therefore, likely to share the same efferent (motor) pathway. Yet, our data show that the involvement of DMH neurons and of PVH fibers of passage in cold-seeking behavior is specific to stimulation with a high dose of LPS. Indeed, the integrity of neither structure is needed to mount cold- or warmth-seeking behavior induced by any of the other five stimuli tested in the present study. Therefore, involvement of the DMH-PAG projection seems improbable.</p><p>Because rats with DMH or PVH lesions respond normally to thermal stimulation (cold or warmth) and to pharmacological stimulation of either a cold (TRPM8) or a warmth (TRPV1) receptor, both DMH and PVH are likely uninvolved in the thermoafferent pathway. This pathway (also known as the interoceptive afferent system) includes, most notably, the parabrachial nucleus and insular cortex <xref rid="pone.0000001-Craig1" ref-type="bibr">[58]</xref>, <xref rid="pone.0000001-Craig2" ref-type="bibr">[59]</xref>. Although a direct projection of the DMH to the parabrachial nucleus was searched for, it was found upon close examination either nonexistent or weak <xref rid="pone.0000001-Moga1" ref-type="bibr">[60]</xref>&#x02013;<xref rid="pone.0000001-Allen1" ref-type="bibr">[62]</xref>. Likewise, earlier reports of a direct projection of the DMH to the insular cortex <xref rid="pone.0000001-terHorst1" ref-type="bibr">[55]</xref> were not confirmed in subsequent studies using retrograde labeling <xref rid="pone.0000001-Thompson1" ref-type="bibr">[61]</xref>, <xref rid="pone.0000001-Saper2" ref-type="bibr">[63]</xref>.</p><p>Whereas DMH-lesioned and PVH-lesioned animals seem fully capable of both sensing thermal information and responding to it with an appropriate locomotor act, they fail to exhibit cold-seeking behavior when treated with a high dose of LPS. It is, therefore, likely that the DMH and PVH are involved in a stimulus-specific, affective or motivational (but not sensory or motor), component of LPS-induced cold-seeking behavior. In support, the DMH sends marked projections to the septum and amygdala <xref rid="pone.0000001-terHorst1" ref-type="bibr">[55]</xref>, <xref rid="pone.0000001-Thompson1" ref-type="bibr">[61]</xref>, <xref rid="pone.0000001-Onat1" ref-type="bibr">[64]</xref>, and these telencephalic structures are well documented to mediate the affective or motivational component of various behaviors <xref rid="pone.0000001-Phelps1" ref-type="bibr">[65]</xref>&#x02013;<xref rid="pone.0000001-Gallagher1" ref-type="bibr">[67]</xref>. Furthermore, the septum drives warmth-induced locomotion in rats, as found by Roberts and Mooney <xref rid="pone.0000001-Roberts3" ref-type="bibr">[68]</xref> in their elegant experiments involving localized diathermic warming of five distinct brain areas. Importantly, the proposed involvement of the DMH projections to the septum and amygdala explains not only the effect of DMH ablation on LPS-induced cold-seeking behavior, but also the effect of PVH ablation. One of the major routes for ascending projections from the DMH is through the hypothalamic periventricular zone <xref rid="pone.0000001-Thompson1" ref-type="bibr">[61]</xref>, <xref rid="pone.0000001-Thompson2" ref-type="bibr">[69]</xref>, and this route is likely to be interrupted by electrocoagulation (but not lesioning with ibotenic acid) of the PVH. Hence, we propose that DMH neurons sending their axons to the telencephalon (perhaps the septum and amygdala) through the PVH participate in the affective or motivational (but not in the sensory or motor) component of LPS-induced cold-seeking behavior.</p><p>In conclusion, his study identifies two neural elements essential for the cold-seeking response of rats to bacterial LPS: neuronal bodies located in the DMH and axons passing through the PVH. These are the first two landmarks on the map of the circuitry of cold-seeking behavior associated with endotoxin shock.</p></sec></sec><sec id="s3"><title>Methods</title><sec id="s3a"><title>Animals</title><p>Experiments were performed in adult male Wistar rats (Harlan, Indianapolis, IN, USA). At the time of the electrolytic or excitotoxic lesioning, the rats had a body mass of 370&#x02013;400 g. The rats were housed in individual cages in a rack equipped with a Smart Bio-Pack ventilation system and Thermo-Pak temperature control system (Allentown Caging Equipment, Allentown, NJ, USA); the incoming air temperature was maintained at 28&#x000b0;C. The room was on a 12:12 h light-dark cycle (lights on at 7:00 A.M.). The animals had free access to tap water and standard rat chow (Harlan Teklad, Madison, WI, USA). Before the experiments, the rats were habituated extensively (4 daily training sessions, 6&#x02013;16 h each) to stay in a thermogradient apparatus (described below). On the day before the experiment, the rats were placed in the apparatus at 6:00 PM and further acclimated to the experimental conditions by staying in the apparatus overnight. All injections and other experimental interventions were made the next day, between 8:00 AM and 3:00 PM. The experimental protocols were approved by the St. Joseph's Hospital Animal Care and Use Committee.</p></sec><sec id="s3b"><title>Electrolytic lesions</title><p>All surgical and lesioning procedures were performed under ketamine-xylazine-acepromazine (55.6, 5.5, and 1.1 mg/kg, respectively, intraperitoneally) anesthesia and antibiotic (enrofloxacin, 1.2 mg/kg, subcutaneously) protection. All brain lesions were placed on <italic>Day 0</italic>. For electrolytic lesioning, a rat was anesthetized, and the skin of the head over the frontal and parietal bones was shaved and scrubbed. The rat was fixed to a stereotaxic apparatus (David Kopf, Tujunga, CA, USA) with the incisor bar set 3.3 mm ventral to interaural line. The skin was incised over the sagittal suture, the skin and the underlying muscles were retracted, and the periosteum was detached from the bone and excised. A stainless steel electrode (250 &#x000b5;m diameter, Frederic Haer, Bowdoinham, ME, USA) was inserted into the brain. All stereotaxic coordinates were taken from Paxinos and Watson <xref rid="pone.0000001-Paxinos1" ref-type="bibr">[70]</xref>, but the anteroventral coordinate was increased by 0.5 mm to adjust for the difference in the body mass between the rats used by Paxinos and Watson <xref rid="pone.0000001-Paxinos1" ref-type="bibr">[70]</xref> and those used in the present study. The following stereotaxic coordinates were used: 0.0 mm (at bregma), 0.5 mm from the midline, and 8.5 mm from the skull surface for the POA; &#x02212;1.5 mm from bregma, 0.5 mm from the midline, and 8.7 mm from the skull surface for the PVH; and &#x02212;2.8 mm from bregma, 0.5 mm from the midline, and 9.0 mm from the skull surface for the DMH. A second electrode (an &#x0201c;alligator&#x0201d; clip) was attached to the edge of the surgical wound on the head. To lesion the brain tissue, a precision lesioning instrument (Ugo Basile, Comerio, Italy) was used. A constant anodal current (1 mA) was passed through the electrodes for 10 s (PVH) or 30 s (POA or DMH). After the structure of interest was lesioned on one side, the electrode was removed and inserted at the same coordinates contralaterally. Sham-lesioned rats were prepared similarly, but the tip of the electrode was placed 2 mm above the POA, PVH, or DMH, and no current was passed.</p></sec><sec id="s3c"><title>Chemical lesions</title><p>Unless specified otherwise, all drugs and reagents were purchased from Sigma-Aldrich (St Louis, MO, USA). To prevent the hypertensive and other cardiovascular side effects of intrabrain administration of ibotenic acid, the rats were pretreated with the ganglionic blocker hexamethonium (30 mg/kg, intraperitoneally). For lesioning the PVH or DMH, a glass micropipette (tip diameter, 50 &#x000b5;m) was inserted into the target area by using the same coordinates as for electrocoagulation. A solution of ibotenic acid (10 &#x000b5;g/&#x000b5;l) in phosphate-buffered (0.01 M, pH 7.4) saline was infused with the help of an infusion pump (30 nl/min) over 3.3 min (to deliver the total volume of 100 nl; PVH) or 10 min (300 nl; DMH), and the pipette was left in place for 5 min. Sham-lesioned animals were infused with vehicle. All infusions were performed bilaterally.</p><p>All rats with electrolytic or excitotoxic brain lesions were examined daily for signs of dehydration and general malaise. If a rat had lost more than 15&#x00025; of its body mass 24 h after lesioning or was failing to recover from its initial loss of body mass, it was injected with isotonic saline (10 ml, subcutaneously) to counteract dehydration.</p></sec><sec id="s3d"><title>Jugular catheterization and temperature datalogger implantation</title><p>On <italic>Day 10</italic>, each animal was anesthetized a second time. After a midline laparotomy was performed, a miniature temperature datalogger (SubCue, Calgary, Alberta, Canada) was inserted in the peritoneal cavity and sutured to the lateral abdominal wall. The datalogger had been programmed to acquire data (measure T<sub>b</sub>) every 5 min. The surgical wound was sutured in layers. The rat was then implanted with a jugular vein catheter. A 1-cm longitudinal incision was made on the ventral surface of the neck, 1 cm left of the trachea. The left jugular vein was exposed, freed from its surrounding connective tissue, and ligated. A silicone catheter (ID 0.5 mm, OD 0.9 mm) filled with heparinized (10 U/ml) pyrogen-free saline was passed into the superior vena cava through the jugular vein and secured in place with ligatures. The free end of the catheter was knotted, tunneled under the skin to the nape, and exteriorized. The surgical wound on the ventral surface of the neck was sutured. The jugular catheter was flushed with heparinized saline (10 U/ml) the day after surgery and every other day thereafter. The experiments were performed on <italic>Days 13</italic>&#x02013;<italic>19</italic>.</p></sec><sec id="s3e"><title>Thermogradient apparatus</title><p>The six-channel thermogradient apparatus used is described in detail elsewhere <xref rid="pone.0000001-Almeida1" ref-type="bibr">[5]</xref>. In brief, the apparatus was built from 12-mm-thick aluminum sheets welded together to form six parallel channels running between two tanks. Each channel (200 long x 12 wide x 20 cm high) had an adjustable stainless steel grid (that served as a floor for the animals tested) and was covered with an acrylic double-panel lid. The tank at one end of the apparatus was filled with water and equipped with two heating units (PolyScience, Niles, IL, USA); the tank at the other end was constantly perfused with 10&#x00025; ethylene glycol by an external-circulation cooling/heating pump (PolyScience). This setting allowed an almost linear longitudinal T<sub>a</sub> gradient common for all channels to be established. In the present study, T<sub>a</sub> ranged from 15&#x000b0;C at the cold end to 30&#x000b0;C at the warm end; T<sub>a</sub> changed with a change in the longitudinal position in the channel at a rate of 0.15&#x000b0;C/cm. Within each channel, T<sub>a</sub> was monitored by five evenly spaced (50 cm apart) thermocouples located under the grid floor, and the position of the rat was monitored by 56 evenly spaced (3.5 cm) infrared emitter-receiver pairs, which formed transversal infrared beams.</p></sec><sec id="s3f"><title>Studying behavioral thermoregulation</title><p>As reported elsewhere <xref rid="pone.0000001-Almeida1" ref-type="bibr">[5]</xref>, thermoregulatory behavior was induced by inflammatory, thermal, or pharmacological stimuli. Inflammatory stimulation was achieved by injecting LPS (<italic>Escherichia coli</italic>, serotype 0111:B4) through the jugular catheter at a low dose (10 &#x000b5;g/kg; to cause warmth-seeking behavior) or a high dose (5,000 &#x000b5;g/kg; to cause cold-seeking behavior). Thermal stimulation was achieved by confining each rat to a short (22 cm) portion of the channel near either the warm end (T<sub>a</sub> of &#x0223c;28&#x000b0;C in the middle of the confinement zone) or the cold end (T<sub>a</sub> of &#x0223c;17&#x000b0;C in the middle of the confinement zone) of the thermogradient apparatus for 1 or 2 h. Both the preferred T<sub>a</sub> and the midpoint of the thermoneutral zone for rats in this apparatus are &#x0223c;24&#x000b0;C <xref rid="pone.0000001-Almeida1" ref-type="bibr">[5]</xref>. Therefore, confining a rat at 28 or 17&#x000b0;C results in mild heat exposure or moderate cold exposure, respectively. Pharmacological induction of cold-seeking behavior was attempted by injecting the rats with RTX (0.5 &#x000b5;g/kg, i.v.), a TRPV1 agonist. Pharmacological induction of warmth-seeking behavior was attempted by injecting the rats with menthol (50 &#x000b5;g/kg, i.v.), a TRPM8 agonist. Both RTX and menthol were dissolved in saline containing 10&#x00025; ethanol and 10&#x00025; propylene glycol.</p></sec><sec id="s3g"><title>Testing autonomic defense of body temperature</title><p>The ability of rats to defend their T<sub>b</sub> (recorded by the dataloggers implanted in the peritoneal cavity) during heat or cold exposure was tested. These tests were performed the same way as thermal stimulation for behavioral experiments (see above). In brief, each rat was confined to a short portion of the channel near the warm (&#x0223c;28&#x000b0;C) or cold end (&#x0223c;17&#x000b0;C) of the thermogradient apparatus. The rats could not move to a different T<sub>a</sub>; therefore, they were forced to regulate their T<sub>b</sub> mostly by autonomic mechanisms.</p></sec><sec id="s3h"><title>Histological verification</title><p>To verify the correct placement of the lesions, the rats were anesthetized and perfused through the ascending aorta (right atrium cut) with saline (50 ml, 5 min) followed by 10&#x00025; formalin (50 ml, 5 min). The brains were removed, placed in phosphate-buffered (0.1 M, pH 7.4) saline containing 30&#x00025; sucrose and 10&#x00025; formalin, and post-fixed in this solution at 4&#x000b0;C for 48 h. The brains were then frozen in dry ice and sectioned (50 &#x000b5;m). Sections containing the structures of interest were collected, mounted on glass slides, stained either with cresyl-violet (stains the Nissl bodies in the cytoplasm of neurons purple-blue) or Kl&#x000fc;ver-Barrera stain (stains the myelinated fibers blue and the cell bodies violet), and examined under a light microscope.</p></sec><sec id="s3i"><title>Data processing and analysis</title><p>The preferred T<sub>a</sub> was calculated based on a linear relationship between the position in the channel and T<sub>a</sub>. A weighted average was calculated for every 5-min interval. The obtained curves of preferred T<sub>a</sub> were smoothed by a second polynomial degree Savitzky-Golay filtering over a 30-min shifting window using Microcal Origin 5.0 software (OriginLab, Northampton, MA, USA). The T<sub>b</sub> and preferred T<sub>a</sub> responses were compared across treatments and time points by a two-way analysis of variance for repeated measurements followed by the Tukey test (Sigma Stat, Systat Software, Point Richmond, CA, USA). The differences were considered significant at P&#x0003c;0.05. The data are reported as mean&#x000b1;standard error.</p></sec></sec></body><back><ack><p>The authors thank Dr. K. M. Horn for his help with the histological procedures; A. S. Dragic and J. L. Roberts for technical assistance; P. Wettenstein for engineering support of the thermogradient experiments; and Dr. S. A. Kick for editing the manuscript. Drs. A. D. (Bud) Craig and C. T. Simons read an early draft of the paper and provided important feedback.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>The study was funded by grants from the St. Joseph's Foundation (to A.A.R.), National Institute of Neurological Disorders and Stroke (grant NS-41233 to A.A.R.), and Arizona Disease Control Research Commission (category II grant #8016 to A.A.R.), and by a Visiting Ph.D. Student Fellowship from the CAPES Foundation, Brazil (to M.C.A.). None of the funding bodies had any involvement whatsoever in preparing this manuscript.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000001-Romanovsky1"><label>1</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Romanovsky</surname><given-names>AA</given-names></name></person-group>
+<year>2006</year>
+<article-title>Chapter 23. Temperature regulation.</article-title>
+<person-group person-group-type="editor"><name><surname>Petersen</surname><given-names>O</given-names></name></person-group>
+<source>Lecture Notes on Human Physiology.</source>
+<comment>5th ed</comment>
+<publisher-loc>Oxford</publisher-loc>
+<publisher-name>Blackwell</publisher-name>
+<fpage>603</fpage>
+<lpage>615</lpage>
+</element-citation></ref><ref id="pone.0000001-Roberts1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roberts</surname><given-names>WW</given-names></name></person-group>
+<year>1988</year>
+<article-title>Differential thermosensor control of thermoregulatory grooming, locomotion, and relaxed postural extension.</article-title>
+<source>Ann N Y Acad Sci</source>
+<volume>525</volume>
+<fpage>363</fpage>
+<lpage>374</lpage>
+<pub-id pub-id-type="pmid">3291670</pub-id></element-citation></ref><ref id="pone.0000001-Nagashima1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nagashima</surname><given-names>K</given-names></name><name><surname>Nakai</surname><given-names>S</given-names></name><name><surname>Tanaka</surname><given-names>M</given-names></name><name><surname>Kanosue</surname><given-names>K</given-names></name></person-group>
+<year>2000</year>
+<article-title>Neuronal circuitries involved in thermoregulation.</article-title>
+<source>Auton Neurosci</source>
+<volume>85</volume>
+<fpage>18</fpage>
+<lpage>25</lpage>
+<pub-id pub-id-type="pmid">11189023</pub-id></element-citation></ref><ref id="pone.0000001-FlorezDuquet1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Florez-Duquet</surname><given-names>M</given-names></name><name><surname>Peloso</surname><given-names>E</given-names></name><name><surname>Satinoff</surname><given-names>E</given-names></name></person-group>
+<year>2001</year>
+<article-title>Fever and behavioral thermoregulation in young and old rats.</article-title>
+<source>Am J Physiol Regul Integr Comp Physiol</source>
+<volume>280</volume>
+<fpage>R1457</fpage>
+<lpage>R1461</lpage>
+<pub-id pub-id-type="pmid">11294768</pub-id></element-citation></ref><ref id="pone.0000001-Almeida1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Almeida</surname><given-names>M</given-names></name><name><surname>Steiner</surname><given-names>AA</given-names></name><name><surname>Branco</surname><given-names>LG</given-names></name><name><surname>Romanovsky</surname><given-names>AA</given-names></name></person-group>
+<year>2006</year>
+<article-title>Cold-seeking behavior as a thermoregulatory strategy in systemic inflammation.</article-title>
+<source>Eur J Neurosci</source>
+<volume>23</volume>
+<fpage>3359</fpage>
+<lpage>3367</lpage>
+<pub-id pub-id-type="pmid">16820025</pub-id></element-citation></ref><ref id="pone.0000001-Romanovsky2"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Romanovsky</surname><given-names>AA</given-names></name><name><surname>Shido</surname><given-names>O</given-names></name><name><surname>Sakurada</surname><given-names>S</given-names></name><name><surname>Sugimoto</surname><given-names>N</given-names></name><name><surname>Nagasaka</surname><given-names>T</given-names></name></person-group>
+<year>1996</year>
+<article-title>Endotoxin shock: thermoregulatory mechanisms.</article-title>
+<source>Am J Physiol</source>
+<volume>270</volume>
+<fpage>R693</fpage>
+<lpage>R703</lpage>
+<pub-id pub-id-type="pmid">8967396</pub-id></element-citation></ref><ref id="pone.0000001-Kluger1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kluger</surname><given-names>MJ</given-names></name></person-group>
+<year>1991</year>
+<article-title>Fever: role of pyrogens and cryogens.</article-title>
+<source>Physiol Rev</source>
+<volume>71</volume>
+<fpage>93</fpage>
+<lpage>127</lpage>
+<pub-id pub-id-type="pmid">1986393</pub-id></element-citation></ref><ref id="pone.0000001-Romanovsky3"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Romanovsky</surname><given-names>AA</given-names></name><name><surname>Shido</surname><given-names>O</given-names></name><name><surname>Sakurada</surname><given-names>S</given-names></name><name><surname>Sugimoto</surname><given-names>N</given-names></name><name><surname>Nagasaka</surname><given-names>T</given-names></name></person-group>
+<year>1997</year>
+<article-title>Endotoxin shock-associated hypothermia. How and why does it occur?</article-title>
+<source>Ann N Y Acad Sci</source>
+<volume>813</volume>
+<fpage>733</fpage>
+<lpage>737</lpage>
+<pub-id pub-id-type="pmid">9100963</pub-id></element-citation></ref><ref id="pone.0000001-Hart1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hart</surname><given-names>BL</given-names></name></person-group>
+<year>1988</year>
+<article-title>Biological basis of the behavior of sick animals.</article-title>
+<source>Neurosci Biobehav Rev</source>
+<volume>12</volume>
+<fpage>123</fpage>
+<lpage>137</lpage>
+<pub-id pub-id-type="pmid">3050629</pub-id></element-citation></ref><ref id="pone.0000001-Krueger1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Krueger</surname><given-names>JM</given-names></name><name><surname>Majde</surname><given-names>JA</given-names></name></person-group>
+<year>1994</year>
+<article-title>Microbial products and cytokines in sleep and fever regulation.</article-title>
+<source>Crit Rev Immunol</source>
+<volume>14</volume>
+<fpage>355</fpage>
+<lpage>379</lpage>
+<pub-id pub-id-type="pmid">7755878</pub-id></element-citation></ref><ref id="pone.0000001-Romanovsky4"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Romanovsky</surname><given-names>AA</given-names></name><name><surname>Kulchitsky</surname><given-names>VA</given-names></name><name><surname>Akulich</surname><given-names>NV</given-names></name><name><surname>Koulchitsky</surname><given-names>SV</given-names></name><name><surname>Simons</surname><given-names>CT</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>First and second phases of biphasic fever: two sequential stages of the sickness syndrome?</article-title>
+<source>Am J Physiol</source>
+<volume>271</volume>
+<fpage>R244</fpage>
+<lpage>R253</lpage>
+<pub-id pub-id-type="pmid">8760227</pub-id></element-citation></ref><ref id="pone.0000001-Bicego1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bicego</surname><given-names>KC</given-names></name><name><surname>Branco</surname><given-names>LG</given-names></name></person-group>
+<year>2002</year>
+<article-title>Discrete electrolytic lesion of the preoptic area prevents LPS-induced behavioral fever in toads.</article-title>
+<source>J Exp Biol</source>
+<volume>205</volume>
+<fpage>3513</fpage>
+<lpage>3518</lpage>
+<pub-id pub-id-type="pmid">12364403</pub-id></element-citation></ref><ref id="pone.0000001-Nakamura1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakamura</surname><given-names>K</given-names></name><name><surname>Matsumura</surname><given-names>K</given-names></name><name><surname>Kaneko</surname><given-names>T</given-names></name><name><surname>Kobayashi</surname><given-names>S</given-names></name><name><surname>Katoh</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>The rostral raphe pallidus nucleus mediates pyrogenic transmission from the preoptic area.</article-title>
+<source>J Neurosci</source>
+<volume>22</volume>
+<fpage>4600</fpage>
+<lpage>4610</lpage>
+<pub-id pub-id-type="pmid">12040067</pub-id></element-citation></ref><ref id="pone.0000001-Yoshida1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yoshida</surname><given-names>K</given-names></name><name><surname>Nakamura</surname><given-names>K</given-names></name><name><surname>Matsumura</surname><given-names>K</given-names></name><name><surname>Kanosue</surname><given-names>K</given-names></name><name><surname>Konig</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Neurons of the rat preoptic area and the raphe pallidus nucleus innervating the brown adipose tissue express the prostaglandin E receptor subtype EP3.</article-title>
+<source>Eur J Neurosci</source>
+<volume>18</volume>
+<fpage>1848</fpage>
+<lpage>1860</lpage>
+<pub-id pub-id-type="pmid">14622218</pub-id></element-citation></ref><ref id="pone.0000001-Saper1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saper</surname><given-names>CB</given-names></name><name><surname>Breder</surname><given-names>CD</given-names></name></person-group>
+<year>1994</year>
+<article-title>The neurologic basis of fever.</article-title>
+<source>N Engl J Med</source>
+<volume>330</volume>
+<fpage>1880</fpage>
+<lpage>1886</lpage>
+<pub-id pub-id-type="pmid">7832832</pub-id></element-citation></ref><ref id="pone.0000001-Oka1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Oka</surname><given-names>T</given-names></name><name><surname>Oka</surname><given-names>K</given-names></name><name><surname>Scammell</surname><given-names>TE</given-names></name><name><surname>Lee</surname><given-names>C</given-names></name><name><surname>Kelly</surname><given-names>JF</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Relationship of EP(1&#x02013;4) prostaglandin receptors with rat hypothalamic cell groups involved in lipopolysaccharide fever responses.</article-title>
+<source>J Comp Neurol</source>
+<volume>428</volume>
+<fpage>20</fpage>
+<lpage>32</lpage>
+<pub-id pub-id-type="pmid">11058222</pub-id></element-citation></ref><ref id="pone.0000001-Lipton1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lipton</surname><given-names>JM</given-names></name><name><surname>Dwyer</surname><given-names>PE</given-names></name><name><surname>Fossler</surname><given-names>DE</given-names></name></person-group>
+<year>1974</year>
+<article-title>Effects of brainstem lesions on temperature regulation in hot and cold environments.</article-title>
+<source>Am J Physiol</source>
+<volume>226</volume>
+<fpage>1356</fpage>
+<lpage>1365</lpage>
+<pub-id pub-id-type="pmid">4833992</pub-id></element-citation></ref><ref id="pone.0000001-Satinoff1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Satinoff</surname><given-names>E</given-names></name><name><surname>Valentino</surname><given-names>D</given-names></name><name><surname>Teitelbaum</surname><given-names>P</given-names></name></person-group>
+<year>1976</year>
+<article-title>Thermoregulatory cold-defense deficits in rats with preoptic/anterior hypothalamic lesions.</article-title>
+<source>Brain Res Bull</source>
+<volume>1</volume>
+<fpage>553</fpage>
+<lpage>565</lpage>
+<pub-id pub-id-type="pmid">1021211</pub-id></element-citation></ref><ref id="pone.0000001-VanZoeren1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Van Zoeren</surname><given-names>JG</given-names></name><name><surname>Stricker</surname><given-names>EM</given-names></name></person-group>
+<year>1976</year>
+<article-title>Thermal homeostasis in rats after intrahypothalamic injections of 6-hyroxydopamine.</article-title>
+<source>Am J Physiol</source>
+<volume>230</volume>
+<fpage>932</fpage>
+<lpage>939</lpage>
+<pub-id pub-id-type="pmid">1267027</pub-id></element-citation></ref><ref id="pone.0000001-Schulze1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schulze</surname><given-names>G</given-names></name><name><surname>Tetzner</surname><given-names>M</given-names></name><name><surname>Topolinski</surname><given-names>H</given-names></name></person-group>
+<year>1981</year>
+<article-title>Operant thermoregulation of rats with anterior hypothalamic lesions.</article-title>
+<source>Naunyn Schmiedebergs Arch Pharmacol</source>
+<volume>318</volume>
+<fpage>43</fpage>
+<lpage>48</lpage>
+<pub-id pub-id-type="pmid">7329450</pub-id></element-citation></ref><ref id="pone.0000001-Carlisle1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carlisle</surname><given-names>HJ</given-names></name></person-group>
+<year>1969</year>
+<article-title>Effect of preoptic and anterior hypothalamic lesions on behavioral thermoregulation in the cold.</article-title>
+<source>J Comp Physiol Psychol</source>
+<volume>69</volume>
+<fpage>391</fpage>
+<lpage>402</lpage>
+<pub-id pub-id-type="pmid">5404472</pub-id></element-citation></ref><ref id="pone.0000001-Nagel1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nagel</surname><given-names>JA</given-names></name><name><surname>Satinoff</surname><given-names>E</given-names></name></person-group>
+<year>1980</year>
+<article-title>Mild cold exposure increases survival in rats with medial preoptic lesions.</article-title>
+<source>Science</source>
+<volume>208</volume>
+<fpage>301</fpage>
+<lpage>303</lpage>
+<pub-id pub-id-type="pmid">7367860</pub-id></element-citation></ref><ref id="pone.0000001-Szymusiak1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Szymusiak</surname><given-names>R</given-names></name><name><surname>Satinoff</surname><given-names>E</given-names></name></person-group>
+<year>1982</year>
+<article-title>Acute thermoregulatory effects of unilateral electrolytic lesions of the medial and lateral preoptic area in rats.</article-title>
+<source>Physiol Behav</source>
+<volume>28</volume>
+<fpage>161</fpage>
+<lpage>170</lpage>
+<pub-id pub-id-type="pmid">7079312</pub-id></element-citation></ref><ref id="pone.0000001-Srividya1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Srividya</surname><given-names>R</given-names></name><name><surname>Mallick</surname><given-names>HN</given-names></name><name><surname>Kumar</surname><given-names>VM</given-names></name></person-group>
+<year>2006</year>
+<article-title>Differences in the effects of medial and lateral preoptic lesions on thermoregulation and sleep in rats.</article-title>
+<source>Neuroscience</source>
+<volume>139</volume>
+<fpage>853</fpage>
+<lpage>864</lpage>
+<pub-id pub-id-type="pmid">16497443</pub-id></element-citation></ref><ref id="pone.0000001-Korneva1"><label>25</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Korneva</surname><given-names>E</given-names></name><name><surname>Efremov</surname><given-names>OM</given-names></name><name><surname>Sorokin</surname><given-names>AV</given-names></name></person-group>
+<year>1992</year>
+<article-title>Central mechanisms of fever.</article-title>
+<person-group person-group-type="editor"><name><surname>Bartfai</surname><given-names>T</given-names></name><name><surname>Ottoson</surname><given-names>D</given-names></name></person-group>
+<source>Neuro-Immunology of Fever.</source>
+<publisher-loc>Oxford</publisher-loc>
+<publisher-name>Pergamon Press</publisher-name>
+<fpage>145</fpage>
+<lpage>154</lpage>
+</element-citation></ref><ref id="pone.0000001-Lu1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lu</surname><given-names>J</given-names></name><name><surname>Zhang</surname><given-names>YH</given-names></name><name><surname>Chou</surname><given-names>TC</given-names></name><name><surname>Gaus</surname><given-names>SE</given-names></name><name><surname>Elmquist</surname><given-names>JK</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Contrasting effects of ibotenate lesions of the paraventricular nucleus and subparaventricular zone on sleep-wake cycle and temperature regulation.</article-title>
+<source>J Neurosci</source>
+<volume>21</volume>
+<fpage>4864</fpage>
+<lpage>4874</lpage>
+<pub-id pub-id-type="pmid">11425913</pub-id></element-citation></ref><ref id="pone.0000001-Caldeira1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Caldeira</surname><given-names>JC</given-names></name><name><surname>Franci</surname><given-names>CR</given-names></name><name><surname>Pela</surname><given-names>IR</given-names></name></person-group>
+<year>1998</year>
+<article-title>Bilateral lesion of hypothalamic paraventricular nucleus abolishes fever induced by endotoxin and bradykinin in rats.</article-title>
+<source>Ann N Y Acad Sci</source>
+<volume>856</volume>
+<fpage>294</fpage>
+<lpage>297</lpage>
+<pub-id pub-id-type="pmid">9917894</pub-id></element-citation></ref><ref id="pone.0000001-Horn1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Horn</surname><given-names>T</given-names></name><name><surname>Wilkinson</surname><given-names>MF</given-names></name><name><surname>Landgraf</surname><given-names>R</given-names></name><name><surname>Pittman</surname><given-names>QJ</given-names></name></person-group>
+<year>1994</year>
+<article-title>Reduced febrile responses to pyrogens after lesions of the hypothalamic paraventricular nucleus.</article-title>
+<source>Am J Physiol</source>
+<volume>267</volume>
+<fpage>R323</fpage>
+<lpage>328</lpage>
+<pub-id pub-id-type="pmid">8048639</pub-id></element-citation></ref><ref id="pone.0000001-Morrison1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morrison</surname><given-names>SF</given-names></name></person-group>
+<year>2004</year>
+<article-title>Central pathways controlling brown adipose tissue thermogenesis.</article-title>
+<source>News Physiol Sci</source>
+<volume>19</volume>
+<fpage>67</fpage>
+<lpage>74</lpage>
+<pub-id pub-id-type="pmid">15016906</pub-id></element-citation></ref><ref id="pone.0000001-DiMicco1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>DiMicco</surname><given-names>JA</given-names></name><name><surname>Samuels</surname><given-names>BC</given-names></name><name><surname>Zaretskaia</surname><given-names>MV</given-names></name><name><surname>Zaretsky</surname><given-names>DV</given-names></name></person-group>
+<year>2002</year>
+<article-title>The dorsomedial hypothalamus and the response to stress: part renaissance, part revolution.</article-title>
+<source>Pharmacol Biochem Behav</source>
+<volume>71</volume>
+<fpage>469</fpage>
+<lpage>480</lpage>
+<pub-id pub-id-type="pmid">11830181</pub-id></element-citation></ref><ref id="pone.0000001-Madden1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Madden</surname><given-names>CJ</given-names></name><name><surname>Morrison</surname><given-names>SF</given-names></name></person-group>
+<year>2004</year>
+<article-title>Excitatory amino acid receptors in the dorsomedial hypothalamus mediate prostaglandin-evoked thermogenesis in brown adipose tissue.</article-title>
+<source>Am J Physiol Regul Integr Comp Physiol</source>
+<volume>286</volume>
+<fpage>R320</fpage>
+<lpage>R325</lpage>
+<pub-id pub-id-type="pmid">14563660</pub-id></element-citation></ref><ref id="pone.0000001-Zaretskaia1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zaretskaia</surname><given-names>MV</given-names></name><name><surname>Zaretsky</surname><given-names>DV</given-names></name><name><surname>DiMicco</surname><given-names>JA</given-names></name></person-group>
+<year>2003</year>
+<article-title>Role of the dorsomedial hypothalamus in thermogenesis and tachycardia caused by microinjection of prostaglandin E2 into the preoptic area in anesthetized rats.</article-title>
+<source>Neurosci Lett</source>
+<volume>340</volume>
+<fpage>1</fpage>
+<lpage>4</lpage>
+<pub-id pub-id-type="pmid">12648744</pub-id></element-citation></ref><ref id="pone.0000001-Maruyama1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maruyama</surname><given-names>M</given-names></name><name><surname>Nishi</surname><given-names>M</given-names></name><name><surname>Konishi</surname><given-names>M</given-names></name><name><surname>Takashige</surname><given-names>Y</given-names></name><name><surname>Nagashima</surname><given-names>K</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Brain regions expressing Fos during thermoregulatory behavior in rats.</article-title>
+<source>Am J Physiol Regul Integr Comp Physiol</source>
+<volume>285</volume>
+<fpage>R1116</fpage>
+<lpage>R1123</lpage>
+<pub-id pub-id-type="pmid">12893652</pub-id></element-citation></ref><ref id="pone.0000001-Scammell1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Scammell</surname><given-names>TE</given-names></name><name><surname>Elmquist</surname><given-names>JK</given-names></name><name><surname>Griffin</surname><given-names>JD</given-names></name><name><surname>Saper</surname><given-names>CB</given-names></name></person-group>
+<year>1996</year>
+<article-title>Ventromedial preoptic prostaglandin E<sub>2</sub> activates fever-producing autonomic pathways.</article-title>
+<source>J Neurosci</source>
+<volume>16</volume>
+<fpage>6246</fpage>
+<lpage>6254</lpage>
+<pub-id pub-id-type="pmid">8815905</pub-id></element-citation></ref><ref id="pone.0000001-Nakamura2"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakamura</surname><given-names>Y</given-names></name><name><surname>Nakamura</surname><given-names>K</given-names></name><name><surname>Matsumura</surname><given-names>K</given-names></name><name><surname>Kobayashi</surname><given-names>S</given-names></name><name><surname>Kaneko</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Direct pyrogenic input from prostaglandin EP3 receptor-expressing preoptic neurons to the dorsomedial hypothalamus.</article-title>
+<source>Eur J Neurosci</source>
+<volume>22</volume>
+<fpage>3137</fpage>
+<lpage>3146</lpage>
+<pub-id pub-id-type="pmid">16367780</pub-id></element-citation></ref><ref id="pone.0000001-Lipton2"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lipton</surname><given-names>JM</given-names></name><name><surname>Trzcinka</surname><given-names>GP</given-names></name></person-group>
+<year>1976</year>
+<article-title>Persistence of febrile response to pyrogens after PO/AH lesions in squirrel monkeys.</article-title>
+<source>Am J Physiol</source>
+<volume>231</volume>
+<fpage>1638</fpage>
+<lpage>1648</lpage>
+<pub-id pub-id-type="pmid">827212</pub-id></element-citation></ref><ref id="pone.0000001-Szallasi1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Szallasi</surname><given-names>A</given-names></name><name><surname>Blumberg</surname><given-names>PM</given-names></name></person-group>
+<year>1989</year>
+<article-title>Resiniferatoxin, a phorbol-related diterpene, acts as an ultrapotent analog of capsaicin, the irritant constituent in red pepper.</article-title>
+<source>Neuroscience</source>
+<volume>30</volume>
+<fpage>515</fpage>
+<lpage>520</lpage>
+<pub-id pub-id-type="pmid">2747924</pub-id></element-citation></ref><ref id="pone.0000001-Caterina1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Caterina</surname><given-names>MJ</given-names></name><name><surname>Julius</surname><given-names>D</given-names></name></person-group>
+<year>2001</year>
+<article-title>The vanilloid receptor: a molecular gateway to the pain pathway.</article-title>
+<source>Annu Rev Neurosci</source>
+<volume>24</volume>
+<fpage>487</fpage>
+<lpage>517</lpage>
+<pub-id pub-id-type="pmid">11283319</pub-id></element-citation></ref><ref id="pone.0000001-Patapoutian1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Patapoutian</surname><given-names>A</given-names></name><name><surname>Peier</surname><given-names>AM</given-names></name><name><surname>Story</surname><given-names>GM</given-names></name><name><surname>Viswanath</surname><given-names>V</given-names></name></person-group>
+<year>2003</year>
+<article-title>ThermoTRP channels and beyond: mechanisms of temperature sensation.</article-title>
+<source>Nat Rev Neurosci</source>
+<volume>4</volume>
+<fpage>529</fpage>
+<lpage>539</lpage>
+<pub-id pub-id-type="pmid">12838328</pub-id></element-citation></ref><ref id="pone.0000001-Peier1"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Peier</surname><given-names>AM</given-names></name><name><surname>Moqrich</surname><given-names>A</given-names></name><name><surname>Hergarden</surname><given-names>AC</given-names></name><name><surname>Reeve</surname><given-names>AJ</given-names></name><name><surname>Andersson</surname><given-names>DA</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>A TRP channel that senses cold stimuli and menthol.</article-title>
+<source>Cell</source>
+<volume>108</volume>
+<fpage>705</fpage>
+<lpage>715</lpage>
+<pub-id pub-id-type="pmid">11893340</pub-id></element-citation></ref><ref id="pone.0000001-Lee1"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>H</given-names></name><name><surname>Iida</surname><given-names>T</given-names></name><name><surname>Mizuno</surname><given-names>A</given-names></name><name><surname>Suzuki</surname><given-names>M</given-names></name><name><surname>Caterina</surname><given-names>MJ</given-names></name></person-group>
+<year>2005</year>
+<article-title>Altered thermal selection behavior in mice lacking transient receptor potential vanilloid 4.</article-title>
+<source>J Neurosci</source>
+<volume>25</volume>
+<fpage>1304</fpage>
+<lpage>1310</lpage>
+<pub-id pub-id-type="pmid">15689568</pub-id></element-citation></ref><ref id="pone.0000001-Moqrich1"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moqrich</surname><given-names>A</given-names></name><name><surname>Hwang</surname><given-names>SW</given-names></name><name><surname>Earley</surname><given-names>TJ</given-names></name><name><surname>Petrus</surname><given-names>MJ</given-names></name><name><surname>Murray</surname><given-names>AN</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Impaired thermosensation in mice lacking TRPV3, a heat and camphor sensor in the skin.</article-title>
+<source>Science</source>
+<volume>307</volume>
+<fpage>1468</fpage>
+<lpage>1472</lpage>
+<pub-id pub-id-type="pmid">15746429</pub-id></element-citation></ref><ref id="pone.0000001-Rosenzweig1"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rosenzweig</surname><given-names>M</given-names></name><name><surname>Brennan</surname><given-names>KM</given-names></name><name><surname>Tayler</surname><given-names>TD</given-names></name><name><surname>Phelps</surname><given-names>PO</given-names></name><name><surname>Patapoutian</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>The Drosophila ortholog of vertebrate TRPA1 regulates thermotaxis.</article-title>
+<source>Genes Dev</source>
+<volume>19</volume>
+<fpage>419</fpage>
+<lpage>424</lpage>
+<pub-id pub-id-type="pmid">15681611</pub-id></element-citation></ref><ref id="pone.0000001-Roberts2"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roberts</surname><given-names>WW</given-names></name><name><surname>Martin</surname><given-names>JR</given-names></name></person-group>
+<year>1977</year>
+<article-title>Effects of lesions in central thermosensitive areas on thermoregulatory responses in rat.</article-title>
+<source>Physiol Behav</source>
+<volume>19</volume>
+<fpage>503</fpage>
+<lpage>511</lpage>
+<pub-id pub-id-type="pmid">613343</pub-id></element-citation></ref><ref id="pone.0000001-Satinoff2"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Satinoff</surname><given-names>E</given-names></name><name><surname>Rutstein</surname><given-names>J</given-names></name></person-group>
+<year>1970</year>
+<article-title>Behavioral thermoregulation in rats with anterior hypothalamic lesions.</article-title>
+<source>J Comp Physiol Psychol</source>
+<volume>71</volume>
+<fpage>77</fpage>
+<lpage>82</lpage>
+<pub-id pub-id-type="pmid">5452104</pub-id></element-citation></ref><ref id="pone.0000001-Lipton3"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lipton</surname><given-names>J</given-names></name></person-group>
+<year>1968</year>
+<article-title>Effects of preoptic lesions on heat-escape responding and colonic temperature in the rat.</article-title>
+<source>Physiology &#x00026; Behavior</source>
+<volume>3</volume>
+<fpage>165</fpage>
+<lpage>169</lpage>
+</element-citation></ref><ref id="pone.0000001-Romanovsky5"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Romanovsky</surname><given-names>AA</given-names></name><name><surname>Ivanov</surname><given-names>AI</given-names></name><name><surname>Shimansky</surname><given-names>YP</given-names></name></person-group>
+<year>2002</year>
+<article-title>Selected contribution: ambient temperature for experiments in rats: a new method for determining the zone of thermal neutrality.</article-title>
+<source>J Appl Physiol</source>
+<volume>92</volume>
+<fpage>2667</fpage>
+<lpage>2679</lpage>
+<pub-id pub-id-type="pmid">12015388</pub-id></element-citation></ref><ref id="pone.0000001-Szekely1"><label>48</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Szekely</surname><given-names>M</given-names></name><name><surname>Szelenyi</surname><given-names>Z</given-names></name></person-group>
+<year>1979</year>
+<article-title>Endotoxin fever in the rat.</article-title>
+<source>Acta Physiol Acad Sci Hung</source>
+<volume>53</volume>
+<fpage>265</fpage>
+<lpage>277</lpage>
+<pub-id pub-id-type="pmid">396758</pub-id></element-citation></ref><ref id="pone.0000001-Crawshaw1"><label>49</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Crawshaw</surname><given-names>LI</given-names></name><name><surname>Stitt</surname><given-names>JT</given-names></name></person-group>
+<year>1975</year>
+<article-title>Behavioural and autonomic induction of prostaglandin E<sub>1</sub> fever in squirrel monkeys.</article-title>
+<source>J Physiol</source>
+<volume>244</volume>
+<fpage>197</fpage>
+<lpage>206</lpage>
+<pub-id pub-id-type="pmid">804544</pub-id></element-citation></ref><ref id="pone.0000001-Yoshimatsu1"><label>50</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yoshimatsu</surname><given-names>H</given-names></name><name><surname>Egawa</surname><given-names>M</given-names></name><name><surname>Bray</surname><given-names>GA</given-names></name></person-group>
+<year>1993</year>
+<article-title>Sympathetic nerve activity after discrete hypothalamic injections of L-glutamate.</article-title>
+<source>Brain Res</source>
+<volume>601</volume>
+<fpage>121</fpage>
+<lpage>128</lpage>
+<pub-id pub-id-type="pmid">8094312</pub-id></element-citation></ref><ref id="pone.0000001-Amir1"><label>51</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Amir</surname><given-names>S</given-names></name></person-group>
+<year>1990</year>
+<article-title>Stimulation of the paraventricular nucleus with glutamate activates interscapular brown adipose tissue thermogenesis in rats.</article-title>
+<source>Brain Res</source>
+<volume>508</volume>
+<fpage>152</fpage>
+<lpage>155</lpage>
+<pub-id pub-id-type="pmid">1970942</pub-id></element-citation></ref><ref id="pone.0000001-Sakaguchi1"><label>52</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sakaguchi</surname><given-names>T</given-names></name><name><surname>Bray</surname><given-names>GA</given-names></name><name><surname>Eddlestone</surname><given-names>G</given-names></name></person-group>
+<year>1988</year>
+<article-title>Sympathetic activity following paraventricular or ventromedial hypothalamic lesions in rats.</article-title>
+<source>Brain Res Bull</source>
+<volume>20</volume>
+<fpage>461</fpage>
+<lpage>465</lpage>
+<pub-id pub-id-type="pmid">3293706</pub-id></element-citation></ref><ref id="pone.0000001-Jarrard1"><label>53</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jarrard</surname><given-names>LE</given-names></name></person-group>
+<year>1989</year>
+<article-title>On the use of ibotenic acid to lesion selectively different components of the hippocampal formation.</article-title>
+<source>J Neurosci Methods</source>
+<volume>29</volume>
+<fpage>251</fpage>
+<lpage>259</lpage>
+<pub-id pub-id-type="pmid">2477650</pub-id></element-citation></ref><ref id="pone.0000001-deMenezes1"><label>54</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>de Menezes</surname><given-names>RC</given-names></name><name><surname>Zaretsky</surname><given-names>DV</given-names></name><name><surname>Fontes</surname><given-names>MA</given-names></name><name><surname>Dimicco</surname><given-names>JA</given-names></name></person-group>
+<year>2006</year>
+<article-title>Microinjection of muscimol into caudal periaqueductal gray lowers body temperature and attenuates increases in temperature and activity evoked from the dorsomedial hypothalamus.</article-title>
+<source>Brain Res</source>
+<volume>1092</volume>
+<fpage>129</fpage>
+<lpage>137</lpage>
+<pub-id pub-id-type="pmid">16677620</pub-id></element-citation></ref><ref id="pone.0000001-terHorst1"><label>55</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>ter Horst</surname><given-names>GJ</given-names></name><name><surname>Luiten</surname><given-names>PG</given-names></name></person-group>
+<year>1986</year>
+<article-title>The projections of the dorsomedial hypothalamic nucleus in the rat.</article-title>
+<source>Brain Res Bull</source>
+<volume>16</volume>
+<fpage>231</fpage>
+<lpage>248</lpage>
+<pub-id pub-id-type="pmid">3697791</pub-id></element-citation></ref><ref id="pone.0000001-Lovick1"><label>56</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lovick</surname><given-names>TA</given-names></name></person-group>
+<year>1993</year>
+<article-title>The periaqueductal gray-rostral medulla connection in the defence reaction: efferent pathways and descending control mechanisms.</article-title>
+<source>Behav Brain Res</source>
+<volume>58</volume>
+<fpage>19</fpage>
+<lpage>25</lpage>
+<pub-id pub-id-type="pmid">8136045</pub-id></element-citation></ref><ref id="pone.0000001-Jhou1"><label>57</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jhou</surname><given-names>T</given-names></name></person-group>
+<year>2005</year>
+<article-title>Neural mechanisms of freezing and passive aversive behaviors.</article-title>
+<source>J Comp Neurol</source>
+<volume>493</volume>
+<fpage>111</fpage>
+<lpage>114</lpage>
+<pub-id pub-id-type="pmid">16254996</pub-id></element-citation></ref><ref id="pone.0000001-Craig1"><label>58</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Craig</surname><given-names>AD</given-names></name></person-group>
+<year>2002</year>
+<article-title>How do you feel? Interoception: the sense of the physiological condition of the body.</article-title>
+<source>Nat Rev Neurosci</source>
+<volume>3</volume>
+<fpage>655</fpage>
+<lpage>666</lpage>
+<pub-id pub-id-type="pmid">12154366</pub-id></element-citation></ref><ref id="pone.0000001-Craig2"><label>59</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Craig</surname><given-names>AD</given-names></name></person-group>
+<year>2003</year>
+<article-title>Interoception: the sense of the physiological condition of the body.</article-title>
+<source>Curr Opin Neurobiol</source>
+<volume>13</volume>
+<fpage>500</fpage>
+<lpage>505</lpage>
+<pub-id pub-id-type="pmid">12965300</pub-id></element-citation></ref><ref id="pone.0000001-Moga1"><label>60</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moga</surname><given-names>MM</given-names></name><name><surname>Herbert</surname><given-names>H</given-names></name><name><surname>Hurley</surname><given-names>KM</given-names></name><name><surname>Yasui</surname><given-names>Y</given-names></name><name><surname>Gray</surname><given-names>TS</given-names></name><etal/></person-group>
+<year>1990</year>
+<article-title>Organization of cortical, basal forebrain, and hypothalamic afferents to the parabrachial nucleus in the rat.</article-title>
+<source>J Comp Neurol</source>
+<volume>295</volume>
+<fpage>624</fpage>
+<lpage>661</lpage>
+<pub-id pub-id-type="pmid">1694187</pub-id></element-citation></ref><ref id="pone.0000001-Thompson1"><label>61</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thompson</surname><given-names>RH</given-names></name><name><surname>Canteras</surname><given-names>NS</given-names></name><name><surname>Swanson</surname><given-names>LW</given-names></name></person-group>
+<year>1996</year>
+<article-title>Organization of projections from the dorsomedial nucleus of the hypothalamus: a PHA-L study in the rat.</article-title>
+<source>J Comp Neurol</source>
+<volume>376</volume>
+<fpage>143</fpage>
+<lpage>173</lpage>
+<pub-id pub-id-type="pmid">8946289</pub-id></element-citation></ref><ref id="pone.0000001-Allen1"><label>62</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Allen</surname><given-names>GV</given-names></name><name><surname>Cechetto</surname><given-names>DF</given-names></name></person-group>
+<year>1992</year>
+<article-title>Functional and anatomical organization of cardiovascular pressor and depressor sites in the lateral hypothalamic area: I. Descending projections.</article-title>
+<source>J Comp Neurol</source>
+<volume>315</volume>
+<fpage>313</fpage>
+<lpage>332</lpage>
+<pub-id pub-id-type="pmid">1740546</pub-id></element-citation></ref><ref id="pone.0000001-Saper2"><label>63</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saper</surname><given-names>CB</given-names></name></person-group>
+<year>1985</year>
+<article-title>Organization of cerebral cortical afferent systems in the rat. II. Hypothalamocortical projections.</article-title>
+<source>J Comp Neurol</source>
+<volume>237</volume>
+<fpage>21</fpage>
+<lpage>46</lpage>
+<pub-id pub-id-type="pmid">2995455</pub-id></element-citation></ref><ref id="pone.0000001-Onat1"><label>64</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Onat</surname><given-names>FY</given-names></name><name><surname>Aker</surname><given-names>R</given-names></name><name><surname>Sehirli</surname><given-names>U</given-names></name><name><surname>San</surname><given-names>T</given-names></name><name><surname>Cavdar</surname><given-names>S</given-names></name></person-group>
+<year>2002</year>
+<article-title>Connections of the dorsomedial hypothalamic nucleus from the forebrain structures in the rat.</article-title>
+<source>Cells Tissues Organs</source>
+<volume>172</volume>
+<fpage>48</fpage>
+<lpage>52</lpage>
+<pub-id pub-id-type="pmid">12364828</pub-id></element-citation></ref><ref id="pone.0000001-Phelps1"><label>65</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Phelps</surname><given-names>EA</given-names></name><name><surname>LeDoux</surname><given-names>JE</given-names></name></person-group>
+<year>2005</year>
+<article-title>Contributions of the amygdala to emotion processing: from animal models to human behavior.</article-title>
+<source>Neuron</source>
+<volume>48</volume>
+<fpage>175</fpage>
+<lpage>187</lpage>
+<pub-id pub-id-type="pmid">16242399</pub-id></element-citation></ref><ref id="pone.0000001-Heimer1"><label>66</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heimer</surname><given-names>L</given-names></name><name><surname>Van Hoesen</surname><given-names>GW</given-names></name></person-group>
+<year>2006</year>
+<article-title>The limbic lobe and its output channels: implications for emotional functions and adaptive behavior.</article-title>
+<source>Neurosci Biobehav Rev</source>
+<volume>30</volume>
+<fpage>126</fpage>
+<lpage>147</lpage>
+<pub-id pub-id-type="pmid">16183121</pub-id></element-citation></ref><ref id="pone.0000001-Gallagher1"><label>67</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gallagher</surname><given-names>M</given-names></name><name><surname>Chiba</surname><given-names>AA</given-names></name></person-group>
+<year>1996</year>
+<article-title>The amygdala and emotion.</article-title>
+<source>Curr Opin Neurobiol</source>
+<volume>6</volume>
+<fpage>221</fpage>
+<lpage>227</lpage>
+<pub-id pub-id-type="pmid">8725964</pub-id></element-citation></ref><ref id="pone.0000001-Roberts3"><label>68</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roberts</surname><given-names>WW</given-names></name><name><surname>Mooney</surname><given-names>RD</given-names></name></person-group>
+<year>1974</year>
+<article-title>Brain areas controlling thermoregulatory grooming, prone extension, locomotion, and tail vasodilation in rats.</article-title>
+<source>J Comp Physiol Psychol</source>
+<volume>86</volume>
+<fpage>470</fpage>
+<lpage>480</lpage>
+<pub-id pub-id-type="pmid">4592495</pub-id></element-citation></ref><ref id="pone.0000001-Thompson2"><label>69</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thompson</surname><given-names>RH</given-names></name><name><surname>Swanson</surname><given-names>LW</given-names></name></person-group>
+<year>1998</year>
+<article-title>Organization of inputs to the dorsomedial nucleus of the hypothalamus: a reexamination with Fluorogold and PHAL in the rat.</article-title>
+<source>Brain Res Rev</source>
+<volume>27</volume>
+<fpage>89</fpage>
+<lpage>118</lpage>
+<pub-id pub-id-type="pmid">9622601</pub-id></element-citation></ref><ref id="pone.0000001-Paxinos1"><label>70</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Paxinos</surname><given-names>G</given-names></name><name><surname>Watson</surname><given-names>C</given-names></name></person-group>
+<year>1986</year>
+<source>The Rat Brain in Stereotaxic Coordinates.</source>
+<publisher-loc>San Diego</publisher-loc>
+<publisher-name>Academic Press</publisher-name>
+</element-citation></ref></ref-list></back></article>

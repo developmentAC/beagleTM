@@ -1,0 +1,589 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183721</article-id><article-id pub-id-type="pmc">1762359</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00040R1</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000009</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Developmental Biology</subject><subject>Cell Biology/Cell Adhesion</subject><subject>Cell Biology/Cell Signaling</subject><subject>Cell Biology/Cytoskeleton</subject><subject>Developmental Biology/Cell Differentiation</subject><subject>Developmental Biology/Developmental Molecular Mechanisms</subject><subject>Genetics and Genomics/Cancer Genetics</subject></subj-group></article-categories><title-group><article-title>Wnt, Hedgehog and Junctional Armadillo/&#x003b2;-Catenin Establish Planar Polarity in the <italic>Drosophila</italic> Embryo</article-title><alt-title alt-title-type="running-head">Embryonic Polarity Signaling</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Colosimo</surname><given-names>Pamela F.</given-names></name></contrib><contrib contrib-type="author"><name><surname>Tolwinski</surname><given-names>Nicholas S.</given-names></name><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib><aff>
+<institution>Program in Developmental Biology, Sloan-Kettering Institute, Memorial Sloan-Kettering Cancer Center</institution>
+<addr-line>New York, New York, United States of America</addr-line>
+</aff></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Arias</surname><given-names>Alfonso Martinez</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Cambridge University, United Kingdom</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>tolwinsn@mskcc.org</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: NT PC. Performed the experiments: NT PC. Analyzed the data: NT PC. Contributed reagents/materials/analysis tools: NT PC. Wrote the paper: NT PC</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e9</elocation-id><history><date date-type="received"><day>12</day><month>8</month><year>2006</year></date><date date-type="accepted"><day>13</day><month>8</month><year>2006</year></date></history><permissions><copyright-statement>Colosimo and Tolwinski.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>To generate specialized structures, cells must obtain positional and directional information. In multi-cellular organisms, cells use the non-canonical Wnt or planar cell polarity (PCP) signaling pathway to establish directionality within a cell. In vertebrates, several Wnt molecules have been proposed as permissible polarity signals, but none has been shown to provide a directional cue. While PCP signaling components are conserved from human to fly, no PCP ligands have been reported in <italic>Drosophila</italic>. Here we report that in the epidermis of the <italic>Drosophila</italic> embryo two signaling molecules, Hedgehog (Hh) and Wingless (Wg or Wnt1), provide directional cues that induce the proper orientation of Actin-rich structures in the larval cuticle. We further find that proper polarity in the late embryo also involves the asymmetric distribution and phosphorylation of Armadillo (Arm or &#x003b2;-catenin) at the membrane and that interference with this Arm phosphorylation leads to polarity defects. Our results suggest new roles for Hh and Wg as instructive polarizing cues that help establish directionality within a cell sheet, and a new polarity-signaling role for the membrane fraction of the oncoprotein Arm.</p></abstract><counts><page-count count="13"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Cells in multicellular organisms must establish directionality within the plane of a sheet of cells (planar cell polarity or PCP) in order to form complex structures such as organized wing hairs and photoreceptors in <italic>Drosophila</italic> and hair patterns and inner ear epithelia in vertebrates<xref rid="pone.0000009-Logan1" ref-type="bibr">[1]</xref>&#x02013;<xref rid="pone.0000009-Klein1" ref-type="bibr">[4]</xref>, and yet the signals that initiate PCP remain largely unknown. In vertebrates, Wnt5<xref rid="pone.0000009-Lele1" ref-type="bibr">[5]</xref>, <xref rid="pone.0000009-Westfall1" ref-type="bibr">[6]</xref> and Wnt11<xref rid="pone.0000009-Heisenberg1" ref-type="bibr">[7]</xref>, <xref rid="pone.0000009-Tada1" ref-type="bibr">[8]</xref>, have been proposed as PCP ligands, but they appear to be permissive rather than instructive since their expression patterns do not coincide with the direction of polarization<xref rid="pone.0000009-Klein1" ref-type="bibr">[4]</xref>. In <italic>Caenorhabditis elegans</italic> Wnts have been implicated in cell polarity, both in asymmetric divisions in the early embryo and in the direction of neuronal polarization<xref rid="pone.0000009-Wu1" ref-type="bibr">[9]</xref>&#x02013;<xref rid="pone.0000009-Hilliard1" ref-type="bibr">[11]</xref>. In <italic>Drosophila</italic>, Wnts have largely been excluded from polarity signaling<xref rid="pone.0000009-Veeman1" ref-type="bibr">[2]</xref>, although there is some indication that the canonical Wg and Hh signaling pathways <xref rid="pone.0000009-Hatini1" ref-type="bibr">[12]</xref>, <xref rid="pone.0000009-NussleinVolhard1" ref-type="bibr">[13]</xref> may be involved in determining PCP in the embryonic epidermis<xref rid="pone.0000009-Price1" ref-type="bibr">[14]</xref>.</p><p>Anterior-posterior patterning in the <italic>Drosophila</italic> embryo establishes a segmented body plan<xref rid="pone.0000009-NussleinVolhard1" ref-type="bibr">[13]</xref>. Specification of pattern within segments is controlled by the segment polarity genes, which include the Wnt/Wg and Hh signaling pathways<xref rid="pone.0000009-Hatini1" ref-type="bibr">[12]</xref>. During late embryogenesis, the epidermis secretes a protective cuticle, which has a repeating pattern of ventral structures known as denticles. Through well-established signal transduction pathways<xref rid="pone.0000009-Cadigan1" ref-type="bibr">[15]</xref>&#x02013;<xref rid="pone.0000009-Kalderon1" ref-type="bibr">[17]</xref>, Wg and Hh instruct cell identity within the embryonic epidermis with Wg directing the naked cell fate and Hh determining the cells that will eventually form denticles. These Actin-rich denticles are structures that display a regular arrangement, with some rows pointing anterior and others pointing posterior (<xref ref-type="fig" rid="pone-0000009-g001">Fig. 1A&#x02013;B</xref>), suggesting a highly organized polarity<xref rid="pone.0000009-Hatini1" ref-type="bibr">[12]</xref>, <xref rid="pone.0000009-Price1" ref-type="bibr">[14]</xref>, <xref rid="pone.0000009-Walters1" ref-type="bibr">[18]</xref>, <xref rid="pone.0000009-Bejsovec1" ref-type="bibr">[19]</xref>. The wild-type cuticle pattern consists of 6 rows of cells that secrete Actin protrusions that will become distinct denticles. The shape and size of denticles varies by row<xref rid="pone.0000009-Bejsovec1" ref-type="bibr">[19]</xref> and is determined by subsequent EGFR and Notch signaling in later stages<xref rid="pone.0000009-Hatini1" ref-type="bibr">[12]</xref>, <xref rid="pone.0000009-Szuts1" ref-type="bibr">[20]</xref>, <xref rid="pone.0000009-Walters2" ref-type="bibr">[21]</xref>.</p><fig id="pone-0000009-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000009.g001</object-id><label>Figure 1</label><caption><title>Signaling at the membrane through Arm phosphorylation.</title><p>A, Schematic of side (left) and top (right) views of one parasegment of the epidermis of a <italic>Drosophila</italic> embryo.</p><p>Six cells produce denticles; two point anteriorly and four point posteriorly.</p><p>Hh-producing cells are green, Wg-producing cells are red, and the extent of their signaling domains are shown by the corresponding color arrows.</p><p>B&#x02013;M, Phase contrast views of embryos (ventral is up and anterior is left).</p><p>B, Wild-type denticle pattern. C, <italic>arm<sup>O43A01</sup></italic> (M/Z) mutant disintegrates due to a lack of epithelial integrity as cellular junctions deteriorate<xref rid="pone.0000009-Tolwinski1" ref-type="bibr">[29]</xref>, <xref rid="pone.0000009-Harris1" ref-type="bibr">[70]</xref>.</p><p>D, Low levels of expression of Arm<sup>AA</sup> using the Mat15-GAL4 driver restores some epithelial integrity in an <italic>arm<sup>O43A01</sup></italic> (M/Z) mutant.</p><p>E, Strong expression of an &#x003b1;-catenin/E-cadherin fusion protein rescues the <italic>arm<sup>O43A01</sup></italic> (M/Z) mutant to a similar level (Notice that different drivers were used between D and E to obtain a similar phenotype).</p><p>F and G, Stronger expression of Arm<sup>AA</sup> using the Arm-GAL4 and Mat15-GAL4 drivers rescues most epithelial integrity, but leads to disorganization of denticle polarity.</p><p>Naked cuticle regions (arrows), show activation of Wg signaling, but many denticles point toward or away from the midline, a phenotype not seen in wild-type or other <italic>arm</italic> mutants.</p><p>H, Expression of Arm<sup>AA</sup> in <italic>arm<sup>XM19</sup></italic> (M/Z) mutants leads to an almost wild-type phenotype.</p><p>I, <italic>arm<sup>XM19</sup></italic> (M/Z) mutants lose all naked cuticle regions, but retain epidermal integrity and some denticle organization.</p><p>J, <italic>arm<sup>F1A</sup></italic> (M/Z) mutants lose naked cuticle, but retain denticle organization.</p><p>K, Expression of Arm<sup>AA</sup> in <italic>arm<sup>XM19</sup></italic>, <italic>zw3</italic> (M/Z) mutants leads to uniform activation of Wg signaling and a completely naked cuticle.</p><p>L, <italic>arm<sup>XM19</sup></italic>, <italic>zw3</italic> (M/Z) mutant phenotype is indistinguishable from <italic>arm<sup>XM19</sup></italic>.</p><p>M, <italic>zw3</italic> (M/Z) cuticle is naked due to uniform activation of Wg signaling.</p></caption><graphic xlink:href="pone.0000009.g001"/></fig><p>Arm protein is both the major nuclear effector of Wg signaling and a major component of adherens junctions. Adherens junctions provide much of the cell-cell adhesion in epithelia through the transmembrane Cadherin molecules, which establish a physical link between cells. The intracellular domain of Cadherins recruits &#x003b2;-catenin, which in turn recruits &#x003b1;-catenin, thereby linking the transmembrane junctions to the Actin cytoskeleton<xref rid="pone.0000009-Gates1" ref-type="bibr">[22]</xref>&#x02013;<xref rid="pone.0000009-Yamada1" ref-type="bibr">[24]</xref>. The mechanisms that control the stability of the junction are not well understood. The dissociation of cellular junctions is a process that is directly involved in the transformation of epithelial cells from bound within a cell sheet to migratory or metastatic. Because of this important role in cancer biology, many studies have investigated the link between phosphorylation of &#x003b2;-catenin and the dissociation of adherens junctions especially the roles of the EGF pathway and the oncogene Src (reviewed in <xref rid="pone.0000009-Gumbiner1" ref-type="bibr">[25]</xref>, <xref rid="pone.0000009-Nelson1" ref-type="bibr">[26]</xref>). The role of Arm tyrosine phosphorylation, however, remains controversial, since a recent study showed that tyrosine phosphorylation of Arm is dispensable in various developmental processes of <italic>Drosophila</italic> oogenesis<xref rid="pone.0000009-Pacquelet1" ref-type="bibr">[27]</xref>. Our findings suggest that there is an <italic>in vivo</italic> requirement for threonine phosphorylation of Arm that regulates Arm at the adherens junction. This threonine phosphorylation is thought to stabilize the interaction between &#x003b1;- and &#x003b2;-catenin, thereby leading to stabilization of cellular junctions<xref rid="pone.0000009-Bek1" ref-type="bibr">[28]</xref>. Mutation of these sites increases a cell's migratory potential suggesting that adhesion strength is reduced<xref rid="pone.0000009-Bek1" ref-type="bibr">[28]</xref>. CKII is a member of the Wnt signal transduction pathway<xref rid="pone.0000009-Logan1" ref-type="bibr">[1]</xref> suggesting that regulation of its activity could regulate threonine phosphorylation of &#x003b2;-catenin allowing for an extracelluloar ligand to modulate adhesion.</p><p>The polarized organization of the epidermis of <italic>Drosophila</italic> larvae prompted our investigation of how the Hh and Wg signaling pathways and their components are involved in this polarity. Here we demonstrate that Hh and Wg ligands provide opposing, instructive signals for the orientation of denticles. By genetically manipulating the direction of ligand expression in relatively na&#x000ef;ve epithelia, we observe a rotation of polarity consistent with the direction of ligand expression. Further, we find a phosphorylation-dependent role for Arm in the establishment of planar polarity through its function in the polarized subcellular localization of denticle precursors. These results identify new roles for Wg, Hh, and Arm in organizing PCP in embryonic epithelia.</p></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>Armadillo in junctions and polarity</title><p>The classical view of Arm is that it has two non-overlapping functions as a nuclear transcriptional activator of Wg signaling and as a structural component of adherens junctions. These two functions give two different phenotypes in <italic>Drosophila</italic> embryos where loss of junctions leads to cuticle disintegration and loss of nuclear signaling leads to patterning defects (compare <xref ref-type="fig" rid="pone-0000009-g001">Fig. 1 C to I</xref>). Many studies, however, have suggested the possibility that Arm's activity at the junction is also actively regulated by signaling, meaning that junctional Arm is not exclusively a static structural component<xref rid="pone.0000009-Nelson1" ref-type="bibr">[26]</xref>. To test this hypothesis, we mutated two threonines to alanines in Arm (T111A and T121A, hereafter referred to as Arm<sup>AA</sup>) that are required <italic>in vitro</italic> to stabilize its binding to &#x003b1;-catenin<xref rid="pone.0000009-Bek1" ref-type="bibr">[28]</xref>. We looked at <italic>Drosophila</italic> cuticles to analyze the effect of Arm<sup>AA</sup> on both the adherens junctions and on Wg signaling in the nucleus. In strong loss-of-function <italic>arm<sup>O43A01</sup></italic> maternal and zygotic (M/Z) mutants (hereafter referred to as <italic>arm<sup>O43A01</sup></italic> (M/Z)) no intact cuticle is made because loss of Arm leads to a drastic loss of cell-cell adhesion in the epidermis. <italic>arm<sup>O43A01</sup></italic> (M/Z) embryos eventually disintegrate and only small pieces of tissue remain (<xref ref-type="fig" rid="pone-0000009-g001">Fig. 1C</xref>). We found that low levels of Arm<sup>AA</sup> expression restored some cuticular integrity that is completely lost in <italic>arm<sup>O43A01</sup></italic> (M/Z) embryos, suggesting restoration of some cell-cell adhesion in the epidermis (<xref ref-type="fig" rid="pone-0000009-g001">Fig. 1D</xref>)<xref rid="pone.0000009-Tolwinski1" ref-type="bibr">[29]</xref>.</p><p>This phenotype was similar to expression of an &#x003b1;-catenin/E-cadherin fusion protein in <italic>arm<sup>O43A01</sup></italic> (M/Z) mutants, which restores adherens junctions by bypassing the need for Arm to bridge the &#x003b1;-catenin and E-cadherin interaction. However, expression of this fusion protein does not restore Arm's nuclear signaling function as indicated by a lack of anterior-posterior patterning, or more specifically, a loss of naked cuticle and a lawn of denticles phenotype<xref rid="pone.0000009-Dumstrei1" ref-type="bibr">[30]</xref> (<xref ref-type="fig" rid="pone-0000009-g001">Fig. 1D and E</xref>). Increasing Arm<sup>AA</sup> expression levels restored some nuclear Wg signaling activity, as indicated by partial restoration of anterior-posterior patterning, which is shown here by the presence of both naked cuticle and cuticle with denticles (<xref ref-type="fig" rid="pone-0000009-g001">Fig. 1F and 1G</xref>). More importantly, increased Arm<sup>AA</sup> expression revealed a striking new phenotype characterized by the random polarization of denticles (<xref ref-type="fig" rid="pone-0000009-g002">Fig. 2C</xref>). Previously observed <italic>arm</italic> loss-of-function phenotypes do not appear to have this level of denticle disorganization (<xref ref-type="fig" rid="pone-0000009-g001">Fig. 1I&#x02013;J</xref>, <xref ref-type="fig" rid="pone-0000009-g002">Fig. 2B</xref>, and <xref ref-type="table" rid="pone-0000009-t001">Table 1</xref>). Two pieces of evidence indicated that this denticle disorganization phenotype was due to a lack of functional Arm at the adherens junction, and that Arm<sup>AA</sup> was competent to transduce the Wg signal in the nucleus. First, in <italic>arm<sup>XM19</sup></italic> (M/Z) mutants, the truncated Arm<sup>XM19</sup> protein does not activate the Wg signal in the nucleus, but does retain function in the adherens junction<xref rid="pone.0000009-Peifer1" ref-type="bibr">[31]</xref>. Expression of Arm<sup>AA</sup> in <italic>arm<sup>XM19</sup></italic> (M/Z) mutants lead to an essentially wild-type cuticle in terms of both patterning and denticle organization, (<xref ref-type="fig" rid="pone-0000009-g001">Fig. 1H and I</xref>) indicating that Arm<sup>AA</sup> must fulfill the required role of Arm in transducing the nuclear Wg signal. Second, Arm<sup>AA</sup> must be competent in transducing the nuclear Wg signal, because a drastic increase in its levels through the removal of the negative Wg pathway regulator <italic>zw3</italic> (in addition to loss of endogenous <italic>arm</italic> function, or an <italic>arm<sup>XM19</sup>, zw3</italic> (M/Z) double mutant) leads to a completely naked cuticle, a hallmark of constitutive Wg signaling activation (<xref ref-type="fig" rid="pone-0000009-g001">Fig. 1K&#x02013;M</xref>)<xref rid="pone.0000009-Tolwinski1" ref-type="bibr">[29]</xref>. Therefore, we conclude that phosphorylation of T111 and T121 in Arm is likely to be required for the proper function of Arm at the adherens junction, but not in the nucleus, and perturbation of this phosphorylation leads to disorganized planar polarity of the denticles.</p><fig id="pone-0000009-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000009.g002</object-id><label>Figure 2</label><caption><title>Novel phenotype of Arm<sup>AA</sup> where the planar organization of denticles is disrupted.</title><p>A&#x02013;C, Denticles are colored as follows: those pointing anteriorly are red, posteriorly are green, to the top of the page are blue, and to the bottom of the page are orange.</p><p>A, Wild-type parasegment showing denticle polarity.</p><p>Almost no denticles point incorrectly (i.e. those that are colored blue or orange).</p><p>B, <italic>arm<sup>F1A</sup></italic> M/Z mutant shows a slight increase in denticles that point incorrectly.</p><p>C, Approximately half of the denticles in an <italic>arm<sup>O43A01</sup></italic> (M/Z) mutant expressing Arm<sup>AA</sup> point incorrectly (i.e. there is an approximately equal number of denticles in each of the four colors).</p></caption><graphic xlink:href="pone.0000009.g002"/></fig><table-wrap id="pone-0000009-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000009.t001</object-id><label>Table 1</label><caption><title>Quantitative Assessment of Denticle Polarity.</title></caption><graphic xlink:href="pone.0000009.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Genotype</td><td align="left" rowspan="1" colspan="1">Mean Percent of Denticles Correctly Polarized</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>O43A01</sup></italic> (M/Z); arm-GAL4; UAS- Arm<sup>AA</sup> (n&#x0200a;=&#x0200a;4)</td><td align="left" rowspan="1" colspan="1">48.0&#x000b1;5.6</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>F1a</sup></italic> (M/Z) (n&#x0200a;=&#x0200a;4)</td><td align="left" rowspan="1" colspan="1">85.5&#x000b1;1.8</td></tr><tr><td align="left" rowspan="1" colspan="1">wild-type (n&#x0200a;=&#x0200a;4)</td><td align="left" rowspan="1" colspan="1">94.5&#x000b1;1.5</td></tr></tbody></table></table-wrap><p>To further demonstrate that this disorganized denticle phenotype was a defect in planar organization; we compared the orientation of denticles in various genotypes. As described above, wild-type denticles are highly organized and almost always point toward the anterior or posterior of the embryo (<xref ref-type="fig" rid="pone-0000009-g001">Fig. 1B</xref> and <xref ref-type="fig" rid="pone-0000009-g002">2A</xref>). Therefore, denticles that point away or toward the midline (the dorso-ventral direction) are mispatterned. We approached this problem both qualitatively by scoring the phenotype (<xref ref-type="fig" rid="pone-0000009-g002">Fig. 2</xref> shows denticles colored according to their orientation with blue and orange representing D/V oriented denticles; <xref ref-type="table" rid="pone-0000009-t002">Table 2:</xref> 1&#x02013;12 offers a summary of various genotypes scored qualitatively) and quantitatively by counting denticles that are mispolarized (<xref ref-type="table" rid="pone-0000009-t001">Table 1</xref>). These experiments showed that in wild-type and weak <italic>arm</italic> loss-of-function mutants, most denticles point correctly (94.5&#x000b1;1.5&#x00025; and 85.5&#x000b1;1.8&#x00025; respectively). In contrast, in <italic>arm<sup>O43A01</sup></italic> (M/Z) embryos expressing Arm<sup>AA</sup>, only about half of the denticles point correctly (48.0&#x000b1;5.6).</p><table-wrap id="pone-0000009-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000009.t002</object-id><label>Table 2</label><caption><title>Qualitative assessment of denticle polarity phenotypes.</title></caption><graphic xlink:href="pone.0000009.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">Genetic Combination</td><td align="left" rowspan="1" colspan="1">Cuticle Effect (Qualitative)</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>O43A01</sup></italic>(M/Z)</td><td align="left" rowspan="1" colspan="1">No denticles, no cuticle</td></tr><tr><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>O43A01</sup></italic> (M/Z); Arm-GAL4; UAS-Arm<sup>AA</sup>
+</td><td align="left" rowspan="1" colspan="1">Random orientation</td></tr><tr><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>XM19</sup></italic> (M/Z)</td><td align="left" rowspan="1" colspan="1">Somewhat organized</td></tr><tr><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>XM19</sup></italic> (M/Z); Arm-GAL4; UAS-Arm<sup>AA</sup>
+</td><td align="left" rowspan="1" colspan="1">organized&#x02014;wild-type</td></tr><tr><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>XM19</sup></italic>, <italic>zw3</italic> (M/Z)</td><td align="left" rowspan="1" colspan="1">Somewhat organized</td></tr><tr><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>XM19</sup></italic>, <italic>zw3</italic> (M/Z); Arm-GAL4; UAS-Arm<sup>AA</sup>
+</td><td align="left" rowspan="1" colspan="1">Naked&#x02014;no denticles made</td></tr><tr><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>F1a</sup></italic> (M/Z)</td><td align="left" rowspan="1" colspan="1">Very organized repeated segment polarization</td></tr><tr><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>F1a</sup></italic> (M/Z); Arm-GAL4; UAS-Arm<sup>AA</sup>
+</td><td align="left" rowspan="1" colspan="1">wild-type</td></tr><tr><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>F1a</sup></italic>, <italic>zw3</italic> (M/Z)</td><td align="left" rowspan="1" colspan="1">Very organized repeated segment polarization</td></tr><tr><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>F1a</sup></italic>, <italic>zw3</italic> (M/Z); Arm-GAL4; UAS-Arm<sup>AA</sup>
+</td><td align="left" rowspan="1" colspan="1">Naked&#x02014;no denticles made</td></tr><tr><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">wild-type</td><td align="left" rowspan="1" colspan="1">wild-type</td></tr><tr><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">Arm-GAL4; UAS-Arm<sup>AA</sup>
+</td><td align="left" rowspan="1" colspan="1">wild-type</td></tr><tr><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">Sim-GAL4; UAS-Wg; <italic>pan</italic>
+</td><td align="left" rowspan="1" colspan="1">No effect of Wg expression</td></tr><tr><td align="left" rowspan="1" colspan="1">14</td><td align="left" rowspan="1" colspan="1">Sim-GAL4; UAS-Hh; <italic>ci</italic>
+</td><td align="left" rowspan="1" colspan="1">No effect of Hh expression</td></tr><tr><td align="left" rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">Sim-GAL4; UAS-Hh; <italic>pan</italic>
+</td><td align="left" rowspan="1" colspan="1">Hh can affect rotations in the absence of Tcf</td></tr><tr><td align="left" rowspan="1" colspan="1">16</td><td align="left" rowspan="1" colspan="1">Sim-GAL4; UAS-Wg; <italic>ci</italic>
+</td><td align="left" rowspan="1" colspan="1">Wg can affect rotations in the absence of Ci</td></tr><tr><td align="left" rowspan="1" colspan="1">17</td><td align="left" rowspan="1" colspan="1">
+<italic>smo</italic>, Sim-GAL4; UAS-Wg</td><td align="left" rowspan="1" colspan="1">Wg is independent of Ptc</td></tr><tr><td align="left" rowspan="1" colspan="1">18</td><td align="left" rowspan="1" colspan="1">
+<italic>smo</italic>, Sim-GAL4; UAS-Hh</td><td align="left" rowspan="1" colspan="1">Hh requires Ptc</td></tr><tr><td align="left" rowspan="1" colspan="1">19</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>O43A01</sup></italic>(M/Z); Sim-GAL4; UAS-Wg</td><td align="left" rowspan="1" colspan="1">Not done</td></tr><tr><td align="left" rowspan="1" colspan="1">20</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>O43A01</sup></italic>(M/Z); Sim-GAL4; UAS-Hh</td><td align="left" rowspan="1" colspan="1">Not done</td></tr><tr><td align="left" rowspan="1" colspan="1">21</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>XM19</sup></italic> (M/Z); Sim-GAL4; UAS-Wg</td><td align="left" rowspan="1" colspan="1">No effect of Wg expression</td></tr><tr><td align="left" rowspan="1" colspan="1">22</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>XM19</sup></italic> (M/Z); Sim-GAL4; UAS-Hh</td><td align="left" rowspan="1" colspan="1">Hh can affect rotations</td></tr><tr><td align="left" rowspan="1" colspan="1">23</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>F1a</sup></italic> (M/Z); Sim-GAL4; UAS-Wg</td><td align="left" rowspan="1" colspan="1">Some Wg effect</td></tr><tr><td align="left" rowspan="1" colspan="1">24</td><td align="left" rowspan="1" colspan="1">
+<italic>arm<sup>F1a</sup></italic> (M/Z); Sim-GAL4; UAS-Hh</td><td align="left" rowspan="1" colspan="1">Hh can affect rotations</td></tr><tr><td align="left" rowspan="1" colspan="1">25</td><td align="left" rowspan="1" colspan="1">
+<italic>dsh</italic> (M/Z); Sim-GAL4; UAS-Wg</td><td align="left" rowspan="1" colspan="1">No effect of Wg expression</td></tr><tr><td align="left" rowspan="1" colspan="1">26</td><td align="left" rowspan="1" colspan="1">
+<italic>dsh</italic> (M/Z); Sim-GAL4; UAS-Hh</td><td align="left" rowspan="1" colspan="1">Hh can affect rotations</td></tr></tbody></table></table-wrap><p>To determine the cell biological basis of this defect, we investigated the epithelia that will produce denticles. Immunofluorescence studies during late embryogenesis revealed that in wild-type embryos, ventral epidermal cells that will produce denticles adopt different cell shapes than those that will produce naked cuticle. Denticle-producing cells are small and rectangular, whereas naked cuticle cells are large and amorphous. Further, the Actin foci that will eventually become denticles are almost always localized to the posterior margin of the cell (<xref ref-type="fig" rid="pone-0000009-g003">Fig. 3A&#x02013;D</xref>, and <xref rid="pone.0000009-Price1" ref-type="bibr">[14]</xref>). Interestingly, we found that Arm is asymmetrically localized predominantly to the dorsal or ventral (D/V) sides of the denticle-producing cells (<xref ref-type="fig" rid="pone-0000009-g003">Fig. 3B</xref> and <xref rid="pone.0000009-Price1" ref-type="bibr">[14]</xref>). In Arm<sup>AA</sup> embryos, the Actin foci are localized randomly (<xref ref-type="fig" rid="pone-0000009-g003">Fig. 3E</xref>) and the D/V polarization of Arm is disrupted (<xref ref-type="fig" rid="pone-0000009-g003">Fig. 3F</xref>). Taken together, the denticle disorganization, the failure of epidermal cells to take on the correct shapes, the improper asymmetric membrane polarization of Arm, and the failure of Actin foci to be asymmetrically localized to the posterior margin of the epidermal cells in Arm<sup>AA</sup> expressing embryos indicates that threonine phosphoryration of Arm is likely to be required for proper planar polarization in the epidermis.</p><fig id="pone-0000009-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000009.g003</object-id><label>Figure 3</label><caption><title>The precursors of denticles, the Actin foci, are mislocalized in embryos expressing Arm<sup>AA</sup>, and the asymmetric distribution of Arm is disrupted.</title><p>A&#x02013;D, wild-type. E&#x02013;H, <italic>arm<sup>O43A01</sup></italic> (M/Z) mutant expressing Arm<sup>AA</sup>.</p><p>A, Actin staining shows the Actin accumulation that is the precursor to denticle formation.</p><p>B, In wild-type embryos, Arm localizes to the D/V boundaries of the smaller, rectangular-shaped cells that will produce denticles.</p><p>C, Overlay of Arm and Actin staining shows that the denticle-producing cells are smaller and rectangular.</p><p>D, Schematic of a parasegment showing that the cells that produce denticles are smaller and rectangular than the cells that do not produce denticles and that the Actin foci that will become denticles (red dots) are located on the posterior margin of the cells.</p><p>Some cells produce more than one Actin focus, but only one shown per cell for simplicity in the schematic.</p><p>E, Actin staining shows that most cells produce denticle precursors, though some cells do not.</p><p>F, Arm staining shows that the stereotypical cell-shape changes are impaired, and the asymmetric distribution of cell membrane Arm is disrupted.</p><p>G, Overlay of Arm and Actin staining shows that the denticle precursors are mislocalized.</p><p>H, Schematic showing the apparent random localization of denticle precursors (red dots).</p></caption><graphic xlink:href="pone.0000009.g003"/></fig></sec><sec id="s2b"><title>Wg and Hh signaling in polarity</title><p>In order to test whether the denticle polarity phenotypes in Arm<sup>AA</sup> expressing embryos were the result of intercellular signaling, we turned to the signaling molecules Wg and Hh for several reasons. First, in both <italic>wg</italic> and <italic>hh</italic> mutants, all ventral cells make denticles, but their planar polarity is clearly disrupted (<xref ref-type="fig" rid="pone-0000009-g004">Fig. 4A&#x02013;C</xref>). Instead of pointing anterior or posterior, many of the denticles point toward or away from the midline. Second, the cell shape changes that distinguish denticle producing cells from naked cuticle cells do not occur in <italic>wg</italic> and <italic>hh</italic> mutants, as all cells appear roughly square (<xref ref-type="fig" rid="pone-0000009-g005">Fig. 5B</xref>). Lastly, Wg and Hh are normally expressed in two anterior/posterior (A/P) cell stripes, which coincide with the direction of denticle polarity suggesting the possibility that they act as directional cues.</p><fig id="pone-0000009-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000009.g004</object-id><label>Figure 4</label><caption><title>Wg and Hh act as instructive signals for the orientation of denticles in the <italic>Drosophila</italic> embryonic epidermis.</title><p>(Left top) Schema depicting wild-type epithelia with denticle polarity direction depicted by black arrows.</p><p>(Left middle) Schema showing that Wg (red cells) expression along the ventral midline transforms cells to naked cell-fate, and leads bordering cells to rotate their denticles toward the source of Wg.</p><p>(Left bottom) Hh (green cells) expression does not transform the cell-fate, but leads to denticles orienting away from its source.</p><p>A&#x02013;I, Phase contrast views of embryos (ventral is up and anterior is left).</p><p>A, <italic>wg</italic> and B, <italic>hh</italic> mutants display relatively random planar polarity and the ventral lawn of denticles phenotype (see<xref rid="pone.0000009-Bejsovec1" ref-type="bibr">[19]</xref> for a detailed explanation of denticle cell fates).</p><p>C, Same image as in B, but with denticles colored according to orientation, as in Fig. 2.</p><p>Note the relatively random distribution of colors.</p><p>D and E, Ectopic expression of Wg in a stripe perpendicular to its normal pattern leads to a reorientation of denticles toward the source of Wg in both <italic>wg</italic> and <italic>hh</italic> mutants (arrows).</p><p>F, Same image as in E, but with the denticles colored according to orientation.</p><p>Note that the blue and orange denticles line up and point toward the ventral midline, or toward the source of Wg.</p><p>G and H, Expression of Hh in a stripe perpendicular to its normal pattern leads to a reorientation away from the source of Hh in both <italic>wg</italic> and <italic>wg; hh</italic> double mutants.</p><p>I, Same image as in G, but with the denticles colored according to their orientation.</p><p>Note that the blue and orange denticles line up in a pattern directly opposite to that observed in F showing that the denticles near the midline orient away from the source of Hh ligand.</p></caption><graphic xlink:href="pone.0000009.g004"/></fig><fig id="pone-0000009-g005" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000009.g005</object-id><label>Figure 5</label><caption><title>Wg and Hh can relocalize the Actin foci that are denticle precursors.</title><p>A&#x02013;D, <italic>wg</italic>. E&#x02013;H, <italic>wg</italic>, Sim-GAL4/UAS-Wg. I&#x02013;L, <italic>wg</italic>, Sim-GAL4/UAS-Hh.</p><p>C, Overlay of A, Actin and B, Arm staining shows that the stereotypical cell-shape changes are impaired and that all cells produce denticles.</p><p>D, Schematic showing the apparent random localization of denticle precursors (red dots).</p><p>E, Actin staining showing that expression of Wg along the ventral midline causes naked cuticle to form in some cells along the midline.</p><p>G, Overlay of E, Actin and F, Arm staining shows apparent cell-shape reorganization in cells that are transformed to the naked cell fate along the midline.</p><p>In most cells that border the cells that lack denticle precursors, the Actin foci are relocalized to the D/V margin of the cell.</p><p>H, Schematic showing the D/V localization of denticle precursors in cells that border the naked cells along the midline.</p><p>K, Overlay of I, Actin and J, Arm staining shows that in at least 8&#x02013;9 rows of cells surrounding the ventral midline, the denticle precursors are consistently relocalized to the D/V margins of cells.</p><p>L, Schematic showing that in cells receiving the Hh signal (i.e. those surrounding the midline), cell shapes are different than in the <italic>wg</italic> mutant alone and that the denticle precursors (red dots) are relocalized to the D/V margins of cells.</p></caption><graphic xlink:href="pone.0000009.g005"/></fig><p>Since Wg and Hh are required for proper cuticle organization<xref rid="pone.0000009-Price1" ref-type="bibr">[14]</xref>, we tested whether Wg and Hh are sufficient instructive cues for planar polarity of denticles. To accomplish this, we eliminated endogenous <italic>wg</italic> and expressed Wg in a stripe along the ventral midline, which is perpendicular to its normal expression pattern. Since <italic>wg</italic> and <italic>hh</italic> function in an autoregulatory loop in the embryonic epidermis, removal of one leads to the absence of both in late stages<xref rid="pone.0000009-Hatini1" ref-type="bibr">[12]</xref>. Strikingly, we observed a rotation of denticles toward the midline, or toward the cells that are ectopically expressing Wg (Compare <xref ref-type="fig" rid="pone-0000009-g004">Fig. 4D to 4A</xref>). The rotation of the denticles toward Wg was only partial in the <italic>wg</italic> mutants. We postulated that this may be due to the effect of Wg signaling on Hh expression<xref rid="pone.0000009-Hatini1" ref-type="bibr">[12]</xref>. Normally Wg is required for Hh expression, so expression of Wg along the ventral midline likely leads to inappropriate activation of Hh expression. To address this, we expressed Wg along the ventral midline in <italic>hh</italic> mutant embryos. In this situation, the denticles rotate toward the ventral midline en masse (<xref ref-type="fig" rid="pone-0000009-g004">Fig. 4E and F</xref>), suggesting that Wg and Hh may compete in instructing denticle polarization. Since Wnt molecules have previously been implicated in planar cell polarity (PCP) signaling<xref rid="pone.0000009-Klein1" ref-type="bibr">[4]</xref>, the effect of Wg on denticle polarity was not entirely unexpected, however Hh's effect on polarity was surprising since the Hh signaling pathway has not been implicated in PCP signaling<xref rid="pone.0000009-Scholey1" ref-type="bibr">[32]</xref>. Since Hh appeared to be modifying the effect of Wg on denticle orientation, we asked whether expression of Hh along the ventral midline in a <italic>wg</italic> mutant embryo would have an effect on polarity. Surprisingly, the denticles rotated away from the midline, or away from the cells that were ectopically expressing Hh (<xref ref-type="fig" rid="pone-0000009-g004">Fig. 4G and I</xref>). We also expressed Hh at the ventral midline in a <italic>wg</italic> and <italic>hh</italic> double mutant, and found that the denticles still rotate away from the midline, or away from the cells that are ectopically expressing Hh (<xref ref-type="fig" rid="pone-0000009-g004">Fig. 4H</xref>). In these experiments, the expression of Wg and Hh was rotated 90&#x000b0; from their normal expression patterns. Our finding that the denticles rotate by a similar degree indicates that Wg and Hh are sufficient to instruct denticle rotation and therefore suggests that they act as directional cues for the planar cell polarity of epithelial cell sheets on a gross scale.</p><p>We next investigated the effects of Wg and Hh on the sub-cellular localization of the Actin foci that eventually become denticles. In <italic>wg</italic> and <italic>hh</italic> mutants, these Actin foci are no longer restricted to the posterior margin of epidermal cells (<xref ref-type="fig" rid="pone-0000009-g005">Fig. 5</xref> A&#x02013;C and <xref rid="pone.0000009-Price1" ref-type="bibr">[14]</xref>). Although sometimes they are correctly localized to the posterior margin, these Actin foci are also found at the anterior margin as well as on the dorsal and ventral margins of cells in <italic>wg</italic> mutants.</p><p>When we expressed Wg along the ventral midline in wg mutants, we saw that the Actin foci were no longer found in many cells surrounding the midline, consistent with our cuticle analysis results. We presumed that the cells lacking the Actin foci must be changing fate in response to the Wg signal, and secreting naked cuticle. The cells of the next row, or those bordering the cells lacking the Actin foci, were most likely receiving the Wg signal too as they were in a similar position to cells in denticle row 1 (<xref ref-type="fig" rid="pone-0000009-g001">Fig. 1A</xref>, first green cell). In the wild-type epidermis, only the first cell in the denticle-forming stripe of cells receives the Wg ligand due to a segment boundary that is established between the first and second (most anterior or two green cells in <xref ref-type="fig" rid="pone-0000009-g001">Fig. 1A</xref>) denticle-producing cells<xref rid="pone.0000009-Sanson1" ref-type="bibr">[33]</xref>. Importantly, this corresponds to the orientation of the most anterior denticle, which points toward the source of Wg (see <xref ref-type="fig" rid="pone-0000009-g001">Fig. 1A</xref>). In embryos that express Wg along the ventral midline, many of the cells that border the cells lacking the Actin foci contain Actin foci that are no longer localized to the posterior margin. In fact, many of them appeared to be localized to the dorsal or ventral margin of the cell, suggesting that the foci had rotated 90&#x000b0; in response to the Wg signal (<xref ref-type="fig" rid="pone-0000009-g005">Fig. 5D&#x02013;F</xref>). We next investigated the effect of Hh on the subcellular localization of the Actin foci. We found that when we expressed Hh in a stripe along the ventral midline, we saw a drastic rotation of the Actin foci localization. We found that several rows of cells at the midline consistently had the Actin foci localized to either the dorsal or ventral margin (<xref ref-type="fig" rid="pone-0000009-g004">Fig. 4D</xref>). These results taken together suggest a molecular mechanism whereby Wg and Hh can direct the localization of Actin foci that precede denticle formation and thus direct the polarity of denticles.</p></sec><sec id="s2c"><title>Wg and Hh pathway components in denticle polarity signaling</title><p>When Hh binds to its receptor, Patched (Ptc), repression of the Hh pathway activator Smoothened (Smo) is relieved, thereby activating the Hh pathway<xref rid="pone.0000009-Chen1" ref-type="bibr">[34]</xref>, <xref rid="pone.0000009-Chen2" ref-type="bibr">[35]</xref>. To test the involvement of other Hh pathway components in denticle polarization, we generated <italic>smo</italic> (M/Z) mutant embryos that expressed Hh along the ventral midline. As expected for standard Hh signal transduction, in the absence Smo, Hh cannot affect the rotation of denticles because the Smo/Ptc receptor complex is compromised (<xref ref-type="fig" rid="pone-0000009-g006">Fig. 6D</xref>)<xref rid="pone.0000009-NussleinVolhard1" ref-type="bibr">[13]</xref>.</p><fig id="pone-0000009-g006" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000009.g006</object-id><label>Figure 6</label><caption><title>Smo, Dsh and Arm are required for polarity signal transmission.</title><p>A, A <italic>dsh</italic> ((M/Z)) mutant embryo showing a lawn of randomly oriented denticles.</p><p>B, Expression of Wg along the ventral midline does not affect denticle orientation in embryos that are mutant for <italic>dsh</italic>.</p><p>C, A <italic>smo</italic> (M/Z) mutant embryo also shows a lawn of denticles phenotype, and a loss of planar polarization.</p><p>D, Expression of Hh along the ventral midline in <italic>smo</italic> mutant embryos has no observable effect on the planar polarization of denticles, or on the lawn of denticles phenotype.</p><p>E, <italic>arm<sup>F1A</sup></italic> (M/Z) mutant embryos show a denticle-covered cuticle phenotype, but some patterning is preserved due to a low level of Wg nuclear signaling activity retained by this allele<xref rid="pone.0000009-Tolwinski1" ref-type="bibr">[29]</xref>.</p><p>F, Expression of Wg along the ventral midline in some cases leads to a disruption of the patterning observed in <italic>arm<sup>F1A</sup></italic> M/Z mutants alone, and causes mispolarization of denticles.</p></caption><graphic xlink:href="pone.0000009.g006"/></fig><p>To assess the involvement of other Wg pathway components in denticle polarization, we made <italic>disheveled (dsh</italic> M/Z<italic>)</italic> null mutant embryos and expressed Wg along the ventral midline. In Wg signaling, the Dsh protein is required for the transmission of Wg signal within cells, and acts in both the PCP and canonical Wnt pathways. Embryos lacking Dsh resemble <italic>wg</italic> mutants in both the lack of naked cuticle and the lack of denticle organization (<xref ref-type="fig" rid="pone-0000009-g006">Fig. 6A</xref>). Expression of Wg in <italic>dsh</italic> mutants did not lead to any observable changes in denticle orientation or cell-fate transformation (<xref ref-type="fig" rid="pone-0000009-g006">Fig. 6B</xref>) showing that Dsh is required for Wg-dependent denticle organization.</p><p>Next, we examined the involvement of downstream transcription factors in denticle polarity. The transcription factor TCF (<italic>pangolin</italic> or <italic>pan</italic>) is required for Wg signaling in the nucleus. In the absence of TCF (<italic>pan</italic> mutants), expression of Wg along the ventral midline had no visible effect on the polarity of the denticles (results summarized in <xref ref-type="table" rid="pone-0000009-t002">Table 2</xref>). We also tested the role of the Hh transcription factor <italic>cubitus interruptus</italic> (<italic>ci</italic> or Gli). When we expressed Hh along the ventral midline in <italic>ci</italic> mutants, we observed that Hh caused no visible effects. These results taken together suggest that both the Hh and Wg ligands require a transcriptional response in order to affect denticle polarities.</p><p>Finally, we investigated whether Arm is required for the transmission of the Wg polarity signal. We approached this by using an allelic series of <italic>arm</italic> mutants expressing Wg along the ventral midline. The strongest allele, <italic>arm<sup>O43A01</sup></italic>, does not make cuticle, so the experiment wasn't attempted. The next allele, <italic>arm<sup>XM19</sup></italic>, is unable to transmit the Wg signal due to its low levels, but it retains junction function since the cuticle remains intact<xref rid="pone.0000009-Tolwinski1" ref-type="bibr">[29]</xref>, <xref rid="pone.0000009-Peifer1" ref-type="bibr">[31]</xref>. However, expression of Wg along the ventral midline in this mutant had no observable effect on denticle orientation (data not shown) likely due to overall low protein levels <xref rid="pone.0000009-Peifer1" ref-type="bibr">[31]</xref>. The weakest allele, <italic>arm<sup>F1a</sup></italic>, is the most useful, because it loses most of its ability to function as a transcriptional activator (shown here by loss of naked cuticle), though mutant protein levels are high and junctions appear normal<xref rid="pone.0000009-Tolwinski2" ref-type="bibr">[36]</xref>. In <italic>arm<sup>F1a</sup></italic> (M/Z) embryos expressing Wg along the ventral midline, we observed some reorientation of denticles toward the midline (compare <xref ref-type="fig" rid="pone-0000009-g006">Fig. 6E to F</xref>). This allelic combination allows the observation of Wg effects on Arm protein at the junction, because Arm protein is present in adequate levels, but all cells make denticles due to this point mutant's inability to activate Wg transcriptional targets. This phenotype showed a weak penetrance (&#x0223c;10&#x00025; of embryos when &#x0223c;50&#x00025; was expected, n&#x0003e;500) likely due to the competition between normally expressed Wg which is maintained in the <italic>arm<sup>F1a</sup></italic> mutant<xref rid="pone.0000009-Tolwinski2" ref-type="bibr">[36]</xref> and the ectopic form which was not strongly expressed under our experimental conditions. These results suggest that the ligand Wg can also affect the orientation of denticles without acting through the nuclear Wg signaling pathway and affecting the cell fate decision, since no new patches of naked cuticle are observed at the midline. Interestingly, these results suggest that the effect on denticle polarity of Wg in the <italic>arm<sup>F1a</sup></italic> (M/Z) mutants may be through the membrane pool of Arm at the adherens junctions. Taken together, our results suggest that proper PCP in the epidermis requires both a transcriptional response of Wg and Hh and thereby a functional Arm in the nucleus, as well as a functional Arm at adherens junctions.</p></sec></sec><sec id="s3"><title>Discussion</title><p>Our results indicate that Wg and Hh act as instructive cues in the <italic>Drosophila</italic> embryonic epidermis to establish planar cell polarity. Though the complete molecular mechanisms that control the complex system of PCP in the ventral epidermis remain to be determined, this process appears to occur in part through the asymmetric localization of Arm at the membrane. Further, proper polarity signaling is abolished if specific phosphorylation sites within the &#x003b1;-catenin binding domain of Arm are mutated. These sites were originally found to increase the affinity of &#x003b2;-catenin for &#x003b1;-catenin when phosphorylated by Casein Kinase II <italic>in vitro</italic>, suggesting one mechanism for stabilizing junctions<xref rid="pone.0000009-Bek1" ref-type="bibr">[28]</xref>. Our findings provide <italic>in vivo</italic> support for this hypothesis, as low levels of Arm<sup>AA</sup> rescued cellular junction defects to a similar extent as expression of an &#x003b1;-catenin/E-cadherin fusion protein, a protein that makes overly stable junctions <xref rid="pone.0000009-Dumstrei1" ref-type="bibr">[30]</xref>. Higher levels of Arm<sup>AA</sup> expression lead to apparent polarity defects. As Arm<sup>AA</sup> does not localize asymmetrically the way that wild-type Arm does, we inferred that CKII phosphorylation may be required for the accumulation of junctions in specific regions of cells implying that stable junctions at specific sites in a cell are required for proper planar cell polarity. Further, our findings revealed that when all signaling activity is abolished through null mutations in the Wg or Hh signaling pathways, both cell identity and polarity determination was disrupted. It remains to be determined how Wg and Arm proteins function in polarity signaling, specifically whether they work through known PCP components, function similarly to their role in dorsal closure, or perhaps through novel signaling mechanisms like the interaction with Notch or Axin<xref rid="pone.0000009-Tolwinski2" ref-type="bibr">[36]</xref>&#x02013;<xref rid="pone.0000009-Hayward1" ref-type="bibr">[39]</xref>.</p><p>The <italic>wg</italic> and <italic>hh</italic> genes are required for the proper establishment of cell identities within segments<xref rid="pone.0000009-Hatini1" ref-type="bibr">[12]</xref>. Several studies have suggested that there are multiple roles for Wg and Hh during embryogenesis<xref rid="pone.0000009-DiNardo1" ref-type="bibr">[40]</xref>&#x02013;<xref rid="pone.0000009-Sampedro1" ref-type="bibr">[44]</xref>. Uniform expression of Wg in the embryo leads to a completely naked cuticle<xref rid="pone.0000009-Noordermeer1" ref-type="bibr">[45]</xref>, but short early bursts of expression establish what appears to be relatively normal patterning<xref rid="pone.0000009-Sampedro1" ref-type="bibr">[44]</xref>. Upon closer inspection, however, the denticle orientations of these early expression rescue experiments do not entirely resemble the wild-type patterning<xref rid="pone.0000009-Sampedro1" ref-type="bibr">[44]</xref>, <xref rid="pone.0000009-Hays1" ref-type="bibr">[46]</xref>. This suggests that early expression of Wg can rescue several aspects of cell identity, including development of naked cuticle, but Wg is also required in the later stages when denticles form to specify proper orientations. Expression of ectopic Wg has been observed to correlate with denticles pointing toward the source of Wg<xref rid="pone.0000009-Lawrence1" ref-type="bibr">[47]</xref>, and expression of ectopic Hh also leads to denticles pointing away from its source<xref rid="pone.0000009-Gritzan1" ref-type="bibr">[48]</xref>. These studies, however could not distinguish between cell fate transformation and changes in cell polarity since the sources of both ligands were in the normal orientation. Our observations argue that Hh and Wg can have direct effects on cell polarity since denticles and their precursors (the Actin foci) are rotated 90&#x000b0; away from the anterior-posterior axis corresponding to the direction of ligand expression.</p><p>In the early embryo, expression of Wg and Hh is determined by pair-rule genes, but this effect is transient and requires mutually reinforcing positive activation loops to form between cells expressing Wg and En/Hh<xref rid="pone.0000009-Hatini1" ref-type="bibr">[12]</xref>. This is the early signaling event that establishes an organizer region in each parasegment<xref rid="pone.0000009-Gritzan1" ref-type="bibr">[48]</xref>. Therefore, if either Hh or Wg is missing, expression of both is lost. The early effects of Hh and Wg expression are important for the establishment of segment boundaries<xref rid="pone.0000009-Lawrence1" ref-type="bibr">[47]</xref>, <xref rid="pone.0000009-Larsen1" ref-type="bibr">[49]</xref>, and these boundaries function in limiting Wg function, giving this morphogen an asymmetric range<xref rid="pone.0000009-Sanson1" ref-type="bibr">[33]</xref>. Our findings agree with these observations, because we observe that the Wg effect is best observed when <italic>hh</italic> is absent, suggesting that when the <italic>hh</italic> gene is present a boundary may be formed, thus preventing Wg from orienting the denticles to the same extent. It also appears that the distance over which Wg can act is longer in the absence of <italic>hh</italic> as expected from previous observations<xref rid="pone.0000009-Sanson1" ref-type="bibr">[33]</xref>. According to the proposed boundary model, the extent of Wg influence is to the first denticle-secreting cell, but not beyond<xref rid="pone.0000009-Sanson1" ref-type="bibr">[33]</xref>. This finding, along with our discovery that denticles orient toward the source of Wg, may explain why the first row of denticles in wild-type larvae points toward the anterior of the embryo. Only this row of cells receives Wg signal as the segment boundary blocks further action by Wg to the next row of cells<xref rid="pone.0000009-Sanson1" ref-type="bibr">[33]</xref>. On the other hand, Hh can and does affect the next two rows of cells. We found that expression of Hh causes a rotation away from the source, and could explain why the next two rows of denticles point toward the posterior of the embryo. Our results do not explain the final orientation of all rows of denticles, and one likely complication is that in late embryonic stages the Notch and EGFR signaling pathways affect the identities of cells within the denticle belt<xref rid="pone.0000009-Hatini1" ref-type="bibr">[12]</xref>, <xref rid="pone.0000009-Szuts1" ref-type="bibr">[20]</xref>, <xref rid="pone.0000009-Walters2" ref-type="bibr">[21]</xref>. It will be interesting to test what effects these signals have on the final orientation of the orientation of denticles, and whether the Notch pathway functions in polarity as well.</p><p>The PCP signaling pathway determines planar polarity in a variety of tissues<xref rid="pone.0000009-Klein1" ref-type="bibr">[4]</xref>. In vertebrate and <italic>C. elegans</italic> studies, Wnts have been implicated in the establishment of polarity, but only one study in <italic>Drosophila</italic> suggested a role for Wg in PCP<xref rid="pone.0000009-Price1" ref-type="bibr">[14]</xref>. In fact, the present model excludes the known morphogens, and suggests that PCP is established through cell-cell interactions involving atypical cadherins like Flamingo or through an as yet unidentified factor X<xref rid="pone.0000009-Wehrli1" ref-type="bibr">[50]</xref>&#x02013;<xref rid="pone.0000009-Simon1" ref-type="bibr">[57]</xref>. Though our study does not address the function of the known components of PCP signaling in the embryo, it is interesting that mutants in PCP signaling pathway components affect the polarity of the first two rows of denticles<xref rid="pone.0000009-Price1" ref-type="bibr">[14]</xref>, <xref rid="pone.0000009-Collier1" ref-type="bibr">[58]</xref>. Our findings support the possibility that Wg and Hh lead to the expression of an unknown factor affecting the polarization of denticles, because blocking the transcriptional readout of either Wg or Hh with <italic>tcf</italic> or <italic>ci</italic> mutations respectively prevents the polarizing activity of both pathways. This is similar to the PCP disruptions found in the <italic>Drosophila</italic> eye model for Wg signaling components<xref rid="pone.0000009-Wehrli1" ref-type="bibr">[50]</xref>. Our observations do, however, offer a further possibility, namely that by blocking all Wg signaling with null mutations the underlying polarity organizing function of Wg may be obscured. We find that in the weak <italic>arm<sup>F1A</sup></italic> mutant the orientation of denticles can be affected by the expression of Wg without affecting the cell-fates, suggesting that perhaps Wg can affect polarity directly. This effect of Wg was not observed in stronger <italic>arm</italic> mutant embryos suggesting that Arm protein is required for the Wg effect on denticle orientation. Interestingly, cell culture work has recently implicated Wg in controlling adherens junction strength<xref rid="pone.0000009-Wodarz1" ref-type="bibr">[59]</xref>.</p><p>The use of the embryonic epidermis allowed us to observe the interesting possibility that Arm functions in cell polarity. Since some of the molecules involved in the PCP signaling pathway are similar to Cadherins<xref rid="pone.0000009-Simon1" ref-type="bibr">[57]</xref>, it seems logical that adhesion is involved in the establishment of polarity. However, adherens junctions have not been implicated so far. This is likely due to the difficulty of working with adherens junction component mutations that are often cell-lethal in the systems that have been used to study PCP. Here we have used the embryo, a system that allows relatively simple perturbation of <italic>arm</italic> function, and efficient ubiquitous or directional ectopic expression. Unfortunately, the major limitation of the ventral midline expression assay is that it only works for secreted, diffusible ligands. Thus, cell-autonomous activation of Hh or Wg pathway components (such as with activated Arm or Smo) along the ventral midline cannot be observed, since these cells invaginate and do not become a part of the external epidermis. We are currently working on ways to overcome this technical limitation.</p><p>The fact that &#x003b2;-catenin is both an oncogene and a component of adherens junctions has led to many studies attempting to link the phosphorylation state of &#x003b2;-catenin in adherens junctions to the epithelial to mesenchymal transition (EMT) in cancer cells and during development. Phosphorylation of tyrosine residues in &#x003b2;-catenin is thought to lead to disassembly of adherens junctions<xref rid="pone.0000009-Gumbiner1" ref-type="bibr">[25]</xref>, <xref rid="pone.0000009-Nelson1" ref-type="bibr">[26]</xref>, <xref rid="pone.0000009-Lilien1" ref-type="bibr">[60]</xref>, but recent studies both <italic>in vivo</italic> and <italic>in vitro</italic> have challenged this<xref rid="pone.0000009-Pacquelet1" ref-type="bibr">[27]</xref>, <xref rid="pone.0000009-Choi1" ref-type="bibr">[61]</xref>. Certainly these discrepancies will have to be resolved, but here we provide evidence for a different mechanism for regulating junctions, and perhaps EMT, through threonine phosphorylation-based stabilization or dephosphorylation-based destabilization of junctions. It will be crucial to establish which is the regulated step, and whether there are any phosphatases involved in this process in addition to the known kinase CKII<xref rid="pone.0000009-Bek1" ref-type="bibr">[28]</xref>.</p><p>Interestingly, the recent findings that &#x003b1;-catenin and &#x003b2;-catenin do not form a stable complex in junctions <xref rid="pone.0000009-Drees1" ref-type="bibr">[23]</xref>, <xref rid="pone.0000009-Yamada1" ref-type="bibr">[24]</xref>, suggests a possible explanation for our findings. We speculate that expression of Arm<sup>AA</sup> can rescue the basic activity of junctions lost in strong <italic>arm</italic> mutant embryos, which is to hold a tissue together. However, its reduced affinity for &#x003b1;-catenin does not cause a local increase in &#x003b1;-catenin levels and therefore Actin levels do not become asymmetric. This leads to a skewing of the normal polarization of the Actin cytoskeleton. It will be crucial to determine how junctions are localized asymmetrically in the first place, and whether this is dependent on extracellular signaling. These findings, and the effects of &#x003b1;-catenin mutations on inflammation and tumor progression in the mouse epidermis<xref rid="pone.0000009-Kobielak1" ref-type="bibr">[62]</xref> make analysis of the interaction between &#x003b1;- and &#x003b2;-catenin particularly important.</p><p>These experiments provide some of the first evidence that the Hh signaling pathway is involved in polarity. It is particularly interesting that Hh expression leads to the reorganization of Actin structures within epithelial cells, since this suggests that Hh can affect the polarity of the Actin cytoskeleton. This finding is also relevant to cancer biology, because during metastasis, cancer cells lose polarity and essentially ignore their environment. Our results show that Wnts and Hh can affect cell polarity, in addition to their well-known effects on cell proliferation<xref rid="pone.0000009-Hooper1" ref-type="bibr">[16]</xref>, <xref rid="pone.0000009-Brembeck1" ref-type="bibr">[63]</xref>, <xref rid="pone.0000009-Beachy1" ref-type="bibr">[64]</xref>. Along with the recent report that TGF&#x003b2; signaling affects polarity and EMT<xref rid="pone.0000009-Ozdamar1" ref-type="bibr">[65]</xref>, our findings imply that this dual role may be a general feature of oncogenic signaling pathways.</p></sec><sec id="s4"><title>Methods</title><sec id="s4a"><title/><sec id="s4a1"><title>Constructs and Flies</title><p>Generation of germline clone embryos from flies with <italic>arm</italic> mutations <italic>arm<sup>O43A01</sup></italic>, <italic>arm<sup>F1A</sup></italic>, <italic>arm<sup>XM19</sup></italic>, and <italic>arm<sup>XM19</sup></italic>, <italic>zw3<sup>M11-1</sup></italic> double mutant are described in detail<xref rid="pone.0000009-Tolwinski1" ref-type="bibr">[29]</xref>, <xref rid="pone.0000009-Xu1" ref-type="bibr">[66]</xref>. For a description of <italic>wg<sup>CX4</sup>, pan<sup>2</sup>, ci<sup>Ce2</sup>, hh<sup>3</sup>, smo<sup>2</sup>, ptc<sup>IN108</sup></italic> and <italic>dsh<sup>V26</sup></italic> see Flybase (<ext-link ext-link-type="uri" xlink:href="http://flybase.bio.indiana.edu/">http://flybase.bio.indiana.edu/</ext-link>).</p><p>Maternal and zygotic mutant eggs were generated by the dominant female sterile technique <xref rid="pone.0000009-Chou1" ref-type="bibr">[67]</xref>. For all expression experiments, the Arm-GAL4 embryonic ubiquitous driver, the mat15-Tub-Gal4<xref rid="pone.0000009-DawesHoang1" ref-type="bibr">[68]</xref> maternally contributed driver, and Sim-GAL4 for specific ventral midline expression were used. None of these drivers cause phenotypes on their own, and in all genetic experiments non-expressing siblings were used as the wild-type controls. The Sim-GAL4 driver proved to be rather weak, because expression of UAS-Wg and UAS-Hh in a wild-type background showed only very mild effects (not shown).</p><p>The Arm<sup>AA</sup> construct was generated with T111A and T121A mutations through site-directed mutagenesis with primers 5&#x02032;-CCGGAAGCCCTGGAGGAGGGCATTGAGA TTCCCTCCGCCCAGTTTGAT and its complement (Quickchange from Stratagene), and fused to an N-terminal double HA tag in pUASt<xref rid="pone.0000009-Brand1" ref-type="bibr">[69]</xref>. These sites correspond to T102 and T112 in human &#x003b2;-catenin. We tested four independent transgenic lines that behaved indistinguishably, and used two separate insertions on two different chromosomes to complete these experiments. In our hands, expression of this Arm transgene in embryos had no visible effect when endogenous <italic>arm</italic> allele was wild-type. This results from the fact that only stabilized forms of Arm can overcome the degradation machinery and give phenotypes in the embryo<xref rid="pone.0000009-Tolwinski1" ref-type="bibr">[29]</xref>.</p></sec><sec id="s4a2"><title>Antibodies and Embryo Fixations</title><p>The HA 3F10 rat antibody was from Roche. Anti Armadillo, Wingless, Patched, Sexlethal, Actin, and E-Cadherin antibodies were obtained from the Developmental Studies Hybridoma Bank developed under the auspices of the NICHD and maintained by The University of Iowa, Department of Biological Sciences, Iowa City, IA 52242. Fixations, stainings, and cuticle preps as described previously<xref rid="pone.0000009-Tolwinski1" ref-type="bibr">[29]</xref>. Actin, HA, Sxl and Arm stainings were performed on heat-fixed embryos. Though not shown, the Sexlethal antibody was used to sex embryos. This allows for the identification of male embryos laid by germline clone mothers, which are hemizygous and therefore maternally and zygotically mutant for X-chromosome genes. To detect the expression domains of Hh, we used the Ptc antibody and the Wg antibody to detect Wg expression domains (Not shown in figures). Images were acquired on a Zeiss Axioimager with Apotome. Image processing was done with Volocity (Improvision), Photoshop and Illustrator (Adobe).</p></sec><sec id="s4a3"><title>Denticle Rotation Analysis</title><p>40&#x000d7; phase contrast images of cuticles were analyzed for denticle polarity by eye in Adobe Photoshop. Cuticles were oriented such that anterior was to the left and posterior was to the right. Denticles that appeared to within 45 degrees to the right or to the left of exactly anteriorly, posteriorly, up, and down were pseudo-colored red, green, blue, and orange respectively. The very tip of the denticle showing the characteristic hook of each denticle was a useful marker in deciding in which direction the denticle was pointing. For quantitation of wild-type, <italic>arm<sup>F1A</sup></italic> (M/Z), and <italic>arm<sup>O43A01</sup></italic> (M/Z) mutants expressing Arm<sup>AA</sup>, 300&#x02013;600 denticles were counted in each embryo (n&#x0200a;=&#x0200a;4/genotype). Denticles that were pointing anteriorly or posteriorly were classified as denticles that were pointing correctly, while denticles that were pointing up or down were classified as denticles that were pointing incorrectly. We counted any denticle that was able to be scored within the field of view. Any denticle whose polarity was obscured or not in focus was left unscored in all images.</p></sec></sec></sec></body><back><ack><p>We would like to thank Eric Wieschaus for help, insight and encouragement, and in whose laboratory this project began; Mary Baylies and Kathryn Anderson for critical reading of the manuscript; Ulrich Tepass for the Cadherin/&#x003b1;-catenin fusion stock; Daniel Kalderon for Hh pathway stocks; and Syed Islam and Ling-Yu Chiu for technical assistance.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>The funding for this project comes from the Howard Fellows program at Sloan-Kettering Institute. The funding is entirely institutional, and the Institute does not interfere in the running of individual laboratories.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000009-Logan1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Logan</surname><given-names>CY</given-names></name><name><surname>Nusse</surname><given-names>R</given-names></name></person-group>
+<year>2004</year>
+<article-title>The Wnt signaling pathway in development and disease.</article-title>
+<source>Annu Rev Cell Dev Biol.</source>
+<volume>20</volume>
+<fpage>781</fpage>
+<lpage>810</lpage>
+<pub-id pub-id-type="pmid">15473860</pub-id></element-citation></ref><ref id="pone.0000009-Veeman1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Veeman</surname><given-names>MT</given-names></name><name><surname>Axelrod</surname><given-names>JD</given-names></name><name><surname>Moon</surname><given-names>RT</given-names></name></person-group>
+<year>2003</year>
+<article-title>A second canon. Functions and mechanisms of beta-catenin-independent Wnt signaling.</article-title>
+<source>Dev Cell.</source>
+<volume>5</volume>
+<fpage>367</fpage>
+<lpage>77</lpage>
+<pub-id pub-id-type="pmid">12967557</pub-id></element-citation></ref><ref id="pone.0000009-Adler1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Adler</surname><given-names>PN</given-names></name></person-group>
+<year>2002</year>
+<article-title>Planar signaling and morphogenesis in Drosophila.</article-title>
+<source>Dev Cell.</source>
+<volume>2</volume>
+<fpage>525</fpage>
+<lpage>35</lpage>
+<pub-id pub-id-type="pmid">12015961</pub-id></element-citation></ref><ref id="pone.0000009-Klein1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klein</surname><given-names>TJ</given-names></name><name><surname>Mlodzik</surname><given-names>M</given-names></name></person-group>
+<year>2005</year>
+<article-title>PLANAR CELL POLARIZATION: An Emerging Model Points in the Right Direction.</article-title>
+<source>Annu Rev Cell Dev Biol.</source>
+<volume>21</volume>
+<fpage>155</fpage>
+<lpage>76</lpage>
+<pub-id pub-id-type="pmid">16212491</pub-id></element-citation></ref><ref id="pone.0000009-Lele1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lele</surname><given-names>Z</given-names></name><name><surname>Bakkers</surname><given-names>J</given-names></name><name><surname>Hammerschmidt</surname><given-names>M</given-names></name></person-group>
+<year>2001</year>
+<article-title>Morpholino phenocopies of the swirl, snailhouse, somitabun, minifin, silberblick, and pipetail mutations.</article-title>
+<source>Genesis.</source>
+<volume>30</volume>
+<fpage>190</fpage>
+<lpage>4</lpage>
+<pub-id pub-id-type="pmid">11477706</pub-id></element-citation></ref><ref id="pone.0000009-Westfall1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Westfall</surname><given-names>TA</given-names></name><name><surname>Brimeyer</surname><given-names>R</given-names></name><name><surname>Twedt</surname><given-names>J</given-names></name><name><surname>Gladon</surname><given-names>J</given-names></name><name><surname>Olberding</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Wnt-5/pipetail functions in vertebrate axis formation as a negative regulator of Wnt/beta-catenin activity.</article-title>
+<source>J Cell Biol.</source>
+<volume>162</volume>
+<fpage>889</fpage>
+<lpage>98</lpage>
+<pub-id pub-id-type="pmid">12952939</pub-id></element-citation></ref><ref id="pone.0000009-Heisenberg1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heisenberg</surname><given-names>CP</given-names></name><name><surname>Tada</surname><given-names>M</given-names></name><name><surname>Rauch</surname><given-names>GJ</given-names></name><name><surname>Saude</surname><given-names>L</given-names></name><name><surname>Concha</surname><given-names>ML</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Silberblick/Wnt11 mediates convergent extension movements during zebrafish gastrulation.</article-title>
+<source>Nature.</source>
+<volume>405</volume>
+<fpage>76</fpage>
+<lpage>81</lpage>
+<pub-id pub-id-type="pmid">10811221</pub-id></element-citation></ref><ref id="pone.0000009-Tada1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tada</surname><given-names>M</given-names></name><name><surname>Smith</surname><given-names>JC</given-names></name></person-group>
+<year>2000</year>
+<article-title>Xwnt11 is a target of Xenopus Brachyury: regulation of gastrulation movements via Dishevelled, but not through the canonical Wnt pathway.</article-title>
+<source>Development.</source>
+<volume>127</volume>
+<fpage>2227</fpage>
+<lpage>38</lpage>
+<pub-id pub-id-type="pmid">10769246</pub-id></element-citation></ref><ref id="pone.0000009-Wu1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wu</surname><given-names>M</given-names></name><name><surname>Herman</surname><given-names>MA</given-names></name></person-group>
+<year>2006</year>
+<article-title>A novel noncanonical Wnt pathway is involved in the regulation of the asymmetric B cell division in C. elegans.</article-title>
+<source>Dev Biol</source>
+</element-citation></ref><ref id="pone.0000009-Goldstein1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goldstein</surname><given-names>B</given-names></name><name><surname>Takeshita</surname><given-names>H</given-names></name><name><surname>Mizumoto</surname><given-names>K</given-names></name><name><surname>Sawa</surname><given-names>H</given-names></name></person-group>
+<year>2006</year>
+<article-title>Wnt signals can function as positional cues in establishing cell polarity.</article-title>
+<source>Dev Cell.</source>
+<volume>10</volume>
+<fpage>391</fpage>
+<lpage>6</lpage>
+<pub-id pub-id-type="pmid">16516841</pub-id></element-citation></ref><ref id="pone.0000009-Hilliard1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hilliard</surname><given-names>MA</given-names></name><name><surname>Bargmann</surname><given-names>CI</given-names></name></person-group>
+<year>2006</year>
+<article-title>Wnt signals and frizzled activity orient anterior-posterior axon outgrowth in C. elegans.</article-title>
+<source>Dev Cell.</source>
+<volume>10</volume>
+<fpage>379</fpage>
+<lpage>90</lpage>
+<pub-id pub-id-type="pmid">16516840</pub-id></element-citation></ref><ref id="pone.0000009-Hatini1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hatini</surname><given-names>V</given-names></name><name><surname>DiNardo</surname><given-names>S</given-names></name></person-group>
+<year>2001</year>
+<article-title>Divide and conquer: pattern formation in Drosophila embryonic epidermis.</article-title>
+<source>Trends Genet.</source>
+<volume>17</volume>
+<fpage>574</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="pmid">11585663</pub-id></element-citation></ref><ref id="pone.0000009-NussleinVolhard1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nusslein-Volhard</surname><given-names>C</given-names></name><name><surname>Wieschaus</surname><given-names>E</given-names></name></person-group>
+<year>1980</year>
+<article-title>Mutations affecting segment number and polarity in Drosophila.</article-title>
+<source>Nature.</source>
+<volume>287</volume>
+<fpage>795</fpage>
+<lpage>801</lpage>
+<pub-id pub-id-type="pmid">6776413</pub-id></element-citation></ref><ref id="pone.0000009-Price1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Price</surname><given-names>MH</given-names></name><name><surname>Roberts</surname><given-names>DM</given-names></name><name><surname>McCartney</surname><given-names>BM</given-names></name><name><surname>Jezuit</surname><given-names>E</given-names></name><name><surname>Peifer</surname><given-names>M</given-names></name></person-group>
+<year>2006</year>
+<article-title>Cytoskeletal dynamics and cell signaling during planar polarity establishment in the Drosophila embryonic denticle.</article-title>
+<source>J Cell Sci.</source>
+<volume>119</volume>
+<fpage>403</fpage>
+<lpage>15</lpage>
+<pub-id pub-id-type="pmid">16418222</pub-id></element-citation></ref><ref id="pone.0000009-Cadigan1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cadigan</surname><given-names>KM</given-names></name><name><surname>Liu</surname><given-names>YI</given-names></name></person-group>
+<year>2006</year>
+<article-title>Wnt signaling: complexity at the surface.</article-title>
+<source>J Cell Sci.</source>
+<volume>119</volume>
+<fpage>395</fpage>
+<lpage>402</lpage>
+<pub-id pub-id-type="pmid">16443747</pub-id></element-citation></ref><ref id="pone.0000009-Hooper1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hooper</surname><given-names>JE</given-names></name><name><surname>Scott</surname><given-names>MP</given-names></name></person-group>
+<year>2005</year>
+<article-title>Communicating with Hedgehogs.</article-title>
+<source>Nat Rev Mol Cell Biol.</source>
+<volume>6</volume>
+<fpage>306</fpage>
+<lpage>17</lpage>
+<pub-id pub-id-type="pmid">15803137</pub-id></element-citation></ref><ref id="pone.0000009-Kalderon1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kalderon</surname><given-names>D</given-names></name></person-group>
+<year>2002</year>
+<article-title>Similarities between the Hedgehog and Wnt signaling pathways.</article-title>
+<source>Trends Cell Biol.</source>
+<volume>12</volume>
+<fpage>523</fpage>
+<lpage>31</lpage>
+<pub-id pub-id-type="pmid">12446114</pub-id></element-citation></ref><ref id="pone.0000009-Walters1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Walters</surname><given-names>JW</given-names></name><name><surname>Dilks</surname><given-names>SA</given-names></name><name><surname>Dinardo</surname><given-names>S</given-names></name></person-group>
+<year>2006</year>
+<article-title>Planar polarization of the denticle field in the Drosophila embryo: Roles for Myosin II (Zipper) and Fringe.</article-title>
+<source>Dev Biol</source>
+</element-citation></ref><ref id="pone.0000009-Bejsovec1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bejsovec</surname><given-names>A</given-names></name><name><surname>Wieschaus</surname><given-names>E</given-names></name></person-group>
+<year>1993</year>
+<article-title>Segment polarity gene interactions modulate epidermal patterning in Drosophila embryos.</article-title>
+<source>Development.</source>
+<volume>119</volume>
+<fpage>501</fpage>
+<lpage>17</lpage>
+<pub-id pub-id-type="pmid">8287799</pub-id></element-citation></ref><ref id="pone.0000009-Szuts1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Szuts</surname><given-names>D</given-names></name><name><surname>Freeman</surname><given-names>M</given-names></name><name><surname>Bienz</surname><given-names>M</given-names></name></person-group>
+<year>1997</year>
+<article-title>Antagonism between EGFR and Wingless signalling in the larval cuticle of Drosophila.</article-title>
+<source>Development.</source>
+<volume>124</volume>
+<fpage>3209</fpage>
+<lpage>19</lpage>
+<pub-id pub-id-type="pmid">9272961</pub-id></element-citation></ref><ref id="pone.0000009-Walters2"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Walters</surname><given-names>JW</given-names></name><name><surname>Munoz</surname><given-names>C</given-names></name><name><surname>Paaby</surname><given-names>AB</given-names></name><name><surname>Dinardo</surname><given-names>S</given-names></name></person-group>
+<year>2005</year>
+<article-title>Serrate-Notch signaling defines the scope of the initial denticle field by modulating EGFR activation.</article-title>
+<source>Dev Biol.</source>
+<volume>286</volume>
+<fpage>415</fpage>
+<lpage>26</lpage>
+<pub-id pub-id-type="pmid">16125166</pub-id></element-citation></ref><ref id="pone.0000009-Gates1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gates</surname><given-names>J</given-names></name><name><surname>Peifer</surname><given-names>M</given-names></name></person-group>
+<year>2005</year>
+<article-title>Can 1000 reviews be wrong? Actin, alpha-Catenin, and adherens junctions.</article-title>
+<source>Cell.</source>
+<volume>123</volume>
+<fpage>769</fpage>
+<lpage>72</lpage>
+<pub-id pub-id-type="pmid">16325573</pub-id></element-citation></ref><ref id="pone.0000009-Drees1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Drees</surname><given-names>F</given-names></name><name><surname>Pokutta</surname><given-names>S</given-names></name><name><surname>Yamada</surname><given-names>S</given-names></name><name><surname>Nelson</surname><given-names>WJ</given-names></name><name><surname>Weis</surname><given-names>WI</given-names></name></person-group>
+<year>2005</year>
+<article-title>Alpha-catenin is a molecular switch that binds E-cadherin-beta-catenin and regulates actin-filament assembly.</article-title>
+<source>Cell.</source>
+<volume>123</volume>
+<fpage>903</fpage>
+<lpage>15</lpage>
+<pub-id pub-id-type="pmid">16325583</pub-id></element-citation></ref><ref id="pone.0000009-Yamada1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yamada</surname><given-names>S</given-names></name><name><surname>Pokutta</surname><given-names>S</given-names></name><name><surname>Drees</surname><given-names>F</given-names></name><name><surname>Weis</surname><given-names>WI</given-names></name><name><surname>Nelson</surname><given-names>WJ</given-names></name></person-group>
+<year>2005</year>
+<article-title>Deconstructing the cadherin-catenin-actin complex.</article-title>
+<source>Cell.</source>
+<volume>123</volume>
+<fpage>889</fpage>
+<lpage>901</lpage>
+<pub-id pub-id-type="pmid">16325582</pub-id></element-citation></ref><ref id="pone.0000009-Gumbiner1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gumbiner</surname><given-names>BM</given-names></name></person-group>
+<year>2005</year>
+<article-title>Regulation of cadherin-mediated adhesion in morphogenesis.</article-title>
+<source>Nat Rev Mol Cell Biol.</source>
+<volume>6</volume>
+<fpage>622</fpage>
+<lpage>34</lpage>
+<pub-id pub-id-type="pmid">16025097</pub-id></element-citation></ref><ref id="pone.0000009-Nelson1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nelson</surname><given-names>WJ</given-names></name><name><surname>Nusse</surname><given-names>R</given-names></name></person-group>
+<year>2004</year>
+<article-title>Convergence of Wnt, beta-catenin, and cadherin pathways.</article-title>
+<source>Science.</source>
+<volume>303</volume>
+<fpage>1483</fpage>
+<lpage>7</lpage>
+<pub-id pub-id-type="pmid">15001769</pub-id></element-citation></ref><ref id="pone.0000009-Pacquelet1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pacquelet</surname><given-names>A</given-names></name><name><surname>Rorth</surname><given-names>P</given-names></name></person-group>
+<year>2005</year>
+<article-title>Regulatory mechanisms required for DE-cadherin function in cell migration and other types of adhesion.</article-title>
+<source>J Cell Biol.</source>
+<volume>170</volume>
+<fpage>803</fpage>
+<lpage>12</lpage>
+<pub-id pub-id-type="pmid">16129787</pub-id></element-citation></ref><ref id="pone.0000009-Bek1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bek</surname><given-names>S</given-names></name><name><surname>Kemler</surname><given-names>R</given-names></name></person-group>
+<year>2002</year>
+<article-title>Protein kinase CKII regulates the interaction of beta-catenin with alpha-catenin and its protein stability.</article-title>
+<source>J Cell Sci.</source>
+<volume>115</volume>
+<fpage>4743</fpage>
+<lpage>53</lpage>
+<pub-id pub-id-type="pmid">12432063</pub-id></element-citation></ref><ref id="pone.0000009-Tolwinski1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tolwinski</surname><given-names>NS</given-names></name><name><surname>Wieschaus</surname><given-names>E</given-names></name></person-group>
+<year>2004</year>
+<article-title>A nuclear function for armadillo/beta-catenin.</article-title>
+<source>PLoS Biol.</source>
+<volume>2</volume>
+<fpage>E95</fpage>
+<pub-id pub-id-type="pmid">15024404</pub-id></element-citation></ref><ref id="pone.0000009-Dumstrei1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dumstrei</surname><given-names>K</given-names></name><name><surname>Wang</surname><given-names>F</given-names></name><name><surname>Shy</surname><given-names>D</given-names></name><name><surname>Tepass</surname><given-names>U</given-names></name><name><surname>Hartenstein</surname><given-names>V</given-names></name></person-group>
+<year>2002</year>
+<article-title>Interaction between EGFR signaling and DE-cadherin during nervous system morphogenesis.</article-title>
+<source>Development.</source>
+<volume>129</volume>
+<fpage>3983</fpage>
+<lpage>94</lpage>
+<pub-id pub-id-type="pmid">12163402</pub-id></element-citation></ref><ref id="pone.0000009-Peifer1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Peifer</surname><given-names>M</given-names></name><name><surname>Wieschaus</surname><given-names>E</given-names></name></person-group>
+<year>1990</year>
+<article-title>The segment polarity gene armadillo encodes a functionally modular protein that is the Drosophila homolog of human plakoglobin.</article-title>
+<source>Cell.</source>
+<volume>63</volume>
+<fpage>1167</fpage>
+<lpage>76</lpage>
+<pub-id pub-id-type="pmid">2261639</pub-id></element-citation></ref><ref id="pone.0000009-Scholey1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Scholey</surname><given-names>JM</given-names></name><name><surname>Anderson</surname><given-names>KV</given-names></name></person-group>
+<year>2006</year>
+<article-title>Intraflagellar transport and cilium-based signaling.</article-title>
+<source>Cell.</source>
+<volume>125</volume>
+<fpage>439</fpage>
+<lpage>42</lpage>
+<pub-id pub-id-type="pmid">16678091</pub-id></element-citation></ref><ref id="pone.0000009-Sanson1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sanson</surname><given-names>B</given-names></name><name><surname>Alexandre</surname><given-names>C</given-names></name><name><surname>Fascetti</surname><given-names>N</given-names></name><name><surname>Vincent</surname><given-names>JP</given-names></name></person-group>
+<year>1999</year>
+<article-title>Engrailed and hedgehog make the range of Wingless asymmetric in Drosophila embryos.</article-title>
+<source>Cell.</source>
+<volume>98</volume>
+<fpage>207</fpage>
+<lpage>16</lpage>
+<pub-id pub-id-type="pmid">10428032</pub-id></element-citation></ref><ref id="pone.0000009-Chen1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>Y</given-names></name><name><surname>Struhl</surname><given-names>G</given-names></name></person-group>
+<year>1996</year>
+<article-title>Dual roles for patched in sequestering and transducing Hedgehog.</article-title>
+<source>Cell.</source>
+<volume>87</volume>
+<fpage>553</fpage>
+<lpage>63</lpage>
+<pub-id pub-id-type="pmid">8898207</pub-id></element-citation></ref><ref id="pone.0000009-Chen2"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>Y</given-names></name><name><surname>Struhl</surname><given-names>G</given-names></name></person-group>
+<year>1998</year>
+<article-title>In vivo evidence that Patched and Smoothened constitute distinct binding and transducing components of a Hedgehog receptor complex.</article-title>
+<source>Development.</source>
+<volume>125</volume>
+<fpage>4943</fpage>
+<lpage>8</lpage>
+<pub-id pub-id-type="pmid">9811578</pub-id></element-citation></ref><ref id="pone.0000009-Tolwinski2"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tolwinski</surname><given-names>NS</given-names></name><name><surname>Wehrli</surname><given-names>M</given-names></name><name><surname>Rives</surname><given-names>A</given-names></name><name><surname>Erdeniz</surname><given-names>N</given-names></name><name><surname>DiNardo</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Wg/Wnt signal can be transmitted through arrow/LRP5,6 and Axin independently of Zw3/Gsk3beta activity.</article-title>
+<source>Dev Cell.</source>
+<volume>4</volume>
+<fpage>407</fpage>
+<lpage>18</lpage>
+<pub-id pub-id-type="pmid">12636921</pub-id></element-citation></ref><ref id="pone.0000009-Morel1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morel</surname><given-names>V</given-names></name><name><surname>Arias</surname><given-names>AM</given-names></name></person-group>
+<year>2004</year>
+<article-title>Armadillo/beta-catenin-dependent Wnt signalling is required for the polarisation of epidermal cells during dorsal closure in Drosophila.</article-title>
+<source>Development.</source>
+<volume>131</volume>
+<fpage>3273</fpage>
+<lpage>83</lpage>
+<pub-id pub-id-type="pmid">15226252</pub-id></element-citation></ref><ref id="pone.0000009-Arias1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Arias</surname><given-names>AM</given-names></name><name><surname>Hayward</surname><given-names>P</given-names></name></person-group>
+<year>2006</year>
+<article-title>Filtering transcriptional noise during development: concepts and mechanisms.</article-title>
+<source>Nat Rev Genet.</source>
+<volume>7</volume>
+<fpage>34</fpage>
+<lpage>44</lpage>
+<pub-id pub-id-type="pmid">16369570</pub-id></element-citation></ref><ref id="pone.0000009-Hayward1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hayward</surname><given-names>P</given-names></name><name><surname>Brennan</surname><given-names>K</given-names></name><name><surname>Sanders</surname><given-names>P</given-names></name><name><surname>Balayo</surname><given-names>T</given-names></name><name><surname>DasGupta</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Notch modulates Wnt signalling by associating with Armadillo/beta-catenin and regulating its transcriptional activity.</article-title>
+<source>Development.</source>
+<volume>132</volume>
+<fpage>1819</fpage>
+<lpage>30</lpage>
+<pub-id pub-id-type="pmid">15772135</pub-id></element-citation></ref><ref id="pone.0000009-DiNardo1"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>DiNardo</surname><given-names>S</given-names></name><name><surname>Heemskerk</surname><given-names>J</given-names></name><name><surname>Dougan</surname><given-names>S</given-names></name><name><surname>O'Farrell</surname><given-names>PH</given-names></name></person-group>
+<year>1994</year>
+<article-title>The making of a maggot: patterning the Drosophila embryonic epidermis.</article-title>
+<source>Curr Opin Genet Dev.</source>
+<volume>4</volume>
+<fpage>529</fpage>
+<lpage>34</lpage>
+<pub-id pub-id-type="pmid">7950320</pub-id></element-citation></ref><ref id="pone.0000009-Heemskerk1"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heemskerk</surname><given-names>J</given-names></name><name><surname>DiNardo</surname><given-names>S</given-names></name></person-group>
+<year>1994</year>
+<article-title>Drosophila hedgehog acts as a morphogen in cellular patterning.</article-title>
+<source>Cell.</source>
+<volume>76</volume>
+<fpage>449</fpage>
+<lpage>60</lpage>
+<pub-id pub-id-type="pmid">8313468</pub-id></element-citation></ref><ref id="pone.0000009-Heemskerk2"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heemskerk</surname><given-names>J</given-names></name><name><surname>DiNardo</surname><given-names>S</given-names></name><name><surname>Kostriken</surname><given-names>R</given-names></name><name><surname>O'Farrell</surname><given-names>PH</given-names></name></person-group>
+<year>1991</year>
+<article-title>Multiple modes of engrailed regulation in the progression towards cell fate determination.</article-title>
+<source>Nature.</source>
+<volume>352</volume>
+<fpage>404</fpage>
+<lpage>10</lpage>
+<pub-id pub-id-type="pmid">1861720</pub-id></element-citation></ref><ref id="pone.0000009-Bejsovec2"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bejsovec</surname><given-names>A</given-names></name><name><surname>Martinez Arias</surname><given-names>A</given-names></name></person-group>
+<year>1991</year>
+<article-title>Roles of wingless in patterning the larval epidermis of Drosophila.</article-title>
+<source>Development.</source>
+<volume>113</volume>
+<fpage>471</fpage>
+<lpage>85</lpage>
+<pub-id pub-id-type="pmid">1782860</pub-id></element-citation></ref><ref id="pone.0000009-Sampedro1"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sampedro</surname><given-names>J</given-names></name><name><surname>Johnston</surname><given-names>P</given-names></name><name><surname>Lawrence</surname><given-names>PA</given-names></name></person-group>
+<year>1993</year>
+<article-title>A role for wingless in the segmental gradient of Drosophila?</article-title>
+<source>Development.</source>
+<volume>117</volume>
+<fpage>677</fpage>
+<lpage>87</lpage>
+<pub-id pub-id-type="pmid">8330533</pub-id></element-citation></ref><ref id="pone.0000009-Noordermeer1"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Noordermeer</surname><given-names>J</given-names></name><name><surname>Johnston</surname><given-names>P</given-names></name><name><surname>Rijsewijk</surname><given-names>F</given-names></name><name><surname>Nusse</surname><given-names>R</given-names></name><name><surname>Lawrence</surname><given-names>PA</given-names></name></person-group>
+<year>1992</year>
+<article-title>The consequences of ubiquitous expression of the wingless gene in the Drosophila embryo.</article-title>
+<source>Development.</source>
+<volume>116</volume>
+<fpage>711</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="pmid">1289061</pub-id></element-citation></ref><ref id="pone.0000009-Hays1"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hays</surname><given-names>R</given-names></name><name><surname>Gibori</surname><given-names>GB</given-names></name><name><surname>Bejsovec</surname><given-names>A</given-names></name></person-group>
+<year>1997</year>
+<article-title>Wingless signaling generates pattern through two distinct mechanisms.</article-title>
+<source>Development.</source>
+<volume>124</volume>
+<fpage>3727</fpage>
+<lpage>36</lpage>
+<pub-id pub-id-type="pmid">9367428</pub-id></element-citation></ref><ref id="pone.0000009-Lawrence1"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lawrence</surname><given-names>PA</given-names></name><name><surname>Sanson</surname><given-names>B</given-names></name><name><surname>Vincent</surname><given-names>JP</given-names></name></person-group>
+<year>1996</year>
+<article-title>Compartments, wingless and engrailed: patterning the ventral epidermis of Drosophila embryos.</article-title>
+<source>Development.</source>
+<volume>122</volume>
+<fpage>4095</fpage>
+<lpage>103</lpage>
+<pub-id pub-id-type="pmid">9012529</pub-id></element-citation></ref><ref id="pone.0000009-Gritzan1"><label>48</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gritzan</surname><given-names>U</given-names></name><name><surname>Hatini</surname><given-names>V</given-names></name><name><surname>DiNardo</surname><given-names>S</given-names></name></person-group>
+<year>1999</year>
+<article-title>Mutual antagonism between signals secreted by adjacent wingless and engrailed cells leads to specification of complementary regions of the Drosophila parasegment.</article-title>
+<source>Development.</source>
+<volume>126</volume>
+<fpage>4107</fpage>
+<lpage>15</lpage>
+<pub-id pub-id-type="pmid">10457019</pub-id></element-citation></ref><ref id="pone.0000009-Larsen1"><label>49</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Larsen</surname><given-names>CW</given-names></name><name><surname>Hirst</surname><given-names>E</given-names></name><name><surname>Alexandre</surname><given-names>C</given-names></name><name><surname>Vincent</surname><given-names>JP</given-names></name></person-group>
+<year>2003</year>
+<article-title>Segment boundary formation in Drosophila embryos.</article-title>
+<source>Development.</source>
+<volume>130</volume>
+<fpage>5625</fpage>
+<lpage>35</lpage>
+<pub-id pub-id-type="pmid">14522878</pub-id></element-citation></ref><ref id="pone.0000009-Wehrli1"><label>50</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wehrli</surname><given-names>M</given-names></name><name><surname>Tomlinson</surname><given-names>A</given-names></name></person-group>
+<year>1998</year>
+<article-title>Independent regulation of anterior/posterior and equatorial/polar polarity in the Drosophila eye; evidence for the involvement of Wnt signaling in the equatorial/polar axis.</article-title>
+<source>Development.</source>
+<volume>125</volume>
+<fpage>1421</fpage>
+<lpage>32</lpage>
+<pub-id pub-id-type="pmid">9502723</pub-id></element-citation></ref><ref id="pone.0000009-Wehrli2"><label>51</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wehrli</surname><given-names>M</given-names></name><name><surname>Tomlinson</surname><given-names>A</given-names></name></person-group>
+<year>1995</year>
+<article-title>Epithelial planar polarity in the developing Drosophila eye.</article-title>
+<source>Development.</source>
+<volume>121</volume>
+<fpage>2451</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="pmid">7671809</pub-id></element-citation></ref><ref id="pone.0000009-Lawrence2"><label>52</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lawrence</surname><given-names>PA</given-names></name><name><surname>Casal</surname><given-names>J</given-names></name><name><surname>Struhl</surname><given-names>G</given-names></name></person-group>
+<year>2004</year>
+<article-title>Cell interactions and planar polarity in the abdominal epidermis of Drosophila.</article-title>
+<source>Development.</source>
+<volume>131</volume>
+<fpage>4651</fpage>
+<lpage>64</lpage>
+<pub-id pub-id-type="pmid">15329345</pub-id></element-citation></ref><ref id="pone.0000009-Casal1"><label>53</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Casal</surname><given-names>J</given-names></name><name><surname>Struhl</surname><given-names>G</given-names></name><name><surname>Lawrence</surname><given-names>PA</given-names></name></person-group>
+<year>2002</year>
+<article-title>Developmental compartments and planar polarity in Drosophila.</article-title>
+<source>Curr Biol.</source>
+<volume>12</volume>
+<fpage>1189</fpage>
+<lpage>98</lpage>
+<pub-id pub-id-type="pmid">12176328</pub-id></element-citation></ref><ref id="pone.0000009-Lawrence3"><label>54</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lawrence</surname><given-names>PA</given-names></name><name><surname>Casal</surname><given-names>J</given-names></name><name><surname>Struhl</surname><given-names>G</given-names></name></person-group>
+<year>2002</year>
+<article-title>Towards a model of the organisation of planar polarity and pattern in the Drosophila abdomen.</article-title>
+<source>Development.</source>
+<volume>129</volume>
+<fpage>2749</fpage>
+<lpage>60</lpage>
+<pub-id pub-id-type="pmid">12015301</pub-id></element-citation></ref><ref id="pone.0000009-Amonlirdviman1"><label>55</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Amonlirdviman</surname><given-names>K</given-names></name><name><surname>Khare</surname><given-names>NA</given-names></name><name><surname>Tree</surname><given-names>DR</given-names></name><name><surname>Chen</surname><given-names>WS</given-names></name><name><surname>Axelrod</surname><given-names>JD</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Mathematical modeling of planar cell polarity to understand domineering nonautonomy.</article-title>
+<source>Science.</source>
+<volume>307</volume>
+<fpage>423</fpage>
+<lpage>6</lpage>
+<pub-id pub-id-type="pmid">15662015</pub-id></element-citation></ref><ref id="pone.0000009-Axelrod1"><label>56</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Axelrod</surname><given-names>JD</given-names></name><name><surname>McNeill</surname><given-names>H</given-names></name></person-group>
+<year>2002</year>
+<article-title>Coupling planar cell polarity signaling to morphogenesis.</article-title>
+<source>ScientificWorldJournal.</source>
+<volume>2</volume>
+<fpage>434</fpage>
+<lpage>54</lpage>
+<pub-id pub-id-type="pmid">12806028</pub-id></element-citation></ref><ref id="pone.0000009-Simon1"><label>57</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Simon</surname><given-names>MA</given-names></name></person-group>
+<year>2004</year>
+<article-title>Planar cell polarity in the Drosophila eye is directed by graded Four-jointed and Dachsous expression.</article-title>
+<source>Development.</source>
+<volume>131</volume>
+<fpage>6175</fpage>
+<lpage>84</lpage>
+<pub-id pub-id-type="pmid">15548581</pub-id></element-citation></ref><ref id="pone.0000009-Collier1"><label>58</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Collier</surname><given-names>S</given-names></name><name><surname>Lee</surname><given-names>H</given-names></name><name><surname>Burgess</surname><given-names>R</given-names></name><name><surname>Adler</surname><given-names>P</given-names></name></person-group>
+<year>2005</year>
+<article-title>The WD40 repeat protein fritz links cytoskeletal planar polarity to frizzled subcellular localization in the Drosophila epidermis.</article-title>
+<source>Genetics.</source>
+<volume>169</volume>
+<fpage>2035</fpage>
+<lpage>45</lpage>
+<pub-id pub-id-type="pmid">15654087</pub-id></element-citation></ref><ref id="pone.0000009-Wodarz1"><label>59</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wodarz</surname><given-names>A</given-names></name><name><surname>Stewart</surname><given-names>DB</given-names></name><name><surname>Nelson</surname><given-names>WJ</given-names></name><name><surname>Nusse</surname><given-names>R</given-names></name></person-group>
+<year>2006</year>
+<article-title>Wingless signaling modulates cadherin-mediated cell adhesion in Drosophila imaginal disc cells.</article-title>
+<source>J Cell Sci</source>
+</element-citation></ref><ref id="pone.0000009-Lilien1"><label>60</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lilien</surname><given-names>J</given-names></name><name><surname>Balsamo</surname><given-names>J</given-names></name></person-group>
+<year>2005</year>
+<article-title>The regulation of cadherin-mediated adhesion by tyrosine phosphorylation/dephosphorylation of beta-catenin.</article-title>
+<source>Curr Opin Cell Biol.</source>
+<volume>17</volume>
+<fpage>459</fpage>
+<lpage>65</lpage>
+<pub-id pub-id-type="pmid">16099633</pub-id></element-citation></ref><ref id="pone.0000009-Choi1"><label>61</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Choi</surname><given-names>HJ</given-names></name><name><surname>Huber</surname><given-names>AH</given-names></name><name><surname>Weis</surname><given-names>WI</given-names></name></person-group>
+<year>2006</year>
+<article-title>Thermodynamics of beta-catenin-ligand interactions: the roles of the N- and C-terminal tails in modulating binding affinity.</article-title>
+<source>J Biol Chem.</source>
+<volume>281</volume>
+<fpage>1027</fpage>
+<lpage>38</lpage>
+<pub-id pub-id-type="pmid">16293619</pub-id></element-citation></ref><ref id="pone.0000009-Kobielak1"><label>62</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kobielak</surname><given-names>A</given-names></name><name><surname>Fuchs</surname><given-names>E</given-names></name></person-group>
+<year>2006</year>
+<article-title>Links between alpha-catenin, NF-kappaB, and squamous cell carcinoma in skin.</article-title>
+<source>Proc Natl Acad Sci U S A.</source>
+<volume>103</volume>
+<fpage>2322</fpage>
+<lpage>7</lpage>
+<pub-id pub-id-type="pmid">16452166</pub-id></element-citation></ref><ref id="pone.0000009-Brembeck1"><label>63</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brembeck</surname><given-names>FH</given-names></name><name><surname>Rosario</surname><given-names>M</given-names></name><name><surname>Birchmeier</surname><given-names>W</given-names></name></person-group>
+<year>2006</year>
+<article-title>Balancing cell adhesion and Wnt signaling, the key role of beta-catenin.</article-title>
+<source>Curr Opin Genet Dev.</source>
+<volume>16</volume>
+<fpage>51</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="pmid">16377174</pub-id></element-citation></ref><ref id="pone.0000009-Beachy1"><label>64</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beachy</surname><given-names>PA</given-names></name><name><surname>Karhadkar</surname><given-names>SS</given-names></name><name><surname>Berman</surname><given-names>DM</given-names></name></person-group>
+<year>2004</year>
+<article-title>Tissue repair and stem cell renewal in carcinogenesis.</article-title>
+<source>Nature.</source>
+<volume>432</volume>
+<fpage>324</fpage>
+<lpage>31</lpage>
+<pub-id pub-id-type="pmid">15549094</pub-id></element-citation></ref><ref id="pone.0000009-Ozdamar1"><label>65</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ozdamar</surname><given-names>B</given-names></name><name><surname>Bose</surname><given-names>R</given-names></name><name><surname>Barrios-Rodiles</surname><given-names>M</given-names></name><name><surname>Wang</surname><given-names>HR</given-names></name><name><surname>Zhang</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Regulation of the polarity protein Par6 by TGFbeta receptors controls epithelial cell plasticity.</article-title>
+<source>Science.</source>
+<volume>307</volume>
+<fpage>1603</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="pmid">15761148</pub-id></element-citation></ref><ref id="pone.0000009-Xu1"><label>66</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xu</surname><given-names>T</given-names></name><name><surname>Rubin</surname><given-names>GM</given-names></name></person-group>
+<year>1993</year>
+<article-title>Analysis of genetic mosaics in developing and adult Drosophila tissues.</article-title>
+<source>Development.</source>
+<volume>117</volume>
+<fpage>1223</fpage>
+<lpage>37</lpage>
+<pub-id pub-id-type="pmid">8404527</pub-id></element-citation></ref><ref id="pone.0000009-Chou1"><label>67</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chou</surname><given-names>TB</given-names></name><name><surname>Perrimon</surname><given-names>N</given-names></name></person-group>
+<year>1992</year>
+<article-title>Use of a yeast site-specific recombinase to produce female germline chimeras in Drosophila.</article-title>
+<source>Genetics.</source>
+<volume>131</volume>
+<fpage>643</fpage>
+<lpage>53</lpage>
+<pub-id pub-id-type="pmid">1628809</pub-id></element-citation></ref><ref id="pone.0000009-DawesHoang1"><label>68</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dawes-Hoang</surname><given-names>RE</given-names></name><name><surname>Parmar</surname><given-names>KM</given-names></name><name><surname>Christiansen</surname><given-names>AE</given-names></name><name><surname>Phelps</surname><given-names>CB</given-names></name><name><surname>Brand</surname><given-names>AH</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>folded gastrulation, cell shape change and the control of myosin localization.</article-title>
+<source>Development.</source>
+<volume>132</volume>
+<fpage>4165</fpage>
+<lpage>78</lpage>
+<pub-id pub-id-type="pmid">16123312</pub-id></element-citation></ref><ref id="pone.0000009-Brand1"><label>69</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brand</surname><given-names>AH</given-names></name><name><surname>Perrimon</surname><given-names>N</given-names></name></person-group>
+<year>1993</year>
+<article-title>Targeted gene expression as a means of altering cell fates and generating dominant phenotypes.</article-title>
+<source>Development.</source>
+<volume>118</volume>
+<fpage>401</fpage>
+<lpage>15</lpage>
+<pub-id pub-id-type="pmid">8223268</pub-id></element-citation></ref><ref id="pone.0000009-Harris1"><label>70</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harris</surname><given-names>TJ</given-names></name><name><surname>Peifer</surname><given-names>M</given-names></name></person-group>
+<year>2004</year>
+<article-title>Adherens junction-dependent and -independent steps in the establishment of epithelial cell polarity in Drosophila.</article-title>
+<source>J Cell Biol.</source>
+<volume>167</volume>
+<fpage>135</fpage>
+<lpage>47</lpage>
+<pub-id pub-id-type="pmid">15479740</pub-id></element-citation></ref></ref-list></back></article>

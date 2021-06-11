@@ -1,0 +1,718 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183649</article-id><article-id pub-id-type="pmc">1762341</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00125</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000022</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Genetics and Genomics/Population Genetics</subject></subj-group></article-categories><title-group><article-title>Genetic Influences on Exercise Participation in 37.051 Twin Pairs from Seven Countries</article-title><alt-title alt-title-type="running-head">Genetic Influences on Exercise</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Stubbe</surname><given-names>Janine H.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Boomsma</surname><given-names>Dorret I.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Vink</surname><given-names>Jacqueline M.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Cornes</surname><given-names>Belinda K.</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Martin</surname><given-names>Nicholas G.</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Skytthe</surname><given-names>Axel</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Kyvik</surname><given-names>Kirsten O.</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Rose</surname><given-names>Richard J.</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref><xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Kujala</surname><given-names>Urho M.</given-names></name><xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Kaprio</surname><given-names>Jaakko</given-names></name><xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref><xref ref-type="aff" rid="aff7">
+<sup>7</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Harris</surname><given-names>Jennifer R.</given-names></name><xref ref-type="aff" rid="aff8">
+<sup>8</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Pedersen</surname><given-names>Nancy L.</given-names></name><xref ref-type="aff" rid="aff9">
+<sup>9</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Hunkin</surname><given-names>Janice</given-names></name><xref ref-type="aff" rid="aff10">
+<sup>10</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Spector</surname><given-names>Tim D.</given-names></name><xref ref-type="aff" rid="aff10">
+<sup>10</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>de Geus</surname><given-names>Eco J.C.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution>Department of Biological Psychology, Vrije Universiteit</institution>
+<addr-line>Amsterdam, Netherlands</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>Queensland Institute of Medical Research</institution>
+<addr-line>Brisbane, Australia</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<institution>Epidemiology, Institute of Public Health, University of Southern Denmark</institution>
+<addr-line>Odense, Denmark</addr-line>
+</aff><aff id="aff4">
+<label>4</label>
+<institution>Department of Psychology, Indiana University</institution>
+<addr-line>Bloomington, Indiana, United States of America</addr-line>
+</aff><aff id="aff5">
+<label>5</label>
+<institution>Department of Health Sciences, University of Jy&#x000e4;skyl&#x000e4;</institution>
+<addr-line>Jy&#x000e4;skyl&#x000e4;, Finland</addr-line>
+</aff><aff id="aff6">
+<label>6</label>
+<institution>Department of Public Health, University of Helsinki</institution>
+<addr-line>Helsinki, Finland</addr-line>
+</aff><aff id="aff7">
+<label>7</label>
+<institution>Department of Mental Health and Alcohol Research, National Public Health Institute</institution>
+<addr-line>Helsinki, Finland</addr-line>
+</aff><aff id="aff8">
+<label>8</label>
+<institution>Norwegian Institute of Public Health</institution>
+<addr-line>Oslo, Norway</addr-line>
+</aff><aff id="aff9">
+<label>9</label>
+<institution>Department of Medical Epidemiology and Biostatistics, Karolinska Institutet</institution>
+<addr-line>Stockholm, Sweden</addr-line>
+</aff><aff id="aff10">
+<label>10</label>
+<institution>Twin Research and Genetic Epidemiology Unit, St Thomas' Hospital</institution>
+<addr-line>London, United Kingdom</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Feldman</surname><given-names>Mitchell</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">University of California, San Francisco, United States of America</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>jh.stubbe@psy.vu.nl</email></corresp><fn fn-type="con"><p>Analyzed the data: JS JV. Contributed reagents/materials/analysis tools: JS. Wrote the paper: JS. Other: Data collection and data cleaning, British twins: JH. Data collection and data cleaning, Australian twins: BC. Data collection, Dutch twins: JS. Data collection, Dutch twins: JV. Data collection and data cleaning, Danish twins: AS. Data collection and data cleaning, Finnish twins: UK. Contributed to final draft: DB NM KK RR JK JH NP TS EdG.</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e22</elocation-id><history><date date-type="received"><day>13</day><month>9</month><year>2006</year></date><date date-type="accepted"><day>21</day><month>9</month><year>2006</year></date></history><permissions><copyright-statement>Stubbe et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><sec><title>Background</title><p>A sedentary lifestyle remains a major threat to health in contemporary societies. To get more insight in the relative contribution of genetic and environmental influences on individual differences in exercise participation, twin samples from seven countries participating in the GenomEUtwin project were used.</p></sec><sec><title>Methodology</title><p>Self-reported data on leisure time exercise behavior from Australia, Denmark, Finland, Norway, the Netherlands, Sweden and United Kingdom were used to create a comparable index of exercise participation in each country (60 minutes weekly at a minimum intensity of four metabolic equivalents).</p></sec><sec><title>Principal Findings</title><p>Modest geographical variation in exercise participation was revealed in 85,198 subjects, aged 19&#x02013;40 years. Modeling of monozygotic and dizygotic twin resemblance showed that genetic effects play an important role in explaining individual differences in exercise participation in each country. Shared environmental effects played no role except for Norwegian males. Heritability of exercise participation in males and females was similar and ranged from 48&#x00025; to 71&#x00025; (excluding Norwegian males).</p></sec><sec><title>Conclusions</title><p>Genetic variation is important in individual exercise behavior and may involve genes influencing the acute mood effects of exercise, high exercise ability, high weight loss ability, and personality. This collaborative study suggests that attempts to find genes influencing exercise participation can pool exercise data across multiple countries and different instruments.</p></sec></abstract><counts><page-count count="7"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Regular exercisers have reduced cardiovascular morbidity and mortality <xref rid="pone.0000022-Berlin1" ref-type="bibr">[1]</xref>&#x02013;<xref rid="pone.0000022-Kesaniemi1" ref-type="bibr">[3]</xref>. In addition, exercisers are characterized by enhanced psychological well-being and sharper minds. They have a lower incidence of depression and anxiety disorders <xref rid="pone.0000022-Camacho1" ref-type="bibr">[4]</xref>&#x02013;<xref rid="pone.0000022-Steptoe1" ref-type="bibr">[7]</xref> and show cognitive advantages, specifically in frontal executive functions <xref rid="pone.0000022-Colcombe1" ref-type="bibr">[8]</xref>&#x02013;<xref rid="pone.0000022-Richards1" ref-type="bibr">[11]</xref>. These advantages for mental and physical health are well-known. Even so, a large part of the population remains nearly completely sedentary <xref rid="pone.0000022-Caspersen1" ref-type="bibr">[12]</xref>&#x02013;<xref rid="pone.0000022-MartinezGonzalez1" ref-type="bibr">[14]</xref> and this percentage appears to be resistant to more than 50 years of population campaigning. As a consequence, a sedentary lifestyle remains a major threat to health in contemporary societies.</p><p>Studies on the determinants of exercise behavior have mainly focused on social and environmental characteristics like access to facilities <xref rid="pone.0000022-MatsonKoffman1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000022-Varo1" ref-type="bibr">[16]</xref>, socioeconomic status <xref rid="pone.0000022-Haase1" ref-type="bibr">[13]</xref>, <xref rid="pone.0000022-Varo1" ref-type="bibr">[16]</xref>, race <xref rid="pone.0000022-Kaplan2" ref-type="bibr">[17]</xref>, job strain <xref rid="pone.0000022-Payne1" ref-type="bibr">[18]</xref>, <xref rid="pone.0000022-VanLoon1" ref-type="bibr">[19]</xref>, marital status <xref rid="pone.0000022-Kaplan2" ref-type="bibr">[17]</xref>, subjective &#x0201c;lack of time&#x0201d; <xref rid="pone.0000022-Shephard1" ref-type="bibr">[20]</xref>, <xref rid="pone.0000022-Sherwood1" ref-type="bibr">[21]</xref>, health beliefs <xref rid="pone.0000022-Haase1" ref-type="bibr">[13]</xref>, and social support by family, peers or colleagues <xref rid="pone.0000022-Sherwood1" ref-type="bibr">[21]</xref>&#x02013;<xref rid="pone.0000022-Orleans1" ref-type="bibr">[23]</xref>. Despite their face validity, none of these factors has emerged as a strong causal determinant of exercise behavior <xref rid="pone.0000022-Dishman1" ref-type="bibr">[24]</xref>, <xref rid="pone.0000022-Seefeldt1" ref-type="bibr">[25]</xref>. Increasingly, therefore, the influence of biological factors has been considered <xref rid="pone.0000022-Rowland1" ref-type="bibr">[26]</xref>&#x02013;<xref rid="pone.0000022-Tou1" ref-type="bibr">[28]</xref>.</p><p>Dispositional differences in the drive to exercise will be most obvious in leisure time, i.e. self-chosen, exercise behavior. Parent-offspring studies have confirmed a significant familial influence on leisure time exercise participation <xref rid="pone.0000022-Aarnio1" ref-type="bibr">[29]</xref>&#x02013;<xref rid="pone.0000022-Simonen1" ref-type="bibr">[32]</xref> and twin studies have further shown this influence to reflect the shared genetic make-up of family members <xref rid="pone.0000022-Beunen1" ref-type="bibr">[33]</xref>&#x02013;<xref rid="pone.0000022-Stubbe1" ref-type="bibr">[41]</xref>. The estimates of genetic contribution are very inconsistent, ranging from no genetic effects <xref rid="pone.0000022-Perusse1" ref-type="bibr">[30]</xref> to a high heritability <xref rid="pone.0000022-Beunen1" ref-type="bibr">[33]</xref>. These inconsistencies may reflect relatively small samples sizes and different definitions of exercise participation. They may also reflect a change in genetic architecture with age, or true socio cultural differences in the relative contribution of the environment related to country-specific traditions, attitudes about exercise, and opportunities to engage in exercise <xref rid="pone.0000022-Haase1" ref-type="bibr">[13]</xref>.</p><p>In this paper, we estimated the heritability of exercise participation using very large twin samples from seven countries participating in the GenomEUtwin project, a multinational collaboration of twin registries aiming to uncover the genetic variation that influences, amongst others, risk factors for cardiovascular disease.</p></sec><sec id="s2"><title>Methods</title><sec id="s2a"><title>Study population</title><p>This study is based on (repeated) surveys in twin samples from seven countries participating in the GenomEUtwin project: Australia, Denmark, Finland, the Netherlands, Norway, Sweden, and United Kingdom. The exact descriptions of the twin registries of these countries have been described in detail elsewhere <xref rid="pone.0000022-Stubbe1" ref-type="bibr">[41]</xref>&#x02013;<xref rid="pone.0000022-Silventoinen1" ref-type="bibr">[44]</xref>. We restricted our analyses to adults aged 19 to 40 years.</p><p>When exercise data were available from more than one survey in a country, we used the most recent survey. If only one twin had completed the most recent survey, we searched for the most recent survey that was completed by both members of the pair. If the other member never filled out a survey, the single twin was nonetheless retained in the analysis to improve on the estimation of exercise prevalence and its variance. Only complete twin pairs, however, are informative for the analyses of twin resemblance. Below, the surveys from which the data are drawn are briefly described by country. The final sample sizes are summarized in <xref ref-type="table" rid="pone-0000022-t001">Table 1</xref>.</p><table-wrap id="pone-0000022-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000022.t001</object-id><label>Table 1</label><caption><title>Number of twins in the countries participating in the GenomEUtwin project.</title></caption><graphic xlink:href="pone.0000022.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">Australia</td><td align="left" rowspan="1" colspan="1">Denmark</td><td align="left" rowspan="1" colspan="1">Finland</td><td align="left" rowspan="1" colspan="1">Netherlands</td><td align="left" rowspan="1" colspan="1">Norway</td><td align="left" rowspan="1" colspan="1">Sweden</td><td align="left" rowspan="1" colspan="1">UK</td><td align="left" rowspan="1" colspan="1">Total</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">N</td><td align="left" rowspan="1" colspan="1">5,856</td><td align="left" rowspan="1" colspan="1">23,807</td><td align="left" rowspan="1" colspan="1">19,633</td><td align="left" rowspan="1" colspan="1">6,222</td><td align="left" rowspan="1" colspan="1">9,066</td><td align="left" rowspan="1" colspan="1">19,516</td><td align="left" rowspan="1" colspan="1">1,098</td><td align="left" rowspan="1" colspan="1">85,198</td></tr><tr><td align="left" rowspan="1" colspan="1">Complete pairs</td><td align="left" rowspan="1" colspan="1">2,728</td><td align="left" rowspan="1" colspan="1">9,456</td><td align="left" rowspan="1" colspan="1">8,842</td><td align="left" rowspan="1" colspan="1">2,681</td><td align="left" rowspan="1" colspan="1">3,995</td><td align="left" rowspan="1" colspan="1">8,927</td><td align="left" rowspan="1" colspan="1">422</td><td align="left" rowspan="1" colspan="1">37,051</td></tr><tr><td align="left" rowspan="1" colspan="1">Mean age</td><td align="left" rowspan="1" colspan="1">31.8</td><td align="left" rowspan="1" colspan="1">31.1</td><td align="left" rowspan="1" colspan="1">26.9</td><td align="left" rowspan="1" colspan="1">25.7</td><td align="left" rowspan="1" colspan="1">24.7</td><td align="left" rowspan="1" colspan="1">28.6</td><td align="left" rowspan="1" colspan="1">32.4</td><td align="left" rowspan="1" colspan="1">28.5</td></tr><tr><td align="left" rowspan="1" colspan="1">MZM</td><td align="left" rowspan="1" colspan="1">411</td><td align="left" rowspan="1" colspan="1">1,319</td><td align="left" rowspan="1" colspan="1">1,243</td><td align="left" rowspan="1" colspan="1">423</td><td align="left" rowspan="1" colspan="1">639</td><td align="left" rowspan="1" colspan="1">1,633</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">5,668</td></tr><tr><td align="left" rowspan="1" colspan="1">DZM</td><td align="left" rowspan="1" colspan="1">269</td><td align="left" rowspan="1" colspan="1">1,642</td><td align="left" rowspan="1" colspan="1">2,672</td><td align="left" rowspan="1" colspan="1">295</td><td align="left" rowspan="1" colspan="1">544</td><td align="left" rowspan="1" colspan="1">2,523</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">7,945</td></tr><tr><td align="left" rowspan="1" colspan="1">MZF</td><td align="left" rowspan="1" colspan="1">849</td><td align="left" rowspan="1" colspan="1">1,727</td><td align="left" rowspan="1" colspan="1">1,598</td><td align="left" rowspan="1" colspan="1">843</td><td align="left" rowspan="1" colspan="1">863</td><td align="left" rowspan="1" colspan="1">1,965</td><td align="left" rowspan="1" colspan="1">163</td><td align="left" rowspan="1" colspan="1">8,008</td></tr><tr><td align="left" rowspan="1" colspan="1">DZF</td><td align="left" rowspan="1" colspan="1">529</td><td align="left" rowspan="1" colspan="1">1,860</td><td align="left" rowspan="1" colspan="1">2,737</td><td align="left" rowspan="1" colspan="1">463</td><td align="left" rowspan="1" colspan="1">741</td><td align="left" rowspan="1" colspan="1">2,806</td><td align="left" rowspan="1" colspan="1">259</td><td align="left" rowspan="1" colspan="1">9,395</td></tr><tr><td align="left" rowspan="1" colspan="1">DOS</td><td align="left" rowspan="1" colspan="1">670</td><td align="left" rowspan="1" colspan="1">2,908</td><td align="left" rowspan="1" colspan="1">592</td><td align="left" rowspan="1" colspan="1">657</td><td align="left" rowspan="1" colspan="1">1,208</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">6,035</td></tr></tbody></table><table-wrap-foot><fn id="nt101"><p>Note: MZM, monozygotic male twin pairs; DZM, dizygotic male twin pairs; MZF, monozygotic female twin pairs; DZF, dizygotic female twin pairs; DOS, dizygotic opposite-sex twin pairs (male-female pairs). No data on opposite-sex twins were available in Sweden and no data on male or opposite-sex twins were available in the UK.</p></fn></table-wrap-foot></table-wrap><sec id="s2a1"><title>Australia</title><p>Data were obtained from two different mail surveys conducted in 1980 and 1990. Combining the data from the two surveys and selecting twin pairs between the ages of 19 and 40 years, gave a total of 5,856 participants and 2,728 complete twin pairs.</p></sec><sec id="s2a2"><title>Denmark</title><p>Data were derived from three different mail surveys conducted in 1995, 1997 up to 2000, and 2002. The final sample consisted of 23,807 participants and 9,456 complete twin pairs between ages 19 and 40 years.</p></sec><sec id="s2a3"><title>Finland</title><p>The Finnish data were obtained from two different mail surveys. The first survey, of the older Finnish Twin Cohort, was conducted in 1975 and consists of same-sex twins born before 1958 <xref rid="pone.0000022-Kaprio1" ref-type="bibr">[35]</xref>. The second survey is from participants in <italic>FinnTwin16</italic>, which consists of twins born in 1975&#x02013;1979. Data were collected at four time points from an age 16 baseline (ages 16, 17, 18&#x000bd;, and 22&#x02013;25). For these analyses, we used survey data from the fourth wave assessment when twins were between the ages of 23 to 27 years <xref rid="pone.0000022-Kaprio2" ref-type="bibr">[45]</xref>. Combining the two cohorts and selecting the 19 to 40 year old twins resulted in a total of 19,633 participants and 8,842 complete twin pairs.</p></sec><sec id="s2a4"><title>The Netherlands</title><p>The Dutch data were obtained from a longitudinal study on health and lifestyle in twin families registered with the Netherlands Twin Registry (NTR). Since 1991, every two to three years, twins and their families have received a mail survey <xref rid="pone.0000022-Boomsma2" ref-type="bibr">[46]</xref>. Combining the six surveys (1991, 1993, 1995, 1997, 2000, and 2002) and excluding the twins younger than 19 and older than 40, resulted in a total sample of 6,222 participants and 2,681 complete twin pairs.</p></sec><sec id="s2a5"><title>Norway</title><p>The Norwegian exercise data were derived from two mail surveys, the first in 1992, and the second in 1998 <xref rid="pone.0000022-Harris1" ref-type="bibr">[47]</xref>. Combining the two surveys and excluding the twin pairs younger than 19 years resulted in a total sample of 9,066 participants and 3,995 complete twin pairs.</p></sec><sec id="s2a6"><title>Sweden</title><p>The Swedish data were obtained from a mail survey sent in 1972 to all same-sex twin pairs born in 1926&#x02013;1958 <xref rid="pone.0000022-Lichtenstein1" ref-type="bibr">[48]</xref>. The final sample includes a total of 19,516 participants older than 18 years and younger than 41 years of which 8,927 complete twin pairs could be formed.</p></sec><sec id="s2a7"><title>United Kingdom</title><p>Exercise data from two studies in the St. Thomas' UK Adult Twin Registry (TwinsUK) were used for the analyses. The first study assessed self-reported exercise behavior with a detailed mail survey on health and lifestyle sent out in 2000. The second study comprises data from clinical interviews on lifestyle that were held between 1992 and 2001. Some twins participated in one interview, while others have been interviewed twice. Exercise data from the two studies were combined and the pairs older than 40 and younger than 19 years were removed from the data set. As numbers of male pairs in the age range were small, only female data were retained, resulting in a total sample of 1,098 female participants, from which 422 complete twin pairs could be formed.</p></sec></sec><sec id="s2b"><title>Exercise participation</title><p>Different exercise questions were asked in each of the countries. Systematic coding of duration, frequency and intensity was not possible in all countries. We therefore aimed to define a dichotomy that would be reasonably comparable across countries. Subjects were classified as exercisers if they met a predefined criterion that corresponded to about 60 minutes of weekly exercise activities with a minimum intensity of four metabolic equivalents (METs), where one MET is the rate of energy expenditure of an individual sitting quietly, which is approximately one kcal/kg/h. They were classified as non-exercisers otherwise.</p><p>In Australia, to meet the criterion, subjects had to exercise in their leisure time once a week with a minimal intensity comparable to moderate activities like gardening; in Denmark, they had to engage in hard physical activity (contrasted with light physical activity) outside their working hours for at least one hour a week; in Finland, they had to engage in leisure time exercise at least once a week with a minimum intensity comparable to light jogging for a duration of at least one hour; in the Netherlands they had to engage in one or more leisure time exercise activities with a minimum intensity of four METs, and the total time spent on all such activities was at least 60 minutes a week; in Norway, they exercised during leisure time between one and two times a week at sufficient intensity to build up a sweat and with each session between 30&#x02013;60 minutes in duration; in Sweden, they had to exercise &#x0201c;rather a lot&#x0201d;, &#x0201c;a lot&#x0201d; or &#x0201c;really a lot&#x0201d; (in contrast to &#x0201c;not very much&#x0201d;, &#x0201c;rather little&#x0201d;, &#x0201c;very little&#x0201d;, and &#x0201c;almost none&#x0201d;); in the UK, they had to be regularly engaged in exercise activities with a minimum intensity of four METs.</p></sec><sec id="s2c"><title>Analysis of twin similarity</title><sec id="s2c1"><title>Correlations</title><p>Comparing the correlations of MZ and DZ twins provides information about the nature of the influences contributing to the twin resemblance. MZ twins are genetically identical, while DZ twins share on average half of their segregating genes. If MZ twins resemble each other more than DZ twins, this is an indication that genetic factors (A) play an important role in explaining individual differences in exercise participation. Similar MZ and DZ twin correlations suggest that common environmental factors (C), i.e. factors shared by members of a twin pair, influence variance in exercise participation, because the common environment is similar in MZ and DZ twins <xref rid="pone.0000022-Plomin1" ref-type="bibr">[49]</xref>. Finally, an MZ intrapair correlation different from unity suggests unique environmental effects (E), i.e. factors not shared by members of a twin pair plus measurement error, because MZ twins have identical common environments and identical genes. Adding dizygotic opposite-sex twins (DOS) to the twin design enables us to investigate sex differences. If the DOS correlation is lower than the same-sex dizygotic correlations, this indicates that different common environmental or genetic effects influence exercise participation in males and females.</p></sec><sec id="s2c2"><title>Threshold model</title><p>We estimated tetrachoric correlations from a standard liability threshold model <xref rid="pone.0000022-Falconer1" ref-type="bibr">[50]</xref>. The model assumes that there is an underlying liability for exercise behavior, which is continuous and normally distributed in the population. This underlying normal distribution is divided by a threshold, which is obtained from the observed proportions of exercisers and non-exercisers. Individuals whose scores fall below the threshold, which can be interpreted as a <italic>z</italic>-value, do not meet the exercise criteria and are classified as non-exercisers; those with scores exceeding the threshold are classified as regular exercisers. The thresholds may, or may not be equivalent for males and females, which will be tested.</p></sec><sec id="s2c3"><title>Model fitting procedure</title><p>We used structural equation model (SEM) fitting to partition the variance in latent liability into three components, i.e. genetic, common environmental, and unique environmental factors. The basic principles of structural equation modeling of twin data have been outlined elsewhere <xref rid="pone.0000022-Plomin1" ref-type="bibr">[49]</xref>. A detailed treatise on the statistical testing procedure is found in Neale &#x00026; Cardon <xref rid="pone.0000022-Neale1" ref-type="bibr">[51]</xref>. Different models were fitted to raw ordinal data using the software package Mx <xref rid="pone.0000022-Neale1" ref-type="bibr">[51]</xref>. First, we fitted a saturated model to estimate the tetrachoric correlations between twins. The saturated model is fully parameterized (i.e. it has no constraints) and is used to evaluate the fit of nested, more restricted models. If the fit of a nested model is significantly worsened (<italic>p</italic>&#x0003c;0.01), the predicted contributions of genetic and environmental factors are inconsistent with the data, and the nested model should be rejected. Alpha levels were set to .01 in all samples.</p><p>Using nested models, we tested whether the prevalence of exercise was the same for males and females, whether there was an effect of age on the prevalence of exercise, and whether this effect was the same for both sexes. Next, we tested whether different genes in males and females contribute to the liability to exercise participation, and whether the magnitude of the contribution of genes and environment was the same in males and females. Finally, we analyzed whether both genetic and common environmental factors play a role in familial resemblance by consecutively constraining their contribution to exercise participation to zero. In each country, the most parsimonious model was retained to estimate the relative contribution of genes, common environment shared by family members, and unique environment to individual differences in exercise participation.</p></sec></sec></sec><sec id="s3"><title>Results</title><p>Prevalence of exercise participation for the seven countries is given in <xref ref-type="fig" rid="pone-0000022-g001">Figure 1</xref>, which shows that the percentage of male exercisers is generally higher than the percentage of female exercisers. The average percentage of male and female exercisers was 44&#x00025; and 35&#x00025; respectively. Lowest participation was found in Sweden (37&#x00025; for males and 23&#x00025; for females) and highest participation in Australia (64&#x00025; for males and 56&#x00025; for females).</p><p>Exercise prevalence remained stable across this age range only for males and females in the Netherlands and for females in the UK and Sweden. The prevalence of exercise gradually decreased from age 19 to age 40 in the other countries and the decrease with age in prevalence was the same for males and females.</p><fig id="pone-0000022-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000022.g001</object-id><label>Figure 1</label><caption><title>Prevalence of exercise participation by country and sex.</title></caption><graphic xlink:href="pone.0000022.g001"/></fig><p>For all zygosity groups in the different countries, <xref ref-type="table" rid="pone-0000022-t002">Table 2</xref> displays the tetrachoric correlations. The resemblance in exercise participation of MZ twin pairs was higher as that for DZ twins, consistent with a genetic influence on exercise participation. With the exception of Finland, the DOS correlations were significantly lower than the dizygotic same-sex correlations. This indicates that the genetic factors influencing exercise participation in males do not completely overlap with those in females.</p><table-wrap id="pone-0000022-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000022.t002</object-id><label>Table 2</label><caption><title>Twin correlations and 95&#x00025; CI intervals (between parentheses) for exercise participation by country and zygosity group.</title></caption><graphic xlink:href="pone.0000022.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">Australia</td><td align="left" rowspan="1" colspan="1">Denmark</td><td align="left" rowspan="1" colspan="1">Finland</td><td align="left" rowspan="1" colspan="1">Netherlands</td><td align="left" rowspan="1" colspan="1">Norway</td><td align="left" rowspan="1" colspan="1">Sweden</td><td align="left" rowspan="1" colspan="1">United Kingdom</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">MZM</td><td align="left" rowspan="1" colspan="1">0.43 (0.29&#x02013;0.56)</td><td align="left" rowspan="1" colspan="1">0.49 (0.46&#x02013;0.56)</td><td align="left" rowspan="1" colspan="1">0.62 (0.60&#x02013;0.68)</td><td align="left" rowspan="1" colspan="1">0.71 (0.60&#x02013;0.79)</td><td align="left" rowspan="1" colspan="1">0.65 (0.56&#x02013;0.72)</td><td align="left" rowspan="1" colspan="1">0.64 (0.59&#x02013;0.69)</td><td align="left" rowspan="1" colspan="1">&#x02013;</td></tr><tr><td align="left" rowspan="1" colspan="1">DZM</td><td align="left" rowspan="1" colspan="1">0.32 (0.13&#x02013;0.49)</td><td align="left" rowspan="1" colspan="1">0.27 (0.25&#x02013;0.34)</td><td align="left" rowspan="1" colspan="1">0.34 (0.28&#x02013;0.40)</td><td align="left" rowspan="1" colspan="1">0.36 (0.19&#x02013;0.52)</td><td align="left" rowspan="1" colspan="1">0.48 (0.36&#x02013;0.58)</td><td align="left" rowspan="1" colspan="1">0.31 (0.25&#x02013;0.37)</td><td align="left" rowspan="1" colspan="1">&#x02013;</td></tr><tr><td align="left" rowspan="1" colspan="1">MZF</td><td align="left" rowspan="1" colspan="1">0.48 (0.38&#x02013;0.56)</td><td align="left" rowspan="1" colspan="1">0.53 (0.46&#x02013;0.59)</td><td align="left" rowspan="1" colspan="1">0.61 (0.55&#x02013;0.67)</td><td align="left" rowspan="1" colspan="1">0.63 (0.55&#x02013;0.70)</td><td align="left" rowspan="1" colspan="1">0.58 (0.50&#x02013;0.65)</td><td align="left" rowspan="1" colspan="1">0.60 (0.54&#x02013;0.66)</td><td align="left" rowspan="1" colspan="1">0.70 (0.53&#x02013;0.83)</td></tr><tr><td align="left" rowspan="1" colspan="1">DZF</td><td align="left" rowspan="1" colspan="1">0.32 (0.19&#x02013;0.44)</td><td align="left" rowspan="1" colspan="1">0.28 (0.21&#x02013;0.35)</td><td align="left" rowspan="1" colspan="1">0.30 (0.28&#x02013;0.31)</td><td align="left" rowspan="1" colspan="1">0.38 (0.25&#x02013;0.50)</td><td align="left" rowspan="1" colspan="1">0.24 (0.13&#x02013;0.34)</td><td align="left" rowspan="1" colspan="1">0.27 (0.21&#x02013;0.34)</td><td align="left" rowspan="1" colspan="1">0.35 (0.16&#x02013;0.51)</td></tr><tr><td align="left" rowspan="1" colspan="1">DOS</td><td align="left" rowspan="1" colspan="1">0.07 (&#x02212;0.05&#x02013;0.19)</td><td align="left" rowspan="1" colspan="1">0.09 (0.03&#x02013;0.14)</td><td align="left" rowspan="1" colspan="1">0.25 (0.14&#x02013;0.35)</td><td align="left" rowspan="1" colspan="1">0.08 (&#x02212;0.05&#x02013;0.19)</td><td align="left" rowspan="1" colspan="1">0.17 (0.09&#x02013;0.26)</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">&#x02013;</td></tr></tbody></table></table-wrap><p>
+<xref ref-type="table" rid="pone-0000022-t003">Table 3</xref> shows the relative contribution of genetic influences (A) to the total variance in exercise behavior in each country, also known as its heritability. In addition, the relative contribution of common (C) and unique environmental (E) influences are given. Sequential model fitting (depicted in <xref ref-type="table" rid="pone-0000022-t004">Table 4</xref>) suggested that the contribution of additive genetic and unique environmental factors to the variance in exercise participation was significant in all samples, but that common environmental factors only contributed significantly to exercise participation of the Norwegian males.</p><table-wrap id="pone-0000022-t003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000022.t003</object-id><label>Table 3</label><caption><title>Heritability estimates and confidence intervals by country for the full model.</title></caption><graphic xlink:href="pone.0000022.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">A (95&#x00025; CI)</td><td align="left" rowspan="1" colspan="1">C (95&#x00025; CI)</td><td align="left" rowspan="1" colspan="1">E (95&#x00025; CI)</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Australia (males)</td><td align="left" rowspan="1" colspan="1">22.9 (0.0, 56.1)</td><td align="left" rowspan="1" colspan="1">20.6 (0.0, 46.1)</td><td align="left" rowspan="1" colspan="1">56.6 (43.7, 70.0)</td></tr><tr><td align="left" rowspan="1" colspan="1">Australia (females)</td><td align="left" rowspan="1" colspan="1">31.1 (0.3, 55.6)</td><td align="left" rowspan="1" colspan="1">16.4 (0.0, 40.1)</td><td align="left" rowspan="1" colspan="1">52.5 (44.0, 61.6)</td></tr><tr><td align="left" rowspan="1" colspan="1">Denmark (males)</td><td align="left" rowspan="1" colspan="1">44.4 (24.2, 55.7)</td><td align="left" rowspan="1" colspan="1">4.7 (0.0, 20.5)</td><td align="left" rowspan="1" colspan="1">51.0 (44.3, 58.2)</td></tr><tr><td align="left" rowspan="1" colspan="1">Denmark (females)</td><td align="left" rowspan="1" colspan="1">50.1 (30.3, 57.7)</td><td align="left" rowspan="1" colspan="1">3.1 (0.0, 19.9)</td><td align="left" rowspan="1" colspan="1">46.8 (40.7, 53.4)</td></tr><tr><td align="left" rowspan="1" colspan="1">Finland (males)</td><td align="left" rowspan="1" colspan="1">55.8 (38.4, 63.3)</td><td align="left" rowspan="1" colspan="1">6.2 (0.0, 19.3)</td><td align="left" rowspan="1" colspan="1">38.0 (32.0, 44.6)</td></tr><tr><td align="left" rowspan="1" colspan="1">Finland (females)</td><td align="left" rowspan="1" colspan="1">61.0 (44.5, 66.3)</td><td align="left" rowspan="1" colspan="1">0.0 (0.0, 13.0)</td><td align="left" rowspan="1" colspan="1">39.0 (33.8, 45.2)</td></tr><tr><td align="left" rowspan="1" colspan="1">Netherlands (males)</td><td align="left" rowspan="1" colspan="1">68.1 (34.2, 79.0)</td><td align="left" rowspan="1" colspan="1">2.7 (0.0, 35.3)</td><td align="left" rowspan="1" colspan="1">29.2 (21.0, 39.2)</td></tr><tr><td align="left" rowspan="1" colspan="1">Netherlands (females)</td><td align="left" rowspan="1" colspan="1">50.3 (21.3, 70.3)</td><td align="left" rowspan="1" colspan="1">13.3 (0.0, 38.8)</td><td align="left" rowspan="1" colspan="1">36.5 (29.5, 44.4)</td></tr><tr><td align="left" rowspan="1" colspan="1">Norway (males)</td><td align="left" rowspan="1" colspan="1">33.6 (6.7, 61.7)</td><td align="left" rowspan="1" colspan="1">31.1 (6.5, 53.4)</td><td align="left" rowspan="1" colspan="1">35.4 (27.6, 44.3)</td></tr><tr><td align="left" rowspan="1" colspan="1">Norway (females)</td><td align="left" rowspan="1" colspan="1">56.6 (46.5, 63.8)</td><td align="left" rowspan="1" colspan="1">0.0 (0.0, 14.4)</td><td align="left" rowspan="1" colspan="1">43.4 (36.2, 51.2)</td></tr><tr><td align="left" rowspan="1" colspan="1">Sweden (males)</td><td align="left" rowspan="1" colspan="1">63.9 (52.1, 68.6)</td><td align="left" rowspan="1" colspan="1">0.0 (0.0, 0.0)</td><td align="left" rowspan="1" colspan="1">36.1 (31.4, 41.2)</td></tr><tr><td align="left" rowspan="1" colspan="1">Sweden (females)</td><td align="left" rowspan="1" colspan="1">59.5 (46.9, 64.7)</td><td align="left" rowspan="1" colspan="1">0.0 (0.0, 0.0)</td><td align="left" rowspan="1" colspan="1">40.5 (35.3, 46.1)</td></tr><tr><td align="left" rowspan="1" colspan="1">UK (females)</td><td align="left" rowspan="1" colspan="1">70.5 (24.0, 82.3)</td><td align="left" rowspan="1" colspan="1">0.0 (0.0, 0.0)</td><td align="left" rowspan="1" colspan="1">29.5 (17.7, 46.6)</td></tr></tbody></table><table-wrap-foot><fn id="nt104"><p>Note: A, additive genetic factors; C, common environmental factors; E, unique environmental factors; 95&#x00025; CI, 95&#x00025; confidence interval</p></fn></table-wrap-foot></table-wrap><table-wrap id="pone-0000022-t004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000022.t004</object-id><label>Table 4</label><caption><title>Univariate model fitting results for twins in the 7 different countries; comparisons of models are shown.</title></caption><graphic xlink:href="pone.0000022.t004"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Model</td><td align="left" rowspan="1" colspan="1">vs</td><td align="left" rowspan="1" colspan="1">&#x02212;2LL</td><td align="left" rowspan="1" colspan="1">df</td><td align="left" rowspan="1" colspan="1">&#x003c7;<sup>2</sup>
+</td><td align="left" rowspan="1" colspan="1">&#x025b5;df</td><td align="left" rowspan="1" colspan="1">P</td></tr></thead><tbody><tr><td colspan="7" align="left" rowspan="1">
+<italic>Australia:</italic>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">1. ACE: sex differences</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">7696.270</td><td align="left" rowspan="1" colspan="1">5848</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">2. ACE: no sex differences</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">7696.512</td><td align="left" rowspan="1" colspan="1">5851</td><td align="left" rowspan="1" colspan="1">0.242</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">0.971</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>3. AE: no sex differences</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>2</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>7798.926</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>5852</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>2.414</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.699</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">4. CE: no sex differences</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">7726.546</td><td align="left" rowspan="1" colspan="1">5852</td><td align="left" rowspan="1" colspan="1">30.034</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">5. E&#x000a0;: no sex differences</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">7845.319</td><td align="left" rowspan="1" colspan="1">5853</td><td align="left" rowspan="1" colspan="1">146.393</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td colspan="7" align="left" rowspan="1">
+<italic>Denmark:</italic>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">1. ACE: sex differences</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">30640.413</td><td align="left" rowspan="1" colspan="1">23799</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">2. ACE: no sex differences</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">30641.205</td><td align="left" rowspan="1" colspan="1">23802</td><td align="left" rowspan="1" colspan="1">0.793</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">0.851</td></tr><tr><td align="left" rowspan="1" colspan="1">3. <bold>AE: no sex differences</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>2</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>30641.618</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>23803</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.413</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.521</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">4. CE: no sex differences</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">30761.379</td><td align="left" rowspan="1" colspan="1">23803</td><td align="left" rowspan="1" colspan="1">119.761</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">5. E: no sex difference</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">31072.112</td><td align="left" rowspan="1" colspan="1">23804</td><td align="left" rowspan="1" colspan="1">430.484</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td colspan="7" align="left" rowspan="1">
+<italic>Finland:</italic>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">1. ACE: sex differences</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">23905.129</td><td align="left" rowspan="1" colspan="1">19624</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">2. r<sub>g</sub> fixed at 0.5</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">23905.259</td><td align="left" rowspan="1" colspan="1">19625</td><td align="left" rowspan="1" colspan="1">0.130</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.718</td></tr><tr><td align="left" rowspan="1" colspan="1">3. ACE: no sex differences</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">23907.711</td><td align="left" rowspan="1" colspan="1">19628</td><td align="left" rowspan="1" colspan="1">2.452</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">0.484</td></tr><tr><td align="left" rowspan="1" colspan="1">4. <bold>AE: no sex differences</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>3</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>23907.737</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>19629</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.026</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.872</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">5. CE: no sex differences</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">23999.111</td><td align="left" rowspan="1" colspan="1">19629</td><td align="left" rowspan="1" colspan="1">91.400</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">6. E: no sex differences</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">24590.083</td><td align="left" rowspan="1" colspan="1">19630</td><td align="left" rowspan="1" colspan="1">682.346</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td colspan="7" align="left" rowspan="1">
+<italic>The Netherlands:</italic>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">1. ACE: sex differences</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">8215.915</td><td align="left" rowspan="1" colspan="1">6216</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">2. ACE: no sex differences</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">8217.336</td><td align="left" rowspan="1" colspan="1">6219</td><td align="left" rowspan="1" colspan="1">1.422</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">0.700</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>3. AE: no sex differences</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>2</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>8218.083</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>6220</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.747</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.387</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">4. CE: no sex differences</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">8298.621</td><td align="left" rowspan="1" colspan="1">6220</td><td align="left" rowspan="1" colspan="1">81.285</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">5. E: no sex differences</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">8535.865</td><td align="left" rowspan="1" colspan="1">6221</td><td align="left" rowspan="1" colspan="1">317.782</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td colspan="7" align="left" rowspan="1">
+<italic>Norway:</italic>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">1. ACE: sex differences</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">12155.746</td><td align="left" rowspan="1" colspan="1">9057</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">2. r<sub>g</sub> fixed at 0.5</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">12155.821</td><td align="left" rowspan="1" colspan="1">9058</td><td align="left" rowspan="1" colspan="1">0.075</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.784</td></tr><tr><td align="left" rowspan="1" colspan="1">3. ACE: no sex differences</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">12174.624</td><td align="left" rowspan="1" colspan="1">9061</td><td align="left" rowspan="1" colspan="1">18.803</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>4. ACE<sub>males</sub> and AE<sub>females</sub></bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>2</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>12156.183</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>9059</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.362</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.547</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">5. ACE<sub>males</sub> and E<sub>females</sub>
+</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">12200.904</td><td align="left" rowspan="1" colspan="1">9060</td><td align="left" rowspan="1" colspan="1">44.721</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">6. AE<sub>males</sub> and AE<sub>females</sub>
+</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">12170.586</td><td align="left" rowspan="1" colspan="1">9060</td><td align="left" rowspan="1" colspan="1">14.403</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">7. CE<sub>males</sub> and AE<sub>females</sub>
+</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">12176.306</td><td align="left" rowspan="1" colspan="1">9060</td><td align="left" rowspan="1" colspan="1">20.123</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td colspan="7" align="left" rowspan="1">
+<italic>Sweden:</italic>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">1. ACE: sex differences</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">22310.912</td><td align="left" rowspan="1" colspan="1">19508</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">2. ACE: no sex differences</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">22312.310</td><td align="left" rowspan="1" colspan="1">19511</td><td align="left" rowspan="1" colspan="1">1.398</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">0.706</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>3. AE: no sex differences</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>2</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>22312.310</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>19512</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.000</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.000</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">4. CE: no sex differences</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">22422.587</td><td align="left" rowspan="1" colspan="1">19512</td><td align="left" rowspan="1" colspan="1">110.277</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td align="left" rowspan="1" colspan="1">5. E: no sex differences</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">23048.883</td><td align="left" rowspan="1" colspan="1">19513</td><td align="left" rowspan="1" colspan="1">736.573</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.000</td></tr><tr><td colspan="7" align="left" rowspan="1">
+<italic>United Kingdom (females only):</italic>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">1. ACE</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">1461.910</td><td align="left" rowspan="1" colspan="1">1095</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>2. AE</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1461.910</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1096</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>0.000</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<bold>1.000</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">3. CE</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1470.408</td><td align="left" rowspan="1" colspan="1">1096</td><td align="left" rowspan="1" colspan="1">8.498</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.004</td></tr><tr><td align="left" rowspan="1" colspan="1">4. E</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">1518.182</td><td align="left" rowspan="1" colspan="1">1097</td><td align="left" rowspan="1" colspan="1">56.272</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.000</td></tr></tbody></table></table-wrap><p>Heritability estimates and confidence intervals under the best fitting models in each country are shown in <xref ref-type="table" rid="pone-0000022-t005">Table 5</xref>. Heritability of exercise participation in males ranged from 27&#x00025; in Norway to 67&#x00025; in the Netherlands and in females from 48&#x00025; in Australia to 71&#x00025; in the UK. The median figure for all groups was 62&#x00025;.</p><table-wrap id="pone-0000022-t005" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000022.t005</object-id><label>Table 5</label><caption><title>Heritability estimates and confidence intervals by country for the most parsimonious model.</title></caption><graphic xlink:href="pone.0000022.t005"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">A (95&#x00025; CI)</td><td align="left" rowspan="1" colspan="1">C (95&#x00025; CI)</td><td align="left" rowspan="1" colspan="1">E (95&#x00025; CI)</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Australia</td><td align="left" rowspan="1" colspan="1">48.2 (41.0, 54.9)</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">51.9 (45.2, 60.0)</td></tr><tr><td align="left" rowspan="1" colspan="1">Denmark</td><td align="left" rowspan="1" colspan="1">51.8 (47.0, 56.0)</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">48.2 (48.2, 52.5)</td></tr><tr><td align="left" rowspan="1" colspan="1">Finland</td><td align="left" rowspan="1" colspan="1">61.7 (57.8, 65.5)</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">38.3 (34.5, 42.2)</td></tr><tr><td align="left" rowspan="1" colspan="1">Netherlands</td><td align="left" rowspan="1" colspan="1">66.7 (60.9, 71.9)</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">33.3 (28.1, 39.1)</td></tr><tr><td align="left" rowspan="1" colspan="1">Norway (males)</td><td align="left" rowspan="1" colspan="1">26.5 (10.1, 46.8)</td><td align="left" rowspan="1" colspan="1">36.8 (18.9, 51.5)</td><td align="left" rowspan="1" colspan="1">36.7 (29.4, 44.7)</td></tr><tr><td align="left" rowspan="1" colspan="1">Norway (females)</td><td align="left" rowspan="1" colspan="1">56.4 (48.5, 63.6)</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">43.6 (36.4, 51.5)</td></tr><tr><td align="left" rowspan="1" colspan="1">Sweden</td><td align="left" rowspan="1" colspan="1">61.8 (58.1, 65.3)</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">38.2 (34.7, 42.0)</td></tr><tr><td align="left" rowspan="1" colspan="1">UK</td><td align="left" rowspan="1" colspan="1">70.5 (55.2, 82.3)</td><td align="left" rowspan="1" colspan="1">&#x02013;</td><td align="left" rowspan="1" colspan="1">29.5 (17.7, 44.8)</td></tr></tbody></table><table-wrap-foot><fn id="nt107"><p>Note: A, additive genetic factors; C, common environmental factors; E, unique environmental factors; 95&#x00025; CI, 95&#x00025; confidence interval</p></fn></table-wrap-foot></table-wrap></sec><sec id="s4"><title>Discussion</title><p>This study compared the intrapair resemblance in exercise behavior in 13,676 MZ twin pairs to that in 23,375 DZ twin pairs from seven different countries. In all countries, a significant contribution of genetic factors to exercise participation in leisure time was found. The median heritability of exercise participation was 62&#x00025; across the seven countries and ranged from 27&#x00025; in Norwegian males to 70&#x00025; in female twins from the UK. These findings underscore the robustness of the genetic contribution to this lifestyle behavior. Different birth cohorts and survey periods were studied across the countries and different questions were used to assess regular exercise in each of the countries. Moreover some countries used clinical interviews as well as mail questionnaires. Despite this variation in the assessment instruments and the inclusion of different age cohorts, highly comparable results were found in all countries, as evidenced by the substantial overlap in the heritability estimates. Common environmental factors shared by the twins in their youth such as home environment, school and peer group attitudes and behavior appear to play only a modest role in adult exercise behavior (with the exception of the Norwegian males).</p><p>What is the nature of the genetic factors causing individual differences in voluntary exercise behavior? In part, such factors may act through personality, which has been shown to be heritable almost without exception <xref rid="pone.0000022-Boomsma3" ref-type="bibr">[52]</xref>. Conscientiousness, self-motivation, and self-discipline are essential to adhere to a chosen long term goal even if it violates immediate needs and such factors have long been implied as important determinants of exercise behavior <xref rid="pone.0000022-Dishman1" ref-type="bibr">[24]</xref>. Neuroticism, anxiety, and depression are all associated with lower exercise prevalence <xref rid="pone.0000022-Camacho1" ref-type="bibr">[4]</xref>, <xref rid="pone.0000022-Weyerer1" ref-type="bibr">[53]</xref>. This association has been explained as reflecting a causal effect of exercise, but reversed causality cannot be ruled out. Low self-esteem and depressed mood may well act against participation in exercise, particularly when this needs to be done in an evaluative context.</p><p>Individual differences in nervous system structure and function that are related to personality may also influence the degree to which the act of exercising itself is rewarding to some and aversive to others. The immediate aversive effects caused by exercise-related fatigue related to monoamine depletion <xref rid="pone.0000022-Davis1" ref-type="bibr">[54]</xref> may depend on genetic differences in monoaminergic systems. The extent of immediate rewarding effects may well depend on genetic variation in the opioid and dopamine systems <xref rid="pone.0000022-Simonen3" ref-type="bibr">[55]</xref>. Genetic differences in aversive/rewarding effects may also be found in the period after exercise. For instance, strong cardiac vagal control enabling faster heart rate recovery, a genetically influenced trait <xref rid="pone.0000022-Kupper1" ref-type="bibr">[56]</xref>, may tip the balance between rewarding and aversive effects of acute exercise in favor of reward, by reducing some of the aversive effects of exercise (e.g. prolonged palpitations). Likewise, the temporary reduction in sympathetic stress reactivity after exercise <xref rid="pone.0000022-Halliwill1" ref-type="bibr">[57]</xref> and the positive mood states paired to it <xref rid="pone.0000022-Yeung1" ref-type="bibr">[58]</xref> may depend on the exact genotype of the subjects.</p><p>Finally, there are powerful social-psychological mechanisms that may make some people more attracted to exercise than others. Given the strong positive cultural attitudes towards exercise ability, people who notice that they are better in exercise than others will experience stronger feelings of competence and mastery and may find it easier to adhere to regular exercise. Both endurance and strength traits have been shown to be highly heritable <xref rid="pone.0000022-Bouchard1" ref-type="bibr">[59]</xref>&#x02013;<xref rid="pone.0000022-Thomis1" ref-type="bibr">[61]</xref>. Genes that favor basal physical fitness or the responsiveness to training programs, therefore, may also predispose to exercise behavior. A second related mechanism may be genetic differences in body composition and specifically the ability to lose weight in response to exercise <xref rid="pone.0000022-Wilmore1" ref-type="bibr">[62]</xref>. The desire to lose weight is a frequently cited reason for participation in exercise across many different countries <xref rid="pone.0000022-Haase1" ref-type="bibr">[13]</xref>. Hence, a genetic advantage in the ability to lose weight through exercise may facilitate adherence to regular exercise.</p><p>The latter two mechanisms may also explain why different genes were found to influence exercise participation in males and females (significantly so in the Australian, Danish and Dutch samples). This may reflect a sex difference in the relative subjective importance of exercise ability and exercise-induced weight loss. Among adolescents, for instance, the most commonly reported benefit of exercising for females is &#x0201c;to stay in shape&#x0201d;, whereas the most commonly reported benefit of exercising among males is &#x0201c;to become strong&#x0201d; <xref rid="pone.0000022-Tergerson1" ref-type="bibr">[63]</xref>. Genes favoring fitness may be more relevant to male exercise participation, whereas genes favoring weight loss may have a larger impact on female participation.</p><p>Our threshold models detected modest geographical variation in exercise participation. We hesitate to interpret these prevalence differences as meaningful, because different and imperfect instruments were used to query exercise in the seven countries. Self-reported exercise shows only imperfect correlation to more objective measures like energy expenditure obtained from double water labeling methods or actometer recordings <xref rid="pone.0000022-Sirard1" ref-type="bibr">[64]</xref>. Furthermore, from the surveys used we could not sufficiently determine duration and intensity of exercise activities in each of the countries to obtain a quantitative measure like METhours per week. Resorting to a dichotomy clearly limited the validity of our exercise measure, particularly when comparing prevalences across countries. A further limitation was the difference in the birth cohorts. Data in Finland and Sweden were collected in the late 70's, which is on average more than 15 years earlier than data collection in the other countries. Analyses of the secular trends in Finland and Sweden showed that more people are currently engaging in regular exercise in these countries than was the case in the seventies.</p><p>In spite of these limitations, <xref ref-type="fig" rid="pone-0000022-g001">Figure 1</xref> does not seem to paint an encouraging picture of the exercise habits in the seven participating countries. Even at our mild criterion of about 60 minutes at four METs weekly, only about 50&#x00025; of the subjects were classified as being regularly active in leisure time across all seven countries. This low prevalence of regular leisure time exercise has been a cause for concern in many countries, and encouragement of a more active lifestyle is an important component of international public health recommendations <xref rid="pone.0000022-World1" ref-type="bibr">[65]</xref>. Identification of the genetic factors that underlie the significant heritability of exercise participation may improve our understanding of why some people fail to engage in regular exercise and potentially improve our ability to intervene. For exercise <italic>ability</italic>, coordinated efforts are ongoing worldwide and a number of genes for endurance and strength have been identified and replicated <xref rid="pone.0000022-Rankinen1" ref-type="bibr">[60]</xref>, <xref rid="pone.0000022-Wolfarth1" ref-type="bibr">[66]</xref>. For exercise <italic>behavior</italic>, no such coordinated effort exists. Here we show that such efforts could successfully pool databases of genotype and exercise information across multiple countries to enhance detection of the genomic regions implied in exercise behavior.</p></sec></body><back><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>This study was supported by the Netherlands Organization for Scientific Research (NWO-MW 904-61-193) and the European Commission under &#x02018;Quality of Life and Management of the Living Resources&#x02019; of the Fifth Framework Program (GenomEUtwin QLG2-CT-2002-01254). The Australian work was carried out in corporation with the Australian Twin Registry, and was supported in part by grants from NIAA (USA) AA07535, AA013320, AA013326, NHMRC (Australia) 941177, 951023, 950998, 981339, 241916 and 941944. The Finnish Twin Cohort has been supported by the National Institute on Alcohol Abuse and Alcoholism (grants AA08315 &#x00026; AA12502) and the Academy of Finland (grants 44069 &#x00026; 100499). The British TwinsUK study is supported by the Wellcome Trust and the Arthritis &#x00026; Rheumatism Campaign. The Norwegian Institute of Public Health program of twin research is supported by grants from the Norwegian Research Council and the Norwegian Foundation for Health and Rehabilitation.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000022-Berlin1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Berlin</surname><given-names>JA</given-names></name><name><surname>Colditz</surname><given-names>GA</given-names></name></person-group>
+<year>1990</year>
+<article-title>A meta-analysis of physical activity in the prevention of coronary heart disease.</article-title>
+<source>Am J Epidemiol</source>
+<volume>132</volume>
+<fpage>612</fpage>
+<lpage>628</lpage>
+<pub-id pub-id-type="pmid">2144946</pub-id></element-citation></ref><ref id="pone.0000022-Kaplan1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaplan</surname><given-names>GA</given-names></name><name><surname>Strawbridge</surname><given-names>WJ</given-names></name><name><surname>Cohen</surname><given-names>RD</given-names></name><name><surname>Hungerford</surname><given-names>LR</given-names></name></person-group>
+<year>1996</year>
+<article-title>Natural history of leisure-time physical activity and its correlates: Associations with mortality from all causes and cardiovascular disease over 28 years.</article-title>
+<source>Am J Epidemiol</source>
+<volume>144</volume>
+<fpage>793</fpage>
+<lpage>797</lpage>
+<pub-id pub-id-type="pmid">8857828</pub-id></element-citation></ref><ref id="pone.0000022-Kesaniemi1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kesaniemi</surname><given-names>YA</given-names></name><name><surname>Danforth</surname><given-names>E</given-names></name><name><surname>Jensen</surname><given-names>MD</given-names></name><name><surname>Kopelman</surname><given-names>PG</given-names></name><name><surname>Lefebvre</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Dose-response issues concerning physical activity and health: An evidence-based symposium.</article-title>
+<source>Med Sci Sports Exerc</source>
+<volume>33</volume>
+<fpage>S351</fpage>
+<lpage>S358</lpage>
+<pub-id pub-id-type="pmid">11427759</pub-id></element-citation></ref><ref id="pone.0000022-Camacho1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Camacho</surname><given-names>TC</given-names></name><name><surname>Roberts</surname><given-names>RE</given-names></name><name><surname>Lazarus</surname><given-names>NB</given-names></name><name><surname>Kaplan</surname><given-names>GA</given-names></name><name><surname>Cohen</surname><given-names>RD</given-names></name></person-group>
+<year>1991</year>
+<article-title>Physical activity and depression: Evidence from the Alameda County Study.</article-title>
+<source>Am J Epidemiol</source>
+<volume>134</volume>
+<fpage>220</fpage>
+<lpage>231</lpage>
+<pub-id pub-id-type="pmid">1862805</pub-id></element-citation></ref><ref id="pone.0000022-Farmer1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Farmer</surname><given-names>ME</given-names></name><name><surname>Locke</surname><given-names>BZ</given-names></name><name><surname>Moscicki</surname><given-names>EK</given-names></name><name><surname>Dannenberg</surname><given-names>AL</given-names></name><name><surname>Larson</surname><given-names>DB</given-names></name><etal/></person-group>
+<year>1988</year>
+<article-title>Physical activity and depressive symptoms: The Nhanes-I epidemiologic follow-up study.</article-title>
+<source>Am J Epidemiol</source>
+<volume>128</volume>
+<fpage>1340</fpage>
+<lpage>1351</lpage>
+<pub-id pub-id-type="pmid">3264110</pub-id></element-citation></ref><ref id="pone.0000022-Gauvin1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gauvin</surname><given-names>L</given-names></name><name><surname>Spence</surname><given-names>JC</given-names></name></person-group>
+<year>1996</year>
+<article-title>Physical activity and psychological well-being: Knowledge base, current issues, and caveats.</article-title>
+<source>Nutr Rev</source>
+<volume>54</volume>
+<fpage>S53</fpage>
+<lpage>S65</lpage>
+<pub-id pub-id-type="pmid">8700454</pub-id></element-citation></ref><ref id="pone.0000022-Steptoe1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Steptoe</surname><given-names>A</given-names></name><name><surname>Butler</surname><given-names>N</given-names></name></person-group>
+<year>1996</year>
+<article-title>Sports participation and emotional wellbeing in adolescents.</article-title>
+<source>Lancet</source>
+<volume>347</volume>
+<fpage>1789</fpage>
+<lpage>1792</lpage>
+<pub-id pub-id-type="pmid">8667922</pub-id></element-citation></ref><ref id="pone.0000022-Colcombe1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Colcombe</surname><given-names>S</given-names></name><name><surname>Kramer</surname><given-names>AF</given-names></name></person-group>
+<year>2003</year>
+<article-title>Fitness effects on the cognitive function of older adults: A meta-analytic study.</article-title>
+<source>Psychol Sci</source>
+<volume>14</volume>
+<fpage>125</fpage>
+<lpage>130</lpage>
+<pub-id pub-id-type="pmid">12661673</pub-id></element-citation></ref><ref id="pone.0000022-Etnier1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Etnier</surname><given-names>JL</given-names></name><name><surname>Salazar</surname><given-names>W</given-names></name><name><surname>Landers</surname><given-names>DM</given-names></name><name><surname>Petruzzello</surname><given-names>SJ</given-names></name><name><surname>Han</surname><given-names>M</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>The influence of physical fitness and exercise upon cognitive functioning: A meta-analysis.</article-title>
+<source>J Sport Exerc Psychol</source>
+<volume>19</volume>
+<fpage>249</fpage>
+<lpage>277</lpage>
+</element-citation></ref><ref id="pone.0000022-Hillman1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hillman</surname><given-names>CH</given-names></name><name><surname>Belopolsky</surname><given-names>AV</given-names></name><name><surname>Snook</surname><given-names>EM</given-names></name><name><surname>Kramer</surname><given-names>AF</given-names></name><name><surname>McAuley</surname><given-names>E</given-names></name></person-group>
+<year>2004</year>
+<article-title>Physical activity and executive control: Implications for increased cognitive health during older adulthood.</article-title>
+<source>Res Q Exerc Sport</source>
+<volume>75</volume>
+<fpage>176</fpage>
+<lpage>185</lpage>
+<pub-id pub-id-type="pmid">15209336</pub-id></element-citation></ref><ref id="pone.0000022-Richards1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Richards</surname><given-names>M</given-names></name><name><surname>Hardy</surname><given-names>R</given-names></name><name><surname>Wadsworth</surname><given-names>MEJ</given-names></name></person-group>
+<year>2003</year>
+<article-title>Does active leisure protect cognition? Evidence from a national birth cohort.</article-title>
+<source>Soc Sci Med</source>
+<volume>56</volume>
+<fpage>785</fpage>
+<lpage>792</lpage>
+<pub-id pub-id-type="pmid">12560011</pub-id></element-citation></ref><ref id="pone.0000022-Caspersen1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Caspersen</surname><given-names>CJ</given-names></name><name><surname>Pereira</surname><given-names>MA</given-names></name><name><surname>Curran</surname><given-names>KM</given-names></name></person-group>
+<year>2000</year>
+<article-title>Changes in physical activity patterns in the United States, by sex and cross-sectional age.</article-title>
+<source>Med Sci Sports Exerc</source>
+<volume>32</volume>
+<fpage>1601</fpage>
+<lpage>1609</lpage>
+<pub-id pub-id-type="pmid">10994912</pub-id></element-citation></ref><ref id="pone.0000022-Haase1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haase</surname><given-names>A</given-names></name><name><surname>Steptoe</surname><given-names>A</given-names></name><name><surname>Sallis</surname><given-names>JF</given-names></name><name><surname>Wardle</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>Leisure-time physical activity in university students from 23 countries: Associations with health beliefs, risk awareness, and national economic development.</article-title>
+<source>Prev Med</source>
+<volume>39</volume>
+<fpage>182</fpage>
+<lpage>190</lpage>
+<pub-id pub-id-type="pmid">15208001</pub-id></element-citation></ref><ref id="pone.0000022-MartinezGonzalez1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martinez-Gonzalez</surname><given-names>MA</given-names></name><name><surname>Varo</surname><given-names>JJ</given-names></name><name><surname>Santos</surname><given-names>JL</given-names></name><name><surname>De Irala</surname><given-names>J</given-names></name><name><surname>Gibney</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Prevalence of physical activity during leisure time in the European Union.</article-title>
+<source>Med Sci Sports Exercise</source>
+<volume>33</volume>
+<fpage>1142</fpage>
+<lpage>1146</lpage>
+</element-citation></ref><ref id="pone.0000022-MatsonKoffman1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matson-Koffman</surname><given-names>DM</given-names></name><name><surname>Brownstein</surname><given-names>JN</given-names></name><name><surname>Neiner</surname><given-names>JA</given-names></name><name><surname>Greaney</surname><given-names>ML</given-names></name></person-group>
+<year>2005</year>
+<article-title>A site-specific literature review of policy and environmental interventions that promote physical activity and nutrition for cardiovascular health: What works?</article-title>
+<source>Am J Health Promot</source>
+<volume>19</volume>
+<fpage>167</fpage>
+<lpage>193</lpage>
+<pub-id pub-id-type="pmid">15693346</pub-id></element-citation></ref><ref id="pone.0000022-Varo1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Varo</surname><given-names>JJ</given-names></name><name><surname>Martinez-Gonzalez</surname><given-names>MA</given-names></name><name><surname>Irala-Estevez</surname><given-names>J</given-names></name><name><surname>Kearney</surname><given-names>J</given-names></name><name><surname>Gibney</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Distribution and determinants of sedentary lifestyles in the European Union.</article-title>
+<source>Int J Epidemiol</source>
+<volume>32</volume>
+<fpage>138</fpage>
+<lpage>146</lpage>
+<pub-id pub-id-type="pmid">12690026</pub-id></element-citation></ref><ref id="pone.0000022-Kaplan2"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaplan</surname><given-names>GA</given-names></name><name><surname>Lazarus</surname><given-names>NB</given-names></name><name><surname>Cohen</surname><given-names>RD</given-names></name><name><surname>Leu</surname><given-names>DJ</given-names></name></person-group>
+<year>1991</year>
+<article-title>Psychosocial factors in the natural history of physical activity.</article-title>
+<source>Am J Prev Med</source>
+<volume>7</volume>
+<fpage>12</fpage>
+<lpage>17</lpage>
+<pub-id pub-id-type="pmid">1867895</pub-id></element-citation></ref><ref id="pone.0000022-Payne1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Payne</surname><given-names>N</given-names></name><name><surname>Jones</surname><given-names>F</given-names></name><name><surname>Harris</surname><given-names>PR</given-names></name></person-group>
+<year>2005</year>
+<article-title>The impact of job strain on the predictive validity of the theory of planned behaviour: An investigation of exercise and healthy eating.</article-title>
+<source>Br J Health Psychol</source>
+<volume>10</volume>
+<fpage>115</fpage>
+<lpage>131</lpage>
+<pub-id pub-id-type="pmid">15826338</pub-id></element-citation></ref><ref id="pone.0000022-VanLoon1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Van Loon</surname><given-names>AJM</given-names></name><name><surname>Tijhuis</surname><given-names>M</given-names></name><name><surname>Surtees</surname><given-names>PG</given-names></name><name><surname>Ormel</surname><given-names>J</given-names></name></person-group>
+<year>2000</year>
+<article-title>Lifestyle risk factors for cancer: The relationship with psychosocial work environment.</article-title>
+<source>Int J Epidemiol</source>
+<volume>29</volume>
+<fpage>785</fpage>
+<lpage>792</lpage>
+<pub-id pub-id-type="pmid">11034957</pub-id></element-citation></ref><ref id="pone.0000022-Shephard1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shephard</surname><given-names>RJ</given-names></name></person-group>
+<year>1985</year>
+<article-title>Factors influencing the exercise behavior of patients.</article-title>
+<source>Sports Med</source>
+<volume>2</volume>
+<fpage>348</fpage>
+<lpage>366</lpage>
+<pub-id pub-id-type="pmid">3901174</pub-id></element-citation></ref><ref id="pone.0000022-Sherwood1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sherwood</surname><given-names>NE</given-names></name><name><surname>Jeffery</surname><given-names>RW</given-names></name></person-group>
+<year>2000</year>
+<article-title>The behavioral determinants of exercise: Implications for physical activity interventions.</article-title>
+<source>Annu Rev Nutr</source>
+<volume>20</volume>
+<fpage>21</fpage>
+<lpage>44</lpage>
+<pub-id pub-id-type="pmid">10940325</pub-id></element-citation></ref><ref id="pone.0000022-King1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>King</surname><given-names>AC</given-names></name><name><surname>Blair</surname><given-names>SN</given-names></name><name><surname>Bild</surname><given-names>DE</given-names></name><name><surname>Dishman</surname><given-names>RK</given-names></name><name><surname>Dubbert</surname><given-names>PM</given-names></name><etal/></person-group>
+<year>1992</year>
+<article-title>Determinants of physical activity and interventions in adults.</article-title>
+<source>Med Sci Sports Exerc</source>
+<volume>24</volume>
+<fpage>S221</fpage>
+<lpage>S236</lpage>
+<pub-id pub-id-type="pmid">1625548</pub-id></element-citation></ref><ref id="pone.0000022-Orleans1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Orleans</surname><given-names>CT</given-names></name><name><surname>Kraft</surname><given-names>MK</given-names></name><name><surname>Marx</surname><given-names>JF</given-names></name><name><surname>McGinnis</surname><given-names>JM</given-names></name></person-group>
+<year>2003</year>
+<article-title>Why are some neighborhoods active and others not? Charting a new course for research on the policy and environmental determinants of physical activity.</article-title>
+<source>Ann Behav Med</source>
+<volume>25</volume>
+<fpage>77</fpage>
+<lpage>79</lpage>
+<pub-id pub-id-type="pmid">12704008</pub-id></element-citation></ref><ref id="pone.0000022-Dishman1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dishman</surname><given-names>RK</given-names></name><name><surname>Sallis</surname><given-names>JF</given-names></name><name><surname>Orenstein</surname><given-names>DR</given-names></name></person-group>
+<year>1985</year>
+<article-title>The determinants of physical activity and exercise.</article-title>
+<source>Public Health Rep</source>
+<volume>100</volume>
+<fpage>158</fpage>
+<lpage>171</lpage>
+<pub-id pub-id-type="pmid">3920714</pub-id></element-citation></ref><ref id="pone.0000022-Seefeldt1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Seefeldt</surname><given-names>V</given-names></name><name><surname>Malina</surname><given-names>RM</given-names></name><name><surname>Clark</surname><given-names>MA</given-names></name></person-group>
+<year>2002</year>
+<article-title>Factors affecting levels of physical activity in adults.</article-title>
+<source>Sports Med</source>
+<volume>32</volume>
+<fpage>143</fpage>
+<lpage>168</lpage>
+<pub-id pub-id-type="pmid">11839079</pub-id></element-citation></ref><ref id="pone.0000022-Rowland1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rowland</surname><given-names>TW</given-names></name></person-group>
+<year>1998</year>
+<article-title>The biological basis of physical activity.</article-title>
+<source>Med Sci Sports Exerc</source>
+<volume>30</volume>
+<fpage>392</fpage>
+<lpage>399</lpage>
+<pub-id pub-id-type="pmid">9526885</pub-id></element-citation></ref><ref id="pone.0000022-Thorburn1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thorburn</surname><given-names>AW</given-names></name><name><surname>Proietto</surname><given-names>J</given-names></name></person-group>
+<year>2000</year>
+<article-title>Biological determinants of spontaneous physical activity.</article-title>
+<source>Obes Rev</source>
+<volume>1</volume>
+<fpage>87</fpage>
+<lpage>94</lpage>
+<pub-id pub-id-type="pmid">12119990</pub-id></element-citation></ref><ref id="pone.0000022-Tou1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tou</surname><given-names>JCL</given-names></name><name><surname>Wade</surname><given-names>CE</given-names></name></person-group>
+<year>2002</year>
+<article-title>Determinants affecting physical activity levels in animal models.</article-title>
+<source>Exp Biol Med</source>
+<volume>227</volume>
+<fpage>587</fpage>
+<lpage>600</lpage>
+</element-citation></ref><ref id="pone.0000022-Aarnio1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aarnio</surname><given-names>M</given-names></name><name><surname>Winter</surname><given-names>T</given-names></name><name><surname>Kujala</surname><given-names>UM</given-names></name><name><surname>Kaprio</surname><given-names>J</given-names></name></person-group>
+<year>1997</year>
+<article-title>Familial aggregation of leisure-time physical activity: A three generation study.</article-title>
+<source>Int J Sports Med</source>
+<volume>18</volume>
+<fpage>549</fpage>
+<lpage>556</lpage>
+<pub-id pub-id-type="pmid">9414080</pub-id></element-citation></ref><ref id="pone.0000022-Perusse1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Perusse</surname><given-names>L</given-names></name><name><surname>Tremblay</surname><given-names>A</given-names></name><name><surname>Leblanc</surname><given-names>C</given-names></name><name><surname>Bouchard</surname><given-names>C</given-names></name></person-group>
+<year>1989</year>
+<article-title>Genetic and environmental influences on level of habitual physical activity and exercise participation.</article-title>
+<source>Am J Epidemiol</source>
+<volume>129</volume>
+<fpage>1012</fpage>
+<lpage>1022</lpage>
+<pub-id pub-id-type="pmid">2705422</pub-id></element-citation></ref><ref id="pone.0000022-Sallis1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sallis</surname><given-names>JF</given-names></name><name><surname>Patterson</surname><given-names>TL</given-names></name><name><surname>Buono</surname><given-names>MJ</given-names></name><name><surname>Atkins</surname><given-names>CJ</given-names></name><name><surname>Nader</surname><given-names>PR</given-names></name></person-group>
+<year>1988</year>
+<article-title>Aggregation of physical activity habits in Mexican-American and Anglo families.</article-title>
+<source>J Behav Med</source>
+<volume>11</volume>
+<fpage>31</fpage>
+<lpage>41</lpage>
+<pub-id pub-id-type="pmid">3367370</pub-id></element-citation></ref><ref id="pone.0000022-Simonen1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Simonen</surname><given-names>RL</given-names></name><name><surname>Perusse</surname><given-names>L</given-names></name><name><surname>Rankinen</surname><given-names>T</given-names></name><name><surname>Rice</surname><given-names>T</given-names></name><name><surname>Rao</surname><given-names>DC</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Familial aggregation of physical activity levels in the Quebec family study.</article-title>
+<source>Med Sci Sports Exerc</source>
+<volume>34</volume>
+<fpage>1137</fpage>
+<lpage>1142</lpage>
+<pub-id pub-id-type="pmid">12131254</pub-id></element-citation></ref><ref id="pone.0000022-Beunen1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beunen</surname><given-names>G</given-names></name><name><surname>Thomis</surname><given-names>M</given-names></name></person-group>
+<year>1999</year>
+<article-title>Genetic determinants of sports participation and daily physical activity.</article-title>
+<source>Int J Obes</source>
+<volume>23</volume>
+<fpage>S55</fpage>
+<lpage>S63</lpage>
+</element-citation></ref><ref id="pone.0000022-Boomsma1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boomsma</surname><given-names>DI</given-names></name><name><surname>Vandenbree</surname><given-names>MBM</given-names></name><name><surname>Orlebeke</surname><given-names>JF</given-names></name><name><surname>Molenaar</surname><given-names>PCM</given-names></name></person-group>
+<year>1989</year>
+<article-title>Resemblances of parents and twins in sports participation and heart-rate.</article-title>
+<source>Behav Genet</source>
+<volume>19</volume>
+<fpage>123</fpage>
+<lpage>141</lpage>
+<pub-id pub-id-type="pmid">2712810</pub-id></element-citation></ref><ref id="pone.0000022-Kaprio1"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaprio</surname><given-names>J</given-names></name><name><surname>Koskenvuo</surname><given-names>M</given-names></name><name><surname>Sarna</surname><given-names>S</given-names></name></person-group>
+<year>1981</year>
+<article-title>Cigarette smoking, use of alcohol, and leisure-time physical activity among same-sexed adult male twins.</article-title>
+<source>Prog Clin Biol Res</source>
+<volume>69</volume>
+<fpage>37</fpage>
+<lpage>46</lpage>
+<pub-id pub-id-type="pmid">7198250</pub-id></element-citation></ref><ref id="pone.0000022-Koopmans1"><label>36</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Koopmans</surname><given-names>JR</given-names></name><name><surname>Van Doornen</surname><given-names>LJP</given-names></name><name><surname>Boomsma</surname><given-names>DI</given-names></name></person-group>
+<year>1994</year>
+<article-title>Smoking and sports participation.</article-title>
+<person-group person-group-type="editor"><name><surname>Goldbourt</surname><given-names>U</given-names></name><name><surname>De Faire</surname><given-names>U</given-names></name></person-group>
+<source>Genetic factors in coronary heart disease.</source>
+<publisher-loc>Dordrecht</publisher-loc>
+<publisher-name>Kluwer Academic Publisher</publisher-name>
+<fpage>217</fpage>
+<lpage>235</lpage>
+</element-citation></ref><ref id="pone.0000022-Kujala1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kujala</surname><given-names>UM</given-names></name><name><surname>Kaprio</surname><given-names>J</given-names></name><name><surname>Koskenvuo</surname><given-names>M</given-names></name></person-group>
+<year>2002</year>
+<article-title>Modifiable risk factors as predictors of all-cause mortality: The roles of genetics and childhood environment.</article-title>
+<source>Am J Epidemiol</source>
+<volume>156</volume>
+<fpage>985</fpage>
+<lpage>993</lpage>
+<pub-id pub-id-type="pmid">12446254</pub-id></element-citation></ref><ref id="pone.0000022-Lauderdale1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lauderdale</surname><given-names>DS</given-names></name><name><surname>Fabsitz</surname><given-names>R</given-names></name><name><surname>Meyer</surname><given-names>JM</given-names></name><name><surname>Sholinsky</surname><given-names>P</given-names></name><name><surname>Ramakrishnan</surname><given-names>V</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Familial determinants of moderate and intense physical activity: A twin study.</article-title>
+<source>Med Sci Sports Exerc</source>
+<volume>29</volume>
+<fpage>1062</fpage>
+<lpage>1068</lpage>
+<pub-id pub-id-type="pmid">9268964</pub-id></element-citation></ref><ref id="pone.0000022-Maia1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maia</surname><given-names>JAR</given-names></name><name><surname>Thomis</surname><given-names>M</given-names></name><name><surname>Beunen</surname><given-names>G</given-names></name></person-group>
+<year>2002</year>
+<article-title>Genetic factors in physical activity levels: A twin study.</article-title>
+<source>Am J Prev Med</source>
+<volume>23</volume>
+<fpage>87</fpage>
+<lpage>91</lpage>
+<pub-id pub-id-type="pmid">12133742</pub-id></element-citation></ref><ref id="pone.0000022-Simonen2"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Simonen</surname><given-names>R</given-names></name><name><surname>Levalahti</surname><given-names>E</given-names></name><name><surname>Kaprio</surname><given-names>J</given-names></name><name><surname>Videman</surname><given-names>T</given-names></name><name><surname>Battie</surname><given-names>MC</given-names></name></person-group>
+<year>2004</year>
+<article-title>Multivariate genetic analysis of lifetime exercise and environmental factors.</article-title>
+<source>Med Sci Sports Exerc</source>
+<volume>36</volume>
+<fpage>1559</fpage>
+<lpage>1566</lpage>
+<pub-id pub-id-type="pmid">15354038</pub-id></element-citation></ref><ref id="pone.0000022-Stubbe1"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stubbe</surname><given-names>JH</given-names></name><name><surname>Boomsma</surname><given-names>DI</given-names></name><name><surname>De Geus</surname><given-names>EJC</given-names></name></person-group>
+<year>2005</year>
+<article-title>Sports participation during adolescence: A shift from environmental to genetic factors.</article-title>
+<source>Med Sci Sports Exerc</source>
+<volume>37</volume>
+<fpage>563</fpage>
+<lpage>570</lpage>
+<pub-id pub-id-type="pmid">15809553</pub-id></element-citation></ref><ref id="pone.0000022-Mulder1"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mulder</surname><given-names>EJ</given-names></name><name><surname>Van Baal</surname><given-names>C</given-names></name><name><surname>Gaistz</surname><given-names>D</given-names></name><name><surname>Kallela</surname><given-names>M</given-names></name><name><surname>Kaprio</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Genetic and environmental influences on migraine: A twin study across six countries.</article-title>
+<source>Twin Res</source>
+<volume>6</volume>
+<fpage>422</fpage>
+<lpage>431</lpage>
+<pub-id pub-id-type="pmid">14624726</pub-id></element-citation></ref><ref id="pone.0000022-Schousboe1"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schousboe</surname><given-names>K</given-names></name><name><surname>Willemsen</surname><given-names>G</given-names></name><name><surname>Kyvik</surname><given-names>KO</given-names></name><name><surname>Mortensen</surname><given-names>J</given-names></name><name><surname>Boomsma</surname><given-names>DI</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Sex differences in heritability of BMI: A comparative study of results from twin studies in eight countries.</article-title>
+<source>Twin Res</source>
+<volume>6</volume>
+<fpage>409</fpage>
+<lpage>421</lpage>
+<pub-id pub-id-type="pmid">14624725</pub-id></element-citation></ref><ref id="pone.0000022-Silventoinen1"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Silventoinen</surname><given-names>K</given-names></name><name><surname>Sammalisto</surname><given-names>S</given-names></name><name><surname>Perola</surname><given-names>M</given-names></name><name><surname>Boomsma</surname><given-names>DI</given-names></name><name><surname>Cornes</surname><given-names>BK</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Heritability of adult body height: A comparative study of twin cohorts in eight countries.</article-title>
+<source>Twin Res</source>
+<volume>6</volume>
+<fpage>399</fpage>
+<lpage>408</lpage>
+<pub-id pub-id-type="pmid">14624724</pub-id></element-citation></ref><ref id="pone.0000022-Kaprio2"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaprio</surname><given-names>J</given-names></name><name><surname>Pulkkinen</surname><given-names>L</given-names></name><name><surname>Rose</surname><given-names>RJ</given-names></name></person-group>
+<year>2002</year>
+<article-title>Genetic and environmental factors in health-related behaviors: Studies on Finnish twins and twin families.</article-title>
+<source>Twin Research</source>
+<volume>5</volume>
+<fpage>366</fpage>
+<lpage>371</lpage>
+<pub-id pub-id-type="pmid">12537860</pub-id></element-citation></ref><ref id="pone.0000022-Boomsma2"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boomsma</surname><given-names>DI</given-names></name><name><surname>Vink</surname><given-names>JM</given-names></name><name><surname>van Beijsterveldt</surname><given-names>TC</given-names></name><name><surname>De Geus</surname><given-names>EJ</given-names></name><name><surname>Beem</surname><given-names>AL</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Netherlands Twin Register: A focus on longitudinal research.</article-title>
+<source>Twin Res</source>
+<volume>5</volume>
+<fpage>401</fpage>
+<lpage>406</lpage>
+<pub-id pub-id-type="pmid">12537867</pub-id></element-citation></ref><ref id="pone.0000022-Harris1"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harris</surname><given-names>JR</given-names></name><name><surname>Magnus</surname><given-names>P</given-names></name><name><surname>Tambs</surname><given-names>K</given-names></name></person-group>
+<year>2002</year>
+<article-title>The Norwegian Institute of Public Health twin panel: A description of the sample and program of research.</article-title>
+<source>Twin Res</source>
+<volume>5</volume>
+<fpage>415</fpage>
+<lpage>423</lpage>
+<pub-id pub-id-type="pmid">12613498</pub-id></element-citation></ref><ref id="pone.0000022-Lichtenstein1"><label>48</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lichtenstein</surname><given-names>P</given-names></name><name><surname>De Faire</surname><given-names>U</given-names></name><name><surname>Floderus</surname><given-names>B</given-names></name><name><surname>Svartengren</surname><given-names>M</given-names></name><name><surname>Svedberg</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>The Swedish Twin Registry: A unique resource for clinical, epidemiological and genetic studies.</article-title>
+<source>J Intern Med</source>
+<volume>252</volume>
+<fpage>184</fpage>
+<lpage>205</lpage>
+<pub-id pub-id-type="pmid">12270000</pub-id></element-citation></ref><ref id="pone.0000022-Plomin1"><label>49</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Plomin</surname><given-names>R</given-names></name><name><surname>DeFries</surname><given-names>JC</given-names></name><name><surname>McClearn</surname><given-names>GE</given-names></name><name><surname>McGuffin</surname><given-names>P</given-names></name></person-group>
+<year>2000</year>
+<source>Behavioral Genetics.</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Worth Publishers</publisher-name>
+</element-citation></ref><ref id="pone.0000022-Falconer1"><label>50</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Falconer</surname><given-names>DS</given-names></name><name><surname>Mackay</surname><given-names>TFC</given-names></name></person-group>
+<year>1996</year>
+<source>Introduction to quantitative genetics.</source>
+<publisher-loc>Essex</publisher-loc>
+<publisher-name>Pearson Education Limited</publisher-name>
+<fpage>311</fpage>
+</element-citation></ref><ref id="pone.0000022-Neale1"><label>51</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Neale</surname><given-names>MC</given-names></name><name><surname>Cardon</surname><given-names>LR</given-names></name></person-group>
+<year>1992</year>
+<source>Methodology for genetics studies of twins and families.</source>
+<publisher-loc>Dordrecht</publisher-loc>
+<publisher-name>Kluwer</publisher-name>
+</element-citation></ref><ref id="pone.0000022-Boomsma3"><label>52</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boomsma</surname><given-names>DI</given-names></name><name><surname>Busjahn</surname><given-names>A</given-names></name><name><surname>Peltonen</surname><given-names>L</given-names></name></person-group>
+<year>2002</year>
+<article-title>Classical twin studies and beyond.</article-title>
+<source>Nat Rev Gen</source>
+<volume>3</volume>
+<fpage>872</fpage>
+<lpage>882</lpage>
+</element-citation></ref><ref id="pone.0000022-Weyerer1"><label>53</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weyerer</surname><given-names>S</given-names></name></person-group>
+<year>1992</year>
+<article-title>Physical inactivity and depression in the community: Evidence from the Upper Bavarian Field Study.</article-title>
+<source>Int J Sports Med</source>
+<volume>13</volume>
+<fpage>492</fpage>
+<lpage>496</lpage>
+<pub-id pub-id-type="pmid">1428382</pub-id></element-citation></ref><ref id="pone.0000022-Davis1"><label>54</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Davis</surname><given-names>JM</given-names></name><name><surname>Bailey</surname><given-names>SP</given-names></name></person-group>
+<year>1997</year>
+<article-title>Possible mechanisms of central nervous system fatigue during exercise.</article-title>
+<source>Med Sci Sports Exerc</source>
+<volume>29</volume>
+<fpage>45</fpage>
+<lpage>57</lpage>
+<pub-id pub-id-type="pmid">9000155</pub-id></element-citation></ref><ref id="pone.0000022-Simonen3"><label>55</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Simonen</surname><given-names>RL</given-names></name><name><surname>Rankinen</surname><given-names>T</given-names></name><name><surname>Perusse</surname><given-names>L</given-names></name><name><surname>Leon</surname><given-names>AS</given-names></name><name><surname>Skinner</surname><given-names>JS</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>A dopamine D2 receptor gene polymorphism and physical activity in two family studies.</article-title>
+<source>Physiol Behav</source>
+<volume>78</volume>
+<fpage>751</fpage>
+<lpage>757</lpage>
+<pub-id pub-id-type="pmid">12782232</pub-id></element-citation></ref><ref id="pone.0000022-Kupper1"><label>56</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kupper</surname><given-names>N</given-names></name><name><surname>Willemsen</surname><given-names>G</given-names></name><name><surname>Posthuma</surname><given-names>D</given-names></name><name><surname>De Boer</surname><given-names>P</given-names></name><name><surname>Boomsma</surname><given-names>DI</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>A genetic analysis of ambulatory cardiorespiratory coupling.</article-title>
+<source>Psychophysiol</source>
+<volume>42</volume>
+<fpage>202</fpage>
+<lpage>212</lpage>
+</element-citation></ref><ref id="pone.0000022-Halliwill1"><label>57</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Halliwill</surname><given-names>JR</given-names></name></person-group>
+<year>2001</year>
+<article-title>Mechanisms and clinical implications of post-exercise hypotension in humans.</article-title>
+<source>Exerc Sport Sci Rev</source>
+<volume>29</volume>
+<fpage>65</fpage>
+<lpage>70</lpage>
+<pub-id pub-id-type="pmid">11337825</pub-id></element-citation></ref><ref id="pone.0000022-Yeung1"><label>58</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yeung</surname><given-names>RR</given-names></name></person-group>
+<year>1996</year>
+<article-title>The acute effects of exercise on mood state.</article-title>
+<source>J Psychosom Res</source>
+<volume>40</volume>
+<fpage>123</fpage>
+<lpage>141</lpage>
+<pub-id pub-id-type="pmid">8778396</pub-id></element-citation></ref><ref id="pone.0000022-Bouchard1"><label>59</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bouchard</surname><given-names>C</given-names></name><name><surname>An</surname><given-names>P</given-names></name><name><surname>Rice</surname><given-names>T</given-names></name><name><surname>Skinner</surname><given-names>JS</given-names></name><name><surname>Wilmore</surname><given-names>JH</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Familial aggregation of VO2max response to exercise training: Results from the HERITAGE Family Study.</article-title>
+<source>J Appl Physiol</source>
+<volume>87</volume>
+<fpage>1003</fpage>
+<lpage>1008</lpage>
+<pub-id pub-id-type="pmid">10484570</pub-id></element-citation></ref><ref id="pone.0000022-Rankinen1"><label>60</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rankinen</surname><given-names>T</given-names></name><name><surname>Perusse</surname><given-names>L</given-names></name><name><surname>Rauramaa</surname><given-names>R</given-names></name><name><surname>Rivera</surname><given-names>MA</given-names></name><name><surname>Wolfarth</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>The human gene map for performance and health-related fitness phenotypes: The 2003 update.</article-title>
+<source>Med Sci Sports Exerc</source>
+<volume>36</volume>
+<fpage>1451</fpage>
+<lpage>1469</lpage>
+<pub-id pub-id-type="pmid">15354024</pub-id></element-citation></ref><ref id="pone.0000022-Thomis1"><label>61</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thomis</surname><given-names>MA</given-names></name><name><surname>VanLeemputte</surname><given-names>M</given-names></name><name><surname>Maes</surname><given-names>HH</given-names></name><name><surname>Blimkie</surname><given-names>CJR</given-names></name><name><surname>Claessens</surname><given-names>AL</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Multivariate genetic analysis of maximal isometric muscle force at different elbow angles.</article-title>
+<source>J Appl Physiol</source>
+<volume>82</volume>
+<fpage>959</fpage>
+<lpage>967</lpage>
+<pub-id pub-id-type="pmid">9074988</pub-id></element-citation></ref><ref id="pone.0000022-Wilmore1"><label>62</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilmore</surname><given-names>JH</given-names></name><name><surname>Despres</surname><given-names>JP</given-names></name><name><surname>Stanforth</surname><given-names>PR</given-names></name><name><surname>Mandel</surname><given-names>S</given-names></name><name><surname>Rice</surname><given-names>T</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Alterations in body weight and composition consequent to 20 wk of endurance training: The HERITAGE Family Study.</article-title>
+<source>Am J Clin Nutr</source>
+<volume>70</volume>
+<fpage>346</fpage>
+<lpage>352</lpage>
+<pub-id pub-id-type="pmid">10479196</pub-id></element-citation></ref><ref id="pone.0000022-Tergerson1"><label>63</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tergerson</surname><given-names>J</given-names></name><name><surname>King</surname><given-names>K</given-names></name></person-group>
+<year>2002</year>
+<article-title>Do perceived cues, benefits, and barriers to physical activity differ between male and female adolescents?</article-title>
+<source>J Sch Health</source>
+<volume>72</volume>
+<fpage>374</fpage>
+<lpage>380</lpage>
+<pub-id pub-id-type="pmid">12557633</pub-id></element-citation></ref><ref id="pone.0000022-Sirard1"><label>64</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sirard</surname><given-names>JR</given-names></name><name><surname>Pate</surname><given-names>RR</given-names></name></person-group>
+<year>2001</year>
+<article-title>Physical activity assessment in children and adolescents.</article-title>
+<source>Sports Med</source>
+<volume>31</volume>
+<fpage>439</fpage>
+<lpage>454</lpage>
+<pub-id pub-id-type="pmid">11394563</pub-id></element-citation></ref><ref id="pone.0000022-World1"><label>65</label><element-citation publication-type="journal">
+<collab>World Health Organization</collab>
+<year>1995</year>
+<article-title>Exercise for health.</article-title>
+<source>Bull World Health Organ</source>
+<volume>73</volume>
+<fpage>135</fpage>
+<lpage>136</lpage>
+<pub-id pub-id-type="pmid">7743586</pub-id></element-citation></ref><ref id="pone.0000022-Wolfarth1"><label>66</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wolfarth</surname><given-names>B</given-names></name><name><surname>Bray</surname><given-names>MS</given-names></name><name><surname>Hagberg</surname><given-names>JM</given-names></name><name><surname>Perusse</surname><given-names>L</given-names></name><name><surname>Rauramaa</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>The human gene map for performance and health-related fitness phenotypes: The 2004 update.</article-title>
+<source>Med Sci Sports Exerc</source>
+<volume>37</volume>
+<fpage>881</fpage>
+<lpage>903</lpage>
+<pub-id pub-id-type="pmid">15947712</pub-id></element-citation></ref></ref-list></back></article>

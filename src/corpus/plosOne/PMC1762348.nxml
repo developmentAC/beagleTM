@@ -1,0 +1,364 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183706</article-id><article-id pub-id-type="pmc">1762348</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00097</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000074</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Evolutionary Biology</subject></subj-group></article-categories><title-group><article-title>Late Cretaceous Vicariance in Gondwanan Amphibians</article-title><alt-title alt-title-type="running-head">Gondwanan Amphibian Vicariance</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Bocxlaer</surname><given-names>Ines Van</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Roelants</surname><given-names>Kim</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Biju</surname><given-names>S.D.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Nagaraju</surname><given-names>J.</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Bossuyt</surname><given-names>Franky</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution>Biology Department, Unit of Ecology and Systematics, Vrije Universiteit Brussel</institution>
+<addr-line>Brussels, Belgium</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>Centre for Environmental Management of Degraded Ecosystems (CEMDE), School of Environmental Studies, University of Delhi</institution>
+<addr-line>Delhi, India</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<institution>Laboratory of Molecular Genetics, Centre for DNA Fingerprinting and Diagnostics</institution>
+<addr-line>Hyderabad, India</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Hofreiter</surname><given-names>Michael</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Max Planck Institute for Evolutionary Anthropology, Germany</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>fbossuyt@vub.ac.be</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: KR FB JN SB IV. Performed the experiments: KR IV. Analyzed the data: KR FB IV. Contributed reagents/materials/analysis tools: KR FB JN SB IV. Wrote the paper: KR FB IV.</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e74</elocation-id><history><date date-type="received"><day>7</day><month>9</month><year>2006</year></date><date date-type="accepted"><day>15</day><month>9</month><year>2006</year></date></history><permissions><copyright-statement>Van Bocxlaer et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Overseas dispersals are often invoked when Southern Hemisphere terrestrial and freshwater organism phylogenies do not fit the sequence or timing of Gondwana fragmentation. We used dispersal-vicariance analyses and molecular timetrees to show that two species-rich frog groups, Microhylidae and Natatanura, display congruent patterns of spatial and temporal diversification among Gondwanan plates in the Late Cretaceous, long after the presumed major tectonic break-up events. Because amphibians are notoriously salt-intolerant, these analogies are best explained by simultaneous vicariance, rather than by oceanic dispersal. Hence our results imply Late Cretaceous connections between most adjacent Gondwanan landmasses, an essential concept for biogeographic and palaeomap reconstructions.</p></abstract><counts><page-count count="6"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Ever since Alfred Wegener's theory in 1915, biologists have had vicariance at their disposal as a mechanism to logically explain transoceanic distributions in plants and animals. Meta-analyses of area cladograms <xref rid="pone.0000074-Sanmartin1" ref-type="bibr">[1]</xref> show that many animal phylogenies match the sequential break-up of Gondwana and thus support this hypothesis. However, there is an increasing number of Southern Hemisphere taxa for which divergence time estimates do not readily fit the temporal framework of fragmentation <xref rid="pone.0000074-Sampson1" ref-type="bibr">[2]</xref>, <xref rid="pone.0000074-Cooper1" ref-type="bibr">[3]</xref>. This lack of concordance has sometimes led to the conclusion that the distribution of these organisms resulted from overseas dispersal events [e.g. 4], rather than from a vicariant history. Although transoceanic dispersal may have played an important role in several taxa <xref rid="pone.0000074-deQueiroz1" ref-type="bibr">[5]</xref>, the possibility that terrestrial connections have existed longer than assumed under traditional geological models, has received limited attention in the dispersal-vicariance debate. Yet, if theories of prolonged connections <xref rid="pone.0000074-Chatterjee1" ref-type="bibr">[6]</xref>, intervening landmasses <xref rid="pone.0000074-Sampson1" ref-type="bibr">[2]</xref>, <xref rid="pone.0000074-Cooper1" ref-type="bibr">[3]</xref>, or a completely enclosed Pacific Basin <xref rid="pone.0000074-McCarthy1" ref-type="bibr">[7]</xref> in the Late Cretaceous would prove to be correct, several of the younger phylogenies might still be explained by Gondwanan vicariance.</p><p>While geology is typically used to calibrate the Tree of Life, molecular timetrees of organisms with no (or very limited) oceanic dispersal capabilities in turn have the property that they can test for the presence of associations among tectonic plates. Indeed, under this premise, divergence times between continent-scale endemic groups provide a maximum age for the actual separation of landmasses (i.e., the disappearance of a terrestrial connection). Amphibians are an extremely good model for such studies, because they are notoriously salt-intolerant and, as a rule, oceans provide an effective barrier against their transoceanic dispersal <xref rid="pone.0000074-deQueiroz1" ref-type="bibr">[5]</xref>. An exceptional case of short-distance transoceanic dispersal to the Comores has been shown <xref rid="pone.0000074-Vences1" ref-type="bibr">[8]</xref>, but amphibians do not occur on other oceanic islands and there is no evidence for long-distance overseas dispersal in these animals. Thus it is surprising that molecular clock analyses date the origin of two species-rich Gondwanan groups, Natatanura and Microhylidae, well in the Cretaceous <xref rid="pone.0000074-Vences1" ref-type="bibr">[8]</xref>&#x02013;<xref rid="pone.0000074-Bossuyt1" ref-type="bibr">[11]</xref>. If correct, the subsequent diversification of the major lineages within these clades cannot be congruent with initial Gondwanan break-up, which is traditionally depicted in the Early Cretaceous (145&#x02013;100 mya). To address this controversy, and to test the hypothesis of prolonged biotic interchange between Gondwanan landmasses, we checked for phylogenetic and temporal concordance between and within Microhylidae and Natatanura, using 3.1 and 5.6 kb of sequence data for the major lineages, respectively <xref rid="pone.0000074-1" ref-type="bibr">[12]</xref>.</p></sec><sec id="s2"><title>Results</title><p>Our Maximum likelihood (ML) and Bayesian phylogenetic trees differ from Frost et al.'s &#x02018;Amphibian Tree of Life&#x02019; <xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref> in some important biogeographic aspects (<xref ref-type="fig" rid="pone-0000074-g001">Figure 1</xref>, <xref ref-type="table" rid="pone-0000074-t001">Table 1</xref>). First, in Microhylidae, we recover Dyscophinae (not including the Asian <italic>Calluella</italic>) as the closest relatives of Microhylinae (<italic>i.e.</italic>, a Madagascar-Eurasia/India sister-relationship) (<xref ref-type="fig" rid="pone-0000074-g001">Figure 1</xref>) instead of its alternative position as sister group of Asterophryinae. The alternative of Scaphiophryninae being the sistergroup of Microhylinae <xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>, although implying the same biogeographic pattern, is rejected by our data (<xref ref-type="table" rid="pone-0000074-t001">Table 1, hypotheses 1&#x02013;3</xref>). Second, our analyses do not support a sister-clade relationship between the African genus <italic>Hoplophryne</italic> and <italic>Ramanella</italic> from the Indian subcontinent (<xref ref-type="table" rid="pone-0000074-t001">Table 1, hypothesis 4</xref>), but recover the latter in an unexpected clade endemic to the Indian Subcontinent (<xref ref-type="fig" rid="pone-0000074-g001">Figure 1A, Indian clade</xref>). Third, our analyses show that Melanobatrachinae and Microhylinae are restricted to India and India/Eurasia, respectively, and that their assumed relatives in Africa and South America represent separate lineages (<xref ref-type="table" rid="pone-0000074-t001">Table 1, hypothesis 5 and 6</xref>). Fourth, <italic>Kalophrynus</italic> as sistergroup of all remaining microhylids, which would imply a basal position for a strictly Eurasian lineage, is also rejected by our data (<xref ref-type="table" rid="pone-0000074-t001">Table 1, hypothesis 7</xref>). Finally, we find strong support for an Indian endemic clade composed of the genera <italic>Indirana</italic> and <italic>Micrixalus</italic> (<xref ref-type="fig" rid="pone-0000074-g001">Figure 1B</xref>). The nested position of <italic>Indirana</italic> within six hierarchic African clades, as found by Frost et al. <xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref> is strongly rejected (<xref ref-type="table" rid="pone-0000074-t001">Table 1, hypotheses 8&#x02013;13</xref>), identifying Africanura as an exclusively African radiation (<xref ref-type="fig" rid="pone-0000074-g001">Figure 1B</xref>). All of our alternatively recovered relationships favor simpler biogeographic scenarios than previous hypotheses and complete the evidence that amphibians experienced continent-scale endemic radiations <xref rid="pone.0000074-Bossuyt1" ref-type="bibr">[11]</xref> as the result of a general vicariance history with little overseas dispersal.</p><fig id="pone-0000074-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000074.g001</object-id><label>Figure 1</label><caption><title>Maximum likelihood phylograms for (<bold>A</bold>) Microhylidae (-lnL&#x0200a;=&#x0200a;24126.41696) and (<bold>B</bold>) Natatanura (-lnL&#x0200a;=&#x0200a;53106.71363). </title><p>Branch support is indicated as follows: black circles: ML bootstrap support (BS)&#x02265;75&#x00025; and Bayesian posterior probability (PP)&#x02265;0.95; triangle pointing to the right: BS&#x0003c;75&#x00025;, PP&#x02265;0.95; triangle pointing to the left: BS&#x02265;75&#x00025;, PP&#x0003c;0.95; white circles: BS&#x0003c;75&#x00025; and PP&#x0003c;0.95.</p><p>Higher taxon names follow Frost et al. <xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>, with the exception of removal of <italic>Hoplophryne</italic> from Melanobatrachinae, and recognition of Ranixalidae.</p></caption><graphic xlink:href="pone.0000074.g001"/></fig><table-wrap id="pone-0000074-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000074.t001</object-id><label>Table 1</label><caption><title>Bayesian test for alternative hypotheses (and their associated biogeographic implication) of relationships in Microhylidae and Natatanura.</title></caption><graphic xlink:href="pone.0000074.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Alternative Hypothesis</td><td align="left" rowspan="1" colspan="1">Reference</td><td align="left" rowspan="1" colspan="1">Biogeographic implication</td><td align="left" rowspan="1" colspan="1">p</td></tr></thead><tbody><tr><td colspan="4" align="left" rowspan="1">
+<underline>Microhylidae</underline>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">(1) Monophyly of Dyscophinae (including <italic>Calluella</italic>)</td><td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0000074-Duellman1" ref-type="bibr">[29]</xref>, <xref rid="pone.0000074-Parker1" ref-type="bibr">[30]</xref>
+</td><td align="left" rowspan="1" colspan="1">Dyscophinae not endemic to Madagascar</td><td align="left" rowspan="1" colspan="1">&#x0003c; 0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">(2) Dyscophinae sistergroup of Asterophryinae</td><td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>
+</td><td align="left" rowspan="1" colspan="1">Madagascar - Australia/New Guinea link</td><td align="left" rowspan="1" colspan="1">&#x0003c; 0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">(3) Scaphiophryninae sistergroup of Microhylinae</td><td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>
+</td><td align="left" rowspan="1" colspan="1">alternative Madagascar - India/Eurasia link</td><td align="left" rowspan="1" colspan="1">&#x0003c; 0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">(4) (<italic>Ramanella, Hoplophryne</italic>) clade</td><td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>
+</td><td align="left" rowspan="1" colspan="1">India - Africa link</td><td align="left" rowspan="1" colspan="1">&#x0003c; 0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">(5) Monophyly of Melanobatrachinae (<italic>Hoplophryne</italic> &#x0002b; <italic>Melanobatrachus</italic>)</td><td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>
+</td><td align="left" rowspan="1" colspan="1">Melanobatrachinae not endemic to India</td><td align="left" rowspan="1" colspan="1">&#x0003c; 0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">(6) Monophyly of Microhylinae s.l. (including South American taxa)</td><td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0000074-Duellman1" ref-type="bibr">[29]</xref>, <xref rid="pone.0000074-Parker1" ref-type="bibr">[30]</xref>
+</td><td align="left" rowspan="1" colspan="1">Microhylinae not endemic to Eurasia/India</td><td align="left" rowspan="1" colspan="1">&#x0003c; 0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">(7) <italic>Kalophrynus</italic> sistergroup of all remaining Microhylidae</td><td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>
+</td><td align="left" rowspan="1" colspan="1">Early divergence of Eurasian lineage</td><td align="left" rowspan="1" colspan="1">&#x0003c; 0.001</td></tr><tr><td colspan="4" align="left" rowspan="1">
+<underline>Natatanura</underline>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">(8) Monophyly of Africanura</td><td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>
+</td><td align="left" rowspan="1" colspan="1">Africanura not endemic to Africa</td><td align="left" rowspan="1" colspan="1">0.004</td></tr><tr><td align="left" rowspan="1" colspan="1">(9) Monophyly of Pyxicephaloidea</td><td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>
+</td><td align="left" rowspan="1" colspan="1">Pyxicephaloidea not endemic to Africa</td><td align="left" rowspan="1" colspan="1">&#x0003c; 0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">(10) Monophyly of Petropedetidae</td><td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>
+</td><td align="left" rowspan="1" colspan="1">Petropedetidae not endemic to Africa</td><td align="left" rowspan="1" colspan="1">&#x0003c; 0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">(11) Monophyly of (<italic>Petropedetes &#x0002b; Arthroleptides</italic> &#x0002b; <italic>Indirana</italic>)</td><td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>
+</td><td align="left" rowspan="1" colspan="1">Petropedetidae not endemic to Africa</td><td align="left" rowspan="1" colspan="1">&#x0003c; 0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">(12) Monophyly of Telmatobatrachia</td><td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>
+</td><td align="left" rowspan="1" colspan="1">no initial isolation of African lineages</td><td align="left" rowspan="1" colspan="1">0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">(13) Monophyly of Ametrobatrachia</td><td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>
+</td><td align="left" rowspan="1" colspan="1">no initial isolation of African lineages</td><td align="left" rowspan="1" colspan="1">&#x0003c; 0.001</td></tr></tbody></table></table-wrap><p>All hypotheses either represent long-established taxa <xref rid="pone.0000074-Duellman1" ref-type="bibr">[29]</xref>&#x02013;<xref rid="pone.0000074-Parker1" ref-type="bibr">[30]</xref> or have been proposed recently <xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>.</p><p>To estimate the age of early divergences in Microhylidae and Natatanura, we combined both clades in a single data matrix and performed relaxed molecular clock analyses using two independent methods and multiple combinations of calibration points <xref rid="pone.0000074-1" ref-type="bibr">[12]</xref>. Our age estimates are largely congruent with recent studies focusing on deeper anuran divergences or on natatanuran relationships <xref rid="pone.0000074-Vences1" ref-type="bibr">[8]</xref>&#x02013;<xref rid="pone.0000074-Bossuyt1" ref-type="bibr">[11]</xref>. Importantly, all our timetrees placed the 95&#x00025; confidence intervals of early divergences in both groups in the Late Cretaceous (<xref ref-type="fig" rid="pone-0000074-g002">Figure 2A, gray block</xref>) and Early Tertiary (<xref ref-type="table" rid="pone-0000074-t002">Table 2</xref>). These results indicate that each of the endemic groups became isolated long after the traditionally depicted break-up events <xref rid="pone.0000074-Smith1" ref-type="bibr">[14]</xref>.</p><fig id="pone-0000074-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000074.g002</object-id><label>Figure 2</label><caption><title>Late Cretaceous vicariance in Microhylidae and Natatanura.</title><p>(<bold>A</bold>) Molecular timetree (TK method, all calibration points except G <xref rid="pone.0000074-1" ref-type="bibr">[12]</xref>).</p><p>Horizontal colored bars and lines at internal nodes (Standard deviation and 95&#x00025; credibility interval, respectively) indicate vicariance events reconstructed by DIVA-analyses, and interpreted as follows: orange: Australia &#x0003c;&#x02013;&#x0003e; Indo-Madagascar; yellow: Africa &#x0003c;&#x02013;&#x0003e; South America; blue: Africa &#x0003c;&#x02013;&#x0003e; Indo-Madagascar; purple: Madagascar &#x0003c;&#x02013;&#x0003e; India (Seychelles); green: S. America-Antarctica &#x0003c;&#x02013;&#x0003e; Indo-Madagascar (the intervening Kerguelen Plateau being involved).</p><p>The latter splits in our timetree are interpreted as vicariance events between the Kerguelen plateau and Antarctica or Indo-Madagascar <xref rid="pone.0000074-1" ref-type="bibr">[12]</xref>.</p><p>The branches denoting the latest colonization of Eurasia, as reconstructed by DIVA, are indicated by an asterisk.</p><p>Numbers at terminals correspond to taxon numbers in <xref ref-type="fig" rid="pone-0000074-g001">figure 1</xref>. (<bold>B</bold>) Late Cretaceous Gondwana, with indication of corresponding geological break-ups.</p><p>Abbreviations: AF&#x0200a;=&#x0200a;Africa, MA&#x0200a;=&#x0200a;Madagascar, IN&#x0200a;=&#x0200a;India, EU&#x0200a;=&#x0200a;Eurasia, SA&#x0200a;=&#x0200a;South America, AN&#x0200a;=&#x0200a;Antarctica, AU&#x0200a;=&#x0200a;Australia-New Guinea, KP&#x0200a;=&#x0200a;Kerguelen Plateau.</p></caption><graphic xlink:href="pone.0000074.g002"/></fig><table-wrap id="pone-0000074-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000074.t002</object-id><label>Table 2</label><caption><title>Dating estimates (mya) for vicariance events in the early evolution of Microhylidae and Natatanura.</title></caption><graphic xlink:href="pone.0000074.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Node</td><td align="left" rowspan="1" colspan="1">Age (TK)</td><td align="left" rowspan="1" colspan="1">Age (PL)</td><td align="left" rowspan="1" colspan="1">continental break-up associated with vicariance</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">[74.2, 107.7]</td><td align="left" rowspan="1" colspan="1">[61.7, 75.0]</td><td align="left" rowspan="1" colspan="1">Africa &#x0003c;&#x02013;&#x0003e; Indo-Madagascar (blue)</td></tr><tr><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">[74.2, 97.1]</td><td align="left" rowspan="1" colspan="1">[68.2, 74.9]</td><td align="left" rowspan="1" colspan="1">Africa &#x0003c;&#x02013;&#x0003e; South America (yellow)</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">Africa &#x0003c;&#x02013;&#x0003e; Indo-Madagascar (blue)</td></tr><tr><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">[65.4, 88.1]</td><td align="left" rowspan="1" colspan="1">[51.7, 69.1]</td><td align="left" rowspan="1" colspan="1">S. America-Antarctica &#x0003c;&#x02013;&#x0003e; Indo-Madagascar (disappearance KP) (green)</td></tr><tr><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">[70.4, 91.4]</td><td align="left" rowspan="1" colspan="1">[66.8, 71.4]</td><td align="left" rowspan="1" colspan="1">S. America-Antarctica &#x0003c;&#x02013;&#x0003e; Indo-Madagascar (disappearance KP) (green)</td></tr><tr><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">[63.1, 95.0]</td><td align="left" rowspan="1" colspan="1">[52.3, 68.5]</td><td align="left" rowspan="1" colspan="1">Australia &#x0003c;&#x02013;&#x0003e; Indo-Madagascar (orange)</td></tr><tr><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">[66.7, 84.5]</td><td align="left" rowspan="1" colspan="1">[65.2, 68.5]</td><td align="left" rowspan="1" colspan="1">Australia &#x0003c;&#x02013;&#x0003e; Indo-Madagascar (orange)</td></tr><tr><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">[48.7, 75.8]</td><td align="left" rowspan="1" colspan="1">[49.6, 66.1]</td><td align="left" rowspan="1" colspan="1">Madagascar &#x0003c;&#x02013;&#x0003e; India (Seychelles) (purple)</td></tr><tr><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">[65.1, 77.6]</td><td align="left" rowspan="1" colspan="1">[65.0, 65.0]</td><td align="left" rowspan="1" colspan="1">Madagascar &#x0003c;&#x02013;&#x0003e; India (Seychelles) (purple)</td></tr><tr><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">[56.0, 86.2]</td><td align="left" rowspan="1" colspan="1">[50.5, 62.8]</td><td align="left" rowspan="1" colspan="1">Madagascar &#x0003c;&#x02013;&#x0003e; India (Seychelles) (purple)</td></tr></tbody></table></table-wrap><p>For both the TK- and PL-method, the ages represent the 95&#x00025; confidence intervals of the analysis that includes all calibration points except G <xref rid="pone.0000074-1" ref-type="bibr">[12]</xref>. Node numbers and colors associated with break-up correspond with <xref ref-type="fig" rid="pone-0000074-g002">figure 2</xref>. KP, Kerguelen Plateau.</p><p>We used Dispersal-Vicariance analyses <xref rid="pone.0000074-1" ref-type="bibr">[12]</xref> to reconstruct the biogeography of Late Cretaceous and Early Tertiary nodes in Natatanura and Microhylidae. This method has the advantage of not being constrained by a particular break-up sequence, and thus does not favor the traditional model of Gondwanan fragmentation <italic>a priori</italic>. Our analyses suggest six vicariance events among the following adjacent Gondwanan landmasses (<xref ref-type="fig" rid="pone-0000074-g002">Figure 2</xref>, <xref ref-type="table" rid="pone-0000074-t002">Table 2, nodes 1, 2, 4, 5, 8, 9</xref>): Indo-Madagascar <italic>versus</italic> Africa (blue), Indo-Madagascar <italic>versus</italic> Australia-New Guinea (orange), Africa <italic>versus</italic> South America (yellow), and South America-Antarctica <italic>versus</italic> Indo-Madagascar (over the Kerguelen plateau) (green). Most of our inferred 95&#x00025; credibility intervals for the divergence time estimates of these nodes show no overlap with the temporal windows of traditional plate-tectonic models, which indicate that Indo-Madagascar separated from Africa and Antarctica-Australia-New Guinea in the Early Cretaceous (165&#x02013;121 mya and 130&#x02013;120 mya, respectively), and Madagascar from India about 88 mya <xref rid="pone.0000074-Smith1" ref-type="bibr">[14]</xref>. However, the strong temporal overlap between 95&#x00025; age intervals of equally reconstructed splits (compare the range of identically colored intervals in <xref ref-type="fig" rid="pone-0000074-g002">Figure 2</xref>) suggests that they were shaped by the same paleogeographic events and hence, that they reflect the actual separation of the corresponding landmasses.</p></sec><sec id="s3"><title>Discussion</title><p>Under a strict interpretation of the DIVA results, the Madagascar-Eurasia/India relationships require three contemporary dispersals (<xref ref-type="fig" rid="pone-0000074-g002">Figure 2, purple</xref>) directly from Madagascar to Eurasia (i.e., transoceanic, not using India). However, accretion of landmasses, like vicariance, also allows multiple groups to simultaneously depict the same change in their distribution <xref rid="pone.0000074-Upchurch1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000074-Turner1" ref-type="bibr">[16]</xref>. We suggest that this contemporary, repeated pattern of area relationships is a case of &#x02018;mass coherent dispersal&#x02019; <xref rid="pone.0000074-Upchurch1" ref-type="bibr">[15]</xref>, <xref rid="pone.0000074-Turner1" ref-type="bibr">[16]</xref>, resulting from taxa on isolated India (or Indo-Madagascar) dispersing to Eurasia after contact <xref rid="pone.0000074-Bossuyt2" ref-type="bibr">[17]</xref>. Under this interpretation, the Madagascar-Eurasia splits in fact reflect the vicariance between Madagascar and India (<xref ref-type="fig" rid="pone-0000074-g002">Figure 2, purple</xref>). The three extinctions needed on India to accept this scenario can be easily explained by mass extinction <xref rid="pone.0000074-1" ref-type="bibr">[12]</xref>, given that the Deccan Traps flooded large parts of the subcontinent around the Cretaceous-Tertiary (KT) boundary.</p><p>Our combined phylogenetic, temporal, and biogeographic evidence in two frog clades is indicative of Late Cretaceous terrestrial connections between most adjacent Gondwanan landmasses. Although this contrasts with traditional plate-tectonic models <xref rid="pone.0000074-Smith1" ref-type="bibr">[14]</xref>, various alternative hypotheses have been proposed that could accommodate our results. First, our phylogenies suggest that African frog lineages in both groups became isolated first (<italic>i.e.</italic>, an &#x02018;Africa first&#x02019; scenario <xref rid="pone.0000074-Sampson1" ref-type="bibr">[2]</xref>, <xref rid="pone.0000074-Sereno1" ref-type="bibr">[18]</xref>). Vicariance events in the early Late Cretaceous (<xref ref-type="table" rid="pone-0000074-t002">Table 2, nodes 2 and 9</xref>) are consistent with the prolonged existence of a South America-Africa connection <xref rid="pone.0000074-Sereno1" ref-type="bibr">[18]</xref>, as well as the postulation of a &#x02018;Central Corridor&#x02019; between Africa and Indo-Madagascar until &#x0223c;90 mya <xref rid="pone.0000074-Chatterjee1" ref-type="bibr">[6]</xref>. Second, the Kerguelen Plateau (<xref ref-type="fig" rid="pone-0000074-g002">Figure 2B</xref>) and Gunnerus Ridge, that may have connected Indo-Madagascar and Antarctica until &#x0223c;80 mya <xref rid="pone.0000074-Karanth1" ref-type="bibr">[19]</xref>&#x02013;<xref rid="pone.0000074-Rage1" ref-type="bibr">[22]</xref> provide an explanation for microhylid vicariances between South America and Indo-Madagascar. Third, paleontological and paleogeographic studies have recently suggested that both the Tethys Sea and Pacific Basin may have been much smaller and more enclosed by surrounding continents than previously assumed <xref rid="pone.0000074-McCarthy1" ref-type="bibr">[7]</xref>, <xref rid="pone.0000074-Briggs1" ref-type="bibr">[23]</xref>. As a consequence, India may have accreted to Eurasia already in the Late Cretaceous, while it was still connected to Madagascar over the Seychelles Plateau <xref rid="pone.0000074-Rage1" ref-type="bibr">[22]</xref>, <xref rid="pone.0000074-Patriat1" ref-type="bibr">[24]</xref>. This would account for the triple, deeply nested Madagascar-Eurasia/India relationships recovered in our phylogenies.</p><p>A relaxed scenario for Gondwanan break-up helps to explain several observations in the fossil record. For example, several mammalian, dinosaur, and crocodilian taxa seem to have attained widespread distributions in Gondwana only by the Late Cretaceous <xref rid="pone.0000074-Sampson1" ref-type="bibr">[2]</xref>, <xref rid="pone.0000074-Sereno1" ref-type="bibr">[18]</xref>, <xref rid="pone.0000074-Krause1" ref-type="bibr">[20]</xref>. Furthermore, several palaeontological studies have suggested close affinities of South East Asian taxa with Indian, Madagascan, and Australia-New Guinean taxa in the Late Cretaceous <xref rid="pone.0000074-Prasad1" ref-type="bibr">[25]</xref>&#x02013;<xref rid="pone.0000074-Hill1" ref-type="bibr">[27]</xref>. Although fossils inevitably underestimate the true age of divergences, these observations provide a better fit to a model that allows both prolonged biotic interchange between landmasses of Gondwanan origin, and a Late Cretaceous connection of Indo-Madagascar and Australia-New Guinea with South East Asia. Landmasses that experienced recognized mass extinctions, such as Antarctica, the Kerguelen Plateau, and India, must have played a central role in Late Cretaceous range extensions. Future palaeobiogeographical research on biota of Southern Hemispere origin will clearly benefit from key fossil evidence from these regions.</p></sec><sec id="s4"><title>Materials and Methods</title><sec id="s4a"><title>Sampling</title><p>Phylogenetic relationships within Microhylidae and Natatanura were estimated using independently assembled data sets, each encompassing the major lineages within one family. The microhylid data set contains 2865 unambiguously aligned nucleotides, sampled from three nuclear protein-coding genes (<italic>Cxcr-4, Ncx-1, Rag-1</italic>) and one mitochondrial gene (<italic>16S rDNA</italic>) (<xref ref-type="supplementary-material" rid="pone.0000074.s006">Table S1</xref>). The ingroup is composed of 28 microhylid species, covering all previously and currently recognized subfamilies within this family <xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>, <xref rid="pone.0000074-Dubois1" ref-type="bibr">[28]</xref>&#x02013;<xref rid="pone.0000074-Savage1" ref-type="bibr">[31]</xref> (<xref ref-type="supplementary-material" rid="pone.0000074.s007">Table S2</xref>). Four natatanuran and five afrobatrachian species served as outgroup. The natatanuran data set contains 4446 unambiguously aligned nucleotides, combining the same three nuclear gene fragments mentioned above with coding regions of two additional nuclear genes (<italic>Tyr</italic> and <italic>Rhod</italic>), and an extended mitochondrial fragment (<italic>12S rDNA</italic>&#x0002b;<italic>tRNA(Val)</italic>&#x0002b;<italic>16S rDNA</italic>) (<xref ref-type="supplementary-material" rid="pone.0000074.s008">Table S3</xref>). The ingroup comprises 31 natatanuran species, while one dendrobatid, four afrobatrachian and five microhylids were selected as outgroup (<xref ref-type="supplementary-material" rid="pone.0000074.s009">Table S4</xref>). Genbank accession numbers are summarized in <xref ref-type="supplementary-material" rid="pone.0000074.s010">table S5</xref> (Microhylidae), <xref ref-type="supplementary-material" rid="pone.0000074.s011">table S6</xref> (Natatanura), and <xref ref-type="supplementary-material" rid="pone.0000074.s012">table S7</xref> (outgroup species).</p></sec><sec id="s4b"><title>Phylogenetic analyses</title><p>Phylogenetic relationships were reconstructed for both data sets using Bayesian analyses and maximum likelihood (ML) searches (<xref ref-type="fig" rid="pone-0000074-g001">Figure 1</xref>). All analyses implemented the GTR&#x0002b;G&#x0002b;I model of DNA substitution, which received the best Akaike information score by Modeltest 3.06 <xref rid="pone.0000074-Posada1" ref-type="bibr">[32]</xref>. Bayesian analyses were performed with MrBayes 3.1.2 <xref rid="pone.0000074-Ronquist1" ref-type="bibr">[33]</xref>, using a mixed model according to a gene-based data partition. Two runs of four MCMC chains each were executed in parallel for five million generations, with a sampling interval of 1000 generations and a burn-in corresponding to the first one million generations. Convergence of the parallel runs was confirmed by split frequency standard deviations (&#x0003c;0.001), and by potential scale reduction factors (PSRF; &#x0223c;1.0) for all model parameters. Posterior probabilities for clades were obtained by combining the post-burn-in trees from parallel runs in a single consensus tree. Heuristic ML searches were performed with PAUP&#x0002a; 4.0b10 <xref rid="pone.0000074-Swofford1" ref-type="bibr">[34]</xref> and involved multiple rounds of TBR branch swapping, alternatively starting from Bayesian consensus trees or from ML trees estimated by the program Phyml 2.4.1 <xref rid="pone.0000074-Guindon1" ref-type="bibr">[35]</xref>. All searches implemented empirical nucleotide frequencies and fixed rate parameters, estimated in advance from the starting trees. Clade support under the likelihood criterion was assessed by analyzing 1000 nonparametric bootstrap replicates using Phyml. Bayesian posterior probabilities for alternative microhylid and natatanuran phylogenetic hypotheses <xref rid="pone.0000074-Frost1" ref-type="bibr">[13]</xref>, <xref rid="pone.0000074-Duellman1" ref-type="bibr">[29]</xref>&#x02013;<xref rid="pone.0000074-Parker1" ref-type="bibr">[30]</xref> were estimated by screening the post-burn-in trees sampled by MrBayes using topological constraint filters in PAUP&#x0002a;.</p></sec><sec id="s4c"><title>Tree calibration and dating</title><p>We performed dating analyses using two different relaxed molecular clock methods, which have recently been demonstrated to be the least sensitive to taxon sampling <xref rid="pone.0000074-Linder1" ref-type="bibr">[36]</xref>, and which have complementary advantages and limitations. Thorne &#x00026; Kishino's (TK) method <xref rid="pone.0000074-Thorne1" ref-type="bibr">[37]</xref> accommodates unlinked rate variation across different loci (a &#x02018;multi-gene&#x02019; approach), allows the use of time constraints on multiple divergences, and uses a Bayesian MCMC approach to approximate the posterior distribution of divergence times and rates, but uses an F84&#x0002b;G model (or a nested variant) for branch length estimation, and fails to incorporate phylogenetic uncertainty in the posterior distribution. Sanderson's penalized likelihood (PL) method <xref rid="pone.0000074-Sanderson1" ref-type="bibr">[38]</xref> allows branch length estimation using more complex DNA substitution models (<italic>e.g.</italic>, GTR&#x0002b;G&#x0002b;I) and the use of a posterior tree set to estimate credibility intervals (CI), but necessarily averages rate variation over all loci (a &#x02018;supergene&#x02019; approach), and requires a time-consuming cross-validation method to determine optimal rate smoothing penalty parameters. To maximize the overall accuracy of our dating estimates, we sought to obtain an optimal phylogenetic coverage of calibration points across our tree (<xref ref-type="supplementary-material" rid="pone.0000074.s002">Figure S1</xref>, <xref ref-type="supplementary-material" rid="pone.0000074.s013">Table S8</xref>). However, to minimize the risk of over-constraining the resulting timetree, we used them only as minimum time constraints. The results of TK- and PL-analyses with different combinations of calibration points are listed in <xref ref-type="supplementary-material" rid="pone.0000074.s014">Table S9</xref>. Removal of individual time constraints in most cases resulted in highly congruent dating estimates with respect to the total set of calibration points (<xref ref-type="supplementary-material" rid="pone.0000074.s003">Figure S2</xref>), with the exception of two paleogeographic calibration points. However, these estimates resulted in a <italic>younger</italic> age for reconstructed natatanuran and microhylid vicariance events, and thus would imply an even larger discrepancy with currently accepted models for Gondwana break-up.</p></sec><sec id="s4d"><title>Biogeographic analyses</title><p>To quantify vicariance events in the early diversification of both groups, we estimated ancestral distributions for ingroup nodes using dispersal-vicariance analyses performed by the program DIVA 1.1 <xref rid="pone.0000074-Ronquist2" ref-type="bibr">[39]</xref>. All ingroup taxa were coded for their present distribution across six biogeographic units (five of which represent separate fragments of Gondwana): Africa, Madagascar, India, South America, Australia-New Guinea and Eurasia (<xref ref-type="supplementary-material" rid="pone.0000074.s015">Table S10</xref>, <xref ref-type="supplementary-material" rid="pone.0000074.s004">Figures S3</xref>, <xref ref-type="supplementary-material" rid="pone.0000074.s005">S4</xref>). To simplify the analyses, we saved an extra biogeographic unit by coding the North American <italic>Gastrophryne olivacea</italic> as a South American taxon, because of its nested position within the neotropical clade Gastrophryninae.</p></sec></sec><sec sec-type="supplementary-material" id="s5"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pone.0000074.s001"><label>Materials and Methods S1</label><caption><p>(0.17 MB DOC)</p></caption><media xlink:href="pone.0000074.s001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000074.s002"><label>Figure S1</label><caption><p>Phylogenetic tree used for the divergence time analyses. The natatanuran and microhylid clades are resolved according to the ML topologies obtained from their respective data sets (<xref ref-type="fig" rid="pone-0000074-g001">Figure 1</xref>). Outgroup divergences are resolved according to previous phylogenetic evidence (see <xref ref-type="sec" rid="s4">Methods</xref>). Numbers at ingroup nodes are cross-referenced in <xref ref-type="supplementary-material" rid="pone.0000074.s014">Table S9</xref>, Letters indicate calibration points.</p><p>(11.84 MB TIF)</p></caption><media xlink:href="pone.0000074.s002.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000074.s003"><label>Figure S2</label><caption><p>Effect of excluding individual calibration points on divergence time estimates. Letters refer to excluded calibration points and correspond to Tables S8 and S9. The bars represent mean age differences, obtained with the TK-method (orange) and the PL method (blue), compared to the analysis including all calibration points except G.</p><p>(5.34 MB TIF)</p></caption><media xlink:href="pone.0000074.s003.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000074.s004"><label>Figure S3</label><caption><p>DIVA-reconstruction of ancestral distribution areas. Letter codes at internal nodes correspond to landmasses depicted on the inset globe.</p><p>(8.35 MB TIF)</p></caption><media xlink:href="pone.0000074.s004.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000074.s005"><label>Figure S4</label><caption><p>DIVA-reconstruction of ancestral distribution areas, assuming three divergences on Indo-Madagascar. Reconstruction of ancestral distributions under the assumption that nodes 3, 6 and 7 represent vicariance events related to India-Madagascar break-up. Letter codes at internal nodes correspond to landmasses depicted on the inset globe.</p><p>(8.35 MB TIF)</p></caption><media xlink:href="pone.0000074.s005.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000074.s006"><label>Table S1</label><caption><p>Summary of the sequence data for all sampled nuclear and mitochondrial gene fragments and the total dataset in Microhylidae.</p><p>(0.31 MB DOC)</p></caption><media xlink:href="pone.0000074.s006.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000074.s007"><label>Table S2</label><caption><p>Taxa included in the Microhylidae dataset, with voucher numbers and origin.</p><p>(0.34 MB DOC)</p></caption><media xlink:href="pone.0000074.s007.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000074.s008"><label>Table S3</label><caption><p>Summary of the sequence data for all sampled nuclear and mitochondrial gene fragments and the total dataset in Natatanura.</p><p>(0.31 MB DOC)</p></caption><media xlink:href="pone.0000074.s008.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000074.s009"><label>Table S4</label><caption><p>Taxa included in the Natatanura dataset, with voucher numbers and origin.</p><p>(0.34 MB DOC)</p></caption><media xlink:href="pone.0000074.s009.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000074.s010"><label>Table S5</label><caption><p>Taxa with GenBank accession numbers of homologous gene fragments for microhylid species.</p><p>(0.34 MB DOC)</p></caption><media xlink:href="pone.0000074.s010.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000074.s011"><label>Table S6</label><caption><p>Taxa with GenBank accession numbers of homologous gene fragments for natatanuran species.</p><p>(0.36 MB DOC)</p></caption><media xlink:href="pone.0000074.s011.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000074.s012"><label>Table S7</label><caption><p>Taxa with GenBank accession numbers of homologous gene fragments for outgroup species.</p><p>(0.37 MB DOC)</p></caption><media xlink:href="pone.0000074.s012.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000074.s013"><label>Table S8</label><caption><p>Calibration points used in this study.</p><p>(0.34 MB DOC)</p></caption><media xlink:href="pone.0000074.s013.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000074.s014"><label>Table S9</label><caption><p>Divergence time estimates (standard deviation; 95&#x00025; credibility intervals) for all ingroup nodes in our dating-tree, obtained with different calibration points and dating methods.</p><p>(0.16 MB XLS)</p></caption><media xlink:href="pone.0000074.s014.xls"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000074.s015"><label>Table S10</label><caption><p>Dating estimates (mya) for Microhylidae and Natatanura, with DIVA reconstruction of vicariance events in their early evolution. For both the TK- and PL-method, the ages represent the 95&#x00025; confidence intervals of the analysis that includes all calibration points except G. Vicariance (1) represents the strict analysis; Vicariance (2) represents the analysis with the three India-Eurasia splits constrained as India-Madagascar. The two DIVA reconstructions represent the actual distribution of the frogs, while the associated continental break-up is the presumed geological unit at the moment of break-up, based on our divergence times. Node numbers and colors associated with break-up correspond with <xref ref-type="fig" rid="pone-0000074-g002">figure 2</xref>. Afr&#x0200a;=&#x0200a;Africa, Ind&#x0200a;=&#x0200a;India, SAm&#x0200a;=&#x0200a;South America, Mad&#x0200a;=&#x0200a;Madagascar, Aus&#x0200a;=&#x0200a;Australia-New Guinea, Eur&#x0200a;=&#x0200a;Eurasia, KP&#x0200a;=&#x0200a;Kerguelen Plateau.</p><p>(0.33 MB DOC)</p></caption><media xlink:href="pone.0000074.s015.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We are grateful to David J. Gower, Simon Loader, David C. Cannatella, Robert F. Inger and Steve Donnellan, David B. Wake, Miguel Vences, and Robert C. Drewes for providing tissue samples, and to Mark Wilkinson for commenting on an earlier draft of this manuscript. We thank An Mannaert and Katleen Willibal for lab assistance.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>Ines Van Bocxlaer is supported by the Institute for the Promotion of Innovation through Science and Technology in Flanders (IWT-Vlaanderen). Franky Bossuyt receives a postdoctoral fellowship from the Fonds voor Wetenschappelijk Onderzoek-Vlaanderen. This work was supported by research grants FWO 1.5.039.03N, FWO G.0056.03, FWO G.0307.04 and VUB OZR834.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000074-Sanmartin1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sanmartin</surname><given-names>I</given-names></name><name><surname>Ronquist</surname><given-names>F</given-names></name></person-group>
+<year>2004</year>
+<article-title>Southern Hemisphere biogeography inferred by event-based models: plant versus animal patterns.</article-title>
+<source>Syst Biol</source>
+<volume>53</volume>
+<fpage>216</fpage>
+<lpage>243</lpage>
+<pub-id pub-id-type="pmid">15205050</pub-id></element-citation></ref><ref id="pone.0000074-Sampson1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sampson</surname><given-names>SD</given-names></name><name><surname>Witmer</surname><given-names>LM</given-names></name><name><surname>Forster</surname><given-names>CA</given-names></name><name><surname>Krause</surname><given-names>DW</given-names></name><name><surname>O'Connor</surname><given-names>PM</given-names></name><name><surname>Dodson</surname><given-names>P</given-names></name><name><surname>Ravoavy</surname><given-names>F</given-names></name></person-group>
+<year>1998</year>
+<article-title>Predatory Dinosaur remains from Madagascar: implications for the Cretaceous biogeography of Gondwana.</article-title>
+<source>Science</source>
+<volume>280</volume>
+<fpage>1048</fpage>
+<lpage>1051</lpage>
+<pub-id pub-id-type="pmid">9582112</pub-id></element-citation></ref><ref id="pone.0000074-Cooper1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cooper</surname><given-names>A</given-names></name><name><surname>Lalueza-Fox</surname><given-names>C</given-names></name><name><surname>Anderson</surname><given-names>S</given-names></name><name><surname>Rambaut</surname><given-names>A</given-names></name><name><surname>Austin</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Complete mitochondrial genome sequences of two extinct moas clarify ratite evolution.</article-title>
+<source>Nature</source>
+<volume>409</volume>
+<fpage>704</fpage>
+<lpage>707</lpage>
+<pub-id pub-id-type="pmid">11217857</pub-id></element-citation></ref><ref id="pone.0000074-Raxworthy1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Raxworthy</surname><given-names>CJ</given-names></name><name><surname>Forstner</surname><given-names>MRJ</given-names></name><name><surname>Nussbaum</surname><given-names>RA</given-names></name></person-group>
+<year>2002</year>
+<article-title>Chameleon radiation by oceanic dispersal.</article-title>
+<source>Nature</source>
+<volume>415</volume>
+<fpage>784</fpage>
+<lpage>787</lpage>
+<pub-id pub-id-type="pmid">11845207</pub-id></element-citation></ref><ref id="pone.0000074-deQueiroz1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>de Queiroz</surname><given-names>A</given-names></name></person-group>
+<year>2005</year>
+<article-title>The resurrection of oceanic dispersal in historical biogeography.</article-title>
+<source>TREE</source>
+<volume>20</volume>
+<fpage>68</fpage>
+<lpage>73</lpage>
+<pub-id pub-id-type="pmid">16701345</pub-id></element-citation></ref><ref id="pone.0000074-Chatterjee1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chatterjee</surname><given-names>S</given-names></name><name><surname>Scotese</surname><given-names>CR</given-names></name></person-group>
+<year>1999</year>
+<article-title>The breakup of Gondwana and the evolution and biogeography of the Indian plate.</article-title>
+<source>Proc Indian Natl Sci Acad</source>
+<volume>65A</volume>
+<fpage>397</fpage>
+<lpage>425</lpage>
+</element-citation></ref><ref id="pone.0000074-McCarthy1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McCarthy</surname><given-names>D</given-names></name></person-group>
+<year>2005</year>
+<article-title>Biogeographical and geological evidence for a smaller, completely-enclosed Pacific Basin in the Late Cretaceous.</article-title>
+<source>J Biogeogr</source>
+<volume>32</volume>
+<fpage>2161</fpage>
+<lpage>2177</lpage>
+</element-citation></ref><ref id="pone.0000074-Vences1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vences</surname><given-names>M</given-names></name><name><surname>Vieites</surname><given-names>DR</given-names></name><name><surname>Glaw</surname><given-names>F</given-names></name><name><surname>Brinkmann</surname><given-names>H</given-names></name><name><surname>Kosuch</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Multiple overseas dispersal in amphibians.</article-title>
+<source>Proc R Soc Lond B</source>
+<volume>270</volume>
+<fpage>2435</fpage>
+<lpage>2442</lpage>
+</element-citation></ref><ref id="pone.0000074-SanMauro1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>San Mauro</surname><given-names>D</given-names></name><name><surname>Vences</surname><given-names>M</given-names></name><name><surname>Alcobendas</surname><given-names>M</given-names></name><name><surname>Zardoya</surname><given-names>R</given-names></name><name><surname>Meyer</surname><given-names>A</given-names></name></person-group>
+<year>2005</year>
+<article-title>Initial diversification of living amphibians predated the breakup of Pangaea.</article-title>
+<source>Am Nat</source>
+<volume>165</volume>
+<fpage>590</fpage>
+<lpage>599</lpage>
+<pub-id pub-id-type="pmid">15795855</pub-id></element-citation></ref><ref id="pone.0000074-vanderMeijden1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van der Meijden</surname><given-names>A</given-names></name><name><surname>Vences</surname><given-names>M</given-names></name><name><surname>Hoegg</surname><given-names>S</given-names></name><name><surname>Meyer</surname><given-names>A</given-names></name></person-group>
+<year>2005</year>
+<article-title>A previously unrecognized radiation of ranid frogs in Southern Africa revealed by nuclear and mitochondrial DNA sequences.</article-title>
+<source>Mol Phylogenet Evol</source>
+<volume>37</volume>
+<fpage>674</fpage>
+<lpage>685</lpage>
+<pub-id pub-id-type="pmid">15975829</pub-id></element-citation></ref><ref id="pone.0000074-Bossuyt1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bossuyt</surname><given-names>F</given-names></name><name><surname>Brown</surname><given-names>RM</given-names></name><name><surname>Hillis</surname><given-names>DM</given-names></name><name><surname>Cannatella</surname><given-names>DC</given-names></name><name><surname>Milinkovitch</surname><given-names>MC</given-names></name></person-group>
+<year>2006</year>
+<article-title>Phylogeny and biogeography of a cosmopolitan frog radiation: Late Cretaceous diversification resulted in continent-scale endemism in the family Ranidae.</article-title>
+<source>Syst Biol</source>
+<volume>55</volume>
+<fpage>579</fpage>
+<lpage>594</lpage>
+<pub-id pub-id-type="pmid">16857652</pub-id></element-citation></ref><ref id="pone.0000074-1"><label>12</label><mixed-citation publication-type="journal">
+<comment>Materials and Methods are available as supporting material on PLoS One Online</comment>
+</mixed-citation></ref><ref id="pone.0000074-Frost1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Frost</surname><given-names>DR</given-names></name><name><surname>Grant</surname><given-names>T</given-names></name><name><surname>Faivovich</surname><given-names>J</given-names></name><name><surname>Bain</surname><given-names>RH</given-names></name><name><surname>Haas</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>The amphibian Tree of Life.</article-title>
+<source>Bull Am Mus Nat Hist</source>
+<volume>297</volume>
+<fpage>1</fpage>
+<lpage>370</lpage>
+</element-citation></ref><ref id="pone.0000074-Smith1"><label>14</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>AG</given-names></name><name><surname>Smith</surname><given-names>DG</given-names></name><name><surname>Funnell</surname><given-names>BM</given-names></name></person-group>
+<year>1994</year>
+<source>Atlas of Mesozoic and Cenozoic coastlines.</source>
+<publisher-loc>Cambridge, UK</publisher-loc>
+<publisher-name>Cambridge University Press</publisher-name>
+<fpage>99 p</fpage>
+</element-citation></ref><ref id="pone.0000074-Upchurch1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Upchurch</surname><given-names>P</given-names></name><name><surname>Hunn</surname><given-names>CA</given-names></name></person-group>
+<year>2002</year>
+<article-title>&#x0201c;Time&#x0201d;: the neglected dimension in cladistic biogeography?</article-title>
+<source>Geobios</source>
+<volume>35</volume>
+<fpage>277</fpage>
+<lpage>286</lpage>
+</element-citation></ref><ref id="pone.0000074-Turner1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Turner</surname><given-names>AH</given-names></name></person-group>
+<year>2004</year>
+<article-title>Crocodyliform biogeography during the Cretaceous: evidence of Gondwanan vicariance from biogeographical analysis.</article-title>
+<source>Proc Biol Sci</source>
+<volume>271</volume>
+<fpage>2003</fpage>
+<lpage>2009</lpage>
+<pub-id pub-id-type="pmid">15451689</pub-id></element-citation></ref><ref id="pone.0000074-Bossuyt2"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bossuyt</surname><given-names>F</given-names></name><name><surname>Milinkovitch</surname><given-names>MC</given-names></name></person-group>
+<year>2001</year>
+<article-title>Amphibians as indicators of early tertiary &#x0201c;out-of-India&#x0201d; dispersal of vertebrates.</article-title>
+<source>Science</source>
+<volume>292</volume>
+<fpage>93</fpage>
+<lpage>95</lpage>
+<pub-id pub-id-type="pmid">11292870</pub-id></element-citation></ref><ref id="pone.0000074-Sereno1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sereno</surname><given-names>PC</given-names></name><name><surname>Wilson</surname><given-names>JA</given-names></name><name><surname>Conrad</surname><given-names>JL</given-names></name></person-group>
+<year>2004</year>
+<article-title>New dinosaurs link southern landmasses in the Mid-Cretaceous.</article-title>
+<source>Proc R Soc Lond B.</source>
+<volume>271</volume>
+<fpage>1325</fpage>
+<lpage>1330</lpage>
+</element-citation></ref><ref id="pone.0000074-Karanth1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karanth</surname><given-names>KP</given-names></name></person-group>
+<year>2006</year>
+<article-title>Out-of-India Gondwanan origin of some tropical Asian biota.</article-title>
+<source>Current Science</source>
+<volume>90</volume>
+<fpage>789</fpage>
+<lpage>792</lpage>
+</element-citation></ref><ref id="pone.0000074-Krause1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Krause</surname><given-names>DW</given-names></name><name><surname>Prasad</surname><given-names>GVR</given-names></name><name><surname>von Koenigswald</surname><given-names>W</given-names></name><name><surname>Sahni</surname><given-names>A</given-names></name><name><surname>Grine</surname><given-names>FE</given-names></name></person-group>
+<year>1997</year>
+<article-title>Cosmopolitanism among Late Cretaceous Gondwanan mammals.</article-title>
+<source>Nature</source>
+<volume>390</volume>
+<fpage>504</fpage>
+<lpage>507</lpage>
+</element-citation></ref><ref id="pone.0000074-Hay1"><label>21</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Hay</surname><given-names>WW</given-names></name><name><surname>DeConto</surname><given-names>RM</given-names></name><name><surname>Wold</surname><given-names>CN</given-names></name><name><surname>Willson</surname><given-names>KM</given-names></name><name><surname>Voigt</surname><given-names>S</given-names></name><etal/></person-group>
+<person-group person-group-type="editor"><name><surname>Barrera</surname><given-names>E</given-names></name><name><surname>Johnson</surname><given-names>C</given-names></name></person-group>
+<year>1999</year>
+<article-title>An alternative global Cretaceous paleogeography,</article-title>
+<source>Evolution of the Cretaceous ocean-climate system. Geological Society of America Special Paper</source>
+<volume>332</volume>
+<fpage>1</fpage>
+<lpage>48</lpage>
+</element-citation></ref><ref id="pone.0000074-Rage1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rage</surname><given-names>JC</given-names></name></person-group>
+<year>2003</year>
+<article-title>Relationships of the Malagasy fauna during the Late Cretaceous: Northern or Southern routes?</article-title>
+<source>Acta Palaeontol Pol</source>
+<volume>48</volume>
+<fpage>661</fpage>
+<lpage>662</lpage>
+</element-citation></ref><ref id="pone.0000074-Briggs1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Briggs</surname><given-names>JC</given-names></name></person-group>
+<year>2003</year>
+<article-title>The biogeographic and tectonic history of India.</article-title>
+<source>J Biogeogr</source>
+<volume>30</volume>
+<fpage>381</fpage>
+<lpage>388</lpage>
+</element-citation></ref><ref id="pone.0000074-Patriat1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Patriat</surname><given-names>P</given-names></name><name><surname>Segoufin</surname><given-names>J</given-names></name></person-group>
+<year>1988</year>
+<article-title>Reconstruction of the Central Indian Ocean.</article-title>
+<source>Tectonophysics</source>
+<volume>155</volume>
+<fpage>211</fpage>
+<lpage>234</lpage>
+</element-citation></ref><ref id="pone.0000074-Prasad1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Prasad</surname><given-names>V</given-names></name><name><surname>Str&#x000f6;mberg</surname><given-names>CAE</given-names></name><name><surname>Alimohammadian</surname><given-names>H</given-names></name><name><surname>Sahni</surname><given-names>A</given-names></name></person-group>
+<year>2005</year>
+<article-title>Dinosaur coprolites and the early evolution of grasses and grazers.</article-title>
+<source>Science.</source>
+<volume>310</volume>
+<fpage>1177</fpage>
+<lpage>1180</lpage>
+<pub-id pub-id-type="pmid">16293759</pub-id></element-citation></ref><ref id="pone.0000074-Azuma1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Azuma</surname><given-names>Y</given-names></name><name><surname>Curie</surname><given-names>PJ</given-names></name></person-group>
+<year>2000</year>
+<article-title>A new carnosaur (Dinosauria: Theropoda) from the Lower Cretaceous of Japan.</article-title>
+<source>Can J Earth Sci</source>
+<volume>37</volume>
+<fpage>1735</fpage>
+<lpage>1753</lpage>
+</element-citation></ref><ref id="pone.0000074-Hill1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hill</surname><given-names>RV</given-names></name><name><surname>Witmer</surname><given-names>LM</given-names></name><name><surname>Norell</surname><given-names>MA</given-names></name></person-group>
+<year>2003</year>
+<article-title>A new specimen of <italic>Pinacosaurus grangeri</italic> (Dinosauria: Ornithischia) from the Late Cretaceous of Mongolia: ontogeny and phylogeny of Ankylosaurs.</article-title>
+<source>American Museum Novitates</source>
+<volume>3395</volume>
+<fpage>1</fpage>
+<lpage>30</lpage>
+</element-citation></ref><ref id="pone.0000074-Dubois1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dubois</surname><given-names>A</given-names></name></person-group>
+<year>2005</year>
+<article-title>Amphibia Mundi. 1.1. An ergotaxonomy of recent amphibians.</article-title>
+<source>Alytes</source>
+<volume>23</volume>
+<fpage>1</fpage>
+<lpage>24</lpage>
+</element-citation></ref><ref id="pone.0000074-Duellman1"><label>29</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Duellman</surname><given-names>WE</given-names></name><name><surname>Trueb</surname><given-names>L</given-names></name></person-group>
+<year>1994</year>
+<source>Biology of amphibians.</source>
+<publisher-loc>Baltimore, USA</publisher-loc>
+<publisher-name>Johns Hopkins University Press</publisher-name>
+<fpage>670</fpage>
+</element-citation></ref><ref id="pone.0000074-Parker1"><label>30</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Parker</surname><given-names>HW</given-names></name></person-group>
+<year>1934</year>
+<source>A monograph of the frogs of the family Microhylidae,</source>
+<publisher-loc>London</publisher-loc>
+<publisher-name>British Museum (Natural History)</publisher-name>
+<fpage>1</fpage>
+<lpage>203</lpage>
+</element-citation></ref><ref id="pone.0000074-Savage1"><label>31</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Savage</surname><given-names>JM</given-names></name></person-group>
+<year>1973</year>
+<article-title>The geographic distribution of frogs: patterns and predictions.</article-title>
+<source>Evolutionary Biology of the Anurans: contemporary research on major problems</source>
+<person-group person-group-type="editor"><name><surname>Vial</surname><given-names>JL</given-names></name></person-group>
+<publisher-loc>Columbia</publisher-loc>
+<publisher-name>Univ. Missouri Press</publisher-name>
+<fpage>351</fpage>
+<lpage>445</lpage>
+</element-citation></ref><ref id="pone.0000074-Posada1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Posada</surname><given-names>D</given-names></name><name><surname>Crandall</surname><given-names>KA</given-names></name></person-group>
+<year>1998</year>
+<article-title>MODELTEST: testing the model of DNA substitution.</article-title>
+<source>Bioinformatics</source>
+<volume>14</volume>
+<fpage>817</fpage>
+<lpage>818</lpage>
+<pub-id pub-id-type="pmid">9918953</pub-id></element-citation></ref><ref id="pone.0000074-Ronquist1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ronquist</surname><given-names>F</given-names></name><name><surname>Huelsenbeck</surname><given-names>JP</given-names></name></person-group>
+<year>2003</year>
+<article-title>MrBayes 3: Bayesian phylogenetic inference under mixed models.</article-title>
+<source>Bioinformatics</source>
+<volume>19</volume>
+<fpage>1572</fpage>
+<lpage>1574</lpage>
+<pub-id pub-id-type="pmid">12912839</pub-id></element-citation></ref><ref id="pone.0000074-Swofford1"><label>34</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Swofford</surname><given-names>DL</given-names></name></person-group>
+<year>2003</year>
+<source>PAUP&#x0002a;. Phylogenetic analyses using parsimony (&#x0002a; and other methods).</source>
+<comment>version 4.0 ed</comment>
+<publisher-loc>Sunderland, Massachusetts</publisher-loc>
+<publisher-name>Sinauer Associates</publisher-name>
+</element-citation></ref><ref id="pone.0000074-Guindon1"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guindon</surname><given-names>S</given-names></name><name><surname>Gascuel</surname><given-names>O</given-names></name></person-group>
+<year>2003</year>
+<article-title>A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood.</article-title>
+<source>Syst Biol</source>
+<volume>52</volume>
+<fpage>696</fpage>
+<lpage>704</lpage>
+<pub-id pub-id-type="pmid">14530136</pub-id></element-citation></ref><ref id="pone.0000074-Linder1"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Linder</surname><given-names>HP</given-names></name><name><surname>Hardy</surname><given-names>CR</given-names></name><name><surname>Rutschmann</surname><given-names>F</given-names></name></person-group>
+<year>2005</year>
+<article-title>Taxon sampling effects in molecular clock dating: an example from the African Restionaceae.</article-title>
+<source>Mol Phylogenet Evol</source>
+<volume>35</volume>
+<fpage>569</fpage>
+<lpage>582</lpage>
+<pub-id pub-id-type="pmid">15878126</pub-id></element-citation></ref><ref id="pone.0000074-Thorne1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thorne</surname><given-names>JL</given-names></name><name><surname>Kishino</surname><given-names>H</given-names></name></person-group>
+<year>2002</year>
+<article-title>Divergence time and evolutionary rate estimation with multilocus data.</article-title>
+<source>Syst Biol</source>
+<volume>51</volume>
+<fpage>689</fpage>
+<lpage>702</lpage>
+<pub-id pub-id-type="pmid">12396584</pub-id></element-citation></ref><ref id="pone.0000074-Sanderson1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sanderson</surname><given-names>MJ</given-names></name></person-group>
+<year>2002</year>
+<article-title>Estimating absolute rates of molecular evolution and divergence times: a penalized likelihood approach.</article-title>
+<source>Mol Biol Evol</source>
+<volume>19</volume>
+<fpage>101</fpage>
+<lpage>109</lpage>
+<pub-id pub-id-type="pmid">11752195</pub-id></element-citation></ref><ref id="pone.0000074-Ronquist2"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ronquist</surname><given-names>F</given-names></name></person-group>
+<year>1997</year>
+<article-title>Dispersal-vicariance analysis: a new approach to the quantification of historical biogeography.</article-title>
+<source>Syst Biol</source>
+<volume>46</volume>
+<fpage>195</fpage>
+<lpage>203</lpage>
+</element-citation></ref></ref-list></back></article>

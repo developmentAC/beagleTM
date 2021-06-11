@@ -1,0 +1,427 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183656</article-id><article-id pub-id-type="pmc">1762319</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00039R1</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000029</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Cell Biology</subject><subject>Diabetes and Endocrinology</subject><subject>Immunology</subject><subject>Infectious Diseases</subject><subject>Microbiology</subject><subject>Molecular Biology</subject><subject>Pathology</subject></subj-group></article-categories><title-group><article-title>Critical Role of Methylglyoxal and AGE in Mycobacteria-Induced Macrophage Apoptosis and Activation</article-title><alt-title alt-title-type="running-head">Methylglyoxal in MTB Infection</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Rachman</surname><given-names>Helmy</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Kim</surname><given-names>Nayoung</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Ulrichs</surname><given-names>Timo</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Baumann</surname><given-names>Sven</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Pradl</surname><given-names>Lydia</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Eddine</surname><given-names>Ali Nasser</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Bild</surname><given-names>Matthias</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Rother</surname><given-names>Marion</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Kuban</surname><given-names>Ralf-J&#x000fc;rgen</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Lee</surname><given-names>Jong Seok</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Hurwitz</surname><given-names>Robert</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Brinkmann</surname><given-names>Volker</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Kosmiadi</surname><given-names>George A.</given-names></name><xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Kaufmann</surname><given-names>Stefan H.E.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution>Max Planck Institute for Infection Biology, Department of Immunology</institution>
+<addr-line>Berlin, Germany</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>Max Planck Institute for Infection Biology, Department of Molecular Biology</institution>
+<addr-line>Berlin, Germany</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<institution>Laboratory of Functional Genomics, Charit&#x000e9;, Universit&#x000e4;tsmedizin Berlin</institution>
+<addr-line>Berlin, Germany</addr-line>
+</aff><aff id="aff4">
+<label>4</label>
+<institution>Max Planck Institute for Infection Biology, Core Facility</institution>
+<addr-line>Berlin, Germany</addr-line>
+</aff><aff id="aff5">
+<label>5</label>
+<institution>Central Tuberculosis Research Institute, Department of Immunology 2</institution>
+<addr-line>Moscow, Russian Federation</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Unutmaz</surname><given-names>Derya</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">New York University School of Medicine, United States of America</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>kaufmann@mpiib-berlin.mpg.de</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: SK HR TU GK AN. Performed the experiments: HR VB GK NK SB LP MB JL MR RH. Analyzed the data: HR VB NK SB LP JL MR RK RH. Contributed reagents/materials/analysis tools: SK. Wrote the paper: SK HR TU RK</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e29</elocation-id><history><date date-type="received"><day>11</day><month>8</month><year>2006</year></date><date date-type="accepted"><day>17</day><month>9</month><year>2006</year></date></history><permissions><copyright-statement>Rachman et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Apoptosis and activation of macrophages play an important role in the host response to mycobacterial infection involving TNF-&#x003b1; as a critical autocrine mediator. The underlying mechanisms are still ill-defined. Here, we demonstrate elevated levels of methylglyoxal (MG), a small and reactive molecule that is usually a physiological product of various metabolic pathways, and advanced glycation end products (AGE) during mycobacterial infection of macrophages, leading to apoptosis and activation of macrophages. Moreover, we demonstrate abundant AGE in pulmonary lesions of tuberculosis (TB) patients. Global gene expression profiling of MG-treated macrophages revealed a diverse spectrum of functions induced by MG, including apoptosis and immune response. Our results not only provide first evidence for the involvement of MG and AGE in TB, but also form a basis for novel intervention strategies against infectious diseases in which MG and AGE play critical roles.</p></abstract><counts><page-count count="8"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Tuberculosis (TB) represents a major threat to humankind, causing approximately 2 million deaths each year. In the majority of individuals infected with <italic>Mycobacterium tuberculosis</italic> (MTB), the bacilli cause long-term asymptomatic infection termed latent TB during which bacilli persist within granulomas in a dormant stage. Latently infected individuals have a ca. 10&#x00025; risk of progression to clinical disease during their lifetime <xref rid="pone.0000029-Kaufmann1" ref-type="bibr">[1]</xref>, <xref rid="pone.0000029-Kaufmann2" ref-type="bibr">[2]</xref>.</p><p>Within granulomas, macrophages undergo apoptosis, which participates in host defence against TB <xref rid="pone.0000029-Fairbairn1" ref-type="bibr">[3]</xref>, <xref rid="pone.0000029-Winau1" ref-type="bibr">[4]</xref>. Correlation between apoptosis and virulence/persistence of mycobacteria remains controversial. Virulent MTB have been described to induce more profound apoptosis in macrophages and dendritic cells <italic>in vitro</italic> than attenuated <italic>Mycobacterium bovis</italic> BCG (BCG) <xref rid="pone.0000029-Schaible1" ref-type="bibr">[5]</xref>. Yet, evidence has also been presented that MTB attenuates host cell apoptosis in infected macrophages via induction of antiapoptotic mechanisms and/or upregulation of antiapoptotic genes <xref rid="pone.0000029-Sly1" ref-type="bibr">[6]</xref>&#x02013;<xref rid="pone.0000029-Riendeau1" ref-type="bibr">[8]</xref>. Thus, although the exact impact of MTB on apoptosis remains unclear, a role of apoptosis in protection against, and pathogenesis of, TB is likely.</p><p>Apoptosis can be induced by various physical and chemical insults. Recent studies revealed that methylglyoxal (MG) induces apoptosis in a cell-type-dependent manner <xref rid="pone.0000029-Okado1" ref-type="bibr">[9]</xref>&#x02013;<xref rid="pone.0000029-Du1" ref-type="bibr">[11]</xref>. The cytotoxicity of MG involves apoptotic events. MG induces apoptosis in Jurkat cells by activating the c-Jun N terminal kinase (JNK) signal transduction pathway, which decreases the mitochondrial membrane potential, followed by caspase-3 activation <xref rid="pone.0000029-Du1" ref-type="bibr">[11]</xref>. In cultured HUVEC cells, MG induces tyrosine phosphorylation and aggregation of a number of cellular proteins <xref rid="pone.0000029-Akhand1" ref-type="bibr">[12]</xref>. In aortic VSMC from hypertensive rats, elevated levels of MG and advanced glycation end products (AGE) are found, in parallel with evidence that MG increases oxidative stress, activates NF-&#x003ba;B, and enhances ICAM-1 expression <xref rid="pone.0000029-RodriguezIturbe1" ref-type="bibr">[13]</xref>. MG can modify proteins rapidly and cause cross-linking, probably changing the properties of these proteins and thus triggering intracellular responses. Abordo and Thornalley demonstrated that MG-modified human serum albumin (MG-HSA) induces increased expression of TNF-&#x003b1; in human monocytic THP-1 cells <xref rid="pone.0000029-Abordo1" ref-type="bibr">[14]</xref>. Together, these studies suggest that MG-modified proteins play an intriguing role in the development of distinct disease states.</p><p>Results of global gene expression analysis of MTB isolated from active pulmonary TB indicate that the tissue environment of MTB <italic>in vivo</italic>, particularly in granulomatous lesions, is rich in MG <xref rid="pone.0000029-Rachman1" ref-type="bibr">[15]</xref>. Since a significant number of macrophages in these lesions undergo apoptosis <xref rid="pone.0000029-Fairbairn1" ref-type="bibr">[3]</xref>, we hypothesized that MG levels in macrophages determine apoptotic events during mycobacterial infection. To contest this hypothesis, we measured MG levels in macrophages during mycobacterial infection, characterized MG-induced apoptosis, and ascertained the relationship between elevated levels of MG/AGE and macrophage functions during mycobacterial infection. Our findings point to a close interrelation between MG/AGE and apoptosis as well as activation of macrophages during TB.</p></sec><sec id="s2"><title>Results and Discussion</title><sec id="s2a"><title>Mycobacterial Infection of Macrophages Triggers Increased MG Production</title><p>Our DNA array results suggest that the environment of tubercle bacilli at sites of infection is rich in aldehydes, especially MG <xref rid="pone.0000029-Rachman1" ref-type="bibr">[15]</xref>. To verify the assumption of an MG-rich environment during mycobacterial infection of the lung, we infected MH-S cells <italic>ex vivo</italic> with mycobacteria and measured relative MG levels in these cells. MH-S cells are an established murine alveolar macrophage-derived cell line. Alveolar macrophages play a pivotal role at the initial innate immune response against infection of tubercle bacilli via the respiratory tract <xref rid="pone.0000029-Kaufmann1" ref-type="bibr">[1]</xref>. Moreover, recent evidence reveals that alveolar macrophages are able to mount appropriate immune response <xref rid="pone.0000029-Lambrecht1" ref-type="bibr">[16]</xref>. We observed that MG levels significantly increased in MH-S cells 1 day after mycobacterial infection as determined by HPLC (Figures S1A&#x02013;C). In three independent experiments, MG levels were 2.0&#x02013;3.7 times higher in mycobacteria-infected macrophages as compared to noninfected macrophages. This level of augmentation is comparable to that in <italic>in vitro</italic>-induced hyperglycemia and in the blood of diabetic patients <xref rid="pone.0000029-Shinohara1" ref-type="bibr">[17]</xref>, <xref rid="pone.0000029-McLellan1" ref-type="bibr">[18]</xref>.</p><p>These findings demonstrate for the first time that MG levels are significantly increased during mycobacterial infection of macrophages. In general, MG is a physiological product of various metabolic pathways, including anaerobic glycolysis, oxidative decomposition of polyunsaturated fatty acids as well as fragmentation of triosephosphate or catabolism of ketone bodies and threonine. MG, 3-deoxyglucosone (3-DG), and glyoxal (GO) are formed during each step of the glycation process by degradation of glucose or Schiff's base in early glycation, or from Amadori products such as fructosamine in the intermediate stages of glycation <xref rid="pone.0000029-Humeny1" ref-type="bibr">[19]</xref>, <xref rid="pone.0000029-MandlWeber1" ref-type="bibr">[20]</xref>. MG levels in cells are regulated by several factors including the glyoxalase system and other components which influence the glycolysis pathway. The glyoxalase enzyme system in eukaryotic cells, which comprises glyoxalase I and II, is primarily responsible for detoxification of MG <xref rid="pone.0000029-Thornalley1" ref-type="bibr">[21]</xref>&#x02013;<xref rid="pone.0000029-Chaplen1" ref-type="bibr">[23]</xref>. Increased levels of glucose or deprivation of phosphate in the cytoplasm can induce MG production by interfering with the glycolysis pathway <xref rid="pone.0000029-Thornalley2" ref-type="bibr">[24]</xref>. It is thus possible that mycobacterial infection of macrophages triggers shifts in these metabolic pathways leading to increased MG production. We cannot formally exclude that mycobacteria directly contribute to increased MG levels of infected macrophages. For instance, reactive oxygen radicals produced during mycobacterial infection may oxidize polyunsaturated fatty acids, which represent abundant components of the mycobacterial cell wall, leading to their decomposition and MG formation. Moreover, our microarray data from pulmonary TB patients indicate that MTB experiences nutrient deprivation at sites of pulmonary TB <xref rid="pone.0000029-Rachman1" ref-type="bibr">[15]</xref>. Such conditions may alter MTB metabolic pathways leading to MG formation. Due to its highly reactive and small molecular nature, MG can easily diffuse out of mycobacterial cells into host cells.</p></sec><sec id="s2b"><title>MG Induces Apoptosis in MH-S Cells</title><p>In an attempt to unravel the function of MG during mycobacterial infection, we assessed whether MG plays a role in apoptosis of infected MH-S cells. Basically two observations support this notion. First, MG induces apoptosis in different cell lines <xref rid="pone.0000029-Du1" ref-type="bibr">[11]</xref>; second, granuloma formation is accompanied by apoptosis of macrophages <xref rid="pone.0000029-Fairbairn1" ref-type="bibr">[3]</xref>. Consistent with this, a high proportion of apoptotic cells was found in bronchoalveolar lavage from patients with reactive or disseminated TB <xref rid="pone.0000029-Klingler1" ref-type="bibr">[25]</xref>. <italic>In vitro</italic> models have demonstrated that mycobacteria cause apoptosis and apoptosis of host macrophages has been claimed to restrict growth of intracellular mycobacteria <xref rid="pone.0000029-Sly1" ref-type="bibr">[6]</xref>.</p><p>Accordingly, we first investigated the ability of MG to induce apoptosis in MH-S cells. Apoptosis occurred in this cell line, as assessed by staining of chromosomal DNA with propidium iodide (PI) followed by cellular analysis using the FACScalibur flow cytometer (<xref ref-type="fig" rid="pone-0000029-g001">Figures 1A</xref> and S2). The percentage of apoptotic cells peaked at an MG concentration of 0.8 mM. At an MG concentration of 1.6 mM the proportion of apoptotic cells decreased. A possible explanation for this observation is that MG induces profound necrosis rather than apoptosis in MH-S cells at this high concentration, as observed recently in Jurkat cells <xref rid="pone.0000029-Du1" ref-type="bibr">[11]</xref>. Alternatively, at this high concentration MG triggers growth arrest at the G1 phase in MH-S cells as reported previously for other cell types <xref rid="pone.0000029-Kang1" ref-type="bibr">[10]</xref>. We observed increased externalization of phosphatidylserine, as an early sign of apoptosis 4 h after MG treatment (<xref ref-type="supplementary-material" rid="pone.0000029.s003">Figure S3</xref>) indicating that apoptotic signals were induced prior to this time point.</p><fig id="pone-0000029-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000029.g001</object-id><label>Figure 1</label><caption><title>MG Induces Apoptosis in the Murine Alveolar Macrophage Cell Line MH-S (A) MH-S cells were treated with different concentrations of MG for 24 h.</title><p>Cells were stained with propidium iodide and analyzed using a FACS instrument.</p><p>Apoptosis was scored as the percentage of cells appearing in the area below the G1/G0 peak, representing cells containing DNA&#x0003c;2N.</p><p>Error bars represent&#x000b1;SD.</p><p>Statistical significance was determined by Student's t test; &#x0002a;, <italic>P</italic>&#x0003c;0.001 for MH-S cells treated with 0.4, 0.8, and 1.6 mM MG versus untreated MH-S cells.</p><p>(B) Western blot analysis was used to detect the activation of components of apoptotic signals, JNK, caspase-3, and caspase-9.</p><p>JNK was activated as early as 1 h after MG treatment, followed by the activation of caspase-3 and caspase-9.</p></caption><graphic xlink:href="pone.0000029.g001"/></fig><p>JNK plays an important role in apoptotic processes <xref rid="pone.0000029-Verheij1" ref-type="bibr">[26]</xref>&#x02013;<xref rid="pone.0000029-Johnson1" ref-type="bibr">[28]</xref>. The induction of apoptosis by MG has been correlated with the activation of c-Jun N-terminal kinase (JNK) <xref rid="pone.0000029-Du1" ref-type="bibr">[11]</xref>. To examine the apoptotic route of MG-treated MH-S cells, total proteins of MG-treated MH-S cells were isolated at different time points after treatment and JNK, caspase-3, and caspase-9 activation were determined. JNK was activated as early as 1 h after MG treatment and this activation was maintained for 2 h. Caspase-3 and caspase-9 activation occurred 4 h after MG treatment (<xref ref-type="fig" rid="pone-0000029-g001">Figure 1B</xref>).</p><p>The activation of JNK can occur upstream or downstream of caspase activation. When JNK activation precedes caspase activation, it is usually required for apoptosis. This is particularly relevant when cells are exposed to insults caused by various chemical agents, irradiation, or oxidation <xref rid="pone.0000029-Turner1" ref-type="bibr">[29]</xref>, <xref rid="pone.0000029-Zhang1" ref-type="bibr">[30]</xref>. Our results suggest that activation of JNK precedes the onset of apoptosis, and initiates an intracellular signaling cascade in preparation for apoptosis induced by MG in MH-S cells. We conclude that JNK activation is required for MG-induced apoptosis of MH-S cells. Our results agree with previous reports <xref rid="pone.0000029-Du1" ref-type="bibr">[11]</xref>, extending the apoptosis-inducing potential of this small molecule to alveolar macrophages.</p></sec><sec id="s2c"><title>Increased AGE Levels in Mycobacteria-infected Macrophages</title><p>Under physiological conditions, most MG is bound to cellular proteins as adducts formed with Lys, Arg, and Cys residues. Although the reaction with Cys is considered reversible, elevated MG concentrations can irreversibly modify Lys and Arg residues through AGE formation. AGE can enhance formation of oxygen radicals with subsequent activation of NF-&#x003ba;B and release of proinflammatory cytokines <xref rid="pone.0000029-Lal1" ref-type="bibr">[31]</xref>, <xref rid="pone.0000029-Yeh1" ref-type="bibr">[32]</xref>. AGE can stimulate mitogen-activating protein kinase (MAPK), activator protein-1 (AP-1), and induce expression of transforming growth &#x003b2;1 (TGF-&#x003b2;1) and of extracellular matrix (ECM) proteins <xref rid="pone.0000029-Abe1" ref-type="bibr">[33]</xref>, <xref rid="pone.0000029-Heidland1" ref-type="bibr">[34]</xref>. It is, therefore, conceivable that abundant MG levels present during mycobacterial infection of macrophages lead to AGE formation of distinct proteins, which then trigger changes in global gene expression. In hyperglycemia, increased levels of MG are accompanied by elevated AGE formation <xref rid="pone.0000029-Shinohara1" ref-type="bibr">[17]</xref>. We observed abundant AGE during mycobacterial infection of macrophages (<xref ref-type="fig" rid="pone-0000029-g002">Figure 2A</xref>). More importantly, we detected AGE in TB lesions of patients. <xref ref-type="fig" rid="pone-0000029-g002">Figure 2B</xref> shows a histological specimen of lung lesion from a TB patient. AGE staining colocalizes with the accumulation of macrophages suggesting that macrophages are one of the main sources of AGE in active TB. Thus, formation and accumulation of AGE occurs in TB. Until recently, increased AGE formation has been mostly associated with diabetes, renal failure, aging, and cancer <xref rid="pone.0000029-Heijst1" ref-type="bibr">[35]</xref>. Therefore, our observation extends the roles of AGE to chronic infectious diseases such as TB and hence, provides new insights into regional immunity against, and pathogenesis of, a chronic bacterial infection.</p><fig id="pone-0000029-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000029.g002</object-id><label>Figure 2</label><caption><title>Mycobacterial Infection of Macrophages Stimulates AGE Formation. </title><p>(A) Macrophages were infected with BCG for 1 day and AGE levels were determined by FACS analysis.</p><p>AGE formation was strongly increased during infection of macrophages.</p><p>(B) Significant formation of AGE was also observed at sites of active TB; upper left: staining with mAb against macrophage marker (CD68), upper right: staining with mAb against AGE, lower right: staining with mAb against marker for activated macrophages (Ki-67).</p><p>Consistent results were observed for three TB patients.</p></caption><graphic xlink:href="pone.0000029.g002"/></fig></sec><sec id="s2d"><title>Mycobacteria-induced Apoptosis Requires MG and AGE</title><p>Reduced glutathione (GSH) serves as a cofactor of the glyoxalase system and catalyzes the conversion of MG to D-lactate. MG binds nonenzymatically to GSH forming hemithioacetal, which in turn serves as a substrate for glyoxalase I (GLO1). Glyoxalase II (GLO2) hydrolyzes the product from the GLO1-catalyzed reaction, S-D-lactoylglutathione to D-lactate. GSH is also a well-known antioxidant, which neutralizes oxidative radicals, including oxygen radicals. Under various experimental conditions, induction of apoptosis is preceded by a rise in intracellular oxygen radicals <xref rid="pone.0000029-Okado1" ref-type="bibr">[9]</xref>. MG can induce generation of reactive oxygen radicals through multiple pathways <xref rid="pone.0000029-Yim1" ref-type="bibr">[36]</xref>&#x02013;<xref rid="pone.0000029-Oya1" ref-type="bibr">[38]</xref> and these radicals contribute to apoptotic events induced by MG <xref rid="pone.0000029-Du2" ref-type="bibr">[39]</xref>. We show that preincubation of macrophages with GSH reduced AGE formation after infection with mycobacteria (<xref ref-type="fig" rid="pone-0000029-g003">Figure 3A</xref>). At the same time we observed a significant reduction in apoptosis (<xref ref-type="fig" rid="pone-0000029-g003">Figure 3B</xref>). Similar results were obtained for MG-treated macrophages, which had been preincubated with GSH (<xref ref-type="fig" rid="pone-0000029-g003">Figure 3C</xref>). This finding suggests that mycobacteria-induced apoptosis of macrophages involves elevated AGE levels.</p><fig id="pone-0000029-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000029.g003</object-id><label>Figure 3</label><caption><title>GSH Reverses Apoptotic Effects of MG/AGE on Macrophages.</title><p>(A) Macrophages were pretreated with GSH and infected with mycobacteria for 1 day.</p><p>As a positive control, macrophages were infected with mycobacteria without pretreatment with GSH.</p><p>AGE levels were determined using a FACS instrument.</p><p>Red line: negative control (without infection), black line: positive control, blue line: pretreatment with GSH. </p><p>The augmentation of AGE levels was reduced during mycobacterial infection when macrophages were pretreated with GSH. </p><p>(B) Pretreatment of macrophages with GSH reduced the proportion of apoptotic cells during mycobacterial infection.</p><p>Error bars represent&#x000b1;SD.</p><p>Statistical significance was determined by Student's t test; &#x0002a;, <italic>P</italic>&#x0003c;0.05 for MH-S cells pretreated with GSH and infected with mycobacteria versus MH-S cells infected with mycobacteria without pre-treatment with GSH.</p><p>(C) Pretreatment of macrophages with GSH reduced the proportion of apoptotic cells during MG treatment.</p><p>Error bars represent&#x000b1;SD.</p><p>Statistical significance was determined by Student's t test; &#x0002a;&#x0002a;, <italic>P</italic>&#x0003c;0.001 for MH-S cells pretreated with GSH and treated with MG versus MH-S cells treated with MG without pretreatment with GSH.</p></caption><graphic xlink:href="pone.0000029.g003"/></fig></sec><sec id="s2e"><title>MG Modulates Expression of Apoptosis- and Immune Response-related Genes</title><p>In an effort to unravel the mechanism(s) of apoptosis induced by MG, we performed global gene expression profiling of MG-treated macrophages. Promptly after MG treatments (30 min), a cluster of genes involved in apoptosis were induced (Tables S1&#x02013;6) and many of these were increasingly expressed at later time points. TNF-&#x003b1; was induced at all time points analyzed confirming previous reports that MG and AGE can induce TNF-&#x003b1; production <xref rid="pone.0000029-Abordo1" ref-type="bibr">[14]</xref>. Increased transcription of TNF-&#x003b1; was accompanied by a high level of TNF-&#x003b1; protein in supernatants of macrophages treated with MG (<xref ref-type="fig" rid="pone-0000029-g004">Figure 4A</xref>). In addition, several genes associated with TNF-&#x003b1;, such as TRAF1, TRAF2, and members of the TNF-&#x003b1; receptor superfamily were also induced (Tables S1&#x02013;6). The expression of some DNA damage-inducible genes, such as DDIT3 and GADD45G was strongly elevated, indicating that MG directly or/and indirectly causes DNA damage as a characteristic feature of apoptosis (Tables S1&#x02013;6).</p><fig id="pone-0000029-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000029.g004</object-id><label>Figure 4</label><caption><title>Cytokine and Chemokine Induction by MG.</title><p>MH-S cells were treated with 0.8 mM MG.</p><p>TNF-&#x003b1; and CXCL10 concentrations in the culture medium were measured at various time points as indicated on the X axis.</p><p>Relative OD values were calculated by setting the OD value to 1 at time 0 h.</p><p>A significant increase of TNF-&#x003b1; (A) and CXCL10 secretion (B) was observed after MG treatment of MH-S cells.</p><p>This confirms the results of microarray experiments.</p><p>Error bars represent&#x000b1;SD.</p><p>Statistical significance was determined by Student's t test; &#x0002a;, <italic>P</italic>&#x0003c;0.05 for MH-S cells treated with MG (6, 8, and 24 h after treatment for TNF-&#x003b1; and 24 h after treatment for CXCL10) versus untreated MH-S cells.</p></caption><graphic xlink:href="pone.0000029.g004"/></fig><p>Notably, MG does not only induce apoptosis-related genes, but also a large number of genes related to macrophage activation and induction of immunity. Beside TNF-&#x003b1;, a series of genes belonging to the chemokine and cytokine families (ligands and receptors) were induced (Tables S1&#x02013;6). Among highly induced chemokines were CXCL2 and CXCL10, which are highly abundant in lung granulomas induced by mycobacteria <xref rid="pone.0000029-Chiu1" ref-type="bibr">[40]</xref>. The high expression of CXL10 was confirmed by real-time RT-PCR (<xref ref-type="supplementary-material" rid="pone.0000029.s010">Table S7</xref>) and ELISA (<xref ref-type="fig" rid="pone-0000029-g004">Figure 4B</xref>). Furthermore, real-time RT-PCR results showed that pretreatment of macrophages with GSH reduced the induction of the corresponding genes (<xref ref-type="supplementary-material" rid="pone.0000029.s010">Table S7</xref>). This directly indicates the involvement of MG in induction of these genes.</p><p>Lung granulomas represent the hallmark of pulmonary TB and the prime focus for the continuous crosstalk between MTB and immune cells <xref rid="pone.0000029-Kaufmann3" ref-type="bibr">[41]</xref>. Induction of immunity involves elaborate interactions between chemokines and cytokines produced by immune cells as well as local tissue cells <xref rid="pone.0000029-Chiu1" ref-type="bibr">[40]</xref>, <xref rid="pone.0000029-Kaufmann3" ref-type="bibr">[41]</xref>. TNF is a pivotal player in granuloma formation <xref rid="pone.0000029-Kaneko1" ref-type="bibr">[42]</xref>, <xref rid="pone.0000029-Law1" ref-type="bibr">[43]</xref>. TNF-deficient mice infected with MTB are highly susceptible to disease, and granuloma formation is severely impaired <xref rid="pone.0000029-Kaneko1" ref-type="bibr">[42]</xref>. Therapeutic TNF neutralization in rheumatoid arthritis patients with latent MTB infection is associated with increased risk of reactivation TB <xref rid="pone.0000029-Zhang2" ref-type="bibr">[44]</xref>. Thus, considering the large number of genes related to chemokines and cytokines, the expression of which is strongly regulated by MG, we suggest that MG and AGE play pivotal roles in immunity to TB with a focus on the granulomatous lesion. This assumption is supported by the fact that &#x0003e;70&#x00025; of the genes, which were regulated by MG (this study), are similarly regulated in granulomas of MTB-infected mice (Tracy Walker, personal communication).</p><p>Our global gene expression profiling of MG-treated macrophages revealed that MG effects the expression of numerous genes, many related to apoptosis, activation, and immunity. Moreover, MG seems to effect genes associated with regulation of cellular growth. The glyoxalase system and MG have been proposed as major regulators of cell division based on their ubiquitous occurrence and the high reactivity of MG with cellular thiols underlying cell division <xref rid="pone.0000029-Kalapos1" ref-type="bibr">[45]</xref>, <xref rid="pone.0000029-Kalapos2" ref-type="bibr">[46]</xref>. In sum, our experiments revealed numerous roles of the small molecule MG in diverse cellular events. Understanding the mechanism(s) involved in these events can provide the basis for designing novel intervention strategies against infectious diseases in which MG and AGE are critical.</p></sec></sec><sec id="s3"><title>Materials and Methods</title><sec id="s3a"><title>
+<italic>In vitro</italic> Culture of Bacteria and Culture Conditions</title><p>BCG Copenhagen organisms were grown in Middlebrook 7H9 media supplemented with 10&#x00025; (v/v) ADC (Difco Laboratories) and 0.05&#x00025; (v/v) Tween 80 (Sigma) to mid-log phase at 37&#x000b0;C with shaking at 90 rpm in screw-capped bottles.</p></sec><sec id="s3b"><title>Culture of MH-S Cells</title><p>MH-S cells (ATCC No. CRL-2019) were cultured in RPMI medium supplemented with 10&#x00025; FCS, 1 mM Na-pyruvate, and 2 mM L-glutamate, 10 mM HEPES, 0.05 mM 2-mercaptoethanol, 100 U/ml penicillin, and 10 mg/ml streptomycin sulphate. The cells were maintained in a humidified atmosphere of 5&#x00025; CO<sub>2</sub> at 37&#x000b0;C. During mycobacterial infection, culture medium without antibiotics was used. Infection of MH-S cells with BCG Copenhagen was performed as described previously <xref rid="pone.0000029-Sly1" ref-type="bibr">[6]</xref>, <xref rid="pone.0000029-Mogga1" ref-type="bibr">[7]</xref>.</p></sec><sec id="s3c"><title>Flow Cytometric Analysis of DNA Fragmentation</title><p>MH-S cells were seeded at 2.5&#x000d7;10<sup>5</sup> cells/ml into a 24-well tissue culture plate for 1 day (2.5&#x000d7;10<sup>5</sup> cells/well). After treatment with 0.8 mM MG (Sigma) for 24 h, cells were harvested, resuspended in 500 &#x000b5;l of propidium iodide buffer (0.1&#x00025; Triton X-100, 1&#x000d7;PBS) containing 50 &#x000b5;g/ml propidium iodide (Sigma), and incubated for 15 min on ice. DNA fragmentation analysis was carried out using a FACScalibur flow cytometer (Becton Dickinson). Apoptosis was scored by the percentage of cells appearing in the area below the G1/G0 peak representing cells containing DNA&#x0003c;2N.</p></sec><sec id="s3d"><title>Annexin V Binding</title><p>One million MH-S cells were seeded into a 6-well plate for 1 day and then treated with 0.8 mM MG, and harvested after MG treatment for 4, 6, and 24 h. The MH-S cells were harvested, washed twice with 1&#x000d7;PBS, resuspended in annexin V binding buffer, and stained with annexin V according to the manufacturer's instructions (Sigma) before flow cytometric analysis.</p></sec><sec id="s3e"><title>Determination of MG Levels in MH-S Cells</title><p>Measurement of MG levels was performed as described previously <xref rid="pone.0000029-Chaplen1" ref-type="bibr">[23]</xref> with a few modifications. MH-S cells (2&#x000d7;10<sup>7</sup>) were infected with BCG at MOI of 50&#x02236;1. One day after infection, MH-S cells were harvested, washed twice with 1&#x000d7;PBS, and lysed by sonication in 5 ml 1&#x000d7;PBS. Perchloric acid (PCA) (Sigma) and o-phenylenediamine (o-PD; Sigma) were added to a final concentration of 0.5 M and 5 mM, respectively. The mixture was incubated at 20&#x000b0;C for 24 h. PCA precipitate was removed by centrifugation. The supernatant was passed through a C<sub>18</sub> solid-phase extraction cartridge (Waters Sep-Pak tC18 plus cartridge, Millipore), which had been prepared by flushing with 6&#x02013;8 ml of acetonitrile and 6&#x02013;8 ml of 10 mM KH<sub>2</sub>PO<sub>4</sub> (pH 2.5). The sample was eluted from the cartridge with 4 ml acetonitrile (Sigma). The 2-methylquinoxaline (2-MQ) content was analyzed by HPLC. 2-MQ was eluted at a retention time of 7.1&#x02013;7.3 min. Increase in MG was determined by calculating the ratio of peak areas between MH-S cells with and without infection. The obtained ratio was normalized with the ratio of the corresponding cell numbers.</p></sec><sec id="s3f"><title>Cell Lysis and Immunoblot Analysis</title><p>Cells were lysed in lysis buffer containing 0.5&#x00025; Nonidet P-40 (NP-40), 20 mM Tris-HCl (pH 7.6), 0.15 mM NaCl, 3 mM EDTA, 3 mM EGTA, 1 mM DTT, 2 mM sodium vanadate, and 1&#x000d7;proteinase inhibitor cocktail (Sigma). Lysates were cleared by centrifugation at 13,000<italic>g</italic> for 10 min, denatured by boiling in Laemmli buffer for 5 min, separated on 12.5&#x00025; SDS-PAGE gels, and blotted onto nitrocellulose membrane. Nonspecific binding was blocked by incubating the membrane with 0.1&#x00025; Tween-20/PBS containing 5&#x00025; nonfat dry milk for 1 h at room temperature. Membranes were incubated in the blocking buffer with the primary antibody: caspase-3 (Cell Signaling Technology), caspase-9 (Cell Signaling Technology), or P-JNK (Sigma) overnight at 4&#x000b0;C, followed by incubation with horseradish peroxidases (HRP)-conjugated secondary antibody, and the specific immune complexes were detected using the Western blot enhanced chemiluminescence (ECL)-based reagent (Amersham Biosciences).</p></sec><sec id="s3g"><title>Detection of AGE in Mycobacteria-infected Macrophages</title><p>Monoclonal antibody (mAb) against AGE (RDI, ADYGLYabm, clone 6D12) was labeled with Cy3 or Cy5 using Cy3/Cy5 Ab Labeling Kit (Amersham Biosciences) according to the manufacturer's protocol. Infected macrophages were harvested, fixed with 4&#x00025; paraformaldehyde, and permeabilized in 1&#x000d7;PBS containing 0.1&#x00025; Triton X-100. The fixed macrophages were stained with the labeled antibody and subjected to FACS analysis.</p></sec><sec id="s3h"><title>Immunohistological Staining</title><p>Due to extensive lung disease and prevalence of MDR isolates, TB patients in Russia frequently undergo elective thoracic surgery. Destructed parts of their lungs are removed within the anatomical borders of lung segments to decrease mycobacterial load. Lung tissue was obtained at the Department of Thoracic Surgery of the Central Tuberculosis Research Institute (CTRI). At the time point of elective surgical intervention, all TB patients were under multidrug combination therapy of at least 3&#x02013;4 first- and/or second-line drugs. Immediately after surgery, removed lung tissue was fixed in 4&#x00025; paraformaldehyde. All procedures involving patients were reviewed and approved by the appropriate ethical review boards in both Moscow and Berlin. Informed consent was obtained from each patient in this study.</p><p>The immunohistological staining of cell surface markers was performed according to published protocols <xref rid="pone.0000029-Ulrichs1" ref-type="bibr">[47]</xref>. In brief, after deparaffination, tissue sections were washed with H<sub>2</sub>O, incubated in 1mM EDTA buffer at 2 bars for 3 min and then washed with 0.01&#x00025; Tween 20 in PBS (TBS). Sections were incubated with mAb against AGE (1&#x02236;300, RDI, ADYGLYabm, clone 6D12), CD68 (1&#x02236;100; Biocarta, CM033B), pAbBCG (1&#x02236;1000; DAKO, Hamburg, Germany, B0124), or Ki-67 (1&#x02236;75; DAKO, M7240), respectively, for 1 h at room temperature. After washing in TBS, sections were incubated with goat-anti-mouse/goat-anti-rabbit polyclonal antibody labeled with alkaline phosphatase (AP; Dianova, Hamburg, Germany, 115-055-146 or 111-055-045) for 1 h. Bound antibodies were detected by color reaction using naphthol AS-bi-phosphate solution containing neo-fuchsin and sodium-nitrite (Merck, Darmstadt, Germany, 1.06549). Endogenous alkaline phosphatase activity was blocked by levamisole (Sigma, Taufkirchen, Germany, L9756). Counter staining was performed with hem-alaun (Merck).</p></sec><sec id="s3i"><title>Measurement of TNF-&#x003b1; and CXCL10 Secretion</title><p>MH-S cells (2&#x000d7;10<sup>6</sup>) were treated with 0.8 mM MG in 4 ml culture medium. The growth medium was removed at different time points after MG treatment and assessed for TNF-&#x003b1; and CXCL10 content using Mouse TNF-alpha and CXCL10 DuoSet ELISA Development Systems, respectively, (R&#x00026;D Systems) according to manufacturer's instructions. The samples from each time point were measured in triplicate. The error bars represent standard deviation from three measurements. Relative OD values were calculated by dividing each OD value with that of untreated sample (0 h).</p></sec><sec id="s3j"><title>Gene Expression Profiling</title><p>After treatment with MG for 0, 0.5, 4.0, and 8.0 h, MH-S cells were harvested, pelleted, resuspended in Trizol (Invitrogen), and vortexed for 1 min to lyse the cells. Total RNA was extracted with chloroform and precipitated in isopropanol. The RNA pellet was washed twice with cold 70&#x00025; ethanol.</p><p>The GeneChip&#x000ae; Mouse Genome 430 2.0 oligonucleotide microarray (Affymetrix, Santa Clara, CA, USA) comprises 45,101 probe sets, which analyze the expression level of over 39,000 transcripts and variants from over 34,000 well-characterized mouse genes. Labeling of RNA targets, hybridization, and post-hybridization procedures were performed according to protocols provided by Affymetrix. Following washing and staining, arrays were scanned twice at 1.56 &#x000b5;m resolution using a GeneChip&#x000ae; Scanner 3000 (Affymetrix, Santa Clara, CA), controlled by GCOS 1.3 software (Affymetrix). Photoemission was detected by a photomultiplier tube through a 570-nm longpass filter. Computer-generated array images were overlaid with a virtual grid, controlled by GCOS 1.3 software. This step allowed definition of each feature and alignment within known array dimensions. About 40 pixels within each feature were averaged after discarding outliers and pixels close to feature boundaries. Gene expression levels were calculated according to the average hybridization intensities of perfectly matched versus mismatched oligonucleotide probes. Arrays were scaled by GCOS 1.3 software to an average hybridization intensity of 2,500 per gene and analyzed independently. After hybridization and image analysis we excluded probe sets with absent calls in all 12 samples or with nonsignificant hybridization intensities.</p><p>The Data Mining Tool 3.1 (Affymetrix) and GeneSpring software package 7.2 (Silicon Genetics, Redwood City, CA) were used to compare the untreated control sample (0 h time point) with MG-treated samples at different time points. The data were normalized to compensate for variability in hybridizations and hybridization artefacts. The normalization consisted of three sections:</p><list list-type="order"><list-item><p>Data transformation: set measurements&#x0003c;300 to 300.</p></list-item><list-item><p>Normalize each chip to 50<sup>th</sup> percentile of the measurements taken from that chip.</p></list-item><list-item><p>Normalize each gene to the median of the measurements for that gene.</p></list-item></list><p>The GeneSpring software package 7.2 was used to identify coexpressed genes within a set of gene expression data typically obtained using the microarray technology. The coexpression information was in turn used to help identify the biological function of the genes. To identify potential biological functions associated with gene clusters, we analyzed the Gene Ontology (GO) annotations of coexpressed genes.</p><p>Microarray data are deposited in GEO (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nih.gov/geo/">http://www.ncbi.nih.gov/geo/</ext-link>; accession number: GSE3837).</p></sec><sec id="s3k"><title>Quantitative Real-time RT-PCR of MH-S cells</title><p>MH-S cells were treated with 0.8 mM MG for 4 h with or without pretreatment with GSH. After treatment, MH-S cells were harvested, pelleted, resuspended in Trizol (Invitrogen), and vortexed for 1 min to lyse the cells. Total RNA was extracted with chloroform and precipitated in isopropanol. The RNA pellet was washed once with cold 70&#x00025; ethanol. Five &#x000b5;g total RNA was reverse-transcribed using Reverse Transcriptase Superscript III (Invitrogen) according to the manufacturer's protocol. Quantitative real-time RT-PCR was performed using SYBR Green kit according to the manufacturer's instructions (ABI Prism 7000, Applied Biosystems) and primer pairs listed in <xref ref-type="supplementary-material" rid="pone.0000029.s011">Table S8</xref>. Relative expression levels were normalized to &#x003b2;-actin levels.</p></sec></sec><sec sec-type="supplementary-material" id="s4"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pone.0000029.s001"><label>Figure S1</label><caption><p>Elevated MG Levels during Mycobacterial Infection of Macrophages</p><p>(0.40 MB DOC)</p></caption><media xlink:href="pone.0000029.s001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000029.s002"><label>Figure S2</label><caption><p>MG Induces Apoptosis in Alveolar Macrophage Cell Line MH-S</p><p>(0.15 MB DOC)</p></caption><media xlink:href="pone.0000029.s002.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000029.s003"><label>Figure S3</label><caption><p>MG Induces Apoptosis in the Alveolar Macrophage Cell Line MH-S</p><p>(0.17 MB DOC)</p></caption><media xlink:href="pone.0000029.s003.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000029.s004"><label>Table S1</label><caption><p>List of genes upregulated 30 min after MG treatment with the highest fold change associated with apoptosis</p><p>(0.04 MB DOC)</p></caption><media xlink:href="pone.0000029.s004.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000029.s005"><label>Table S2</label><caption><p>List of genes upregulated 30 min after MG treatment with the highest fold change associated with immune response</p><p>(0.04 MB DOC)</p></caption><media xlink:href="pone.0000029.s005.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000029.s006"><label>Table S3</label><caption><p>List of genes upregulated 4 h after MG treatment with the highest fold change associated with apoptosis</p><p>(0.04 MB DOC)</p></caption><media xlink:href="pone.0000029.s006.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000029.s007"><label>Table S4</label><caption><p>List of genes upregulated 4 h after MG treatment with the highest fold change associated with immune response</p><p>(0.04 MB DOC)</p></caption><media xlink:href="pone.0000029.s007.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000029.s008"><label>Table S5</label><caption><p>List of genes upregulated 8 h after MG treatment with the highest fold change associated with apoptosis</p><p>(0.04 MB DOC)</p></caption><media xlink:href="pone.0000029.s008.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000029.s009"><label>Table S6</label><caption><p>List of genes upregulated 8 h after MG treatment with the highest fold change associated with immune response</p><p>(0.04 MB DOC)</p></caption><media xlink:href="pone.0000029.s009.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000029.s010"><label>Table S7</label><caption><p>Results of real-time RT-PCR</p><p>(0.04 MB DOC)</p></caption><media xlink:href="pone.0000029.s010.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000029.s011"><label>Table S8</label><caption><p>Primer sequences for real-time RT-PCR</p><p>(0.04 MB DOC)</p></caption><media xlink:href="pone.0000029.s011.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We thank Tracey Walker for providing us with microarray data from microdissection of murine granulomatous lesions. H.R. thanks Dr. Ute Ungeth&#x000fc;m for the hybridization of Affymetrix arrays and Ralf Winter for processing HPLC data.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>This work received financial support to SHEK from the German Ministry for Science and Technology (Competence Networks "Pathogenomics" and "Structural Genomics of MTB").</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000029-Kaufmann1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaufmann</surname><given-names>SH</given-names></name></person-group>
+<year>2001</year>
+<article-title>How can immunology contribute to the control of tuberculosis?</article-title>
+<source>Nat Rev Immunol</source>
+<volume>1</volume>
+<fpage>20</fpage>
+<lpage>30</lpage>
+<pub-id pub-id-type="pmid">11905811</pub-id></element-citation></ref><ref id="pone.0000029-Kaufmann2"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaufmann</surname><given-names>SH</given-names></name></person-group>
+<year>2000</year>
+<article-title>Is the development of a new tuberculosis vaccine possible?</article-title>
+<source>Nat Med</source>
+<volume>6</volume>
+<fpage>955</fpage>
+<lpage>960</lpage>
+<pub-id pub-id-type="pmid">10973302</pub-id></element-citation></ref><ref id="pone.0000029-Fairbairn1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fairbairn</surname><given-names>IP</given-names></name></person-group>
+<year>2004</year>
+<article-title>Macrophage apoptosis in host immunity to mycobacterial infections.</article-title>
+<source>Biochem Soc Trans</source>
+<volume>32</volume>
+<fpage>496</fpage>
+<lpage>498</lpage>
+<pub-id pub-id-type="pmid">15157170</pub-id></element-citation></ref><ref id="pone.0000029-Winau1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Winau</surname><given-names>F</given-names></name><name><surname>Weber</surname><given-names>S</given-names></name><name><surname>Sad</surname><given-names>S</given-names></name><name><surname>de</surname><given-names>DJ</given-names></name><name><surname>Hoops</surname><given-names>SL</given-names></name><name><surname>Breiden</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Apoptotic vesicles crossprime CD8 T cells and protect against tuberculosis.</article-title>
+<source>Immunity</source>
+<volume>24</volume>
+<fpage>105</fpage>
+<lpage>117</lpage>
+<pub-id pub-id-type="pmid">16413927</pub-id></element-citation></ref><ref id="pone.0000029-Schaible1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schaible</surname><given-names>UE</given-names></name><name><surname>Winau</surname><given-names>F</given-names></name><name><surname>Sieling</surname><given-names>PA</given-names></name><name><surname>Fischer</surname><given-names>K</given-names></name><name><surname>Collins</surname><given-names>HL</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Apoptosis facilitates antigen presentation to T lymphocytes through MHC-I and CD1 in tuberculosis.</article-title>
+<source>Nat Med</source>
+<volume>9</volume>
+<fpage>1039</fpage>
+<lpage>1046</lpage>
+<pub-id pub-id-type="pmid">12872166</pub-id></element-citation></ref><ref id="pone.0000029-Sly1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sly</surname><given-names>LM</given-names></name><name><surname>Hingley-Wilson</surname><given-names>SM</given-names></name><name><surname>Reiner</surname><given-names>NE</given-names></name><name><surname>McMaster</surname><given-names>WR</given-names></name></person-group>
+<year>2003</year>
+<article-title>Survival of Mycobacterium tuberculosis in host macrophages involves resistance to apoptosis dependent upon induction of antiapoptotic Bcl-2 family member Mcl-1.</article-title>
+<source>J Immunol</source>
+<volume>170</volume>
+<fpage>430</fpage>
+<lpage>437</lpage>
+<pub-id pub-id-type="pmid">12496428</pub-id></element-citation></ref><ref id="pone.0000029-Mogga1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mogga</surname><given-names>SJ</given-names></name><name><surname>Mustafa</surname><given-names>T</given-names></name><name><surname>Sviland</surname><given-names>L</given-names></name><name><surname>Nilsen</surname><given-names>R</given-names></name></person-group>
+<year>2002</year>
+<article-title>Increased Bcl-2 and reduced Bax expression in infected macrophages in slowly progressive primary murine Mycobacterium tuberculosis infection.</article-title>
+<source>Scand J Immunol</source>
+<volume>56</volume>
+<fpage>383</fpage>
+<lpage>391</lpage>
+<pub-id pub-id-type="pmid">12234259</pub-id></element-citation></ref><ref id="pone.0000029-Riendeau1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Riendeau</surname><given-names>CJ</given-names></name><name><surname>Kornfeld</surname><given-names>H</given-names></name></person-group>
+<year>2003</year>
+<article-title>THP-1 cell apoptosis in response to Mycobacterial infection.</article-title>
+<source>Infect Immun</source>
+<volume>71</volume>
+<fpage>254</fpage>
+<lpage>259</lpage>
+<pub-id pub-id-type="pmid">12496173</pub-id></element-citation></ref><ref id="pone.0000029-Okado1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Okado</surname><given-names>A</given-names></name><name><surname>Kawasaki</surname><given-names>Y</given-names></name><name><surname>Hasuike</surname><given-names>Y</given-names></name><name><surname>Takahashi</surname><given-names>M</given-names></name><name><surname>Teshima</surname><given-names>T</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>Induction of apoptotic cell death by methylglyoxal and 3-deoxyglucosone in macrophage-derived cell lines.</article-title>
+<source>Biochem Biophys Res Commun</source>
+<volume>225</volume>
+<fpage>219</fpage>
+<lpage>224</lpage>
+<pub-id pub-id-type="pmid">8769121</pub-id></element-citation></ref><ref id="pone.0000029-Kang1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kang</surname><given-names>Y</given-names></name><name><surname>Edwards</surname><given-names>LG</given-names></name><name><surname>Thornalley</surname><given-names>PJ</given-names></name></person-group>
+<year>1996</year>
+<article-title>Effect of methylglyoxal on human leukaemia 60 cell growth: modification of DNA G1 growth arrest and induction of apoptosis.</article-title>
+<source>Leuk Res</source>
+<volume>20</volume>
+<fpage>397</fpage>
+<lpage>405</lpage>
+<pub-id pub-id-type="pmid">8683979</pub-id></element-citation></ref><ref id="pone.0000029-Du1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Du</surname><given-names>J</given-names></name><name><surname>Suzuki</surname><given-names>H</given-names></name><name><surname>Nagase</surname><given-names>F</given-names></name><name><surname>Akhand</surname><given-names>AA</given-names></name><name><surname>Yokoyama</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Methylglyoxal induces apoptosis in Jurkat leukemia T cells by activating c-Jun N-terminal kinase.</article-title>
+<source>J Cell Biochem</source>
+<volume>77</volume>
+<fpage>333</fpage>
+<lpage>344</lpage>
+<pub-id pub-id-type="pmid">10723098</pub-id></element-citation></ref><ref id="pone.0000029-Akhand1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Akhand</surname><given-names>AA</given-names></name><name><surname>Hossain</surname><given-names>K</given-names></name><name><surname>Mitsui</surname><given-names>H</given-names></name><name><surname>Kato</surname><given-names>M</given-names></name><name><surname>Miyata</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Glyoxal and methylglyoxal trigger distinct signals for map family kinases and caspase activation in human endothelial cells.</article-title>
+<source>Free Radic Biol Med</source>
+<volume>31</volume>
+<fpage>20</fpage>
+<lpage>30</lpage>
+<pub-id pub-id-type="pmid">11425486</pub-id></element-citation></ref><ref id="pone.0000029-RodriguezIturbe1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rodriguez-Iturbe</surname><given-names>B</given-names></name><name><surname>Ferrebuz</surname><given-names>A</given-names></name><name><surname>Vanegas</surname><given-names>V</given-names></name><name><surname>Quiroz</surname><given-names>Y</given-names></name><name><surname>Mezzano</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Early and sustained inhibition of nuclear factor-kappaB prevents hypertension in spontaneously hypertensive rats.</article-title>
+<source>J Pharmacol Exp Ther</source>
+<volume>315</volume>
+<fpage>51</fpage>
+<lpage>57</lpage>
+<pub-id pub-id-type="pmid">15951402</pub-id></element-citation></ref><ref id="pone.0000029-Abordo1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abordo</surname><given-names>EA</given-names></name><name><surname>Thornalley</surname><given-names>PJ</given-names></name></person-group>
+<year>1997</year>
+<article-title>Synthesis and secretion of tumour necrosis factor-alpha by human monocytic THP-1 cells and chemotaxis induced by human serum albumin derivatives modified with methylglyoxal and glucose-derived advanced glycation endproducts.</article-title>
+<source>Immunol Lett</source>
+<volume>58</volume>
+<fpage>139</fpage>
+<lpage>147</lpage>
+<pub-id pub-id-type="pmid">9293394</pub-id></element-citation></ref><ref id="pone.0000029-Rachman1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rachman</surname><given-names>H</given-names></name><name><surname>Strong</surname><given-names>M</given-names></name><name><surname>Ulrichs</surname><given-names>T</given-names></name><name><surname>Grode</surname><given-names>L</given-names></name><name><surname>Schuchhardt</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Unique transcriptome signature of Mycobacterium tuberculosis in pulmonary tuberculosis.</article-title>
+<source>Infect Immun</source>
+<volume>74</volume>
+<fpage>1233</fpage>
+<lpage>1242</lpage>
+<pub-id pub-id-type="pmid">16428773</pub-id></element-citation></ref><ref id="pone.0000029-Lambrecht1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lambrecht</surname><given-names>BN</given-names></name></person-group>
+<year>2006</year>
+<article-title>Alveolar macrophage in the driver's seat.</article-title>
+<source>Immunity</source>
+<volume>24</volume>
+<fpage>366</fpage>
+<lpage>368</lpage>
+<pub-id pub-id-type="pmid">16618595</pub-id></element-citation></ref><ref id="pone.0000029-Shinohara1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shinohara</surname><given-names>M</given-names></name><name><surname>Thornalley</surname><given-names>PJ</given-names></name><name><surname>Giardino</surname><given-names>I</given-names></name><name><surname>Beisswenger</surname><given-names>P</given-names></name><name><surname>Thorpe</surname><given-names>SR</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Overexpression of glyoxalase-I in bovine endothelial cells inhibits intracellular advanced glycation endproduct formation and prevents hyperglycemia-induced increases in macromolecular endocytosis.</article-title>
+<source>J Clin Invest</source>
+<volume>101</volume>
+<fpage>1142</fpage>
+<lpage>1147</lpage>
+<pub-id pub-id-type="pmid">9486985</pub-id></element-citation></ref><ref id="pone.0000029-McLellan1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McLellan</surname><given-names>AC</given-names></name><name><surname>Thornalley</surname><given-names>PJ</given-names></name><name><surname>Benn</surname><given-names>J</given-names></name><name><surname>Sonksen</surname><given-names>PH</given-names></name></person-group>
+<year>1994</year>
+<article-title>Glyoxalase system in clinical diabetes mellitus and correlation with diabetic complications.</article-title>
+<source>Clin Sci (Lond)</source>
+<volume>87</volume>
+<fpage>21</fpage>
+<lpage>29</lpage>
+<pub-id pub-id-type="pmid">8062515</pub-id></element-citation></ref><ref id="pone.0000029-Humeny1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Humeny</surname><given-names>A</given-names></name><name><surname>Kislinger</surname><given-names>T</given-names></name><name><surname>Becker</surname><given-names>CM</given-names></name><name><surname>Pischetsrieder</surname><given-names>M</given-names></name></person-group>
+<year>2002</year>
+<article-title>Qualitative determination of specific protein glycation products by matrix-assisted laser desorption/ionization mass spectrometry Peptide mapping.</article-title>
+<source>J Agric Food Chem</source>
+<volume>50</volume>
+<fpage>2153</fpage>
+<lpage>2160</lpage>
+<pub-id pub-id-type="pmid">11902972</pub-id></element-citation></ref><ref id="pone.0000029-MandlWeber1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mandl-Weber</surname><given-names>S</given-names></name><name><surname>Haslinger</surname><given-names>B</given-names></name><name><surname>Schalkwijk</surname><given-names>CG</given-names></name><name><surname>Sitter</surname><given-names>T</given-names></name></person-group>
+<year>2001</year>
+<article-title>Early glycated albumin, but not advanced glycated albumin, methylglyoxal, or 3-deoxyglucosone increases the expression of PAI-1 in human peritoneal mesothelial cells.</article-title>
+<source>Perit Dial Int</source>
+<volume>21</volume>
+<fpage>487</fpage>
+<lpage>494</lpage>
+<pub-id pub-id-type="pmid">11757833</pub-id></element-citation></ref><ref id="pone.0000029-Thornalley1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thornalley</surname><given-names>PJ</given-names></name></person-group>
+<year>1988</year>
+<article-title>Modification of the glyoxalase system in human red blood cells by glucose in vitro.</article-title>
+<source>Biochem J</source>
+<volume>254</volume>
+<fpage>751</fpage>
+<lpage>755</lpage>
+<pub-id pub-id-type="pmid">3196289</pub-id></element-citation></ref><ref id="pone.0000029-Davidson1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Davidson</surname><given-names>SD</given-names></name><name><surname>Milanesa</surname><given-names>DM</given-names></name><name><surname>Mallouh</surname><given-names>C</given-names></name><name><surname>Choudhury</surname><given-names>MS</given-names></name><name><surname>Tazaki</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>A possible regulatory role of glyoxalase I in cell viability of human prostate cancer.</article-title>
+<source>Urol Res</source>
+<volume>30</volume>
+<fpage>116</fpage>
+<lpage>121</lpage>
+<pub-id pub-id-type="pmid">12086016</pub-id></element-citation></ref><ref id="pone.0000029-Chaplen1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chaplen</surname><given-names>FW</given-names></name><name><surname>Fahl</surname><given-names>WE</given-names></name><name><surname>Cameron</surname><given-names>DC</given-names></name></person-group>
+<year>1998</year>
+<article-title>Evidence of high levels of methylglyoxal in cultured Chinese hamster ovary cells.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>95</volume>
+<fpage>5533</fpage>
+<lpage>5538</lpage>
+<pub-id pub-id-type="pmid">9576917</pub-id></element-citation></ref><ref id="pone.0000029-Thornalley2"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thornalley</surname><given-names>PJ</given-names></name><name><surname>Jahan</surname><given-names>I</given-names></name><name><surname>Ng</surname><given-names>R</given-names></name></person-group>
+<year>2001</year>
+<article-title>Suppression of the accumulation of triosephosphates and increased formation of methylglyoxal in human red blood cells during hyperglycaemia by thiamine in vitro.</article-title>
+<source>J Biochem (Tokyo)</source>
+<volume>129</volume>
+<fpage>543</fpage>
+<lpage>549</lpage>
+<pub-id pub-id-type="pmid">11275553</pub-id></element-citation></ref><ref id="pone.0000029-Klingler1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klingler</surname><given-names>K</given-names></name><name><surname>Tchou-Wong</surname><given-names>KM</given-names></name><name><surname>Brandli</surname><given-names>O</given-names></name><name><surname>Aston</surname><given-names>C</given-names></name><name><surname>Kim</surname><given-names>R</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Effects of mycobacteria on regulation of apoptosis in mononuclear phagocytes.</article-title>
+<source>Infect Immun</source>
+<volume>65</volume>
+<fpage>5272</fpage>
+<lpage>5278</lpage>
+<pub-id pub-id-type="pmid">9393826</pub-id></element-citation></ref><ref id="pone.0000029-Verheij1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Verheij</surname><given-names>M</given-names></name><name><surname>Bose</surname><given-names>R</given-names></name><name><surname>Lin</surname><given-names>XH</given-names></name><name><surname>Yao</surname><given-names>B</given-names></name><name><surname>Jarvis</surname><given-names>WD</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>Requirement for ceramide-initiated SAPK/JNK signalling in stress-induced apoptosis.</article-title>
+<source>Nature</source>
+<volume>380</volume>
+<fpage>75</fpage>
+<lpage>79</lpage>
+<pub-id pub-id-type="pmid">8598911</pub-id></element-citation></ref><ref id="pone.0000029-Dickens1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dickens</surname><given-names>M</given-names></name><name><surname>Rogers</surname><given-names>JS</given-names></name><name><surname>Cavanagh</surname><given-names>J</given-names></name><name><surname>Raitano</surname><given-names>A</given-names></name><name><surname>Xia</surname><given-names>Z</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>A cytoplasmic inhibitor of the JNK signal transduction pathway.</article-title>
+<source>Science</source>
+<volume>277</volume>
+<fpage>693</fpage>
+<lpage>696</lpage>
+<pub-id pub-id-type="pmid">9235893</pub-id></element-citation></ref><ref id="pone.0000029-Johnson1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Johnson</surname><given-names>NL</given-names></name><name><surname>Gardner</surname><given-names>AM</given-names></name><name><surname>Diener</surname><given-names>KM</given-names></name><name><surname>Lange-Carter</surname><given-names>CA</given-names></name><name><surname>Gleavy</surname><given-names>J</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>Signal transduction pathways regulated by mitogen-activated/extracellular response kinase kinase kinase induce cell death.</article-title>
+<source>J Biol Chem</source>
+<volume>271</volume>
+<fpage>3229</fpage>
+<lpage>3237</lpage>
+<pub-id pub-id-type="pmid">8621725</pub-id></element-citation></ref><ref id="pone.0000029-Turner1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Turner</surname><given-names>NA</given-names></name><name><surname>Xia</surname><given-names>F</given-names></name><name><surname>Azhar</surname><given-names>G</given-names></name><name><surname>Zhang</surname><given-names>X</given-names></name><name><surname>Liu</surname><given-names>L</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Oxidative stress induces DNA fragmentation and caspase activation via the c-Jun NH2-terminal kinase pathway in H9c2 cardiac muscle cells.</article-title>
+<source>J Mol Cell Cardiol</source>
+<volume>30</volume>
+<fpage>1789</fpage>
+<lpage>1801</lpage>
+<pub-id pub-id-type="pmid">9769235</pub-id></element-citation></ref><ref id="pone.0000029-Zhang1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>Y</given-names></name><name><surname>Huang</surname><given-names>Y</given-names></name><name><surname>Rishi</surname><given-names>AK</given-names></name><name><surname>Sheikh</surname><given-names>MS</given-names></name><name><surname>Shroot</surname><given-names>B</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Activation of the p38 and JNK/SAPK mitogen-activated protein kinase pathways during apoptosis is mediated by a novel retinoid.</article-title>
+<source>Exp Cell Res</source>
+<volume>247</volume>
+<fpage>233</fpage>
+<lpage>240</lpage>
+<pub-id pub-id-type="pmid">10047465</pub-id></element-citation></ref><ref id="pone.0000029-Lal1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lal</surname><given-names>MA</given-names></name><name><surname>Brismar</surname><given-names>H</given-names></name><name><surname>Eklof</surname><given-names>AC</given-names></name><name><surname>Aperia</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>Role of oxidative stress in advanced glycation end product-induced mesangial cell activation.</article-title>
+<source>Kidney Int</source>
+<volume>61</volume>
+<fpage>2006</fpage>
+<lpage>2014</lpage>
+<pub-id pub-id-type="pmid">12028441</pub-id></element-citation></ref><ref id="pone.0000029-Yeh1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yeh</surname><given-names>CH</given-names></name><name><surname>Sturgis</surname><given-names>L</given-names></name><name><surname>Haidacher</surname><given-names>J</given-names></name><name><surname>Zhang</surname><given-names>XN</given-names></name><name><surname>Sherwood</surname><given-names>SJ</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Requirement for p38 and p44/p42 mitogen-activated protein kinases in RAGE-mediated nuclear factor-kappaB transcriptional activation and cytokine secretion.</article-title>
+<source>Diabetes</source>
+<volume>50</volume>
+<fpage>1495</fpage>
+<lpage>1504</lpage>
+<pub-id pub-id-type="pmid">11375353</pub-id></element-citation></ref><ref id="pone.0000029-Abe1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abe</surname><given-names>H</given-names></name><name><surname>Matsubara</surname><given-names>T</given-names></name><name><surname>Iehara</surname><given-names>N</given-names></name><name><surname>Nagai</surname><given-names>K</given-names></name><name><surname>Takahashi</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Type IV collagen is transcriptionally regulated by Smad1 under advanced glycation end product (AGE) stimulation.</article-title>
+<source>J Biol Chem</source>
+<volume>279</volume>
+<fpage>14201</fpage>
+<lpage>14206</lpage>
+<pub-id pub-id-type="pmid">14732718</pub-id></element-citation></ref><ref id="pone.0000029-Heidland1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heidland</surname><given-names>A</given-names></name><name><surname>Sebekova</surname><given-names>K</given-names></name><name><surname>Schinzel</surname><given-names>R</given-names></name></person-group>
+<year>2001</year>
+<article-title>Advanced glycation end products and the progressive course of renal disease.</article-title>
+<source>Am J Kidney Dis</source>
+<volume>38</volume>
+<fpage>S100</fpage>
+<lpage>S106</lpage>
+<pub-id pub-id-type="pmid">11576932</pub-id></element-citation></ref><ref id="pone.0000029-Heijst1"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heijst</surname><given-names>JW</given-names></name><name><surname>Niessen</surname><given-names>HW</given-names></name><name><surname>Musters</surname><given-names>RJ</given-names></name><name><surname>Hinsbergh</surname><given-names>VW</given-names></name><name><surname>Hoekman</surname><given-names>K</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Argpyrimidine-modified Heat Shock Protein 27 in human non-small cell lung cancer: A possible mechanism for evasion of apoptosis.</article-title>
+<source>Cancer Lett</source>
+</element-citation></ref><ref id="pone.0000029-Yim1"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yim</surname><given-names>HS</given-names></name><name><surname>Kang</surname><given-names>SO</given-names></name><name><surname>Hah</surname><given-names>YC</given-names></name><name><surname>Chock</surname><given-names>PB</given-names></name><name><surname>Yim</surname><given-names>MB</given-names></name></person-group>
+<year>1995</year>
+<article-title>Free radicals generated during the glycation reaction of amino acids by methylglyoxal. A model study of protein-cross-linked free radicals.</article-title>
+<source>J Biol Chem</source>
+<volume>270</volume>
+<fpage>28228</fpage>
+<lpage>28233</lpage>
+<pub-id pub-id-type="pmid">7499318</pub-id></element-citation></ref><ref id="pone.0000029-Yim2"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yim</surname><given-names>MB</given-names></name><name><surname>Yim</surname><given-names>HS</given-names></name><name><surname>Lee</surname><given-names>C</given-names></name><name><surname>Kang</surname><given-names>SO</given-names></name><name><surname>Chock</surname><given-names>PB</given-names></name></person-group>
+<year>2001</year>
+<article-title>Protein glycation: creation of catalytic sites for free radical generation.</article-title>
+<source>Ann N Y Acad Sci</source>
+<volume>928</volume>
+<fpage>48</fpage>
+<lpage>53</lpage>
+<pub-id pub-id-type="pmid">11795527</pub-id></element-citation></ref><ref id="pone.0000029-Oya1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Oya</surname><given-names>T</given-names></name><name><surname>Hattori</surname><given-names>N</given-names></name><name><surname>Mizuno</surname><given-names>Y</given-names></name><name><surname>Miyata</surname><given-names>S</given-names></name><name><surname>Maeda</surname><given-names>S</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Methylglyoxal modification of protein. Chemical and immunochemical characterization of methylglyoxal-arginine adducts.</article-title>
+<source>J Biol Chem</source>
+<volume>274</volume>
+<fpage>18492</fpage>
+<lpage>18502</lpage>
+<pub-id pub-id-type="pmid">10373458</pub-id></element-citation></ref><ref id="pone.0000029-Du2"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Du</surname><given-names>J</given-names></name><name><surname>Suzuki</surname><given-names>H</given-names></name><name><surname>Nagase</surname><given-names>F</given-names></name><name><surname>Akhand</surname><given-names>AA</given-names></name><name><surname>Ma</surname><given-names>XY</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Superoxide-mediated early oxidation and activation of ASK1 are important for initiating methylglyoxal-induced apoptosis process.</article-title>
+<source>Free Radic Biol Med</source>
+<volume>31</volume>
+<fpage>469</fpage>
+<lpage>478</lpage>
+<pub-id pub-id-type="pmid">11498280</pub-id></element-citation></ref><ref id="pone.0000029-Chiu1"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chiu</surname><given-names>BC</given-names></name><name><surname>Shang</surname><given-names>X</given-names></name><name><surname>Frait</surname><given-names>KA</given-names></name><name><surname>Hu</surname><given-names>JS</given-names></name><name><surname>Komuniecki</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Differential effects of ageing on cytokine and chemokine responses during type-1 (mycobacterial) and type-2 (schistosomal) pulmonary granulomatous inflammation in mice.</article-title>
+<source>Mech Ageing Dev</source>
+<volume>123</volume>
+<fpage>313</fpage>
+<lpage>326</lpage>
+<pub-id pub-id-type="pmid">11744043</pub-id></element-citation></ref><ref id="pone.0000029-Kaufmann3"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaufmann</surname><given-names>SH</given-names></name></person-group>
+<year>2002</year>
+<article-title>Protection against tuberculosis: cytokines, T cells, and macrophages.</article-title>
+<source>Ann Rheum Dis</source>
+<volume>61</volume>
+<issue>Suppl 2</issue>
+<fpage>ii54</fpage>
+<lpage>ii58</lpage>
+<pub-id pub-id-type="pmid">12379623</pub-id></element-citation></ref><ref id="pone.0000029-Kaneko1"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaneko</surname><given-names>H</given-names></name><name><surname>Yamada</surname><given-names>H</given-names></name><name><surname>Mizuno</surname><given-names>S</given-names></name><name><surname>Udagawa</surname><given-names>T</given-names></name><name><surname>Kazumi</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Role of tumor necrosis factor-alpha in Mycobacterium-induced granuloma formation in tumor necrosis factor-alpha-deficient mice.</article-title>
+<source>Lab Invest</source>
+<volume>79</volume>
+<fpage>379</fpage>
+<lpage>386</lpage>
+<pub-id pub-id-type="pmid">10211990</pub-id></element-citation></ref><ref id="pone.0000029-Law1"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Law</surname><given-names>K</given-names></name><name><surname>Weiden</surname><given-names>M</given-names></name><name><surname>Harkin</surname><given-names>T</given-names></name><name><surname>Tchou-Wong</surname><given-names>K</given-names></name><name><surname>Chi</surname><given-names>C</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>Increased release of interleukin-1 beta, interleukin-6, and tumor necrosis factor-alpha by bronchoalveolar cells lavaged from involved sites in pulmonary tuberculosis.</article-title>
+<source>Am J Respir Crit Care Med</source>
+<volume>153</volume>
+<fpage>799</fpage>
+<lpage>804</lpage>
+<pub-id pub-id-type="pmid">8564135</pub-id></element-citation></ref><ref id="pone.0000029-Zhang2"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>Y</given-names></name></person-group>
+<year>2004</year>
+<article-title>Persistent and dormant tubercle bacilli and latent tuberculosis.</article-title>
+<source>Front Biosci</source>
+<volume>9</volume>
+<fpage>1136</fpage>
+<lpage>1156</lpage>
+<pub-id pub-id-type="pmid">14977534</pub-id></element-citation></ref><ref id="pone.0000029-Kalapos1"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kalapos</surname><given-names>MP</given-names></name></person-group>
+<year>1999</year>
+<article-title>Methylglyoxal in living organisms: chemistry, biochemistry, toxicology and biological implications.</article-title>
+<source>Toxicol Lett</source>
+<volume>110</volume>
+<fpage>145</fpage>
+<lpage>175</lpage>
+<pub-id pub-id-type="pmid">10597025</pub-id></element-citation></ref><ref id="pone.0000029-Kalapos2"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kalapos</surname><given-names>MP</given-names></name></person-group>
+<year>1999</year>
+<article-title>On the promine/retine theory of cell division: now and then.</article-title>
+<source>Biochim Biophys Acta</source>
+<volume>1426</volume>
+<fpage>1</fpage>
+<lpage>16</lpage>
+<pub-id pub-id-type="pmid">9878674</pub-id></element-citation></ref><ref id="pone.0000029-Ulrichs1"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ulrichs</surname><given-names>T</given-names></name><name><surname>Lefmann</surname><given-names>M</given-names></name><name><surname>Reich</surname><given-names>M</given-names></name><name><surname>Morawietz</surname><given-names>L</given-names></name><name><surname>Roth</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Modified immunohistological staining allows detection of Ziehl-Neelsen-negative Mycobacterium tuberculosis organisms and their precise localization in human tissue.</article-title>
+<source>J Pathol</source>
+<volume>205</volume>
+<fpage>633</fpage>
+<lpage>640</lpage>
+<pub-id pub-id-type="pmid">15776475</pub-id></element-citation></ref></ref-list></back></article>

@@ -1,0 +1,195 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183637</article-id><article-id pub-id-type="pmc">1762307</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00083R1</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000011</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Public Health and Epidemiology</subject></subj-group></article-categories><title-group><article-title>A Comparative Study on the Cost of New Antibiotics and Drugs of Other Therapeutic Categories</article-title><alt-title alt-title-type="running-head">Cost of New Drugs</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Falagas</surname><given-names>Matthew E.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Fragoulis</surname><given-names>Konstantinos N.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Karydis</surname><given-names>Ioannis</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution>Alfa Institute of Biomedical Sciences</institution>
+<addr-line>Athens, Greece</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>Department of Medicine, &#x0201c;Henry Dunant&#x0201d; Hospital</institution>
+<addr-line>Athens, Greece</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<institution>Department of Medicine, Tufts University School of Medicine, Boston</institution>
+<addr-line>Massachusetts, United States of America</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Baune</surname><given-names>Bernhard</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">James Cook University, Australia</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>matthew.falagas@tufts.edu</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: MF. Analyzed the data: MF KF IK. Wrote the paper: MF IK. Other: Collected data. KF</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e11</elocation-id><history><date date-type="received"><day>28</day><month>8</month><year>2006</year></date><date date-type="accepted"><day>14</day><month>9</month><year>2006</year></date></history><permissions><copyright-statement>Falagas et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><sec><title>Background</title><p>Drug treatment is becoming more expensive due to the increased cost for the introduction of new drugs, and there seems to be an uneven distribution of medication cost for different therapeutic categories. We hypothesized that the cost of new antimicrobial agents may differ from that of other therapeutic categories and this may play a role in the stagnation of development of new antibiotics.</p></sec><sec><title>Methodology/Principal Findings</title><p>We performed a pharmaco-economical comparative analysis of the drug cost of treatment for new agents introduced in the United States drug market in various therapeutic categories. We calculated the drug cost (in US dollars) of a ten-day treatment of all new drugs approved by the FDA during the period between January 1997 and July 2003, according to the 2004 Red Book Pharmacy's Fundamental Reference. New anti-neoplastic agents were found to be the most expensive drugs in comparison to all other therapeutic categories, with a median ten-day drug-treatment cost of US$848 compared to the median ten-day drug-treatment costs of all other categories ranging from US$29 to US$301. On the other hand, new antimicrobial drugs were found to be much less expensive, with a median ten-day drug-treatment cost of US$137 and $US85 for all anti-microbial agents and for anti-microbial agents excluding anti-HIV medications, respectively.</p></sec><sec><title>Conclusions/Significance</title><p>The drug-treatment cost of new medications varies considerably by different therapeutic categories. This fact may influence industry decisions regarding the development of new drugs and may play a role in the shortage of new antimicrobial agents in the fight against the serious problem of antimicrobial resistance.</p></sec></abstract><counts><page-count count="4"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>The investment of societies around the world on biomedical research leads to important developments including the continuous discovery of new pharmaceutical compounds. It is not clear, however, whether newly developed and approved drugs cover all therapeutic areas in a relatively uniform manner. Different reasons might be postulated with respect to the driving forces of drug development <xref rid="pone.0000011-DiMasi1" ref-type="bibr">[1]</xref>.</p><p>Some may argue that more drugs are being developed in areas where the benefits to the society are maximized whereas others may claim that the direction is led to where the economic incentive for the pharmaceutical industry is higher <xref rid="pone.0000011-DiMasi2" ref-type="bibr">[2]</xref>&#x02013;<xref rid="pone.0000011-DiMasi3" ref-type="bibr">[5]</xref>. A third reason may be a mounting social pressure from rising prevalence and incidence of certain health problems. Other reasons, which may influence drug development, may include the failure of current medications to solve existing health problems or the identification of new diseases such as the highlighted example of AIDS. The problem of new drugs&#x02013;usually more expensive - substituting for older ones with similar chemical structure, which are loosing patent privileges, is thought to be one of the factors contributing to the increasing annual drug expenditure around the world.</p><p>The problem of shortage of new anti-microbial agents has been well described in the medical literature <xref rid="pone.0000011-Shah1" ref-type="bibr">[6]</xref>. This disturbing fact is occurring despite the gradually increasing prevalence of microbial resistance to existing antibiotics in various parts of the word <xref rid="pone.0000011-Falagas1" ref-type="bibr">[7]</xref>&#x02013;<xref rid="pone.0000011-Falagas2" ref-type="bibr">[9]</xref>. A significant reduction (56&#x00025;) of new approvals of antibacterial agents occurred during the period 1998&#x02013;2002 compared to the period 1983&#x02013;1987. In addition, the fact that only 6 out of 506 drugs disclosed in the development programs of the largest pharmaceutical and biotechnology companies are antibacterial agents is really distressing <xref rid="pone.0000011-Spellberg1" ref-type="bibr">[10]</xref>.</p><p>We hypothesized that the cost of new antimicrobial agents compared to new medications in other therapeutic areas may be a reason that plays a significant role in the relatively stagnated market of new anti-microbial agents, especially for non-HIV infectious diseases. Thus, we performed a pharmaco-economical study in order to analyze the cost of newly approved drugs and compare the overall treatment cost for new drugs between different therapeutic categories.</p></sec><sec id="s2"><title>Methods</title><p>For the purpose of our study we analyzed data regarding original new drugs applications approved by the U.S. Food and Drug Administration (FDA) from January 1997 to July 2003. The data were obtained from the FDA website <xref rid="pone.0000011-www.fda.gov1" ref-type="bibr">[11]</xref>. Based on the FDA definition of original new drugs, compounds that have the same chemical structure with an already approved medication are not considered new drugs.</p><p>In order to conduct our analysis, we classified each new drug in one of sixteen main therapeutic categories. However, four therapeutic categories were excluded from further analysis because of the small number of new drugs developed in each category. The excluded categories were: contrast agents [including 3 new drugs (Tc-99m depreotide, Tc-99m apcitide, and human albumin microspheres)], antidotes [including 1 new drug (fomepizole)], ear, nose and throat drugs [including 1 new drug (cevimeline)], and anesthesiology drugs (there was no new medication in this category during the study period). In addition, urea C-14 was not included in the gastrointestinal category since it is used exclusively for diagnostic purposes.</p><p>The cost of each new drug was determined using the Average Wholesale Price found in the Red Book Pharmacy's Fundamental Reference, 2004 edition <xref rid="pone.0000011-Red1" ref-type="bibr">[12]</xref>. In order to compare the treatment cost of new drugs for different therapeutic categories, we made several assumptions. First, we calculated the cost of a ten-day drug-treatment for each new drug. For drugs that are used for a shorter period than ten days, we defined as &#x0201c;ten-day drug-treatment cost&#x0201d;, the price of the drug formulation with the fewer possible units of the medication required for each patient. We then calculated the median, mean, and the range of the ten-day drug-treatment cost of new drugs in the defined therapeutic categories.</p></sec><sec id="s3"><title>Results</title><p>One hundred and twenty-nine new drugs were approved by the FDA during the study period (January 1997 to July 2003). In <xref ref-type="table" rid="pone-0000011-t001">Table 1</xref> we present 124 new drugs approved, classified in 12 therapeutic categories that we analyzed further. In <xref ref-type="table" rid="pone-0000011-t002">Table 2</xref> we present the number of new drugs by therapeutic category as well as summary data on the drug cost of a ten-day treatment. All drug prices were presented in 2004 U.S. dollars (USD).</p><table-wrap id="pone-0000011-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000011.t001</object-id><label>Table 1</label><caption><title>Original new drugs in different therapeutic categories by chronological order of approval from the FDA (January 1997&#x02013;July 2003).</title></caption><graphic xlink:href="pone.0000011.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/></colgroup><tbody><tr><td align="left" rowspan="1" colspan="1">
+<bold>Anemia, Water, Electrolytes</bold>
+</td><td align="left" rowspan="1" colspan="1">Zoledronic acid, sevelamer, iron sucrose, ferric sodium gluconate, anagrelide</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Antineoplastic, Immunosuppressive</bold>
+</td><td align="left" rowspan="1" colspan="1">Imatinib, triptorelin, sirolimus, arsenic trioxide, busulfan, temozolomide, epirubicin, exemestane, bexarotene, capecitabine, valrubicin, toremifene, letrozole</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Cardiovascular</bold>
+</td><td align="left" rowspan="1" colspan="1">Perflutren lipid microsphere, nesiritide, fondaparinux, tinzaparin, telmisartan, bivalirudin, cilostazol, dofetilide, lepirudin, eptifibatide, tirofiban, candesartan, irbesartan, fenoldopam, clopidrogel, eprosartan</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Central Nervous System</bold>
+</td><td align="left" rowspan="1" colspan="1">Galantamine, zolmitriptan, ziprasidone, oxcarbazepine, almotriptan, dexmethylphenidate, frovatriptan, sodium oxybate, zonisamide, rivastigmine, rizatriptan, zaleplon, entacapone, levetriacetam, citalopram, toclapone, naratriptan, modafinil, pramipexole, tiagabine, quetiapine, ropinirole, sibutramine</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Endocrinology</bold>
+</td><td align="left" rowspan="1" colspan="1">Insulin aspart recombinant, insulin glargine, doxercalciferol, follitropin Alpha/Beta, paracalcitol, repaglinide</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Gastrointestinal</bold>
+</td><td align="left" rowspan="1" colspan="1">Esomeprazole, pantoprazole, secretin porcine synthetic, tegaserod, alosetron, balsalazide, orlistat</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Gynecology, Urology</bold>
+</td><td align="left" rowspan="1" colspan="1">Drospirenone, ethinyl estradiol, etonogestrel/ethinyl estradiol, dutasteride, cetrorelix, tolterodine, ganirelix, sildenafil, imiquimod, tamsulosin, raloxifene</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Infectious Diseases</bold>
+</td><td align="left" rowspan="1" colspan="1">Valganciclovir, cefditoren, tenofovir, moxifloxacin, lopinavir/ritonavir, efavirenz, voriconazole, doconasol, abanavir/lamivudine/zidovudine, ritonavir, zanamivir, dalfopristin/quinopristin, oseltamivir, gatifloxacin, rifapentine, nelfinavir, delavirdine, lamivudine/zidovudine</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Musculoskeletal</bold>
+</td><td align="left" rowspan="1" colspan="1">Molexicam, rofecoxib, celecoxib, leflunomide, tiludronate</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Ophthalmology</bold>
+</td><td align="left" rowspan="1" colspan="1">Verteporfin, unoprostone, ketotifen, pemirolast, loteprendol, brinzolamide, fomivirsen, emedastine</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Respiratory and Allergy</bold>
+</td><td align="left" rowspan="1" colspan="1">Formoterol, desloratadine, levalbuterol, treprostinil, montelukast, guaifenesin, poroctant alpha, nitric oxide</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Skin diseases</bold>
+</td><td align="left" rowspan="1" colspan="1">Piperonyl, mequinol/tretinoin, aminolevulinic acid, tazarotene</td></tr></tbody></table></table-wrap><table-wrap id="pone-0000011-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000011.t002</object-id><label>Table 2</label><caption><title>Number of original new drugs and ten-day treatment cost of different therapeutic categories (in USD - 2004).</title></caption><graphic xlink:href="pone.0000011.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Therapeutic category</td><td align="left" rowspan="1" colspan="1">Number of new drugs</td><td colspan="3" align="left" rowspan="1">
+<italic>Ten-day treatment cost (in USD)</italic>
+</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>median</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>mean</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>range</italic>
+</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<bold>Antineoplastic</bold>
+</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">848</td><td align="left" rowspan="1" colspan="1">1,455</td><td align="left" rowspan="1" colspan="1">41&#x02013;4,182</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Respiratory/Allergy</bold>
+</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">301</td><td align="left" rowspan="1" colspan="1">264</td><td align="left" rowspan="1" colspan="1">7&#x02013;1,300</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Cardiovascular</bold>
+</td><td align="left" rowspan="1" colspan="1">16</td><td align="left" rowspan="1" colspan="1">184</td><td align="left" rowspan="1" colspan="1">969</td><td align="left" rowspan="1" colspan="1">14&#x02013;7,912</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Anemia/Water/Electrolytes</bold>
+</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">138</td><td align="left" rowspan="1" colspan="1">294</td><td align="left" rowspan="1" colspan="1">43&#x02013;959</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Infectious diseases</bold>
+</td><td align="left" rowspan="1" colspan="1">18</td><td align="left" rowspan="1" colspan="1">137</td><td align="left" rowspan="1" colspan="1">468</td><td align="left" rowspan="1" colspan="1">14&#x02013;3,682</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Endocrinology</bold>
+</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">129</td><td align="left" rowspan="1" colspan="1">547</td><td align="left" rowspan="1" colspan="1">11&#x02013;1,685</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Skin diseases</bold>
+</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">120</td><td align="left" rowspan="1" colspan="1">102</td><td align="left" rowspan="1" colspan="1">12&#x02013;158</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Gastrointestinal</bold>
+</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">65</td><td align="left" rowspan="1" colspan="1">113</td><td align="left" rowspan="1" colspan="1">43&#x02013;390</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Ophthalmology</bold>
+</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">51</td><td align="left" rowspan="1" colspan="1">334</td><td align="left" rowspan="1" colspan="1">32&#x02013;1,687</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Central nervous system</bold>
+</td><td align="left" rowspan="1" colspan="1">23</td><td align="left" rowspan="1" colspan="1">50</td><td align="left" rowspan="1" colspan="1">64</td><td align="left" rowspan="1" colspan="1">9&#x02013;180</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Gynecology/Urology</bold>
+</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">38</td><td align="left" rowspan="1" colspan="1">106</td><td align="left" rowspan="1" colspan="1">12&#x02013;532</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Musculoskeletal</bold>
+</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">29</td><td align="left" rowspan="1" colspan="1">81</td><td align="left" rowspan="1" colspan="1">23&#x02013;202</td></tr></tbody></table></table-wrap><p>The categories with the most expensive new medications were the antineoplastic and immunosuppressive agents, the drugs for the respiratory tract, and the cardiovascular medications. The median, mean, and range of the drug cost of a ten-day treatment with new anti-neoplastic agents were 848, 1,455, and 41&#x02013;4,182 USD respectively. The corresponding numbers for the drug cost of treatment with new agents involving the respiratory system were 301, 264 and 7&#x02013;1300 USD, for cardiovascular new agents 184, 969 and 14&#x02013;7,912 USD, and for new anti-infectious agents 137, 468 and 14&#x02013;3,682 USD. The median, mean, and range of the drug cost of a ten-day treatment with new agents used for the management of the HIV infection were 178, 302, and 105&#x02013;1,080 USD respectively; the corresponding numbers for non-HIV antimicrobial agents were 85, 600, and 14&#x02013;3,682 USD.</p></sec><sec id="s4"><title>Discussion</title><p>We studied the drug cost of the treatment of new agents to examine whether there are any important differences between the various therapeutic categories. It is interesting that the cost of treatment of new antineoplastic and immunosuppressive drugs is, by far, the highest compared to all other therapeutic categories. The drug-treatment cost of agents from the respiratory system and cardiovascular system category followed the anti-neoplastic agents category. The high drug cost, combined with the long duration of diseases for which most of these agents are prescribed, may explain the huge sales revenues from these drugs.</p><p>The median drug cost of a ten-day treatment of an antineoplastic agent was actually more than 6 times higher than the respective value in the category of antimicrobial agents; the difference is even more pronounced if someone excludes from the category of new antimicrobials, the drugs for the management of HIV infection. In fact, anti-neoplastic agents are given in prolonged cycles of chemotherapy and it is, therefore, reasonable to assume that our analysis actually underestimated the true drug cost of treatment for anti-neoplastic agents.</p><p>Although, we did not make an attempt to study the differences in the cost of pre-marketing development of new drugs in different therapeutic categories, we postulate that the observed differences in drug-treatment cost, and subsequently the drug sales revenue, may play a role in the decision making process for the introduction of new drugs. It may also be one of the factors that has led to a relative shortage of new antibiotics. It should be emphasized that the pre-marketing cost of development of new chemical entities has been found to be higher for anti-infective agents compared to several other categories of drugs, including cardiovascular and neuro-pharmacological agents <xref rid="pone.0000011-DiMasi1" ref-type="bibr">[1]</xref>.</p><p>Our study has several limitations. First, we had to measure the drug cost of a defined period of treatment (ten-day treatment) in order to provide some comparative estimates of treatment cost with new drugs in different therapeutic categories. The selection of any time period (e.g. one-day, one-week, one-month, etc) for our comparative analysis would have its own advantages and disadvantages given that the duration of treatment differs considerably for the numerous acute, sub-acute, and chronic diseases. Second, we calculated only the drug-treatment cost without taking into consideration other important factors that influence the cost of medical care, including cost related to the administration of parenteral medications. Third, we did not take into account data about the effectiveness and safety of new drugs in order to perform a comparative assessment of the cost-effectiveness of new agents in different therapeutic categories.</p><p>In addition, we did not examine the reasons for the considerable differences in the drug-treatment cost of with newly approved agents. Several factors may contribute to the observed differences in the cost; including the cost of development, production, and introduction of new drugs into the clinical practice <xref rid="pone.0000011-Emanuel1" ref-type="bibr">[13]</xref>. Specifically, the cost of the infrastructure necessary for the development of new drugs may differ for different therapeutic categories. Furthermore, the cost of clinical trials, required for the approval of new drugs, may be also be different for the various therapeutic categories <xref rid="pone.0000011-Kelloff1" ref-type="bibr">[14]</xref>, <xref rid="pone.0000011-Levy1" ref-type="bibr">[15]</xref>. For example, a longer follow up period of observation is necessary for the determination of the outcome in clinical trials studying anti-neoplastic compared to antibacterial agents. Moreover, differences in the failure rate of new drugs to successfully complete phases I to IV of clinical trials, may contribute to the increased cost of production of new anti-neoplastic and immunosuppressive drugs.</p><p>In conclusion, we found considerable differences in the drug-treatment cost of new medications between the various therapeutic categories. It is interesting to note that new drugs used for the treatment of infections are less expensive, especially if one excludes new agents for the management of HIV infection. It should be appreciated that the number of new antimicrobial drugs is actually quite high despite relatively low ten-day cost. However, this high number is obviously not sufficient in light of the prevalence/incidence of infectious diseases and the antimicrobial resistance. Additional comparative pharmaco-economical studies are needed to address the question whether new drugs provide good value for their cost. There is also a need to further explore the differences in the cost of new agents and the role they play in the relative stagnation in the development of new antibiotics, in an era when they are urgently needed because of the pandemic of antimicrobial resistance.</p></sec></body><back><ack><p>MEF had full access to all of the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>No funding was received.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000011-DiMasi1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>DiMasi</surname><given-names>JA</given-names></name><name><surname>Caglarcan</surname><given-names>E</given-names></name><name><surname>Wood-Armany</surname><given-names>M</given-names></name></person-group>
+<year>2001</year>
+<article-title>Emerging role of pharmacoeconomics in the research and development decision-making process.</article-title>
+<source>Pharmacoeconomics</source>
+<volume>19</volume>
+<fpage>753</fpage>
+<lpage>766</lpage>
+<pub-id pub-id-type="pmid">11548911</pub-id></element-citation></ref><ref id="pone.0000011-DiMasi2"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>DiMasi</surname><given-names>JA</given-names></name><name><surname>Hansen</surname><given-names>RW</given-names></name><name><surname>Grabowski</surname><given-names>HG</given-names></name><name><surname>Lasagna</surname><given-names>L</given-names></name></person-group>
+<year>1995</year>
+<article-title>Research and development costs for new drugs by therapeutic category. A study of the US pharmaceutical industry.</article-title>
+<source>Pharmacoeconomics</source>
+<volume>7</volume>
+<fpage>152</fpage>
+<lpage>169</lpage>
+<pub-id pub-id-type="pmid">10155302</pub-id></element-citation></ref><ref id="pone.0000011-Mehl1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mehl</surname><given-names>B</given-names></name><name><surname>Santell</surname><given-names>J</given-names></name></person-group>
+<year>2001</year>
+<article-title>Projecting future drug expenditures.</article-title>
+<source>Am J Health Syst Pharm</source>
+<volume>58</volume>
+<fpage>125</fpage>
+<lpage>33</lpage>
+<pub-id pub-id-type="pmid">11202535</pub-id></element-citation></ref><ref id="pone.0000011-Letizia1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Letizia</surname><given-names>C</given-names></name></person-group>
+<year>1995</year>
+<article-title>Pharmacoeconomics: an emerging discipline.</article-title>
+<source>Qual Assur</source>
+<volume>4</volume>
+<fpage>68</fpage>
+<lpage>74</lpage>
+<pub-id pub-id-type="pmid">8520866</pub-id></element-citation></ref><ref id="pone.0000011-DiMasi3"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>DiMasi</surname><given-names>JA</given-names></name><name><surname>Hansen</surname><given-names>RW</given-names></name><name><surname>Grabowski</surname><given-names>HG</given-names></name></person-group>
+<year>2003</year>
+<article-title>The price of innovation: new estimates of drug development costs.</article-title>
+<source>J Health Econ</source>
+<volume>22</volume>
+<fpage>151</fpage>
+<lpage>85</lpage>
+<pub-id pub-id-type="pmid">12606142</pub-id></element-citation></ref><ref id="pone.0000011-Shah1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shah</surname><given-names>PM</given-names></name></person-group>
+<year>2005</year>
+<article-title>The need for new therapeutic agents: what is the pipeline?</article-title>
+<source>Clin Microbiol Infect</source>
+<volume>11</volume>
+<issue>Suppl 3</issue>
+<fpage>36</fpage>
+<lpage>42</lpage>
+</element-citation></ref><ref id="pone.0000011-Falagas1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Falagas</surname><given-names>ME</given-names></name><name><surname>Kasiakou</surname><given-names>SK</given-names></name><name><surname>Nikita</surname><given-names>D</given-names></name><name><surname>Morfou</surname><given-names>P</given-names></name><name><surname>Georgoulias</surname><given-names>G</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Secular trends of antimicrobial resistance of blood isolates in a newly founded Greek hospital.</article-title>
+<source>BMC Infect Dis</source>
+<volume>6</volume>
+<fpage>99</fpage>
+<pub-id pub-id-type="pmid">16776825</pub-id></element-citation></ref><ref id="pone.0000011-Tablot1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tablot</surname><given-names>GH</given-names></name><name><surname>Bradley</surname><given-names>J</given-names></name><name><surname>Edwards</surname><given-names>JE</given-names><suffix>Jr</suffix></name><name><surname>Gilbert</surname><given-names>D</given-names></name><name><surname>Scheld</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Bad bugs need drugs: an update on the development pipeline from the Antimicrobial Availability Task Force of the Infectious Disease Society of America.</article-title>
+<source>Clin Infect Dis</source>
+<volume>42</volume>
+<fpage>657</fpage>
+<lpage>68</lpage>
+<pub-id pub-id-type="pmid">16447111</pub-id></element-citation></ref><ref id="pone.0000011-Falagas2"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Falagas</surname><given-names>ME</given-names></name><name><surname>Karveli</surname><given-names>EA</given-names></name></person-group>
+<year>2006</year>
+<article-title>World Wide Web resources on antimicrobial resistance.</article-title>
+<source>Clin Infect Dis</source>
+<volume>43</volume>
+<fpage>630</fpage>
+<lpage>3</lpage>
+<pub-id pub-id-type="pmid">16886158</pub-id></element-citation></ref><ref id="pone.0000011-Spellberg1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Spellberg</surname><given-names>B</given-names></name><name><surname>Powers</surname><given-names>JH</given-names></name><name><surname>Brass</surname><given-names>EP</given-names></name><name><surname>Miller</surname><given-names>LG</given-names></name><name><surname>Edwards</surname><given-names>JE</given-names><suffix>Jr</suffix></name></person-group>
+<year>2004</year>
+<article-title>Trends in antimicrobial drug development: implications for the future.</article-title>
+<source>Clin Infect Dis</source>
+<volume>38</volume>
+<fpage>1279</fpage>
+<lpage>86</lpage>
+<pub-id pub-id-type="pmid">15127341</pub-id></element-citation></ref><ref id="pone.0000011-www.fda.gov1"><label>11</label><mixed-citation publication-type="book">
+<comment><ext-link ext-link-type="uri" xlink:href="http://www.fda.gov">www.fda.gov</ext-link> (accessed on 05/20/2005)</comment>
+</mixed-citation></ref><ref id="pone.0000011-Red1"><label>12</label><element-citation publication-type="book">
+<collab>Red Book Pharmacy's Fundamental Reference</collab>
+<year>2004</year>
+<publisher-loc>Thomson, Montvale</publisher-loc>
+<publisher-name>New Jersey</publisher-name>
+</element-citation></ref><ref id="pone.0000011-Emanuel1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Emanuel</surname><given-names>EJ</given-names></name><name><surname>Scnipper</surname><given-names>LE</given-names></name><name><surname>Kamin</surname><given-names>DY</given-names></name><name><surname>Levinson</surname><given-names>J</given-names></name><name><surname>Lichter</surname><given-names>AS</given-names></name></person-group>
+<year>2003</year>
+<article-title>The costs of conducting clinical research.</article-title>
+<source>J Clin Oncol</source>
+<volume>21</volume>
+<fpage>4145</fpage>
+<lpage>4150</lpage>
+<pub-id pub-id-type="pmid">14559889</pub-id></element-citation></ref><ref id="pone.0000011-Kelloff1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kelloff</surname><given-names>GJ</given-names></name><name><surname>Sigma</surname><given-names>CC</given-names></name></person-group>
+<year>2005</year>
+<article-title>New science-based endpoints to accelerate oncology drug development.</article-title>
+<source>Eur J Cancer</source>
+<volume>41</volume>
+<fpage>491</fpage>
+<lpage>501</lpage>
+<pub-id pub-id-type="pmid">15737552</pub-id></element-citation></ref><ref id="pone.0000011-Levy1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Levy</surname><given-names>C</given-names></name><name><surname>Bonastre</surname><given-names>J</given-names></name></person-group>
+<year>2003</year>
+<article-title>The cost of chemotherapy.</article-title>
+<source>Bull Cancer</source>
+<volume>90</volume>
+<fpage>976</fpage>
+<lpage>982</lpage>
+<pub-id pub-id-type="pmid">14706901</pub-id></element-citation></ref></ref-list></back></article>

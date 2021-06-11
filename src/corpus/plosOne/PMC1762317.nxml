@@ -1,0 +1,462 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17183675</article-id><article-id pub-id-type="pmc">1762317</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00112R1</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000046</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Molecular Biology/Chromatin Structure</subject><subject>Molecular Biology/DNA Methylation</subject><subject>Molecular Biology/Histone Modification</subject></subj-group></article-categories><title-group><article-title>Fine Tuning of Globin Gene Expression by DNA Methylation</article-title><alt-title alt-title-type="running-head">Fine Tuning by DNA Methylation</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Goren</surname><given-names>Alon</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Simchen</surname><given-names>Giora</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Fibach</surname><given-names>Eitan</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Szabo</surname><given-names>Piroska E.</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Tanimoto</surname><given-names>Keiji</given-names></name><xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Chakalova</surname><given-names>Lyubomira</given-names></name><xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Pfeifer</surname><given-names>Gerd P.</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Fraser</surname><given-names>Peter J.</given-names></name><xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Engel</surname><given-names>James D.</given-names></name><xref ref-type="aff" rid="aff7">
+<sup>7</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Cedar</surname><given-names>Howard</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution>Department of Cellular Biochemistry and Human Genetics, Hebrew University</institution>
+<addr-line>Jerusalem, Israel</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>Department of Genetics, Hebrew University</institution>
+<addr-line>Jerusalem, Israel</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<institution>Department of Hematology, Hebrew University</institution>
+<addr-line>Jerusalem, Israel</addr-line>
+</aff><aff id="aff4">
+<label>4</label>
+<institution>Division of Biology, Beckman Research Institute of the City of Hope</institution>
+<addr-line>Duarte, California, United States of America</addr-line>
+</aff><aff id="aff5">
+<label>5</label>
+<institution>Graduate School of Life and Environmental Sciences, University of Tsukuba</institution>
+<addr-line>Tsukuba, Japan</addr-line>
+</aff><aff id="aff6">
+<label>6</label>
+<institution>Laboratory of Chromatin and Gene Expression, The Babraham Institute</institution>
+<addr-line>Cambridge, United Kingdom</addr-line>
+</aff><aff id="aff7">
+<label>7</label>
+<institution>Department of Cell and Developmental Biology, University of Michigan Medical School, Ann Arbor</institution>
+<addr-line>Michigan, United States of America</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Imhof</surname><given-names>Axel</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">University of Munich, Germany</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>cedar@md.huji.ac.il</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: HC AG. Performed the experiments: AG PS. Analyzed the data: AG PS. Contributed reagents/materials/analysis tools: JE PF GS JE EF PS KT LC GP. Wrote the paper: HC AG.</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e46</elocation-id><history><date date-type="received"><day>11</day><month>9</month><year>2006</year></date><date date-type="accepted"><day>13</day><month>10</month><year>2006</year></date></history><permissions><copyright-statement>Goren et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Expression patterns in the globin gene cluster are subject to developmental regulation in vivo. While the &#x003b3;<sup>A</sup> and &#x003b3;<sup>G</sup> genes are expressed in fetal liver, both are silenced in adult erythrocytes. In order to decipher the role of DNA methylation in this process, we generated a YAC transgenic mouse system that allowed us to control &#x003b3;<sup>A</sup> methylation during development. DNA methylation causes a 20-fold repression of &#x003b3;<sup>A</sup> both in non-erythroid and adult erythroid cells. In erythroid cells this modification works as a dominant mechanism to repress &#x003b3; gene expression, probably through changes in histone acetylation that prevent the binding of erythroid transcription factors to the promoter. These studies demonstrate that DNA methylation serves as an elegant in vivo fine-tuning device for selecting appropriate genes in the globin locus. In addition, our findings provide a mechanism for understanding the high levels of &#x003b3;-globin transcription seen in patients with Hereditary Persistence of Fetal Hemoglobin, and help explain why 5azaC and butyrate compounds stimulate &#x003b3;-globin expression in patients with &#x003b2;-hemoglobinopathies.</p></abstract><counts><page-count count="8"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Genome wide DNA methylation is set up during early development and then maintained in a semi-conservative manner through every cell division <xref rid="pone.0000046-Brandeis1" ref-type="bibr">[1]</xref>. The presence of methyl groups apparently serves as a molecular signal that can direct the packaging of DNA into a closed inaccessible chromatin conformation <xref rid="pone.0000046-Keshet1" ref-type="bibr">[2]</xref> and bring about the local deacetylation of histones H3 and H4 <xref rid="pone.0000046-Hashimshony1" ref-type="bibr">[3]</xref>. Because of these observations, it has been postulated that methylation may serve as a global mechanism for repression of basal transcription <xref rid="pone.0000046-Bird1" ref-type="bibr">[4]</xref>. In keeping with this organization, many tissue specific genes are found methylated in almost all cell types of the organism, but undergo developmentally regulated demethylation in their cell type of expression <xref rid="pone.0000046-Yeivin1" ref-type="bibr">[5]</xref>. Little is known about the role of DNA methylation in this differentiation process.</p><p>A good system for studying gene specific methylation is the human &#x003b2;-globin locus on chromosome 11 which is composed of five different &#x003b2;-type genes that are expressed in a regulated manner during development <xref rid="pone.0000046-Fu1" ref-type="bibr">[6]</xref>. In non-erythroid cells, the entire locus replicates late in S phase <xref rid="pone.0000046-Dhar1" ref-type="bibr">[7]</xref>&#x02013;<xref rid="pone.0000046-Epner1" ref-type="bibr">[9]</xref> and is packaged into a closed DNaseI-insensitive chromatin conformation, where all of the individual genes are methylated. In contrast, during erythroid cell specific differentiation, the full locus undergoes an &#x0201c;opening&#x0201d; process, becoming early replicating and generally DNaseI sensitive <xref rid="pone.0000046-Forrester1" ref-type="bibr">[10]</xref>, but only specific genes undergo demethylation and actually become transcriptionally active. Thus, for example, &#x003b3;-globin genes are preferentially active in the fetal liver, while mainly the &#x003b2; gene is active in adult erythroid cells where both &#x003b3;<sup>A</sup> and &#x003b3;<sup>G</sup> remain methylated <xref rid="pone.0000046-vanderPloeg1" ref-type="bibr">[11]</xref> and silenced in a process that appears to be mediated by MBD2 <xref rid="pone.0000046-Rupon1" ref-type="bibr">[12]</xref>.</p><p>Using a genetic approach in transgenic mice we demonstrate that DNA methylation plays a local role in preventing the activation of &#x003b3; globin in adult erythroid cells, and this effect is mediated by histone deacetylation and the prevention of factor binding. These findings provide a strong experimental basis for approaches aimed at inducing &#x003b3; expression in cases of &#x003b2;-Thalassemia through treatments that bring about DNA demethylation or histone acetylation. Our results also suggest that demethylation may be an obligatory step in the molecular mechanisms that bring about the abnormal expression of &#x003b3; globin seen in Hereditary Persistence of Fetal Hemoglobin.</p></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>Experimental strategy</title><p>In order to determine the precise role of DNA methylation in the repression of &#x003b3;-globin gene expression, we devised a biological approach for controlling local methylation. For this purpose we used a (Yeast Artificial Chromosome) YAC transgene carrying the entire human &#x003b2;-globin locus that has been shown to be properly regulated in the mouse <xref rid="pone.0000046-Peterson1" ref-type="bibr">[13]</xref>, <xref rid="pone.0000046-Gaensler1" ref-type="bibr">[14]</xref>. During early development, at the time of implantation, CpG island regions are recognized and protected from the process of de novo methylation <xref rid="pone.0000046-Frank1" ref-type="bibr">[15]</xref>. This is accomplished through the involvement of cis acting sequences <xref rid="pone.0000046-Brandeis2" ref-type="bibr">[16]</xref>, <xref rid="pone.0000046-Macleod1" ref-type="bibr">[17]</xref>, and one such element (IE&#x02014;Island Element) identified in the Aprt locus, has been shown to work dominantly to prevent methylation of transgenes in vivo <xref rid="pone.0000046-Hashimshony1" ref-type="bibr">[3]</xref>. Preliminary experiments indicated that the insertion of two tandem copies of the IE near the &#x003b3;-globin promoter could generate a relatively large (1 kb) unmethylated region that was then maintained in all somatic cells of the mouse (see <xref ref-type="sec" rid="s4">Materials and Methods</xref>). On the basis of this observation we engineered a duplicated IE sequence flanked with LoxP sites 40 bp upstream to the &#x003b3;<sup>A</sup> -globin gene transcription start site in a 150 kb YAC which carries the entire human &#x003b2;-globin locus <xref rid="pone.0000046-Tanimoto1" ref-type="bibr">[18]</xref>, and this construct was used to generate transgenic mice (<xref ref-type="fig" rid="pone-0000046-g001">Figure 1A</xref>). Four founder animals with intact YACs were obtained, and Southern blot analysis showed that 3 of them (47, 64, 113) were completely unmethylated at one selective restriction site in the &#x003b3;<sup>A</sup> gene promoter, indicating that this strategy was successful (<xref ref-type="fig" rid="pone-0000046-g001">Figure 1B</xref>). In one transgenic animal (66), the promoter remained partially methylated.</p><fig id="pone-0000046-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000046.g001</object-id><label>Figure 1</label><caption><title>Programmed methylation of the human &#x003b3;<sup>A</sup>-globin promoter</title><p>
+<bold>A.</bold> Two IEs (yellow) bounded by loxP elements (stippled black) were inserted into the &#x003b3;<sup>A</sup> promoter region of a YAC containing the human &#x003b2;-globin locus <xref rid="pone.0000046-Tanimoto1" ref-type="bibr">[18]</xref>, and this was used to generate transgenic mice that were then crossed with two different cre-expressing lines. </p><p>In the first line (Cre) <xref rid="pone.0000046-Lallemand1" ref-type="bibr">[19]</xref>, cre is expressed (red) prior to implantation.</p><p>In mice carrying this construct the IE is deleted before the wave of de novo methylation, and surrounding CpG sites thus become methylated (red circles).</p><p>The second cre-expressing line carries interferon-inducible cre <xref rid="pone.0000046-Kuhn1" ref-type="bibr">[20]</xref>.</p><p>In these mice (Mx-cre), the IE remains present during implantation and protects adjacent regions from methylation.</p><p>By treating adult animals with polyI-polyC, cre activity could be induced (red) and the IE removed, generating an unmethylated version of the transgene.</p><p>
+<bold>B.</bold> Tail DNA from four transgenic founders (lines 47, 64, 66 and 113) was cut with AvrII with or without the methylation sensitive restriction enzyme BsrFI, and subjected to Southern blotting using a radioactive probe (green arrow). </p><p>Line 47 was crossed with cre mice and offspring analyzed in the same way.</p><p>
+<bold>C.</bold> The region upstream of the &#x003b3;<sup>A</sup> and &#x003b3;<sup>G</sup> coding sequences (blue triangles) was analyzed for CpG methylation using the bisulfite technique.</p><p>To this end we generated MEFs from line 64 (IE present at time of implantation) and infected them with an adenovirus that expresses Cre activity.</p><p>Alternatively, we derived MEFs from line 64 mice crossed with Cre (IE removed prior to implantation).</p><p>Five CpG residues were analyzed for methylation in the &#x003b3;<sup>G</sup> promoter.</p><p>The normal &#x003b3;<sup>A</sup> promoter also carries 5 CpGs, but one is replaced by the inserted loxP element.</p><p>Following bisulfite treatment, PCR products were cloned and subjected to sequencing.</p><p>Each row represents a single molecule.</p><p>Black circles indicate a methylated CpG, whereas open circles indicate a lack of methylation.</p><p>The numbers in the margin indicate how many clones were fully methylated.</p></caption><graphic xlink:href="pone.0000046.g001"/></fig><p>In order to manipulate DNA methylation and thereby test its effect on &#x003b3;<sup>A</sup> transcription, transgenic mice were crossed with two types of cre-expressing animals. The first line of cre mice (Cre) contain an expression vector which is constitutively active in all cell types from very early stages in development <xref rid="pone.0000046-Lallemand1" ref-type="bibr">[19]</xref>. In F1 animals generated from this cross, the IE would be removed prior to implantation and, as a result, the &#x003b3;<sup>A</sup> gene becomes methylated (see <xref ref-type="fig" rid="pone-0000046-g001">Figure 1</xref>). The Mx-Cre mouse, in contrast, contains an interferon-inducible cre gene <xref rid="pone.0000046-Kuhn1" ref-type="bibr">[20]</xref>. In F1 animals from this cross, the &#x003b3;<sup>A</sup> gene should be protected from de novo methylation at the time of implantation. In the adult, the IE can be removed by treatment with interferon, but the gene should still remain unmodified. Thus, using this strategy, it should be possible to generate matched transgenic mice with a fixed integration site whose only difference is the DNA methylation state at the &#x003b3;<sup>A</sup> promoter throughout the organism <xref rid="pone.0000046-Siegfried1" ref-type="bibr">[21]</xref>.</p></sec><sec id="s2b"><title>Effect of DNA methylation on gene expression</title><p>Using the globin YAC transgene, it was now possible to determine the effect of DNA methylation on transcription of the &#x003b3;<sup>A</sup> gene in both non-erythroid and erythroid cells. As non-erythroid cells, we used mouse embryonal fibroblasts (MEFs) generated from Cre or Mx-Cre transgenic (line 64) crosses. The bisulfite sequencing technique was used to measure the methylation state at the &#x003b3;<sup>A</sup> and &#x003b3;<sup>G</sup> promoters. In cells in which the IE was removed pre-implantation (Cre), the &#x003b3;<sup>A</sup> gene was found to be completely methylated at 4 upstream CpG sites. In contrast, cells that retained the IE during implantation (Mx-Cre) were highly unmethylated in this same region (<xref ref-type="fig" rid="pone-0000046-g001">Figure 1C</xref>). The &#x003b3;<sup>G</sup> promoter provided an important control that remained methylated in all MEFs from transgenic mice.</p><p>Semi-quantitative RT-PCR was used to determine the level of expression of the &#x003b3; as well as &#x003b2;-globin genes. We took advantage of a unique restriction enzyme site within the &#x003b3;<sup>A</sup> gene to distinguish between &#x003b3;<sup>A</sup> and &#x003b3;<sup>G</sup> transcripts. We found that the unmethylated &#x003b3;<sup>A</sup> gene is transcribed at much higher levels (about 20 fold) than the methylated copy, while both the &#x003b3;<sup>G</sup> and &#x003b2;-globin genes are expressed at similar levels (<xref ref-type="fig" rid="pone-0000046-g002">Figure 2</xref>). These results are consistent with previous studies showing that DNA methylation of &#x003b3; gene promoters inhibits transcription in transfected fibroblasts <xref rid="pone.0000046-Busslinger1" ref-type="bibr">[22]</xref>. It should be noted that these steady state levels of RNA in MEFs are about 8&#x02013;9 orders of magnitude less than that in fetal liver or adult erythroblasts. Most of this inhibition is clearly independent of DNA methylation.</p><fig id="pone-0000046-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000046.g002</object-id><label>Figure 2</label><caption><title>Effect of DNA methylation on gene expression</title><p>A. RNA from purified adult or fetal liver erythroblasts and MEFs from Cre (&#x003b3;<sup>A</sup> promoter methylated) or Mx-cre (&#x003b3;<sup>A</sup> promoter unmethylated) crossed transgenic (lines 47, 64 or 113)) mice were subjected to semi-quantitative RT-PCR on 1 or 3 &#x000b5;l samples to detect human &#x003b2; (HBB) or &#x003b3;(HBG)-globin RNA. </p><p>We measured Aprt expression to control for the amount of cDNA in the reaction.</p><p>Genes expressed at high levels were quantitated by diluting the input sample (e.g. 1/10<sup>5</sup> for Aprt in MEFs).</p><p>In order to distinguish between the two &#x003b3; genes, we took advantage of a PstI restriction site that is present in &#x003b3;<sup>A</sup> and not &#x003b3;<sup>G</sup>
+<xref rid="pone.0000046-Tanimoto2" ref-type="bibr">[51]</xref>.</p><p>A smaller induction of &#x003b3;<sup>A</sup> was observed in line 66 which is only partially unmethylated at the promoter (data not shown).</p><p>The degree of IE excision in purified erythroblasts from induced Mx-cre carrying mice was found to be &#x0003e;90&#x00025; by PCR analysis.</p><p>The data for fetal erythroblasts was taken from an animal with a &#x0201c;methylated&#x0201d; &#x003b3;<sup>A</sup> gene, but we have demonstrated that it is indeed unmethylated in fetal liver (data not shown), as expected.</p><p>B. Quantitative analysis of RNA. Levels of globin expression were obtained from dilution analysis and compared to Aprt (set to 1) in the same cells. </p><p>Each experiment was repeated 2&#x02013;3 times (coefficient of variance&#x0200a;=&#x0200a;14&#x00025;).</p><p>&#x003b3;/&#x003b3;&#x0002b;&#x003b2; was calculated on the basis of total &#x003b3; globin (&#x003b3;<sup>A</sup>&#x0002b;&#x003b3;<sup>G</sup>).</p><p>Results (average of 3 experiments) for real time PCR are included for some samples.</p><p>The degree of &#x003b3; globin induction is shown for adult erythroblast cells.</p></caption><graphic xlink:href="pone.0000046.g002"/></fig><p>In order to examine the role of DNA methylation in the control of &#x003b3;-globin transcription in erythroid cells, we isolated adult spleens from transgenic animals (lines 47, 64, 113) and separated out erythroblasts using a cell-type specific antibody affinity column. In these cells, the &#x003b2;-globin gene is expressed at very high levels (<xref ref-type="fig" rid="pone-0000046-g002">Figure 2B</xref>). While the &#x003b3;-globin sequences are transcribed at a low level compared to &#x003b2;-globin, this is still about 6 orders of magnitude higher than that measured in non erythroid cells. This increased expression is presumably due to the fact that this locus is in a more open overall chromatin conformation in these cells. It should be noted, however, that this amount of &#x003b3;<sup>A</sup>-globin RNA is still considerably lower than the levels produced in fetal liver. Undermethylation of the &#x003b3;<sup>A</sup> gene promoter in spleen erythroblasts brings about a striking 20-fold average increase in the activity of this gene as compared to its methylated counterpart in three independent transgenic founders. In contrast, the constitutively methylated &#x003b3;<sup>G</sup> promoter remained repressed, and this serves as an internal negative control for the induction seen with &#x003b3;<sup>A</sup>.</p><p>Although the normal percentage of &#x003b3; globin expression in human erythroblasts is about 5&#x02013;10&#x00025; of the total (&#x003b3;&#x0002b;&#x003b2;) (<ext-link ext-link-type="uri" xlink:href="http://www.genecards.org/index.shtml">http://www.genecards.org/index.shtml</ext-link>; <ext-link ext-link-type="uri" xlink:href="http://symatlas.gnf.org/SymAtlas">http://symatlas.gnf.org/SymAtlas</ext-link>), this ratio appears much lower (1&#x00025;) in our mice, and this is, in fact, consistent with previous data from other transgenic animals carrying similar constructs (0.3&#x02013;3&#x00025;) <xref rid="pone.0000046-Gaensler1" ref-type="bibr">[14]</xref>, <xref rid="pone.0000046-Peterson2" ref-type="bibr">[23]</xref>. In the absence of DNA methylation on the &#x003b3;<sup>A</sup> promoter, &#x003b3; globin expression ratio increases (to a level of 3&#x02013;6&#x00025;), but if we assume that the &#x003b3;<sup>G</sup> gene is affected by demethylation to the same extent, total &#x003b3;/&#x003b3;&#x0002b;&#x003b2; would actually be expected to reach levels of 10&#x02013;25&#x00025;, which is approximately the same order of magnitude as that seen in fetal liver (<xref ref-type="fig" rid="pone-0000046-g002">Figure 2</xref> and or cases of transgenic HPFH (30&#x02013;65&#x00025;)where both the &#x003b3; and &#x003b2; genes are active <xref rid="pone.0000046-Berry1" ref-type="bibr">[24]</xref>. It thus appears that DNA methylation is serving as a local mechanism to repress the activity of &#x003b3;-globin genes in adult erythroid cells.</p></sec><sec id="s2c"><title>Effect of DNA methylation on histone modification</title><p>One of the mechanisms by which DNA methylation inhibits gene expression is by bringing about the deacetylation of local histones <xref rid="pone.0000046-Hashimshony1" ref-type="bibr">[3]</xref>. We therefore examined the histone modification pattern of nucleosomes positioned in the promoter region of the &#x003b3;<sup>A</sup> and &#x003b3;<sup>G</sup> genes in vivo. This was carried out by isolating mononucleosomes from fibroblast or erythroblast cells and subjecting them to Chromatin Immunoprecipitation (ChIP) analysis using antibodies against Ac-H4. The active mouse &#x003b2;-actin and inactive &#x003b1; actin genes were used as matched controls for verifying the efficacy of immunoprecipitation.</p><p>As expected, the methylated &#x003b3;<sup>A</sup> gene promoter in non-erythroid cells is packaged in nucleosomes containing deacetylated histone H4, in a manner similar to other repressed genes. Strikingly, in the absence of DNA methylation, this region becomes acetylated, reaching the same maximum levels probably as a result of methyl binding proteins <xref rid="pone.0000046-Rupon1" ref-type="bibr">[12]</xref> associated with transcriptionally active genes such as &#x003b2;-actin or &#x003b2;-globin in erythroid cells (<xref ref-type="fig" rid="pone-0000046-g003">Figure 3A</xref>). Identical findings were observed for methylation of H3(K4) (data not shown), which is also known to be correlated with gene activity. This change in the histone modification pattern is surprising in light of the fact that &#x003b3;-globin is expressed at such low levels in non-erythroid cells, suggesting that as opposed to other repression mechanisms, it is DNA methylation that plays a dominant role in setting up or maintaining histone acetylation at this locus.</p><fig id="pone-0000046-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000046.g003</object-id><label>Figure 3</label><caption><title>Effect of DNA methylation on promoter structure</title><p>Mononucleosomes were prepared from either non-erythroid (<bold>A</bold>) or erythroid (<bold>B</bold>) cells taken from Cre (methylated) and Mx-cre (unmethylated) founder (64) transgene crosses and subjected to ChIP analysis using anti-Ac-H4.</p><p>Input (I) and bound (B) DNA fractions were used for semi-quantitative PCR on 1 or 3 &#x000b5;l samples using primer sets specific for the &#x003b3;<sup>G</sup> or loxP-inserted &#x003b3;<sup>A</sup> promoter regions.</p><p>For each ChIP preparation, the Acta1 gene (green) was assayed as a negative control and the Actb gene (yellow) as a positive control.</p><p>The results are summarized in graphic form after normalizing to Acta1 (green) enrichment (set at 1.0) (coefficient of variance&#x0200a;=&#x0200a;17&#x00025;).</p><p>The results for the Cre (blue) and Mx-cre (red) mice are shown.</p><p>Results for &#x003b2; globin are presented for comparison.</p><p>The data shown for non-erythroid cells was obtained using mononucleosomes from MEFs, but the graph summarizes results from 3&#x02013;4 ChIP experiments on both MEFs and lymphocytes.</p><p>(<bold>C</bold>) In vivo footprinting of &#x003b3; promoter.</p><p>Erythroblasts (in vivo) or purified erythroblast DNA (in vitro) from mice carrying either a methylated or unmethylated &#x003b3;<sup>A</sup> promoter were treated with DMS. LMPCR gel.</p><p>Maxam-Gilbert lanes (AG and CT) are sequencing controls.</p><p>The numbers are according to PubMed accession number NG_000007.</p><p>Putative protein factor binding regions (rectangles) <xref rid="pone.0000046-Ikuta1" ref-type="bibr">[26]</xref>, DMS footprints, as in vivo protected (open circle) or hyper-reactive (closed circle) nucleotides, are indicated.</p><p>The sizes of the circles represent relative differences in footprint intensities.</p><p>DMS footprinting on spleen lymphocytes did not show any hyperreactive sites on unmethylated DNA, but did reveal some slight reactivity over the distal CCAAT box on methylated DNA.</p></caption><graphic xlink:href="pone.0000046.g003"/></fig><p>Histone acetylation was also examined in adult erythroblasts purified from spleen. In these cells, the &#x003b3; genes are expressed at levels 6 orders of magnitude greater than that seen in fibroblasts. Despite this, both the &#x003b3;<sup>G</sup> and &#x003b3;<sup>A</sup> promoters are packaged with nucleosomes containing deacetylated histone H4 (<xref ref-type="fig" rid="pone-0000046-g003">Figure 3B</xref>). This is most likely due to the presence of DNA methylation, since removal of these methyl moieties brings about a dramatic increase in both the acetylation of H4 and methylation of H3(K4) (<xref ref-type="fig" rid="pone-0000046-g003">Figure 3B</xref> and data not shown). This suggests that in erythroid cells, it is basically DNA methylation which keeps the &#x003b3; genes packaged in their deacetylated form, and this probably accounts for their suboptimal level of expression.</p></sec><sec id="s2d"><title>Effect of DNA methylation on protein binding</title><p>One of the major effectors of globin expression in erythroid cells is the presence of highly specific transcription factors such as GATA1, CP1/NF-Y and NFE3 that recognize defined sequence motifs present at many sites within the globin locus, including the &#x003b3;<sup>A</sup> promoter <xref rid="pone.0000046-Duan1" ref-type="bibr">[25]</xref>&#x02013;<xref rid="pone.0000046-Ronchi1" ref-type="bibr">[28]</xref>. In order to test whether DNA methylation plays a role in these interactions, we carried out in vivo footprint analysis in both adult erythroid cells and lymphocytes derived from the spleen. As expected, no significant footprints were observed in the lymphoid cells (data not shown). Similarly, footprints were also absent in normal adult erythroid cells in which the &#x003b3;<sup>A</sup> promoter is methylated. In contrast, when these methyl groups are absent, strong footprints over both the GATA-1 and distal CP1/NF-Y (CCAAT box) binding sites were observed (<xref ref-type="fig" rid="pone-0000046-g003">Figure 3C</xref>). It should be noted that these elements themselves do not contain any CpG sites, so it is unlikely that binding is inhibited directly by methyl groups. Rather, it appears that these specific protein-DNA interactions are prevented at the nucleosome level by local methylation-mediated histone deacetylation.</p></sec><sec id="s2e"><title>DNA methylation in HPFH</title><p>In patients with Hereditary Persistence of Fetal Hemoglobin (HPFH) the &#x003b3; genes are expressed at unusually high levels in adult erythroid cells <xref rid="pone.0000046-Forget1" ref-type="bibr">[29]</xref>. Our results on the role of DNA methylation at this locus strongly suggest that whatever the molecular mechanism at the source of this disease, activation of the &#x003b3;-globin genes should only be possible if the promoter is demethylated. In order to test this hypothesis, we prepared erythroblast cultures <xref rid="pone.0000046-Fibach1" ref-type="bibr">[30]</xref> from HPFH patients with different genetic lesions, and then isolated DNA for bisulfite analysis of the &#x003b3;<sup>A</sup> and &#x003b3;<sup>G</sup> genes. In normal pro-erythroblasts, all 5 CpG sites in the &#x003b3; promoter region are fully methylated. In contrast, we observed under-methylation in both the &#x003b3;<sup>A</sup> (4/7) and &#x003b3;<sup>G</sup> (5/34) promoters in a patient heterozygous for HPFH1 <xref rid="pone.0000046-Collins1" ref-type="bibr">[31]</xref>, <xref rid="pone.0000046-Huisman1" ref-type="bibr">[32]</xref> (<xref ref-type="fig" rid="pone-0000046-g004">Figure 4</xref>). This skewed pattern is in keeping with measurements showing that these patients also have a higher than normal ratio of &#x003b3;<sup>A</sup> to &#x003b3;<sup>G</sup> expression <xref rid="pone.0000046-Huisman1" ref-type="bibr">[32]</xref>.</p><fig id="pone-0000046-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000046.g004</object-id><label>Figure 4</label><caption><title>&#x003b3; promoter methylation pattern in patients with HPFH</title><p>The &#x003b3;<sup>A</sup> and &#x003b3;<sup>G</sup> promoter regions were analyzed for CpG methylation on individual clones by the bisulfite technique.</p><p>To this end we used Fibach culture erythroblasts derived from normal individuals, as well as heterozygote HPFH1 or &#x003b2;<sup>0</sup> Thalassemia (IVS-II-I, G&#x021d1;A) patients.</p><p>Black circles indicate methylated CpGs, whereas open circles indicate a lack of methylation.</p><p>The numbers in the margin indicate how many clones were fully methylated.</p></caption><graphic xlink:href="pone.0000046.g004"/></fig><p>Similar bisulfite results were obtained for pro-erythroblast DNA from a patient with &#x003b2;&#x000b0; Thalassemia (IVS-II-I, G&#x021d1;A) <xref rid="pone.0000046-Huisman1" ref-type="bibr">[32]</xref> who expresses high levels of &#x003b3;<sup>G</sup> -globin, and in this case we detected massive under-methylation almost exclusively at the &#x003b3;<sup>G</sup> promoter (<xref ref-type="fig" rid="pone-0000046-g004">Figure 4</xref>). These findings are consistent with earlier experiments showing under-methylation at a single restriction site in the &#x003b3; promoter regions from HPFH patients <xref rid="pone.0000046-Oppenheim1" ref-type="bibr">[33]</xref>, <xref rid="pone.0000046-Poncz1" ref-type="bibr">[34]</xref>. Taken together, these results strongly suggest that whatever the mechanism <xref rid="pone.0000046-Feingold1" ref-type="bibr">[35]</xref>, <xref rid="pone.0000046-Elder1" ref-type="bibr">[36]</xref> involved in enhancing &#x003b3; gene transcription, each case of HPFH is probably associated with molecular changes that can bring about local demethylation or perhaps histone acetylation in adult erythroid cells. In further support of this, we find that DNA methylation actually affects protein binding specifically at the exact same sites in the &#x003b3; promoter that are frequently involved in HPFH <xref rid="pone.0000046-Ronchi1" ref-type="bibr">[28]</xref>.</p></sec></sec><sec id="s3"><title>Discussion</title><p>In non-erythroid cells, the entire globin locus is associated with heterochromatin <xref rid="pone.0000046-Li1" ref-type="bibr">[37]</xref>, <xref rid="pone.0000046-Gilbert1" ref-type="bibr">[38]</xref> and packaged in a closed chromatin conformation characterized by a lack of sensitivity to DNaseI <xref rid="pone.0000046-Forrester1" ref-type="bibr">[10]</xref> and late replication timing <xref rid="pone.0000046-Simon1" ref-type="bibr">[8]</xref>. In addition, the &#x003b3; promoters carry methyl groups that were initially put on at the time of implantation and then maintained through subsequent cell divisions. These mechanisms apparently serve to make the locus compact and highly inaccessible to nuclear proteins such as RNA polymerase and its accompanying basal transcription factors (<xref ref-type="fig" rid="pone-0000046-g002">Figure 2B</xref>). For this reason, synthesis from the &#x003b3; promoters initiates very infrequently. By genetically preventing normal developmentally-regulated DNA methylation at this site, we were able to selectively remove a single layer of protection, thus allowing the transcription machinery to increase initiation of RNA synthesis at the promoter by about 20 fold. We have previously demonstrated that this is accomplished through methyl binding proteins that locally recruit histone deacetylase <xref rid="pone.0000046-Hashimshony1" ref-type="bibr">[3]</xref>. Our results strongly suggest that in the absence of methylation, the auxiliary repression layers, which evidently operate through very different mechanisms, are not able to bring about local histone deacetylation.</p><p>Previous studies had shown that the human globin locus is programmed to be turned on regionally in erythroid cells generated at different stages of development. This is mediated by an increase in chromatin accessibility (DNaseI sensitivity) over the entire locus <xref rid="pone.0000046-Forrester1" ref-type="bibr">[10]</xref>, as well as a shift to early replication timing <xref rid="pone.0000046-Goren1" ref-type="bibr">[39]</xref>, an epigenetic change that also influences chromatin structure <xref rid="pone.0000046-Zhang1" ref-type="bibr">[40]</xref>. As part of the normal process of adult erythroid differentiation, the &#x003b2;-globin gene undergoes local demethylation <xref rid="pone.0000046-vanderPloeg1" ref-type="bibr">[11]</xref>, and this probably represents the last stage necessary to allow the binding of erythroid trans acting transcription factors.</p><p>Although the &#x003b3;-globin genes do not undergo demethylation in adult erythroid cells and are still packaged with deacetylated histones, chromatin changes in cis make these genes about 10<sup>6</sup> fold more likely to be transcribed, but this is still not sufficient to allow the synthesis of &#x003b3;-globin at maximum levels. By manipulating the locus so that the &#x003b3;<sup>A</sup> gene is unmethylated, however, the last repression barrier is removed and this gene can then interact with the strong transcription factors already present in erythroid cells, thereby allowing near maximal levels of RNA synthesis. Interestingly, these factors fail to react with similar &#x003b2; globin promoter elements in fetal erythroid cells <xref rid="pone.0000046-Ikuta1" ref-type="bibr">[26]</xref>, strongly suggesting that this may also be due to DNA methylation. Thus, in addition to being a basal repression mechanism in non-erythroid cells, DNA methylation also works as a selective regulator in erythroid cells. Since DNA methylation plays a similar role in the immune system <xref rid="pone.0000046-Ji1" ref-type="bibr">[41]</xref>, it is possible that this represents a general fine-tuning mechanism for controlling expression within gene clusters.</p><p>Several studies have shown that the symptoms in &#x003b2;-Thalassemia can be partly alleviated by treatment with DNA demethylation <xref rid="pone.0000046-Ley1" ref-type="bibr">[42]</xref> or histone acetylation agents <xref rid="pone.0000046-Perrine1" ref-type="bibr">[43]</xref>, presumably by bringing about increased synthesis of &#x003b3;-globin. Our results provide molecular evidence that DNA methylation is indeed the major barrier to &#x003b3; expression in adult erythroid cells, and provide the impetus to develop more specific drugs for removing methylation from the &#x003b3; promoters.</p></sec><sec id="s4"><title>Materials and methods</title><sec id="s4a"><title>Cloning</title><p>The 120 bp IE from the hamster Aprt gene <xref rid="pone.0000046-Siegfried1" ref-type="bibr">[21]</xref> was inserted as a dimer bounded by two lox elements into an engineered PacI restriction site 40 bp upstream to the human &#x003b3;<sup>A</sup>-globin gene transcription start site (<xref ref-type="fig" rid="pone-0000046-g005">Figure 5</xref>). The HindIII/XhaI fragment was then cloned into the yeast integrative plasmid pRS306 that was then inserted by homologous recombination into the human &#x003b2;-globin YAC-harboring yeast cells A201F4.3 <xref rid="pone.0000046-Tanimoto1" ref-type="bibr">[18]</xref>. Colonies were subsequently screened for growth on plates lacking uracil. Correct integration was verified by Southern blot analysis. Plasmid sequences were removed by induction of &#x0201c;looping out&#x0201d; through growth on 5FOA and correct excision was verified by Southern blot analysis.</p><fig id="pone-0000046-g005" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000046.g005</object-id><label>Figure 5</label><caption><title>IE induces undermethylation in transgenic mice</title><p>We made transgenic embryos (12.5 dpc) using either a plasmid that contains the normal promoter of the human &#x003b3;<sup>A</sup>-globin gene (-IE), or a plasmid that contains the promoter of the human &#x003b3;<sup>A</sup>-globin gene modified to harbor a dimer of the IE bounded by two lox elements (&#x0002b;2IE) 40 bp upstream to the &#x003b3;<sup>A</sup> transcription start site, and tested total founder embryonic DNA for methylation at specific restriction sites by southern blot analysis. This plasmid (&#x0002b;2IE) was later used as a template for homologous recombination in the YAC (see <xref ref-type="sec" rid="s4">methods</xref>).</p><p>The map indicates the restriction site locations according to PubMed accession number NG_00007.</p><p>Bold marked restriction enzymes are methylation sensitive. Total founder embryo DNA was digested with HindIII alone or together with CfoI, or alternatively with StuI/XbaI alone or together with HpaII, MspI or AvaI.</p><p>Southern-blot analysis was performed using probes 5&#x02032; or 3&#x02032; as labeled.</p><p>The sizes of expected bands are indicated on the autoradiogram. Data shown are representative of results obtained with several transgenic founder mice for each construct.</p><p>From this experiment, we conclude that a double IE is capable of inducing undermethylation over a distance of at least 500 bp in each direction.</p></caption><graphic xlink:href="pone.0000046.g005"/></fig></sec><sec id="s4b"><title>Transgenic mice and methylation analysis</title><p>YAC DNA was purified from pulse-field gels according to standard protocols <xref rid="pone.0000046-Huxley1" ref-type="bibr">[44]</xref> and injected into fertilized mouse eggs that were transferred to foster mothers. Littermates were screened for the &#x003b2;-globin YAC transgene by PCR, and positive samples verified by Southern blot. All three transgenes (lines 47, 64, 113) used for analysis were found to be completely intact and present as a single copy. Founders were crossed with Cre <xref rid="pone.0000046-Lallemand1" ref-type="bibr">[19]</xref> or Mx-Cre mice <xref rid="pone.0000046-Kuhn1" ref-type="bibr">[20]</xref>. To remove the IE sequences after birth Mx-Cre X &#x003b2;-globin YAC F1 mice were injected 4 times with polyI-polyC (Sigma) on alternate days. MEFs (passage number 3&#x02013;4) carrying a methylated &#x003b3;<sup>A</sup> gene were prepared from Cre embryos. MEFs carrying an unmethylated &#x003b3;<sup>A</sup> gene were prepared from Mx Cre mice and then transfected with a type 5-cytomegalovirus Cre vector <xref rid="pone.0000046-KlochendlerYeivin1" ref-type="bibr">[45]</xref> to remove the IE element. Methylation patterns in non erythroid cells were analyzed either by Southern blot or bisulfite methylation analysis as described <xref rid="pone.0000046-Hajkova1" ref-type="bibr">[46]</xref>. Following treatment, the DNA was amplified using the PCR primers forward -1 (5&#x02032;-TTGTTTGAAAGGGTTTTTGGTTAAATTTTATTT-3&#x02032;) and reverse-1 (5&#x02032;-TCCTAATCACCAAAACCTACCTTCCCAAAA-3&#x02032;) and subsequently with the nested primers forward -2 (5&#x02032;-TTTTGGTTAAATTTTATTTATGGGTTGGTTAGTT-3&#x02032;) and reverse-2 (5&#x02032;-AACTTATAATAATAACCTTATCCTCCTCTATAAAATA-3&#x02032;). The resulting products were cloned using the pGEM-T Easy Vector System I kit (Promega) and individual colonies then sequenced. Methylation patterns in purified erythroid cells were analyzed by digestion with methylation sensitive restriction enzyme followed by amplification by PCR.</p></sec><sec id="s4c"><title>Semiquantitative RT-PCR</title><p>Erythroblasts from fetal liver and adult spleen of Cre or Mx-cre crossed transgenic mice were isolated by MACS (Magnetic Activated Cell Sorter) with biotinilated &#x003b1;-ter119 antibodies (PharMingen). Mouse embryonic fibroblasts (MEFs) were derived from Cre or Mx-cre crossed 12.5 dpc transgenic embryos. RNA was extracted with TriPure Isolation reagent (Roche), treated (250 ng) with DNaseI (Promega) and converted to cDNA using the Molony murine leukemia virus reverse transcriptase (Promega) and random hexanucleotide pd(N)<sub>6</sub> primers (Pharmacia) in a reaction volume of 50 &#x000b5;l under conditions recommended by the manufacturer. 1 or 3 &#x000b5;l of the cDNA was used for PCR reactions (95&#x000b0;C for 1 min, 58&#x000b0;C for 1 min, 72&#x000b0;C for 1&#x000a0;min) in the presence of <sup>32</sup>P&#x003b1;dCTP (Amersham) using appropriate primer pairs <xref rid="pone.0000046-Bungert1" ref-type="bibr">[47]</xref>. These primers were designed to span intron-exon junctions in order to distinguish between cDNA and genomic DNA. RT-PCR fragments were separated on 5&#x00025; or 7&#x00025; polyacrylamide gels and exposed for autoradiography. The relative amount of &#x003b3;<sup>A</sup> and &#x003b3;<sup>G</sup> cDNA was defined by digestion with the restriction enzyme PstI that cuts only the &#x003b3;<sup>A</sup> PCR product. The level of &#x003b3; and &#x003b2;-globin transcription was measured by phosphor-imager analysis of diluted samples after normalizing for Aprt.</p></sec><sec id="s4d"><title>Chromatin Immunoprecipitation (ChIP)</title><p>Nuclei were prepared from cell culture or purified mouse spleen erythroblasts, treated with an HDAC inhibitor (PMSF) and digested by MNase (micrococcal nuclease) to generate mono-nucleosomes that were separated on a sucrose gradient <xref rid="pone.0000046-Hebbes1" ref-type="bibr">[48]</xref>. Immunoprecipitation (IP) was carried out using anti-acetylated histone H4 or anti me-H3(Lys4) antibodies (Upstate Biotechnologies), and the bound fraction purified by protein A-Sepharose chromatography (Sigma). Input and Bound DNA fractions were analyzed by semiquantitative PCR using two concentrations. Primer sequences are available upon request.</p></sec><sec id="s4e"><title>In vivo footprinting</title><p>In vivo Dimethyl Sulfate (DMS) footprinting and ligation-mediated PCR (LMPCR) was performed as described earlier <xref rid="pone.0000046-Szabo1" ref-type="bibr">[49]</xref>, <xref rid="pone.0000046-Szabo2" ref-type="bibr">[50]</xref>, except that the in vivo DMS treatment was done on erythroid cells in cell suspension. In a 50 ml conical tube, 10&#x02013;25 million cells were suspended in 10 ml of culture medium without bovine serum. DMS was added to a final concentration of 0.2&#x00025;, and the cells were incubated at room temperature for 5 min. 40 ml of ice-cold PBS was added to stop the DMS reaction and the cells were centrifuged quickly (250 g, 3 min), washed two times with 30 ml of ice-cold PBS before DNA preparation. For the LMPCR experiment we designed the first primers in such way that they distinguished between the &#x003b3;<sup>G</sup> and lox-P inserted &#x003b3;<sup>A</sup> promoters. Primer extension was then carried out with either L1n: 5&#x02032;-GCGTCTGGACTAGGAGCTTTTAAT-3&#x02032; or L1: 5&#x02032;-AAGTAACGCATTTGCT GGAAG-3&#x02032; (which includes the IE element). Primer, L2: 5&#x02032;-TTAATCTCAGACGTTCCAGAAGCGAGTGTG-3&#x02032; and LP25 linker primer were used for amplification. The run off hybridization probe was made on PCR fragment L3: 5&#x02032;-CAGAAGCGAGTGTGTGGAACTGCTGAA-3&#x02032; &#x02013; U: 5&#x02032;-AAAAAAATTAAGCAGCAGTATCCTCTTGGG-3&#x02032; with the L3 primer.</p></sec></sec></body><back><ack><p>We would like to thank A. Rahat for assistance in preparing the YACs used in this study, Marianna Shvartsbeyn for her participation at early stages of this research and Christos Kattamis and Swee-Lay Thein for providing clinical samples.</p><p>This paper is dedicated to the memory of our cherished collaborator, Dr. Mira Ariel, who initiated these studies.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>This work was supported by NIH, Belfer Foundation, Israel Cancer Research Fund and Israel Ministry of Health.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000046-Brandeis1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brandeis</surname><given-names>M</given-names></name><name><surname>Ariel</surname><given-names>M</given-names></name><name><surname>Cedar</surname><given-names>H</given-names></name></person-group>
+<year>1993</year>
+<article-title>Dynamics of DNA methylation during development.</article-title>
+<source>BioEssays</source>
+<volume>15</volume>
+<fpage>1</fpage>
+<lpage>5</lpage>
+<pub-id pub-id-type="pmid">8466471</pub-id></element-citation></ref><ref id="pone.0000046-Keshet1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Keshet</surname><given-names>I</given-names></name><name><surname>Lieman-Hurwitz</surname><given-names>J</given-names></name><name><surname>Cedar</surname><given-names>H</given-names></name></person-group>
+<year>1986</year>
+<article-title>DNA methylation affects the formation of active chromatin.</article-title>
+<source>Cell</source>
+<volume>44</volume>
+<fpage>535</fpage>
+<lpage>543</lpage>
+<pub-id pub-id-type="pmid">3456276</pub-id></element-citation></ref><ref id="pone.0000046-Hashimshony1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hashimshony</surname><given-names>T</given-names></name><name><surname>Zhang</surname><given-names>J</given-names></name><name><surname>Keshet</surname><given-names>I</given-names></name><name><surname>Bustin</surname><given-names>M</given-names></name><name><surname>Cedar</surname><given-names>H</given-names></name></person-group>
+<year>2003</year>
+<article-title>The role of DNA methylation in setting up chromatin structure during development.</article-title>
+<source>Nature Genet</source>
+<volume>34</volume>
+<fpage>187</fpage>
+<lpage>192</lpage>
+<pub-id pub-id-type="pmid">12740577</pub-id></element-citation></ref><ref id="pone.0000046-Bird1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bird</surname><given-names>AP</given-names></name></person-group>
+<year>1995</year>
+<article-title>Gene number, noise reduction and biological complexity.</article-title>
+<source>Trends Genet</source>
+<volume>11</volume>
+<fpage>94</fpage>
+<lpage>100</lpage>
+<pub-id pub-id-type="pmid">7732579</pub-id></element-citation></ref><ref id="pone.0000046-Yeivin1"><label>5</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Yeivin</surname><given-names>A</given-names></name><name><surname>Razin</surname><given-names>A</given-names></name></person-group>
+<year>1993</year>
+<article-title>Gene methylation patterns and expression.</article-title>
+<person-group person-group-type="editor"><name><surname>Jost</surname><given-names>JP</given-names></name><name><surname>Saluz</surname><given-names>HP</given-names></name></person-group>
+<source>DNA Methylation: Molecular Biology and Biological Significance,</source>
+<publisher-loc>Basel</publisher-loc>
+<publisher-name>Birkhauser Verlag</publisher-name>
+<fpage>523</fpage>
+<lpage>568</lpage>
+</element-citation></ref><ref id="pone.0000046-Fu1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fu</surname><given-names>XH</given-names></name><name><surname>Liu</surname><given-names>DP</given-names></name><name><surname>Liang</surname><given-names>CC</given-names></name></person-group>
+<year>2002</year>
+<article-title>Chromatin structure and transcriptional regulation of the beta-globin locus.</article-title>
+<source>Exp Cell Res</source>
+<volume>278</volume>
+<fpage>1</fpage>
+<lpage>11</lpage>
+<pub-id pub-id-type="pmid">12126952</pub-id></element-citation></ref><ref id="pone.0000046-Dhar1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dhar</surname><given-names>V</given-names></name><name><surname>Mager</surname><given-names>D</given-names></name><name><surname>Iqbal</surname><given-names>A</given-names></name><name><surname>Schildkraut</surname><given-names>CL</given-names></name></person-group>
+<year>1988</year>
+<article-title>The coordinate replication of the human &#x003b2;-globin gene domain reflects its transcriptional activity and nuclease hypersensitivity.</article-title>
+<source>Mol Cell Biol</source>
+<volume>8</volume>
+<fpage>4958</fpage>
+<lpage>4965</lpage>
+<pub-id pub-id-type="pmid">2850471</pub-id></element-citation></ref><ref id="pone.0000046-Simon1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Simon</surname><given-names>I</given-names></name><name><surname>Tenzen</surname><given-names>T</given-names></name><name><surname>Mostoslavsky</surname><given-names>R</given-names></name><name><surname>Fibach</surname><given-names>E</given-names></name><name><surname>Lande</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Developmental regulation of DNA replication timing at the human &#x003b2; globin locus.</article-title>
+<source>EMBO J</source>
+<volume>20</volume>
+<fpage>6150</fpage>
+<lpage>6157</lpage>
+<pub-id pub-id-type="pmid">11689454</pub-id></element-citation></ref><ref id="pone.0000046-Epner1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Epner</surname><given-names>E</given-names></name><name><surname>Forrester</surname><given-names>WC</given-names></name><name><surname>Groudine</surname><given-names>M</given-names></name></person-group>
+<year>1988</year>
+<article-title>Asynchronous DNA replication within the human &#x003b2;-globin gene locus.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>85</volume>
+<fpage>8081</fpage>
+<lpage>8085</lpage>
+<pub-id pub-id-type="pmid">3186709</pub-id></element-citation></ref><ref id="pone.0000046-Forrester1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Forrester</surname><given-names>WC</given-names></name><name><surname>Thompson</surname><given-names>C</given-names></name><name><surname>Elder</surname><given-names>JT</given-names></name><name><surname>Groudine</surname><given-names>M</given-names></name></person-group>
+<year>1986</year>
+<article-title>A developmentally stable chromatin structure in the human beta-globin gene cluster.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>83</volume>
+<fpage>1359</fpage>
+<lpage>1363</lpage>
+<pub-id pub-id-type="pmid">3456593</pub-id></element-citation></ref><ref id="pone.0000046-vanderPloeg1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van der Ploeg</surname><given-names>LHT</given-names></name><name><surname>Flavell</surname><given-names>RA</given-names></name></person-group>
+<year>1980</year>
+<article-title>DNA methylation in the human &#x003b3;&#x003b4;&#x003b2;-globin locus in erythroid and nonerythroid tissues.</article-title>
+<source>Cell</source>
+<volume>19</volume>
+<fpage>947</fpage>
+<lpage>958</lpage>
+<pub-id pub-id-type="pmid">6247075</pub-id></element-citation></ref><ref id="pone.0000046-Rupon1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rupon</surname><given-names>JW</given-names></name><name><surname>Wang</surname><given-names>SZ</given-names></name><name><surname>Gaensler</surname><given-names>K</given-names></name><name><surname>Lloyd</surname><given-names>J</given-names></name><name><surname>Ginder</surname><given-names>GD</given-names></name></person-group>
+<year>2006</year>
+<article-title>Methyl binding domain protein 2 mediates gamma-globin gene silencing in adult human betaYAC transgenic mice.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>103</volume>
+<fpage>6617</fpage>
+<lpage>6622</lpage>
+<pub-id pub-id-type="pmid">16608912</pub-id></element-citation></ref><ref id="pone.0000046-Peterson1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Peterson</surname><given-names>KR</given-names></name><name><surname>Clegg</surname><given-names>CH</given-names></name><name><surname>Huxley</surname><given-names>C</given-names></name><name><surname>Josephson</surname><given-names>BM</given-names></name><name><surname>Haugen</surname><given-names>HS</given-names></name><etal/></person-group>
+<year>1993</year>
+<article-title>Transgenic mice containing a 248-kb yeast artificial chromosome carrying the human beta-globin locus display proper developmental control of human globin genes.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>90</volume>
+<fpage>7593</fpage>
+<lpage>7597</lpage>
+<pub-id pub-id-type="pmid">8356061</pub-id></element-citation></ref><ref id="pone.0000046-Gaensler1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gaensler</surname><given-names>KM</given-names></name><name><surname>Kitamura</surname><given-names>M</given-names></name><name><surname>Kan</surname><given-names>YW</given-names></name></person-group>
+<year>1993</year>
+<article-title>Germ-line transmission and developmental regulation of a 150-kb yeast artificial chromosome containing the human beta-globin locus in transgenic mice.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>90</volume>
+<fpage>11381</fpage>
+<lpage>11385</lpage>
+<pub-id pub-id-type="pmid">8248258</pub-id></element-citation></ref><ref id="pone.0000046-Frank1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Frank</surname><given-names>D</given-names></name><name><surname>Keshet</surname><given-names>I</given-names></name><name><surname>Shani</surname><given-names>M</given-names></name><name><surname>Levine</surname><given-names>A</given-names></name><name><surname>Razin</surname><given-names>A</given-names></name><etal/></person-group>
+<year>1991</year>
+<article-title>Demethylation of CpG islands in embryonic cells.</article-title>
+<source>Nature</source>
+<volume>351</volume>
+<fpage>239</fpage>
+<lpage>241</lpage>
+<pub-id pub-id-type="pmid">2041571</pub-id></element-citation></ref><ref id="pone.0000046-Brandeis2"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brandeis</surname><given-names>M</given-names></name><name><surname>Frank</surname><given-names>D</given-names></name><name><surname>Keshet</surname><given-names>I</given-names></name><name><surname>Siegfried</surname><given-names>Z</given-names></name><name><surname>Mendelsohn</surname><given-names>M</given-names></name><etal/></person-group>
+<year>1994</year>
+<article-title>Sp1 elements protect a CpG island from de novo methylation.</article-title>
+<source>Nature</source>
+<volume>371</volume>
+<fpage>435</fpage>
+<lpage>438</lpage>
+<pub-id pub-id-type="pmid">8090226</pub-id></element-citation></ref><ref id="pone.0000046-Macleod1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Macleod</surname><given-names>D</given-names></name><name><surname>Charlton</surname><given-names>J</given-names></name><name><surname>Mullins</surname><given-names>J</given-names></name><name><surname>Bird</surname><given-names>AP</given-names></name></person-group>
+<year>1994</year>
+<article-title>Sp1 sites in the mouse Aprt gene promoter are required to prevent methylation of the CpG island.</article-title>
+<source>Genes Dev</source>
+<volume>8</volume>
+<fpage>2282</fpage>
+<lpage>2292</lpage>
+<pub-id pub-id-type="pmid">7958895</pub-id></element-citation></ref><ref id="pone.0000046-Tanimoto1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tanimoto</surname><given-names>K</given-names></name><name><surname>Liu</surname><given-names>Q</given-names></name><name><surname>Bungert</surname><given-names>J</given-names></name><name><surname>Engel</surname><given-names>JD</given-names></name></person-group>
+<year>1999</year>
+<article-title>The polyoma virus enhancer cannot substitute for DNase I core hypersensitive sites 2&#x02013;4 in the human beta-globin LCR.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>27</volume>
+<fpage>3130</fpage>
+<lpage>3137</lpage>
+<pub-id pub-id-type="pmid">10454609</pub-id></element-citation></ref><ref id="pone.0000046-Lallemand1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lallemand</surname><given-names>Y</given-names></name><name><surname>Luria</surname><given-names>V</given-names></name><name><surname>Haffner-Krausz</surname><given-names>R</given-names></name><name><surname>Lonai</surname><given-names>P</given-names></name></person-group>
+<year>1998</year>
+<article-title>Maternally expressed PGK-Cre transgene as a tool for early and uniform activation of the Cre site specific recombinase.</article-title>
+<source>Transgenic Res</source>
+<volume>7</volume>
+<fpage>105</fpage>
+<lpage>112</lpage>
+<pub-id pub-id-type="pmid">9608738</pub-id></element-citation></ref><ref id="pone.0000046-Kuhn1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kuhn</surname><given-names>R</given-names></name><name><surname>Schwenk</surname><given-names>F</given-names></name><name><surname>Aguet</surname><given-names>M</given-names></name><name><surname>Rajewsky</surname><given-names>K</given-names></name></person-group>
+<year>1995</year>
+<article-title>Inducible gene targeting in mice.</article-title>
+<source>Science</source>
+<volume>269</volume>
+<fpage>1427</fpage>
+<lpage>1429</lpage>
+<pub-id pub-id-type="pmid">7660125</pub-id></element-citation></ref><ref id="pone.0000046-Siegfried1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Siegfried</surname><given-names>Z</given-names></name><name><surname>Eden</surname><given-names>S</given-names></name><name><surname>Mendelsohn</surname><given-names>M</given-names></name><name><surname>Feng</surname><given-names>X</given-names></name><name><surname>Tzubari</surname><given-names>B</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>DNA methylation represses transcription in vivo.</article-title>
+<source>Nature Genet</source>
+<volume>22</volume>
+<fpage>203</fpage>
+<lpage>206</lpage>
+<pub-id pub-id-type="pmid">10369268</pub-id></element-citation></ref><ref id="pone.0000046-Busslinger1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Busslinger</surname><given-names>M</given-names></name><name><surname>Hurst</surname><given-names>J</given-names></name><name><surname>Flavell</surname><given-names>RA</given-names></name></person-group>
+<year>1983</year>
+<article-title>DNA methylation and the regulation of the globin gene expression.</article-title>
+<source>Cell</source>
+<volume>34</volume>
+<fpage>197</fpage>
+<lpage>206</lpage>
+<pub-id pub-id-type="pmid">6883509</pub-id></element-citation></ref><ref id="pone.0000046-Peterson2"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Peterson</surname><given-names>KR</given-names></name><name><surname>Navas</surname><given-names>PA</given-names></name><name><surname>Li</surname><given-names>Q</given-names></name><name><surname>Stamatoyannopoulos</surname><given-names>G</given-names></name></person-group>
+<year>1998</year>
+<article-title>LCR-dependent gene expression in beta-globin YAC transgenics: detailed structural studies validate functional analysis even in the presence of fragmented YACs.</article-title>
+<source>Hum Mol Genet</source>
+<volume>7</volume>
+<fpage>2079</fpage>
+<lpage>2088</lpage>
+<pub-id pub-id-type="pmid">9817925</pub-id></element-citation></ref><ref id="pone.0000046-Berry1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Berry</surname><given-names>M</given-names></name><name><surname>Grosveld</surname><given-names>F</given-names></name><name><surname>Dillon</surname><given-names>N</given-names></name></person-group>
+<year>1992</year>
+<article-title>A single point mutation is the cause of the Greek form of hereditary persistence of fetal haemoglobin.</article-title>
+<source>Nature</source>
+<volume>358</volume>
+<fpage>499</fpage>
+<lpage>502</lpage>
+<pub-id pub-id-type="pmid">1379347</pub-id></element-citation></ref><ref id="pone.0000046-Duan1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Duan</surname><given-names>Z</given-names></name><name><surname>Stamatoyannopoulos</surname><given-names>G</given-names></name><name><surname>Li</surname><given-names>Q</given-names></name></person-group>
+<year>2001</year>
+<article-title>Role of NF-Y in in vivo regulation of the gamma-globin gene.</article-title>
+<source>Mol Cell Biol</source>
+<volume>21</volume>
+<fpage>3083</fpage>
+<lpage>3095</lpage>
+<pub-id pub-id-type="pmid">11287613</pub-id></element-citation></ref><ref id="pone.0000046-Ikuta1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ikuta</surname><given-names>T</given-names></name><name><surname>Kan</surname><given-names>YW</given-names></name></person-group>
+<year>1991</year>
+<article-title>In vivo protein-DNA interactions at the beta-globin gene locus.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>88</volume>
+<fpage>10188</fpage>
+<lpage>10192</lpage>
+<pub-id pub-id-type="pmid">1946439</pub-id></element-citation></ref><ref id="pone.0000046-Ikuta2"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ikuta</surname><given-names>T</given-names></name><name><surname>Papayannopoulou</surname><given-names>T</given-names></name><name><surname>Stamatoyannopoulos</surname><given-names>G</given-names></name><name><surname>Kan</surname><given-names>YW</given-names></name></person-group>
+<year>1996</year>
+<article-title>Globin gene switching. In vivo protein-DNA interactions of the human beta-globin locus in erythroid cells expressing the fetal or the adult globin gene program.</article-title>
+<source>J Biol Chem</source>
+<volume>271</volume>
+<fpage>14082</fpage>
+<lpage>14091</lpage>
+<pub-id pub-id-type="pmid">8662960</pub-id></element-citation></ref><ref id="pone.0000046-Ronchi1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ronchi</surname><given-names>AE</given-names></name><name><surname>Bottardi</surname><given-names>S</given-names></name><name><surname>Mazzucchelli</surname><given-names>C</given-names></name><name><surname>Ottolenghi</surname><given-names>S</given-names></name><name><surname>Santoro</surname><given-names>C</given-names></name></person-group>
+<year>1995</year>
+<article-title>Differential binding of the NFE3 and CP1/NFY transcription factors to the human gamma- and epsilon-globin CCAAT boxes.</article-title>
+<source>J Biol Chem</source>
+<volume>270</volume>
+<fpage>21934</fpage>
+<lpage>21941</lpage>
+<pub-id pub-id-type="pmid">7545172</pub-id></element-citation></ref><ref id="pone.0000046-Forget1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Forget</surname><given-names>BG</given-names></name></person-group>
+<year>1998</year>
+<article-title>Molecular basis of hereditary persistence of fetal hemoglobin.</article-title>
+<source>Ann N Y Acad Sci</source>
+<volume>850</volume>
+<fpage>38</fpage>
+<lpage>44</lpage>
+<pub-id pub-id-type="pmid">9668525</pub-id></element-citation></ref><ref id="pone.0000046-Fibach1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fibach</surname><given-names>E</given-names></name><name><surname>Manor</surname><given-names>D</given-names></name><name><surname>Oppenhein</surname><given-names>A</given-names></name><name><surname>Rachmilewitz</surname><given-names>EA</given-names></name></person-group>
+<year>1989</year>
+<article-title>Proliferation and maturation of human erythroid progenitors in liquid culture.</article-title>
+<source>Blood</source>
+<volume>73</volume>
+<fpage>100</fpage>
+<lpage>103</lpage>
+<pub-id pub-id-type="pmid">2910352</pub-id></element-citation></ref><ref id="pone.0000046-Collins1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Collins</surname><given-names>FS</given-names></name><name><surname>Cole</surname><given-names>JL</given-names></name><name><surname>Lockwood</surname><given-names>WK</given-names></name><name><surname>Iannuzzi</surname><given-names>MC</given-names></name></person-group>
+<year>1987</year>
+<article-title>The deletion in both common types of hereditary persistence of fetal hemoglobin is approximately 105 kilobases.</article-title>
+<source>Blood</source>
+<volume>70</volume>
+<fpage>1797</fpage>
+<lpage>1803</lpage>
+<pub-id pub-id-type="pmid">2445400</pub-id></element-citation></ref><ref id="pone.0000046-Huisman1"><label>32</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Huisman</surname><given-names>THJ</given-names></name><name><surname>Carver</surname><given-names>MFH</given-names></name><name><surname>Baysal</surname><given-names>E</given-names></name></person-group>
+<year>1997</year>
+<article-title>The Sickle Cell Anemia Foundation, Augusta, GA.</article-title>
+</element-citation></ref><ref id="pone.0000046-Oppenheim1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Oppenheim</surname><given-names>A</given-names></name><name><surname>Katzir</surname><given-names>Y</given-names></name><name><surname>Fibach</surname><given-names>E</given-names></name><name><surname>Goldfarb</surname><given-names>A</given-names></name><name><surname>Rachmilewitz</surname><given-names>E</given-names></name></person-group>
+<year>1985</year>
+<article-title>Hypomethylation of DNA derived from purified human erythroid cells correlates with gene activity of the beta-globin cluster.</article-title>
+<source>Blood</source>
+<volume>66</volume>
+<fpage>1202</fpage>
+<lpage>1207</lpage>
+<pub-id pub-id-type="pmid">2996663</pub-id></element-citation></ref><ref id="pone.0000046-Poncz1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Poncz</surname><given-names>M</given-names></name><name><surname>Sutton</surname><given-names>M</given-names></name><name><surname>Delgrosso</surname><given-names>K</given-names></name><name><surname>Schwartz</surname><given-names>E</given-names></name><name><surname>Surrey</surname><given-names>S</given-names></name></person-group>
+<year>1987</year>
+<article-title>DNA methylation in hereditary persistence of fetal hemoglobin (HPFH-2).</article-title>
+<source>Nucleic Acids Res</source>
+<volume>15</volume>
+<fpage>5169</fpage>
+<lpage>5179</lpage>
+<pub-id pub-id-type="pmid">3601670</pub-id></element-citation></ref><ref id="pone.0000046-Feingold1"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Feingold</surname><given-names>EA</given-names></name><name><surname>Forget</surname><given-names>BG</given-names></name></person-group>
+<year>1989</year>
+<article-title>The breakpoint of a large deletion causing hereditary persistence of fetal hemoglobin occurs within an erythroid DNA domain remote from the beta-globin gene cluster.</article-title>
+<source>Blood</source>
+<volume>74</volume>
+<fpage>2178</fpage>
+<lpage>2186</lpage>
+<pub-id pub-id-type="pmid">2478223</pub-id></element-citation></ref><ref id="pone.0000046-Elder1"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Elder</surname><given-names>JT</given-names></name><name><surname>Forrester</surname><given-names>WC</given-names></name><name><surname>Thompson</surname><given-names>C</given-names></name><name><surname>Mager</surname><given-names>D</given-names></name><name><surname>Henthorn</surname><given-names>P</given-names></name><etal/></person-group>
+<year>1990</year>
+<article-title>Translocation of an erythroid-specific hypersensitive site in deletion-type hereditary persistence of fetal hemoglobin.</article-title>
+<source>Mol Cell Biol</source>
+<volume>10</volume>
+<fpage>1382</fpage>
+<lpage>1389</lpage>
+<pub-id pub-id-type="pmid">1690839</pub-id></element-citation></ref><ref id="pone.0000046-Li1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>F</given-names></name><name><surname>Chen</surname><given-names>J</given-names></name><name><surname>Izumi</surname><given-names>M</given-names></name><name><surname>Butler</surname><given-names>MC</given-names></name><name><surname>Keezer</surname><given-names>SM</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>The replication timing program of the Chinese hamster beta-globin locus is established coincident with its repositioning near peripheral heterochromatin in early G1 phase.</article-title>
+<source>J Cell Biol</source>
+<volume>154</volume>
+<fpage>283</fpage>
+<lpage>292</lpage>
+<pub-id pub-id-type="pmid">11470818</pub-id></element-citation></ref><ref id="pone.0000046-Gilbert1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gilbert</surname><given-names>DM</given-names></name></person-group>
+<year>2002</year>
+<article-title>Replication timing and metazoan evolution.</article-title>
+<source>Nature Genet</source>
+<volume>32</volume>
+<fpage>336</fpage>
+<lpage>337</lpage>
+<pub-id pub-id-type="pmid">12410226</pub-id></element-citation></ref><ref id="pone.0000046-Goren1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goren</surname><given-names>A</given-names></name><name><surname>Cedar</surname><given-names>H</given-names></name></person-group>
+<year>2003</year>
+<article-title>Replicating by the clock.</article-title>
+<source>Nature Rev Mol Cell Biol</source>
+<volume>4</volume>
+<fpage>25</fpage>
+<lpage>32</lpage>
+<pub-id pub-id-type="pmid">12511866</pub-id></element-citation></ref><ref id="pone.0000046-Zhang1"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>J</given-names></name><name><surname>Feng</surname><given-names>X</given-names></name><name><surname>Hashimshony</surname><given-names>T</given-names></name><name><surname>Keshet</surname><given-names>I</given-names></name><name><surname>Cedar</surname><given-names>H</given-names></name></person-group>
+<year>2002</year>
+<article-title>The establishment of transcriptional competence in early and late S-phase.</article-title>
+<source>Nature</source>
+<volume>420</volume>
+<fpage>198</fpage>
+<lpage>202</lpage>
+<pub-id pub-id-type="pmid">12432398</pub-id></element-citation></ref><ref id="pone.0000046-Ji1"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ji</surname><given-names>Y</given-names></name><name><surname>Zhang</surname><given-names>J</given-names></name><name><surname>Lee</surname><given-names>AI</given-names></name><name><surname>Cedar</surname><given-names>H</given-names></name><name><surname>Bergman</surname><given-names>Y</given-names></name></person-group>
+<year>2003</year>
+<article-title>A multistep mechanism for the activation of rearrangement in the immune system.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>100</volume>
+<fpage>7557</fpage>
+<lpage>7562</lpage>
+<pub-id pub-id-type="pmid">12802019</pub-id></element-citation></ref><ref id="pone.0000046-Ley1"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ley</surname><given-names>TJ</given-names></name><name><surname>DeSimone</surname><given-names>J</given-names></name><name><surname>Anagnous</surname><given-names>NP</given-names></name><name><surname>Keller</surname><given-names>GH</given-names></name><name><surname>Humphries</surname><given-names>RK</given-names></name><etal/></person-group>
+<year>1982</year>
+<article-title>5-azacytidine selectivity increase &#x003b2;-globin synthesis in a patient with &#x003b2;&#x0002b; Thalassemia.</article-title>
+<source>N Eng J Med</source>
+<volume>307</volume>
+<fpage>1469</fpage>
+<lpage>1475</lpage>
+</element-citation></ref><ref id="pone.0000046-Perrine1"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Perrine</surname><given-names>SP</given-names></name><name><surname>Ginder</surname><given-names>GD</given-names></name><name><surname>Faller</surname><given-names>DV</given-names></name><name><surname>Dover</surname><given-names>GH</given-names></name><name><surname>Ikuta</surname><given-names>T</given-names></name><etal/></person-group>
+<year>1993</year>
+<article-title>A short-term trial of butyrate to stimulate fetal-globin-gene expression in the beta-globin disorders.</article-title>
+<source>N Eng J Med</source>
+<volume>328</volume>
+<fpage>81</fpage>
+<lpage>86</lpage>
+</element-citation></ref><ref id="pone.0000046-Huxley1"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huxley</surname><given-names>C</given-names></name></person-group>
+<year>1998</year>
+<article-title>Exploring gene function: use of yeast artificial chromosome transgenesis.</article-title>
+<source>Methods</source>
+<volume>14</volume>
+<fpage>199</fpage>
+<lpage>210</lpage>
+<pub-id pub-id-type="pmid">9571077</pub-id></element-citation></ref><ref id="pone.0000046-KlochendlerYeivin1"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klochendler-Yeivin</surname><given-names>A</given-names></name><name><surname>Picarsky</surname><given-names>E</given-names></name><name><surname>Yaniv</surname><given-names>M</given-names></name></person-group>
+<year>2006</year>
+<article-title>Increased DNA damage sensitivity and apoptosis in cells lacking the Snf5/Ini1 subunit of the SWI/SNF chromatin remodeling complex.</article-title>
+<source>Mol Cell Biol</source>
+<volume>26</volume>
+<fpage>2661</fpage>
+<lpage>2674</lpage>
+<pub-id pub-id-type="pmid">16537910</pub-id></element-citation></ref><ref id="pone.0000046-Hajkova1"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hajkova</surname><given-names>P</given-names></name><name><surname>el-Maarri</surname><given-names>O</given-names></name><name><surname>Engemann</surname><given-names>S</given-names></name><name><surname>Oswald</surname><given-names>J</given-names></name><name><surname>Olek</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>DNA-methylation analysis by the bisulfite-assisted genomic sequencing method.</article-title>
+<source>Methods Mol Biol</source>
+<volume>200</volume>
+<fpage>143</fpage>
+<lpage>154</lpage>
+<pub-id pub-id-type="pmid">11951649</pub-id></element-citation></ref><ref id="pone.0000046-Bungert1"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bungert</surname><given-names>J</given-names></name><name><surname>Dave</surname><given-names>U</given-names></name><name><surname>Lim</surname><given-names>K-C</given-names></name><name><surname>Lieuw</surname><given-names>KH</given-names></name><name><surname>Shavit</surname><given-names>JA</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>Synergistic regulation of human b-globin gene switching by locus control region elements HS3 and HS4.</article-title>
+<source>Genes Dev</source>
+<volume>9</volume>
+<fpage>3083</fpage>
+<lpage>3096</lpage>
+<pub-id pub-id-type="pmid">8543153</pub-id></element-citation></ref><ref id="pone.0000046-Hebbes1"><label>48</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hebbes</surname><given-names>TR</given-names></name><name><surname>Clayton</surname><given-names>AL</given-names></name><name><surname>Thorne</surname><given-names>AW</given-names></name><name><surname>Crane-Robinson</surname><given-names>C</given-names></name></person-group>
+<year>1994</year>
+<article-title>Core histone hyperacetylation co-maps with generalized DNase I sensitivity in the chicken beta-globin chromosomal domain.</article-title>
+<source>EMBO J</source>
+<volume>13</volume>
+<fpage>1823</fpage>
+<lpage>1830</lpage>
+<pub-id pub-id-type="pmid">8168481</pub-id></element-citation></ref><ref id="pone.0000046-Szabo1"><label>49</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Szabo</surname><given-names>PE</given-names></name><name><surname>Pfeifer</surname><given-names>GP</given-names></name><name><surname>Miao</surname><given-names>F</given-names></name><name><surname>O'Connor</surname><given-names>TR</given-names></name><name><surname>Mann</surname><given-names>JR</given-names></name></person-group>
+<year>2000</year>
+<article-title>Improved in vivo dimethyl sulfate footprinting using AlkA protein: DNA- protein interactions at the mouse H19 gene promoter in primary embryo fibroblasts.</article-title>
+<source>Anal Biochem</source>
+<volume>283</volume>
+<fpage>112</fpage>
+<lpage>116</lpage>
+<pub-id pub-id-type="pmid">10929817</pub-id></element-citation></ref><ref id="pone.0000046-Szabo2"><label>50</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Szabo</surname><given-names>PE</given-names></name><name><surname>Pfeifer</surname><given-names>GP</given-names></name><name><surname>Mann</surname><given-names>JR</given-names></name></person-group>
+<year>2004</year>
+<article-title>Parent-of-origin-specific binding of nuclear hormone receptor complexes in the H19-Igf2 imprinting control region.</article-title>
+<source>Mol Cell Biol</source>
+<volume>24</volume>
+<fpage>4858</fpage>
+<lpage>4868</lpage>
+<pub-id pub-id-type="pmid">15143179</pub-id></element-citation></ref><ref id="pone.0000046-Tanimoto2"><label>51</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tanimoto</surname><given-names>K</given-names></name><name><surname>Liu</surname><given-names>Q</given-names></name><name><surname>Bungert</surname><given-names>J</given-names></name><name><surname>Engel</surname><given-names>JD</given-names></name></person-group>
+<year>1999</year>
+<article-title>Effects of altered gene order or orientation of the locus control region on human beta-globin gene expression in mice.</article-title>
+<source>Nature</source>
+<volume>398</volume>
+<fpage>344</fpage>
+<lpage>348</lpage>
+<pub-id pub-id-type="pmid">10192336</pub-id></element-citation></ref></ref-list></back></article>

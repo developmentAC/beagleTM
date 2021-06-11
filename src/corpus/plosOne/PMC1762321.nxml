@@ -1,0 +1,234 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17205122</article-id><article-id pub-id-type="pmc">1762321</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00206R2</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000118</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Ecology/Behavioral Ecology</subject><subject>Ecology/Evolutionary Ecology</subject><subject>Evolutionary Biology/Animal Behavior</subject></subj-group></article-categories><title-group><article-title>Swordtail Fry Attend to Chemical and Visual Cues in Detecting Predators and Conspecifics</article-title><alt-title alt-title-type="running-head">Fry Use Chemical &#x00026; Visual Cues</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Coleman</surname><given-names>Seth W.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="corresp" rid="n101">
+<sup>&#x0002a;</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Rosenthal</surname><given-names>Gil G.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<addr-line>Department of Biology, Texas A &#x00026; M University, College Station, Texas, United States of America</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<addr-line>Centro de Investigaci&#x000f3;n Cient&#x000ed;fica de las Huastecas &#x0201c;Aguazarca&#x0201d;, Calnali, Hidalgo, Mexico</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Tregenza</surname><given-names>Tom</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">University of Exeter, Cornwall Campus, United Kingdom</aff><author-notes><corresp id="n101">&#x0002a; To whom correspondence should be addressed. E-mail: <email>sethcoleman@tamu.edu</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: SC. Performed the experiments: GR SC. Analyzed the data: SC. Contributed reagents/materials/analysis tools: GR. Wrote the paper: SC.</p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>27</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e118</elocation-id><history><date date-type="received"><day>9</day><month>10</month><year>2006</year></date><date date-type="accepted"><day>23</day><month>11</month><year>2006</year></date></history><permissions><copyright-statement>Coleman, Rosenthal.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Predation pressure and energy requirements present particularly salient opposing selective pressures on young fish. Thus, fry are expected to possess sophisticated means of detecting predators and resources. Here we tested the hypotheses that fry of the swordtail fish <italic>Xiphophorus birchmanni</italic> use chemical and visual cues in detection of predators and conspecifics. To test these hypotheses we presented young (&#x0003c;7 day-old) fry with combinations of visual and chemical stimuli from adult conspecifics and predators. We found that exposure to predator odors resulted in shoal tightening similar to that observed when fry were presented with visual cues alone. In trials with conspecific stimuli, fry were particularly attracted to adult conspecifics when presented simultaneous visual and chemical stimuli compared to the visual stimulus alone. These results show that fry attend to the odors of adult conspecifics, whose presence in a particular area may signal the location of resources as well as an absence of predators. This is one of the first studies to show that such young fish use chemical and visual cues in predator detection and in interactions with conspecifics. Previous research in <italic>X. birchmanni</italic> has shown that anthropogenic alteration of the chemical environment disrupts intraspecific chemical communication among adults; we suggest that because fry use the same chemosensory pathways to detect predators and conspecifics, alteration of the chemical environment may critically disrupt predator and resource detection.</p></abstract><counts><page-count count="4"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Predation pressure is a primary force driving morphological, physiological, and behavioral evolution in many fishes <xref rid="pone.0000118-Endler1" ref-type="bibr">[1]</xref>&#x02013;<xref rid="pone.0000118-Lima2" ref-type="bibr">[6]</xref>. As a result, individuals in prey species frequently employ multiple sensory systems &#x02013; visual, chemical, auditory, tactile &#x02013; in the detection and avoidance of predators. Vulnerability to predators may be particularly high for young fish due to their small size and lack of experience with predators. In two-spotted gobies (<italic>Gobiusculus flavescens</italic>), for instance, whether juveniles respond to predator chemical stimuli depends on prior visual experience with the predator <xref rid="pone.0000118-UtnePalm1" ref-type="bibr">[7]</xref>; <xref rid="pone.0000118-Ferrari1" ref-type="bibr">[see also ref. 8]</xref>. Moreover, young fish may experience constant and conflicting pressure imposed by the high metabolic demands of growth and development countered by foraging-associated predation risk. Thus, young fish are expected to attend closely to cues associated with predation risk while foraging <xref rid="pone.0000118-Mikheev1" ref-type="bibr">[e.g. ref. 9]</xref>, and to modify their behavior appropriately when these cues are encountered.</p><p>In addition to attending to cues associated with threat, young fish should also attend to cues associated with resource availability and the absence of threat. We suggest that one way they may do this is to attend to the odors of adult conspecifics, whose presence in a particular area may signal the location of resources as well as an absence of predators. Here we investigate whether young fry of the swordtail fish <italic>Xiphophorus birchmanni</italic> attend to chemical and visual cues in the detection of predators and conspecifics.</p><p>
+<italic>X. birchmanni</italic> is a small livebearing species that inhabits shallow, rocky streams of the R&#x000ed;o P&#x000e1;nuco Basin in Mexico <xref rid="pone.0000118-Rauchenberger1" ref-type="bibr">[10]</xref>, <xref rid="pone.0000118-Morris1" ref-type="bibr">[11]</xref>. While these sexually dimorphic fish have been of much recent interest to evolutionary and behavioral biologists <xref rid="pone.0000118-Rosenthal1" ref-type="bibr">[12]</xref>&#x02013;<xref rid="pone.0000118-Fisher2" ref-type="bibr">[16]</xref>, little is known about behaviors not directly associated with mate choice <xref rid="pone.0000118-Rosenthal1" ref-type="bibr">[12]</xref>, <xref rid="pone.0000118-Wong1" ref-type="bibr">[13]</xref>, <xref rid="pone.0000118-Wong2" ref-type="bibr">[15]</xref>, <xref rid="pone.0000118-Fisher1" ref-type="bibr">[16; for research related to X. birchmanni shoaling preferences]</xref>, <xref rid="pone.0000118-Fisher2" ref-type="bibr">[see ref. 14]</xref>. Typical of poeciliids, <italic>X. birchmanni</italic> adults do not provide post-partum parental care. Thus, neonates are left to fend for themselves. In their native streams, <italic>X. birchmanni</italic> fry likely experience predation from multiple sources including several piscivorous fishes <xref rid="pone.0000118-Rosenthal2" ref-type="bibr">[17]</xref>, <xref rid="pone.0000118-Rosenthal3" ref-type="bibr">[18]</xref>. Here we use the sympatric native cichlid <italic>Herichthys carpintes</italic> to investigate the use of the chemical and visual cues of likely predators by <italic>X. birchmanni</italic> fry. If fry use chemical cues in predator detection, we predict that when fry encounter predator chemical cues they will respond with shoal tightening &#x02013; tighter shoaling in fish, flocking in birds, and herding in mammals, are adaptive responses to the presence of potential predators <xref rid="pone.0000118-Endler2" ref-type="bibr">[reviewed in refs. 2]</xref>&#x02013;<xref rid="pone.0000118-Lima1" ref-type="bibr">[4]</xref> &#x02013; and with defensive behaviors such as seeking out corners and walls of the test tanks. Also, if fry use chemical cues in interactions with adult conspecifics, and if the presence of adult conspecifics signals the presence of food and/or an absence of predators, then we predict that fry will be most attracted to adult conspecifics when they can see and smell them.</p></sec><sec id="s2"><title>Methods</title><p>On 22 and 24 April 2006, we used seines and baited minnow traps to capture <italic>X. birchmanni</italic> adults and fry (&#x0223c;4&#x02013;10 mm), and three mature <italic>H. carpintes,</italic> on the R&#x000ed;o Garces, Hidalgo, Mexico (20&#x000b0;57&#x02032;22 N, 098&#x000b0;16&#x02032;48 W). All individuals were transported immediately to the Centro de Investigaci&#x000f3;n Cientifica de las Huastecas &#x0201c;Aguazarca&#x0201d; (CICHAZ) in Calnali, Hidalgo, Mexico, where preference/avoidance trials were conducted within three days of capture. Based on growth curves of closely related <italic>Xiphophorus</italic>
+<xref rid="pone.0000118-Tamaru1" ref-type="bibr">[19]</xref>, the fry used in the experiment were less than 7 days old.</p><p>Prior to placing fry in &#x02018;test tanks&#x02019; (28 cm&#x000d7;17.5 cm&#x000d7;17 cm), each tank was filled to a depth of approximately &#x0223c;2.30 cm with tap water treated with Prime (Seachem Laboratories Inc., Covington, Georgia, USA), and placed on a piece of graph paper, allowing us to quantify fry location at different periods during each trial. The test tanks were placed on opposite sides of the visual stimulus tank (same dimensions as test tanks) (<xref ref-type="fig" rid="pone-0000118-g001">Figure 1</xref>), and then one pair of fry was placed in each test tank. Between trials, during acclimatization periods, and during chemical stimulus trials not involving a visual stimulus presentation, removable opaque dividers visually separated test tanks from the visual stimulus tank (<xref ref-type="fig" rid="pone-0000118-g001">Figure 1</xref>). The chemical stimulus tank &#x02013; identical dimensions as test tanks &#x02013; was filled with chemical stimulus water, and was placed approximately 0.5 m above the test tanks and the visual stimulus tank (<xref ref-type="fig" rid="pone-0000118-g001">Figure 1</xref>). To make predator chemical stimulus water, the three cichlids were housed for more than 24 hours in a standard 40 l aquarium; water from this tank was then used in all predator chemical stimulus trials. To make conspecific chemical stimulus water, <italic>X. birchmanni</italic> adults were housed in tubs filled with &#x0223c;40 l of treated tap water; approximately 50 adults were housed in each tub for at least 24 hours before the water was used for conspecific chemical stimulus trials. Adults were not fed during the housing period. All trials were recorded using a Sony VX2000 digital video camera, mounted approximately 0.75 m above the test and visual stimuli tanks.</p><fig id="pone-0000118-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000118.g001</object-id><label>Figure 1</label><caption><p>Schematic of the Experimental Setup Two pairs of fry &#x02013; one in each compartment &#x02018;A&#x02019; &#x02013; were placed on either side of the visual stimulus tank (B). During trials with visual stimuli, the opaque dividers (thick black lines) were removed, and fry could see either a single large cichlid &#x02013; in PV and PCV trials &#x02013; or two adult conspecifics &#x02013; in CV and CCV trials. In trials involving chemical stimuli, stimulus water was dripped into one end of the fry tanks (represented by the black point).</p></caption><graphic xlink:href="pone.0000118.g001"/></fig><p>We separated our 36 fry into 16 pairs, haphazardly chosen &#x02013; every two fry caught with a sweep of the dip net became a pair for the experiment. Each pair of fry was presented with a full suite of stimulus presentations (see below), and was used only once; following the final stimulus presentation, each fry pair was into an awaiting post treatment 40 l tank. Sets of fry pairs &#x02013; four fry in total (see <xref ref-type="fig" rid="pone-0000118-g001">Figure 1</xref>) &#x02013; were presented with a series of six stimulus presentations: conspecific chemical (CC), conspecific visual (CV), conspecific chemical and visual (CCV), predator chemical (PC), predator visual (PV), and predator chemical and visual (PCV); for each set of fry pairs, the order of stimulus presentations was randomized to control for possible order effects. In CV and CCV presentations, one adult male and one adult female were placed in the visual stimulus tank. In PV and PCV presentations, one large (&#x0223c;5.0 cm) cichlid was placed in the visual stimulus tank, between the fry test tanks on either side (<xref ref-type="fig" rid="pone-0000118-g001">Figure 1</xref>). After placing one pair of fry in each test tank, trials began with a five minute acclimatization period, followed by a five minute stimulus presentation. After visual stimulus presentations, the opaque dividers separating the test tanks from the visual stimulus tank were replaced. During chemical stimulus presentations, chemical stimulus water was dripped into each test tank at constant rate; following chemical stimulus presentations, fry were removed from test tanks, the tanks were rinsed and then refilled with treated tap water, and fry pairs were returned to test tanks. All stimulus presentations were preceded by a five minute acclimatization period.</p><p>Video recording began at the start of each acclimatization period, and continued through the proceeding five-minute stimulus period; twice during each trial we recorded still images to determine fry locations. These images of fry locations were taken 30 seconds prior to stimulus presentations (i.e. during the acclimatization period), and 30 seconds after stimulus presentations began. At each time period, we determined fry proximity to (i) each other, (ii) the stimulus (for chemical stimulus presentations, we calculated the distance of each fry from the chemical water input tube; for CV presentations, we used the distance of each fry from the nearest adult), (iii) the nearest corner of the test tank, and (iv) the nearest wall of the test tank. For analyses, we pooled measurement data across fry pairs so that we could compare mean distances of fry from each other, from the stimulus, and from tank walls and corners, among treatments. ANOVA were used to evaluate treatment effects on fry proximity to tank walls, tank corners, and each other. If an ANOVA revealed significant treatment effects, Fisher LSD tests were used to evaluate differences between specific means <xref rid="pone.0000118-Sokal1" ref-type="bibr">[20]</xref>. Because the visual stimulus tank was not on graph paper, we could not calculate precise distances of fry from the visual stimulus animal, either a cichlid or nearest adult conspecific, thus we used discrete measures of distance: tank widths. For each visual stimulus trial, we calculated the number of half-tank widths between the fry and the visual stimulus animal; in the cases of CV and CCV trials, we determined the distance from the fry to the nearest adult. We pooled data among pairs of fry, and for each trial calculated the mean tank-width distances from visual stimuli. An ANOVA was used to evaluate treatment effects, and Fisher LSD tests were then used to evaluate differences between specific means <xref rid="pone.0000118-Sokal1" ref-type="bibr">[20]</xref>. We did not replicate the predator trials for two primary reasons. First, housing multiple predators is logistically problematic. Second, It has been argued that prey animals' responses to the presence of predators is under strong selection to be a highly generalized and stereotypical response &#x02013; though in some cases requiring experiential learning to become stereotypical. This argument is supported by the common usage of single individuals as predator stimuli in previous studies of predator avoidance behavior in fishes <xref rid="pone.0000118-UtnePalm1" ref-type="bibr">[7]</xref>, <xref rid="pone.0000118-Mikheev1" ref-type="bibr">[9]</xref>, <xref rid="pone.0000118-Hirvonen1" ref-type="bibr">[24]</xref>. For these reasons, we did not find it necessary to conduct replicated trials using multiple cichlids as predator stimuli.</p></sec><sec id="s3"><title>Results</title><p>We tested the hypotheses that <italic>X. birchmanni</italic> fry use visual and chemical cues in detection of predators and conspecifics. We found that stimulus presentation did not affect fry proximity to the nearest wall (<italic>F</italic>
+<sub>1,6</sub>&#x0200a;=&#x0200a;1.59, <italic>p</italic>&#x0200a;=&#x0200a;0.16) or corner (<italic>F</italic>
+<sub>1,6</sub>&#x0200a;=&#x0200a;1.43, <italic>p</italic>&#x0200a;=&#x0200a;0.21) of the test tank, but did have a significant effect on fry shoaling (<italic>F</italic>
+<sub>1,6</sub>&#x0200a;=&#x0200a;2.24, <italic>p</italic>&#x0200a;=&#x0200a;0.04). Fry responded to predator visual and chemical stimuli with shoal tightening (<xref ref-type="fig" rid="pone-0000118-g002">Figure 2</xref>).</p><p>ANOVA revealed that the type of stimulus affected fry distances from visual stimuli (<italic>F</italic>
+<sub>1,3</sub>&#x0200a;=&#x0200a;8.16, <italic>p</italic>&#x0003c;0.0001). Comparisons of mean distances from visual stimuli revealed that fry avoided predators, but were attracted to adult conspecifcs, especially when they could see and smell them (<xref ref-type="fig" rid="pone-0000118-g003">Figure 3</xref>).</p><fig id="pone-0000118-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000118.g002</object-id><label>Figure 2</label><caption><p>Mean Distance Between Fry During Trials This figure shows that fry shoal more tightly when presented with predator chemical (PC), predator visual (PV), and simultaneous predator chemical and visual (PCV) stimuli, than when presented with conspecific chemical (CC), conspecific visual (CV), and conspecific chemical and visual (CCV) stimuli. The mean distance between fry during the acclimatization period (A) was intermediate between the mean inter-fry distances during conspecific and predator stimuli trials. Bars and whiskers represent the mean&#x000b1;SE. Means with different letters above them are significantly different (<italic>p</italic>&#x0003c;0.05).</p></caption><graphic xlink:href="pone.0000118.g002"/></fig><fig id="pone-0000118-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000118.g003</object-id><label>Figure 3</label><caption><p>Comparisons of Mean Distances from Visual Stimuli This figure shows that fry (1) stayed further away from predators than they did from adult conspecifics, and (2) were most attracted to adult conspecifics when they could see and smell them (in conspecific chemical visual trials (CCV)). Bars and whiskers represent the mean&#x000b1;SE. Means with different letters above them are significantly different (<italic>p</italic>&#x0003c;0.05; asterisk: <italic>p</italic>&#x0003c;0.01).</p></caption><graphic xlink:href="pone.0000118.g003"/></fig></sec><sec id="s4"><title>Discussion</title><p>Individuals in prey species are expected to attend closely to predator cues, and respond to these cues with predator avoidance tactics. This hypothesis has received much support among studies of adult fish <xref rid="pone.0000118-UtnePalm1" ref-type="bibr">[7]</xref>, <xref rid="pone.0000118-Ferrari1" ref-type="bibr">[8]</xref>, <xref rid="pone.0000118-Freisen1" ref-type="bibr">[21; reviewed in refs. 22]</xref>, <xref rid="pone.0000118-Smith1" ref-type="bibr"/>
+<xref rid="pone.0000118-Smith2" ref-type="bibr">[23]</xref>, and in a handful of studies investigating the use of predator chemical cues by juvenile fish. In the European perch (<italic>Perca fluviatilis</italic>), for instance, young-of-the-year reduce food intake when in the presence of odors of northern pike (<italic>Esox lucius</italic>) &#x02013; a common perch predator <xref rid="pone.0000118-Mikheev1" ref-type="bibr">[9]</xref>. And, in what reflects the long coevolutionary history between trout fry and their sympatric predators, young arctic char (<italic>Salvelinus alpinus</italic> L.) are able to discriminate among multiple predators based solely on chemical information, and modify their behavior adaptively based on olfactory information <xref rid="pone.0000118-Hirvonen1" ref-type="bibr">[24]</xref>. Here we show that week-old <italic>Xiphophorus birchmanni</italic> fry use a multimodal combination of chemical and visual cues in both predator detection and in interactions with adult conspecifics.</p><p>In this experiment, we found that fry responded to predator visual stimuli, chemical stimuli, and a combination of visual and chemical stimuli with tighter shoaling behavior than when presented with stimuli from adult conspecifics (<xref ref-type="fig" rid="pone-0000118-g002">Figure 2</xref>). Shoaling in response to predator proximity may benefit potential prey in several ways. First, shoaling may reduce the hunting efficiency of visual orienting predators that are confused in the presence of multiple targets <xref rid="pone.0000118-Curio1" ref-type="bibr">[25]</xref>, <xref rid="pone.0000118-Neill1" ref-type="bibr">[26]</xref>. Second, by shoaling, the likelihood that a particular individual is attacked decreases with increasing shoal size. This adaptive explanation &#x02013; i.e. the &#x02018;selfish herd&#x02019; model &#x02013; has been used to explain the widespread occurrence of grouping in many animals as a predator avoidance strategy <xref rid="pone.0000118-Curio1" ref-type="bibr">[reviewed in refs. 25]</xref>, <xref rid="pone.0000118-Neill1" ref-type="bibr">[26]</xref>. Third, in species where experience is important in predator avoidance &#x02013; such as in two-spotted gobies <xref rid="pone.0000118-UtnePalm1" ref-type="bibr">[7]</xref> &#x02013; an inexperienced individual may benefit by associating with more experienced individuals who have acquired important predator avoidance behaviors.</p><p>We also found that <italic>X. birchmanni</italic> fry attend to the chemical cues of conspecific adults, and are particularly attracted to them when presented with simultaneous chemical and visual stimuli (<xref ref-type="fig" rid="pone-0000118-g003">Figure 3</xref>). One explanation for these results is that fry are attracted to the odors of conspecifics because they contain cues indicating the presence of food. More specifically, we suggest that the odors may contain information about the success of the particular adults at acquiring food. <italic>Xiphophorus birchmanni</italic> can smell the nutritional state of conspecifics: a recent study of mate choice in <italic>X. birchmanni</italic> showed that females prefer the odors of well-fed males to the odors of food-deprived males <xref rid="pone.0000118-Fisher1" ref-type="bibr">[15]</xref>. We suggest that <italic>X. birchmanni</italic> fry may attend to the same cues indicating nutritional state, though use the information in decisions related to resource acquisition, not mate choice.</p><p>Our findings that <italic>Xiphophorus birchmanni</italic> fry use chemical cues in predator detection and in interactions with conspecifics may have important implications for conservation of this species. Recent research on mate choice in <italic>X. birchmanni</italic> has shown that (i) females use chemical cues in mate choice <xref rid="pone.0000118-Wong1" ref-type="bibr">[13]</xref>, and (ii) anthropogenic alteration of the chemical environment disrupts the chemical communication system used in mate choice <xref rid="pone.0000118-Fisher1" ref-type="bibr">[15]</xref>. More specifically, Fisher et al. <xref rid="pone.0000118-Fisher1" ref-type="bibr">[15]</xref> showed that females lose their species-specific mate preferences in the presence of anthropogenic chemical inputs, such as sewage and washing detergents. Because fry likely use the same chemosensory pathways to detect predators, and conspecifics, alteration of the chemical environment may similarly disrupt predator detection and resource acquisition.</p><p>Chemical information is a ubiquitous feature in most environments <xref rid="pone.0000118-Wyatt1" ref-type="bibr">[27]</xref>. It is therefore not surprising that animals have evolved diverse sensory systems for collecting, detecting, and processing chemical stimuli <xref rid="pone.0000118-Wyatt1" ref-type="bibr">[27]</xref>. Here we show that very young animals have sophisticated mechanisms for discriminating among specific chemical cues, and that they are able to process information from multiple sensory modalities resulting in adaptive behavioral responses.</p></sec></body><back><ack><p>We thank C. E. Dobbs for assistance in data collection. Thanks to Zach Cress for field assistance. We thank Ramiro Lara and Clemente Hernandez for their generosity while working in Mexico. For permission to work in Mexico, we thank the federal government of Mexico.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>SWC is supported by an individual National Research Service Award from the National Institutes of Health, USA. GGR is supported by a grant (IOB-063712) from the National Science Foundation, USA.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0000118-Endler1"><label>1</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Endler</surname><given-names>JA</given-names></name></person-group>
+<year>1986</year>
+<article-title>Natural Selection in the Wild.</article-title>
+<source>Monographs in Population Biology 21.</source>
+<publisher-loc>Princeton</publisher-loc>
+<publisher-name>Princeton University Press</publisher-name>
+<fpage>336</fpage>
+</element-citation></ref><ref id="pone.0000118-Endler2"><label>2</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Endler</surname><given-names>JA</given-names></name></person-group>
+<year>1991</year>
+<article-title>Interactions between predators and prey.</article-title>
+<person-group person-group-type="editor"><name><surname>Krebs</surname><given-names>JR</given-names></name><name><surname>Davies</surname><given-names>NB</given-names></name></person-group>
+<source>Behavioral Ecology.</source>
+<publisher-loc>Oxford</publisher-loc>
+<publisher-name>Blackwell Scientific</publisher-name>
+<fpage>169</fpage>
+<lpage>196</lpage>
+</element-citation></ref><ref id="pone.0000118-Elgar1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Elgar</surname><given-names>MA</given-names></name></person-group>
+<year>1989</year>
+<article-title>Predator vigilance and group size in mammals and birds: a critical review of the empirical evidence.</article-title>
+<source>Biol Rev</source>
+<volume>64</volume>
+<fpage>13</fpage>
+<lpage>33</lpage>
+<pub-id pub-id-type="pmid">2655726</pub-id></element-citation></ref><ref id="pone.0000118-Lima1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lima</surname><given-names>SL</given-names></name><name><surname>Dill</surname><given-names>LM</given-names></name></person-group>
+<year>1990</year>
+<article-title>Behavioral decisions made under the risk of predation: a review and prospectus.</article-title>
+<source>Can J Zool</source>
+<volume>68</volume>
+<fpage>619</fpage>
+<lpage>640</lpage>
+</element-citation></ref><ref id="pone.0000118-Kats1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kats</surname><given-names>LB</given-names></name><name><surname>Dill</surname><given-names>LM</given-names></name></person-group>
+<year>1998</year>
+<article-title>The scent of death: chemosensory assessment of predation risk by prey animals.</article-title>
+<source>Ecoscience</source>
+<volume>5</volume>
+<fpage>361</fpage>
+<lpage>394</lpage>
+</element-citation></ref><ref id="pone.0000118-Lima2"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lima</surname><given-names>SL</given-names></name></person-group>
+<year>1998</year>
+<article-title>Nonlethal effects in the ecology of predator-prey interactions. What are the ecological effects of antipredator decision making?</article-title>
+<source>BioScience</source>
+<volume>48</volume>
+<fpage>25</fpage>
+<lpage>34</lpage>
+</element-citation></ref><ref id="pone.0000118-UtnePalm1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Utne-Palm</surname><given-names>AC</given-names></name></person-group>
+<year>2001</year>
+<article-title>Response of na&#x000ef;ve two-spotted gobies (<italic>Gobius flaviscens</italic>) to visual and chemical stimuli of their natural predator, cod (<italic>Gadus morhua</italic>).</article-title>
+<source>Mar Ecol Pro Ser</source>
+<volume>218</volume>
+<fpage>267</fpage>
+<lpage>274</lpage>
+</element-citation></ref><ref id="pone.0000118-Ferrari1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ferrari</surname><given-names>MCO</given-names></name><name><surname>Capitania-Kwok</surname><given-names>T</given-names></name><name><surname>Chivers</surname><given-names>D</given-names></name></person-group>
+<year>2006</year>
+<article-title>The role of learning in the acquisition of threat-sensitive responses to predator odors.</article-title>
+<source>Behav Ecol Sociobiol</source>
+<volume>60</volume>
+<fpage>522</fpage>
+<lpage>527</lpage>
+</element-citation></ref><ref id="pone.0000118-Mikheev1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mikheev</surname><given-names>VN</given-names></name><name><surname>Wanzenb&#x000f6;ck</surname><given-names>J</given-names></name><name><surname>Pasternak</surname><given-names>AF</given-names></name></person-group>
+<year>2006</year>
+<article-title>Effects of predator-induced visual and olfactory cues on 0&#x0002b; perch (<italic>Perca fluviatilis</italic> L.) foraging behaviour.</article-title>
+<source>Ecol Freshwater Fishes</source>
+<volume>15</volume>
+<fpage>111</fpage>
+<lpage>117</lpage>
+</element-citation></ref><ref id="pone.0000118-Rauchenberger1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rauchenberger</surname><given-names>MKD</given-names></name><name><surname>Kallman</surname><given-names>KD</given-names></name><name><surname>Morizot</surname><given-names>DC</given-names></name></person-group>
+<year>1990</year>
+<article-title>Monophyly and geography of the R&#x000ed;o P&#x000e1;nuco basin swordtails (genus <italic>Xiphophorus</italic>) with descriptions of four new species.</article-title>
+<source>Am Mus Novitates</source>
+<volume>2975</volume>
+<fpage>1</fpage>
+<lpage>41</lpage>
+</element-citation></ref><ref id="pone.0000118-Morris1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morris</surname><given-names>MR</given-names></name><name><surname>de Queiroz</surname><given-names>K</given-names></name><name><surname>Morizot</surname><given-names>D</given-names></name></person-group>
+<year>2001</year>
+<article-title>Phylogenetic relationships among the Northern Swordtails (<italic>Xiphophorus</italic>) as inferred from allozyme data.</article-title>
+<source>Copiea</source>
+<volume>2001</volume>
+<fpage>65</fpage>
+<lpage>81</lpage>
+</element-citation></ref><ref id="pone.0000118-Rosenthal1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rosenthal</surname><given-names>GG</given-names></name><name><surname>de la Rosa Reyna</surname><given-names>FX</given-names></name><name><surname>Kazianis</surname><given-names>S</given-names></name><name><surname>Stephens</surname><given-names>MJ</given-names></name><name><surname>Morizot</surname><given-names>DC</given-names></name><name><surname>Ryan</surname><given-names>MJ</given-names></name><name><surname>Garc&#x000ed;a de Le&#x000f3;n</surname><given-names>FJ</given-names></name></person-group>
+<year>2003</year>
+<article-title>Dissolution of sexual signal complexes in a hybrid zone between the swordtails <italic>Xiphophorus birchmanni</italic> and <italic>Xiphophorus malinche</italic> (Poeciliidae).</article-title>
+<source>Copeia</source>
+<volume>2003</volume>
+<fpage>299</fpage>
+<lpage>307</lpage>
+</element-citation></ref><ref id="pone.0000118-Wong1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wong</surname><given-names>BBM</given-names></name><name><surname>Fisher</surname><given-names>HS</given-names></name><name><surname>Rosenthal</surname><given-names>GG</given-names></name></person-group>
+<year>2005</year>
+<article-title>Species recognition by male swordtails via chemical cues.</article-title>
+<source>Behav Ecol</source>
+<volume>16</volume>
+<fpage>818</fpage>
+<lpage>822</lpage>
+</element-citation></ref><ref id="pone.0000118-Wong2"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wong</surname><given-names>BBM</given-names></name><name><surname>Rosenthal</surname><given-names>GG</given-names></name></person-group>
+<year>2006</year>
+<article-title>Female disdain for swords in a swordtail fish.</article-title>
+<source>Am Nat</source>
+<volume>167</volume>
+<fpage>136</fpage>
+<lpage>140</lpage>
+<pub-id pub-id-type="pmid">16475105</pub-id></element-citation></ref><ref id="pone.0000118-Fisher1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fisher</surname><given-names>HS</given-names></name><name><surname>Wong</surname><given-names>BB</given-names></name><name><surname>Rosenthal</surname><given-names>GG</given-names></name></person-group>
+<year>2006</year>
+<article-title>Alteration of the chemical environment disrupts communication in a freshwater fish.</article-title>
+<source>Proc Biol Sci</source>
+<volume>273</volume>
+<fpage>1187</fpage>
+<lpage>1193</lpage>
+<pub-id pub-id-type="pmid">16720390</pub-id></element-citation></ref><ref id="pone.0000118-Fisher2"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fisher</surname><given-names>HS</given-names></name><name><surname>Rosenthal</surname><given-names>GG</given-names></name></person-group>
+<article-title>Female swordtail fish use chemical cues to select well-fed mates.</article-title>
+<source>Anim Behav</source>
+<comment>in press. doi:10.1016/j.anbehav.2006.02.009</comment>
+</element-citation></ref><ref id="pone.0000118-Rosenthal2"><label>17</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Rosenthal</surname><given-names>GG</given-names></name></person-group>
+<year>2000</year>
+<article-title>The behavioral ecology of visual signaling in swordtails.</article-title>
+<comment>Ph. D. diss.</comment>
+<publisher-name>University of Texas</publisher-name>
+<publisher-loc>Austin</publisher-loc>
+</element-citation></ref><ref id="pone.0000118-Rosenthal3"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rosenthal</surname><given-names>GG</given-names></name><name><surname>Flores Martinez</surname><given-names>TY</given-names></name><name><surname>Garc&#x000ed;a de Le&#x000f3;n</surname><given-names>FJ</given-names></name><name><surname>Ryan</surname><given-names>MJ</given-names></name></person-group>
+<year>2001</year>
+<article-title>Shared preferences by predators and females for male ornaments in swordtails.</article-title>
+<source>Am Nat</source>
+<volume>158</volume>
+<fpage>146</fpage>
+<lpage>154</lpage>
+<pub-id pub-id-type="pmid">18707343</pub-id></element-citation></ref><ref id="pone.0000118-Tamaru1"><label>19</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Tamaru</surname><given-names>CS</given-names></name><name><surname>Cole</surname><given-names>B</given-names></name><name><surname>Bailey</surname><given-names>R</given-names></name><name><surname>Brown</surname><given-names>C</given-names></name><name><surname>Ako</surname><given-names>H</given-names></name></person-group>
+<year>2001</year>
+<source>A manual for commercial production of the swordtail, Xiphohporus helleri.</source>
+<publisher-loc>Honolulu</publisher-loc>
+<publisher-name>University of Hawaii Sea Grant Extension Services</publisher-name>
+</element-citation></ref><ref id="pone.0000118-Sokal1"><label>20</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Sokal</surname><given-names>RR</given-names></name><name><surname>Rohlf</surname><given-names>FJ</given-names></name></person-group>
+<year>1995</year>
+<source>Biometry.</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>W. H. Freeman and Company</publisher-name>
+</element-citation></ref><ref id="pone.0000118-Freisen1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Freisen</surname><given-names>RG</given-names></name><name><surname>Chivers</surname><given-names>DP</given-names></name></person-group>
+<year>2005</year>
+<article-title>Underwater video reveals strong avoidance of chemical alarm cues by prey fishes.</article-title>
+<source>Ethol</source>
+<volume>112</volume>
+<fpage>339</fpage>
+<lpage>345</lpage>
+</element-citation></ref><ref id="pone.0000118-Smith1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>RJF</given-names></name></person-group>
+<year>1992</year>
+<article-title>Alarm signals in fishes.</article-title>
+<source>Rev Fish Biol</source>
+<volume>2</volume>
+<fpage>33</fpage>
+<lpage>62</lpage>
+</element-citation></ref><ref id="pone.0000118-Smith2"><label>23</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>RJF</given-names></name></person-group>
+<year>1997</year>
+<article-title>Avoiding and deterring predators.</article-title>
+<person-group person-group-type="editor"><name><surname>Godin</surname><given-names>JGJ</given-names></name></person-group>
+<source>Behavioral ecology of teleost fishes.</source>
+<publisher-loc>Oxford</publisher-loc>
+<publisher-name>Oxford University Press</publisher-name>
+<fpage>163</fpage>
+<lpage>190</lpage>
+</element-citation></ref><ref id="pone.0000118-Hirvonen1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hirvonen</surname><given-names>H</given-names></name><name><surname>Ranta</surname><given-names>E</given-names></name><name><surname>Piironen</surname><given-names>J</given-names></name><name><surname>Laurila</surname><given-names>A</given-names></name><name><surname>Peuhkuri</surname><given-names>N</given-names></name></person-group>
+<year>2000</year>
+<article-title>Behavioural responses of na&#x000ef;ve Arctic char young to chemical cues from salmonid and non-salmonid fish.</article-title>
+<source>OIKOS</source>
+<volume>88</volume>
+<fpage>191</fpage>
+<lpage>199</lpage>
+</element-citation></ref><ref id="pone.0000118-Curio1"><label>25</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Curio</surname><given-names>E</given-names></name></person-group>
+<year>1976</year>
+<source>The ethology of predation.</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Springer</publisher-name>
+</element-citation></ref><ref id="pone.0000118-Neill1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Neill</surname><given-names>SRstJ</given-names></name><name><surname>Cullen</surname><given-names>JM</given-names></name></person-group>
+<year>1974</year>
+<article-title>Experiments on whether schooling by their prey affects the hunting behaviour of cephalopod and fish predators.</article-title>
+<source>J Zool</source>
+<volume>172</volume>
+<fpage>549</fpage>
+<lpage>569</lpage>
+</element-citation></ref><ref id="pone.0000118-Wyatt1"><label>27</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Wyatt</surname><given-names>TD</given-names></name></person-group>
+<year>2003</year>
+<source>Pheromones and animal behavior: Communication by smell and taste.</source>
+<publisher-loc>Cambridge, Massachusetts</publisher-loc>
+<publisher-name>Cambridge University Press</publisher-name>
+<fpage>410</fpage>
+</element-citation></ref></ref-list></back></article>
