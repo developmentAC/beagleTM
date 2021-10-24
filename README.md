@@ -87,6 +87,7 @@ While the literature parsing stage is not recommended to be run inside a Docker 
 #### OS-specific scripts to build and run containers
 The following bash scripts simplify building the container.
 
+
 | OS  | Building  | Running  |
 |---|---|---|
 | MacOS  		|  `./build_macOS.sh` |  `./run_macOS.sh` |
