@@ -11,8 +11,8 @@ banner0_str ="""
 """
 #banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
-DATE = "6 Feb 2021"
-VERSION = "2_iv"
+DATE = "1 November 2021"
+VERSION = "2_v"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
@@ -76,7 +76,7 @@ def writer(in_str, var=None):
 		in_str = in_str + ": {}" # add braces
 		st.write(in_str.format(var)) # input string should contain the "{}".
 	return "ok computer"
-	#end of writer()
+#end of writer()
 
 
 def getAllKeywords(data_dic):
@@ -124,7 +124,7 @@ def getPath():
 		return myPath
 	except FileNotFoundError:
 		return None
-	#end of getPath()
+#end of getPath()
 
 def stringToList(in_str):
 	"""converts a string that looks like a list, to a list. Ex: '[1,2,3]' -> [1,2,3]"""
@@ -134,7 +134,7 @@ def stringToList(in_str):
 			return ast.literal_eval(in_str)
 	else:
 		return []
-	#end of stringToList
+#end of stringToList
 
 
 
@@ -165,22 +165,7 @@ def showMyPlot(G, plotName_str):
 	# st.write(platform_str)
 	# st.success(f" Output file saved: {plotName_str}")
 
-
-	path_str = getPath()
-
-	if path_str != None:
-#		st.success(path_str)
-		link_str = "file://" + f"{path_str}/{plotName_str}"
-		st.markdown(f"Output file saved:\n ##### {link_str}")
-	else:
-#		st.success(path_str)
-		link_str = "file://" + f"{plotName_str}"
-		st.markdown(f"Output file saved:\n ##### {link_str}")
-
-# clickabe link not yet working ... :-(
-	# link = f'[output]({link_str})'
-	# st.markdown(link, unsafe_allow_html=True)
-
+	giveUserLink(plotName_str)
 
 	if platform_str == "osx":
 		st.write("osx machine... ")
@@ -193,7 +178,7 @@ def showMyPlot(G, plotName_str):
 		#st.write("linux machine ...")
 		G.show(plotName_str)
 
-	#end of showMyPlot()
+#end of showMyPlot()
 
 def createMasterDataDic(data_in):
 	""" function to create a dictionary of headers (keys; [Title, Abstract, PMID, Journal, Year, References, Keyword, Counts] and the list of data for each one of these keys (values). Returns the dictionary"""
@@ -225,7 +210,7 @@ def createMasterDataDic(data_in):
 
 #	st.balloons()
 	return header_dic
-	#end of createMasterDataDic()
+#end of createMasterDataDic()
 
 
 def getPmidsForKeywords(data_dic, keyword_list = []):
@@ -420,7 +405,7 @@ def setupNetwork():
 		showPhysicsPanel_bol = False
 
 	return showNodesPanel_bol, showPhysicsPanel_bol
-	#end of setupNetwork()
+#end of setupNetwork()
 
 
 
@@ -470,7 +455,7 @@ def articleConnectivity(data_dic):
 	if manifest_btn == True:
 		saveManifest(myPmids_list, "PMIDs_")
 	# st.balloons()
-	#end of articleConnectivity()
+#end of articleConnectivity()
 
 
 
@@ -507,7 +492,7 @@ def keywordAnalysis(data_dic):
 		saveManifest(myKeywords_list, "myKeywords_list")
 
 	#st.balloons()
-	#end of keywordAnalysis()
+#end of keywordAnalysis()
 
 def showData(data):
 	""" shows the data in a table"""
@@ -569,7 +554,7 @@ def keywordAndkeywordsInArticle(data_dic):
 		saveManifest(myKeyWords_list, "myKeyWords_list")
 
 	# # st.balloons()
-	#end of keywordAndkeywordsInArticle()
+#end of keywordAndkeywordsInArticle()
 
 
 def getIntersection(in1_list, in2_list):
@@ -715,29 +700,9 @@ def keywordSaturation(data_dic):
 	)
 )
 
-# OBC STOPPED HERE
-#		st.success(f" Output file saved: {plotName_str}")
-
 		plot(fig, filename = plotName_str)
 
-		path_str = getPath()
-
-		if path_str != None:
-	#		st.success(path_str)
-			link_str = "file://" + f"{path_str}/{plotName_str}"
-			st.markdown(f"Output file saved:\n ##### {link_str}")
-		else:
-	#		st.success(path_str)
-			link_str = "file://" + f"{plotName_str}"
-			st.markdown(f"Output file saved:\n ##### {link_str}")
-
-# clickable link not yet working ... :-(
-
-		# path_str = getPath()
-		# link_str = f"file://{path_str}/{plotName_str}"
-		# st.markdown(f"Output file saved:\n ##### {link_str}")
-
-
+		giveUserLink(plotName_str)
 
 
 	manifest_btn = st.button("Save a manifest")
@@ -745,6 +710,26 @@ def keywordSaturation(data_dic):
 		saveManifest(myKeyWords_list, "Keywords_")
 # end of keywordSaturation()
 
+
+def giveUserLink(plotName_str):
+	""" function to show the path and file of outputted plots. The user may click on a copy to clipboard button"""
+	# st.success("giveUserLink()")
+	path_str = getPath()
+	tmpAddress_str = ""
+	if path_str != None:
+
+		link_str = "file://" + f"{path_str}/{plotName_str}"
+		st.markdown(f"Output file saved:\n ##### {link_str}")
+
+	else:
+		link_str = "file://" + f"{plotName_str}"
+		st.markdown(f"Output file saved:\n ##### {link_str}")
+
+	tmpAddress_str = f"{link_str}"
+	# st.success(st.code(tmpAddress_str))
+	st.code(tmpAddress_str, language = 'bash')
+
+#end of giveUserLink()
 
 def getLogTransform(in_list, base_int): #UN-USED AT THIS TIME
 	"""Function to log-transform all elements of a list. Inputs list and a log base, Returns a list."""
@@ -780,7 +765,7 @@ def addIt(in_str, my_list):
 	else:
 		pass
 	return my_list
-	#end of addIt()
+#end of addIt()
 
 
 
@@ -808,4 +793,5 @@ def saveManifest(in_list, task_str):
 		f.close()
 
 		st.success(f"Manifest saved: {fileName_str}")
-	#end of saveManifest()
+#		st.code(f"{fileName_str}", language = 'bash') TODO: add clickable link to manifest file
+#end of saveManifest()
