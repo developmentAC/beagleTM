@@ -1,5 +1,5 @@
 ##### BeagleTM: PubMed Interactive Knowledge Discovery
-##### Date: 1 November 2021
+##### Date: 29 December 2021
 ##### Oliver Bonham-Carter, [Allegheny College](https://allegheny.edu/)
 ##### email: obonhamcarter@allegheny.edu
 
@@ -87,7 +87,6 @@ While the literature parsing stage is not recommended to be run inside a Docker 
 #### OS-specific scripts to build and run containers
 The following bash scripts simplify building the container.
 
-
 | OS  | Building  | Running  |
 |---|---|---|
 | MacOS  		|  `./build_macOS.sh` |  `./run_macOS.sh` |
@@ -130,7 +129,7 @@ The output files of this operation will be placed into the `data/` directory. Yo
 Inside a Docker Desktop container, we can use the following command at the containers bash prompt.
 
 ```bash
-streamlit run beagleTM2_analysis_i.py
+streamlit run beagleTM2_browser.py
 ```
 
 When running your container, to access Streamlit, you will need to use your browser using the link, `http://127.0.0.1:8501/`. Once Streamlit is running the analysis program, then direct the program to the `data/` directory to load the output files from the parsing operation above.
@@ -186,22 +185,22 @@ To build the corpus, start from the `buildCorpus/` directory. Then run the bash 
 The code is shown below.
 
 ```
-# Date: 7 Dec 2020
+# Date: 29 Dec 2021
 # Reference: data from ncbi: ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/
 
 # keep a log of the download
 mkdir log
-wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/comm_use.A-B.xml.tar.gz 1>log/ab_out.1 2>log/ab_download.1 &
-#wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/non_comm_use.A-B.xml.tar.gz 1>log/ab_nonComm_out.1 2>log/ab_nonComm_download.1 &
+wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/deprecated/comm_use.0-9A-B.txt.tar.gz 1>log/ab_out.1 2>log/ab_download.1 &
+#wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/deprecated/non_comm_use.0-9A-B.txt.tar.gz 1>log/ab_nonComm_out.1 2>log/ab_nonComm_download.1 &
 
-wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/comm_use.C-H.txt.tar.gz  1>log/ch_out.1 2>log/ch_download.1 &
-#wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/non_comm_use.C-H.xml.tar.gz 1>log/ch_nonComm_out.1 2>log/ch_nonComm_download.1 &
+wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/deprecated/comm_use.C-H.txt.tar.gz  1>log/ch_out.1 2>log/ch_download.1 &
+#wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/deprecated/non_comm_use.C-H.txt.tar.gz 1>log/ch_nonComm_out.1 2>log/ch_nonComm_download.1 &
 
-wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/comm_use.I-N.txt.tar.gz 1>log/in_out.1 2>log/in_download.1 &
-#wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/non_comm_use.I-N.xml.tar.gz 1>log/in_nonComm_out.1 2>log/in_nonComm_download.1 &
+wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/deprecated/comm_use.I-N.txt.tar.gz 1>log/in_out.1 2>log/in_download.1 &
+#wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/deprecated/non_comm_use.I-N.txt.tar.gz 1>log/in_nonComm_out.1 2>log/in_nonComm_download.1 &
 
-wget  ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/comm_use.O-Z.xml.tar.gz 1>log/oz_out.1 2>log/oz_download.1 &
-#wget  ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/non_comm_use.O-Z.xml.tar.gz 1>log/oz_nonComm_out.1 2>log/oz_nonComm_download.1 &
+wget  ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/deprecated/comm_use.O-Z.txt.tar.gz 1>log/oz_out.1 2>log/oz_download.1 &
+#wget  ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/deprecated/non_comm_use.O-Z.txt.tar.gz 1>log/oz_nonComm_out.1 2>log/oz_nonComm_download.1 &
 ls -l log/
 
 ```
@@ -282,7 +281,7 @@ This operation will create a file called `all_keywords4_analysis.csv`. The filen
 Use the following command to employee Streamlit with pipenv to start up the analysis portion of your project.
 
 ``` bash
-pipenv run streamlit run beagleTM2_analysis_i.py
+pipenv run streamlit run beagleTM2_browser.py
 
 ```
 ---
