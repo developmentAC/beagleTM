@@ -38,7 +38,7 @@ def goThruFiles(keyWord_list):
 	file_list = hc.getFileListing() # get a listing of the files out there in the corpus dir
 	# print("\t [file_list] : ",file_list)
 	if len(file_list) == 0:
-		hc.printErrorByPlatform("\t There do not appear to be any input files in <{}> ...Exiting".format(hc.corpusDir))
+		hc.printErrorByPlatform("\t There do not appear to be any input files in <{}> ...Exiting".format(hc.CORPUS_DIR))
 		exit()
 
 	articlesOfKeywords_list = [] # holds the details of articles in which keywords were found.
