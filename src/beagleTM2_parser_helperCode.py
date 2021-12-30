@@ -13,19 +13,19 @@ banner0_str ="""
 # banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
 
-DATE = "6 Feb 2021"
+DATE = "29 December 2021"
 VERSION = "2_iv"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
 """A body of code to assist with code from my programs. This helper code should be easier to maintain for a project. Right?"""
 
-
 # debugging
 HUSH_MODE = True # False # (True/False) boolean variable; prints if False
 
 # globals
-FILE_EXTENTION = "nxml"
+FILE_EXTENTION1 = "nxml"
+FILE_EXTENTION2 = "xml"
 
 # Directories
 #MYOUTPUT_DIR = "/tmp/0out/" # all results are saved in this local directory
@@ -217,7 +217,7 @@ def getFileListing():
 	files_list = [] # holds each file and diretory
 	for root, dirs, files in os.walk(CORPUS_DIR):
 		for file in files:
-			if file.endswith(FILE_EXTENTION):
+			if file.endswith(FILE_EXTENTION1) or file.endswith(FILE_EXTENTION2):
 				dataFile = os.path.join(root, file)
 				files_list.append(dataFile)
 	#print(" getfileListing : files_list :",files_list)

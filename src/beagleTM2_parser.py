@@ -15,7 +15,7 @@
 #
 #
 
-# DATE_STR = "23 August 2020"
+# DATE_STR = "29 December 2021"
 # VERSION = "2_iii"
 # AUTHOR = "Oliver Bonham-Carter"
 # AUTHORMAIL = "obonhamcarter@allegheny.edu"
@@ -93,7 +93,6 @@ def goThruFiles(keyWord_list):
 		#print("\t [+] goThruFiles() tmp_str ; {}".format(tmp_str))
 		tmp_str = tmp_str[:len(tmp_str)-1] # lose that last comma
 	hc.saveFile(tmp_str)
-
 	return articlesOfKeywords_list
 
 
