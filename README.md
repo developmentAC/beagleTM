@@ -152,7 +152,7 @@ BeagleTM has been designed to work with the xml files which may be found at the 
  + https://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/oa_noncomm/xml/
 
 
-Bash scripts may be employed to automate the download (using `wget ftp-link`) and un-tarring (using `tar -zxvf filename.tar.gx`) tools, however please note that the archive filenames appear to change each month and so the scripts will also have to be updated.
+Bash scripts may be employed to automate the download (using `wget ftpLink`) and un-tarring (using `tar -zxvf filename.tar.gx`) tools, however please note that the archive filenames appear to change each month and so the scripts will also have to be updated.
 
 
 ### Flow of setting up corpus
