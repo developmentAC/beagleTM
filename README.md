@@ -106,6 +106,7 @@ Below are commands to run BeagleTM. Due to all the libraries that are required b
 You must first install a Docker Desktop  (https://www.docker.com/) container to run the tool. While the literature parsing stage may be run outside of a container, it is still recommended that a container be used to run all code for BeagleTM. In Figure 4, we note how a container is used in conjunction with Streamlit (https://www.streamlit.io/). Note, Streamlit is automatically installed when the container is built.
 
 ![The flowchart of programs, File: flowchart.png](graphics/flowchart.png)
+
 Figure 4: You are not required to use the parser (`./beagleTM2_parser.py`) in a container but doing may reduce the complexity of installing relevant libraries. The browser code ought to be run in the container.
 
 #### OS-specific scripts to build and run containers
