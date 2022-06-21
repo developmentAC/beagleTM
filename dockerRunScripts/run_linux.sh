@@ -14,6 +14,8 @@ pwd > ./myPath.txt
 cd ./src
 pwd > ./myPath.txt
 cd ..
+cp README.md ./src/
+
 
 # Run container:
 sudo docker run --rm -it -p 8501:8501 -v $PWD:/root stevi
@@ -27,8 +29,9 @@ sudo chown $USER ./data/*
 sudo chown $USER ./0_outAnalysis/*
 
 
-# removing the myPath.txt file which is no longer going to be used.
+# Removing the myPath.txt file which is no longer going to be used. We also remove the copy of README.md that is used by the code.
 rm ./myPath.txt
-rm src/myPath.txt
+rm ./src/myPath.txt
+rm ./src/README.md
 
 printf "\n  [+] ${BIGreen} The working container is now closed. ${NC}\n"
