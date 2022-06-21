@@ -23,6 +23,7 @@ GitHub link: https://github.com/developmentAC/beagleTM
 * [Command Summary](#command-summary)
 * + [Docker Desktop](#docker-desktop)
 * [Keywords](#keywords)
+* [XML Data](#xml-data)
 * [Setting up the corpus](#setting-up-the-corpus)
 * [Running BeagleTM](#running-beagleTM)
 * + [Run a parser job](#run-a-parser-job)
