@@ -1,5 +1,5 @@
 ##### BeagleTM: PubMed Interactive Knowledge Discovery
-##### Date: 29 December 2021
+##### Date: 21 June 2022
 ##### Oliver Bonham-Carter, [Allegheny College](https://allegheny.edu/)
 ##### email: obonhamcarter@allegheny.edu
 
@@ -49,7 +49,7 @@ BeagleTM has been designed to discover knowledge in PubMed articles and supporti
 Text mining article information with BeagleTM involves two steps: _Parsing_ and _Analyzing_. During _parsing_, abstracts from the corpus documents are checked for their keyword content. Results are saved in an output document which undergo _analysis_ to find relationship networks (i.e., the interconnections between the knowledge of articles according to keyword content). These inter-relationships concern common themes of studies, articles of similar keywords, articles which are connected by common references and other types of bridges that serve to combine the intricate facts of knowledge areas.
 
 
-#### Relationship Networks
+### Relationship Networks
 
 A relationship network displays the connected information as obtained with keywords. The network includes the main articles for which the keywords are relevant, and their supporting references in which the keywords are likely to be relevant. Networks are written in `html` files and are to be opened in a browser, shown in Figure 1, each node of a network is labeled with PubMed’s PMID identifier number that serves to hyperlink nodes to articles at PubMed.
 
@@ -65,13 +65,10 @@ Shown in Figure 2, a mouse-over action of each node shows some metadata behind t
 ![Titles may be found in the networks, File mouseOver.png](graphics/mouseOver.png)
 Figure 2: A screenshot of the red (main articles) and blue (supporting references). A mouse-over gives a title and link for red nodes and only a link for blue nodes.
 
-
-
 Heatmaps are also available in which articles may be discovered according to their counts of supplied keywords, as shown in Figure 3.
 
 ![Heatmaps provide a new way of selecting articles, File heatmapOfResults.png](graphics/heatmapOfResults.png)
 Figure 3: Heatmaps provide a new way of deciding which articles are most relevant according to the numbers of keywords in their abstracts. Each colour represents a different count of keywords found in abstracts and a mouse-over will show that count for the keyword's column.
-
 
 ## Command Summary
 
@@ -100,16 +97,16 @@ Below are commands to run BeagleTM. Due to all the libraries that are required b
 
 + End the container with `CONTROL-C` or similar, depending on your OS.
 
+note: If you cannot run python programs using the `./`, then it could be that you should change the file permissions on your Python3 files. Try, `chmod +x *.py` to change executable permissions.
 
 ### Docker Desktop
 
 You must first install a Docker Desktop  (https://www.docker.com/) container to run the tool. While the literature parsing stage may be run outside of a container, it is still recommended that a container be used to run all code for BeagleTM. In Figure 4, we note how a container is used in conjunction with Streamlit (https://www.streamlit.io/). Note, Streamlit is automatically installed when the container is built.
 
 ![The flowchart of programs, File: flowchart.png](graphics/flowchart.png)
-
 Figure 4: You are not required to use the parser (`./beagleTM2_parser.py`) in a container but doing may reduce the complexity of installing relevant libraries. The browser code ought to be run in the container.
 
-#### OS-specific scripts to build and run containers
+## OS-specific scripts to build and run containers
 The following bash scripts simplify building the container.
 
 | OS  | Building  | Running  |
@@ -121,16 +118,13 @@ The following bash scripts simplify building the container.
 
 These files may be found in the directory, `dockerRunScripts/` and the builder require a copy of `Dockerfile` to run. The `Dockerfile` is found in the main directory and so it is recommended that the user stay in the main and enter the command, ` sh ./dockerRunScripts/build_macOS.sh` or similar. Building your container outside of `dockerRunScripts/` allows you to access the other directories when inside the container.
 
-
 Please note that you may be required to enter your password twice, depending on your machine. The first time you enter your password will be to build and initialize the Docker container. The second time you enter your password will be to change ownership of your output files from `root` to `$USER` once you exit the container.
 
-
-### Keywords
+## Keywords
 
 BeagleTM is a supervised text mining system necessitating keywords. to create a listing of keywords, the file _must_ have the below form and syntax.
 
 A keyword file (written in [Markdown](https://www.markdownguide.org/cheat-sheet/)) must have the first line, `#### keywords`, which is followed by a line-by-line listing of searchable words in the PubMed abstracts.
-
 
 ```
 #### keywords
@@ -140,11 +134,11 @@ keyword_n
 
 There is no limit to the number of keywords although it should be mentioned here that the resulting output file may become too large to be analyzed in feasible time. It is, therefore,  advised that the keywords lists be no longer than necessary, and be very specific to the type of literature review being created.
 
-## Setting up the Corpus
+## XML Data
 
 NCBI offers bulk downloads of literature in two types of  packages: _commercial_ and _non-commercial_. Please see https://ftp.ncbi.nlm.nih.gov/pub/pmc/readme.txt for more information.
 
-BeagleTM has been designed to work with the xml files which may be found at the below online repositories.
+BeagleTM has been designed to work with the xml files which are found in the `*.tar.gz` files. These `tar.gz` files files may be found at the below online repositories.
 
 + _Commercially_ available
  + https://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/oa_comm/xml/
@@ -152,35 +146,17 @@ BeagleTM has been designed to work with the xml files which may be found at the 
 + _Non-Commercially_ availably
  + https://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/oa_noncomm/xml/
 
+## Setting up the corpus
 
-Bash scripts may be employed to automate the download (using `wget ftpLink`) and un-tarring (using `tar -zxvf filename.tar.gx`) tools, however please note that the archive filenames appear to change each month and so the scripts will also have to be updated.
-
-
-### Flow of setting up corpus
-
-+ Make a directory to store your downloaded files. Ex: `myDownloadedCorpusFiles/`
-
-+ Choose the files you need from NCBI and use the following type of command to download the file to your local machine.
++ Make a directory to store your downloaded files such as `src/myDownloadedCorpusFiles/` and use your browser to download the tar.gz data files from one of the above links. Be sure to store these files in a place where you can conveniently work with them. In addition, bash commands such as the below example may be employed to automate a download. This process cannot be easily automated due to changing filenames at the NCBI.
 
 ```
-wget https://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/oa_noncomm/xml/oa_noncomm_xml.incr.2021-12-27.tar.gz
-```
-You could also use your browser to download the files.
-
-+ Once all files are stored in the same directory, you will need to _untar_ (uncompress) the files. Make another directory called `corpus/` inside `myDownloadedCorpusFiles/` and cd into `myDownloadedCorpusFiles/corpus/` to begin _untarring_ your files using the below command. Note, this command functions to `untar` all `tar.gz` files in the proceeding directory which could take some time to do.
-
-```
-tar -zxvf ../*.tar.gz`
+wget https://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/oa_comm/xml/oa_comm_xml.incr.2022-03-07.tar.gz
 ```
 
++ Once these files have been downloaded, the `xml` files must be extracted (i.e., an untarring step). The command, `tar -zxvf filename.tar.gx` can handle this step. If there are several files, then wildcards may be used: `tar -zxvf *.tar.gz`. This untarring step can be run in the Docker container which is automatically setup with `untar`.
 
-+ Manually move the `myDownloadedCorpusFiles/corpus/` directory into `src/` of your BeagleTM project so that the tool's Python software will be able to access this directory.
-
-
-#### Parsing Notes
-
-The path to the `corpus/` directory has been hardcoded in the `beagleTM2_parser_helperCode.py`, however, if using an external hard drive or similar, a path to `corpus/` could be altered by updating the global variable, `CORPUS_DIR` as shown below.
-
++ Once the xml files have been extracted, move/copy them to `beagleTM/src/corpus/` so that BeagleTM will be able to find them. This path to the corpus directory has been hardcoded in the `beagleTM2_parser_helperCode.py`, however, if using an external hard drive or similar, the corpus path could be altered by updating the global variable, `CORPUS_DIR` as shown below.
 
 ```
 # configure your corpus directory here.
@@ -188,11 +164,10 @@ The path to the `corpus/` directory has been hardcoded in the `beagleTM2_parser_
 CORPUS_DIR = "myNewCorpusDirectory/" # new path and directory
 ```
 
-
 ---
 ## Running BeagleTM
 
-#### Run a parser job
+### Run a parser job
 
 Parsing is done using only the abstracts of the articles. Abstracts are short texts that explain the nature of the paper. Since each word therein is carefully chosen by the authors, the text is likely to give a good synopsis of the article.
 
@@ -200,33 +175,28 @@ Parsing is done using only the abstracts of the articles. Abstracts are short te
 + Run BeagleTM to view splash screen
  + `./beagleTM2_parser.py`
 
-
 + Run BeagleTM's Parser with a keyword
  + `./beagleTM2_parser.py keywords_sample_i.md`
 
-
 The output files of this operation will be placed into the `data/` directory.
 
-#### Run an analysis job
+### Run an analysis job
 
-To check the results, we will use Streamlit inside a Docker  container
-
-
+To check the results, we will use Streamlit inside a Docker container.
 
 + Run the browser using Streamlit to view and make plots of results.
  + `streamlit run beagleTM2_browser.py`
 
-
 When running your container, to access Streamlit, you will need to use your browser using the link, `http://127.0.0.1:8501/`. Once Streamlit is running the analysis program, then direct the program to the `data/` directory to load the output files from the parsing operation above.
 
+---
 
-
-#### Analysis methods
+## Analysis methods
 
 When you launch the browser-side of the tool in Streamlit, use the panel on the left to choose the `.csv` file from `data/`.
 
 
-#### What are we doing with this data?
+### What are we doing with this data?
 
 Below we discuss some of the plots that are created by an analysis. All plots will be automatically saved to the `/tmp` directory. This project was created in Linux but if you are using Windows, then a search for the files (see the browser tabs) will show you where they are being saved. In addition,  if the Manifests (collections of keywords for the current plot) are saved by clicking on the _Save a Manifest_ button, then these files will also be saved in the same directory as the plots.
 
@@ -241,7 +211,6 @@ There are several options to choose from for the analysis.
  - **Articles having ALL of the selected keywords** : By selecting keywords in the selection field, we are able to see which articles surface to have _ALL_ of the keywords in their abstracts, simultaneously. These papers are rare and are to be considered *strong* papers since they contain all requested keywords. In addition, these papers may serve to connect the keywords in some way using published research.
 
   We note that abstracts are carefully worded short texts in which each word seemingly plays a central role in the context of the article. To discover an abstract for which all supplied words are present may suggest that the keywords share a _guilt by association_ and we may perhaps conclude that a strong relationship exists. Please also note that as lists of keywords extend, it is less likely to find them all in a single abstract.
-
 
  - **Heatmaps of keyword saturation** :
  Viewing articles as heatmaps allows us to determine which articles have  most of the supplied keywords. On the left, links to the PubMed articles may be used to access articles which may be more important to a particular search for knowledge. Please note that you may need to zoom-in (see controls at the upper right in heatmap plot) to be able to find the exact article link for the line in the heatmap. This would be necessary in the case of many articles in the dataset in which  keywords have been found.
