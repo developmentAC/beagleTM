@@ -9,8 +9,11 @@ NC='\033[0m' # No Colour
 # Type 'whoami' to see who you are in Linux.
 printf "\n [+] ${BIGreen} Hello ${USER}! Setting up your working container.${NC}\n [+]  ${BIGreen}You may be asked to enter your password.${NC}\n"
 
-# recording the file path to help access the results pages from streamlit
-pwd > myPath.txt
+# We record the file path to help access the results pages from streamlit. We make a myPath.txt file for inside and outside of src/.
+pwd > ./myPath.txt
+cd ./src
+pwd > ./myPath.txt
+cd ..
 
 # Run container:
 sudo docker run --rm -it -p 8501:8501 -v $PWD:/root stevi
@@ -25,6 +28,7 @@ sudo chown $USER ./0_outAnalysis/*
 
 
 # removing the myPath.txt file which is no longer going to be used.
-rm myPath.txt
+rm ./myPath.txt
+rm src/myPath.txt
 
 printf "\n  [+] ${BIGreen} The working container is now closed. ${NC}\n"

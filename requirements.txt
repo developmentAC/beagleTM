@@ -5,3 +5,4 @@ pytest
 plotly_express
 jsonpickle
 streamlit
+wget
