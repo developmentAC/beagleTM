@@ -73,32 +73,46 @@ Figure 3: Heatmaps provide a new way of deciding which articles are most relevan
 
 ## Command Summary
 
-Below are commands to run BeagleTM. Due to all the libraries that are required by the software, a Docker container is used. The below listing of commands initiated the Docker container and then launches the tool inside the container.
+Below are commands to run BeagleTM using a Docker container which houses all necessary libraries and software for BeagleTM.
 
 
 + Working directory
- + `beagleTM/src/`
+```
+beagleTM/src/
+```
 
 
-+ Build and run the Docker container
- + `sh dockerRunScripts/build_macOS.sh`
- + `sh dockerRunScripts/run_macOS.sh`
++ Build the Docker container from `beagleTM/` from Docker Desktop. Here we are using a MacOS for this operation but Linux and Windows commands are similar.
+```
+sh dockerRunScripts/build_macOS.sh
+```
 
++ Run the Docker container from `beagleTM/`
+```
+sh dockerRunScripts/run_macOS.sh
+```
 
 + Run BeagleTM to view splash screen
- + `./beagleTM2_parser.py`
+```
+./beagleTM2_parser.py
+```
 
 
-+ Run BeagleTM's Parser with a keyword
- + `./beagleTM2_parser.py keywords_sample_i.md`
-
++ Run BeagleTM's Parser with a keyword file.
+```
+./beagleTM2_parser.py keywords_sample_i.md
+```
 
 + Run the browser using Streamlit to view and make plots of results.
- + `streamlit run beagleTM2_browser.py`
+```
+streamlit run beagleTM2_browser.py
+```
+
++ Goto your browser and key-in link: http://localhost:8501/
 
 + End the container with `CONTROL-C` or similar, depending on your OS.
 
-note: If you cannot run python programs using the `./`, then it could be that you should change the file permissions on your Python3 files. Try, `chmod +x *.py` to change executable permissions.
+Note: If you cannot run python programs using the `./`, then it could be that you should change the file permissions on your Python3 files. Try, `chmod +x *.py` to change executable permissions.
 
 ### Docker Desktop
 
