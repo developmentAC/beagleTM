@@ -147,6 +147,9 @@ BeagleTM has been designed to work with the xml files which are found in the `*.
 + _Non-Commercially_ availably
  + https://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/oa_noncomm/xml/
 
++ _FTP_ site
+ + ftp://ftp.ncbi.nlm.nih.gov/pub/pmc
+
 ## Setting up the corpus
 
 + Make a directory to store your downloaded files such as `src/myDownloadedCorpusFiles/` and use your browser to download the tar.gz data files from one of the above links. Be sure to store these files in a place where you can conveniently work with them. In addition, bash commands such as the below example may be employed to automate a download. This process cannot be easily automated due to changing filenames at the NCBI.
