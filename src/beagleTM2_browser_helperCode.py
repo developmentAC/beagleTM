@@ -11,8 +11,8 @@ banner0_str ="""
 """
 #banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
-DATE = "13 January 2022"
-VERSION = "2_v"
+DATE = "22 June 2022"
+VERSION = "0.2.2"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
@@ -64,7 +64,7 @@ def load_big_data(myFile_str):
 	lowercase = lambda x: str(x).lower()
 	data.rename(lowercase, axis='columns', inplace=True)
 	return data
-	# end of load_big_data()
+# end of load_big_data()
 
 
 def writer(in_str, var=None):
@@ -112,7 +112,7 @@ def getAllKeywords(data_dic):
 		tmp_list.append(i)
 
 	return sorted(tmp_list) # return a sorted list
-	# end of getAllKeywords()
+# end of getAllKeywords()
 
 def getPath():
 	""" Function to open the myPath.txt file to determine links to the results. Inside a container, the system paths are changed and container-based paths are inaccurate to find the results html files. """
@@ -157,7 +157,7 @@ def openPage(myUrl):
 	import webbrowser
 	# writer("Opening url", myUrl)
 	webbrowser.open(myUrl, new=0, autoraise=True)
-	# end of openPage()
+# end of openPage()
 
 def showMyPlot(G, plotName_str):
 	""" plots according to os type. It seems that macOS does not always open a plot."""
@@ -178,7 +178,7 @@ def showMyPlot(G, plotName_str):
 		#st.write("linux machine ...")
 		G.show(plotName_str)
 
-#end of showMyPlot()
+# end of showMyPlot()
 
 def createMasterDataDic(data_in):
 	""" function to create a dictionary of headers (keys; [Title, Abstract, PMID, Journal, Year, References, Keyword, Counts] and the list of data for each one of these keys (values). Returns the dictionary"""
@@ -210,7 +210,7 @@ def createMasterDataDic(data_in):
 
 #	st.balloons()
 	return header_dic
-#end of createMasterDataDic()
+# end of createMasterDataDic()
 
 
 def getPmidsForKeywords(data_dic, keyword_list = []):
@@ -239,7 +239,7 @@ def getPmidsForKeywords(data_dic, keyword_list = []):
 				counter += 1
 			# st.write(myPmid_list) # [17961509,19102767] # listing of pmids for which word was found.
 	return myPmid_list
-	# end of getPmidsForKeywords()
+# end of getPmidsForKeywords()
 
 
 
@@ -284,7 +284,7 @@ def newRefPlot(data_dic, pmid_list=[], showNodesPanel_bol = False, showPhysicsPa
 	# st.write(" showPhysicsPanel_bol is {}".format(showPhysicsPanel_bol))
 
 	createNetwork(pmid_dic, showNodesPanel_bol, showPhysicsPanel_bol)
-	# end of newRefPlot()
+# end of newRefPlot()
 
 
 def createNetwork(in_dic, showNodesPanel_bol, showPhysicsPanel_bol):
@@ -340,7 +340,7 @@ in_dic must have format;
 	plotName_str = OUTDATADIR+"pmidPlot.html"
 	# plotName_str = "/tmp/pmidPlot.html"
 	showMyPlot(G, plotName_str) #push out the plot to browser
-	# end of createNetwork()
+# end of createNetwork()
 
 
 def getFileListing(corpusDir):
@@ -373,7 +373,7 @@ def grabFile():
 	# 	else:
 	# 		file_contents = input.read()
 	return myFile_str
-	# end of grabFile()
+# end of grabFile()
 
 
 def setupNetwork():
@@ -405,7 +405,7 @@ def setupNetwork():
 		showPhysicsPanel_bol = False
 
 	return showNodesPanel_bol, showPhysicsPanel_bol
-#end of setupNetwork()
+# end of setupNetwork()
 
 
 
@@ -455,7 +455,7 @@ def articleConnectivity(data_dic):
 	if manifest_btn == True:
 		saveManifest(myPmids_list, "PMIDs_")
 	# st.balloons()
-#end of articleConnectivity()
+# end of articleConnectivity()
 
 
 
@@ -492,7 +492,7 @@ def keywordAnalysis(data_dic):
 		saveManifest(myKeywords_list, "myKeywords_list")
 
 	#st.balloons()
-#end of keywordAnalysis()
+# end of keywordAnalysis()
 
 def showData(data):
 	""" shows the data in a table"""
@@ -500,7 +500,7 @@ def showData(data):
 	st.title("Show the data!")
 	st.write(data)
 	#st.balloons()
-	#end fo showData()
+# end fo showData()
 
 
 def keywordAndkeywordsInArticle(data_dic):
@@ -554,17 +554,18 @@ def keywordAndkeywordsInArticle(data_dic):
 		saveManifest(myKeyWords_list, "myKeyWords_list")
 
 	# # st.balloons()
-#end of keywordAndkeywordsInArticle()
+# end of keywordAndkeywordsInArticle()
 
 
 def getIntersection(in1_list, in2_list):
 	"""Function for determining the intersection of two lists. Returns the common elements."""
 	return set(in1_list).intersection(in2_list)
+# end of getIntersection()
 
 def getLowercaseElements(in_list):
 		""" function to convert all strings in a list to lower case."""
 		return [in_list[i].lower() for i in range(len(in_list))]
-		# end of get getLowercaseElements()
+# end of get getLowercaseElements()
 
 def simpleHeatmaps(data, data_dic):
 	"""Function to create a simple heatmap of keyword items in articles. This heatmap allows user to see which articles have combinations of keywords that may be more helpful to an analysis."""
@@ -576,11 +577,8 @@ def simpleHeatmaps(data, data_dic):
 	myCol1 = "keyword" # what col to work with?
 	myCol2 = "pmid"
 
-
-
 	keywordThreashold_sld = st.slider("Enter minimum number of user-selected keywords per article.",2, (len(getAllKeywords(data_dic))),1)
 	st.write('Minimum keywords per article: ', keywordThreashold_sld)
-
 
 	for i in range(len(data[myCol1])):
 		if len(stringToList(data[myCol1][i])) >= keywordThreashold_sld: # an article has at least a nubmer of keywords
@@ -604,7 +602,7 @@ def simpleHeatmaps(data, data_dic):
 	# st.bar_chart(data['keyword'])
 	st.bar_chart(shortData_df)
 	st.altair_chart(shortData_df)
-	# end of simpleHeatmaps()
+# end of simpleHeatmaps()
 
 def keywordSaturation(data_dic):
 	""" Function to study the amount of any selected keyword content turning up in abstract text"""
@@ -699,11 +697,8 @@ def keywordSaturation(data_dic):
 		color="#7f7f7f"
 	)
 )
-
 		plot(fig, filename = plotName_str)
-
 		giveUserLink(plotName_str)
-
 
 	manifest_btn = st.button("Save a manifest")
 	if manifest_btn == True:
@@ -729,7 +724,7 @@ def giveUserLink(plotName_str):
 	# st.success(st.code(tmpAddress_str))
 	st.code(tmpAddress_str, language = 'bash')
 
-#end of giveUserLink()
+# end of giveUserLink()
 
 def getLogTransform(in_list, base_int): #UN-USED AT THIS TIME
 	"""Function to log-transform all elements of a list. Inputs list and a log base, Returns a list."""
@@ -755,7 +750,7 @@ def reduceResults(in_list, a_list, b_list,lowerBound_flt=0,upperBound_flt=100):
 			newA_list.append(a_list[i])
 			newB_list.append(b_list[i])
 	return tmp_list, newA_list, newB_list
-	# end of reduceResults()
+# end of reduceResults()
 
 
 def addIt(in_str, my_list):
@@ -765,8 +760,7 @@ def addIt(in_str, my_list):
 	else:
 		pass
 	return my_list
-#end of addIt()
-
+# end of addIt()
 
 
 def saveManifest(in_list, task_str):
@@ -794,4 +788,4 @@ def saveManifest(in_list, task_str):
 
 		st.success(f"Manifest saved: {fileName_str}")
 #		st.code(f"{fileName_str}", language = 'bash') TODO: add clickable link to manifest file
-#end of saveManifest()
+# end of saveManifest()
