@@ -69,6 +69,7 @@ def goThruFiles(inFile0_str, keyWord_list):
 		if tmp_list != None: # put all records together
 			articlesOfKeywords_list.append(tmp_list)
 
+		# create the headers of the csv data file. These headers will be used to determine which column is what data.	
 		headers_list = p.getTitlesOfCols() # get the headers for columns of the csv file
 	# Notes on articlesOfKeywords_list.
 	# For each record,
