@@ -30,9 +30,8 @@ from spacy.lang.en.stop_words import STOP_WORDS # needed to work with stop words
 
 import beagleTM2_browser_helperCode as hc
 
-
-DATE = "6 Feb 2021"
-VERSION = "2_iv"
+DATE = "22 June 2022"
+VERSION = "0.2.2"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 

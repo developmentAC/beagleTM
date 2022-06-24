@@ -13,8 +13,8 @@ banner0_str ="""
 # banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
 
-DATE = "22 June 2022"
-VERSION = "0.2.2"
+DATE = "24 June 2022"
+VERSION = "0.2.3"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
@@ -336,7 +336,8 @@ def makeCSVFile(in_list, inFile0_str):
 	data1 += data2
 
 	# change that filename to an output file.
-	inFile2_str = MYOUTPUT_DIR + "all_" + inFile0_str.replace(".md","") + "_analysis.csv"
+#	inFile2_str = MYOUTPUT_DIR + "all_" + inFile0_str.replace(".md","") + "_analysis.csv"
+	inFile2_str = MYOUTPUT_DIR + inFile0_str.replace(".md","") + "_analysis.csv"
 
 	with open (inFile2_str, "w") as fp:
 		fp.write(data1)
