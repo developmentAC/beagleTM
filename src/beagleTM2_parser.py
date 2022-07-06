@@ -24,7 +24,8 @@
 import os, sys
 import math
 import beagleTM2_parser_helperCode as hc
-
+import parserClass as myParser
+import KWmanagerClass as myKwManager
 
 # Notes: to format nxml files into human readable formats
 #ref: https://www.freeformatter.com/xml-formatter.html
@@ -33,7 +34,7 @@ def goThruFiles(inFile0_str, keyWord_list):
 	"""file collecting, loading and parsing Accepts a list of keyword (words in strings)"""
 
 	file_list = hc.getFileListing() # get a listing of the files out there in the corpus dir
-	# print("\t [file_list] : ",file_list)
+	# print(f"\t +++ [file_list] : {file_list}")
 	if len(file_list) == 0:
 		hc.printErrorByPlatform("\t There do not appear to be any input files in <{}> ...Exiting".format(hc.CORPUS_DIR))
 		exit()
@@ -55,21 +56,16 @@ def goThruFiles(inFile0_str, keyWord_list):
 
 		#print("\n\t ~~~-- Getting article details --~~~")
 		# initiate praser() to process xml files
-		p = hc.parser(f, data_str, keyWord_list) #send filename, contents of file, list of key words
-		# p.hello() # determine that the parser class is working
 
-		# debugging
-		#	p.viewAllTags()
-#		if hc.HUSH_MODE == False:
-#			p.viewAllTags()
+		p = myParser.parser(f, data_str, keyWord_list) #send filename, contents of file, list of key words
 
 		tmp_list = p.getInformationOfKwInDocs()
-		#print("\t [This single article's details and found words] {}".format(tmp_list))
+		# print("\t [This single article's details and found words] {}".format(tmp_list))
 
 		if tmp_list != None: # put all records together
 			articlesOfKeywords_list.append(tmp_list)
 
-		# create the headers of the csv data file. These headers will be used to determine which column is what data.	
+		# create the headers of the csv data file. These headers will be used to determine which column is what data.
 		headers_list = p.getTitlesOfCols() # get the headers for columns of the csv file
 	# Notes on articlesOfKeywords_list.
 	# For each record,
@@ -130,18 +126,18 @@ def getLogs(thisKeyWord_list, stats_dic):
 def getKeywords(keywordFile_str):
 	"""Function to engage the KWmanager class to load, prepare keywords from files."""
 	hc.printHush("getKeywords()")
-	kw = hc.KWmanager(keywordFile_str)
-	#kw.hello() # is the KWmanager working?
+	kw = myKwManager.KWmanager(keywordFile_str)
+	# print(f"keywordFile_str : {keywordFile_str}")
 	kwFile_list = kw.openKWFile()
-	hc.printHush(kwFile_list)
+	# print(f" +++ {kwFile_list}")
 	return kwFile_list
-	#end of getKeywords
+	# end of getKeywords
 
 def begin(inFile0=""):
 	"""Driver function of program"""
 	print("\t [Input file]: ",inFile0)
 	keyWord_list = getKeywords(inFile0) #get keyword strings in a list
-	print("\t [Full keyword listing]: ",keyWord_list)
+	# print("\t [Full keyword listing]: ",keyWord_list)
 	articlesOfKeywords_list = goThruFiles(inFile0, keyWord_list) # parse xml docs, search for keywords
 
 	# Save output as csv
@@ -154,16 +150,14 @@ def begin(inFile0=""):
 	print(hc.printWithColour(hc.BIYellow, f"\n\t \t streamlit run beagleTM2_browser.py"))
 	print(hc.White)
 
-
-
-	#end of begin()
+	# end of begin()
 
 
 if __name__ == '__main__':
 
 	if len(sys.argv) == 2: # one parameter at command line
 	# note: the number of command line parameters is n + 1
-		begin(sys.argv[1])#,sys.argv[2])#,sys.argv[3], sys.argv[4]),sys.argv[5])
+		begin(sys.argv[1])
 	else:
 		hc.helper()
 		sys.exit()
