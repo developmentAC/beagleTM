@@ -5,6 +5,7 @@ __pycache__
 *.pyc
 *.csv
 *.DS_Store
+myPath.txt
 
 # Gensim generated files#
 *.gensim
