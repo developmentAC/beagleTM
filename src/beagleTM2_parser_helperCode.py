@@ -333,7 +333,7 @@ def makeCSVFile(in_list, inFile0_str):
 
 	with open (inFile2_str, "w") as fp:
 		fp.write(data1)
-		printByPlatform(BGreen + f"\n\t [+] Saving <{inFile2_str}>" + White)
+		printByPlatform(BIGreen + f"\n\t [+] Saving <{inFile2_str}>" + White)
 
 	# Clean up header and intermediate file.
 	removeFile(headerFile_str)
