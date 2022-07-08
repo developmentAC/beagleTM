@@ -14,7 +14,7 @@ def getStats(data_dic):
 	with st.expander("Pretty Table"):
 		mydf = pd.DataFrame(data_dic)
 		st.dataframe(mydf)
-		st.balloons()
+		# st.balloons()
 	st.markdown("---")
 	# Columns/Layout
 	myCol1, myCol2= st.columns(2)
