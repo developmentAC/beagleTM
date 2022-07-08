@@ -21,8 +21,7 @@
 
 
 # import libraries
-import os, sys
-import math
+import os, sys, math
 import beagleTM2_parser_helperCode as hc
 import parserClass as myParser
 import KWmanagerClass as myKwManager

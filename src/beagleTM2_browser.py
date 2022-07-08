@@ -18,9 +18,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import time
-import sys
-import os
+import time, sys, os
 from pyvis.network import Network
 from plotly import graph_objs as go
 import networkx as nx
@@ -29,9 +27,10 @@ import spacy # needed to work with stopwords
 from spacy.lang.en.stop_words import STOP_WORDS # needed to work with stop words
 
 import beagleTM2_browser_helperCode as hc
+import statEval as myStats
 
-DATE = "22 June 2022"
-VERSION = "0.2.2"
+DATE = "6 July 2022"
+VERSION = "0.2.3"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
@@ -63,11 +62,12 @@ def begin():
 		[
 			"ReadMe",
 			"Show_data",
-			"Articles connected by pmids",
-			"Articles having ANY of the selected keywords",
-			"Articles having ALL of the selected keywords",
+			"Article inter-connectivity",
+			"Articles containing ANY of the selected keywords",
+			"Articles containing ALL of the selected keywords",
 			"Heatmaps of keyword saturation",
-			"Make Simple Heatmaps"
+			"Make Simple Heatmaps",
+			"Statistics"
 		],
 	)
 	if doThis_sb == "ReadMe":
@@ -79,16 +79,16 @@ def begin():
 		hc.showData(data)
 
 
-	if doThis_sb == "Articles connected by pmids":
+	if doThis_sb == "Article inter-connectivity":
 		hc.articleConnectivity(data_dic)
 
 
-	if doThis_sb == "Articles having ANY of the selected keywords":
-		hc.keywordAnalysis(data_dic)
+	if doThis_sb == "Articles containing ANY of the selected keywords":
+		hc.articlesContainingANY(data_dic)
 
 
-	if doThis_sb == "Articles having ALL of the selected keywords":
-		hc.keywordAndkeywordsInArticle(data_dic)
+	if doThis_sb == "Articles containing ALL of the selected keywords":
+		hc.articlesContainingALL(data_dic)
 
 	if doThis_sb == "Heatmaps of keyword saturation":
 		hc.keywordSaturation(data_dic)
@@ -96,17 +96,12 @@ def begin():
 	if doThis_sb == "Make Simple Heatmaps":
 		hc.simpleHeatmaps(data, data_dic)
 
-	hc.writer("\U0001F415 WOO WOO!! \U0001F415")
-	#hc.writer(" ok :","computer")
-		# end of begin()
-#
-#
-# 	# progress_bar = st.progress(0)
-# 	#
-# 	# for i in range(100):
-# 	# 	# Update progress bar.
-# 	# 	progress_bar.progress(i)
-#
+
+	if doThis_sb == "Statistics":
+		myStats.getStats(data_dic)
+
+
+	st.write("\U0001F415 WOO WOO!! \U0001F415")
 
 
 

@@ -11,8 +11,8 @@ banner0_str ="""
 """
 #banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
-DATE = "22 June 2022"
-VERSION = "0.2.2"
+DATE = "7 July 2022"
+VERSION = "0.2.3"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
@@ -30,11 +30,7 @@ AUTHORMAIL = "obonhamcarter@allegheny.edu"
 import streamlit as st
 import pandas as pd
 import numpy as np
-import time
-import sys
-import os
-import re
-import math
+import math, sys, time, os, re
 from pyvis.network import Network
 from plotly import graph_objs as go
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
@@ -69,12 +65,13 @@ def load_big_data(myFile_str):
 
 def writer(in_str, var=None):
 	""" Function to make it easy to use st.write(). This function abstracts st.write("".format())"""
-	if var == None: # there is no variable to add to a string
-		st.write(in_str)
+	with st.expander("Writer: Pretty Table"):
+		if var == None: # there is no variable to add to a string
+			st.write(in_str)
 
-	else:
-		in_str = in_str + ": {}" # add braces
-		st.write(in_str.format(var)) # input string should contain the "{}".
+		else:
+			in_str = in_str + ": {}" # add braces
+			st.write(in_str.format(var)) # input string should contain the "{}".
 	return "ok computer"
 #end of writer()
 
@@ -103,9 +100,12 @@ def getAllKeywords(data_dic):
 				pass
 	# st.text("Keywords")
 
-#	writer("keywords_set", keywords_set)
 	dataframe = keywords_set
-	st.dataframe(dataframe)
+
+	# with st.expander("Show Keywords"):
+	# 	if len(dataframe) > 0: # anything to show?
+	# 		st.text(dataframe)
+
 
 	tmp_list = [] # holds the list of keywords
 	for i in keywords_set:
@@ -205,10 +205,6 @@ def createMasterDataDic(data_in):
 		#st.write(i, "::", tmp_list, "done")
 		header_dic[i] = tmp_list
 
-#	for i in header_dic:
-#		st.write(":",i, header_dic[i])
-
-#	st.balloons()
 	return header_dic
 # end of createMasterDataDic()
 
@@ -386,21 +382,18 @@ def setupNetwork():
 	showPhysicsPanel_bol = False
 	showNodesPanel_bol = False
 
-	networkOption_radio = st.radio("Which panel to include in the Network?",("Physics", "Node", "Nothing"))
+	networkOption_radio = st.radio("Which interation panel to include in the Network?",("Physics", "Node", "Neither"))
 
 	if networkOption_radio == "Physics":
-		# writer("Physics")
-		st.success("Physics Selected!")
+		st.text("Physics interaction")
 		showPhysicsPanel_bol = True
 
 	if networkOption_radio == "Node":
-		# writer("Nodes")
-		st.success("Nodes Selected!")
+		st.text("Node interation")
 		showNodesPanel_bol = True
 
-	if networkOption_radio == "Nothing":
-		# writer("Nodes")
-		st.success("Nothing Selected!")
+	if networkOption_radio == "Neither":
+		st.text("Neither")
 		showNodesPanel_bol = False
 		showPhysicsPanel_bol = False
 
@@ -411,15 +404,14 @@ def setupNetwork():
 
 
 def articleConnectivity(data_dic):
-	"""Function to show how articles are connected. Uses PMIDs from Main artices and References to draw networks of this connectivity"""
+	"""Function to show articles are connected to their references and, perhaps, to each other. Uses PMIDs from Main artices and References to draw networks of this connectivity"""
 
-	st.title("ArticleConnectivity(): Show how articles are connected to references and others!")
+	st.title("Inter-connections")
 	showNodesPanel_bol, showPhysicsPanel_bol = setupNetwork()
 	pmid_list = data_dic["pmid"]# listed in an order of appearance. all lists in the data_dic have same order.
 	st.subheader("Pmid Analysis")
 	dataframe = pmid_list
-	st.dataframe(dataframe)
-	st.warning("All article PMIDs as connected to reference PMIDs")
+	# st.dataframe(dataframe)
 
 	myPmids_list = []
 	myPmidsShortList_list = [] # used for sidebar pmid loading
@@ -439,7 +431,7 @@ def articleConnectivity(data_dic):
 			myPmidsShortList_list = [int(i) for i in myPmidsShortList_list] # need elements as ints
 			newRefPlot(data_dic, myPmidsShortList_list, showNodesPanel_bol, showPhysicsPanel_bol)
 		except ValueError:
-			st.warning("There appears to be a problem with the inputted PMIDs... Please enter values as a list separated by commas. ")
+			st.warning("Problem with the inputted PMIDs. Please separate values by commas. ")
 
 	myPmids_list = st.multiselect('Select PMIDs of interest, or leave blank to view all as network.', pmid_list,[])
 
@@ -448,29 +440,24 @@ def articleConnectivity(data_dic):
 		# newRefPlot(data_dic, myPmids_list)
 		newRefPlot(data_dic, myPmids_list, showNodesPanel_bol, showPhysicsPanel_bol)
 
-	if len(myPmids_list) > 0: # anything to show?
-		st.text(myPmids_list)
-
 	manifest_btn = st.button("Save a manifest")
 	if manifest_btn == True:
 		saveManifest(myPmids_list, "PMIDs_")
-	# st.balloons()
 # end of articleConnectivity()
 
 
 
 
-def keywordAnalysis(data_dic):
+def articlesContainingANY(data_dic):
 	"""Function to find articles having a partular keyword. Note: is several keywords are checked across articles, then any article having one of those keywords will turn up in results."""
-
-	st.title("Analysis by keywords!")
+	st.title("Analysis by keywords")
 	showNodesPanel_bol, showPhysicsPanel_bol = setupNetwork()
 	keyWords_list = getAllKeywords(data_dic)
 	# contains all unique keywords across all articles; note it may slow things down to put this function here to be run each time...
 	# writer(keyWords_list)
 	myKeywords_list = st.multiselect('Select keywords of interest, or leave blank to view all as network.', keyWords_list,[]) # the selected key words from all articles. here we need a list of pmids of associated key words.
 	#st.warning("Any keywords must be in an article abstract")
-	wordNetwork_btn = st.button("Find articles including ANY of these keywords in their abstracts. Click for to all keywords.")
+	wordNetwork_btn = st.button("Find articles including ANY of these keywords in abstracts. Click for all keywords in set.")
 	myPmids_list = []
 
 	if wordNetwork_btn == True:
@@ -483,27 +470,21 @@ def keywordAnalysis(data_dic):
 
 		newRefPlot(data_dic, myPmids_list, showNodesPanel_bol, showPhysicsPanel_bol)
 
-	if len(myKeywords_list) > 0: # anything to show?
-		st.text(f"{myKeywords_list}")
-
-
 	manifest_btn = st.button("Save a manifest")
 	if manifest_btn == True:
 		saveManifest(myKeywords_list, "myKeywords_list")
 
-	#st.balloons()
-# end of keywordAnalysis()
+# end of articlesContainingANY()
 
 def showData(data):
 	""" shows the data in a table"""
-	# tick a box to show the dataframe
-	st.title("Show the data!")
-	st.write(data)
-	#st.balloons()
+	st.title("Dataframe")
+	query_df = pd.DataFrame(data)
+	st.dataframe(query_df)
 # end fo showData()
 
 
-def keywordAndkeywordsInArticle(data_dic):
+def articlesContainingALL(data_dic):
 	"""Function to find articles having only all selected keywords. Articles must have simultaneously all chosen articles to be a result."""
 	st.title("All chosen keywords in the same article")
 	showNodesPanel_bol, showPhysicsPanel_bol = setupNetwork()
@@ -515,15 +496,7 @@ def keywordAndkeywordsInArticle(data_dic):
 
 	myKeyWords_list = st.multiselect('Select keywords of interest, or leave blank to view all as network.', keyWords_list,[]) # the selected keywords from the user.
 
-# TODO:
-# Create a sidebar field to add extra words to search. These words may not have been original keywords but could still be added now.
-
-	#st.warning("All keywords must be in article abstract at same time!")
-
-	if len(myKeyWords_list) > 0: # anything to show?
-		st.text(myKeyWords_list)
-
-	wordNetwork_btn = st.button("Find articles including ALL of these keywords in their abstracts. Click for to all keywords.")
+	wordNetwork_btn = st.button("Find articles containing ALL selected keywords in abstracts. Click for all keywords in set.")
 
 	if wordNetwork_btn == True:
 		# check that all words are in same list of keywords from each article.
@@ -552,9 +525,7 @@ def keywordAndkeywordsInArticle(data_dic):
 	manifest_btn = st.button("Save a manifest")
 	if manifest_btn == True:
 		saveManifest(myKeyWords_list, "myKeyWords_list")
-
-	# # st.balloons()
-# end of keywordAndkeywordsInArticle()
+# end of articlesContainingALL()
 
 
 def getIntersection(in1_list, in2_list):
@@ -571,13 +542,15 @@ def simpleHeatmaps(data, data_dic):
 	"""Function to create a simple heatmap of keyword items in articles. This heatmap allows user to see which articles have combinations of keywords that may be more helpful to an analysis."""
 
 	st.subheader('Keywords of articles')
-	st.write(data)
+	with st.expander("Pretty Table"):
+		st.write(data)
 
+	st.markdown("---")
 	shortData_dic = {} # dict to contain articles having two or more keywords
 	myCol1 = "keyword" # what col to work with?
 	myCol2 = "pmid"
 
-	keywordThreashold_sld = st.slider("Enter minimum number of user-selected keywords per article.",2, (len(getAllKeywords(data_dic))),1)
+	keywordThreashold_sld = st.slider("Enter minimum number of user-selected keywords per article.",0, (len(getAllKeywords(data_dic))),3)
 	st.write('Minimum keywords per article: ', keywordThreashold_sld)
 
 	for i in range(len(data[myCol1])):
@@ -599,29 +572,20 @@ def simpleHeatmaps(data, data_dic):
 
 	#st.write("_shortData__",shortData_dic)
 	shortData_df = pd.DataFrame.from_dict(shortData_dic, orient='index')
-	# st.bar_chart(data['keyword'])
-	st.bar_chart(shortData_df)
-	st.altair_chart(shortData_df)
+	with st.expander("See all data"):
+		st.bar_chart(data['keyword'])
+	st.bar_chart(shortData_df) #self scaling according to data
 # end of simpleHeatmaps()
 
 def keywordSaturation(data_dic):
-	""" Function to study the amount of any selected keyword content turning up in abstract text"""
+	""" Function to study "Heatmaps of keyword saturation": the numbebr of times a selected keyword turns up in abstracts"""
+
 	st.title("All chosen keywords in the same article")
 
 	keyWords_list = getAllKeywords(data_dic)
 	keyWords_list = getLowercaseElements(keyWords_list)
 	myKeyWords_list = st.multiselect('Select keywords of interest, or leave blank to view all as network.', keyWords_list,[])
 	# the selected key words from the user.
-	if len(myKeyWords_list) > 0: # anything to show?
-		st.text(myKeyWords_list)
-
-
-	#st.warning("Any keywords must be in an article abstract")
-
-	# # Due to all the data, we could only take the upper half of the results...
-	# trimLists_radio = st.sidebar.radio("Reducing content to values above the mean?",(True, False))
-	# trimRange_flt = st.sidebar.slider( "Select a range of values", 0.0, 1.0, (0.50, 0.75))
-	# st.sidebar.text("trimRange_flt Values:\n lower {}\n upper {}".format(trimRange_flt[0], trimRange_flt[1]))
 
 	wordNetwork_btn = st.button("Find articles including ALL keywords in their abstracts. Click to default to all keywords.")
 	if wordNetwork_btn == True:
@@ -787,5 +751,6 @@ def saveManifest(in_list, task_str):
 		f.close()
 
 		st.success(f"Manifest saved: {fileName_str}")
-#		st.code(f"{fileName_str}", language = 'bash') TODO: add clickable link to manifest file
+		st.code(f"{fileName_str}", language = 'bash') 
+		#TODO: add clickable link to manifest file
 # end of saveManifest()
