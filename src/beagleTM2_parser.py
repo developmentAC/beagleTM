@@ -25,6 +25,7 @@ import os, sys, math
 import beagleTM2_parser_helperCode as hc
 import parserClass as myParser
 import KWmanagerClass as myKwManager
+import statEval as myStats # used for the collection of paired keyword percentages.
 
 # Notes: to format nxml files into human readable formats
 #ref: https://www.freeformatter.com/xml-formatter.html
@@ -92,7 +93,7 @@ def goThruFiles(inFile0_str, keyWord_list):
 	for article_list in articlesOfKeywords_list: # go through the articles with found keywords to determine counts of words.
 		stats_dic = getLogs(article_list[6], stats_dic)
 	print(hc.printWithColour(hc.BIBlue,f"Summary: {stats_dic}"))
-	hc.saveStats(stats_dic,inFile0_str)
+	hc.saveStats(stats_dic,inFile0_str+"_KWSingles_") #save the percentages of individual key words found as a list
 
 	return articlesOfKeywords_list
 
@@ -142,9 +143,15 @@ def begin(inFile0=""):
 	# Save output as csv
 	#hc.printByPlatform("\t Getting ready to print a csv file")
 	hc.makeCSVFile(articlesOfKeywords_list, inFile0)
+	# print(f"{articlesOfKeywords_list}")
 
-	print()
-	hc.printByPlatform("\t END! Roooo! Roooo!")
+	# Save some quick stats for automation
+	myStats.getStatsAtParser(articlesOfKeywords_list, inFile0)
+
+
+
+
+	hc.printByPlatform("\n\t END! Roooo! Roooo!")
 	print(hc.printWithColour(hc.BIYellow, "\n\t [+] \t Use following command to analyse your results;"))
 	print(hc.printWithColour(hc.BIYellow, f"\n\t \t streamlit run beagleTM2_browser.py"))
 	print(hc.White)
