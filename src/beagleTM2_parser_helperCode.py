@@ -1,41 +1,45 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
+# import libraries
+import math, os, sys, string, csv, random
+
+
 
 
 banner0_str ="""
-                                     ░░▒░░▒▒░                                   
-                      ░▒░░░░░░░░▒░░░░░░░░░░░░░░░░░░░░░░░░░░░                    
-                  ▒░░░▒   ▒░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒ ▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░▒░░             
-               ░░░░            ░▒░▒▒▒▒▒▒▒▒▒▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░        
-              ░░▒                ░░▒▒▒▒▒▒▒▒▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░▒     
-            ░░░                   ▓░░▒▒▒▒▒▒▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░   
-           ░░░                      ░░▒▒▒▒▒▒▓▓▓ ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒ 
+                                     ░░▒░░▒▒░
+                      ░▒░░░░░░░░▒░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                  ▒░░░▒   ▒░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒ ▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░▒░░
+               ░░░░            ░▒░▒▒▒▒▒▒▒▒▒▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░
+              ░░▒                ░░▒▒▒▒▒▒▒▒▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░▒
+            ░░░                   ▓░░▒▒▒▒▒▒▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░
+           ░░░                      ░░▒▒▒▒▒▒▓▓▓ ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒
           ░░░                        ░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒     ░░
           ░░                         ▒░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒     ▓░
          ░░                           ▒░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒     ▒░
         ░░░                            ░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒     ░░
-        ░░                             ▒░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  ░░ 
-       ░▒░                              ▒░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░  ░░░▒  
-       ▒░▓                              ░░    ▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓░      ▒░░░░    
-       ░░                               ▒░▒▒▒▒▒▓                ▓▒▒▒░░░░        
-       ░░                               ▒░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒░░▒            
-       ░▒                               ▓░▒▒▒▒▒▒▒▒▒░▒░▒░▒░▒░▒░                  
-       ░░                               ▓░░░░░░░▒▒░░                            
-       ░░                               ▒░░                                     
-       ░░                               ▒░░                                     
-       ░▒▓                              ▒░                                      
-        ░░                              ░░                                      
-        ░░                             ░░▒                                      
-        ░░░                            ░░                                       
-         ░░░                          ░░░                                       
-          ░░                         ▓░▒                                        
-           ░░                       ░░░                                         
-           ░░░                     ▒░░                                          
-             ░░                   ░░░                                           
-              ▒░░               ░░░░                                            
-                ▒░░           ▒░▒░                                              
-                  ░░░░░░░░░░░░░                                                 
+        ░░                             ▒░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  ░░
+       ░▒░                              ▒░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░  ░░░▒
+       ▒░▓                              ░░    ▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓░      ▒░░░░
+       ░░                               ▒░▒▒▒▒▒▓                ▓▒▒▒░░░░
+       ░░                               ▒░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒░░▒
+       ░▒                               ▓░▒▒▒▒▒▒▒▒▒░▒░▒░▒░▒░▒░
+       ░░                               ▓░░░░░░░▒▒░░
+       ░░                               ▒░░
+       ░░                               ▒░░
+       ░▒▓                              ▒░
+        ░░                              ░░
+        ░░                             ░░▒
+        ░░░                            ░░
+         ░░░                          ░░░
+          ░░                         ▓░▒
+           ░░                       ░░░
+           ░░░                     ▒░░
+             ░░                   ░░░
+              ▒░░               ░░░░
+                ▒░░           ▒░▒░
+                  ░░░░░░░░░░░░░
 """
 # banner ref: https://manytools.org/hacker-tools/convert-image-to-ansi-art/go/
 
@@ -49,7 +53,7 @@ banner1_str ="""
 """
 # banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
-DATE = "6 July 2022"
+DATE = "10 July 2022"
 VERSION = "0.2.4"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
@@ -69,6 +73,12 @@ MYOUTPUT_DIR = "data/" # all results are saved in this local directory
 
 # configure your corpus directory here.
 CORPUS_DIR = "corpus/" #local small set of corpus files
+
+
+THISPROG = sys.argv[0].replace("./","")
+WHATISTHIS_p1 = f"\n\t{THISPROG}: DEFINITION."
+WHATISTHIS_p2 = "\t Use option '-h' for more glorification about this amazing project!\n"
+
 
 # colour codes
 
@@ -122,9 +132,6 @@ colour_list =['\033[1;30m',
 '\033[1;97m',]
 
 
-# import libraries
-import math, os, sys, string, csv, random
-
 
 # list other libraries here
 #from sklearn.metrics import r2_score
@@ -150,7 +157,7 @@ def helper():
 	print("\t"+len(h_str2) * "-")
 
 	randomColour_str = random.choice(colour_list) # choose a random colour to display the title screen.
-	
+
 	print(randomColour_str + banner0_str + White)
 	print(randomColour_str + banner1_str + White)
 #	print(banner0_str)
@@ -159,14 +166,17 @@ def helper():
 	platform_str = get_platformType()
 	print("\n\t OS type: ",platform_str) # determine what the os is.
 	#print("""\n\tLibrary installation notes:""")
-	command_str = BGreen + "USAGE: programName <any key to launch>" + White
+	# command_str = BGreen + "USAGE: programName <any key to launch>" + White
+
+	command_str = printWithColour(BIGreen,f"\t [+] \U0001f600 USAGE: ./{THISPROG}  keywordFile.md")
+
 	if platform_str.lower() == "linux" or platform_str.lower() == "osx":
 		print("\t" + BWhite + " \U0001f5ff \U0001F608" * 8)
-		print(BGreen + "\n\t [+] \U0001f600 ", command_str)
+		print(command_str)
 	else:
 		print("\n\t+ :-) ", command_str)
-	print(BGreen + f"\t [+] The INPUT directory (Data files are located here)  : {CORPUS_DIR}" + White)
-	print(BGreen + f"\t [+] The OUTPUT directory (Output data is placed here)  : {MYOUTPUT_DIR}" + White)
+	print(BIGreen + f"\t [+] The INPUT directory (Data files are located here)  : {CORPUS_DIR}" + White)
+	print(BIGreen + f"\t [+] The OUTPUT directory (Output data is placed here)  : {MYOUTPUT_DIR}" + White)
 	print("\t"+len(h_str2) * "-")
 	print("\tNotes. Data can be downloaded from: ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/")
 	print(BIYellow + "\n\tKeyword files have the following format in a file:\n\n\t#### keywords\n \tkeyword_1\n\tkeyword_n\n" + White)

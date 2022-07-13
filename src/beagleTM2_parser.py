@@ -27,6 +27,8 @@ import parserClass as myParser
 import KWmanagerClass as myKwManager
 import statEval as myStats # used for the collection of paired keyword percentages.
 
+
+
 # Notes: to format nxml files into human readable formats
 #ref: https://www.freeformatter.com/xml-formatter.html
 
@@ -133,6 +135,62 @@ def getKeywords(keywordFile_str):
 	return kwFile_list
 	# end of getKeywords
 
+
+
+def getArguments(argv_list):
+	""" A function to determine what parameters have been entered and then completed tasks  """
+
+	# print(argv_list)
+
+	param_1 = "MD" # call for begin() with filename
+	param_2 = "-H" # call for helper()
+	param_3 = "-T" # call for a demo
+	param_4 = "-S" # call for a scale demo
+	param_5 = "-E" # print up extra help
+
+	if len(argv_list) == 0:
+			# Output welcome message
+			# print(printWithColour(BICyan,gh.WHATISTHIS_p1))
+			print(hc.printWithColour(hc.BICyan, hc.WHATISTHIS_p2))
+
+	helperFlag_Bool = False
+	csvFile_str = None # file to open
+	for i in argv_list:
+		# print(BIRed + f"Checking <<{i}>>" + White)
+		if param_1 in i.upper():
+			print(i)
+			csvFile_str = i
+			# print(f"\t CSV file found: {myfile_str}")
+		if param_2 == i.upper():
+			# print(f"\t Call to help found: {i}")
+			helperFlag_Bool = True
+			hc.helper()
+			exit()
+
+		if param_3 in i.upper(): # automatically push all gradebook files into their corresponding repositories
+			print(hc.printWithColour(hc.BIGreen,f"Do something for OPTION {param_3}"))
+			exit()
+
+		if param_4 in i.upper(): # automatically push all gradebook files into their corresponding repositories
+			print(hc.printWithColour(hc.BIGreen,f"Do something for OPTION {param_4}"))
+			exit()
+
+
+		# if param_5 in i.upper(): # print up some extra help about how to start a virtual env
+		# 	hc.helper()
+		# 	hc.helper_extended()
+		# 	exit()
+
+		if param_1 not in i.upper() and param_2 not in i.upper() and param_3 not in i.upper() and param_4 not in i.upper() and param_5 not in i.upper():
+			print(hc.printWithColour(hc.BICyan, hc.WHATISTHIS_p2))
+			exit()
+
+		if csvFile_str != None:
+			begin(csvFile_str)
+			exit()
+	# end of getArguments()
+
+
 def begin(inFile0=""):
 	"""Driver function of program"""
 	print("\t [Input file]: ",inFile0)
@@ -159,11 +217,17 @@ def begin(inFile0=""):
 	# end of begin()
 
 
-if __name__ == '__main__':
 
-	if len(sys.argv) == 2: # one parameter at command line
-	# note: the number of command line parameters is n + 1
-		begin(sys.argv[1])
-	else:
-		hc.helper()
-		sys.exit()
+if __name__ == '__main__':
+	getArguments(sys.argv[1:])
+
+
+
+# if __name__ == '__main__':
+#
+# 	if len(sys.argv) == 2: # one parameter at command line
+# 	# note: the number of command line parameters is n + 1
+# 		begin(sys.argv[1])
+# 	else:
+# 		hc.helper()
+# 		sys.exit()
