@@ -53,7 +53,7 @@ banner1_str ="""
 """
 # banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
-DATE = "10 July 2022"
+DATE = "23 July 2022"
 VERSION = "0.2.4"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"

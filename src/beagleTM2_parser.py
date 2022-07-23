@@ -12,7 +12,7 @@
 #
 #
 
-# DATE = "22 June 2022"
+# DATE = "23 July 2022"
 # VERSION = "0.2.2"
 # AUTHOR = "Oliver Bonham-Carter"
 # AUTHORMAIL = "obonhamcarter@allegheny.edu"
@@ -220,6 +220,7 @@ def begin(inFile0=""):
 
 if __name__ == '__main__':
 	getArguments(sys.argv[1:])
+	print(hc.White)
 
 
 
