@@ -275,7 +275,7 @@ def saveStats(stats_dic,inFile0):
 
 	try:
 		tmp_dir = checkDataDir(MYOUTPUT_DIR)
-		fname = inFile0.replace(".md","")+"_stats.csv"
+		fname = inFile0.replace(".md","")+"stats.csv"
 		filename = MYOUTPUT_DIR + fname
 		f = open(filename, "w")
 		f.write(tmp_str)
