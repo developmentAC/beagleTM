@@ -53,8 +53,8 @@ banner1_str ="""
 """
 # banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
-DATE = "23 July 2022"
-VERSION = "0.2.4"
+DATE = "27 July 2022"
+VERSION = "0.2.5"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
@@ -270,8 +270,9 @@ def saveStats(stats_dic,inFile0):
 	tmp_str = "item, count\n"
 
 	for i in stats_dic:
-		tmp_str = tmp_str + str(i) +","+ str(stats_dic[i]) + "\n"
-	# print(printWithColour(BIPurple,f"tmp_str:\n{tmp_str}"))
+		thisLine = i.replace(",","|")
+		# print(printWithColour(BIPurple,f"i = {thisLine}"))
+		tmp_str = tmp_str + str(thisLine) +","+ str(stats_dic[i]) + "\n"
 
 	try:
 		tmp_dir = checkDataDir(MYOUTPUT_DIR)
