@@ -11,8 +11,8 @@ banner0_str ="""
 """
 #banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
-DATE = "7 July 2022"
-VERSION = "0.2.3"
+DATE = "19 November 2022"
+VERSION = "0.2.4"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
@@ -291,7 +291,7 @@ in_dic must have format;
 	"""
 
 	#get the network ready
-	G = Network(height="100%", width="95%", bgcolor="#222222", font_color="white")
+	G = Network(height="1000px", width="95%", bgcolor="#222222", font_color="white")
 	#G.barnes_hut()
 
 	# add the reference nodes
