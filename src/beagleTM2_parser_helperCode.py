@@ -219,7 +219,7 @@ def printErrorByPlatform(in_str):
 # end of printErrorByPlatform()
 
 def printHush(in_str):
-	"""prints if not in HUSH mode. Used for deugging code """
+	"""prints if not in HUSH mode. Used for debugging code """
 	if HUSH_MODE == False:
 		print(in_str)
 # end of printHush()
@@ -253,7 +253,7 @@ def openFile(inFile1):
 
 
 def getFileListing():
-	"""method to grab all files with a particular extention"""
+	"""method to grab all files with a particular extension"""
 	files_list = [] # holds each file and diretory
 	for root, dirs, files in os.walk(CORPUS_DIR):
 		for file in files:
@@ -322,7 +322,7 @@ def printWithColour(colCode_str, myMessage_str):
 	if platform_str.lower() == "linux" or platform_str.lower() == "osx":
 		myMessage_str = colCode_str + myMessage_str + BIWhite
 		# print(colCode_str + myMessage_str + BIWhite)
-	else: # Windows does not seem to like these colourcodes
+	else: # Windows does not seem to like these colour codes
 		# print(myMessage_str)
 		pass
 	return myMessage_str
@@ -364,7 +364,7 @@ def makeCSVFile(in_list, inFile0_str):
 		write = csv.writer(file)
 		write.writerows(in_list)
 
-	# concatentate the headers to the data for the analysis step.
+	# concatenate the headers to the data for the analysis step.
 	data1 = data2 = ""
 	headerFile_str = MYOUTPUT_DIR + "HEADERS_out.csv"
 	with open(headerFile_str) as myHeaders:
@@ -374,7 +374,7 @@ def makeCSVFile(in_list, inFile0_str):
 		data2 = myData.read()
 
 	# merge these headers with data file.
-	data1 += "\n" # add a space to help in readability of ouptut datafiles
+	data1 += "\n" # add a space to help in readability of output data files
 	data1 += data2
 
 	# change that filename to an output file.

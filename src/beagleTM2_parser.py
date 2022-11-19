@@ -57,7 +57,7 @@ def goThruFiles(inFile0_str, keyWord_list):
 		counter += 1
 
 		#print("\n\t ~~~-- Getting article details --~~~")
-		# initiate praser() to process xml files
+		# initiate parser() to process xml files
 
 		p = myParser.parser(f, data_str, keyWord_list) #send filename, contents of file, list of key words
 
@@ -167,19 +167,13 @@ def getArguments(argv_list):
 			hc.helper()
 			exit()
 
-		if param_3 in i.upper(): # automatically push all gradebook files into their corresponding repositories
+		if param_3 in i.upper(): # undefined at this time
 			print(hc.printWithColour(hc.BIGreen,f"Do something for OPTION {param_3}"))
 			exit()
 
-		if param_4 in i.upper(): # automatically push all gradebook files into their corresponding repositories
+		if param_4 in i.upper(): # undefined at this time
 			print(hc.printWithColour(hc.BIGreen,f"Do something for OPTION {param_4}"))
 			exit()
-
-
-		# if param_5 in i.upper(): # print up some extra help about how to start a virtual env
-		# 	hc.helper()
-		# 	hc.helper_extended()
-		# 	exit()
 
 		if param_1 not in i.upper() and param_2 not in i.upper() and param_3 not in i.upper() and param_4 not in i.upper() and param_5 not in i.upper():
 			print(hc.printWithColour(hc.BICyan, hc.WHATISTHIS_p2))
@@ -210,7 +204,7 @@ def begin(inFile0=""):
 
 
 	hc.printByPlatform("\n\t END! Roooo! Roooo!")
-	print(hc.printWithColour(hc.BIYellow, "\n\t [+] \t Use following command to analyse your results;"))
+	print(hc.printWithColour(hc.BIYellow, "\n\t [+] \t Use following command to analyze your results;"))
 	print(hc.printWithColour(hc.BIYellow, f"\n\t \t streamlit run beagleTM2_browser.py"))
 	print(hc.White)
 

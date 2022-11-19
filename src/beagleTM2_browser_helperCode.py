@@ -287,7 +287,7 @@ def createNetwork(in_dic, showNodesPanel_bol, showPhysicsPanel_bol):
 	"""Function to take a dic and to build a network from it. Key = pmid, value = [refs]. We can selected whether we want panel to edit nodes or gravity
 in_dic must have format;
 [+] pmid_dic = {pmid_int : [[ref1_str, ..., refn_str], title_str]}
-[+] in_dic :{19102772: [[12764516, 15825143, 15702043], 'Identification of a novel picornavirus related to cosaviruses in a child with acute diarrhea'], 31622334: [[20536486, 17627978], 'Use of personalised risk-based screening schedules to optimise workload and sojourn time in screening programmes for diabetic retinopathy: A retrospective cohort study']}.
+[+] in_dic :{19102772: [[12764516, 15825143, 15702043], 'Identification of a novel picornavirus related to cosaviruses in a child with acute diarrhea'], 31622334: [[20536486, 17627978], 'Use of personalized risk-based screening schedules to optimize workload and sojourn time in screening programmes for diabetic retinopathy: A retrospective cohort study']}.
 	"""
 
 	#get the network ready
@@ -341,7 +341,7 @@ in_dic must have format;
 
 def getFileListing(corpusDir):
 	""" function to load a list of files from a directory. returns a list."""
-	files_list = [] # holds each file and diretory
+	files_list = [] # holds each file and directory
 
 	for root, dirs, files in os.walk(corpusDir):
 		for file in files:
@@ -382,14 +382,14 @@ def setupNetwork():
 	showPhysicsPanel_bol = False
 	showNodesPanel_bol = False
 
-	networkOption_radio = st.radio("Which interation panel to include in the Network?",("Physics", "Node", "Neither"))
+	networkOption_radio = st.radio("Which interaction panel to include in the Network?",("Physics", "Node", "Neither"))
 
 	if networkOption_radio == "Physics":
 		st.text("Physics interaction")
 		showPhysicsPanel_bol = True
 
 	if networkOption_radio == "Node":
-		st.text("Node interation")
+		st.text("Node interaction")
 		showNodesPanel_bol = True
 
 	if networkOption_radio == "Neither":
@@ -404,7 +404,7 @@ def setupNetwork():
 
 
 def articleConnectivity(data_dic):
-	"""Function to show articles are connected to their references and, perhaps, to each other. Uses PMIDs from Main artices and References to draw networks of this connectivity"""
+	"""Function to show articles are connected to their references and, perhaps, to each other. Uses PMIDs from Main articles and References to draw networks of this connectivity"""
 
 	st.title("Inter-connections")
 	showNodesPanel_bol, showPhysicsPanel_bol = setupNetwork()
@@ -416,7 +416,7 @@ def articleConnectivity(data_dic):
 	myPmids_list = []
 	myPmidsShortList_list = [] # used for sidebar pmid loading
 
-	my_str = st.sidebar.text_input("Enter PMID(s) to plot (seperated by comma)")
+	my_str = st.sidebar.text_input("Enter PMID(s) to plot (separated by comma)")
 	msg_str = "Please enter the PMIDs"
 	if len(my_str) == 0:
 		st.sidebar.text(msg_str)
@@ -449,7 +449,7 @@ def articleConnectivity(data_dic):
 
 
 def articlesContainingANY(data_dic):
-	"""Function to find articles having a partular keyword. Note: is several keywords are checked across articles, then any article having one of those keywords will turn up in results."""
+	"""Function to find articles having a particular keyword. Note: is several keywords are checked across articles, then any article having one of those keywords will turn up in results."""
 	st.title("Analysis by keywords")
 	showNodesPanel_bol, showPhysicsPanel_bol = setupNetwork()
 	keyWords_list = getAllKeywords(data_dic)
@@ -578,7 +578,7 @@ def simpleHeatmaps(data, data_dic):
 # end of simpleHeatmaps()
 
 def keywordSaturation(data_dic):
-	""" Function to study "Heatmaps of keyword saturation": the numbebr of times a selected keyword turns up in abstracts"""
+	""" Function to study "Heatmaps of keyword saturation": the number of times a selected keyword turns up in abstracts"""
 
 	st.title("All chosen keywords in the same article")
 
@@ -641,7 +641,7 @@ def keywordSaturation(data_dic):
 		trace = go.Heatmap(type = 'heatmap', z = content_list, colorscale = 'Viridis')
 		data = [trace]
 
-		#note: the colours of the heatmap can be aletered with the following lines.
+		#note: the colours of the heatmap can be altered with the following lines.
 
 		# contrasted for large sets of articles
 		if len(pmid_list) > 300: #small scale
@@ -701,7 +701,7 @@ def getLogTransform(in_list, base_int): #UN-USED AT THIS TIME
 	#end fo getLogTransform()
 
 def reduceResults(in_list, a_list, b_list,lowerBound_flt=0,upperBound_flt=100):
-	"""Function to get the upper half of the results. For example, each entered list has elements for numbers. We only want those elements which are above the average of all values in the list. The a_liat and b_list arguments also need to be updated. The threshold value must be met for an element to remain in the list."""
+	"""Function to get the upper half of the results. For example, each entered list has elements for numbers. We only want those elements which are above the average of all values in the list. The a_list and b_list arguments also need to be updated. The threshold value must be met for an element to remain in the list."""
 	# print("  reduceResults()")
 	# print("  in_list: {}\n  a_list: {}\n  b_list: {}\n  thresholds: {} to {}".format(in_list, a_list, b_list, lowerBound_flt, upperBound_flt))
 	tmp_list  = []
