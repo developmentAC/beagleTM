@@ -24,9 +24,16 @@ sudo docker run --rm -it -p 8501:8501 -v $PWD:/root stevi
 printf "\n  [+]  ${BIGreen} Returning file ownership from root to ${USER}.\n       You may be asked to reenter your password.${NC}\n"
 
 # change ownership of a file to your own login if it was created in the docker container.
+# change ownership of a file to your own login if it was created in the docker container.
 sudo chown $USER ./*
+sudo chown $USER ./.*
 sudo chown $USER ./data/*
 sudo chown $USER ./0_outAnalysis/*
+
+sudo chown $USER ./src/*
+sudo chown $USER ./src/.*
+sudo chown $USER ./src/data/*
+sudo chown $USER ./src/0_outAnalysis/*
 
 
 # Removing the myPath.txt file which is no longer going to be used. We also remove the copy of README.md that is used by the code.

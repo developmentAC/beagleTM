@@ -359,7 +359,7 @@ def grabFile():
 	st.sidebar.text("Default data directory is :{}".format(DATADIR))
 	dataDir_str = st.sidebar.text_input("Enter the path to data file.",DATADIR)
 	files_list = getFileListing(dataDir_str)
-	myFile_str = st.sidebar.selectbox("Choose the file to load",files_list)
+	myFile_str = st.sidebar.selectbox("Choose the ANALYSIS file to load",files_list)
 
 	# Below file chooser code does not work at this time (18 June 2020).
 	# code ref: https://github.com/streamlit/streamlit/issues/120
