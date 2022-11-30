@@ -8,6 +8,7 @@ __pycache__
 myPath.txt
 .viminfo
 .python_history
+lib/
 
 # Gensim generated files#
 *.gensim
