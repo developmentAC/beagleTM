@@ -97,13 +97,13 @@ sh dockerRunScripts/run_macOS.sh
 
 + Run BeagleTM to view splash screen
 ```
-./beagleTM2_parser.py
+python3 beagleTM2_parser.py
 ```
 
 
 + Run BeagleTM's Parser with a keyword file.
 ```
-./beagleTM2_parser.py keywords_sample_i.md
+python3 beagleTM2_parser.py keywords_sample_i.md
 ```
 
 + Run the browser using Streamlit to view and make plots of results.
