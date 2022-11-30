@@ -31,7 +31,8 @@ class parser(object):
 			#printErrorByPlatform("Error detected in current File")
 			return None
 
-		for child in tree.getiterator():
+		# for child in tree.getiterator(): # formerly for Python 3.8
+		for child in tree.iter(): # Python 3.10
 			tmp_str = "child.tag: " + str(child.tag) + str(type(child.tag))+"\n child.attrib :"+ str(child.attrib) + "\n child.text :"+ str(child.text) + "\n child.tail :"+ str(child.tail)
 			hc.printHush(tmp_str)
 	# end of viewAllTags()
@@ -45,7 +46,8 @@ class parser(object):
 			#printErrorByPlatform("Error detected in current File")
 			return None
 
-		for child in tree.getiterator():
+		#for child in tree.getiterator(): # formerly for Python 3.8
+		for child in tree.iter(): # Python 3.10
 			tmp_str = "child.tag: " + str(child.tag) + str(type(child.tag))+"\n child.attrib :"+ str(child.attrib) + "\n child.text :"+ str(child.text) + "\n child.tail :"+ str(child.tail)
 			hc.printHush(tmp_str)
 			#print("child.tag: ",child.tag, type(child.tag))
@@ -74,7 +76,8 @@ class parser(object):
 			#printErrorByPlatform("Error detected in current File")
 			return None
 
-		for child in tree.getiterator():
+		#for child in tree.getiterator(): formerly for Python 3.8
+		for child in tree.iter(): # Python 3.10
 			# print("child.tag: ",child.tag, type(child.tag))
 			# print("child.attrib :", child.attrib) # dict
 			# print("child.text :", child.text) #attrib
@@ -103,7 +106,8 @@ class parser(object):
 			#printErrorByPlatform("Error detected in current File")
 			return None
 
-		for child in tree.getiterator():
+		# for child in tree.getiterator(): # formerly for Python 3.8
+		for child in tree.iter(): # Python 3.10
 			# print("child.tag: ",child.tag, type(child.tag))
 			# print("child.attrib :", child.attrib) # dict
 			# print("child.text :", child.text) #attrib
