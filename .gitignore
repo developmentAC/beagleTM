@@ -6,6 +6,8 @@ __pycache__
 *.csv
 *.DS_Store
 myPath.txt
+.viminfo
+.python_history
 
 # Gensim generated files#
 *.gensim
