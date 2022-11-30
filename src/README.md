@@ -1,5 +1,5 @@
 # BeagleTM: PubMed Interactive Knowledge Discovery
-## Date: 22 June 2022
+## Date: 29 November 2022
 ### Oliver Bonham-Carter, [Allegheny College](https://allegheny.edu/)
 ### email: obonhamcarter@allegheny.edu
 
@@ -13,6 +13,8 @@
 [![Build Status_devi](https://travis-ci.com/developmentAC/beagletm_devi.svg?token=swrouvRyxqupKYRs8yq8&branch=master)](https://travis-ci.com/github/developmentAC/beagletm_devi)
 [![codecov](https://codecov.io/gh/myResearchTM/beagleTM/branch/master/graph/badge.svg)](https://codecov.io/gh/myResearchTM/beagleTM)
 [![BLM](https://img.shields.io/badge/BlackLivesMatter-yellow)](https://blacklivesmatter.com/)
+[![Support Ukraine](https://img.shields.io/badge/SupportUkraine-blue)](https://supportukrainenow.org/)
+
 
 GitHub link: https://github.com/developmentAC/beagleTM
 
@@ -22,6 +24,7 @@ GitHub link: https://github.com/developmentAC/beagleTM
 * + [Relationship Networks](#relationship-networks)
 * [Command Summary](#command-summary)
 * + [Docker Desktop](#docker-desktop)
+* + [Python Virtual Environment](#Python-Virtual-Environment)
 * [Keywords](#keywords)
 * [XML Data](#xml-data)
 * [Setting up the corpus](#setting-up-the-corpus)
@@ -134,6 +137,28 @@ The following bash scripts simplify building the container.
 These files may be found in the directory, `dockerRunScripts/` and the builder require a copy of `Dockerfile` to run. The `Dockerfile` is found in the main directory and so it is recommended that the user stay in the main and enter the command, ` sh ./dockerRunScripts/build_macOS.sh` or similar. Building your container outside of `dockerRunScripts/` allows you to access the other directories when inside the container.
 
 Please note that you may be required to enter your password twice, depending on your machine. The first time you enter your password will be to build and initialize the Docker container. The second time you enter your password will be to change ownership of your output files from `root` to `$USER` once you exit the container.
+
+### Python Virtual Environment
+
+If you do not have Docker installed, then you could use the below commands to create a virtual environment with Python. Note, please first consult the [Python Docs pages](https://docs.python.org/3/library/venv.html) on virtual environments if you need help in getting started.
+
+The commands to setup a virtual environment are the following.
+* Set up the virtual environment
+  + `python3 -m venv myvenv`
+* Activate the virtual environment
+  + `source myvenv/bin/activate`
+* Update the pip installer
+  + `pip install --upgrade pip`
+* Install dependencies
+  + `pip install spacy`
+  + `python3 -m spacy download en_core_web_sm`
+  + `pip install pyvis`
+  + `pip install pytest`
+  + `pip install plotly_express`
+  + `pip install jsonpickle`
+  + `pip install streamlit`
+* Update the `scr/myPath.txt` file to allow `BeagleTM_browser.py` to report the correct links to the network files (in html). Note, the path is to the `src/` directory of the BeagleTM project. 
+  + `pwd > myPath.txt`
 
 ## Keywords
 
