@@ -15,3 +15,8 @@ study
 data
 dataset
 gene
+phage
+method
+sequence
+RNA
+mRNA

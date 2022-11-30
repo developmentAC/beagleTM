@@ -11,13 +11,13 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/iter
+~MSle0~/phage
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1669776191,,"q"
 :x
 |2,0,1669774276,,"x"
-:q
-|2,0,1669774274,,"q"
 :w
 |2,0,1669774235,,"w"
 :40
@@ -28,6 +28,8 @@
 |2,0,1669773936,,"48"
 
 # Search String History (newest to oldest):
+?/phage
+|2,1,1669776175,47,"phage"
 ?/iter
 |2,1,1669774179,47,"iter"
 
@@ -43,42 +45,66 @@
 |3,1,0,1,1,0,1669773989,"		for child in tree.getiterator():"
 
 # File marks:
-'0  49  30  ~/src/parserClass.py
-|4,48,49,30,1669774276,"~/src/parserClass.py"
-'1  79  24  ~/src/parserClass.py
-|4,49,79,24,1669774004,"~/src/parserClass.py"
+'0  541  242  /tmp/log
+|4,48,541,242,1669776191,"/tmp/log"
+'1  49  30  ~/src/parserClass.py
+|4,49,49,30,1669774276,"~/src/parserClass.py"
 '2  79  24  ~/src/parserClass.py
 |4,50,79,24,1669774004,"~/src/parserClass.py"
-'3  49  23  ~/src/parserClass.py
-|4,51,49,23,1669773964,"~/src/parserClass.py"
+'3  79  24  ~/src/parserClass.py
+|4,51,79,24,1669774004,"~/src/parserClass.py"
 '4  49  23  ~/src/parserClass.py
 |4,52,49,23,1669773964,"~/src/parserClass.py"
 '5  49  23  ~/src/parserClass.py
 |4,53,49,23,1669773964,"~/src/parserClass.py"
-'6  1  61  ~/src/runStreamlit.sh
-|4,54,1,61,1669358303,"~/src/runStreamlit.sh"
-'7  182  7  ~/.streamlit/config.toml
-|4,55,182,7,1669344184,"~/.streamlit/config.toml"
-'8  1  16  ~/.streamlit/config.toml
-|4,56,1,16,1669344121,"~/.streamlit/config.toml"
+'6  49  23  ~/src/parserClass.py
+|4,54,49,23,1669773964,"~/src/parserClass.py"
+'7  1  61  ~/src/runStreamlit.sh
+|4,55,1,61,1669358303,"~/src/runStreamlit.sh"
+'8  182  7  ~/.streamlit/config.toml
+|4,56,182,7,1669344184,"~/.streamlit/config.toml"
 '9  1  16  ~/.streamlit/config.toml
 |4,57,1,16,1669344121,"~/.streamlit/config.toml"
 
 # Jumplist (newest first):
+-'  541  242  /tmp/log
+|4,39,541,242,1669776191,"/tmp/log"
+-'  389  19  /tmp/log
+|4,39,389,19,1669776177,"/tmp/log"
+-'  177  19  /tmp/log
+|4,39,177,19,1669776177,"/tmp/log"
+-'  1  0  /tmp/log
+|4,39,1,0,1669776175,"/tmp/log"
+-'  49  30  ~/src/parserClass.py
+|4,39,49,30,1669774276,"~/src/parserClass.py"
 -'  49  30  ~/src/parserClass.py
 |4,39,49,30,1669774276,"~/src/parserClass.py"
 -'  34  23  ~/src/parserClass.py
 |4,39,34,23,1669774245,"~/src/parserClass.py"
+-'  34  23  ~/src/parserClass.py
+|4,39,34,23,1669774245,"~/src/parserClass.py"
+-'  108  23  ~/src/parserClass.py
+|4,39,108,23,1669774244,"~/src/parserClass.py"
 -'  108  23  ~/src/parserClass.py
 |4,39,108,23,1669774244,"~/src/parserClass.py"
 -'  79  30  ~/src/parserClass.py
 |4,39,79,30,1669774236,"~/src/parserClass.py"
+-'  79  30  ~/src/parserClass.py
+|4,39,79,30,1669774236,"~/src/parserClass.py"
+-'  40  2  ~/src/parserClass.py
+|4,39,40,2,1669774179,"~/src/parserClass.py"
 -'  40  2  ~/src/parserClass.py
 |4,39,40,2,1669774179,"~/src/parserClass.py"
 -'  79  24  ~/src/parserClass.py
 |4,39,79,24,1669774004,"~/src/parserClass.py"
+-'  79  24  ~/src/parserClass.py
+|4,39,79,24,1669774004,"~/src/parserClass.py"
 -'  49  23  ~/src/parserClass.py
 |4,39,49,23,1669773984,"~/src/parserClass.py"
+-'  49  23  ~/src/parserClass.py
+|4,39,49,23,1669773984,"~/src/parserClass.py"
+-'  49  23  ~/src/parserClass.py
+|4,39,49,23,1669773964,"~/src/parserClass.py"
 -'  49  23  ~/src/parserClass.py
 |4,39,49,23,1669773964,"~/src/parserClass.py"
 -'  1  0  ~/src/parserClass.py
@@ -87,6 +113,28 @@
 |4,39,1,0,1669773934,"~/src/parserClass.py"
 -'  1  0  ~/src/parserClass.py
 |4,39,1,0,1669773934,"~/src/parserClass.py"
+-'  1  0  ~/src/parserClass.py
+|4,39,1,0,1669773934,"~/src/parserClass.py"
+-'  1  0  ~/src/parserClass.py
+|4,39,1,0,1669773934,"~/src/parserClass.py"
+-'  1  0  ~/src/parserClass.py
+|4,39,1,0,1669773934,"~/src/parserClass.py"
+-'  1  61  ~/src/runStreamlit.sh
+|4,39,1,61,1669358303,"~/src/runStreamlit.sh"
+-'  1  61  ~/src/runStreamlit.sh
+|4,39,1,61,1669358303,"~/src/runStreamlit.sh"
+-'  1  61  ~/src/runStreamlit.sh
+|4,39,1,61,1669358303,"~/src/runStreamlit.sh"
+-'  1  61  ~/src/runStreamlit.sh
+|4,39,1,61,1669358303,"~/src/runStreamlit.sh"
+-'  1  61  ~/src/runStreamlit.sh
+|4,39,1,61,1669358303,"~/src/runStreamlit.sh"
+-'  1  61  ~/src/runStreamlit.sh
+|4,39,1,61,1669358303,"~/src/runStreamlit.sh"
+-'  1  61  ~/src/runStreamlit.sh
+|4,39,1,61,1669358303,"~/src/runStreamlit.sh"
+-'  1  61  ~/src/runStreamlit.sh
+|4,39,1,61,1669358303,"~/src/runStreamlit.sh"
 -'  1  61  ~/src/runStreamlit.sh
 |4,39,1,61,1669358303,"~/src/runStreamlit.sh"
 -'  1  61  ~/src/runStreamlit.sh
@@ -135,6 +183,38 @@
 |4,39,182,7,1669344184,"~/.streamlit/config.toml"
 -'  182  7  ~/.streamlit/config.toml
 |4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
+-'  182  7  ~/.streamlit/config.toml
+|4,39,182,7,1669344184,"~/.streamlit/config.toml"
 -'  1  16  ~/.streamlit/config.toml
 |4,39,1,16,1669344167,"~/.streamlit/config.toml"
 -'  1  16  ~/.streamlit/config.toml
@@ -168,105 +248,31 @@
 -'  1  16  ~/.streamlit/config.toml
 |4,39,1,16,1669344167,"~/.streamlit/config.toml"
 -'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
+|4,39,1,16,1669344167,"~/.streamlit/config.toml"
 -'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
+|4,39,1,16,1669344167,"~/.streamlit/config.toml"
 -'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
+|4,39,1,16,1669344167,"~/.streamlit/config.toml"
 -'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
+|4,39,1,16,1669344167,"~/.streamlit/config.toml"
 -'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
+|4,39,1,16,1669344167,"~/.streamlit/config.toml"
 -'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
+|4,39,1,16,1669344167,"~/.streamlit/config.toml"
 -'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
+|4,39,1,16,1669344167,"~/.streamlit/config.toml"
 -'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
+|4,39,1,16,1669344167,"~/.streamlit/config.toml"
 -'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
+|4,39,1,16,1669344167,"~/.streamlit/config.toml"
 -'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
--'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
--'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
--'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
--'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
--'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
--'  1  16  ~/.streamlit/config.toml
-|4,39,1,16,1669344121,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  0  ~/.streamlit/config.toml
-|4,39,1,0,1669344094,"~/.streamlit/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
--'  1  18  ~/src/config.toml
-|4,39,1,18,1669342821,"~/src/config.toml"
+|4,39,1,16,1669344167,"~/.streamlit/config.toml"
 
 # History of marks within files (newest to oldest):
+
+> /tmp/log
+	*	1669776190	0
+	"	541	242
 
 > ~/src/parserClass.py
 	*	1669774274	0
