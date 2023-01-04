@@ -71,7 +71,8 @@ def begin():
         ],
     )
     if doThis_sb == "ReadMe":
-        with open("README.md") as readme_file:
+        with open("../README.md") as readme_file:
+            # Note : the FILE README.MD is assumed to be in the directory behind this one.
             st.markdown(readme_file.read())
 
     if doThis_sb == "Show_data":
