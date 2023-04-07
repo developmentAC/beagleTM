@@ -102,7 +102,7 @@ def goThruFiles(inFile0_str, keyWord_list):
         tmp_str = tmp_str + " " + str(i) + ","
         # print(hc.printWithColour(hc.BIYellow,f"\t [+] goThruFiles() :{tmp_str}"))
         tmp_str = tmp_str[: len(tmp_str) - 1]  # lose that last comma
-    hc.saveFile(tmp_str)
+    # hc.saveFile(tmp_str)
 
     for (
         article_list
@@ -114,6 +114,9 @@ def goThruFiles(inFile0_str, keyWord_list):
     hc.saveStats(
         stats_dic, inFile0_str + "_KWSingles_"
     )  # save the percentages of individual key words found as a list
+
+    hc.saveFile(tmp_str)
+
 
     return articlesOfKeywords_list
 

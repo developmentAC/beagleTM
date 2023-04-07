@@ -319,7 +319,7 @@ def saveStats(stats_dic, inFile0):
         f = open(filename, "w")
         f.write(tmp_str)
         f.close()
-        printByPlatform(BIGreen + f"\n\t [+] Saving <{filename}>" + White)
+        printByPlatform(BIGreen + f"\n\t [+] Saving Stats File: <{filename}>" + White)
 
     except IOError:
         printErrorByPlatform(
@@ -327,11 +327,11 @@ def saveStats(stats_dic, inFile0):
         )
     # end of saveFile()
 
-    # print(f"saveStats(): s_str {s_str}")
-
-
 def saveFile(in_str):
-    """Save the string as a text file. Filename is defined in function."""
+    """Save the header information for a CSV file to be loaded
+    later to create the csv file. The header file is removed
+    after it has been used. """
+
     if len(in_str) > 0:
         tmp_str = ""
 
@@ -340,7 +340,6 @@ def saveFile(in_str):
             tmp_str = tmp_str + i + ","
         tmp_str = tmp_str[: len(tmp_str) - 1]  # remove the last comma
         tmp_str = tmp_str + "\n"  # add a line break
-        # print("\t [+] saveFile HEADERS_out:\n\t {}".format(tmp_str))
 
         try:
             tmp_dir = checkDataDir(MYOUTPUT_DIR)
@@ -349,13 +348,12 @@ def saveFile(in_str):
             f = open(filename, "w")
             f.write(tmp_str)
             f.close()
-            printByPlatform(BIGreen + f"\n\t [+] Saving <{filename}>" + White)
+            # printByPlatform(BIGreen + f"\n\t [+] Saving <{filename}>" + White)
 
         except IOError:
             printErrorByPlatform(
                 BIRed + f"\t Problem saving file... incorrect permissions?!" + White
             )
-
 
 # end of saveFile()
 
@@ -370,7 +368,6 @@ def printWithColour(colCode_str, myMessage_str):
         # print(myMessage_str)
         pass
     return myMessage_str
-
 
 # end of printWithColour()
 
@@ -434,7 +431,7 @@ def makeCSVFile(in_list, inFile0_str):
 
     with open(inFile2_str, "w") as fp:
         fp.write(data1)
-        printByPlatform(BIGreen + f"\n\t [+] Saving <{inFile2_str}>" + White)
+        printByPlatform(BIGreen + f"\n\t [+] Saving Analysis File: <{inFile2_str}>" + White)
 
     # Clean up header and intermediate file.
     removeFile(headerFile_str)
