@@ -111,6 +111,7 @@ def goThruFiles(inFile0_str, keyWord_list):
     ):  # go through the articles with found keywords to determine counts of words.
         stats_dic = getLogs(article_list[6], stats_dic)
     print(hc.printWithColour(hc.BIBlue, f"Summary: {stats_dic}"))
+    print("This information can also be found in the KWSingles file.")
     hc.saveStats(
         stats_dic, inFile0_str + "_KWSingles_"
     )  # save the percentages of individual key words found as a list
