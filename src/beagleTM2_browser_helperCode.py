@@ -326,7 +326,9 @@ def createNetwork(in_dic, showNodesPanel_bol, showPhysicsPanel_bol):
     """
 
     # get the network ready
-    G = Network(height="1000px", width="95%", bgcolor="#222222", font_color="white")
+    G = Network(height="1000px", width="95%", bgcolor="#222222", font_color="white", notebook = True)
+    # Note: the above notebook = True is a fix from ref: https://stackoverflow.com/questions/75565224/in-pyvis-i-always-get-this-error-attributeerror-nonetype-object-has-no-attr
+
     # G.barnes_hut()
 
     # add the reference nodes
