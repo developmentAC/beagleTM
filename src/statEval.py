@@ -121,7 +121,7 @@ def getSortedListAsString(in_str):
 
 
 def getStatsAtParser(data_list, inFile0):
-    """BASH Function to quickly make an output file of keyword percentages. A version of function is also used by streamlit but for ig data and automated projejcts, it is useful to have this data as a file after each parsing."""
+    """BASH Function to quickly make an output file of keyword percentages. A version of function is also used by Streamlit but for big data and automated projects, it is useful to have this data as a file after each parsing."""
 
     # print(hc.printWithColour(hc.BIBlue,f"\t [+] Columns: {data_list[0]}"))
 
@@ -154,7 +154,7 @@ def getStatsAtParser(data_list, inFile0):
         []
     )  # contains the words as they are found in lit, as pairs or singles
 
-    # Place the value of the line element in the following variale.
+    # Place the value of the line element in the following variable.
 
     # mySearchKey_int = 4 # years
     mySearchKey_int = 6  # keywords ; group and singles
