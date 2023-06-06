@@ -11,8 +11,8 @@ banner0_str = """
 """
 # banner ref: https://manytools.org/hacker-tools/ascii-banner/
 
-DATE = "29 November 2022"
-VERSION = "0.2.7"
+DATE = "6 June 2023"
+VERSION = "0.2.9"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
@@ -50,9 +50,7 @@ DATADIR = "data/"
 # OUTDATADIR = "/tmp/" #output directory
 OUTDATADIR = "0_outAnalysis/"  # output directory
 
-# @st.cache
-# @st.cache(allow_output_mutation=True)
-@st.cache(suppress_st_warning=True)
+@st.cache_data
 def load_big_data(myFile_str):
     """Loads the inputted data file"""
     data = pd.read_csv(myFile_str, low_memory=False)
@@ -60,7 +58,6 @@ def load_big_data(myFile_str):
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis="columns", inplace=True)
     return data
-
 
 # end of load_big_data()
 
