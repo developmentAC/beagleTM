@@ -29,8 +29,8 @@ from spacy.lang.en.stop_words import STOP_WORDS  # needed to work with stop word
 import beagleTM2_browser_helperCode as hc
 import statEval as myStats
 
-DATE = "6 July 2022"
-VERSION = "0.2.3"
+DATE = "6 June 2023"
+VERSION = "0.2.9"
 AUTHOR = "Oliver Bonham-Carter"
 AUTHORMAIL = "obonhamcarter@allegheny.edu"
 
