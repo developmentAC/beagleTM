@@ -1,5 +1,5 @@
 # BeagleTM: PubMed Interactive Knowledge Discovery
-## Date: 29 November 2022
+## Date: 23 July 2023
 ### Oliver Bonham-Carter, [Allegheny College](https://allegheny.edu/)
 ### email: obonhamcarter@allegheny.edu
 
@@ -110,6 +110,12 @@ python3 beagleTM2_parser.py keywords_sample_i.md
 ```
 streamlit run beagleTM2_browser.py
 ```
+
+  - Note, for larger memory requirements, the following command may be used to increase the default limitation of 200MB to 500MB. Larger values may be necessary for even larger datasets. 
+  ```
+streamlit run beagleTM2_browser.py --server.maxUploadSize 500
+```
+
 
 + Goto your browser and key-in link: http://localhost:8501/
 
