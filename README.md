@@ -17,7 +17,7 @@
 
 ## News
 This project has been updated and can be found at a new GitHub link: https://github.com/developmentAC/beagleTM2
-Former GitHub link: https://github.com/developmentAC/beagleTM
+For those who enjoy the former project, the link (i.e., this project) is: https://github.com/developmentAC/beagleTM
 
 ## Table of contents
 
