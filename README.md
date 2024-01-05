@@ -15,8 +15,9 @@
 [![BLM](https://img.shields.io/badge/BlackLivesMatter-yellow)](https://blacklivesmatter.com/)
 [![Support Ukraine](https://img.shields.io/badge/SupportUkraine-blue)](https://supportukrainenow.org/)
 
-
-GitHub link: https://github.com/developmentAC/beagleTM
+## News
+This project has been updated and can be found at a new GitHub link: https://github.com/developmentAC/beagleTM2
+Former GitHub link: https://github.com/developmentAC/beagleTM
 
 ## Table of contents
 
